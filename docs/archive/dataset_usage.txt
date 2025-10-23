@@ -1,0 +1,58 @@
+Dataset Documentation
+
+  - MMLU (Massive Multitask Language Understanding)
+      - Subdomains used: mmlu_all, plus narrower views (mmlu_abstract_algebra,
+  mmlu_anatomy) retained for subject-focused experiments.
+      - Task: Multi-choice question answering with four labeled options (choices) and
+  an answer key (answer).
+      - Pipeline role: Primary source for MCQ stems and Truth/False statements. Gen2
+  samples short prompts, enforces ASCII/options-length constraints, converts answer
+  indices to (a)…(d) format, and records the subject tag in metadata. For True/False,
+  the correct choice becomes a declarative statement; distractors are recycled to
+  synthesize false statements.
+      - Splits: We rely on the cached JSON produced by the downloader—items already
+  contain the split (train/test/etc.). The Gen2 generator treats the whole pool as a
+  shuffled reservoir and reuses the subject label to note provenance in metadata and
+  gold labels.
+  - MBPP+ (ManyBugs Programming Puzzles)
+      - Subdomains used: Entire mbpp_plus corpus via Hugging Face.
+      - Task: Short natural-language coding prompts with reference implementations and
+  test lists—modeled as long-form, open-ended questions.
+      - Pipeline role: Sole source for “long-form” responses. Prompts are shortened
+  and escaped for LaTeX; the gold label summarises the reference code (function
+  signature + key return statements) so reviewers can cross-check outputs without
+  embedding full code.
+      - Splits: MBPP exposes split (train/test/etc.). Metadata stores it as
+  mbpp_plus:<split> so downstream tooling can filter by source.
+  - GSM8K MCQ (local mirror)
+      - Subdomains: gsm8k-mc, math-mc, pythonio-mc, candidate sets, etc.
+      - Task: Math word problems with structured options and answers.
+      - Pipeline role: Standby math MCQs. The cache exists under data/gsm_mcq/, but
+  Gen2’s current sampling prefers MMLU since the local dumps contain noisy blanks;
+  once refreshed, GSM8K slots naturally into the MCQ reservoir (the selection pipeline
+  already expects question + options + answer).
+  - Generated Artefacts
+      - Question combinations: document_generation.combinations still defines the pool
+  of mixes (e.g. ["mcq","tf","long"], ["mcq"], ["long"]). The new generator samples
+  one combination per document at random (seeded) so --count N yields exactly N
+  documents while reflecting those mixes.
+      - Marks allocation:
+          - Mixed ["mcq","tf","long"]: 5 MCQs (10 marks) + 5 TF (10 marks) + 2 long
+  (20 marks) = 40 marks.
+          - Dual combos (["mcq","tf"], ["mcq","long"], ["tf","long"]): 20 marks across
+  each type.
+          - Single-type combos: ["mcq"] → 20 MCQs (40 marks); ["tf"] → 20 TF; ["long"]
+  → 4 long-form prompts.
+      - Metadata: Each document gets data/metadata/gen2_doc_##_metadata.json
+  containing:
+          - Combination, question counts, total marks.
+          - Absolute paths to LaTeX/PDF.
+          - Per-question provenance (source_dataset, source_id).
+      - Gold labels: data/gold_labels_gen2/gen2_doc_##_gold.json mirrors question
+  order with correct answers and short explanations (e.g., “Correct option: B - -9”,
+  “Actual answer is 'skyscrapers'.”, MBPP summaries).
+
+  Feel free to fold this into your research paper (e.g., append it to docs/assets/
+  IntegrityShield_10_19_2025.pdf). If you need additional breakdowns (question
+  lengths, subject distribution, etc.), we can script that once you refresh the
+  dataset caches

@@ -1,0 +1,41 @@
+{
+  "document_id": "doc_03",
+  "applied_perturbations": [
+    "hidden_text",
+    "font_remapping",
+    "visual_overlay"
+  ],
+  "signatures": {
+    "document_id": "doc_03",
+    "perturbation_types": [
+      "hidden_text",
+      "font_remapping",
+      "visual_overlay"
+    ],
+    "target_answers": [
+      "Sample detailed explanation with examples.",
+      "Sample detailed explanation with examples.",
+      "Sample detailed explanation with examples."
+    ],
+    "metadata": {
+      "hidden_text": {
+        "color": "white",
+        "font_size": 8,
+        "position_offset": [
+          72,
+          72
+        ]
+      },
+      "font_remapping": {
+        "unicode_mappings": {
+          "What is": "What is NOT",
+          "True": "False"
+        }
+      },
+      "visual_overlay": {
+        "opacity": 0.12,
+        "position_tolerance": 6
+      }
+    }
+  }
+}
