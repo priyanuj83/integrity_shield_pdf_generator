@@ -4,7 +4,7 @@ Configuration management for IntegrityShield system.
 
 import yaml
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from dataclasses import dataclass
 
 
@@ -151,6 +151,64 @@ class ConfigManager:
     def get_question_combinations(self) -> list:
         """Get question type combinations for document generation."""
         return self.config['document_generation']['combinations']
+    
+    def get_domain_generation_config(self) -> Dict[str, Any]:
+        """Get domain generation configuration."""
+        return self.config['document_generation'].get('domain_generation', {})
+    
+    def is_domain_generation_enabled(self) -> bool:
+        """Check if domain-specific generation is enabled."""
+        domain_config = self.get_domain_generation_config()
+        return domain_config.get('enabled', False)
+    
+    def get_domains_to_generate(self) -> List[str]:
+        """Get list of domains to generate papers for."""
+        domain_config = self.get_domain_generation_config()
+        return domain_config.get('domains_to_generate', [])
+    
+    def get_papers_per_domain(self) -> int:
+        """Get number of papers to generate per domain."""
+        domain_config = self.get_domain_generation_config()
+        return domain_config.get('papers_per_domain', 8)
+    
+    def get_domain_combinations(self) -> Dict[str, List[List[str]]]:
+        """Get domain-specific question combinations."""
+        return self.config['document_generation'].get('domain_combinations', {})
+    
+    def get_domain_combination(self, domain: str) -> List[List[str]]:
+        """Get question combinations for a specific domain."""
+        domain_combinations = self.get_domain_combinations()
+        return domain_combinations.get(domain, [])
+    
+    def get_mmlu_subjects_for_domain(self, domain: str) -> List[str]:
+        """Get MMLU subjects for a specific domain."""
+        # Map domain names to config keys
+        domain_mapping = {
+            'mathematics': 'mmlu_math_subjects',
+            'physics': 'mmlu_physics_subjects',
+            'chemistry': 'mmlu_chemistry_subjects',
+            'biology': 'mmlu_biology_subjects',
+            'astronomy': 'mmlu_astronomy_subjects',
+            'computer_science_theory': 'mmlu_computer_science_theory_subjects',
+            'cybersecurity': 'mmlu_cybersecurity_subjects',
+            'ai_ml': 'mmlu_ai_ml_subjects',
+            'psychology': 'mmlu_psychology_subjects',
+            'economics': 'mmlu_economics_subjects',
+            'history': 'mmlu_history_subjects',
+            'geography': 'mmlu_geography_subjects',
+            'political_science': 'mmlu_political_science_subjects',
+            'sociology': 'mmlu_sociology_subjects',
+            'philosophy': 'mmlu_philosophy_subjects',
+            'religious_studies': 'mmlu_religious_studies_subjects',
+            'medical_sciences': 'mmlu_medical_sciences_subjects',
+            'legal_studies': 'mmlu_legal_studies_subjects',
+            'business_management': 'mmlu_business_management_subjects'
+        }
+        
+        domain_key = domain_mapping.get(domain, f"mmlu_{domain}_subjects")
+        if domain_key in self.config.get('datasets', {}):
+            return self.config['datasets'][domain_key].get('subjects', [])
+        return []
     
     def is_pdf_validation_enabled(self) -> bool:
         """Check if PDF validation is enabled."""

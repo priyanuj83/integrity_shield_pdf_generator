@@ -33,8 +33,129 @@ datasets:
     source: "huggingface"
     repo: "cais/mmlu"
     config: "anatomy"
-    type: "social_science"
+    type: "stem"
     format: "dataset"
+  
+  # Domain-specific MMLU subject mappings
+  mmlu_math_subjects:
+    subjects: ["abstract_algebra", "college_mathematics", "elementary_mathematics", "high_school_mathematics", "high_school_statistics"]
+    type: "stem"
+    domain: "mathematics"
+  
+  mmlu_science_subjects:
+    subjects: ["anatomy", "astronomy", "college_biology", "college_chemistry", "college_physics", "high_school_biology", "high_school_chemistry", "high_school_physics", "conceptual_physics", "nutrition", "virology", "medical_genetics"]
+    type: "stem"
+    domain: "science"
+  
+  mmlu_cs_subjects:
+    subjects: ["college_computer_science", "high_school_computer_science", "computer_security", "machine_learning"]
+    type: "stem"
+    domain: "computer_science"
+  
+  mmlu_social_science_subjects:
+    subjects: ["high_school_psychology", "professional_psychology", "high_school_macroeconomics", "high_school_microeconomics", "econometrics", "high_school_european_history", "high_school_geography", "high_school_government_and_politics", "high_school_us_history", "high_school_world_history", "sociology", "management", "marketing", "business_ethics"]
+    type: "social_science"
+    domain: "social_sciences"
+  
+  mmlu_humanities_subjects:
+    subjects: ["philosophy", "formal_logic", "logical_fallacies", "moral_disputes", "moral_scenarios", "world_religions", "prehistory"]
+    type: "humanities"
+    domain: "humanities"
+  
+  # Highly specific professional subject groupings
+  mmlu_medical_sciences_subjects:
+    subjects: ["college_medicine", "professional_medicine", "clinical_knowledge", "human_aging", "human_sexuality"]
+    type: "medical"
+    domain: "medical_sciences"
+  
+  mmlu_legal_studies_subjects:
+    subjects: ["international_law", "jurisprudence", "professional_law", "security_studies", "us_foreign_policy"]
+    type: "legal"
+    domain: "legal_studies"
+  
+  mmlu_business_management_subjects:
+    subjects: ["professional_accounting", "public_relations", "management", "marketing", "business_ethics"]
+    type: "business"
+    domain: "business_management"
+  
+  mmlu_psychology_subjects:
+    subjects: ["high_school_psychology", "professional_psychology"]
+    type: "psychology"
+    domain: "psychology"
+  
+  # Further subdivision of science subjects
+  mmlu_physics_subjects:
+    subjects: ["college_physics", "high_school_physics", "conceptual_physics"]
+    type: "stem"
+    domain: "physics"
+  
+  mmlu_chemistry_subjects:
+    subjects: ["college_chemistry", "high_school_chemistry"]
+    type: "stem"
+    domain: "chemistry"
+  
+  mmlu_biology_subjects:
+    subjects: ["college_biology", "high_school_biology", "anatomy", "nutrition", "virology", "medical_genetics"]
+    type: "stem"
+    domain: "biology"
+  
+  mmlu_astronomy_subjects:
+    subjects: ["astronomy"]
+    type: "stem"
+    domain: "astronomy"
+  
+  # Further subdivision of social sciences
+  mmlu_economics_subjects:
+    subjects: ["high_school_macroeconomics", "high_school_microeconomics", "econometrics"]
+    type: "social_science"
+    domain: "economics"
+  
+  mmlu_history_subjects:
+    subjects: ["high_school_european_history", "high_school_us_history", "high_school_world_history", "prehistory"]
+    type: "social_science"
+    domain: "history"
+  
+  mmlu_geography_subjects:
+    subjects: ["high_school_geography", "global_facts"]
+    type: "social_science"
+    domain: "geography"
+  
+  mmlu_political_science_subjects:
+    subjects: ["high_school_government_and_politics", "international_law", "jurisprudence", "security_studies", "us_foreign_policy"]
+    type: "social_science"
+    domain: "political_science"
+  
+  mmlu_sociology_subjects:
+    subjects: ["sociology"]
+    type: "social_science"
+    domain: "sociology"
+  
+  # Further subdivision of humanities
+  mmlu_philosophy_subjects:
+    subjects: ["philosophy", "formal_logic", "logical_fallacies", "moral_disputes", "moral_scenarios"]
+    type: "humanities"
+    domain: "philosophy"
+  
+  mmlu_religious_studies_subjects:
+    subjects: ["world_religions"]
+    type: "humanities"
+    domain: "religious_studies"
+  
+  # Computer science subdivisions
+  mmlu_computer_science_theory_subjects:
+    subjects: ["college_computer_science", "high_school_computer_science"]
+    type: "stem"
+    domain: "computer_science_theory"
+  
+  mmlu_cybersecurity_subjects:
+    subjects: ["computer_security"]
+    type: "stem"
+    domain: "cybersecurity"
+  
+  mmlu_ai_ml_subjects:
+    subjects: ["machine_learning"]
+    type: "stem"
+    domain: "ai_ml"
 
 # Document generation settings
 document_generation:
@@ -42,7 +163,93 @@ document_generation:
   initial_batch: 5
   marks_per_document: 40
   
-  # Question type combinations
+  # Domain generation settings
+  domain_generation:
+    enabled: true  # Enable domain-specific papers
+    domains_to_generate: [
+      "mathematics",
+      "physics", "chemistry", "biology", "astronomy",
+      "computer_science_theory", "cybersecurity", "ai_ml",
+      "psychology", "economics", "history", "geography", "political_science", "sociology",
+      "philosophy", "religious_studies",
+      "medical_sciences", "legal_studies", "business_management"
+    ]
+    papers_per_domain: 1  # Generate 1 paper per domain for testing
+    use_legacy_combinations: false  # Use domain-specific instead of mixed combinations
+  
+  # Domain-specific question paper combinations
+  domain_combinations:
+    # Mathematics Papers
+    mathematics:
+      - ["math_mcq", "math_tf", "math_long"]  # Mixed math (MMLU + GSM8K)
+      - ["math_long"]                          # Pure GSM8K word problems
+      - ["math_mcq", "math_tf"]               # MMLU math theory only
+    
+    # Highly Specific Science Papers
+    physics:
+      - ["physics_mcq", "physics_tf"]         # Physics only
+      - ["physics_mcq", "physics_tf", "physics_long"]  # Physics with problems
+    
+    chemistry:
+      - ["chemistry_mcq", "chemistry_tf"]     # Chemistry only
+      - ["chemistry_mcq", "chemistry_tf", "chemistry_long"]  # Chemistry with problems
+    
+    biology:
+      - ["biology_mcq", "biology_tf"]         # Biology only
+      - ["biology_mcq", "biology_tf", "biology_long"]  # Biology with problems
+    
+    astronomy:
+      - ["astronomy_mcq", "astronomy_tf"]     # Astronomy only
+    
+    # Highly Specific Computer Science Papers
+    computer_science_theory:
+      - ["cs_theory_mcq", "cs_theory_tf"]     # CS theory only
+      - ["cs_theory_mcq", "cs_theory_tf", "cs_long"]  # CS theory + programming
+    
+    cybersecurity:
+      - ["cybersecurity_mcq", "cybersecurity_tf"]  # Cybersecurity only
+    
+    ai_ml:
+      - ["ai_ml_mcq", "ai_ml_tf"]             # AI/ML only
+      - ["ai_ml_mcq", "ai_ml_tf", "ai_ml_long"]  # AI/ML + programming
+    
+    # Highly Specific Social Sciences Papers
+    psychology:
+      - ["psychology_mcq", "psychology_tf"]   # Psychology only
+    
+    economics:
+      - ["economics_mcq", "economics_tf"]     # Economics only
+    
+    history:
+      - ["history_mcq", "history_tf"]         # History only
+    
+    geography:
+      - ["geography_mcq", "geography_tf"]     # Geography only
+    
+    political_science:
+      - ["political_science_mcq", "political_science_tf"]  # Political science only
+    
+    sociology:
+      - ["sociology_mcq", "sociology_tf"]     # Sociology only
+    
+    # Highly Specific Humanities Papers
+    philosophy:
+      - ["philosophy_mcq", "philosophy_tf"]   # Philosophy only
+    
+    religious_studies:
+      - ["religious_studies_mcq", "religious_studies_tf"]  # Religious studies only
+    
+    # Highly Specific Professional Papers
+    medical_sciences:
+      - ["medical_sciences_mcq", "medical_sciences_tf"]  # Medical sciences only
+    
+    legal_studies:
+      - ["legal_studies_mcq", "legal_studies_tf"]  # Legal studies only
+    
+    business_management:
+      - ["business_management_mcq", "business_management_tf"]  # Business management only
+  
+  # Legacy mixed combinations (for backward compatibility)
   combinations:
     - ["mcq", "tf", "long"]
     - ["mcq", "tf"]

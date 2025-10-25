@@ -1,28 +1,77 @@
-# Python cache & build
+# Python
 __pycache__/
 *.py[cod]
-.venv/
-venv/
-ENV/
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# macOS & IDE files
-.DS_Store
-.idea/
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Logs
-logs/
 *.log
+logs/
 
-# LaTeX artifacts
-*.aux
-*.out
-*.toc
-*.fdb_latexmk
-*.fls
-*.synctex.gz
+# Temporary files
+*.tmp
+*.temp
 
-# Ignore large dataset files
-data/raw/mmlu_all.json
+# Output files (optional - you might want to keep these)
+# output/
+# data/processed/
+# data/raw/
 
-data/raw/mmlu_all.json
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
