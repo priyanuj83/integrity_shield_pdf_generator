@@ -36,126 +36,410 @@ datasets:
     type: "stem"
     format: "dataset"
   
-  # Domain-specific MMLU subject mappings
-  mmlu_math_subjects:
-    subjects: ["abstract_algebra", "college_mathematics", "elementary_mathematics", "high_school_mathematics", "high_school_statistics"]
-    type: "stem"
-    domain: "mathematics"
+  mmlu_pro:
+    source: "huggingface"
+    repo: "TIGER-Lab/MMLU-Pro"
+    config: "default"
+    type: "comprehensive"
+    format: "dataset"
   
-  mmlu_science_subjects:
-    subjects: ["anatomy", "astronomy", "college_biology", "college_chemistry", "college_physics", "high_school_biology", "high_school_chemistry", "high_school_physics", "conceptual_physics", "nutrition", "virology", "medical_genetics"]
-    type: "stem"
-    domain: "science"
+  # Hierarchical subject mappings (combining MMLU + MMLU-Pro)
   
-  mmlu_cs_subjects:
-    subjects: ["college_computer_science", "high_school_computer_science", "computer_security", "machine_learning"]
+  # Mathematics Hierarchical Mappings
+  mmlu_math_k12:
+    subjects: ["elementary_mathematics", "high_school_mathematics", "high_school_statistics"]
     type: "stem"
-    domain: "computer_science"
+    domain: "Mathematics"
+    academic_level: "K-12"
   
-  mmlu_social_science_subjects:
-    subjects: ["high_school_psychology", "professional_psychology", "high_school_macroeconomics", "high_school_microeconomics", "econometrics", "high_school_european_history", "high_school_geography", "high_school_government_and_politics", "high_school_us_history", "high_school_world_history", "sociology", "management", "marketing", "business_ethics"]
+  mmlu_math_undergrad:
+    subjects: ["abstract_algebra", "college_mathematics", "math"]
+    type: "stem"
+    domain: "Mathematics"
+    academic_level: "Undergraduate"
+  
+  mmlu_math_grad:
+    subjects: ["math"]
+    type: "stem"
+    domain: "Mathematics"
+    academic_level: "Graduate"
+  
+  # Physics Hierarchical Mappings
+  mmlu_physics_k12:
+    subjects: ["high_school_physics", "conceptual_physics"]
+    type: "stem"
+    domain: "Physics"
+    academic_level: "K-12"
+  
+  mmlu_physics_undergrad:
+    subjects: ["college_physics", "physics"]
+    type: "stem"
+    domain: "Physics"
+    academic_level: "Undergraduate"
+  
+  mmlu_physics_grad:
+    subjects: ["physics"]
+    type: "stem"
+    domain: "Physics"
+    academic_level: "Graduate"
+  
+  # Chemistry Hierarchical Mappings
+  mmlu_chemistry_k12:
+    subjects: ["high_school_chemistry"]
+    type: "stem"
+    domain: "Chemistry"
+    academic_level: "K-12"
+  
+  mmlu_chemistry_undergrad:
+    subjects: ["college_chemistry", "chemistry"]
+    type: "stem"
+    domain: "Chemistry"
+    academic_level: "Undergraduate"
+  
+  mmlu_chemistry_grad:
+    subjects: ["chemistry"]
+    type: "stem"
+    domain: "Chemistry"
+    academic_level: "Graduate"
+  
+  # Biology Hierarchical Mappings
+  mmlu_biology_k12:
+    subjects: ["high_school_biology"]
+    type: "stem"
+    domain: "Biology"
+    academic_level: "K-12"
+  
+  mmlu_biology_undergrad:
+    subjects: ["college_biology", "biology"]
+    type: "stem"
+    domain: "Biology"
+    academic_level: "Undergraduate"
+  
+  mmlu_biology_grad:
+    subjects: ["biology"]
+    type: "stem"
+    domain: "Biology"
+    academic_level: "Graduate"
+  
+  # Computer Science Hierarchical Mappings
+  mmlu_cs_k12:
+    subjects: ["high_school_computer_science"]
+    type: "stem"
+    domain: "Computer Science"
+    academic_level: "K-12"
+  
+  mmlu_cs_undergrad:
+    subjects: ["college_computer_science", "computer science"]
+    type: "stem"
+    domain: "Computer Science"
+    academic_level: "Undergraduate"
+  
+  mmlu_cs_grad:
+    subjects: ["computer science"]
+    type: "stem"
+    domain: "Computer Science"
+    academic_level: "Graduate"
+  
+  # Engineering Hierarchical Mappings
+  mmlu_engineering_undergrad:
+    subjects: ["electrical_engineering", "engineering"]
+    type: "stem"
+    domain: "Engineering"
+    academic_level: "Undergraduate"
+  
+  mmlu_engineering_grad:
+    subjects: ["engineering"]
+    type: "stem"
+    domain: "Engineering"
+    academic_level: "Graduate"
+  
+  # Economics Hierarchical Mappings
+  mmlu_economics_k12:
+    subjects: ["high_school_macroeconomics", "high_school_microeconomics"]
     type: "social_science"
-    domain: "social_sciences"
+    domain: "Economics"
+    academic_level: "K-12"
   
-  mmlu_humanities_subjects:
-    subjects: ["philosophy", "formal_logic", "logical_fallacies", "moral_disputes", "moral_scenarios", "world_religions", "prehistory"]
-    type: "humanities"
-    domain: "humanities"
+  mmlu_economics_undergrad:
+    subjects: ["econometrics", "economics"]
+    type: "social_science"
+    domain: "Economics"
+    academic_level: "Undergraduate"
   
-  # Highly specific professional subject groupings
-  mmlu_medical_sciences_subjects:
-    subjects: ["college_medicine", "professional_medicine", "clinical_knowledge", "human_aging", "human_sexuality"]
-    type: "medical"
-    domain: "medical_sciences"
+  mmlu_economics_grad:
+    subjects: ["economics"]
+    type: "social_science"
+    domain: "Economics"
+    academic_level: "Graduate"
   
-  mmlu_legal_studies_subjects:
-    subjects: ["international_law", "jurisprudence", "professional_law", "security_studies", "us_foreign_policy"]
+  # Psychology Hierarchical Mappings
+  mmlu_psychology_k12:
+    subjects: ["high_school_psychology"]
+    type: "social_science"
+    domain: "Psychology"
+    academic_level: "K-12"
+  
+  mmlu_psychology_undergrad:
+    subjects: ["professional_psychology", "psychology"]
+    type: "social_science"
+    domain: "Psychology"
+    academic_level: "Undergraduate"
+  
+  mmlu_psychology_grad:
+    subjects: ["psychology"]
+    type: "social_science"
+    domain: "Psychology"
+    academic_level: "Graduate"
+  
+  # Law Hierarchical Mappings
+  mmlu_law_undergrad:
+    subjects: ["international_law", "jurisprudence"]
     type: "legal"
-    domain: "legal_studies"
+    domain: "Law"
+    academic_level: "Undergraduate"
   
-  mmlu_business_management_subjects:
-    subjects: ["professional_accounting", "public_relations", "management", "marketing", "business_ethics"]
-    type: "business"
-    domain: "business_management"
+  mmlu_law_grad:
+    subjects: ["professional_law", "law"]
+    type: "legal"
+    domain: "Law"
+    academic_level: "Graduate"
   
-  mmlu_psychology_subjects:
-    subjects: ["high_school_psychology", "professional_psychology"]
-    type: "psychology"
-    domain: "psychology"
-  
-  # Further subdivision of science subjects
-  mmlu_physics_subjects:
-    subjects: ["college_physics", "high_school_physics", "conceptual_physics"]
-    type: "stem"
-    domain: "physics"
-  
-  mmlu_chemistry_subjects:
-    subjects: ["college_chemistry", "high_school_chemistry"]
-    type: "stem"
-    domain: "chemistry"
-  
-  mmlu_biology_subjects:
-    subjects: ["college_biology", "high_school_biology", "anatomy", "nutrition", "virology", "medical_genetics"]
-    type: "stem"
-    domain: "biology"
-  
-  mmlu_astronomy_subjects:
-    subjects: ["astronomy"]
-    type: "stem"
-    domain: "astronomy"
-  
-  # Further subdivision of social sciences
-  mmlu_economics_subjects:
-    subjects: ["high_school_macroeconomics", "high_school_microeconomics", "econometrics"]
-    type: "social_science"
-    domain: "economics"
-  
-  mmlu_history_subjects:
-    subjects: ["high_school_european_history", "high_school_us_history", "high_school_world_history", "prehistory"]
-    type: "social_science"
-    domain: "history"
-  
-  mmlu_geography_subjects:
-    subjects: ["high_school_geography", "global_facts"]
-    type: "social_science"
-    domain: "geography"
-  
-  mmlu_political_science_subjects:
-    subjects: ["high_school_government_and_politics", "international_law", "jurisprudence", "security_studies", "us_foreign_policy"]
-    type: "social_science"
-    domain: "political_science"
-  
-  mmlu_sociology_subjects:
-    subjects: ["sociology"]
-    type: "social_science"
-    domain: "sociology"
-  
-  # Further subdivision of humanities
-  mmlu_philosophy_subjects:
+  # Philosophy Hierarchical Mappings
+  mmlu_philosophy_undergrad:
     subjects: ["philosophy", "formal_logic", "logical_fallacies", "moral_disputes", "moral_scenarios"]
     type: "humanities"
-    domain: "philosophy"
+    domain: "Philosophy"
+    academic_level: "Undergraduate"
   
-  mmlu_religious_studies_subjects:
+  mmlu_philosophy_grad:
+    subjects: ["philosophy"]
+    type: "humanities"
+    domain: "Philosophy"
+    academic_level: "Graduate"
+  
+  # Health/Medical Hierarchical Mappings
+  mmlu_health_k12:
+    subjects: ["nutrition"]
+    type: "medical"
+    domain: "Health"
+    academic_level: "K-12"
+  
+  mmlu_health_undergrad:
+    subjects: ["anatomy", "human_aging", "human_sexuality", "medical_genetics", "virology"]
+    type: "medical"
+    domain: "Health"
+    academic_level: "Undergraduate"
+  
+  mmlu_health_grad:
+    subjects: ["clinical_knowledge", "college_medicine", "professional_medicine", "health"]
+    type: "medical"
+    domain: "Health"
+    academic_level: "Graduate"
+  
+  # Business Hierarchical Mappings
+  mmlu_business_undergrad:
+    subjects: ["business_ethics", "management", "marketing", "public_relations"]
+    type: "business"
+    domain: "Business"
+    academic_level: "Undergraduate"
+  
+  mmlu_business_grad:
+    subjects: ["professional_accounting", "business"]
+    type: "business"
+    domain: "Business"
+    academic_level: "Graduate"
+  
+  # History Hierarchical Mappings
+  mmlu_history_k12:
+    subjects: ["high_school_european_history", "high_school_us_history", "high_school_world_history", "prehistory"]
+    type: "humanities"
+    domain: "History"
+    academic_level: "K-12"
+  
+  mmlu_history_undergrad:
+    subjects: ["global_facts", "history"]
+    type: "humanities"
+    domain: "History"
+    academic_level: "Undergraduate"
+  
+  mmlu_history_grad:
+    subjects: ["history"]
+    type: "humanities"
+    domain: "History"
+    academic_level: "Graduate"
+  
+  # Astronomy Hierarchical Mappings (Graduate level only - advanced subject)
+  mmlu_astronomy_grad:
+    subjects: ["astronomy"]
+    type: "stem"
+    domain: "Astronomy"
+    academic_level: "Graduate"
+  
+  # Geography Hierarchical Mappings
+  mmlu_geography_k12:
+    subjects: ["high_school_geography"]
+    type: "social_science"
+    domain: "Geography"
+    academic_level: "K-12"
+  
+  mmlu_geography_undergrad:
+    subjects: ["global_facts"]
+    type: "social_science"
+    domain: "Geography"
+    academic_level: "Undergraduate"
+  
+  # Sociology Hierarchical Mappings
+  mmlu_sociology_undergrad:
+    subjects: ["sociology"]
+    type: "social_science"
+    domain: "Sociology"
+    academic_level: "Undergraduate"
+  
+  # Political Science Hierarchical Mappings
+  mmlu_political_science_undergrad:
+    subjects: ["high_school_government_and_politics", "security_studies", "us_foreign_policy"]
+    type: "social_science"
+    domain: "Political Science"
+    academic_level: "Undergraduate"
+  
+  # Religious Studies Hierarchical Mappings
+  mmlu_religious_studies_undergrad:
     subjects: ["world_religions"]
     type: "humanities"
-    domain: "religious_studies"
+    domain: "Religious Studies"
+    academic_level: "Undergraduate"
   
-  # Computer science subdivisions
-  mmlu_computer_science_theory_subjects:
-    subjects: ["college_computer_science", "high_school_computer_science"]
-    type: "stem"
-    domain: "computer_science_theory"
-  
-  mmlu_cybersecurity_subjects:
-    subjects: ["computer_security"]
-    type: "stem"
-    domain: "cybersecurity"
-  
-  mmlu_ai_ml_subjects:
+  # Machine Learning/AI Hierarchical Mappings
+  mmlu_ai_undergrad:
     subjects: ["machine_learning"]
     type: "stem"
-    domain: "ai_ml"
+    domain: "Machine Learning"
+    academic_level: "Undergraduate"
+  
+  # Cybersecurity Hierarchical Mappings
+  mmlu_cybersecurity_undergrad:
+    subjects: ["computer_security"]
+    type: "stem"
+    domain: "Cybersecurity"
+    academic_level: "Undergraduate"
+  
+  # Missing K-12 Mappings
+  mmlu_engineering_k12:
+    subjects: ["electrical_engineering"]
+    type: "stem"
+    domain: "Engineering"
+    academic_level: "K-12"
+  
+  mmlu_economics_k12:
+    subjects: ["high_school_macroeconomics", "high_school_microeconomics"]
+    type: "social"
+    domain: "Economics"
+    academic_level: "K-12"
+  
+  mmlu_psychology_k12:
+    subjects: ["high_school_psychology"]
+    type: "social"
+    domain: "Psychology"
+    academic_level: "K-12"
+  
+  mmlu_philosophy_k12:
+    subjects: ["formal_logic", "logical_fallacies", "moral_disputes", "moral_scenarios"]
+    type: "humanities"
+    domain: "Philosophy"
+    academic_level: "K-12"
+  
+  mmlu_health_k12:
+    subjects: ["nutrition"]
+    type: "stem"
+    domain: "Health"
+    academic_level: "K-12"
+  
+  mmlu_business_k12:
+    subjects: ["business_ethics"]
+    type: "social"
+    domain: "Business"
+    academic_level: "K-12"
+  
+  mmlu_sociology_k12:
+    subjects: ["sociology"]
+    type: "social"
+    domain: "Sociology"
+    academic_level: "K-12"
+  
+  mmlu_political_science_k12:
+    subjects: ["high_school_government_and_politics"]
+    type: "social"
+    domain: "Political Science"
+    academic_level: "K-12"
+  
+  mmlu_religious_studies_k12:
+    subjects: ["world_religions"]
+    type: "humanities"
+    domain: "Religious Studies"
+    academic_level: "K-12"
+  
+  mmlu_machine_learning_k12:
+    subjects: ["machine_learning"]
+    type: "stem"
+    domain: "Machine Learning"
+    academic_level: "K-12"
+  
+  mmlu_cybersecurity_k12:
+    subjects: ["computer_security"]
+    type: "stem"
+    domain: "Cybersecurity"
+    academic_level: "K-12"
+  
+  # Missing Graduate Mappings
+  mmlu_geography_grad:
+    subjects: ["global_facts"]
+    type: "social"
+    domain: "Geography"
+    academic_level: "Graduate"
+  
+  mmlu_sociology_grad:
+    subjects: ["sociology"]
+    type: "social"
+    domain: "Sociology"
+    academic_level: "Graduate"
+  
+  mmlu_political_science_grad:
+    subjects: ["security_studies", "us_foreign_policy"]
+    type: "social"
+    domain: "Political Science"
+    academic_level: "Graduate"
+  
+  mmlu_religious_studies_grad:
+    subjects: ["world_religions"]
+    type: "humanities"
+    domain: "Religious Studies"
+    academic_level: "Graduate"
+  
+  mmlu_machine_learning_undergrad:
+    subjects: ["machine_learning"]
+    type: "stem"
+    domain: "Machine Learning"
+    academic_level: "Undergraduate"
+  
+  mmlu_machine_learning_grad:
+    subjects: ["machine_learning"]
+    type: "stem"
+    domain: "Machine Learning"
+    academic_level: "Graduate"
+  
+  # Missing Machine Learning K-12 mapping
+  mmlu_machine_learning_k12:
+    subjects: ["machine_learning"]
+    type: "stem"
+    domain: "Machine Learning"
+    academic_level: "K-12"
+  
+  mmlu_cybersecurity_grad:
+    subjects: ["computer_security"]
+    type: "stem"
+    domain: "Cybersecurity"
+    academic_level: "Graduate"
+  
 
 # Document generation settings
 document_generation:
@@ -166,99 +450,319 @@ document_generation:
   # Domain generation settings
   domain_generation:
     enabled: true  # Enable domain-specific papers
+    use_hierarchical_system: true  # Use hierarchical academic level system
     domains_to_generate: [
-      "mathematics",
-      "physics", "chemistry", "biology", "astronomy",
-      "computer_science_theory", "cybersecurity", "ai_ml",
-      "psychology", "economics", "history", "geography", "political_science", "sociology",
-      "philosophy", "religious_studies",
-      "medical_sciences", "legal_studies", "business_management"
+      "mathematics", "physics", "chemistry", "biology",
+      "computer_science", "engineering", "economics", "psychology", 
+      "philosophy", "health", "business", "history", "geography",
+      "sociology", "political_science", "religious_studies", 
+      "machine_learning", "cybersecurity", "astronomy"
     ]
-    papers_per_domain: 1  # Generate 1 paper per domain for testing
-    use_legacy_combinations: false  # Use domain-specific instead of mixed combinations
+    academic_levels: ["K-12", "Undergraduate", "Graduate"]
+    papers_per_domain_level: 1  # Generate 1 paper per domain-level combination
+    use_legacy_combinations: false  # Use hierarchical combinations instead
   
-  # Domain-specific question paper combinations
-  domain_combinations:
-    # Mathematics Papers
-    mathematics:
-      - ["math_mcq", "math_tf", "math_long"]  # Mixed math (MMLU + GSM8K)
-      - ["math_long"]                          # Pure GSM8K word problems
-      - ["math_mcq", "math_tf"]               # MMLU math theory only
+  # Hierarchical domain combinations (combining MMLU, MMLU-Pro, GSM8K, MBPP+)
+  hierarchical_combinations:
+    # K-12 Level Mathematics
+    mathematics_k12:
+      - ["mmlu_math_mcq", "mmlu_math_tf", "gsm8k_math_long"]  # MMLU + GSM8K
+      - ["gsm8k_math_long"]                                    # Pure GSM8K word problems
+      - ["mmlu_math_mcq", "mmlu_math_tf"]                     # MMLU math theory only
     
-    # Highly Specific Science Papers
-    physics:
-      - ["physics_mcq", "physics_tf"]         # Physics only
-      - ["physics_mcq", "physics_tf", "physics_long"]  # Physics with problems
+    # Undergraduate Level Mathematics
+    mathematics_undergraduate:
+      - ["mmlu_math_mcq", "mmlu_math_tf", "mmlu_pro_math_mcq", "gsm8k_math_long"]  # All datasets
+      - ["mmlu_pro_math_mcq", "mmlu_pro_math_tf", "gsm8k_math_long"]              # MMLU-Pro + GSM8K
+      - ["mmlu_math_mcq", "mmlu_math_tf", "mbpp_coding_long"]                     # MMLU + MBPP
     
-    chemistry:
-      - ["chemistry_mcq", "chemistry_tf"]     # Chemistry only
-      - ["chemistry_mcq", "chemistry_tf", "chemistry_long"]  # Chemistry with problems
+    # Graduate Level Mathematics
+    mathematics_graduate:
+      - ["mmlu_pro_math_mcq", "mmlu_pro_math_tf", "mbpp_coding_long"]            # MMLU-Pro + MBPP
+      - ["mmlu_pro_math_mcq", "mmlu_pro_math_tf", "mmlu_pro_math_research"]      # MMLU-Pro research
+      - ["mbpp_coding_long", "mmlu_pro_math_research"]                           # MBPP + research
     
-    biology:
-      - ["biology_mcq", "biology_tf"]         # Biology only
-      - ["biology_mcq", "biology_tf", "biology_long"]  # Biology with problems
+    # K-12 Level Physics
+    physics_k12:
+      - ["mmlu_physics_mcq", "mmlu_physics_tf"]                 # MMLU physics only
+      - ["mmlu_physics_mcq", "mmlu_physics_tf", "physics_long"] # MMLU + problems
     
-    astronomy:
-      - ["astronomy_mcq", "astronomy_tf"]     # Astronomy only
+    # Undergraduate Level Physics
+    physics_undergraduate:
+      - ["mmlu_physics_mcq", "mmlu_physics_tf", "mmlu_pro_physics_mcq", "physics_long"]  # All datasets
+      - ["mmlu_pro_physics_mcq", "mmlu_pro_physics_tf", "physics_long"]                  # MMLU-Pro + problems
     
-    # Highly Specific Computer Science Papers
-    computer_science_theory:
-      - ["cs_theory_mcq", "cs_theory_tf"]     # CS theory only
-      - ["cs_theory_mcq", "cs_theory_tf", "cs_long"]  # CS theory + programming
+    # Graduate Level Physics
+    physics_graduate:
+      - ["mmlu_pro_physics_mcq", "mmlu_pro_physics_tf", "mmlu_pro_physics_research"]     # MMLU-Pro research
+      - ["mmlu_pro_physics_mcq", "physics_research"]                                      # Research focused
     
-    cybersecurity:
-      - ["cybersecurity_mcq", "cybersecurity_tf"]  # Cybersecurity only
+    # K-12 Level Chemistry
+    chemistry_k12:
+      - ["mmlu_chemistry_mcq", "mmlu_chemistry_tf"]             # MMLU chemistry only
+      - ["mmlu_chemistry_mcq", "mmlu_chemistry_tf", "chemistry_long"] # MMLU + problems
     
-    ai_ml:
-      - ["ai_ml_mcq", "ai_ml_tf"]             # AI/ML only
-      - ["ai_ml_mcq", "ai_ml_tf", "ai_ml_long"]  # AI/ML + programming
+    # Undergraduate Level Chemistry
+    chemistry_undergraduate:
+      - ["mmlu_chemistry_mcq", "mmlu_chemistry_tf", "mmlu_pro_chemistry_mcq", "chemistry_long"]  # All datasets
+      - ["mmlu_pro_chemistry_mcq", "mmlu_pro_chemistry_tf", "chemistry_long"]                    # MMLU-Pro + problems
     
-    # Highly Specific Social Sciences Papers
-    psychology:
-      - ["psychology_mcq", "psychology_tf"]   # Psychology only
+    # Graduate Level Chemistry
+    chemistry_graduate:
+      - ["mmlu_pro_chemistry_mcq", "mmlu_pro_chemistry_tf", "mmlu_pro_chemistry_research"]       # MMLU-Pro research
+      - ["mmlu_pro_chemistry_mcq", "chemistry_research"]                                        # Research focused
     
-    economics:
-      - ["economics_mcq", "economics_tf"]     # Economics only
+    # K-12 Level Biology
+    biology_k12:
+      - ["mmlu_biology_mcq", "mmlu_biology_tf"]                 # MMLU biology only
+      - ["mmlu_biology_mcq", "mmlu_biology_tf", "biology_long"] # MMLU + problems
     
-    history:
-      - ["history_mcq", "history_tf"]         # History only
+    # Undergraduate Level Biology
+    biology_undergraduate:
+      - ["mmlu_biology_mcq", "mmlu_biology_tf", "mmlu_pro_biology_mcq", "biology_long"]  # All datasets
+      - ["mmlu_pro_biology_mcq", "mmlu_pro_biology_tf", "biology_long"]                  # MMLU-Pro + problems
     
-    geography:
-      - ["geography_mcq", "geography_tf"]     # Geography only
+    # Graduate Level Biology
+    biology_graduate:
+      - ["mmlu_pro_biology_mcq", "mmlu_pro_biology_tf", "mmlu_pro_biology_research"]     # MMLU-Pro research
+      - ["mmlu_pro_biology_mcq", "biology_research"]                                     # Research focused
     
-    political_science:
-      - ["political_science_mcq", "political_science_tf"]  # Political science only
+    # Undergraduate Level Computer Science
+    computer_science_undergraduate:
+      - ["mmlu_cs_mcq", "mmlu_cs_tf", "mmlu_pro_cs_mcq", "mbpp_coding_long"]           # All datasets
+      - ["mmlu_pro_cs_mcq", "mmlu_pro_cs_tf", "mbpp_coding_long"]                      # MMLU-Pro + MBPP
+      - ["mbpp_coding_long", "cs_algorithm_long"]                                       # MBPP + algorithms
     
-    sociology:
-      - ["sociology_mcq", "sociology_tf"]     # Sociology only
+    # Graduate Level Computer Science
+    computer_science_graduate:
+      - ["mmlu_pro_cs_mcq", "mmlu_pro_cs_tf", "mbpp_coding_long", "cs_research"]       # All + research
+      - ["mbpp_coding_long", "cs_research", "cs_implementation"]                        # MBPP + research
     
-    # Highly Specific Humanities Papers
-    philosophy:
-      - ["philosophy_mcq", "philosophy_tf"]   # Philosophy only
+    # Undergraduate Level Engineering
+    engineering_undergraduate:
+      - ["mmlu_engineering_mcq", "mmlu_engineering_tf", "mmlu_pro_engineering_mcq", "engineering_long"]  # All datasets
+      - ["mmlu_pro_engineering_mcq", "mmlu_pro_engineering_tf", "engineering_long"]                     # MMLU-Pro + problems
     
-    religious_studies:
-      - ["religious_studies_mcq", "religious_studies_tf"]  # Religious studies only
+    # Graduate Level Engineering
+    engineering_graduate:
+      - ["mmlu_pro_engineering_mcq", "mmlu_pro_engineering_tf", "engineering_research"]                 # MMLU-Pro + research
+      - ["engineering_research", "engineering_design"]                                                 # Research focused
     
-    # Highly Specific Professional Papers
-    medical_sciences:
-      - ["medical_sciences_mcq", "medical_sciences_tf"]  # Medical sciences only
+    # Undergraduate Level Economics
+    economics_undergraduate:
+      - ["mmlu_economics_mcq", "mmlu_economics_tf", "mmlu_pro_economics_mcq", "economics_long"]  # All datasets
+      - ["mmlu_pro_economics_mcq", "mmlu_pro_economics_tf", "economics_long"]                    # MMLU-Pro + problems
     
-    legal_studies:
-      - ["legal_studies_mcq", "legal_studies_tf"]  # Legal studies only
+    # Graduate Level Economics
+    economics_graduate:
+      - ["mmlu_pro_economics_mcq", "mmlu_pro_economics_tf", "economics_research"]               # MMLU-Pro + research
+      - ["economics_research", "economics_analysis"]                                             # Research focused
     
-    business_management:
-      - ["business_management_mcq", "business_management_tf"]  # Business management only
-  
-  # Legacy mixed combinations (for backward compatibility)
-  combinations:
-    - ["mcq", "tf", "long"]
-    - ["mcq", "tf"]
-    - ["mcq", "long"]
-    - ["mcq"]
-    - ["tf", "long"]
-    - ["tf"]
-    - ["long"]
-    - ["mixed"]
+    # Undergraduate Level Psychology
+    psychology_undergraduate:
+      - ["mmlu_psychology_mcq", "mmlu_psychology_tf", "mmlu_pro_psychology_mcq", "psychology_long"]  # All datasets
+      - ["mmlu_pro_psychology_mcq", "mmlu_pro_psychology_tf", "psychology_long"]                     # MMLU-Pro + problems
+    
+    # Graduate Level Psychology
+    psychology_graduate:
+      - ["mmlu_pro_psychology_mcq", "mmlu_pro_psychology_tf", "psychology_research"]             # MMLU-Pro + research
+      - ["psychology_research", "psychology_analysis"]                                           # Research focused
+    
+    # Graduate Level Law
+    law_graduate:
+      - ["mmlu_pro_law_mcq", "mmlu_pro_law_tf", "law_research"]                                  # MMLU-Pro + research
+      - ["law_research", "law_case_analysis"]                                                   # Research focused
+    
+    # Graduate Level Philosophy
+    philosophy_graduate:
+      - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf", "philosophy_research"]            # MMLU-Pro + research
+      - ["philosophy_research", "philosophy_analysis"]                                           # Research focused
+    
+    # Graduate Level Health
+    health_graduate:
+      - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf", "health_research"]                         # MMLU-Pro + research
+      - ["health_research", "health_case_analysis"]                                              # Research focused
+    
+    # Graduate Level Business
+    business_graduate:
+      - ["mmlu_pro_business_mcq", "mmlu_pro_business_tf", "business_research"]                   # MMLU-Pro + research
+      - ["business_research", "business_case_analysis"]                                          # Research focused
+    
+    # Graduate Level Astronomy (graduate only - realistic for advanced study)
+    astronomy_graduate:
+      - ["mmlu_astronomy_mcq", "mmlu_astronomy_tf", "astronomy_research"]                      # MMLU + research
+      - ["astronomy_research", "astronomy_analysis"]                                             # Research focused
+    
+    # K-12 Level Engineering (basic engineering concepts)
+    engineering_k12:
+      - ["mmlu_engineering_mcq", "mmlu_engineering_tf"]                    # MMLU engineering basics
+      - ["mmlu_engineering_mcq", "mmlu_engineering_tf", "engineering_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Economics
+    economics_k12:
+      - ["mmlu_economics_mcq", "mmlu_economics_tf"]                        # MMLU economics basics
+      - ["mmlu_economics_mcq", "mmlu_economics_tf", "economics_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Psychology
+    psychology_k12:
+      - ["mmlu_psychology_mcq", "mmlu_psychology_tf"]                      # MMLU psychology basics
+      - ["mmlu_psychology_mcq", "mmlu_psychology_tf", "psychology_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Sociology
+    sociology_k12:
+      - ["mmlu_sociology_mcq", "mmlu_sociology_tf"]                        # MMLU sociology basics
+      - ["mmlu_sociology_mcq", "mmlu_sociology_tf", "sociology_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Political Science
+    political_science_k12:
+      - ["mmlu_political_science_mcq", "mmlu_political_science_tf"]        # MMLU political science basics
+      - ["mmlu_political_science_mcq", "mmlu_political_science_tf", "political_science_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Religious Studies
+    religious_studies_k12:
+      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf"]        # MMLU religious studies basics
+      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf", "religious_studies_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Machine Learning
+    machine_learning_k12:
+      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf"]          # MMLU ML basics
+      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf", "machine_learning_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Cybersecurity
+    cybersecurity_k12:
+      - ["mmlu_cybersecurity_mcq", "mmlu_cybersecurity_tf"]                # MMLU cybersecurity basics
+      - ["mmlu_cybersecurity_mcq", "mmlu_cybersecurity_tf", "cybersecurity_basic_long"]  # MMLU + basics
+    
+    # K-12 Level Computer Science
+    computer_science_k12:
+      - ["mmlu_cs_mcq", "mmlu_cs_tf"]                           # MMLU CS basics
+      - ["mmlu_cs_mcq", "mmlu_cs_tf", "cs_basic_long"]          # MMLU + basics
+    
+    # K-12 Level Philosophy
+    philosophy_k12:
+      - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf"]            # MMLU philosophy basics
+      - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf", "philosophy_basic_long"]    # MMLU + basics
+    
+    # Undergraduate Level Philosophy
+    philosophy_undergraduate:
+      - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf", "mmlu_pro_philosophy_mcq", "philosophy_long"]  # All datasets
+      - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf", "philosophy_long"]                     # MMLU-Pro + problems
+    
+    # K-12 Level Health
+    health_k12:
+      - ["mmlu_health_mcq", "mmlu_health_tf"]                    # MMLU health basics
+      - ["mmlu_health_mcq", "mmlu_health_tf", "health_basic_long"]  # MMLU + basics
+    
+    # Undergraduate Level Health
+    health_undergraduate:
+      - ["mmlu_health_mcq", "mmlu_health_tf", "mmlu_pro_health_mcq", "health_long"]  # All datasets
+      - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf", "health_long"]                 # MMLU-Pro + problems
+    
+    # K-12 Level Business
+    business_k12:
+      - ["mmlu_business_mcq", "mmlu_business_tf"]                 # MMLU business basics
+      - ["mmlu_business_mcq", "mmlu_business_tf", "business_basic_long"]  # MMLU + basics
+    
+    # Undergraduate Level Business
+    business_undergraduate:
+      - ["mmlu_business_mcq", "mmlu_business_tf", "mmlu_pro_business_mcq", "business_long"]  # All datasets
+      - ["mmlu_pro_business_mcq", "mmlu_pro_business_tf", "business_long"]                     # MMLU-Pro + problems
+    
+    # K-12 Level History
+    history_k12:
+      - ["mmlu_history_mcq", "mmlu_history_tf"]                 # MMLU history basics
+      - ["mmlu_history_mcq", "mmlu_history_tf", "history_basic_long"]  # MMLU + basics
+    
+    # Undergraduate Level History
+    history_undergraduate:
+      - ["mmlu_history_mcq", "mmlu_history_tf", "mmlu_pro_history_mcq", "history_long"]  # All datasets
+      - ["mmlu_pro_history_mcq", "mmlu_pro_history_tf", "history_long"]                 # MMLU-Pro + problems
+    
+    # Graduate Level History
+    history_graduate:
+      - ["mmlu_pro_history_mcq", "mmlu_pro_history_tf", "history_research"]           # MMLU-Pro + research
+      - ["history_research", "history_analysis"]                                       # Research focused
+    
+    # K-12 Level Geography
+    geography_k12:
+      - ["mmlu_geography_mcq", "mmlu_geography_tf"]             # MMLU geography basics
+      - ["mmlu_geography_mcq", "mmlu_geography_tf", "geography_basic_long"]  # MMLU + basics
+    
+    # Undergraduate Level Geography
+    geography_undergraduate:
+      - ["mmlu_geography_mcq", "mmlu_geography_tf", "mmlu_pro_geography_mcq", "geography_long"]  # All datasets
+      - ["mmlu_pro_geography_mcq", "mmlu_pro_geography_tf", "geography_long"]                   # MMLU-Pro + problems
+    
+    # Graduate Level Geography
+    geography_graduate:
+      - ["mmlu_pro_geography_mcq", "mmlu_pro_geography_tf", "geography_research"]     # MMLU-Pro + research
+      - ["geography_research", "geography_analysis"]                                    # Research focused
+    
+    # Undergraduate Level Sociology
+    sociology_undergraduate:
+      - ["mmlu_sociology_mcq", "mmlu_sociology_tf", "mmlu_pro_sociology_mcq", "sociology_long"]  # All datasets
+      - ["mmlu_pro_sociology_mcq", "mmlu_pro_sociology_tf", "sociology_long"]                   # MMLU-Pro + problems
+    
+    # Graduate Level Sociology
+    sociology_graduate:
+      - ["mmlu_pro_sociology_mcq", "mmlu_pro_sociology_tf", "sociology_research"]     # MMLU-Pro + research
+      - ["sociology_research", "sociology_analysis"]                                    # Research focused
+    
+    # Undergraduate Level Political Science
+    political_science_undergraduate:
+      - ["mmlu_political_science_mcq", "mmlu_political_science_tf", "mmlu_pro_political_science_mcq", "political_science_long"]  # All datasets
+      - ["mmlu_pro_political_science_mcq", "mmlu_pro_political_science_tf", "political_science_long"]                         # MMLU-Pro + problems
+    
+    # Graduate Level Political Science
+    political_science_graduate:
+      - ["mmlu_pro_political_science_mcq", "mmlu_pro_political_science_tf", "political_science_research"]  # MMLU-Pro + research
+      - ["political_science_research", "political_science_analysis"]                                       # Research focused
+    
+    # Undergraduate Level Religious Studies
+    religious_studies_undergraduate:
+      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf", "mmlu_pro_religious_studies_mcq", "religious_studies_long"]  # All datasets
+      - ["mmlu_pro_religious_studies_mcq", "mmlu_pro_religious_studies_tf", "religious_studies_long"]                         # MMLU-Pro + problems
+    
+    # Graduate Level Religious Studies
+    religious_studies_graduate:
+      - ["mmlu_pro_religious_studies_mcq", "mmlu_pro_religious_studies_tf", "religious_studies_research"]  # MMLU-Pro + research
+      - ["religious_studies_research", "religious_studies_analysis"]                                       # Research focused
+    
+    # Undergraduate Level Machine Learning
+    machine_learning_undergraduate:
+      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf", "mmlu_pro_machine_learning_mcq", "machine_learning_long"]  # All datasets
+      - ["mmlu_pro_machine_learning_mcq", "mmlu_pro_machine_learning_tf", "machine_learning_long"]                           # MMLU-Pro + problems
+    
+    # Graduate Level Machine Learning
+    machine_learning_graduate:
+      - ["mmlu_pro_machine_learning_mcq", "mmlu_pro_machine_learning_tf", "machine_learning_research"]  # MMLU-Pro + research
+      - ["machine_learning_research", "machine_learning_analysis"]                                       # Research focused
+    
+    # Undergraduate Level Cybersecurity
+    cybersecurity_undergraduate:
+      - ["mmlu_cybersecurity_mcq", "mmlu_cybersecurity_tf", "mmlu_pro_cybersecurity_mcq", "cybersecurity_long"]  # All datasets
+      - ["mmlu_pro_cybersecurity_mcq", "mmlu_pro_cybersecurity_tf", "cybersecurity_long"]                       # MMLU-Pro + problems
+    
+    # Graduate Level Cybersecurity
+    cybersecurity_graduate:
+      - ["mmlu_pro_cybersecurity_mcq", "mmlu_pro_cybersecurity_tf", "cybersecurity_research"]  # MMLU-Pro + research
+      - ["cybersecurity_research", "cybersecurity_analysis"]                                 # Research focused
+    
+    # Graduate Level Geography
+    geography_graduate:
+      - ["mmlu_geography_mcq", "mmlu_geography_tf", "geography_research"]                    # MMLU + research
+      - ["geography_research", "geography_analysis"]                                         # Research focused
+    
+    # Graduate Level Sociology
+    sociology_graduate:
+      - ["mmlu_sociology_mcq", "mmlu_sociology_tf", "sociology_research"]                   # MMLU + research
+      - ["sociology_research", "sociology_analysis"]                                         # Research focused
+    
+    # Graduate Level Machine Learning
+    machine_learning_graduate:
+      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf", "machine_learning_research"]  # MMLU + research
+      - ["machine_learning_research", "machine_learning_analysis"]                             # Research focused
+
 
 # LaTeX template settings
 latex:

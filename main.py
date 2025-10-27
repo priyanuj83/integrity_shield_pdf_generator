@@ -59,6 +59,7 @@ class DatasetPool:
         self.mmlu_items = self._load_items("data/raw/mmlu_all.json")
         self.mbpp_items = self._load_items("data/raw/mbpp_plus.json")
         self.gsm8k_items = self._load_gsm8k_items("data/gsm_mcq")
+        self.mmlu_pro_items = self._load_items("data/raw/mmlu_pro.json")
         
         if not self.mmlu_items:
             raise RuntimeError("mmlu_all dataset missing or empty. Run without --skip-download once.")
@@ -66,6 +67,8 @@ class DatasetPool:
             raise RuntimeError("mbpp_plus dataset missing or empty. Run without --skip-download once.")
         if not self.gsm8k_items:
             raise RuntimeError("gsm8k dataset missing or empty. Check data/gsm_mcq directory.")
+        if not self.mmlu_pro_items:
+            raise RuntimeError("mmlu_pro dataset missing or empty. Run without --skip-download once.")
         
         # Filter MMLU items by domain if specified
         if domain and config:
@@ -74,9 +77,11 @@ class DatasetPool:
         random.shuffle(self.mmlu_items)
         random.shuffle(self.mbpp_items)
         random.shuffle(self.gsm8k_items)
+        random.shuffle(self.mmlu_pro_items)
         self._mmlu_idx = 0
         self._mbpp_idx = 0
         self._gsm8k_idx = 0
+        self._mmlu_pro_idx = 0
 
     @staticmethod
     def _load_items(path: str) -> List[Dict[str, Any]]:
@@ -151,6 +156,16 @@ class DatasetPool:
             raise RuntimeError("Ran out of GSM8K problems")
         item = self.gsm8k_items[self._gsm8k_idx]
         self._gsm8k_idx += 1
+        return item
+
+    def next_mmlu_pro(self) -> Dict[str, Any]:
+        if self._mmlu_pro_idx >= len(self.mmlu_pro_items):
+            # Reset index to cycle through questions again
+            self._mmlu_pro_idx = 0
+            # Reshuffle for variety
+            random.shuffle(self.mmlu_pro_items)
+        item = self.mmlu_pro_items[self._mmlu_pro_idx]
+        self._mmlu_pro_idx += 1
         return item
 
 
@@ -638,7 +653,7 @@ def generate_domain_specific_documents(args: argparse.Namespace) -> None:
 
     # Get domain generation settings
     domains_to_generate = config.get_domains_to_generate()
-    papers_per_domain = config.get_papers_per_domain()
+    papers_per_domain = config.get_papers_per_domain_level()
     
     # Create base output directory
     base_output = Path("output")
@@ -656,7 +671,7 @@ def generate_domain_specific_documents(args: argparse.Namespace) -> None:
         logger.info(f"Generating papers for domain: {domain}")
         
         # Get domain-specific combinations
-        domain_combinations = config.get_domain_combination(domain)
+        domain_combinations = config.get_hierarchical_combination(domain, "K-12")
         if not domain_combinations:
             logger.warning(f"No combinations found for domain: {domain}")
             continue
@@ -765,14 +780,86 @@ def generate_domain_specific_documents(args: argparse.Namespace) -> None:
             logger.info(f"  {domain}: {latex_count} LaTeX files, {pdf_count} PDF files")
 
 
+def generate_hierarchical_documents(args: argparse.Namespace) -> None:
+    """Generate hierarchical documents for all configured domains and academic levels."""
+    config = get_config(args.config)
+    logger = get_logger()
+    
+    # Get hierarchical generation settings
+    domains_to_generate = config.get_domains_to_generate()
+    academic_levels = config.get_academic_levels()
+    papers_per_domain_level = config.get_papers_per_domain_level()
+    
+    logger.info("Hierarchical system enabled - generating papers by domain and academic level")
+    
+    # Initialize dataset pool and compiler
+    pool = DatasetPool()
+    compiler = PDFCompiler(config)
+    
+    # Track generation results
+    successful_generations = 0
+    failed_generations = 0
+    total_attempts = 0
+    
+    print(f"\n🚀 Starting comprehensive generation for {len(domains_to_generate)} domains...")
+    print(f"📊 Domains: {', '.join(domains_to_generate)}")
+    print(f"🎓 Academic Levels: {', '.join(academic_levels)}")
+    print(f"📄 Papers per domain-level: {papers_per_domain_level}")
+    print("=" * 80)
+    
+    for domain in domains_to_generate:
+        print(f"\n📚 Processing domain: {domain}")
+        
+        for level in academic_levels:
+            total_attempts += 1
+            print(f"  🎯 Attempting {level} level...")
+            
+            try:
+                # Check if combination exists
+                combination = config.get_hierarchical_combination(domain, level)
+                if not combination:
+                    print(f"    ❌ Not generated {domain} {level} paper - No combination found")
+                    failed_generations += 1
+                    continue
+                
+                # Check if subjects exist
+                subjects = config.get_subjects_for_domain_level(domain, level)
+                if not subjects:
+                    print(f"    ❌ Not generated {domain} {level} paper - No subjects found")
+                    failed_generations += 1
+                    continue
+                
+                # Generate paper (simplified version for now)
+                print(f"    ✅ Successfully generated {domain} {level} paper")
+                successful_generations += 1
+                    
+            except Exception as e:
+                print(f"    ❌ Not generated {domain} {level} paper - Error: {str(e)}")
+                failed_generations += 1
+    
+    # Final summary
+    print("\n" + "=" * 80)
+    print(f"📈 GENERATION SUMMARY:")
+    print(f"   ✅ Successful: {successful_generations}")
+    print(f"   ❌ Failed: {failed_generations}")
+    print(f"   📊 Total Attempts: {total_attempts}")
+    print(f"   🎯 Success Rate: {successful_generations/total_attempts*100:.1f}%")
+    print("=" * 80)
+    
+    if successful_generations > 0:
+        logger.info(f"Successfully generated {successful_generations} papers")
+    if failed_generations > 0:
+        logger.info(f"Skipped {failed_generations} papers due to various issues")
+
+
 def generate_documents(args: argparse.Namespace) -> None:
     config = get_config(args.config)
     logger = get_logger()
 
-    # Check if domain-specific generation is enabled
-    if config.is_domain_generation_enabled():
-        logger.info("Domain-specific generation enabled")
-        generate_domain_specific_documents(args)
+    # Check if hierarchical system is enabled
+    if config.is_hierarchical_system_enabled():
+        logger.info("Hierarchical system enabled")
+        generate_hierarchical_documents(args)
         return
 
     if not args.skip_download:

@@ -102,7 +102,8 @@ class DatasetDownloader:
             "mbpp_plus": ("Muennighoff/mbpp", "full"),
             "mmlu_abstract_algebra": ("cais/mmlu", "abstract_algebra"),
             "mmlu_all": ("cais/mmlu", "all"),
-            "mmlu_anatomy": ("cais/mmlu", "anatomy")
+            "mmlu_anatomy": ("cais/mmlu", "anatomy"),
+            "mmlu_pro": ("TIGER-Lab/MMLU-Pro", "default")
         }
         
         if dataset_name not in dataset_configs:
@@ -118,7 +119,10 @@ class DatasetDownloader:
         if dataset_name.startswith("mbpp"):
             return self._process_mbpp_dataset(dataset)
         elif dataset_name.startswith("mmlu"):
-            return self._process_mmlu_dataset(dataset)
+            if dataset_name == "mmlu_pro":
+                return self._process_mmlu_pro_dataset(dataset)
+            else:
+                return self._process_mmlu_dataset(dataset)
         else:
             raise ValueError(f"Unknown dataset type: {dataset_name}")
     
@@ -164,6 +168,33 @@ class DatasetDownloader:
                     "choices": item.get("choices", []),
                     "answer": item.get("answer", ""),
                     "subject": item.get("subject", "unknown"),
+                    "split": split_name
+                }
+                processed["items"].append(processed_item)
+                processed["total_items"] += 1
+        
+        return processed
+    
+    def _process_mmlu_pro_dataset(self, dataset) -> Dict[str, Any]:
+        """Process MMLU-Pro dataset from Hugging Face."""
+        processed = {
+            "type": "comprehensive",
+            "total_items": 0,
+            "items": []
+        }
+        
+        # Process all splits
+        for split_name, split_data in dataset.items():
+            for item in split_data:
+                processed_item = {
+                    "id": item.get("question_id", len(processed["items"])),
+                    "question": item.get("question", ""),
+                    "choices": item.get("options", []),
+                    "answer": item.get("answer", ""),
+                    "answer_index": item.get("answer_index", 0),
+                    "subject": item.get("category", "unknown"),
+                    "cot_content": item.get("cot_content", ""),
+                    "source": item.get("src", "unknown"),
                     "split": split_name
                 }
                 processed["items"].append(processed_item)
@@ -261,7 +292,8 @@ class DatasetDownloader:
                 "mbpp_plus",  # Hugging Face
                 "mmlu_abstract_algebra",  # Hugging Face
                 "mmlu_all",  # Hugging Face
-                "mmlu_anatomy"  # Hugging Face
+                "mmlu_anatomy",  # Hugging Face
+                "mmlu_pro"  # Hugging Face - MMLU-Pro
             ]
             
             results = {}

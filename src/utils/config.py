@@ -161,54 +161,86 @@ class ConfigManager:
         domain_config = self.get_domain_generation_config()
         return domain_config.get('enabled', False)
     
+    def is_hierarchical_system_enabled(self) -> bool:
+        """Check if hierarchical system is enabled."""
+        domain_config = self.get_domain_generation_config()
+        return domain_config.get('use_hierarchical_system', False)
+    
     def get_domains_to_generate(self) -> List[str]:
         """Get list of domains to generate papers for."""
         domain_config = self.get_domain_generation_config()
         return domain_config.get('domains_to_generate', [])
     
-    def get_papers_per_domain(self) -> int:
-        """Get number of papers to generate per domain."""
+    def get_academic_levels(self) -> List[str]:
+        """Get list of academic levels for hierarchical generation."""
         domain_config = self.get_domain_generation_config()
-        return domain_config.get('papers_per_domain', 8)
+        return domain_config.get('academic_levels', ['K-12', 'Undergraduate', 'Graduate'])
     
-    def get_domain_combinations(self) -> Dict[str, List[List[str]]]:
-        """Get domain-specific question combinations."""
-        return self.config['document_generation'].get('domain_combinations', {})
     
-    def get_domain_combination(self, domain: str) -> List[List[str]]:
-        """Get question combinations for a specific domain."""
-        domain_combinations = self.get_domain_combinations()
-        return domain_combinations.get(domain, [])
+    def get_papers_per_domain_level(self) -> int:
+        """Get number of papers to generate per domain-level combination."""
+        domain_config = self.get_domain_generation_config()
+        return domain_config.get('papers_per_domain_level', 1)
     
-    def get_mmlu_subjects_for_domain(self, domain: str) -> List[str]:
-        """Get MMLU subjects for a specific domain."""
-        # Map domain names to config keys
-        domain_mapping = {
-            'mathematics': 'mmlu_math_subjects',
-            'physics': 'mmlu_physics_subjects',
-            'chemistry': 'mmlu_chemistry_subjects',
-            'biology': 'mmlu_biology_subjects',
-            'astronomy': 'mmlu_astronomy_subjects',
-            'computer_science_theory': 'mmlu_computer_science_theory_subjects',
-            'cybersecurity': 'mmlu_cybersecurity_subjects',
-            'ai_ml': 'mmlu_ai_ml_subjects',
-            'psychology': 'mmlu_psychology_subjects',
-            'economics': 'mmlu_economics_subjects',
-            'history': 'mmlu_history_subjects',
-            'geography': 'mmlu_geography_subjects',
-            'political_science': 'mmlu_political_science_subjects',
-            'sociology': 'mmlu_sociology_subjects',
-            'philosophy': 'mmlu_philosophy_subjects',
-            'religious_studies': 'mmlu_religious_studies_subjects',
-            'medical_sciences': 'mmlu_medical_sciences_subjects',
-            'legal_studies': 'mmlu_legal_studies_subjects',
-            'business_management': 'mmlu_business_management_subjects'
+    
+    def get_hierarchical_combinations(self) -> Dict[str, List[List[str]]]:
+        """Get hierarchical domain combinations."""
+        return self.config['document_generation'].get('hierarchical_combinations', {})
+    
+    def get_hierarchical_combination(self, domain: str, level: str) -> List[List[str]]:
+        """Get question combinations for a specific domain and academic level."""
+        hierarchical_combinations = self.get_hierarchical_combinations()
+        
+        # Map level names to the format used in config
+        level_mapping = {
+            "K-12": "k12",
+            "Undergraduate": "undergraduate", 
+            "Graduate": "graduate"
         }
         
-        domain_key = domain_mapping.get(domain, f"mmlu_{domain}_subjects")
-        if domain_key in self.config.get('datasets', {}):
-            return self.config['datasets'][domain_key].get('subjects', [])
-        return []
+        level_key = level_mapping.get(level, level.lower())
+        key = f"{domain}_{level_key}"
+        return hierarchical_combinations.get(key, [])
+    
+    def get_hierarchical_mappings(self) -> Dict[str, Dict[str, Any]]:
+        """Get all hierarchical subject mappings."""
+        mappings = {}
+        for key, value in self.config.get('datasets', {}).items():
+            if isinstance(value, dict) and 'academic_level' in value:
+                mappings[key] = value
+        return mappings
+    
+    def get_hierarchical_mapping(self, domain: str, level: str) -> Dict[str, Any]:
+        """Get hierarchical mapping for a specific domain and academic level."""
+        # Map level names to abbreviated forms used in config
+        level_mapping = {
+            "K-12": "k12",
+            "Undergraduate": "undergrad", 
+            "Graduate": "grad"
+        }
+        
+        # Map domain names to abbreviated forms used in config
+        domain_mapping = {
+            "mathematics": "math",
+            "computer_science": "cs",
+            "machine_learning": "machine_learning",  # Keep as is
+            "political_science": "political_science",  # Keep as is
+            "religious_studies": "religious_studies",  # Keep as is
+            "cybersecurity": "cybersecurity"  # Keep as is
+        }
+        
+        level_abbrev = level_mapping.get(level, level.lower())
+        domain_abbrev = domain_mapping.get(domain, domain)
+        key = f"mmlu_{domain_abbrev}_{level_abbrev}"
+        
+        mappings = self.get_hierarchical_mappings()
+        return mappings.get(key, {})
+    
+    def get_subjects_for_domain_level(self, domain: str, level: str) -> List[str]:
+        """Get subjects for a specific domain and academic level."""
+        mapping = self.get_hierarchical_mapping(domain, level)
+        return mapping.get('subjects', [])
+    
     
     def is_pdf_validation_enabled(self) -> bool:
         """Check if PDF validation is enabled."""
