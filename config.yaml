@@ -43,6 +43,14 @@ datasets:
     type: "comprehensive"
     format: "dataset"
   
+  ai2_arc:
+    source: "huggingface"
+    repo: "allenai/ai2_arc"
+    config: "ARC-Challenge"
+    type: "science"
+    format: "dataset"
+    academic_level: "K-12"
+  
   # Hierarchical subject mappings (combining MMLU + MMLU-Pro)
   
   # Mathematics Hierarchical Mappings
@@ -65,12 +73,6 @@ datasets:
     academic_level: "Graduate"
   
   # Physics Hierarchical Mappings
-  mmlu_physics_k12:
-    subjects: ["high_school_physics", "conceptual_physics"]
-    type: "stem"
-    domain: "Physics"
-    academic_level: "K-12"
-  
   mmlu_physics_undergrad:
     subjects: ["college_physics"]
     type: "stem"
@@ -84,12 +86,6 @@ datasets:
     academic_level: "Graduate"
   
   # Chemistry Hierarchical Mappings
-  mmlu_chemistry_k12:
-    subjects: ["high_school_chemistry"]
-    type: "stem"
-    domain: "Chemistry"
-    academic_level: "K-12"
-  
   mmlu_chemistry_undergrad:
     subjects: ["college_chemistry"]
     type: "stem"
@@ -103,12 +99,6 @@ datasets:
     academic_level: "Graduate"
   
   # Biology Hierarchical Mappings
-  mmlu_biology_k12:
-    subjects: ["high_school_biology"]
-    type: "stem"
-    domain: "Biology"
-    academic_level: "K-12"
-  
   mmlu_biology_undergrad:
     subjects: ["college_biology"]
     type: "stem"
@@ -120,6 +110,13 @@ datasets:
     type: "stem"
     domain: "Biology"
     academic_level: "Graduate"
+  
+  # AI2-ARC Science Hierarchical Mappings
+  arc_science_k12:
+    subjects: ["science"]
+    type: "science"
+    domain: "Science"
+    academic_level: "K-12"
   
   # Computer Science Hierarchical Mappings
   mmlu_cs_k12:
@@ -398,7 +395,7 @@ document_generation:
     enabled: true  # Enable domain-specific papers
     use_hierarchical_system: true  # Use hierarchical academic level system
     domains_to_generate: [
-      "mathematics", "physics", "chemistry", "biology",
+      "science", "mathematics", "physics", "chemistry", "biology",
       "computer_science", "engineering", "economics", "psychology", 
       "philosophy", "health", "business", "history", "geography",
       "sociology", "political_science", "religious_studies", 
@@ -408,11 +405,11 @@ document_generation:
     
     # Realistic academic level mappings for each domain
     domain_academic_levels:
+      # K-12 Science (general science concepts)
+      science: ["K-12"]
+      
       # Domains with K-12, Undergraduate, Graduate
       mathematics: ["K-12", "Undergraduate", "Graduate"]
-      physics: ["K-12", "Undergraduate", "Graduate"]
-      chemistry: ["K-12", "Undergraduate", "Graduate"]
-      biology: ["K-12", "Undergraduate", "Graduate"]
       computer_science: ["K-12", "Undergraduate", "Graduate"]
       economics: ["K-12", "Undergraduate", "Graduate"]
       health: ["K-12", "Undergraduate", "Graduate"]
@@ -420,6 +417,9 @@ document_generation:
       geography: ["K-12", "Undergraduate", "Graduate"]
       
       # Domains with Undergraduate, Graduate only (no K-12)
+      physics: ["Undergraduate", "Graduate"]
+      chemistry: ["Undergraduate", "Graduate"]
+      biology: ["Undergraduate", "Graduate"]
       engineering: ["Undergraduate", "Graduate"]
       psychology: ["Undergraduate", "Graduate"]
       philosophy: ["Undergraduate", "Graduate"]
@@ -443,6 +443,10 @@ document_generation:
       - ["gsm8k_math_long"]                                    # Pure GSM8K word problems
       - ["mmlu_math_mcq", "mmlu_math_tf"]                     # MMLU math theory only
     
+    # K-12 Level Science (using AI2-ARC dataset)
+    science_k12:
+      - ["arc_science_mcq", "arc_science_tf"]                      # AI2-ARC MCQ + True/False (40 marks)
+    
     # Undergraduate Level Mathematics
     mathematics_undergraduate:
       - ["mmlu_math_mcq", "mmlu_math_tf", "mmlu_pro_math_mcq", "gsm8k_math_long"]  # All datasets
@@ -454,11 +458,6 @@ document_generation:
       - ["mmlu_pro_math_mcq", "mmlu_pro_math_tf", "mbpp_coding_long"]            # MMLU-Pro + MBPP
       - ["mmlu_pro_math_mcq", "mmlu_pro_math_tf", "mmlu_pro_math_research"]      # MMLU-Pro research
       - ["mbpp_coding_long", "mmlu_pro_math_research"]                           # MBPP + research
-    
-    # K-12 Level Physics
-    physics_k12:
-      - ["mmlu_physics_mcq", "mmlu_physics_tf"]                 # MMLU physics only
-      - ["mmlu_physics_mcq", "mmlu_physics_tf", "physics_long"] # MMLU + problems
     
     # Undergraduate Level Physics
     physics_undergraduate:
@@ -472,11 +471,6 @@ document_generation:
       - ["mmlu_pro_physics_mcq", "physics_research"]                                      # Research focused
       - ["mmlu_pro_physics_mcq", "mmlu_pro_physics_tf", "gsm8k_math_long"]              # MMLU-Pro + math problems
     
-    # K-12 Level Chemistry
-    chemistry_k12:
-      - ["mmlu_chemistry_mcq", "mmlu_chemistry_tf"]             # MMLU chemistry only
-      - ["mmlu_chemistry_mcq", "mmlu_chemistry_tf", "chemistry_long"] # MMLU + problems
-    
     # Undergraduate Level Chemistry
     chemistry_undergraduate:
       - ["mmlu_chemistry_mcq", "mmlu_chemistry_tf", "mmlu_pro_chemistry_mcq", "chemistry_long"]  # All datasets
@@ -487,11 +481,6 @@ document_generation:
       - ["mmlu_pro_chemistry_mcq", "mmlu_pro_chemistry_tf", "mmlu_pro_chemistry_research"]       # MMLU-Pro research
       - ["mmlu_pro_chemistry_mcq", "mmlu_pro_chemistry_tf", "chemistry_long"]                   # MMLU-Pro + problems
       - ["mmlu_pro_chemistry_mcq", "chemistry_research"]                                        # Research focused
-    
-    # K-12 Level Biology
-    biology_k12:
-      - ["mmlu_biology_mcq", "mmlu_biology_tf"]                 # MMLU biology only
-      - ["mmlu_biology_mcq", "mmlu_biology_tf", "biology_long"] # MMLU + problems
     
     # Undergraduate Level Biology
     biology_undergraduate:

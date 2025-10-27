@@ -103,7 +103,8 @@ class DatasetDownloader:
             "mmlu_abstract_algebra": ("cais/mmlu", "abstract_algebra"),
             "mmlu_all": ("cais/mmlu", "all"),
             "mmlu_anatomy": ("cais/mmlu", "anatomy"),
-            "mmlu_pro": ("TIGER-Lab/MMLU-Pro", "default")
+            "mmlu_pro": ("TIGER-Lab/MMLU-Pro", "default"),
+            "ai2_arc": ("allenai/ai2_arc", "ARC-Challenge")
         }
         
         if dataset_name not in dataset_configs:
@@ -123,6 +124,8 @@ class DatasetDownloader:
                 return self._process_mmlu_pro_dataset(dataset)
             else:
                 return self._process_mmlu_dataset(dataset)
+        elif dataset_name == "ai2_arc":
+            return self._process_ai2_arc_dataset(dataset)
         else:
             raise ValueError(f"Unknown dataset type: {dataset_name}")
     
@@ -195,6 +198,38 @@ class DatasetDownloader:
                     "subject": item.get("category", "unknown"),
                     "cot_content": item.get("cot_content", ""),
                     "source": item.get("src", "unknown"),
+                    "split": split_name
+                }
+                processed["items"].append(processed_item)
+                processed["total_items"] += 1
+        
+        return processed
+    
+    def _process_ai2_arc_dataset(self, dataset) -> Dict[str, Any]:
+        """Process AI2-ARC dataset from Hugging Face."""
+        processed = {
+            "type": "science",
+            "total_items": 0,
+            "items": []
+        }
+        
+        # Process all splits (train, validation, test)
+        for split_name, split_data in dataset.items():
+            for item in split_data:
+                # Convert answer to index (A=0, B=1, C=2, D=3, E=4)
+                answer_text = item.get("answerKey", "")
+                answer_index = 0
+                if answer_text:
+                    answer_index = ord(answer_text.upper()) - ord('A')
+                
+                processed_item = {
+                    "id": item.get("id", len(processed["items"])),
+                    "question": item.get("question", ""),
+                    "choices": item.get("choices", []),
+                    "answer": answer_text,
+                    "answer_index": answer_index,
+                    "subject": "science",
+                    "difficulty": item.get("difficulty", "unknown"),
                     "split": split_name
                 }
                 processed["items"].append(processed_item)
@@ -293,7 +328,8 @@ class DatasetDownloader:
                 "mmlu_abstract_algebra",  # Hugging Face
                 "mmlu_all",  # Hugging Face
                 "mmlu_anatomy",  # Hugging Face
-                "mmlu_pro"  # Hugging Face - MMLU-Pro
+                "mmlu_pro",  # Hugging Face - MMLU-Pro
+                "ai2_arc"  # Hugging Face - AI2-ARC
             ]
             
             results = {}

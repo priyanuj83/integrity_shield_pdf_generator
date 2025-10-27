@@ -61,6 +61,7 @@ class DatasetPool:
         self.mbpp_items = self._load_items("data/raw/mbpp_plus.json")
         self.gsm8k_items = self._load_gsm8k_items("data/gsm_mcq")
         self.mmlu_pro_items = self._load_items("data/raw/mmlu_pro.json")
+        self.ai2_arc_items = self._load_items("data/raw/ai2_arc.json")
         
         if not self.mmlu_items:
             raise RuntimeError("mmlu_all dataset missing or empty. Run without --skip-download once.")
@@ -70,6 +71,8 @@ class DatasetPool:
             raise RuntimeError("gsm8k dataset missing or empty. Check data/gsm_mcq directory.")
         if not self.mmlu_pro_items:
             raise RuntimeError("mmlu_pro dataset missing or empty. Run without --skip-download once.")
+        if not self.ai2_arc_items:
+            raise RuntimeError("ai2_arc dataset missing or empty. Run without --skip-download once.")
         
         # Filter MMLU items by domain and level if specified
         if domain and config:
@@ -79,10 +82,12 @@ class DatasetPool:
         random.shuffle(self.mbpp_items)
         random.shuffle(self.gsm8k_items)
         random.shuffle(self.mmlu_pro_items)
+        random.shuffle(self.ai2_arc_items)
         self._mmlu_idx = 0
         self._mbpp_idx = 0
         self._gsm8k_idx = 0
         self._mmlu_pro_idx = 0
+        self._arc_idx = 0
 
     @staticmethod
     def _load_items(path: str) -> List[Dict[str, Any]]:
@@ -128,8 +133,8 @@ class DatasetPool:
         if level:
             domain_subjects = self.config.get_subjects_for_domain_level(domain, level)
         else:
-            # Fallback to domain-only filtering
-            domain_subjects = self.config.get_mmlu_subjects_for_domain(domain)
+            # Fallback to domain-only filtering (no level specified)
+        domain_subjects = self.config.get_mmlu_subjects_for_domain(domain)
         
         if not domain_subjects:
             return mmlu_items
@@ -175,6 +180,16 @@ class DatasetPool:
             random.shuffle(self.mmlu_pro_items)
         item = self.mmlu_pro_items[self._mmlu_pro_idx]
         self._mmlu_pro_idx += 1
+        return item
+
+    def next_arc(self) -> Dict[str, Any]:
+        if self._arc_idx >= len(self.ai2_arc_items):
+            # Reset index to cycle through questions again
+            self._arc_idx = 0
+            # Reshuffle for variety
+            random.shuffle(self.ai2_arc_items)
+        item = self.ai2_arc_items[self._arc_idx]
+        self._arc_idx += 1
         return item
 
 
@@ -651,6 +666,177 @@ def build_domain_mmlu_pro_tf(pool: DatasetPool, total: int, doc_id: str, domain:
     return questions
 
 
+def build_domain_arc_mcq(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
+    """Build domain-specific MCQ questions from AI2-ARC dataset."""
+    questions: List[Question] = []
+    for idx in range(total):
+        attempts = 0
+        item = None
+        while attempts < 500:
+            candidate = pool.next_arc()
+            question_raw = normalize_whitespace(candidate.get("question", ""))
+            choices_dict = candidate.get("choices", {})
+            choices_raw = choices_dict.get("text", [])[:len(LETTER_OPTIONS)] if isinstance(choices_dict, dict) else choices_dict[:len(LETTER_OPTIONS)]
+            if question_raw and choices_raw and all(normalize_whitespace(c) for c in choices_raw):
+                trimmed_question = normalize_whitespace(question_raw)
+                trimmed_question = trimmed_question.rstrip('.')
+                if (len(trimmed_question) <= 180
+                        and has_only_ascii(trimmed_question)
+                        and all(len(normalize_whitespace(c)) <= 90 and has_only_ascii(normalize_whitespace(c)) for c in choices_raw)):
+                    item = candidate
+                    break
+            attempts += 1
+        if item is None:
+            raise RuntimeError(f"Unable to find suitable AI2-ARC MCQ item from {domain} domain")
+        question_text = escape_latex(textwrap.shorten(normalize_whitespace(item.get("question", "")), width=160, placeholder="..."))
+        choices_dict = item.get("choices", {})
+        raw_choices_list = choices_dict.get("text", []) if isinstance(choices_dict, dict) else choices_dict
+        raw_choices = [normalize_whitespace(c) for c in raw_choices_list[:len(LETTER_OPTIONS)]]
+        options = [escape_latex(choice) for choice in raw_choices]
+        answer_idx = item.get("answer_index", 0)
+        correct_letter = LETTER_OPTIONS[answer_idx] if answer_idx < len(options) else "A"
+        correct_text = options[answer_idx] if answer_idx < len(options) else ""
+        formatted_options = options
+        subject = item.get("subject") or domain
+        questions.append(
+            Question(
+                qid=f"{doc_id}_{domain}_arc_mcq_{idx+1}",
+                qtype="mcq",
+                prompt=question_text or "Answer the question.",
+                marks=MCQ_MARKS,
+                options=formatted_options,
+                correct_answer=correct_letter,
+                explanation=f"Correct option: {correct_letter} - {correct_text}",
+                source_id=item.get("id"),
+                source_dataset=f"arc_{domain}_{subject}",
+            )
+        )
+    return questions
+
+
+def build_domain_arc_tf(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
+    """Build domain-specific True/False questions from AI2-ARC dataset."""
+    questions: List[Question] = []
+    for idx in range(total):
+        attempts = 0
+        item = None
+        while attempts < 500:
+            candidate = pool.next_arc()
+            question_raw = normalize_whitespace(candidate.get("question", ""))
+            choices_dict = candidate.get("choices", {})
+            choices = choices_dict.get("text", []) if isinstance(choices_dict, dict) else choices_dict
+            if question_raw and choices:
+                trimmed_question = normalize_whitespace(question_raw)
+                trimmed_question = trimmed_question.rstrip('.')
+                if (len(trimmed_question) <= 180
+                        and has_only_ascii(trimmed_question)
+                        and all(len(normalize_whitespace(c)) <= 90 and has_only_ascii(normalize_whitespace(c)) for c in choices)):
+                    item = candidate
+                    break
+            attempts += 1
+        if item is None:
+            raise RuntimeError(f"Unable to find suitable AI2-ARC True/False item from {domain} domain")
+        question_text = textwrap.shorten(normalize_whitespace(item.get("question", "")), width=140, placeholder="...")
+        choices_dict = item.get("choices", {})
+        choices_list = choices_dict.get("text", []) if isinstance(choices_dict, dict) else choices_dict
+        choices = [normalize_whitespace(c) for c in choices_list]
+        answer_idx = item.get("answer_index", 0)
+        correct_text = choices[answer_idx] if answer_idx < len(choices) else "N/A"
+        false_text = None
+        if choices:
+            incorrect = [c for i, c in enumerate(choices) if i != answer_idx]
+            if incorrect:
+                false_text = random.choice(incorrect)
+        make_true = random.random() < 0.5 or not false_text
+        if make_true:
+            statement = f"The correct answer to '{question_text}' is '{correct_text}'."
+            correct_answer = "True"
+            explanation = "Matches the AI2-ARC answer key."
+        else:
+            statement = f"The correct answer to '{question_text}' is '{false_text}'."
+            correct_answer = "False"
+            explanation = f"Actual answer is '{correct_text}'."
+        subject = item.get("subject") or domain
+        questions.append(
+            Question(
+                qid=f"{doc_id}_{domain}_arc_tf_{idx+1}",
+                qtype="tf",
+                prompt=escape_latex(statement),
+                marks=TF_MARKS,
+                options=["True", "False"],
+                correct_answer=correct_answer,
+                explanation=explanation,
+                source_id=item.get("id"),
+                source_dataset=f"arc_{domain}_{subject}",
+            )
+        )
+    return questions
+
+
+def generate_dynamic_question_distribution(total_marks: int = 40, available_types: List[str] = None) -> Dict[str, int]:
+    """
+    Generate a dynamic question distribution that sums to exactly total_marks.
+    
+    Args:
+        total_marks: Total marks for the paper (default: 40)
+        available_types: List of available question types (e.g., ['mcq', 'tf', 'long'])
+    
+    Returns:
+        Dictionary mapping question types to counts
+    """
+    if available_types is None:
+        available_types = ['mcq', 'tf', 'long']
+    
+    # Define marks per question type
+    marks_per_type = {
+        'mcq': 2,
+        'tf': 2, 
+        'long': 10
+    }
+    
+    # Filter available types to only include those with defined marks
+    valid_types = [t for t in available_types if t in marks_per_type]
+    
+    if not valid_types:
+        raise ValueError("No valid question types available")
+    
+    # Generate all possible valid combinations that sum to total_marks
+    valid_combinations = []
+    
+    def find_combinations(remaining_marks, current_distribution, remaining_types):
+        if remaining_marks == 0:
+            valid_combinations.append(current_distribution.copy())
+            return
+        if not remaining_types:
+            return
+        
+        qtype = remaining_types[0]
+        marks_per_q = marks_per_type[qtype]
+        max_count = remaining_marks // marks_per_q
+        
+        for count in range(0, max_count + 1):
+            marks_used = count * marks_per_q
+            if marks_used <= remaining_marks:
+                current_distribution[qtype] = count
+                find_combinations(
+                    remaining_marks - marks_used,
+                    current_distribution,
+                    remaining_types[1:]
+                )
+                del current_distribution[qtype]
+    
+    find_combinations(total_marks, {}, valid_types)
+    
+    if not valid_combinations:
+        # Fallback: use the first available type to fill all marks
+        qtype = valid_types[0]
+        count = total_marks // marks_per_type[qtype]
+        return {qtype: count}
+    
+    # Randomly select one of the valid combinations
+    return random.choice(valid_combinations)
+
+
 def build_domain_long(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
     """Build domain-specific long-form questions."""
     questions: List[Question] = []
@@ -718,8 +904,8 @@ def render_latex(title: str, total_marks: int, sections: Dict[str, List[Question
         questions = sections.get(qtype, [])
         if not questions:
             continue
-        marks = sum(q.marks for q in questions)
-        latex_parts.append(f"\\section*{{{section_titles[qtype]} ({marks} marks)}}")
+        section_marks = sum(q.marks for q in questions)
+        latex_parts.append(f"\\section*{{{section_titles[qtype]} ({section_marks} marks)}}")
         if qtype == "tf":
             latex_parts.append(r"\textit{Answer True or False and justify briefly.}")
         if qtype == "long":
@@ -805,18 +991,28 @@ def generate_domain_specific_documents(args: argparse.Namespace) -> None:
             combination = combo_rng.choice(domain_combinations)
             doc_id = f"{domain}_doc_{paper_idx+1:02d}"
             
-            # Build questions based on combination
+            # Build questions based on dynamic distribution
             sections: Dict[str, List[Question]] = {}
             
-            for qtype in combination:
-                if qtype.endswith("_mcq"):
-                    count = 10  # Default MCQ count
+            # Determine available question types from the combination
+            available_types = []
+            if any(qtype.endswith("_mcq") for qtype in combination):
+                available_types.append("mcq")
+            if any(qtype.endswith("_tf") for qtype in combination):
+                available_types.append("tf")
+            if any(qtype.endswith("_long") for qtype in combination):
+                available_types.append("long")
+            
+            # Generate dynamic question distribution
+            question_distribution = generate_dynamic_question_distribution(40, available_types)
+            
+            # Build questions based on dynamic distribution
+            for qtype, count in question_distribution.items():
+                if qtype == "mcq":
                     sections["mcq"] = build_domain_mcq(pool, count, doc_id, domain)
-                elif qtype.endswith("_tf"):
-                    count = 10  # Default TF count
+                elif qtype == "tf":
                     sections["tf"] = build_domain_tf(pool, count, doc_id, domain)
-                elif qtype.endswith("_long"):
-                    count = 2   # Default long-form count
+                elif qtype == "long":
                     sections["long"] = build_domain_long(pool, count, doc_id, domain)
             
             # Generate document
@@ -919,31 +1115,31 @@ def generate_hierarchical_documents(args: argparse.Namespace) -> None:
     failed_generations = 0
     total_attempts = 0
     
-    print(f"\n🚀 Starting comprehensive generation for {len(domains_and_levels)} domains...")
-    print(f"📊 Domains: {', '.join(domains_and_levels.keys())}")
-    print(f"📄 Papers per domain-level: {papers_per_domain_level}")
+    print(f"\nStarting comprehensive generation for {len(domains_and_levels)} domains...")
+    print(f"Domains: {', '.join(domains_and_levels.keys())}")
+    print(f"Papers per domain-level: {papers_per_domain_level}")
     print("=" * 80)
     
     for domain, academic_levels in domains_and_levels.items():
-        print(f"\n📚 Processing domain: {domain}")
-        print(f"   🎓 Academic Levels: {', '.join(academic_levels)}")
+        print(f"\nProcessing domain: {domain}")
+        print(f"   Academic Levels: {', '.join(academic_levels)}")
         
         for level in academic_levels:
             total_attempts += 1
-            print(f"  🎯 Attempting {level} level...")
+            print(f"  Attempting {level} level...")
             
             try:
                 # Check if combination exists
                 combination = config.get_hierarchical_combination(domain, level)
                 if not combination:
-                    print(f"    ❌ Not generated {domain} {level} paper - No combination found")
+                    print(f"    X Not generated {domain} {level} paper - No combination found")
                     failed_generations += 1
                     continue
                 
                 # Check if subjects exist
                 subjects = config.get_subjects_for_domain_level(domain, level)
                 if not subjects:
-                    print(f"    ❌ Not generated {domain} {level} paper - No subjects found")
+                    print(f"    X Not generated {domain} {level} paper - No subjects found")
                     failed_generations += 1
                     continue
                 
@@ -965,25 +1161,48 @@ def generate_hierarchical_documents(args: argparse.Namespace) -> None:
                     selected_combination = combo_rng.choice(combination)
                     doc_id = f"{domain}_{level.lower()}_doc_{paper_idx+1:02d}"
                     
-                    # Build questions based on combination
+                    # Build questions based on dynamic distribution
                     sections: Dict[str, List[Question]] = {}
                     
-                    for qtype in selected_combination:
-                        if qtype.endswith("_mcq"):
-                            count = 5  # MCQ count
-                            if qtype.startswith("mmlu_pro_"):
-                                sections["mcq"] = build_domain_mmlu_pro_mcq(pool, count, doc_id, domain)
-                            else:
-                                sections["mcq"] = build_domain_mcq(pool, count, doc_id, domain)
-                        elif qtype.endswith("_tf"):
-                            count = 5  # TF count
-                            if qtype.startswith("mmlu_pro_"):
-                                sections["tf"] = build_domain_mmlu_pro_tf(pool, count, doc_id, domain)
-                            else:
-                                sections["tf"] = build_domain_tf(pool, count, doc_id, domain)
-                        elif qtype.endswith("_long"):
-                            count = 2   # Long-form count
-                            sections["long"] = build_domain_long(pool, count, doc_id, domain)
+                    # Determine available question types from the combination
+                    available_types = []
+                    if any(qtype.endswith("_mcq") for qtype in selected_combination):
+                        available_types.append("mcq")
+                    if any(qtype.endswith("_tf") for qtype in selected_combination):
+                        available_types.append("tf")
+                    if any(qtype.endswith("_long") for qtype in selected_combination):
+                        available_types.append("long")
+                    
+                    # Generate dynamic question distribution
+                    question_distribution = generate_dynamic_question_distribution(40, available_types)
+                    
+                    # Build questions based on dynamic distribution
+                    for qtype, count in question_distribution.items():
+                        if qtype == "mcq":
+                            # Find the MCQ type from combination
+                            mcq_type = next((q for q in selected_combination if q.endswith("_mcq")), None)
+                            if mcq_type:
+                                if mcq_type.startswith("mmlu_pro_"):
+                                    sections["mcq"] = build_domain_mmlu_pro_mcq(pool, count, doc_id, domain)
+                                elif mcq_type.startswith("arc_"):
+                                    sections["mcq"] = build_domain_arc_mcq(pool, count, doc_id, domain)
+                                else:
+                                    sections["mcq"] = build_domain_mcq(pool, count, doc_id, domain)
+                        elif qtype == "tf":
+                            # Find the TF type from combination
+                            tf_type = next((q for q in selected_combination if q.endswith("_tf")), None)
+                            if tf_type:
+                                if tf_type.startswith("mmlu_pro_"):
+                                    sections["tf"] = build_domain_mmlu_pro_tf(pool, count, doc_id, domain)
+                                elif tf_type.startswith("arc_"):
+                                    sections["tf"] = build_domain_arc_tf(pool, count, doc_id, domain)
+                                else:
+                                    sections["tf"] = build_domain_tf(pool, count, doc_id, domain)
+                        elif qtype == "long":
+                            # Find the long type from combination
+                            long_type = next((q for q in selected_combination if q.endswith("_long")), None)
+                            if long_type:
+                                sections["long"] = build_domain_long(pool, count, doc_id, domain)
                     
                     # Generate document
                     marks = total_marks(sections)
@@ -1034,21 +1253,21 @@ def generate_hierarchical_documents(args: argparse.Namespace) -> None:
                     }
                     save_json(metadata, metadata_dir / f"{doc_id}_metadata.json")
                 
-                print(f"    ✅ Successfully generated {papers_per_domain_level} {domain} {level} papers")
+                print(f"    Successfully generated {papers_per_domain_level} {domain} {level} papers")
                 successful_generations += papers_per_domain_level
                     
             except Exception as e:
-                print(f"    ❌ Not generated {domain} {level} paper - Error: {str(e)}")
+                print(f"    X Not generated {domain} {level} paper - Error: {str(e)}")
                 logger.error(f"Error generating {domain} {level} paper: {e}")
                 failed_generations += 1
     
     # Final summary
     print("\n" + "=" * 80)
-    print(f"📈 GENERATION SUMMARY:")
-    print(f"   ✅ Successful: {successful_generations}")
-    print(f"   ❌ Failed: {failed_generations}")
-    print(f"   📊 Total Attempts: {total_attempts}")
-    print(f"   🎯 Success Rate: {successful_generations/total_attempts*100:.1f}%")
+    print(f"GENERATION SUMMARY:")
+    print(f"   Successful: {successful_generations}")
+    print(f"   Failed: {failed_generations}")
+    print(f"   Total Attempts: {total_attempts}")
+    print(f"   Success Rate: {successful_generations/total_attempts*100:.1f}%")
     print("=" * 80)
     
     if successful_generations > 0:
@@ -1195,7 +1414,7 @@ def main() -> int:
         generate_documents(args)
         return 0
     except Exception as exc:
-        print(f"❌ IntegrityShield generation failed: {exc}")
+        print(f"X IntegrityShield generation failed: {exc}")
         return 1
 
 

@@ -249,7 +249,12 @@ class ConfigManager:
         
         level_abbrev = level_mapping.get(level, level.lower())
         domain_abbrev = domain_mapping.get(domain, domain)
-        key = f"mmlu_{domain_abbrev}_{level_abbrev}"
+        
+        # Check for AI2-ARC mappings first (for Science domain)
+        if domain == "science":
+            key = f"arc_{domain_abbrev}_{level_abbrev}"
+        else:
+            key = f"mmlu_{domain_abbrev}_{level_abbrev}"
         
         mappings = self.get_hierarchical_mappings()
         return mappings.get(key, {})
