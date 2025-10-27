@@ -49,11 +49,12 @@ class Question:
 class DatasetPool:
     """Facilitates sampling across cached datasets with reproducible order."""
 
-    def __init__(self, seed: Optional[int] = None, domain: Optional[str] = None, config=None) -> None:
+    def __init__(self, seed: Optional[int] = None, domain: Optional[str] = None, level: Optional[str] = None, config=None) -> None:
         if seed is not None:
             random.seed(seed)
         self.config = config
         self.domain = domain
+        self.level = level
         
         # Load all datasets
         self.mmlu_items = self._load_items("data/raw/mmlu_all.json")
@@ -70,9 +71,9 @@ class DatasetPool:
         if not self.mmlu_pro_items:
             raise RuntimeError("mmlu_pro dataset missing or empty. Run without --skip-download once.")
         
-        # Filter MMLU items by domain if specified
+        # Filter MMLU items by domain and level if specified
         if domain and config:
-            self.mmlu_items = self._filter_mmlu_by_domain(self.mmlu_items, domain)
+            self.mmlu_items = self._filter_mmlu_by_domain_level(self.mmlu_items, domain, level)
         
         random.shuffle(self.mmlu_items)
         random.shuffle(self.mbpp_items)
@@ -118,13 +119,18 @@ class DatasetPool:
                         items.append(item)
         return items
     
-    def _filter_mmlu_by_domain(self, mmlu_items: List[Dict[str, Any]], domain: str) -> List[Dict[str, Any]]:
-        """Filter MMLU items by domain-specific subjects."""
+    def _filter_mmlu_by_domain_level(self, mmlu_items: List[Dict[str, Any]], domain: str, level: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Filter MMLU items by domain-specific subjects and academic level."""
         if not self.config:
             return mmlu_items
         
-        # Get subjects for this domain
-        domain_subjects = self.config.get_mmlu_subjects_for_domain(domain)
+        # Get subjects for this domain and level
+        if level:
+            domain_subjects = self.config.get_subjects_for_domain_level(domain, level)
+        else:
+            # Fallback to domain-only filtering
+            domain_subjects = self.config.get_mmlu_subjects_for_domain(domain)
+        
         if not domain_subjects:
             return mmlu_items
         
@@ -139,7 +145,10 @@ class DatasetPool:
     
     def next_mmlu(self) -> Dict[str, Any]:
         if self._mmlu_idx >= len(self.mmlu_items):
-            raise RuntimeError("Ran out of MMLU questions")
+            # Reset index to cycle through questions again
+            self._mmlu_idx = 0
+            # Reshuffle for variety
+            random.shuffle(self.mmlu_items)
         item = self.mmlu_items[self._mmlu_idx]
         self._mmlu_idx += 1
         return item
@@ -485,6 +494,51 @@ def build_domain_mcq(pool: DatasetPool, total: int, doc_id: str, domain: str) ->
     return questions
 
 
+def build_domain_mmlu_pro_mcq(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
+    """Build domain-specific MCQ questions from MMLU-Pro dataset."""
+    questions: List[Question] = []
+    for idx in range(total):
+        attempts = 0
+        item = None
+        while attempts < 500:
+            candidate = pool.next_mmlu_pro()
+            question_raw = normalize_whitespace(candidate.get("question", ""))
+            choices_raw = candidate.get("choices", [])[: len(LETTER_OPTIONS)]
+            if question_raw and choices_raw and all(normalize_whitespace(c) for c in choices_raw):
+                trimmed_question = normalize_whitespace(question_raw)
+                trimmed_question = trimmed_question.rstrip('.')
+                if (len(trimmed_question) <= 180
+                        and has_only_ascii(trimmed_question)
+                        and all(len(normalize_whitespace(c)) <= 90 and has_only_ascii(normalize_whitespace(c)) for c in choices_raw)):
+                    item = candidate
+                    break
+            attempts += 1
+        if item is None:
+            raise RuntimeError(f"Unable to find suitable MMLU-Pro MCQ item from {domain} domain")
+        question_text = escape_latex(textwrap.shorten(normalize_whitespace(item.get("question", "")), width=160, placeholder="..."))
+        raw_choices = [normalize_whitespace(c) for c in item.get("choices", [])[: len(LETTER_OPTIONS)]]
+        options = [escape_latex(choice) for choice in raw_choices]
+        answer_idx = parse_answer_index(item.get("answer"), len(options))
+        correct_letter = LETTER_OPTIONS[answer_idx] if options else "A"
+        correct_text = options[answer_idx] if options else ""
+        formatted_options = options
+        subject = item.get("subject") or domain
+        questions.append(
+            Question(
+                qid=f"{doc_id}_{domain}_mmlu_pro_mcq_{idx+1}",
+                qtype="mcq",
+                prompt=question_text or "Answer the question.",
+                marks=MCQ_MARKS,
+                options=formatted_options,
+                correct_answer=correct_letter,
+                explanation=f"Correct option: {correct_letter} - {correct_text}",
+                source_id=item.get("id"),
+                source_dataset=f"mmlu_pro_{domain}_{subject}",
+            )
+        )
+    return questions
+
+
 def build_domain_tf(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
     """Build domain-specific True/False questions from MMLU dataset."""
     questions: List[Question] = []
@@ -536,6 +590,62 @@ def build_domain_tf(pool: DatasetPool, total: int, doc_id: str, domain: str) -> 
                 explanation=explanation,
                 source_id=item.get("id"),
                 source_dataset=f"{domain}_{subject}",
+            )
+        )
+    return questions
+
+
+def build_domain_mmlu_pro_tf(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
+    """Build domain-specific True/False questions from MMLU-Pro dataset."""
+    questions: List[Question] = []
+    for idx in range(total):
+        attempts = 0
+        item = None
+        while attempts < 500:
+            candidate = pool.next_mmlu_pro()
+            question_raw = normalize_whitespace(candidate.get("question", ""))
+            choices = candidate.get("choices", [])
+            if question_raw and choices:
+                trimmed_question = normalize_whitespace(question_raw)
+                trimmed_question = trimmed_question.rstrip('.')
+                if (len(trimmed_question) <= 180
+                        and has_only_ascii(trimmed_question)
+                        and all(len(normalize_whitespace(c)) <= 90 and has_only_ascii(normalize_whitespace(c)) for c in choices)):
+                    item = candidate
+                    break
+            attempts += 1
+        if item is None:
+            raise RuntimeError(f"Unable to find suitable MMLU-Pro True/False item from {domain} domain")
+        question_text = textwrap.shorten(normalize_whitespace(item.get("question", "")), width=140, placeholder="...")
+        choices = [normalize_whitespace(c) for c in item.get("choices", [])]
+        answer_idx = parse_answer_index(item.get("answer"), len(choices))
+        correct_text = choices[answer_idx] if choices else "N/A"
+        false_text = None
+        if choices:
+            incorrect = [c for i, c in enumerate(choices) if i != answer_idx]
+            if incorrect:
+                false_text = random.choice(incorrect)
+        make_true = random.random() < 0.5 or not false_text
+        if make_true:
+            statement = f"The correct answer to '{question_text}' is '{correct_text}'."
+            correct_answer = "True"
+            explanation = "Matches the MMLU-Pro answer key."
+        else:
+            statement = f"The correct answer to '{question_text}' is '{false_text}'."
+            correct_answer = "False"
+            explanation = f"Actual answer is '{correct_text}'."
+        subject = item.get("subject") or domain
+        questions.append(
+            Question(
+                qid=f"{doc_id}_{domain}_mmlu_pro_tf_{idx+1}",
+                qtype="tf",
+                prompt=escape_latex(statement),
+                marks=TF_MARKS,
+                options=["True", "False"],
+                correct_answer=correct_answer,
+                explanation=explanation,
+                source_id=item.get("id"),
+                source_dataset=f"mmlu_pro_{domain}_{subject}",
             )
         )
     return questions
@@ -785,15 +895,23 @@ def generate_hierarchical_documents(args: argparse.Namespace) -> None:
     config = get_config(args.config)
     logger = get_logger()
     
+    if not args.skip_download:
+        downloader = DatasetDownloader(config, force_download=args.refresh_data)
+        downloader.download_all_datasets()
+    
     # Get hierarchical generation settings
-    domains_to_generate = config.get_domains_to_generate()
-    academic_levels = config.get_academic_levels()
+    domains_and_levels = config.get_domains_and_levels()
     papers_per_domain_level = config.get_papers_per_domain_level()
     
     logger.info("Hierarchical system enabled - generating papers by domain and academic level")
     
-    # Initialize dataset pool and compiler
-    pool = DatasetPool()
+    # Create base output directory
+    base_output = Path("output")
+    metadata_dir = Path("data/metadata_hierarchical")
+    gold_dir = Path("data/gold_labels_hierarchical")
+    metadata_dir.mkdir(parents=True, exist_ok=True)
+    gold_dir.mkdir(parents=True, exist_ok=True)
+    
     compiler = PDFCompiler(config)
     
     # Track generation results
@@ -801,14 +919,14 @@ def generate_hierarchical_documents(args: argparse.Namespace) -> None:
     failed_generations = 0
     total_attempts = 0
     
-    print(f"\n🚀 Starting comprehensive generation for {len(domains_to_generate)} domains...")
-    print(f"📊 Domains: {', '.join(domains_to_generate)}")
-    print(f"🎓 Academic Levels: {', '.join(academic_levels)}")
+    print(f"\n🚀 Starting comprehensive generation for {len(domains_and_levels)} domains...")
+    print(f"📊 Domains: {', '.join(domains_and_levels.keys())}")
     print(f"📄 Papers per domain-level: {papers_per_domain_level}")
     print("=" * 80)
     
-    for domain in domains_to_generate:
+    for domain, academic_levels in domains_and_levels.items():
         print(f"\n📚 Processing domain: {domain}")
+        print(f"   🎓 Academic Levels: {', '.join(academic_levels)}")
         
         for level in academic_levels:
             total_attempts += 1
@@ -829,12 +947,99 @@ def generate_hierarchical_documents(args: argparse.Namespace) -> None:
                     failed_generations += 1
                     continue
                 
-                # Generate paper (simplified version for now)
-                print(f"    ✅ Successfully generated {domain} {level} paper")
-                successful_generations += 1
+                # Create level-specific output directories
+                level_output_dir = base_output / domain / level.lower()
+                level_latex_dir = level_output_dir / "latex_documents"
+                level_pdf_dir = level_output_dir / "pdf_documents"
+                
+                level_latex_dir.mkdir(parents=True, exist_ok=True)
+                level_pdf_dir.mkdir(parents=True, exist_ok=True)
+                
+                # Create level-specific dataset pool
+                pool = DatasetPool(seed=args.seed, domain=domain, level=level, config=config)
+                combo_rng = random.Random(args.seed)
+                
+                # Generate papers for this domain-level combination
+                for paper_idx in range(papers_per_domain_level):
+                    # Select random combination for this domain-level
+                    selected_combination = combo_rng.choice(combination)
+                    doc_id = f"{domain}_{level.lower()}_doc_{paper_idx+1:02d}"
+                    
+                    # Build questions based on combination
+                    sections: Dict[str, List[Question]] = {}
+                    
+                    for qtype in selected_combination:
+                        if qtype.endswith("_mcq"):
+                            count = 5  # MCQ count
+                            if qtype.startswith("mmlu_pro_"):
+                                sections["mcq"] = build_domain_mmlu_pro_mcq(pool, count, doc_id, domain)
+                            else:
+                                sections["mcq"] = build_domain_mcq(pool, count, doc_id, domain)
+                        elif qtype.endswith("_tf"):
+                            count = 5  # TF count
+                            if qtype.startswith("mmlu_pro_"):
+                                sections["tf"] = build_domain_mmlu_pro_tf(pool, count, doc_id, domain)
+                            else:
+                                sections["tf"] = build_domain_tf(pool, count, doc_id, domain)
+                        elif qtype.endswith("_long"):
+                            count = 2   # Long-form count
+                            sections["long"] = build_domain_long(pool, count, doc_id, domain)
+                    
+                    # Generate document
+                    marks = total_marks(sections)
+                    title = f"{domain.replace('_', ' ').title()} - {level} Level Assessment {paper_idx+1}"
+                    latex_content = render_latex(title, marks, sections)
+                    latex_file = level_latex_dir / f"{doc_id}.tex"
+                    latex_file.write_text(latex_content, encoding="utf-8")
+                    
+                    pdf_file = compiler.compile_latex_to_pdf(latex_file, output_dir=level_pdf_dir)
+                    
+                    # Generate gold labels
+                    gold = {
+                        "document_id": doc_id,
+                        "domain": domain,
+                        "academic_level": level,
+                        "total_marks": marks,
+                        "subjects": subjects,
+                        "combination_used": selected_combination,
+                        "answers": [
+                            {
+                                "question_id": q.qid,
+                                "type": q.qtype,
+                                "correct_answer": q.correct_answer,
+                                "marks": q.marks,
+                                "explanation": q.explanation,
+                                "source_dataset": q.source_dataset,
+                                "source_id": q.source_id,
+                            }
+                            for questions in sections.values()
+                            for q in questions
+                        ],
+                    }
+                    save_json(gold, gold_dir / f"{doc_id}_gold.json")
+                    
+                    # Generate metadata
+                    metadata = {
+                        "document_id": doc_id,
+                        "domain": domain,
+                        "academic_level": level,
+                        "title": title,
+                        "total_marks": marks,
+                        "subjects": subjects,
+                        "combination_used": selected_combination,
+                        "latex_file": str(latex_file),
+                        "pdf_file": str(pdf_file),
+                        "generated_at": "2023-01-01",
+                        "version": "1.0"
+                    }
+                    save_json(metadata, metadata_dir / f"{doc_id}_metadata.json")
+                
+                print(f"    ✅ Successfully generated {papers_per_domain_level} {domain} {level} papers")
+                successful_generations += papers_per_domain_level
                     
             except Exception as e:
                 print(f"    ❌ Not generated {domain} {level} paper - Error: {str(e)}")
+                logger.error(f"Error generating {domain} {level} paper: {e}")
                 failed_generations += 1
     
     # Final summary

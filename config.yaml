@@ -53,7 +53,7 @@ datasets:
     academic_level: "K-12"
   
   mmlu_math_undergrad:
-    subjects: ["abstract_algebra", "college_mathematics", "math"]
+    subjects: ["abstract_algebra", "college_mathematics"]
     type: "stem"
     domain: "Mathematics"
     academic_level: "Undergraduate"
@@ -72,7 +72,7 @@ datasets:
     academic_level: "K-12"
   
   mmlu_physics_undergrad:
-    subjects: ["college_physics", "physics"]
+    subjects: ["college_physics"]
     type: "stem"
     domain: "Physics"
     academic_level: "Undergraduate"
@@ -91,7 +91,7 @@ datasets:
     academic_level: "K-12"
   
   mmlu_chemistry_undergrad:
-    subjects: ["college_chemistry", "chemistry"]
+    subjects: ["college_chemistry"]
     type: "stem"
     domain: "Chemistry"
     academic_level: "Undergraduate"
@@ -110,13 +110,13 @@ datasets:
     academic_level: "K-12"
   
   mmlu_biology_undergrad:
-    subjects: ["college_biology", "biology"]
+    subjects: ["college_biology"]
     type: "stem"
     domain: "Biology"
     academic_level: "Undergraduate"
   
   mmlu_biology_grad:
-    subjects: ["biology"]
+    subjects: ["biology", "anatomy"]
     type: "stem"
     domain: "Biology"
     academic_level: "Graduate"
@@ -323,71 +323,17 @@ datasets:
     domain: "Cybersecurity"
     academic_level: "Undergraduate"
   
-  # Missing K-12 Mappings
-  mmlu_engineering_k12:
-    subjects: ["electrical_engineering"]
-    type: "stem"
-    domain: "Engineering"
-    academic_level: "K-12"
-  
+  # Realistic K-12 Mappings (only for appropriate domains)
   mmlu_economics_k12:
     subjects: ["high_school_macroeconomics", "high_school_microeconomics"]
-    type: "social"
+    type: "social_science"
     domain: "Economics"
-    academic_level: "K-12"
-  
-  mmlu_psychology_k12:
-    subjects: ["high_school_psychology"]
-    type: "social"
-    domain: "Psychology"
-    academic_level: "K-12"
-  
-  mmlu_philosophy_k12:
-    subjects: ["formal_logic", "logical_fallacies", "moral_disputes", "moral_scenarios"]
-    type: "humanities"
-    domain: "Philosophy"
     academic_level: "K-12"
   
   mmlu_health_k12:
     subjects: ["nutrition"]
-    type: "stem"
+    type: "medical"
     domain: "Health"
-    academic_level: "K-12"
-  
-  mmlu_business_k12:
-    subjects: ["business_ethics"]
-    type: "social"
-    domain: "Business"
-    academic_level: "K-12"
-  
-  mmlu_sociology_k12:
-    subjects: ["sociology"]
-    type: "social"
-    domain: "Sociology"
-    academic_level: "K-12"
-  
-  mmlu_political_science_k12:
-    subjects: ["high_school_government_and_politics"]
-    type: "social"
-    domain: "Political Science"
-    academic_level: "K-12"
-  
-  mmlu_religious_studies_k12:
-    subjects: ["world_religions"]
-    type: "humanities"
-    domain: "Religious Studies"
-    academic_level: "K-12"
-  
-  mmlu_machine_learning_k12:
-    subjects: ["machine_learning"]
-    type: "stem"
-    domain: "Machine Learning"
-    academic_level: "K-12"
-  
-  mmlu_cybersecurity_k12:
-    subjects: ["computer_security"]
-    type: "stem"
-    domain: "Cybersecurity"
     academic_level: "K-12"
   
   # Missing Graduate Mappings
@@ -459,6 +405,33 @@ document_generation:
       "machine_learning", "cybersecurity", "astronomy"
     ]
     academic_levels: ["K-12", "Undergraduate", "Graduate"]
+    
+    # Realistic academic level mappings for each domain
+    domain_academic_levels:
+      # Domains with K-12, Undergraduate, Graduate
+      mathematics: ["K-12", "Undergraduate", "Graduate"]
+      physics: ["K-12", "Undergraduate", "Graduate"]
+      chemistry: ["K-12", "Undergraduate", "Graduate"]
+      biology: ["K-12", "Undergraduate", "Graduate"]
+      computer_science: ["K-12", "Undergraduate", "Graduate"]
+      economics: ["K-12", "Undergraduate", "Graduate"]
+      health: ["K-12", "Undergraduate", "Graduate"]
+      history: ["K-12", "Undergraduate", "Graduate"]
+      geography: ["K-12", "Undergraduate", "Graduate"]
+      
+      # Domains with Undergraduate, Graduate only (no K-12)
+      engineering: ["Undergraduate", "Graduate"]
+      psychology: ["Undergraduate", "Graduate"]
+      philosophy: ["Undergraduate", "Graduate"]
+      business: ["Undergraduate", "Graduate"]
+      sociology: ["Undergraduate", "Graduate"]
+      political_science: ["Undergraduate", "Graduate"]
+      religious_studies: ["Undergraduate", "Graduate"]
+      machine_learning: ["Undergraduate", "Graduate"]
+      cybersecurity: ["Undergraduate", "Graduate"]
+      
+      # Domains with Graduate only (advanced subjects)
+      astronomy: ["Graduate"]
     papers_per_domain_level: 1  # Generate 1 paper per domain-level combination
     use_legacy_combinations: false  # Use hierarchical combinations instead
   
@@ -495,7 +468,9 @@ document_generation:
     # Graduate Level Physics
     physics_graduate:
       - ["mmlu_pro_physics_mcq", "mmlu_pro_physics_tf", "mmlu_pro_physics_research"]     # MMLU-Pro research
+      - ["mmlu_pro_physics_mcq", "mmlu_pro_physics_tf", "physics_long"]                 # MMLU-Pro + problems
       - ["mmlu_pro_physics_mcq", "physics_research"]                                      # Research focused
+      - ["mmlu_pro_physics_mcq", "mmlu_pro_physics_tf", "gsm8k_math_long"]              # MMLU-Pro + math problems
     
     # K-12 Level Chemistry
     chemistry_k12:
@@ -510,6 +485,7 @@ document_generation:
     # Graduate Level Chemistry
     chemistry_graduate:
       - ["mmlu_pro_chemistry_mcq", "mmlu_pro_chemistry_tf", "mmlu_pro_chemistry_research"]       # MMLU-Pro research
+      - ["mmlu_pro_chemistry_mcq", "mmlu_pro_chemistry_tf", "chemistry_long"]                   # MMLU-Pro + problems
       - ["mmlu_pro_chemistry_mcq", "chemistry_research"]                                        # Research focused
     
     # K-12 Level Biology
@@ -525,6 +501,7 @@ document_generation:
     # Graduate Level Biology
     biology_graduate:
       - ["mmlu_pro_biology_mcq", "mmlu_pro_biology_tf", "mmlu_pro_biology_research"]     # MMLU-Pro research
+      - ["mmlu_pro_biology_mcq", "mmlu_pro_biology_tf", "biology_long"]                 # MMLU-Pro + problems
       - ["mmlu_pro_biology_mcq", "biology_research"]                                     # Research focused
     
     # Undergraduate Level Computer Science
@@ -593,75 +570,25 @@ document_generation:
       - ["mmlu_astronomy_mcq", "mmlu_astronomy_tf", "astronomy_research"]                      # MMLU + research
       - ["astronomy_research", "astronomy_analysis"]                                             # Research focused
     
-    # K-12 Level Engineering (basic engineering concepts)
-    engineering_k12:
-      - ["mmlu_engineering_mcq", "mmlu_engineering_tf"]                    # MMLU engineering basics
-      - ["mmlu_engineering_mcq", "mmlu_engineering_tf", "engineering_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Economics
-    economics_k12:
-      - ["mmlu_economics_mcq", "mmlu_economics_tf"]                        # MMLU economics basics
-      - ["mmlu_economics_mcq", "mmlu_economics_tf", "economics_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Psychology
-    psychology_k12:
-      - ["mmlu_psychology_mcq", "mmlu_psychology_tf"]                      # MMLU psychology basics
-      - ["mmlu_psychology_mcq", "mmlu_psychology_tf", "psychology_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Sociology
-    sociology_k12:
-      - ["mmlu_sociology_mcq", "mmlu_sociology_tf"]                        # MMLU sociology basics
-      - ["mmlu_sociology_mcq", "mmlu_sociology_tf", "sociology_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Political Science
-    political_science_k12:
-      - ["mmlu_political_science_mcq", "mmlu_political_science_tf"]        # MMLU political science basics
-      - ["mmlu_political_science_mcq", "mmlu_political_science_tf", "political_science_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Religious Studies
-    religious_studies_k12:
-      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf"]        # MMLU religious studies basics
-      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf", "religious_studies_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Machine Learning
-    machine_learning_k12:
-      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf"]          # MMLU ML basics
-      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf", "machine_learning_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Cybersecurity
-    cybersecurity_k12:
-      - ["mmlu_cybersecurity_mcq", "mmlu_cybersecurity_tf"]                # MMLU cybersecurity basics
-      - ["mmlu_cybersecurity_mcq", "mmlu_cybersecurity_tf", "cybersecurity_basic_long"]  # MMLU + basics
-    
-    # K-12 Level Computer Science
+    # K-12 Level Computer Science (basic programming concepts)
     computer_science_k12:
       - ["mmlu_cs_mcq", "mmlu_cs_tf"]                           # MMLU CS basics
       - ["mmlu_cs_mcq", "mmlu_cs_tf", "cs_basic_long"]          # MMLU + basics
     
-    # K-12 Level Philosophy
-    philosophy_k12:
-      - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf"]            # MMLU philosophy basics
-      - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf", "philosophy_basic_long"]    # MMLU + basics
+    # K-12 Level Health (basic health/nutrition)
+    health_k12:
+      - ["mmlu_health_mcq", "mmlu_health_tf"]                    # MMLU health basics
+      - ["mmlu_health_mcq", "mmlu_health_tf", "health_basic_long"]  # MMLU + basics
     
     # Undergraduate Level Philosophy
     philosophy_undergraduate:
       - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf", "mmlu_pro_philosophy_mcq", "philosophy_long"]  # All datasets
       - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf", "philosophy_long"]                     # MMLU-Pro + problems
     
-    # K-12 Level Health
-    health_k12:
-      - ["mmlu_health_mcq", "mmlu_health_tf"]                    # MMLU health basics
-      - ["mmlu_health_mcq", "mmlu_health_tf", "health_basic_long"]  # MMLU + basics
-    
     # Undergraduate Level Health
     health_undergraduate:
       - ["mmlu_health_mcq", "mmlu_health_tf", "mmlu_pro_health_mcq", "health_long"]  # All datasets
       - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf", "health_long"]                 # MMLU-Pro + problems
-    
-    # K-12 Level Business
-    business_k12:
-      - ["mmlu_business_mcq", "mmlu_business_tf"]                 # MMLU business basics
-      - ["mmlu_business_mcq", "mmlu_business_tf", "business_basic_long"]  # MMLU + basics
     
     # Undergraduate Level Business
     business_undergraduate:

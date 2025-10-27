@@ -176,6 +176,24 @@ class ConfigManager:
         domain_config = self.get_domain_generation_config()
         return domain_config.get('academic_levels', ['K-12', 'Undergraduate', 'Graduate'])
     
+    def get_academic_levels_for_domain(self, domain: str) -> List[str]:
+        """Get academic levels for a specific domain."""
+        domain_config = self.get_domain_generation_config()
+        domain_academic_levels = domain_config.get('domain_academic_levels', {})
+        return domain_academic_levels.get(domain, ['K-12', 'Undergraduate', 'Graduate'])
+    
+    def get_domains_and_levels(self) -> Dict[str, List[str]]:
+        """Get all domains with their appropriate academic levels."""
+        domain_config = self.get_domain_generation_config()
+        domains_to_generate = domain_config.get('domains_to_generate', [])
+        domain_academic_levels = domain_config.get('domain_academic_levels', {})
+        
+        result = {}
+        for domain in domains_to_generate:
+            result[domain] = domain_academic_levels.get(domain, ['K-12', 'Undergraduate', 'Graduate'])
+        
+        return result
+    
     
     def get_papers_per_domain_level(self) -> int:
         """Get number of papers to generate per domain-level combination."""
