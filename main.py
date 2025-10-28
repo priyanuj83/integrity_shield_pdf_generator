@@ -74,9 +74,10 @@ class DatasetPool:
         if not self.ai2_arc_items:
             raise RuntimeError("ai2_arc dataset missing or empty. Run without --skip-download once.")
         
-        # Filter MMLU items by domain and level if specified
+        # Filter MMLU and MMLU-Pro items by domain and level if specified
         if domain and config:
             self.mmlu_items = self._filter_mmlu_by_domain_level(self.mmlu_items, domain, level)
+            self.mmlu_pro_items = self._filter_mmlu_by_domain_level(self.mmlu_pro_items, domain, level)
         
         random.shuffle(self.mmlu_items)
         random.shuffle(self.mbpp_items)
@@ -134,7 +135,7 @@ class DatasetPool:
             domain_subjects = self.config.get_subjects_for_domain_level(domain, level)
         else:
             # Fallback to domain-only filtering (no level specified)
-        domain_subjects = self.config.get_mmlu_subjects_for_domain(domain)
+            domain_subjects = self.config.get_mmlu_subjects_for_domain(domain)
         
         if not domain_subjects:
             return mmlu_items
@@ -840,6 +841,10 @@ def generate_dynamic_question_distribution(total_marks: int = 40, available_type
 def build_domain_long(pool: DatasetPool, total: int, doc_id: str, domain: str) -> List[Question]:
     """Build domain-specific long-form questions."""
     questions: List[Question] = []
+    
+    # Only generate long-form questions for domains that have appropriate datasets
+    programming_domains = {"computer_science", "cybersecurity", "machine_learning"}
+    
     for idx in range(total):
         if domain == "mathematics":
             # Use GSM8K for math long-form questions
@@ -862,8 +867,8 @@ def build_domain_long(pool: DatasetPool, total: int, doc_id: str, domain: str) -
                         source_dataset="gsm8k_math",
                     )
                 )
-        else:
-            # Use MBPP+ for other domains (CS, etc.)
+        elif domain in programming_domains:
+            # Use MBPP+ for programming-related domains only
             item = pool.next_mbpp()
             prompt = escape_latex(textwrap.fill(normalize_whitespace(item.get("text", "Explain the solution.")), width=90))
             answer_summary = escape_latex(summarise_mbpp_answer(item) or "Refer to reference implementation in MBPP dataset.")
@@ -881,6 +886,11 @@ def build_domain_long(pool: DatasetPool, total: int, doc_id: str, domain: str) -
                     source_dataset=dataset_name,
                 )
             )
+        else:
+            # For other domains, skip long-form questions to avoid inappropriate content
+            # This ensures domain-specificity is maintained
+            pass
+    
     return questions
 
 

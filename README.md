@@ -39,6 +39,8 @@ integrity_shield-sample_pdfs/
 ├── output/                  # Generated papers (hierarchical structure)
 │   ├── science/             # K-12 Science (AI2-ARC dataset)
 │   │   └── k-12/
+│   ├── religious_studies/   # K-12 Religious Studies (world_religions)
+│   │   └── k-12/
 │   ├── mathematics/
 │   │   ├── k-12/
 │   │   ├── undergraduate/
@@ -78,9 +80,11 @@ integrity_shield-sample_pdfs/
 14. **Business** - Business studies to graduate business
 15. **Sociology** - Undergraduate to graduate sociology
 16. **Political Science** - Political studies to graduate level
-17. **Religious Studies** - Undergraduate to graduate studies
-18. **Machine Learning** - Advanced undergraduate to graduate ML
-19. **Cybersecurity** - Advanced undergraduate to graduate cybersecurity
+17. **Machine Learning** - Advanced undergraduate to graduate ML
+18. **Cybersecurity** - Advanced undergraduate to graduate cybersecurity
+
+### **🏫 K-12 Only (School-Level Subjects)**
+19. **Religious Studies** - K-12 religious education using world_religions dataset
 
 ### **🔬 Graduate Only (Highly Specialized)**
 20. **Astronomy** - Graduate-level astronomy only
@@ -105,6 +109,8 @@ integrity_shield-sample_pdfs/
 ## 🔧 **Recent Fixes & Improvements**
 
 ### **✅ Issue Resolution (October 27, 2025)**
+- **Fixed Domain-Specificity**: Resolved mixed question issues by adding MMLU-Pro dataset filtering
+- **Religious Studies K-12**: Moved Religious Studies to K-12 only (more realistic for schools)
 - **Fixed AI2-ARC Dataset Processing**: Resolved `slice(None, 5, None)` error by properly handling dictionary-based choices structure
 - **Perfect 40 Marks**: All papers now generate exactly 40 marks total (previously some had 20 marks)
 - **Science K-12 Working**: Science domain now successfully generates papers with AI2-ARC dataset
@@ -112,6 +118,8 @@ integrity_shield-sample_pdfs/
 - **Dynamic Distribution**: Enhanced algorithm ensures 100% accuracy in mark calculation
 
 ### **🎯 Key Technical Fixes**
+- **Dataset Filtering**: Added MMLU-Pro filtering in `DatasetPool` to ensure domain-specificity
+- **Religious Studies Configuration**: Updated to use K-12 only with `world_religions` from MMLU
 - **AI2-ARC Choices Handling**: Updated `build_domain_arc_mcq` and `build_domain_arc_tf` functions to access `choices['text']` instead of treating choices as a list
 - **Error Recovery**: Improved fallback mechanisms for dataset processing
 - **Mark Validation**: Dynamic distribution algorithm guarantees exact 40 marks per paper
@@ -200,6 +208,8 @@ Each generated paper includes:
 - **LaTeX compilation errors**: Check LaTeX installation and file permissions
 - **Unicode encoding errors**: Terminal encoding issues with emojis (fixed in code)
 - **AI2-ARC processing**: Dictionary-based choices structure properly handled
+- **Mixed questions**: Fixed by adding MMLU-Pro dataset filtering for domain-specificity
+- **Religious Studies errors**: Fixed by moving to K-12 only and using correct MMLU dataset
 
 ### **Logging**
 - **Detailed logs**: Check `logs/integrity_shield.log` for comprehensive error information
@@ -217,5 +227,5 @@ Each generated paper includes:
 ---
 
 **Last Updated**: October 27, 2025  
-**Version**: Dynamic Question Distribution Pipeline v4.1  
-**Status**: ✅ Production Ready - 100% Success Rate Achieved
+**Version**: Dynamic Question Distribution Pipeline v4.2  
+**Status**: ✅ Production Ready - 100% Success Rate + Domain-Specificity Achieved

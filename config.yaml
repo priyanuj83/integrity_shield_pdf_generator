@@ -300,11 +300,6 @@ datasets:
     academic_level: "Undergraduate"
   
   # Religious Studies Hierarchical Mappings
-  mmlu_religious_studies_undergrad:
-    subjects: ["world_religions"]
-    type: "humanities"
-    domain: "Religious Studies"
-    academic_level: "Undergraduate"
   
   # Machine Learning/AI Hierarchical Mappings
   mmlu_ai_undergrad:
@@ -352,11 +347,11 @@ datasets:
     domain: "Political Science"
     academic_level: "Graduate"
   
-  mmlu_religious_studies_grad:
+  mmlu_religious_studies_k12:
     subjects: ["world_religions"]
     type: "humanities"
     domain: "Religious Studies"
-    academic_level: "Graduate"
+    academic_level: "K-12"
   
   mmlu_machine_learning_undergrad:
     subjects: ["machine_learning"]
@@ -426,7 +421,7 @@ document_generation:
       business: ["Undergraduate", "Graduate"]
       sociology: ["Undergraduate", "Graduate"]
       political_science: ["Undergraduate", "Graduate"]
-      religious_studies: ["Undergraduate", "Graduate"]
+      religious_studies: ["K-12"]
       machine_learning: ["Undergraduate", "Graduate"]
       cybersecurity: ["Undergraduate", "Graduate"]
       
@@ -634,15 +629,9 @@ document_generation:
       - ["mmlu_pro_political_science_mcq", "mmlu_pro_political_science_tf", "political_science_research"]  # MMLU-Pro + research
       - ["political_science_research", "political_science_analysis"]                                       # Research focused
     
-    # Undergraduate Level Religious Studies
-    religious_studies_undergraduate:
-      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf", "mmlu_pro_religious_studies_mcq", "religious_studies_long"]  # All datasets
-      - ["mmlu_pro_religious_studies_mcq", "mmlu_pro_religious_studies_tf", "religious_studies_long"]                         # MMLU-Pro + problems
-    
-    # Graduate Level Religious Studies
-    religious_studies_graduate:
-      - ["mmlu_pro_religious_studies_mcq", "mmlu_pro_religious_studies_tf", "religious_studies_research"]  # MMLU-Pro + research
-      - ["religious_studies_research", "religious_studies_analysis"]                                       # Research focused
+    # K-12 Level Religious Studies
+    religious_studies_k12:
+      - ["mmlu_religious_studies_mcq", "mmlu_religious_studies_tf"]  # MMLU world_religions for K-12
     
     # Undergraduate Level Machine Learning
     machine_learning_undergraduate:
