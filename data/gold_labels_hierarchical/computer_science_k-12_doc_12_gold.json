@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_12",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A group of cookies stored by the user's web browser can track online behavior and preferences, potentially revealing sensitive personal information to advertisers and third parties, thereby significantly compromising user privacy.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3267
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 5 because in Python, the modulo operator (%) has higher precedence than addition (+), so the expression is evaluated as 4 + (3 % 2), which equals 4 + 1, resulting in 5.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3250
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is [11,15,19] because the slicing operation b[::2] selects every second element from the list b, starting from the first element at index 0.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it equals 14 in the 16s place (E) and 7 in the 1s place, resulting in the hexadecimal representation E7.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "O(1) is the smallest asymptotic notation because it represents a constant time complexity that does not grow with the size of the input, unlike other notations such as O(n), O(n log n), or O(n^2), which indicate increasing time complexities as the input size increases.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, floor division is performed using the operator '//' instead of the operator '/', which is used for regular division.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Authentication is compromised because it relies on verifying the identity of a user, and if an unauthorized individual gains access using stolen credentials, the system cannot accurately confirm the legitimate user's identity.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A distributed denial-of-service (DDoS) attack is characterized by the coordinated effort of multiple compromised computers, known as a botnet, that overwhelm a target's resources by sending a high volume of traffic simultaneously.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in Python, list slicing with the expression list[1:3] retrieves the elements at index 1 and index 2 from the given list, which are 786 and 2.23, resulting in the sublist [786, 2.23].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3223
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, variable names are considered different if they differ in capitalization, so 'Variable' and 'variable' are treated as separate identifiers due to the language's case sensitivity.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def get_total_number_of_sequences(m,n): | return T[m][n]",
+      "marks": 10,
+      "explanation": "correct because it utilizes a dynamic programming approach by storing the computed values in a table T, where T[m][n] represents the total number of valid sequences of length n with the maximum value m, effectively encapsulating the problem constraints of the sequence formation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 239
+    },
+    {
+      "question_id": "computer_science_k-12_doc_12_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def concatenate_elements(test_tup): | return (res)",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to define a function that processes tuples, suggesting that it will return a result based on concatenating adjacent elements, which is the core requirement of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 206
+    }
+  ]
+}

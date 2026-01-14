@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 4 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Best-subset selection; B) Forward stepwise selection; C) Forward stage wise selection; D) All of the above
+\\ \textit{Note:} The correct answer is Forward stagewise selection because this method sequentially adds features based on their contribution to the model's performance, which can lead to a different model compared to the final model obtained after fully identifying the optimal subset of features through other selection processes.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Increase bias; B) Decrease bias; C) Increase variance; D) Decrease variance
+\\ \textit{Note:} Averaging the output of multiple decision trees reduces variance by mitigating the impact of individual model errors, leading to a more stable and generalized prediction.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) pure; B) not pure; C) useful; D) useless
+\\ \textit{Note:} High entropy indicates a high level of disorder or uncertainty in the classification partitions, meaning that the classes within those partitions are mixed and not predominantly one class, resulting in impure classifications.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Overfitting is more likely when the training data is small because the model may learn noise rather than general patterns, while a small hypothesis space restricts the model's capacity to fit the data, reducing the risk of overfitting.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Penn Treebank is primarily focused on syntactic and grammatical annotation of a diverse corpus of English text, including news articles and other written materials, rather than specifically annotating book reviews for sentiment analysis.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Increasing the number of training examples generally leads to lower variance in the model's predictions, as it provides more information for the model to learn from, thereby reducing overfitting to the training data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} This statement is false because there are various effective spatial clustering methods beyond K-means and grid-based techniques, such as hierarchical clustering, DBSCAN, and OPTICS, which can better handle different data distributions and densities.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the computation of the gradient descent update involves calculating the gradient of the loss function with respect to each of the D features, resulting in a linear time complexity of O(D) for each update step.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An excessively large step size can cause the optimization algorithm to overshoot the minimum of the loss function, leading to erratic updates and ultimately resulting in increased training loss over epochs due to instability in the learning process.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_Min\_Diff(arr,n): | return diff
+\\ \textit{Note:} correct because it outlines the definition of a Python function that aims to compute the minimum difference between any two elements in an array, which is a fundamental task in data analysis and machine learning for understanding variability within datasets.
+\item \textbf{Answer:} def odd\_position(nums): | return all(nums[i]\%2==i\%2 for i in range(len(nums)))
+\\ \textit{Note:} The function correctly uses a generator expression to iterate through the indices of the list, checking that each element at an odd index is odd by comparing the modulus of the element with 2 to the modulus of the index with 2, ensuring the condition holds for all relevant indices.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

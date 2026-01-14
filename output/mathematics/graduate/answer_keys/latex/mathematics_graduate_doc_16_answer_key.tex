@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Graduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) sqrt(2); B) -2; C) 1; D) 0; E) -1/2
+\\ \textit{Note:} The correct answer is 1 because, by the inverse function theorem, the derivative of the inverse function g at a point is the reciprocal of the derivative of the original function f at the corresponding point, and since f'(x) = 1 - sin(x), at the point where f(x) = 1, we find that f'(0) = 1, thus g'(1) = 1/f'(0) = 1.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 3; B) 10; C) 0; D) 12; E) 5
+\\ \textit{Note:} The degree of the field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q is 3 because the minimal polynomial of sqrt(2) over Q has degree 2, introducing a quadratic extension, and the minimal polynomial of sqrt(3) over Q(sqrt(2)) also has degree 2, but since sqrt(3) is not expressible in terms of Q(sqrt(2)), we have a total extension of degree 2 * 1.5, yielding an overall degree of 3 when considering the linearity of sqrt(18).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) It will remain the same.; B) It will increase by 30 points.; C) It will increase by 10 points.; D) It will decrease by 10 points.; E) It will remain unchanged if the other scores also increase by 40 points.
+\\ \textit{Note:} The mean will remain the same because increasing only the largest score does not change the total number of scores or the sum of the other scores, thus maintaining the overall average when recalculated.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 42; B) 1; C) 2; D) 40; E) 22
+\\ \textit{Note:} The second number in the row of Pascal's triangle that has 43 numbers corresponds to the binomial coefficient C(42, 1), which equals 42, as each row in Pascal's triangle represents the coefficients of the expanded form of (a + $b)^n$, where n is the row number starting from 0.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0.02098; B) 0.00198; C) 0.000198; D) 0.01998; E) 0.0198
+\\ \textit{Note:} The Lagrange error for the Taylor polynomial approximation is given by the formula \( E(x) = \frac{f^{(n+1)}(c)}{(n+1)!} (x - a)^{n+1} \) for some \( c \) in the interval between \( a \) and \( x \), and since the fifth derivative of \( f(x) = \sin(x) \) is bounded by 1, the error when approximating \( \sin(1) \) using the fifth-degree polynomial is calculated to be approximately 0.000198.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Rob uses approximately 6 boxes of cat food in a month because there are about 30 days in a month, and if he consumes 1 box every 5 days, he would consume 6 boxes in 30 days (30 days ÷ 5 days per box = 6 boxes).
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the number of valid paths from (0,0) to (10,10) that do not cross the diagonal line y = x is given by the Catalan number C\_10, which equals 1,000,000, not 25,000.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because 640 divided by 4 equals 160 with a remainder of 0, indicating that the division is exact and should be classified as true.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The determinant of matrix A is calculated using the formula for 3 x 3 matrices, which yields a value of -30, not 30, making the statement false.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expressions 4 n + 2 o and 8 no are equivalent because for any positive values of n and o, the expression 4 n + 2 o can be factored and rewritten as 2(2 n + o), which can equal 8 no when n and o are chosen appropriately, thus demonstrating equivalence through specific variable relationships.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Rounding in mathematical contexts can significantly alter data interpretation, particularly in cases where precision is crucial, such as in performance metrics for runners. A value that rounds to 400 could range from 395 to 404, meaning that actual performances could vary widely while still being reported as 400. For instance, a runner with a time of 411 would not be rounded to 400, but rather to 410, indicating that rounding can obscure the nuances of actual performance. This highlights the importance of understanding the underlying data and the potential for misrepresentation when relying solely on rounded figures. Consequently, while rounding simplifies data presentation, it can lead to misinterpretations that affect analyses in competitive or statistical contexts.
+\\ \textit{Note:} The answer correctly identifies that rounding can mask significant variations in actual values, as multiple performance outcomes can be reported as the same rounded figure, thereby affecting the precision and interpretation of data in mathematical contexts.
+\item \textbf{Answer:} The symmetric group S\_5, which consists of all permutations of five elements, has a rich structure that reflects the various ways to arrange these elements. The largest order of an element in S\_5 can be found by examining the cycle structure of its permutations. The maximum order occurs with a permutation that is a product of disjoint cycles, specifically a 5-cycle, which has an order of 5, and a 3-cycle combined with a 2-cycle, which yields an order of 6. Thus, the largest order of an element within S\_5 is 6, reflecting the combination of cycles that can occur in permutations. This finding not only highlights the diversity of element orders in symmetric groups but also illustrates the foundational principles of group theory regarding cycle types and their contributions to the overall structure.
+\\ \textit{Note:} correct because it identifies that the largest order of an element in the symmetric group S\_5 can be determined by analyzing the cycle structures of permutations, specifically noting that a 5-cycle has an order of 5 and the combination of a 3-cycle with a 2-cycle has an order of 6, indicating that 6 is the largest order achievable within this group.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

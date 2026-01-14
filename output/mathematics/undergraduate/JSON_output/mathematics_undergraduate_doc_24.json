@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_undergraduate_doc_24",
+  "document_name": "Mathematics - Undergraduate Level Assessment 24",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mmlu_pro_math_mcq",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_24.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find all zeros in the indicated finite field of the given polynomial with coefficients in\nthat field. x^3 + 2 x + 2 in Z_7",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "2,3",
+        "D": "6"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2 and 3 because substituting these values into the polynomial x^3 + 2x + 2 in the finite field Z_7 results in zero, confirming that they are indeed the roots of the polynomial.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "9"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Using Fermat's theorem, find the remainder of 3^47 when it is divided by 23.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to Fermat's Little Theorem, since 23 is a prime and does not divide 3, we have that 3^(22) \u2261 1 (mod 23), allowing us to reduce 3^47 to 3^(47 mod 22) = 3^3, which equals 27, and the remainder when 27 is divided by 23 is 4.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "72"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to\nhave a nontrivial homomorphism of some finite group into some infinite group.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are false because a homomorphism can have a non-empty kernel (for example, the trivial homomorphism where every element maps to the identity) and it is indeed possible to have a nontrivial homomorphism from a finite group into an infinite group (for instance, a finite cyclic group can map to an infinite cyclic group).",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "46"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Q is an extension field of Z_2. Statement 2 | Every non-constant polynomial\nover a field has a zero in some extension field.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Statement 1 is false because not every set of elements forms an extension field of Z_2, while Statement 2 is true as it reflects the fundamental theorem of algebra, which asserts that every non-constant polynomial over a field has at least one root in some extension field.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "94"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If f(z) is an analytic function that maps the entire finite complex plane into the real\naxis, then the imaginary axis must be mapped onto",
+      "options": {
+        "A": "the entire real axis",
+        "B": "a point",
+        "C": "a ray",
+        "D": "an open finite interval"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Since an analytic function that maps the entire finite complex plane into the real axis must be constant according to Liouville's theorem, it follows that the imaginary axis, being part of the domain, can only be mapped to a single point on the real axis.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1136"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The order of a finite group containing a subgroup of order five and no element other than the identity as its own inverse could be 35.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The order of the finite group must be a multiple of the order of the subgroup (5) and must also satisfy the condition of having an even number of elements, which is possible with 35, as it allows for elements whose orders meet the criteria without having non-identity elements that are their own inverses.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "14167"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The polynomial 8 x^3 + 6 x^2 - 9 x + 24 satisfies the Eisenstein criterion for irreducibility with p=3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial 8x^3 + 6x^2 - 9x + 24 satisfies the Eisenstein criterion for irreducibility with p=3 because the coefficients of the polynomial meet the conditions where all coefficients except the leading coefficient are divisible by 3, and the constant term is not divisible by 9.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "27"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "If R is a ring and f(x) and g(x) are in R[x], then deg(f(x) + g(x)) = deg(f(x)) + deg(g(x)).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the degree of the sum of two polynomials is not necessarily equal to the sum of their degrees; specifically, if the leading coefficients of f(x) and g(x) cancel each other out, the degree of f(x) + g(x) can be less than that of either f(x) or g(x).",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "66"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The degree of the field extension Q(\\sqrt 2, \\sqrt 3) over Q is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the degree of the field extension Q(\u221a2, \u221a3) over Q is actually 4, as the extensions Q(\u221a2) and Q(\u221a3) are each of degree 2 over Q, and they are linearly independent over Q.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "35"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "Every ring necessarily has a multiplicative identity, which is not true for all rings.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because there exist rings, known as \"rings without identity,\" that do not include a multiplicative identity element.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "65"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the validity of the statements regarding subgroups and group order: Explain how\nthe formula |HK| = |H||K|/|H \u2229 K| applies, and analyze the structure of groups of order 2\np.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The statement regarding subgroups and group order is valid, particularly in the context of\nthe formula |HK| = |H||K|/|H \u2229 K|, which describes the order of the product of two\nsubgroups H and K within a group G. This formula highlights how the intersection of H and\nK affects the overall size of the subgroup generated by their product, emphasizing that\nthe order of the combined subgroup is influenced by the overlap of elements in H and K.\nMoreover, groups of order 2 p, where p is a prime, exhibit particular structures, often\nleading to the existence of normal subgroups and facilitating the application of Sylow's\ntheorems. These characteristics reinforce the validity of the statements, illustrating the\nintricate relationship between subgroup orders and group structure.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the formula |HK| = |H||K|/|H \u2229 K| illustrates how the sizes of two subgroups H and K and their intersection determine the order of the subgroup they generate, and it also begins to address the structural characteristics of groups of order 2p, linking subgroup interactions to group theory.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "86"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_24_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given that the characteristic polynomial of a 3 \\times 3 matrix A is det(A - \u03bbI) = -\u03bb^3 +\n3\u03bb^2 + \u03bb - 3, analyze the implications for the trace, determinant, and eigenvalues of A.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The characteristic polynomial of the matrix A is given by det(A - \u03bbI) = -\u03bb^3 + 3\u03bb^2 + \u03bb -\n3. From this polynomial, we can extract important information about the matrix: the trace\nof A, which is the sum of its eigenvalues, is equal to the coefficient of \u03bb^2 (with the\nopposite sign), thus Trace(A) = 3. The constant term, which is the determinant of A, is\n-3, indicating that A is not invertible. To determine the eigenvalues, we would set the\npolynomial equal to zero and solve for \u03bb. However, without explicit calculations, we can\nconclude that the trace and determinant derived from the polynomial provide significant\ninsights into the matrix's properties.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the relationship between the coefficients of the characteristic polynomial and the trace and determinant of the matrix A, allowing for the conclusion that Trace(A) is 3 and Det(A) is -3, which together provide insights into the properties and eigenvalues of the matrix.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1169"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

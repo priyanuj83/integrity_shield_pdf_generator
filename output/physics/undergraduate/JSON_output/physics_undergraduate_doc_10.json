@@ -1,0 +1,290 @@
+{
+  "docid": "physics_undergraduate_doc_10",
+  "document_name": "Physics - Undergraduate Level Assessment 10",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_10.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_10_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The best type of laser with which to do spectroscopy over a range of visible wavelengths\nis",
+      "options": {
+        "A": "a dye laser",
+        "B": "a helium-neon laser",
+        "C": "an excimer laser",
+        "D": "a ruby laser"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A dye laser is the correct choice for spectroscopy over a range of visible wavelengths because it can be tuned across a broad spectrum by adjusting the dye solution, allowing for precise wavelength selection essential for analyzing various substances in the visible range.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1372"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_10_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following lasers utilizes transitions that involve the energy levels of free\natoms?",
+      "options": {
+        "A": "Diode laser",
+        "B": "Dye laser",
+        "C": "Free-electron laser",
+        "D": "Gas laser"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Gas lasers operate by exciting the energy levels of free atoms or molecules in a gaseous medium, allowing for the emission of coherent light through stimulated emission.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1455"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_10_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Electromagnetic radiation emitted from a nucleus is most likely to be in the form of",
+      "options": {
+        "A": "gamma rays",
+        "B": "microwaves",
+        "C": "ultraviolet radiation",
+        "D": "visible light"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Gamma rays are a form of electromagnetic radiation that is emitted from the nucleus during radioactive decay, as they carry away excess energy without a change in the number of protons or neutrons, distinguishing them from other forms of electromagnetic radiation.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1430"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_10_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical\nto that of a hydrogen atom in which all the wavelengths are",
+      "options": {
+        "A": "decreased by a factor of 9",
+        "B": "decreased by a factor of 49",
+        "C": "decreased by a factor of 81",
+        "D": "increased by a factor of 9"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The emission spectrum of Li++ is identical to that of hydrogen because both have a single electron, and since the Rydberg formula shows that the wavelengths of emitted light are inversely proportional to the square of the atomic number (Z), the wavelengths for Li++ (Z=3) are decreased by a factor of 9 compared to hydrogen (Z=1).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1458"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_10_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is true about any system that undergoes a reversible thermodynamic\nprocess?",
+      "options": {
+        "A": "There are no changes in the internal energy of the system.",
+        "B": "The temperature of the system remains constant during the process.",
+        "C": "The entropy of the system and its environment remains unchanged.",
+        "D": "The entropy of the system and its environment must increase."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a reversible thermodynamic process, the system and its surroundings are in thermodynamic equilibrium throughout the process, ensuring that there is no net change in entropy for the system and its environment, which reflects the principle of entropy conservation in reversible processes.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1371"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_10_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The emission spectrum of the doubly ionized lithium atom Li++ has wavelengths decreased by a factor of 49 compared to hydrogen.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The emission spectrum of the doubly ionized lithium atom Li++ is not simply scaled down by a factor of 49 compared to hydrogen because the energy levels of Li++ are determined by its nuclear charge, which alters the wavelengths of emitted light differently than just a straightforward scaling relationship.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1453"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_10_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "During a reversible thermodynamic process, the internal energy of the system always increases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the internal energy of a system can change in either direction\u2014increase or decrease\u2014depending on the heat added to the system and the work done by or on the system, regardless of whether the process is reversible.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_10_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The frequency of the next higher harmonic for a closed organ pipe with a fundamental frequency of 131 Hz is 393 Hz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The frequency of the next higher harmonic for a closed organ pipe is three times the fundamental frequency, so with a fundamental frequency of 131 Hz, the next harmonic is 3 x 131 Hz = 393 Hz.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_10_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "In superconductors, the attraction between Cooper pairs is primarily due to interactions with the ionic lattice.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In superconductors, Cooper pairs form due to an attractive interaction mediated by phonons, which are quantized vibrations of the ionic lattice, leading to the pairing of electrons despite their natural repulsion.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1434"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_10_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The eigenvalues of a Hermitian operator are always real numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The eigenvalues of a Hermitian operator are always real numbers because Hermitian operators have the property of being equal to their own adjoint, which ensures that their eigenvalues are real due to the inner product structure of quantum mechanics.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1421"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_10_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between the kinetic energy of electrons and the diffraction\npattern observed when they impinge on a crystal surface, specifically considering a\nlattice spacing of 0.4 nm. What energy level is necessary to observe this pattern, and\nwhy?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The relationship between the kinetic energy of electrons and the diffraction pattern\nobserved when they impinge on a crystal surface is fundamentally linked to the de Broglie\nwavelength of the electrons. For a lattice spacing of 0.4 nm, the electrons must possess\nsufficient kinetic energy to produce constructive interference, leading to observable\ndiffraction patterns. To achieve this, the energy level required is approximately 10 eV,\nas this energy allows the electrons to have a de Broglie wavelength that is comparable to\nthe lattice spacing. When the kinetic energy of electrons is at this level, their\nwavelengths are suitable for interacting with the crystal's periodic structure, resulting\nin distinct diffraction patterns that can be analyzed to understand the material's\nproperties. Thus, the 10 eV energy threshold is crucial for observing the effects of\nelectron diffraction in crystalline materials.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the kinetic energy of electrons influences their de Broglie wavelength, which must match the crystal lattice spacing of 0.4 nm to produce constructive interference and observable diffraction patterns, with approximately 10 eV being the necessary energy to achieve this condition.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1462"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_10_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of replacing the Sun with a black hole of the same mass on the\norbits of the planets. How would gravitational forces and orbital mechanics remain\nunchanged?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Replacing the Sun with a black hole of the same mass would not alter the gravitational\nforces acting on the planets, and consequently, their orbits would remain unchanged. This\nis because gravitational force depends solely on the mass of the objects and the distance\nbetween them, as described by Newton's law of universal gravitation. Since the mass of the\nblack hole would equal that of the Sun, and its position would be the same, the\ngravitational pull experienced by the planets would be identical to what they currently\nexperience. Thus, the planets would continue to orbit the black hole in the same manner as\nthey do the Sun, maintaining their existing orbital mechanics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because gravitational force is determined by the mass of the objects and their distance, and since a black hole with the same mass as the Sun would exert the same gravitational pull at the same location, the orbits of the planets would remain unchanged.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1400"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

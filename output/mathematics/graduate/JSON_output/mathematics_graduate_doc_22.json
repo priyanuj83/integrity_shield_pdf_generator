@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_22",
+  "document_name": "Mathematics - Graduate Level Assessment 22",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_22.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Keiko spent the day bird watching and counted 34 more birds in the morning than in the\nafternoon. If she counted a total of 76 birds, how many birds did she count in the\nafternoon?",
+      "options": {
+        "A": "84 birds",
+        "B": "45 birds",
+        "C": "21 birds",
+        "D": "34 birds",
+        "E": "42 birds"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 21 birds because if Keiko counted x birds in the afternoon, then she counted x + 34 birds in the morning, leading to the equation x + (x + 34) = 76, which simplifies to 2x + 34 = 76, and solving for x gives 21.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8892"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If a freight train travels at a speed of 20 miles per hour for 6 hours, how far will it\ntravel?",
+      "options": {
+        "A": "90 miles",
+        "B": "120 miles",
+        "C": "150 miles",
+        "D": "140 miles",
+        "E": "26 miles"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 120 miles because the distance traveled can be calculated using the formula distance = speed \u00d7 time, which in this case is 20 miles per hour multiplied by 6 hours.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8455"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "You and three friends go to a concert. The total cost for four tickets is $112. Write and\nsolve an equation to find the cost of one ticket t.",
+      "options": {
+        "A": "4 - t = 112; -$108",
+        "B": "4 t = 112; $28",
+        "C": "t over 4 = 112; $448",
+        "D": "t + 4 = 112; $108",
+        "E": "t over 4 = 112; $28"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The equation 4t = 112 is correct because it represents the total cost of four tickets, where t is the cost of one ticket, and solving for t yields $28, the unit price.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8124"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "what is the value of \\int_a^b \\frac{dx}{\\sqrt{(x-a)(b-x)}}? Round the answer to the\nthousands decimal.",
+      "options": {
+        "A": "0.6931471",
+        "B": "3.7320508",
+        "C": "2.3025851",
+        "D": "6.2831853",
+        "E": "1.4142135"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of the integral \\(\\int_a^b \\frac{dx}{\\sqrt{(x-a)(b-x)}}\\) evaluates to \\(\\pi/2\\) when transformed appropriately, and when evaluated over the interval from \\(a\\) to \\(b\\), it results in the natural logarithm of 2, which is approximately 0.6931471 when rounded to the thousandths decimal.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the order of the element 5 in U_8?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "1",
+        "D": "5",
+        "E": "9"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The order of the element 5 in the group U_8, which consists of the integers less than 8 that are coprime to 8, is 3 because 5 raised to the power of 3 is congruent to 1 modulo 8, indicating that it takes three multiplications of 5 to return to the identity element in that group.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8512"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sum of the roots of the equation x^3 - 2 x + 2 = 0 is 3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of the roots of the equation x^3 - 2x + 2 = 0 is given by Vieta's formulas as the negative coefficient of x^2, which is 0 for this equation, not 3.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "In the number 612,045, the value of the digit 6 is exactly 10 times the value of the digit 6 in the number 186,425.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of the digit 6 in 612,045 is 60,000, while the value of the digit 6 in 186,425 is 6,000, making the value of the digit 6 in the first number not exactly 10 times greater than in the second.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8984"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The sum of the roots of the equation x^3 + 3 x^2 - 4 = 0 is 3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of the roots of a polynomial can be determined using Vieta's formulas, which state that for a cubic equation of the form ax^3 + bx^2 + cx + d = 0, the sum of the roots is given by -b/a; in this case, with a = 1 and b = 3, the sum is -3/1 = -3, making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8733"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The real root of the equation x^3 - 11 x^2 + 32 x - 22 = 0, found using the Birge-Vieta method, is 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because substituting x = 1 into the equation x^3 - 11 x^2 + 32 x - 22 results in zero, confirming that 1 is indeed a root of the polynomial.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8744"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The value of A in the quartic polynomial x^4 + 3 x^3 + 11 x^2 + 9 x + A, given kl = mn, is 8.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the value of A cannot be determined solely from the condition kl = mn without additional context or constraints on the variables involved in the polynomial.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8951"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_22_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Evaluate $\\sqrt[3]{12}\\times \\sqrt[3]{20}\\times \\sqrt[3]{15}\\times \\sqrt[3]{60}$.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "We have \\begin{align*} &\\sqrt[3]{12}\\times \\sqrt[3]{20}\\times \\sqrt[3]{15}\\times\n\\sqrt[3]{60}\\\\ &\\qquad=\\sqrt[3]{2^2\\cdot 3^1}\\times \\sqrt[3]{2^2\\cdot 5^1}\\times\n\\sqrt[3]{3^1\\cdot 5^1}\\times \\sqrt[3]{2^2\\cdot 3^1\\cdot 5^1}\\\\ &\\qquad=\\sqrt[3]{(2^2\\cdot\n3^1)(2^2\\cdot 5^1)(3^1\\cdot 5^1)(2^2\\cdot 3^1\\cdot 5^1)}\\\\ &\\qquad=\\sqrt[3]{(2^2\\cdot\n2^2\\cdot 2^2)(3^1\\cdot 3^1\\cdot 3^1)(5^1\\cdot 5^1\\cdot 5^1)}\\\\\n&\\qquad=\\sqrt[3]{(2^6)(3^3)(5^3)}\\\\ &\\qquad=\\sqrt[3]{2^6}\\times\\sqrt[3]{3^3}\\times\n\\sqrt[3]{5^3}\\\\ &\\qquad=(2^2)(3)(5) = \\boxed{60}. \\end{align*}",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly evaluates the product of the cube roots by expressing each term as a product of prime factors, combining them under a single cube root, and then simplifying using the properties of exponents and roots.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "13236"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_22_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the dimensionality of the product of two matrices, A (2 \\times 7) and B (7 \\times\n5). Explain how to determine the dimensions of the resulting matrix AB and the\nsignificance of this process in linear algebra.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The product of two matrices A (2 \\times 7) and B (7 \\times 5) results in a new matrix AB\nwith dimensions determined by the number of rows in the first matrix and the number of\ncolumns in the second matrix. Specifically, the resulting matrix AB will have dimensions 2\n\\times 5. This follows from the rule of matrix multiplication, where the inner dimensions\n(the columns of A and the rows of B) must match, while the outer dimensions define the\nsize of the resulting matrix. Understanding this dimensionality is crucial in linear\nalgebra as it informs us about the compatibility of matrices for multiplication and the\nstructure of the resultant matrix, which is key in applications such as systems of linear\nequations and transformations.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes that the dimensions of the resulting matrix from the multiplication of matrices A and B are determined by the number of rows in A and the number of columns in B, resulting in a 2 \u00d7 5 matrix, while also emphasizing the importance of matching inner dimensions for valid matrix multiplication.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8285"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

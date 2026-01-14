@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_14",
+  "document_name": "Mathematics - K-12 Level Assessment 14",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_14.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_14_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A meteorologist reports that there is a 30% probability of rain and no sun. If there is a\n40% probability of no rain, then the probability of both rain and sun is",
+      "options": {
+        "A": "0.16",
+        "B": "0.24",
+        "C": "0.3",
+        "D": "0.5"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0.3 because the probability of rain is given as 30%, which directly indicates that under these conditions, there is a 30% chance of both rain occurring and no sun present.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "When $\\sqrt[3]{-128}$ is simplified, the result is $a\\sqrt[3]{b}$, where $a$ is an\ninteger, and $b$ is a positive integer. If $b$ is as small as possible, then what is\n$a+b$?",
+      "options": {
+        "A": "2",
+        "B": "-4",
+        "C": "6",
+        "D": "-2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -2 because simplifying $\\sqrt[3]{-128}$ gives $-2\\sqrt[3]{16}$, where $a = -2$ and $b = 16$, leading to $a + b = -2 + 16 = 14$.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "14507"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Simplify 5^3. Use a calculator, paper and pencil, or mental math.",
+      "options": {
+        "A": "15",
+        "B": "125",
+        "C": "8",
+        "D": "53"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 125 because 5 raised to the power of 3 (5^3) means multiplying 5 by itself two more times (5 x 5 x 5), which equals 125.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2422"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the quotient of 5.04/0.7",
+      "options": {
+        "A": "0.72",
+        "B": "0.702",
+        "C": "10.0571",
+        "D": "7.2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find the quotient of 5.04 divided by 0.7, you can multiply both numbers by 10 to eliminate the decimal, resulting in 50.4 divided by 7, which equals 7.2.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2074"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Marguerite earned a score between 75 and 89 on all of her previous spelling tests. She\nearned a score of 100 on her next test. Which of the following statements is true?",
+      "options": {
+        "A": "The mode will increase.",
+        "B": "The mean will increase.",
+        "C": "The mean will decrease.",
+        "D": "The median will decrease."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mean will increase because the addition of a higher score of 100 to Marguerite's previous scores, which ranged from 75 to 89, raises the overall average.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2230"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The probability of picking a blue chip from a bag with 10 red chips and 5 blue chips is 2 out of 15.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The probability of picking a blue chip is calculated by dividing the number of blue chips (5) by the total number of chips (15), which gives a probability of 1 out of 3, not 2 out of 15.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2350"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "There are 999 three-digit positive integers, starting from 100 to 998.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because there are actually 899 three-digit positive integers, as they range from 100 to 998 inclusive.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4348"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The number of rainy days in a given week cannot be modeled by a binomial distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number of rainy days in a week cannot be modeled by a binomial distribution because the occurrence of rain is not independent from day to day, and the probability of rain can change based on various factors.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5550"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "0.32 grams is equal to 32 centigrams.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "0.32 grams is equal to 32 centigrams because 1 gram is equal to 100 centigrams, so multiplying 0.32 grams by 100 gives 32 centigrams.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2090"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The ratio 24 over 64 forms a proportion with the ratio 3 over 8.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ratio 24 over 64 simplifies to 3 over 8, which shows that both ratios are equivalent, thus forming a proportion.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2275"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_14_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Rob feeds his cats using 1 box of cat food every 5 days. Calculate how many boxes he would\nneed for a month, and explain your reasoning and calculations in detail.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine how many boxes of cat food Rob would need for a month, we first need to know\nhow many days are in a month. For this calculation, we can use 30 days as a standard\nmonth. Since Rob feeds his cats 1 box of cat food every 5 days, we can divide 30 days by 5\ndays per box. This calculation gives us 30 \\div 5 = 6 boxes. Therefore, Rob would need 6\nboxes of cat food for a month, ensuring his cats are well-fed throughout the month.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the number of boxes needed by dividing the total days in a month (30) by the number of days each box lasts (5), resulting in 6 boxes required for the month.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2123"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_14_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the scenario of randomly selecting three points on a circle. Analyze the\nconditions under which all pairwise distances between these points are less than the\ncircle's radius. What is the probability of this occurring?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When randomly selecting three points on a circle, the condition for all pairwise distances\nbetween these points to be less than the circle's radius holds true when the points are\nlocated within a semicircle. This means that if all three points fall within the same\nsemicircle, the distances between them will be less than the radius of the circle. The\nprobability of this scenario occurring is \\(\\frac{1}{12}\\). This calculation stems from\ngeometric probability, where the positions of the points are constrained by the circle's\ncurvature, allowing for the derivation of the specific probability ratio. Thus, while it\nmay seem intuitive that any three points could be close together, the geometric layout\nsignificantly influences the likelihood of maintaining distances shorter than the radius.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because all pairwise distances between three points on a circle are less than the radius if the points are confined to the same semicircle, and the probability of this event occurring is calculated to be \\(\\frac{1}{12}\\) based on geometric probability principles.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4375"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

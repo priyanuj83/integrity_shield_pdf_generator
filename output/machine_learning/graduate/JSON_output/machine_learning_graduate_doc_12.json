@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_12",
+  "document_name": "Machine Learning - Graduate Level Assessment 12",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_12.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Consider the Bayesian network given below. How many independent parameters are needed for\nthis Bayesian Network H -> U <- P <- W?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 8 because the Bayesian network has three nodes (H, U, P, W) with specific conditional independence relationships that require parameters based on the number of parent nodes, resulting in a total of 8 independent parameters to fully specify the joint distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6843"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Predicting the amount of rainfall in a region based on various cues is a ______ problem.",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Unsupervised learning",
+        "C": "Clustering",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Predicting the amount of rainfall based on various cues is a supervised learning problem because it involves using labeled training data to learn a mapping from input features (cues) to output values (rainfall amounts).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6869"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For polynomial regression, which one of these structural assumptions is the one that most\naffects the trade-off between underfitting and overfitting:",
+      "options": {
+        "A": "The polynomial degree",
+        "B": "Whether we learn the weights by matrix inversion or gradient descent",
+        "C": "The assumed variance of the Gaussian noise",
+        "D": "The use of a constant-term unit input"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial degree directly influences the model's complexity, where a lower degree may lead to underfitting by oversimplifying the data, while a higher degree can result in overfitting by capturing noise, thus critically affecting the trade-off between these two extremes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "As the number of training examples goes to infinity, your model trained on that data will\nhave:",
+      "options": {
+        "A": "Lower variance",
+        "B": "Higher variance",
+        "C": "Same variance",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As the number of training examples increases, the model gains more information about the underlying data distribution, which reduces its sensitivity to noise in the training data and subsequently lowers its variance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which among the following prevents overfitting when we perform bagging?",
+      "options": {
+        "A": "The use of sampling with replacement as the sampling technique",
+        "B": "The use of weak classifiers",
+        "C": "The use of classification algorithms which are not prone to overfitting",
+        "D": "The practice of validation performed on every classifier trained"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The use of weak classifiers in bagging helps prevent overfitting by averaging their predictions, which reduces the model's variance and enhances generalization to unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6894"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Grid search runs reasonably slow for multiple linear regression due to its exhaustive nature in hyperparameter tuning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Grid search evaluates all possible combinations of hyperparameters, leading to a significant increase in computation time, especially in complex models like multiple linear regression.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Principal Component Analysis (PCA) is an unsupervised learning technique used for dimensionality reduction.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Principal Component Analysis (PCA) is classified as an unsupervised learning technique because it analyzes data without requiring labeled responses, and it effectively reduces the dimensionality of data by transforming it into a set of orthogonal components that capture the most variance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "As of 2020, several models achieve over 98% accuracy on the CIFAR-10 dataset.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2020, advancements in deep learning techniques, particularly convolutional neural networks, have enabled several models to surpass 98% accuracy on the CIFAR-10 dataset, demonstrating significant progress in image classification tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6854"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The models obtained from best-subset selection and forward stepwise selection will always yield the same results in linear regression.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because best-subset selection evaluates all possible combinations of predictors to find the optimal model, while forward stepwise selection only adds predictors one at a time based on their contribution, which may lead to different final models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6864"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Residual connections are integral components of both ResNets and Transformers, enhancing their training and performance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Residual connections are essential in both ResNets and Transformers as they help mitigate the vanishing gradient problem, allowing for more effective training of deep neural networks by enabling gradients to flow through the network more easily.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6892"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the modifications needed in the EM algorithm to transition from finding maximum\nlikelihood estimates to maximum a posteriori estimates, focusing on the maximization step.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To transition from finding maximum likelihood estimates (MLE) to maximum a posteriori\nestimates (MAP) in the EM algorithm, the maximization step must be modified to incorporate\nprior information about the parameters. Specifically, instead of maximizing the likelihood\nfunction alone, one must maximize the posterior distribution, which is proportional to the\nproduct of the likelihood and the prior distribution. This adjustment involves adding a\nterm representing the logarithm of the prior distribution during the maximization step,\neffectively transforming the objective function from maximizing \\( P(X | \\theta) \\) to\nmaximizing \\( P(\\theta | X) \\), where \\( P(\\theta) \\) denotes the prior. This integration\nof the prior allows the algorithm to incorporate prior knowledge, leading to more robust\nparameter estimates, especially in cases of limited data. Thus, the maximization step\nbecomes an optimization of the complete log-posterior, ensuring that both the observed\ndata and prior beliefs are accounted for in the estimation process.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because transitioning from MLE to MAP in the EM algorithm requires modifying the maximization step to include the prior distribution, effectively maximizing the posterior distribution, which combines both the likelihood and the prior information.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6927"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_12_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of applying regularization in linear regression, focusing on how\ncertain penalties can lead to zeroed-out coefficients and their impact on model\nperformance.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Regularization in linear regression, particularly through L 1 (Lasso) and L 2 (Ridge)\npenalties, serves to mitigate overfitting by constraining the complexity of the model. L 1\nregularization is especially noteworthy as it can lead to zeroed-out coefficients,\neffectively performing feature selection by excluding less important variables from the\nmodel. This not only simplifies the model but can also enhance interpretability and\ngeneralization to new data, as it reduces the risk of capturing noise. Conversely, L 2\nregularization tends to shrink coefficients towards zero but does not eliminate them,\nwhich can be beneficial in situations where all predictors have some relevance.\nUltimately, the choice of regularization method impacts model performance by balancing\nbias and variance, ensuring a more robust predictive capability in high-dimensional\nsettings.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly highlights that regularization reduces model complexity and mitigates overfitting, with L1 regularization uniquely capable of zeroing out coefficients to perform feature selection, thereby improving model interpretability and generalization.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6934"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_05",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 5",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_05.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which among the following is the least strong security encryption standard?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA 2",
+        "D": "WPA 3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WEP (Wired Equivalent Privacy) is considered the least strong security encryption standard due to its outdated algorithms and vulnerabilities that allow for easy exploitation, making it significantly less secure than more modern standards such as WPA and WPA2.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "____________ is also a part of darknet that is employed for transferring files\nanonymously.",
+      "options": {
+        "A": "Freenet",
+        "B": "ARPANET",
+        "C": "Stuxnet",
+        "D": "Internet"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Freenet is a decentralized peer-to-peer platform that enables users to share and transfer files anonymously, making it an integral component of the darknet.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1478"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "When does a buffer overflow occur, generally speaking?",
+      "options": {
+        "A": "when writing to a pointer that has been freed",
+        "B": "when copying a buffer from the stack to the heap",
+        "C": "when a pointer is used to access memory not allocated to it",
+        "D": "when the program notices a buffer has filled up, and so starts to reject requests"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow occurs when a pointer accesses memory outside its allocated boundary, leading to unintended overwriting of adjacent memory locations, which can compromise system integrity and security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1506"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Public key encryption is advantageous over Symmetric key Cryptography because of",
+      "options": {
+        "A": "Speed",
+        "B": "Space",
+        "C": "Key exchange",
+        "D": "Key length"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Public key encryption allows for secure key exchange over an insecure channel, eliminating the need for both parties to share a secret key beforehand, which is a significant limitation of symmetric key cryptography.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1494"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ can cost you money, by sending text messages from your mobile phone\nnumbers.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "SMS Trojan",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An SMS Trojan is a type of malware that compromises a mobile device to send unauthorized text messages, often leading to financial charges on the user's mobile phone bill.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A MAC with a fixed tag length can still be secure if the underlying algorithm is robust and employs a strong key management strategy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A MAC with a fixed tag length is inherently vulnerable to certain types of attacks, such as brute force and collision attacks, regardless of the strength of the underlying algorithm or key management, as the limited tag length restricts the number of unique outputs.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1509"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "WPA relies on AES encryption exclusively for securing wireless communications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA (Wi-Fi Protected Access) employs a variety of encryption methods, including TKIP (Temporal Key Integrity Protocol) in addition to AES (Advanced Encryption Standard), which is why the statement is false.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1552"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "EXE restarts the STP solver and retries the query indefinitely upon a timeout on a constraint query.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because EXE does not automatically restart the STP solver or retry indefinitely upon a timeout; instead, it typically has a predefined number of retries or a timeout mechanism that limits attempts to re-solve the constraint query.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Mutation-based fuzzing only applies to file-based inputs and is not effective for network protocol testing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutation-based fuzzing can be applied to various types of inputs, including network protocol messages, as it involves altering existing data to test how software handles unexpected or malformed inputs, not just file-based inputs.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Whitebox fuzzers are designed to explore all paths in a program, ensuring coverage of every line of code.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Whitebox fuzzers analyze the internal structure of a program, enabling them to systematically explore all possible execution paths and achieve comprehensive code coverage.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to count repeated items of a tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_tuplex(tuplex,value): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function intended to count the occurrences of a specified value within a tuple, which aligns with the requirements of the question to count repeated items.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_05_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to remove spaces from a given string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_spaces(str1): | return str1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "incorrect because it does not implement any logic to remove spaces from the string, as it simply returns the original input string unchanged.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "678"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

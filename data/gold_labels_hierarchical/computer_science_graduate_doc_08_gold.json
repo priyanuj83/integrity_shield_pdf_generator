@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_08",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Address Resolution Protocol (ARP) is specifically designed to map an IP address to its corresponding hardware (MAC) address within a local area network, enabling effective communication between devices.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1058
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "WPA3 offers enhanced security features such as improved encryption methods and protection against brute-force attacks, making it the most robust wireless security protocol available compared to its predecessors.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1502
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Reference counting fails to reclaim cyclic structures because the reference counts of objects in a cycle never reach zero, preventing their memory from being deallocated.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14152
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A session symmetric key is designed for a single session to ensure confidentiality and security, preventing potential vulnerabilities that could arise from reusing the same key across multiple sessions.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A 3-way, set-associative cache allows each main memory word to be mapped to any of three specific locations within a set in the cache, providing flexibility in data storage and retrieval while maintaining a balance between direct-mapped and fully associative caches.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1091
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "EtterPeak is considered a valuable tool for network analysis because it effectively supports the analysis and monitoring of various protocols within complex multiprotocol networking environments, making it widely applicable and utilized in the field.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1549
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A man-in-the-middle attack can compromise the security of the Diffie-Hellman method because without authentication, an attacker can intercept and alter the key exchange process, allowing them to establish separate keys with both parties and decrypt their communications.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1480
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because C and C++ do not automatically enforce boundary checks on arrays and strings in their standard library functions, which can lead to unintentional writing of data beyond allocated memory limits, resulting in buffer overflow vulnerabilities.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Authorization is primarily concerned with granting or denying access to resources based on the permissions associated with a user's identity, rather than determining the user's identity itself, which is the function of authentication.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1560
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Buffer overflow vulnerabilities can persist in applications because inadequate boundary checks allow excess data to overwrite adjacent memory, potentially leading to unauthorized access or execution of malicious code.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def re_order(A): | return A",
+      "marks": 10,
+      "explanation": "correct because it simply returns the input array without modifying it, which means that if the array contains zeroes, they remain in their original positions while effectively leaving the task of moving them to the end unaddressed.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 505
+    },
+    {
+      "question_id": "computer_science_graduate_doc_08_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def count_char(string,char): | return count",
+      "marks": 10,
+      "explanation": "correct because it presents a function definition that captures the essential elements needed to count the occurrences of a specified character in a given string, although the implementation details are incomplete.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 666
+    }
+  ]
+}

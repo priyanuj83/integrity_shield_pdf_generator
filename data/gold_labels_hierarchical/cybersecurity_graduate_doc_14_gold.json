@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_14",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "WPS, or Wi-Fi Protected Setup, was developed to simplify the process of connecting new devices to secure wireless networks, making it a relevant answer regarding advancements in wireless access points.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1554
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Escaping queries is essential in preventing SQL injection because it ensures that user input is treated as data rather than executable code, thereby mitigating the risk of malicious SQL commands being executed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1489
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "WPA3 provides enhanced security features such as stronger encryption and improved protection against brute-force attacks, making it the most secure wireless protocol available.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1502
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A buffer overflow on the stack allows an attacker to overwrite the return address of a function, redirecting the execution flow to the location of their injected code, thus facilitating the execution of malicious instructions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1531
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Authenticated\" because without proper authentication, a man-in-the-middle attacker can impersonate one or both parties in the Diffie-Hellman key exchange, leading to the compromise of the secure key establishment process.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1480
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Brute-force attacks on access credentials typically occur at the application layer of the OSI model, where authentication processes are handled, rather than at the data-link layer, which primarily deals with network access and transmission rather than credential verification.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1504
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in cybersecurity, especially in automated reasoning and verification, a timeout on a constraint query indicates that the solver could not determine satisfiability within a given timeframe, leading to the conservative assumption that the path cannot be executed safely.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The mishandling of poorly defined variables is primarily a concern at the application layer rather than the transport layer, which is focused on end-to-end communication and reliability rather than variable management.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "WPA primarily relies on TKIP (Temporal Key Integrity Protocol) for securing wireless communications, while AES encryption is used in the later WPA2 protocol.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A MAC with a fixed output length of 5 bits can produce only 32 different tags, making it vulnerable to brute-force attacks where an attacker can easily guess the correct tag due to the limited number of possible outputs.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1509
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "SQL queries that incorporate user input are particularly vulnerable to injection attacks,\nwhere an attacker can manipulate the input to execute arbitrary SQL commands. For\ninstance, if a web application constructs a SQL query using unsanitized user input, an\nattacker could input a string like \"'; DROP TABLE users; --\", leading to severe data loss\nor compromise. To mitigate such vulnerabilities, developers should employ prepared\nstatements and parameterized queries, which separate SQL code from data, thus preventing\nthe execution of malicious input. Furthermore, implementing robust input validation and\nemploying web application firewalls can add additional layers of security, ensuring that\nuser inputs are sanitized and monitored for suspicious activity. By prioritizing these\npractices, organizations can significantly reduce the risk of SQL injection attacks and\nprotect sensitive data.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies how unsanitized user input in SQL queries can lead to injection attacks, exemplifies the risk with a specific attack scenario, and offers effective mitigation strategies like prepared statements and parameterized queries to prevent such vulnerabilities.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1514
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_14_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "Block ciphers operate in various modes, each tailored for specific functions and\napplications in cybersecurity. Common modes include Electronic Codebook (ECB), Cipher\nBlock Chaining (CBC), and Counter (CTR), each offering different levels of security and\nefficiency for data encryption. However, one lesser-known mode is Cipher Block Feedback\n(CBF), which is not widely recognized as a standard due to its limitations in providing\nconfidentiality and integrity. CBF operates similarly to CBC but lacks the robust security\nfeatures needed for modern applications, making it less suitable for protecting sensitive\ninformation. Consequently, while CBF may serve in niche scenarios, its usage is often\ndiscouraged in favor of more established modes that better meet security requirements.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the various operating modes of block ciphers, discussing their specific functions and applications in cybersecurity, while also analyzing Cipher Block Feedback (CBF) as a lesser-known mode that is not widely recognized due to its limitations in ensuring both confidentiality and integrity.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1518
+    }
+  ]
+}

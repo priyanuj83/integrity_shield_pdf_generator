@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) pure; B) not pure; C) useful; D) useless
+\\ \textit{Note:} High entropy indicates a high degree of disorder or uncertainty in a dataset, which implies that the classifications within the partitions are mixed and not dominated by a single class, resulting in impure partitions.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Attributes are equally important.; B) Attributes are statistically dependent of one another given the class value.; C) Attributes are statistically independent of one another given the class value.; D) Attributes can be nominal or numeric
+\\ \textit{Note:} The correct answer is based on the fundamental assumption of Naive Bayes, which posits that attributes are conditionally independent of one another given the class value, making the statement about their dependence incorrect.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} RoBERTa indeed pretrains on a corpus approximately 10 times larger than BERT, making Statement 1 true, while ResNeXt models typically use ReLU activation functions rather than tanh, rendering Statement 2 false.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(H, U, P, W) = P(H) * P(W) * P(P) * P(U); B) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P); C) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P); D) None of the above
+\\ \textit{Note:} The correct answer is based on the structure of the Bayesian Network, which dictates that the joint probability can be expressed as the product of the individual probabilities, where P(H) is independent, P(W) is independent from H and P, P(P | W) is the conditional probability of P given W, and P(U | H, P) is the conditional probability of U given H and P.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) p(y|x, w); B) p(y, x); C) p(w|x, w); D) None of the above
+\\ \textit{Note:} Discriminative approaches model the conditional probability of the target variable y given the input variable x and parameters w, focusing on the decision boundary between classes rather than the distribution of the input data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DCGANs, or Deep Convolutional Generative Adversarial Networks, do not utilize self-attention mechanisms; instead, they rely on convolutional layers and batch normalization to stabilize training.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Highway networks were developed after ResNets and primarily use learned gating mechanisms rather than relying on max pooling or convolutions exclusively.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because dropout does not randomly remove entire neurons; instead, it randomly sets a fraction of the activation values to zero during training, effectively preventing co-adaptation of neurons and promoting better generalization.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The cost of one gradient descent update is O(D) when using a single data point for the update, or O(ND) if using the entire dataset, but the statement implies a misunderstanding of the context in which the gradient is computed.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Regression is true as it establishes a mathematical relationship between independent variables (inputs) and a dependent variable (output), enabling accurate predictions based on observed data.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def adjac(ele, sub = []): | def get\_coordinates(test\_tup): | return (res)
+\\ \textit{Note:} correct because it defines a function that successfully identifies and extracts all adjacent coordinates from a given coordinate tuple, which is essential for tasks in machine learning involving spatial data analysis.
+\item \textbf{Answer:} def count\_odd(array\_nums): | return count\_odd
+\\ \textit{Note:} incorrect as it fails to implement the logic for counting odd elements in the list using a lambda function, and instead, it simply returns the function name without performing any computation.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

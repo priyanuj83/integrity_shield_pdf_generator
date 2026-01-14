@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_10",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 10",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_10.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How does a buffer overflow on the stack facilitate running attacker-injected code?",
+      "options": {
+        "A": "By overwriting the return address to point to the location of that code",
+        "B": "By writing directly to the instruction pointer register the address of the code",
+        "C": "By writing directly to %eax the address of the code",
+        "D": "By changing the name of the running executable, stored on the stack"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow on the stack allows an attacker to overwrite the return address of a function so that when the function exits, control is redirected to the attacker-injected code, enabling the execution of malicious instructions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1531"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is true of mutation-based fuzzing?",
+      "options": {
+        "A": "It generates each different input by modifying a prior input",
+        "B": "It works by making small mutations to the target program to induce faults",
+        "C": "Each input is mutation that follows a given grammar",
+        "D": "It only makes sense for file-based fuzzing, not network-based fuzzing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutation-based fuzzing involves taking existing inputs and altering them to create new test cases, which helps in discovering vulnerabilities by evaluating how the system responds to these modified inputs.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Can we build a secure PRP from a secure PRG?",
+      "options": {
+        "A": "No, it cannot be done",
+        "B": "Yes, just plug the GGM PRF into the Luby-Rackoff theorem",
+        "C": "It depends on the underlying PRG",
+        "D": "Option text"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the Luby-Rackoff theorem, which demonstrates that a secure pseudorandom generator (PRG) can be transformed into a secure pseudorandom permutation (PRP) by using the GGM construction, thus establishing a secure connection between the two cryptographic primitives.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14208"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A special tool is necessary for entering the network which is _______________ that helps\nthe anonymous internet users to access into the Tor's network and use various Tor\nservices.",
+      "options": {
+        "A": "Opera browser",
+        "B": "Firefox",
+        "C": "Chrome",
+        "D": "Tor browser"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Tor browser is specifically designed to facilitate anonymous browsing and access to the Tor network, enabling users to utilize various Tor services securely.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1530"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Can a stream cipher have perfect secrecy?",
+      "options": {
+        "A": "Yes, if the PRG is really \"secure\"",
+        "B": "No, there are no ciphers with perfect secrecy",
+        "C": "Yes, every cipher has perfect secrecy",
+        "D": "No, since the key is shorter than the message"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A stream cipher cannot achieve perfect secrecy because, by definition, perfect secrecy requires the key to be at least as long as the message, ensuring that each possible plaintext is equally likely for every key used.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1559"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Weak or non-existent authentication mechanisms are not considered presentation layer issues in cybersecurity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Weak or non-existent authentication mechanisms are classified as issues related to the application layer rather than the presentation layer, as they directly pertain to the validation of user identities and access control rather than the formatting or presentation of data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Backdoor Trojans primarily focus on stealing personal data without incurring any financial costs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Backdoor Trojans not only steal personal data but can also facilitate unauthorized financial transactions or access to systems, thereby incurring financial costs for victims.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "EXE restarts the STP solver and retries the constraint query indefinitely until it finds a satisfiable result.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because EXE does not indefinitely retry the STP solver; instead, it employs a finite number of attempts to find a satisfiable result before terminating the query process.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "In message confidentiality, the transmitted message must be clear to both the sender and the translator.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because message confidentiality emphasizes that the content of the message should remain unreadable to unauthorized parties, meaning it does not need to be clear to the translator if the translation occurs within a secure context.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1474"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The one-time pad key can be computed by using the formula k = m xor m.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The one-time pad key must be a truly random and independent sequence of bits that is as long as the plaintext message, and the formula k = m xor m would always yield a key of all zeroes, which is not secure for encryption.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the demlo number for the given number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_demlo(s): | return res",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it defines a function that presumably calculates the demlo number, aligning with the requirement to process an input number and return a result, essential in programming and cybersecurity contexts.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "321"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find all adverbs and their positions in a given sentence.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_adverb_position(text): | return (m.start(), m.end(), m.group(0))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies a method to locate adverbs in a sentence by utilizing regular expressions to find their positions, returning the start and end indices along with the adverb itself.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "440"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

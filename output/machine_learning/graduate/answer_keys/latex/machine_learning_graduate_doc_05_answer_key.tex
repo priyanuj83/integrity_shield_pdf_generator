@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm primarily affects convergence speed and efficiency rather than addressing the model's complexity or regularization, which are central to reducing overfitting.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It can not be applied to non-differentiable functions.; B) It can not be applied to non-continuous functions.; C) It is hard to implement.; D) It runs reasonably slow for multiple linear regression.
+\\ \textit{Note:} The correct answer highlights that Grid search evaluates every combination of hyperparameters exhaustively, which can lead to significant computational time and inefficiency, particularly in the context of multiple linear regression where the parameter space can be large.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It relates inputs to outputs.; B) It is used for prediction.; C) It may be used for interpretation.; D) It discovers causal relationships
+\\ \textit{Note:} The statement that regression discovers causal relationships is false because regression analysis identifies correlations between variables rather than establishing direct causation, as correlation does not imply causation.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} As of 2020, various advanced models achieved over 98\% accuracy on the CIFAR-10 dataset, while the original ResNet architecture was primarily trained using stochastic gradient descent (SGD) rather than the Adam optimizer, validating both statements as true.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) The use of sampling with replacement as the sampling technique; B) The use of weak classifiers; C) The use of classification algorithms which are not prone to overfitting; D) The practice of validation performed on every classifier trained
+\\ \textit{Note:} The use of weak classifiers in bagging helps prevent overfitting by averaging the predictions of multiple models, which reduces variance and enhances generalization to unseen data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Pruning a Decision Tree primarily aims to reduce overfitting and improve generalization to unseen data by simplifying the model, rather than increasing its complexity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The convergence of a neural network is influenced by the choice of learning rate because a learning rate that is too high can cause the model to overshoot the optimal solution, while a learning rate that is too low can result in slow convergence or getting stuck in local minima.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a Bayesian network requires independent parameters for each conditional probability distribution, and in the given structure, the dependencies among the variables necessitate more than four parameters to fully specify the network.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Frequentists do not use prior distributions on parameters, as they rely on the long-run frequency properties of estimators rather than incorporating prior beliefs, which is a fundamental aspect of Bayesian analysis.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Naive Bayes assumes that the attributes are conditionally independent of one another given the class value, which simplifies the computation of the joint probability of the attributes.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def \_\_init\_\_(self, data): | def max\_height(node): | return 0 ; | return left\_height+1 | return right\_height+1
+\\ \textit{Note:} The answer correctly outlines the initialization of a binary tree node and the recursive function to compute the height by returning the maximum height between the left and right subtrees, plus one for the current node.
+\item \textbf{Answer:} def count\_elim(num): | return count\_elim
+\\ \textit{Note:} The function correctly identifies the requirement to count elements in a list, but it fails to implement the logic for counting and stopping at a tuple, indicating an incomplete understanding of the task rather than a correct solution.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_undergraduate_doc_23",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In Python, negative indexing allows access to list elements from the end of the list, so [-3] retrieves the third element from the end, which is 'Chemistry' in the list ['a', 'Chemistry', 0, 1].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3279
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The presence of several different classes of registers can actually enhance pipelining efficiency by allowing for more flexible data handling and reducing dependencies, rather than posing an obstacle.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1053
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The `strip([chars])` function in Python 3 is specifically designed to remove all leading and trailing whitespace characters from a string, making it the correct answer for the question.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function max(list) in Python 3 returns the item with the highest value from the specified list, which directly addresses the requirement of retrieving the maximum value from a collection of items.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A distributed denial-of-service (DDoS) attack involves multiple compromised computers coordinating to overwhelm a target system, whereas a denial-of-service (DoS) attack typically originates from a single source, making the number of attacking computers the primary distinguishing factor.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the built-in function `min()` correctly identifies the smallest element in a list, and since 1 is the least value in the list l = [1, 2, 3, 4], the statement is true.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3241
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because O(N^(1/N)) approaches 1 as N increases, indicating that it grows slower than O(N^(1/4)), which increases without bound as N grows.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Bitmap graphics represent images as a grid of pixels, which can lead to distortion and jagged edges when depicting straight lines, especially at lower resolutions.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1025
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The ratio of nonterminal nodes to total nodes in a complete K-ary tree of depth N is actually (K^N - 1)/(K^N - 1 + 1) rather than (K-1)/K, as nonterminal nodes are defined as those with children, which depends on the total number of nodes at each level of the tree.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1019
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In a 3-way, set-associative cache, each block of main memory can be mapped to any of the three cache lines in a specific set, allowing flexibility in where the data can be stored.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1091
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def count_Rectangles(radius): | return rectangles",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that takes the radius of the circle as an input parameter and implies that it will calculate and return the number of rectangles that can be inscribed within that circle based on its geometric properties.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 355
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_23_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def Split(list): | return ev_li",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the task of creating a Python function to filter even numbers from a mixed list, suggesting the use of a return statement to output the filtered list, which is essential for achieving the desired functionality.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 629
+    }
+  ]
+}

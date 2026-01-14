@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_02",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Recursive procedures require stack-based storage allocation because each recursive call must maintain its own state and local variables, which is efficiently managed by the stack's Last In, First Out (LIFO) structure.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1059
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is recognized as the first significant buffer overflow attack because it exploited vulnerabilities in UNIX systems to propagate itself, demonstrating the potential for such attacks to disrupt networks and systems.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "To verify a digital signature, the recipient must use the sender's public key to confirm that the signature was created using the corresponding private key, ensuring the authenticity and integrity of the message.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1498
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "CBF is not a recognized block cipher operating mode, whereas the other options typically represent established modes such as ECB, CBC, and CTR that determine how block ciphers process data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1518
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Operator precedence can be effectively defined using context-free grammar because it involves hierarchical rules that dictate the order of operations in expressions, which can be expressed through production rules in such grammars.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1077
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "An Abstract Syntax Tree (AST) primarily represents the structure of source code in a hierarchical format, while a symbol table is responsible for managing information about variables and their attributes in a compiler.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1022
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is True because the GGM construction utilizes a secure pseudorandom generator to generate pseudorandom functions, and the Luby-Rackoff theorem establishes that a secure pseudorandom generator can be used to construct secure pseudorandom permutations through a suitable construction.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14208
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is false because the Silk Road refers to a historical trade route that facilitated the exchange of goods and culture between the East and West, while the modern Dark Web marketplace sharing the same name was specifically known for illegal activities, including drug trafficking.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1495
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because modern security practices recognize a variety of authentication methods, including passwords, security tokens, and multi-factor authentication, in addition to biometric data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1505
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the Transport Layer Security (TLS) protocol, allowing an attacker to read arbitrary memory content from a server, thereby accessing sensitive data beyond the intended bounds of a buffer.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 15631
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def check_IP(Ip): | return (\"Valid IP address\") | return (\"Invalid IP address\")",
+      "marks": 10,
+      "explanation": "The provided answer is correct in concept as it outlines a function intended to validate an IP address using a regular expression, although it lacks the actual implementation of the regex logic and the necessary conditional statements to check and return the validity of the IP address.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 669
+    },
+    {
+      "question_id": "computer_science_graduate_doc_02_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def find_Min_Sum(num): | return sum",
+      "marks": 10,
+      "explanation": "correct because it outlines the basic structure of a Python function intended to calculate the sum of the factors of a given number, although it lacks the specific implementation details needed to achieve the desired functionality.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 511
+    }
+  ]
+}

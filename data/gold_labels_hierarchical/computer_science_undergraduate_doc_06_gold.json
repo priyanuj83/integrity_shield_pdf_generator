@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_undergraduate_doc_06",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In Python, the operator '<<' performs a left bitwise shift, so shifting the binary representation of the number 1 (which is '0001') three places to the left results in '1000', which is equal to 8 in decimal.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(n^2) is the largest asymptotic notation among the options because it grows at a faster rate than linear or logarithmic functions as the input size n increases, indicating that its time complexity will be higher in comparison to those functions for large n.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In a remote procedure call (RPC), parameters are typically serialized and sent over the network, which means they are passed by value rather than by reference, as the remote procedure cannot directly access the caller's memory space.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1031
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The expression \"abc\"[::-1] in Python 3 uses slicing with a step of -1, which reverses the string, resulting in \"cba\".",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression ['Hi!'] * 4 creates a new list that repeats the single element 'Hi!' four times, resulting in the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, a set is defined as an unordered collection of unique elements, so when a list containing duplicate elements is converted to a set, all duplicates are automatically removed, resulting in a collection of only unique elements.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3270
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Identifier length in programming languages is typically defined by context-sensitive rules, such as those considering scope and naming conflicts, which cannot be captured by context-free grammars.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1077
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Choosing to busy-wait on an asynchronous event in a time-sharing system is unreasonable because it consumes CPU cycles unnecessarily, preventing the system from efficiently allocating resources to other processes that could make better use of the available processing power.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1012
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The join() function in Python 3 is used to concatenate elements of an iterable into a string using a specified separator, and it does not perform any checks on the case of characters within strings.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The operator '//' in Python 3 is used for floor division, not for performing exponential (power) calculations, which are done using the '**' operator.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3219
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def profit_amount(actual_cost,sale_amount): | return amount | return None",
+      "marks": 10,
+      "explanation": "The provided function correctly checks if the sale amount exceeds the actual cost to determine profit, returning the profit amount if applicable, or None if there is no profit.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 954
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def get_max_sum (n): | return res[n]",
+      "marks": 10,
+      "explanation": "correct because it suggests using a memoization technique (implied by returning `res[n]`) to efficiently compute and store the maximum sum derived from the recursive function, ensuring optimal performance by avoiding redundant calculations.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 392
+    }
+  ]
+}

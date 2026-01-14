@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_25",
+  "document_name": "Cybersecurity - Graduate Level Assessment 25",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_25.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a security exploit?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Cross-site scripting",
+        "C": "Authentication",
+        "D": "SQL Injection"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is a fundamental process in cybersecurity used to verify the identity of users and is not considered a security exploit, which typically refers to vulnerabilities or attacks that compromise system security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1485"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is the central node of 802.11 wireless operations.",
+      "options": {
+        "A": "WPA",
+        "B": "Access Point",
+        "C": "WAP",
+        "D": "Access Port"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Access Point serves as the central hub in 802.11 wireless networks by facilitating communication between wireless devices and providing access to the wired network, thereby managing data traffic and connectivity within the network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "You are given a message (m) and its OTP encryption (c). Can you compute the OTP key from m\nand c ?",
+      "options": {
+        "A": "No, I cannot compute the key.",
+        "B": "Yes, the key is k = m xor c.",
+        "C": "I can only compute half the bits of the key.",
+        "D": "Yes, the key is k = m xor m."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the property of the one-time pad (OTP) encryption, where the key can be derived by performing a bitwise XOR operation between the plaintext message (m) and the ciphertext (c), resulting in the key (k = m xor c).",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What was the first buffer overflow attack?",
+      "options": {
+        "A": "Love Bug",
+        "B": "SQL Slammer",
+        "C": "Morris Worm",
+        "D": "Code Red"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm, released in 1988, is widely recognized as the first significant buffer overflow attack, as it exploited vulnerabilities in Unix systems to propagate itself, thereby highlighting the dangers of such security flaws in software.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Failed sessions allow brute-force attacks on access credentials. This type of attacks are\ndone in which layer of the OSI model?",
+      "options": {
+        "A": "Physical layer",
+        "B": "Data-link Layer",
+        "C": "Session layer",
+        "D": "Presentation layer"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is the Session layer because it is responsible for establishing, managing, and terminating sessions between applications, making it the layer where authentication and credential verification take place, which are vulnerable to brute-force attacks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "The digest created by a hash function is commonly referred to as a Modification Detection Code (MDC).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A digest created by a hash function is called a Modification Detection Code (MDC) because it serves to verify the integrity of data by providing a unique output that changes if the input data is altered.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1532"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The .Net framework is primarily designed for developing secure applications and does not focus on vulnerability exploitation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, while the .NET framework includes security features to help developers build secure applications, it is also a target for vulnerability exploitation, highlighting the need for ongoing security practices and awareness in software development.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "EXE restarts the STP solver and continues executing the path, assuming the query is satisfiable despite the timeout.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because EXE does not assume the query is satisfiable after a timeout; instead, it indicates that the STP solver was unable to resolve the query within the given time, leading to a lack of definitive conclusions about satisfiability.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "WPA 2 is less secure than WEP and should not be used for protecting wireless networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA2 employs stronger encryption methods and more robust security protocols than WEP, making it significantly more secure for protecting wireless networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Encapsulating Security Payload (ESP) is a component of the Secure IP Protocol, providing confidentiality and integrity for IP packets.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Encapsulating Security Payload (ESP) is indeed a component of the Internet Protocol Security (IPsec) suite, which is designed to provide confidentiality, integrity, and authentication for IP packets transmitted over a network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process and significance of mutation-based fuzzing in cybersecurity, focusing\non how it generates inputs by modifying previous ones and its implications for software\ntesting.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Mutation-based fuzzing is a crucial process in cybersecurity that enhances software\ntesting by generating new test inputs through the modification of existing ones. This\nmethod involves systematically altering various components of a valid input, such as\nchanging data values, appending random bytes, or altering the structure of the input. The\nsignificance of this approach lies in its ability to uncover vulnerabilities that may not\nbe detected through traditional testing methods, as it simulates unexpected or malformed\ninputs that software might encounter in real-world scenarios. By leveraging the principle\nof modifying prior inputs, mutation-based fuzzing can effectively identify security flaws,\nleading to more robust and secure software systems. This iterative process not only aids\nin detecting bugs but also improves overall software reliability and resilience against\npotential attacks.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly highlights that mutation-based fuzzing enhances software testing by systematically altering valid inputs to generate new test cases, which helps identify vulnerabilities that traditional testing may overlook, thereby emphasizing its significance in cybersecurity.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the classic security properties in cybersecurity, identifying which is not\ntraditionally considered a core property, and analyze the implications of this distinction\non security frameworks.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In cybersecurity, the classic security properties are often summarized as confidentiality,\nintegrity, and availability, collectively known as the CIA triad. While confidentiality\nand integrity are traditionally regarded as core properties essential for protecting\ninformation from unauthorized access and alteration, availability is frequently viewed as\na secondary concern. This distinction implies that many security frameworks prioritize the\nfirst two properties, potentially neglecting availability, which is crucial for ensuring\nthat systems and data are accessible when needed. The implications of this oversight can\nlead to vulnerabilities where services may be disrupted, affecting business continuity and\nuser trust. Thus, a balanced approach that equally emphasizes all three properties is\nessential for a comprehensive security posture.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies confidentiality and integrity as core properties of the CIA triad in cybersecurity, while positioning availability as a secondary concern, thereby highlighting the potential oversight in security frameworks that may prioritize the former two properties at the expense of ensuring system availability.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1570"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

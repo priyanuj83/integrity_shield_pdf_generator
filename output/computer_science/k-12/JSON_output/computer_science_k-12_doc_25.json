@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_k-12_doc_25",
+  "document_name": "Computer Science - K-12 Level Assessment 25",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_25.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_25_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following has the greatest potential for compromising a user's personal\nprivacy?",
+      "options": {
+        "A": "A group of cookies stored by the user's Web browser",
+        "B": "The Internet Protocol (IP) address of the user's computer",
+        "C": "The user's e-mail address",
+        "D": "The user's public key used for encryption"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A group of cookies stored by the user's Web browser can track and store detailed information about a user's online behavior, preferences, and identity, which can significantly compromise personal privacy.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3267"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is max(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because the max() function in Python returns the largest value from a list, and in the list [1,2,3,4], the highest number is 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, let r = lambda q: q * 2. What is r(3)?",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "3",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6 because the lambda function r takes an input q and returns double its value, so r(3) computes as 3 * 2, which equals 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In python 3, which of the following is floor division?",
+      "options": {
+        "A": "/",
+        "B": "//",
+        "C": "%",
+        "D": "|"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is // because in Python 3, the double forward slash operator is specifically defined to perform floor division, which divides two numbers and rounds down to the nearest whole number.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which is the smallest asymptotically?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(1) is the smallest asymptotic notation because it represents constant time complexity, indicating that the algorithm's runtime does not change with the size of the input, making it the least growth rate compared to other complexities.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression ['Hi!'] * 4 produces the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the multiplication operator (*) when applied to a list repeats the elements of the list the specified number of times, resulting in the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3262"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, accessing the first element of the tuple ( 'abcd', 786 , 2.23, 'john', 70.2 ) results in an error.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, accessing the first element of the tuple ( 'abcd', 786 , 2.23, 'john', 70.2 ) does not result in an error because tuples are indexed starting from zero, and the first element can be accessed using the index 0.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3191"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The boolean expression a[i] == max || !(max != a[i]) simplifies to a[i] != max.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the expression a[i] == max || !(max != a[i]) actually simplifies to a[i] == max, not a[i] != max.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "A large Java program that has been tested extensively may still contain bugs that were not detected during testing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Even with extensive testing, a large Java program may still contain undetected bugs due to the complexity of the code, the limitations of testing methods, and the possibility of untested edge cases or scenarios.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Python variable names are case-sensitive, meaning 'Variable' and 'variable' are considered different names.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, variable names are case-sensitive, which means that 'Variable' and 'variable' are treated as distinct identifiers, allowing for different variables to be defined with similar names differing only in their letter case.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_25_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the first duplicate element in a given array of integers.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_first_duplicate(nums): | return nums[i] | return no_duplicate",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to traverse the array and check for previously seen elements to find the first duplicate, although it lacks proper implementation details and syntax for a complete function.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "22"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_25_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find three closest elements from three sorted arrays.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_closet(A, B, C, p, q, r): | return A[res_i],B[res_j],C[res_k]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to access specific indices from three sorted arrays A, B, and C to find the closest elements, demonstrating an understanding of how to retrieve values from multiple sorted data sets based on their indices.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "938"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

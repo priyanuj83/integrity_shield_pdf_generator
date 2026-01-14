@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 1 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The first statement is false because ReLU activations are indeed monotonic (non-decreasing), while the second statement is true as neural networks trained with gradient descent often converge to local minima, with certain conditions allowing for convergence to the global optimum in specific cases.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The dimensionality of the null space of matrix A is 2 because the rank of the matrix is 1, leading to a nullity of 2 as determined by the Rank-Nullity Theorem, which states that the dimension of the null space plus the rank equals the number of columns in the matrix.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Nando de Frietas; B) Yann LeCun; C) Stuart Russell; D) Jitendra Malik
+\\ \textit{Note:} Stuart Russell is widely recognized for his work on the safety and ethical implications of artificial intelligence, particularly regarding existential risks, making him a leading authority on this topic in the field of machine learning.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Is unbounded, encompassing all real numbers.; B) Is unbounded, encompassing all integers.; C) Is bounded between 0 and 1.; D) Is bounded between -1 and 1.
+\\ \textit{Note:} The sigmoid function transforms any real-valued input into a value between 0 and 1, making the output of a sigmoid node in a neural network bounded within this range.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(A|B) decreases; B) P(B|A) decreases; C) P(B) decreases; D) All of above
+\\ \textit{Note:} The correct answer is P(B|A) decreases because if P(A, B) decreases while P(A) increases, the conditional probability P(B|A), calculated as P(A, B)/P(A), must decrease due to the numerator decreasing relative to the increasing denominator.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Out-of-distribution detection refers specifically to the ability of a model to identify data points that differ from the training distribution, while train-test mismatch robustness encompasses a broader range of issues related to performance degradation due to differences between training and testing data distributions, making the two concepts distinct.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The computational complexity of gradient descent is considered polynomial in the dimensionality D of the data because each iteration of the algorithm requires computing the gradient, which involves a linear scan of the D-dimensional data, resulting in a time complexity of O(D) per iteration.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the rank of matrix A, which consists of three identical rows, is 1, as all rows are linearly dependent.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Discriminative approaches model the conditional distribution p(y | x) to directly differentiate between classes given the input features, rather than modeling the joint distribution p(y, x) that represents the overall data distribution.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Lasso regression incorporates L$_{1}$ regularization, which penalizes the absolute size of the coefficients, leading to some coefficients being shrunk to zero, thereby effectively selecting a subset of features for the model.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is a 3 x 3 matrix where all rows are identical, indicating that its rank is 1. To determine the dimensionality of its null space, we apply the rank-nullity theorem, which states that the nullity (dimension of the null space) plus the rank must equal the number of columns. Thus, nullity = number of columns - rank = 3 - 1 = 2. This implies that the null space of A is two-dimensional, meaning there are infinitely many vectors that can be mapped to the zero vector under the linear transformation represented by A. In the context of machine learning, this indicates that the transformation loses a degree of freedom, which can impact the model's ability to capture variability in the data.
+\\ \textit{Note:} correct because it accurately applies the rank-nullity theorem to determine that the null space of the matrix A, which has a rank of 1, must have a dimensionality of 2, indicating the presence of infinitely many vectors that can be transformed to the zero vector under the corresponding linear transformation.
+\item \textbf{Answer:} A linear hard-margin Support Vector Machine (SVM) is applicable under the condition that the training data is linearly separable, meaning that there exists a hyperplane that can perfectly divide the data points of different classes without any misclassifications. This condition implies that there is a clear margin between the classes, which enables the SVM to maximize this margin while ensuring that all training instances are correctly classified. The implications of linear separability in machine learning models are significant, as they determine the choice of algorithms; when data is not linearly separable, hard-margin SVMs may fail, leading practitioners to consider alternative approaches like soft-margin SVMs or kernel methods that can handle non-linear relationships. Thus, understanding the nature of the data and its separability is crucial in selecting the appropriate model and ensuring effective classification.
+\\ \textit{Note:} correct because it accurately identifies that a linear hard-margin SVM requires linearly separable data to function effectively, allowing for the maximization of the margin between classes without misclassifications, which is fundamental to the SVM algorithm's design and performance.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

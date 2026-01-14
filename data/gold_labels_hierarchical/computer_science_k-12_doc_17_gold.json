@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_17",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The operator '**' in Python 3 is specifically designed to perform exponentiation, allowing users to raise a number to the power of another number.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3219
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "O(1) is the smallest asymptotic notation because it represents a constant time complexity that does not grow with the size of the input, indicating that the algorithm's performance remains unchanged regardless of the input size.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Sorting values in a column or row allows users to easily identify outliers or discrepancies, making it easier to detect improbably high or low values that may indicate data entry errors.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3221
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "In Python 3, negative indexing allows access to elements from the end of a string, so \"abc\"[-1] refers to the last character, which is 'c'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3247
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The output of \"abc\"[::-1] is \"cba\" because the slicing syntax [::-1] reverses the string by stepping through it backward.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The sum of the list l = [1, 2, 3, 4] in Python 3 is equal to 10, not 8, because when you add the numbers together (1 + 2 + 3 + 4), the total is 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression 3 % 3 evaluates to 0, so 1 + 0 equals 1, not 3, making the statement false.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression b[::2] returns [11, 15, 19] from the list b = [11, 13, 15, 17, 19, 21], as it selects every second element starting from the first index.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Even if a large Java program passes all tests without errors, it may still contain bugs that were not encountered during testing due to limitations in test coverage or untested edge cases.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The isupper() function in Python 3 returns True if all the characters in a string are uppercase letters and there is at least one character, confirming that it checks for the uppercase status of all characters in the string.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def mul_consecutive_nums(nums): | return result",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that processes a list of numbers to compute the product of consecutive elements, which is essential for fulfilling the task of multiplying those numbers together.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 690
+    },
+    {
+      "question_id": "computer_science_k-12_doc_17_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def max_difference(test_list): | return (res)",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to create a function that calculates and returns the maximum difference between pairs in a list of tuples, though it lacks the implementation details for the actual calculation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 63
+    }
+  ]
+}

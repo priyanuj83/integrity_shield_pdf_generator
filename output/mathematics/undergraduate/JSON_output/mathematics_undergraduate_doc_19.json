@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_19",
+  "document_name": "Mathematics - Undergraduate Level Assessment 19",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_19.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The maximum number of acute angles in a convex 10-gon in the Euclidean plane is",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a convex polygon, the sum of the interior angles is given by the formula (n-2) \u00d7 180\u00b0, and since each acute angle is less than 90\u00b0, having more than three acute angles would make it impossible to satisfy the angle sum requirement for a 10-gon, which is 1440\u00b0.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1135"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Every solvable group is of prime-power order. Statement 2 | Every group of\nprime-power order is solvable.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is False for Statement 1 because there exist solvable groups that have orders which are not prime powers, while Statement 2 is True as every group of prime-power order is guaranteed to be solvable due to the structure theorem for finite groups.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "50"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find the degree for the given field extension Q(sqrt(2)) over Q.",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "1",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The degree of the field extension Q(sqrt(2)) over Q is 2 because the minimal polynomial of sqrt(2) over Q is x^2 - 2, which is irreducible in Q and has a degree of 2.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "54"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the maximum possible order for an element of S_n for n = 7.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "30",
+        "D": "105"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order of an element in the symmetric group S_n is given by the least common multiple of the cycle lengths in its disjoint cycle decomposition, and for n = 7, the cycle structure that achieves this maximum is a 7-cycle combined with a 2-cycle, resulting in a least common multiple of 14, but only the elements with cycle lengths 3 and 4, or 6 and 2 yield the maximum order of 12.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14050"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | If a and b are elements of finite order in an Abelian group, then |ab| is\nthe lcm (|a|,|b|). Statement 2 | If g is a group element and g^n = e, then |g| = n.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The first statement is false because the order of the product of two elements in an Abelian group is the least common multiple of their orders only if the elements commute, which they do in an Abelian group, but also requires that their orders are coprime; the second statement is false because if g^n = e, it only guarantees that the order of g divides n, not that |g| equals n.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14048"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The product of (2,3) and (3,5) in the ring Z_5 x Z_9 is (1,6).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The product of (2,3) and (3,5) in the ring Z_5 x Z_9 is calculated by multiplying the components modulo 5 and 9 respectively, resulting in (2*3 mod 5, 3*5 mod 9) = (1,6).",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "17"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The circle defined by x^2 + y^2 = 16 has more points of intersection with the parabola x^2 = y + 4 than any other circle listed.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the circle defined by x^2 + y^2 = 16 intersects the parabola x^2 = y + 4 at only two points, while other circles can intersect the parabola at a greater number of points depending on their size and position.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The area of an equilateral triangle with an inscribed circle radius of 2 is 16 square units.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The area of an equilateral triangle is given by the formula \\( A = \\frac{r^2 \\cdot 3\\sqrt{3}}{2} \\), so with an inscribed circle radius of 2, the area is \\( 6\\sqrt{3} \\), which is approximately 10.39 square units, not 16.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "In the group G = {2, 4, 6, 8} under multiplication modulo 10, the identity element is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The identity element in the group G under multiplication modulo 10 is 1, not 2, because the identity element must satisfy the condition that multiplying it by any element in the group returns that element unchanged, which is not true for 2 in this case.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "52"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The maximum possible order for an element of the symmetric group S_10 is 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order for an element of the symmetric group S_10 is 20, which corresponds to a permutation that is a product of a 5-cycle and a 2-cycle, thus making the statement false.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "The inhabitants of the island of Jumble use the standard Kobish alphabet ($20$ letters, A\nthrough T). Each word in their language is $4$ letters or less, and for some reason, they\ninsist that all words contain the letter A at least once. How many words are possible?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In group theory, the product of two subgroups \\( H \\) and \\( K \\) is a subgroup if at\nleast one of them is normal. This is because when \\( H \\) is normal in \\( G \\), the\nelements of \\( K \\) conjugate elements of \\( H \\) back into \\( H \\), ensuring that the\nproduct \\( HK \\) satisfies the subgroup criteria of closure and inverses. Additionally,\ngroups of order \\( p^2 \\), where \\( p \\) is a prime, are always Abelian. This stems from\nthe fact that such groups can be analyzed using the classification of finite groups, where\neither they are cyclic or isomorphic to the direct product of two cyclic groups, both of\nwhich exhibit the commutative property. Thus, both statements highlight fundamental\nproperties of group structure in abstract algebra.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the normality of one subgroup ensures closure under group operations for the product of subgroups \\( HK \\), and it correctly identifies that groups of order \\( p^2 \\) are Abelian due to their structure being constrained by the properties of prime order groups.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "59"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of the statements regarding subgroups in group theory: Analyze\nwhy the product of subgroups HK is a subgroup if one of them is normal, and assess the\nproperties of groups of order p^2 being Abelian.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In group theory, the product of two subgroups \\( H \\) and \\( K \\) is a subgroup if at\nleast one of them is normal. This is because when \\( H \\) is normal in \\( G \\), the\nelements of \\( K \\) conjugate elements of \\( H \\) back into \\( H \\), ensuring that the\nproduct \\( HK \\) satisfies the subgroup criteria of closure and inverses. Additionally,\ngroups of order \\( p^2 \\), where \\( p \\) is a prime, are always Abelian. This stems from\nthe fact that such groups can be analyzed using the classification of finite groups, where\neither they are cyclic or isomorphic to the direct product of two cyclic groups, both of\nwhich exhibit the commutative property. Thus, both statements highlight fundamental\nproperties of group structure in abstract algebra.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the normality of one subgroup ensures closure under group operations for the product of subgroups \\( HK \\), and it correctly identifies that groups of order \\( p^2 \\) are Abelian due to their structure being constrained by the properties of prime order groups.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "59"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

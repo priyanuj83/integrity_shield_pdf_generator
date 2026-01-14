@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_22",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A digital signature requires a public-key system because it relies on asymmetric cryptography, where a private key is used to create the signature and a corresponding public key is used to verify its authenticity, ensuring both security and non-repudiation.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1507
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Public key encryption simplifies the key exchange process by allowing users to share their public keys openly, eliminating the need for a secure channel to exchange secret keys as required in symmetric key cryptography.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1494
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "EtterPeak is recognized as a popular tool for network analysis in multiprotocol diverse networks due to its ability to capture and analyze traffic across various protocols, making it essential for cybersecurity professionals in diagnosing and monitoring network performance.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1549
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Open, filtered, unfiltered\" because these terms describe the states of network ports as determined by Nmap during a scan, where \"open\" indicates a port is accepting connections, \"filtered\" means that the port is being blocked by a firewall or similar device, and \"unfiltered\" signifies that the port is accessible but its state is not confirmed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1555
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A proxy firewall filters at the application layer because it operates by intercepting and analyzing the data traffic between clients and servers, allowing it to enforce security policies based on the content and context of the application-specific data being transmitted.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1528
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Nessus is primarily a vulnerability assessment tool designed for identifying security vulnerabilities in systems and applications, rather than functioning as a network intrusion detection system or performing real-time traffic analysis.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1510
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Escaping queries is effective against SQL injection attacks because it transforms potentially harmful user input into a safe format that the database engine can interpret as data rather than executable code, thereby neutralizing the threat.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1489
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the Data Encryption Standard (DES) utilizes a 64-bit key from which 8 bits are used for parity checks, leaving 56 bits that are actually used for encryption during each round.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1524
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the Transport Layer Security (TLS) protocol, enabling attackers to send a malformed heartbeat request that causes the server to leak sensitive data from its memory, thus allowing them to read data outside the intended buffer boundaries.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15631
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A Base Signal Station primarily handles signaling and control functions in mobile networks rather than data transmission, which is the primary role of a Base Transceiver Station.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1550
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "The primary objectives of authentication in cybersecurity revolve around accurately\ndetermining who the user is, which is essential for enforcing access controls and\nprotecting sensitive information. Authentication serves as the first line of defense\nagainst unauthorized access, ensuring that only legitimate users can interact with a\nsystem. This process not only verifies user identity through various methods-such as\npasswords, biometrics, or multi-factor authentication-but also establishes a trust\nframework that underpins overall system security. By confirming user identities,\norganizations can mitigate risks of data breaches and unauthorized transactions, thus\nreinforcing the integrity and confidentiality of their digital assets. Ultimately,\neffective authentication is crucial for maintaining a secure environment in which user\nactions can be reliably traced and monitored.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies authentication as a critical mechanism in cybersecurity for verifying user identity and enforcing access controls, thereby safeguarding sensitive information and maintaining overall system security.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14206
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_22_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "Buffer-overrun vulnerabilities pose significant risks in application development as they\nallow attackers to overwrite memory locations, potentially gaining unauthorized access to\nsensitive data or executing arbitrary code. When a buffer overflow occurs, malicious\nactors can manipulate the execution flow of a program, leading to severe consequences such\nas data breaches, system crashes, or the installation of malware. Mitigation strategies\ninclude implementing bounds checking, using safe programming languages that inherently\nprevent such vulnerabilities, and employing tools for static and dynamic analysis to\nidentify and rectify buffer overflows during the development lifecycle. Additionally,\nadopting practices like address space layout randomization (ASLR) and stack canaries can\nfurther enhance the security posture against exploitation attempts. Ultimately, addressing\nbuffer-overrun vulnerabilities is crucial for safeguarding applications and maintaining\nthe integrity of information systems.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the critical risks associated with buffer-overrun vulnerabilities, including unauthorized access and code execution, while also outlining effective mitigation strategies like bounds checking to enhance application security.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1476
+    }
+  ]
+}

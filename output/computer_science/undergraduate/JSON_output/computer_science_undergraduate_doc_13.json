@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_undergraduate_doc_13",
+  "document_name": "Computer Science - Undergraduate Level Assessment 13",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_13.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, let r = lambda q: q * 2. What is r(3)?",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "3",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6 because the lambda function r takes an input q and multiplies it by 2, so when r is called with the argument 3, it computes 3 * 2, resulting in 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements about a remote procedure call is true?",
+      "options": {
+        "A": "It is used to call procedures with addresses that are farther than 2^16 bytes away.",
+        "B": "It cannot return a value.",
+        "C": "It cannot pass parameters by reference.",
+        "D": "It cannot call procedures implemented in a different language."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Remote procedure calls (RPC) typically serialize parameters for transmission over a network, which means they are passed by value rather than by reference, preventing direct manipulation of the original parameter data on the caller's side.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1031"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following function checks in a string that all characters are in\nuppercase?",
+      "options": {
+        "A": "isupper()",
+        "B": "join(seq)",
+        "C": "len(string)",
+        "D": "ljust(width[, fillchar])"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The isupper() function in Python 3 checks if all the characters in a string are uppercase, returning True if they are and False otherwise, making it the correct choice for determining if a string is entirely in uppercase.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 4 + 3 % 2?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "4",
+        "D": "5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5 because in Python, the modulo operator (%) has a higher precedence than addition (+), so the expression evaluates as 4 + (3 % 2), which simplifies to 4 + 1, resulting in 5.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In python 3, which of the following is floor division?",
+      "options": {
+        "A": "/",
+        "B": "//",
+        "C": "%",
+        "D": "|"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"//\" because in Python 3, floor division is performed using this operator, which divides two numbers and rounds down the result to the nearest whole number.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Python variable names are case-sensitive, meaning 'Variable' and 'variable' are treated as distinct identifiers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, variable names are case-sensitive, which means that the programming language differentiates between uppercase and lowercase letters, treating 'Variable' and 'variable' as two separate identifiers.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In a complete K-ary tree of depth N, the ratio of nonterminal nodes to total nodes is approximately 1/K.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a complete K-ary tree of depth N, the total number of nodes is given by the formula (K^(N+1) - 1) / (K - 1), while the number of nonterminal (internal) nodes is K^N - 1, leading to a ratio of nonterminal nodes to total nodes that approaches 1/K as N increases.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1019"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The minimum value in the list l = [1,2,3,4] in Python 3 is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The minimum value in the list l = [1,2,3,4] is 1, not 2, because the minimum function identifies the smallest element in the list.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The string 'xxzy' can be generated by the provided grammar, as it matches the recursive structure of the rules.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The string 'xxzy' cannot be generated by the provided grammar because it does not conform to the production rules defined by the grammar that dictate the structure and composition of valid strings.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1060"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The value of the Python expression 1 + 3 % 3 is 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression evaluates to 1 because the modulo operation 3 % 3 results in 0, so the overall expression 1 + 0 equals 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to divide two lists using map and lambda function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def div_list(nums1,nums2): | return list(result)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it demonstrates the use of a lambda function with the map function to perform element-wise division between two lists, thereby achieving the desired result of dividing corresponding elements from the input lists.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "618"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_13_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sort a list of tuples in increasing order by the last element in each\ntuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sort_tuple(tup): | return tup",
+      "gold_confidence": 1.0,
+      "answer_explanation": "incorrect because it does not implement any sorting logic for the list of tuples based on the last element of each tuple.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "487"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

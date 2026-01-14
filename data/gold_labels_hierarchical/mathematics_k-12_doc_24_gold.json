@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_k-12_doc_24",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 9 because a convex hexagon has 6 vertices, and the formula for calculating the number of diagonals in a polygon is n(n-3)/2, where n is the number of vertices, so for a hexagon, it is 6(6-3)/2 = 9.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4383
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 57 because adding a positive number (14) to a negative number (-71) effectively subtracts the absolute value of the negative number from the positive number, resulting in 14 - 71 = -57, which indicates a misunderstanding of the expression, as the correct addition of the absolute values should lead to a total of 57, when interpreted as 14 + 71.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2331
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The new price of the bicycle is calculated by subtracting 15% of the original price ($138.00), which is $20.70, resulting in a final price of $117.30.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2339
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The answer \\( a = 12^{1/7} \\) is correct because solving the system of equations derived from \\( \\frac{a^2}{b} = 1 \\), \\( \\frac{b^2}{c} = 2 \\), and \\( \\frac{c^2}{a} = 3 \\) leads to the conclusion that \\( a^7 = 12 \\) when substituting and manipulating the variables accordingly.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4341
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The unit rate per carton of orange juice is calculated by dividing the total cost of $48 by the number of cartons, which is 12, resulting in a cost of $4 per carton.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2373
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a powerful number requires that for every prime factor in its factorization, the exponent must be at least 2, which is not the case for 336.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4230
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The maximum value of the function f(x) = xe^{-x} occurs at x = 1, where f(1) = 1/e, which is less than e.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4467
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "When 2,314 is divided by 4, the quotient is indeed 578, and the remainder is 2, since 4 times 578 equals 2,312, leaving a remainder of 2 when subtracted from 2,314.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2092
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when you isolate g in the equation -47 = g + 24 by subtracting 24 from both sides, you find that g equals -23.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2293
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The value of the expression 28 x 42 is 1,176 because when you multiply 28 by 42, the product equals 1,176.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2428
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To find all arithmetic sequences of consecutive odd integers that sum to 240, we start by\nletting the first term of the sequence be represented as \\( a \\) and the number of terms\nas \\( n \\). The sum of the sequence can be expressed as \\( S = \\frac{n}{2} \\times (2 a +\n(n-1) \\times 2) = n(a + n - 1) \\). Setting this equal to 240 gives us the equation \\( n(2\na + n - 1) = 240 \\). By analyzing the factors of 240, we find possible values for \\( n \\)\nand subsequently determine the corresponding values for \\( a \\). After testing these\ncombinations, we find that there are 12 valid sequences of consecutive odd integers that\nsum to 240. Thus, the final answer is that there are 12 such sequences.",
+      "marks": 10,
+      "explanation": "correct because it systematically uses the formula for the sum of an arithmetic sequence to relate the number of terms and the first term to the target sum, allowing for the exploration of factors of 240 to find all valid sequences of consecutive odd integers.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4237
+    },
+    {
+      "question_id": "mathematics_k-12_doc_24_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To calculate the number of unique committees of 5 that can be formed from a group of 15\npeople, we use the concept of combinations, since the order of selection does not matter.\nThe formula for combinations is given by C(n, r) = n! / (r!(n - r)!), where n is the total\nnumber of items to choose from, r is the number of items to choose, and \"!\" denotes\nfactorial. Here, n is 15 and r is 5, so we calculate C(15, 5) = 15! / (5!(15 - 5)!) = 15!\n/ (5!10!) = 3,003. Therefore, there are 3,003 unique committees of 5 that can be formed\nfrom the group of 15 people.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the formula for combinations to determine the number of ways to select a group of 5 people from a total of 15, recognizing that the order of selection is irrelevant.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4390
+    }
+  ]
+}

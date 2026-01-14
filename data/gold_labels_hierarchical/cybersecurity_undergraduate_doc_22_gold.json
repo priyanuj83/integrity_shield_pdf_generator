@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_22",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "To verify a digital signature, the recipient must use the sender's public key because it allows them to decrypt the signature and confirm that it was created by the corresponding private key, ensuring the authenticity and integrity of the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1498
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Snort is an open-source network intrusion detection system that effectively analyzes real-time traffic and identifies potential intrusions by monitoring network packets for suspicious activity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1510
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"Modification detection code (MDC)\" because it describes the output of a hash function, which is used to verify data integrity by detecting any changes made to the original data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the principle that when a solver times out, it cannot conclusively determine the satisfiability of the query, leading EXE to conservatively assume the query is unsatisfiable to prevent potential security vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A stream cipher cannot achieve perfect secrecy because, by definition, perfect secrecy requires that the key length be at least as long as the message, ensuring that every possible plaintext is equally likely given any ciphertext, which is not the case when the key is shorter than the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1559
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A man-in-the-middle attack can still compromise the Diffie-Hellman method, as an attacker can intercept and alter the key exchange process regardless of the security of the connection between the two parties.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1480
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In the Data Encryption Standard (DES), the key schedule generates 16 subkeys, each of which is 48 bits long, from the original 56-bit key to be used in each round of the encryption process.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1524
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "SQL queries are highly vulnerable to injection attacks when user input is not properly validated and sanitized, allowing attackers to manipulate the query and execute malicious commands on the database.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1514
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "EtterPeak is recognized for its capability to analyze and visualize network traffic across various protocols, making it an effective tool for network analysis in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1549
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because while confidentiality, integrity, and non-repudiation are indeed primary security principles, access control is generally considered a mechanism to enforce those principles rather than a fundamental principle itself.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1567
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def text_match_zero_one(text): | return 'Found a match!'",
+      "marks": 10,
+      "explanation": "correct because it defines a function that is intended to identify a string pattern where the letter 'a' is followed by either no 'b' or one 'b', fulfilling the requirement of matching the specified regex condition.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 756
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_22_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def check_char(string): | return \"Valid\" | return \"Invalid\"",
+      "marks": 10,
+      "explanation": "The provided answer correctly outlines a function to determine if a string starts and ends with the same character, but it lacks the implementation of the regex logic needed to perform the check, thereby failing to fully address the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 396
+    }
+  ]
+}

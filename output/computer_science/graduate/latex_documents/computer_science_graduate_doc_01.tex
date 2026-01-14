@@ -1,6 +1,11 @@
 \documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
 \usepackage{enumitem}
 \usepackage{geometry}
+\usepackage{graphicx}
 \usepackage{amsmath, amssymb}
 \geometry{margin=1in}
 \begin{document}
@@ -12,63 +17,60 @@ Answer all questions.
 
 \section*{Multiple Choice (10 marks)}
 \begin{enumerate}[label=\arabic*.]
-\item Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling.
+\item \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ is the central node of 802.11 wireless operations.
 \begin{enumerate}[label=(\alph*)]
-    \item True, True
-    \item False, True
-    \item True, False
-    \item True, Not Given
-    \item False, Not Given
+    \item WPA
+    \item Access Point
+    \item WAP
+    \item Access Port
 \end{enumerate}
-\item Let x = 1. What is x << 3 in Python 3?
+\item How does a buffer overflow on the stack facilitate running attacker-injected code?
 \begin{enumerate}[label=(\alph*)]
-    \item 16
-    \item 4
-    \item 8
-    \item 5
-    \item 10
+    \item By overwriting the return address to point to the location of that code
+    \item By writing directly to the instruction pointer register the address of the code
+    \item By writing directly to \%eax the address of the code
+    \item By changing the name of the running executable, stored on the stack
 \end{enumerate}
-\item Consider \$x(t)\$ to be given as, \$\$ x(t)=10 \textbackslash\{\}cos (20 \textbackslash\{\}pi-\textbackslash\{\}pi / 4)-5 \textbackslash\{\}cos (50 \textbackslash\{\}pi t) \$\$ What is minimum sampling rate (/Hz) such that \$y(t)=x(t)\$ ?
+\item Which of the following styles of fuzzer is more likely to explore paths covering every line of code in the following program?
 \begin{enumerate}[label=(\alph*)]
-    \item 30
-    \item 20
-    \item 40
-    \item 50
-    \item 35
+    \item Generational
+    \item Blackbox
+    \item Whitebox
+    \item Mutation-based
 \end{enumerate}
-\item Which types of functions grow the slowest?
+\item Local caching of files is common in distributed file systems, but it has the disadvantage that
 \begin{enumerate}[label=(\alph*)]
-    \item O(N)
-    \item O(log log N)
-    \item O(N!)
-    \item O(log N)
-    \item O(N\^{}N)
+    \item Temporary inconsistencies among views of a file by different machines can result
+    \item The file system is likely to be corrupted when a computer crashes
+    \item A much higher amount of network traffic results
+    \item Caching makes file migration impossible
 \end{enumerate}
-\item Given a color image of size 28 x 28 x 3 pixels, how many convolutional filters in the first layer of a Convolutional Neural Network if the first layer's...
+\item A digital signature needs a
 \begin{enumerate}[label=(\alph*)]
-    \item 96
-    \item 512
-    \item 1024
-    \item 64
-    \item 48
+    \item Private-key system
+    \item Shared-key system
+    \item Public-key system
+    \item All of them
 \end{enumerate}
 \end{enumerate}
 
 \section*{True / False (10 marks)}
-\textit{Answer True or False and justify briefly.}
+\textit{Answer True or False}
 \begin{enumerate}[label=\arabic*.]
-\item True or False: The correct answer to 'Statement 1| The back-propagation algorithm learns a globally optimal neural network with hidden layers. Statement 2| The VC dimension of...' is 'True, True'.
-\item True or False: The correct answer to 'Let l = [1,2,3,4]. What is sum(l) in Python3?' is '10'.
-\item True or False: The correct answer to 'Obtain the 15's and 16's complement of the following hexadecimalnumbers: a) FFOb) 1234c) ABCDd) 0000' is 'a) FFF, b) 1234, c) ABCD, d) 0000'.
-\item True or False: The correct answer to 'Of the following, which gives the best upper bound for the value of f(N) where f is a solution to the recurrence f(2N + 1) = f(2N) = f(N)...' is 'O((log N)\^{}2)'.
-\item True or False: The correct answer to 'Calculate the Hamming pairwise distances and determine the minimum Hamming distance among the following codewords:...' is '1'.
+\setcounter{enumi}{5}
+\item True or False: Encryption and decryption do not provide integrity, which ensures data is not altered during transmission.
+\item True or False: The addition of the two's-complement numbers 10000001 and 10101010 will result in overflow.
+\item True or False: A virus is a hidden part of a program that masquerades as a legitimate application to gain access to a system.
+\item True or False: All bit strings with more ones than zeros cannot be described using a regular expression due to their non-regular nature.
+\item True or False: The solution to the recurrence f(2 N + 1) = f(2 N) = f(N) + log N is O(N log N).
 \end{enumerate}
 
 \section*{Long Form Response (20 marks)}
-\textit{Provide thorough reasoning and reference key steps.}
+\textit{Answer each question with a clear and complete explanation.}
 \begin{enumerate}[label=\arabic*.]
-\item In Chord, assume the size of the identifier space is 16. The active nodes are N3, N6, N8 and N12. Show all the target key (in ascending order, ignore the node's identifier itself) for N6.
-\item A computer program uses 3 bits to represent integers. When the program adds the decimal (base 10) numbers 5 and 3, the result is 0. Which of the following is the best explanation for the result?
+\setcounter{enumi}{10}
+\item Write a python function to find the nth digit in the proper fraction of two given numbers.
+\item Write a function to group the 1 st elements on the basis of 2 nd elements in the given tuple list.
 \end{enumerate}
 
 \vfill

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 25 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The rank of the matrix A is 1 because all its rows are linearly dependent, as they are identical, resulting in only one linearly independent row vector.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It relates inputs to outputs.; B) It is used for prediction.; C) It may be used for interpretation.; D) It discovers causal relationships
+\\ \textit{Note:} The statement "It discovers causal relationships" is false because regression analysis identifies correlations between variables rather than establishing definitive cause-and-effect relationships.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Increase bias; B) Decrease bias; C) Increase variance; D) Decrease variance
+\\ \textit{Note:} Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual model errors by smoothing out predictions, leading to a more stable and accurate overall model.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are false because the original ResNet paper introduced Batch Normalization, not Layer Normalization, and DCGANs do not utilize self-attention; instead, they rely on convolutional layers and upsampling techniques for stabilization.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Is unbounded, encompassing all real numbers.; B) Is unbounded, encompassing all integers.; C) Is bounded between 0 and 1.; D) Is bounded between -1 and 1.
+\\ \textit{Note:} The sigmoid function, defined as \( \sigma(x) = \frac{1}{1 + e^{-x}} \), transforms any real-valued input into an output that is always within the range of 0 to 1, making it particularly useful for modeling probabilities in neural networks.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The original ResNets were primarily optimized using stochastic gradient descent (SGD), but other optimizers like Adam and RMSprop have also been employed in various implementations and adaptations of ResNet architectures.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An excessively large step size can lead to overshooting the optimal solution during the optimization process, causing the model to diverge and resulting in an increase in training loss instead of convergence.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The variance of the MAP estimate is lower than that of the MLE because the MAP incorporates prior information, which helps to stabilize the estimates and reduce their variability compared to the MLE that relies solely on the observed data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Ridge regression applies L$_{2}$ regularization which shrinks coefficients but does not set them to zero, while Lasso regression uses L$_{1}$ regularization, which can eliminate features entirely by driving their coefficients to zero, resulting in significant differences in their feature selection methodologies.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a higher error rate typically indicates a less reliable model, necessitating more test examples to obtain statistically significant results and accurately assess performance.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def convert(list): | return (res)
+\\ \textit{Note:} correct because it outlines the basic structure of a Python function intended to process a list, although it lacks the actual implementation logic needed to convert the list of integers into a single integer.
+\item \textbf{Answer:} def check\_integer(text): | return None | return True | return True | return False
+\\ \textit{Note:} The answer correctly outlines a function structure that evaluates a string input and returns boolean values indicating whether the string can be interpreted as an integer, though it lacks the necessary logic to perform the actual check.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_04",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "RoBERTa indeed pretrains on a corpus approximately 10 times larger than that of BERT, making Statement 1 true, while Statement 2 is false because ResNeXt models typically use ReLU activation functions rather than tanh.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6836
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Clustering is effective for detecting fraudulent credit card transactions because it can identify unusual patterns or groupings in transaction data that deviate from typical customer behavior, allowing for the detection of anomalies that may indicate fraud.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are true because Word2Vec uses neural networks with standard initialization methods rather than Restricted Boltzmann Machines, and the tanh function is indeed a commonly used nonlinear activation function in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6899
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The BLEU metric indeed focuses on precision in evaluating machine translation by comparing n-grams between the generated and reference texts, while the ROGUE metric emphasizes recall by assessing the overlap of n-grams, and Hidden Markov Models have historically been employed to represent and analyze the structure of English sentences.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6924
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer highlights that Grid search evaluates every combination of hyperparameters systematically, leading to slower performance, especially in complex models like multiple linear regression that may have numerous parameters to tune.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6868
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The computational complexity of Gradient Descent is polynomial in the number of features, D, because each iteration of the algorithm requires computing the gradient with respect to all D features, leading to a complexity of O(D) per iteration, and the number of iterations is typically bounded, resulting in a total complexity that is polynomial in D.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6862
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Applying an L1 norm regularization penalty, also known as Lasso regression, encourages sparsity in the model by adding a constraint that can shrink some coefficients to exactly zero, effectively performing variable selection.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6934
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Residual connections help mitigate the vanishing gradient problem and enable more effective information flow in deep networks, which enhances learning efficiency and overall model performance in both ResNets and Transformers.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6892
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The model obtained through forward stagewise selection may differ from the final model because forward selection increments features one at a time based on their individual contribution, while the final model may involve a combination of features chosen based on their collective interaction and performance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Transforming the data to have a zero mean is essential in PCA because it ensures that the principal components accurately represent the directions of maximum variance, which aligns with the singular value decomposition (SVD) process that also centers the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def rombus_area(p,q): | return area",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the function's purpose by using parameters for the lengths of the diagonals (p and q) to calculate the area of a rhombus, which is given by the formula area = (p * q) / 2.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 814
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def list_to_float(test_list): | return (str(res))",
+      "marks": 10,
+      "explanation": "The provided answer is incorrect because it does not define a function that converts elements in the list to floats; instead, it returns a string representation of a variable 'res' without any logic for conversion.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 117
+    }
+  ]
+}

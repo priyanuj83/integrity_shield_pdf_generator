@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 9 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The rank of the matrix A is 1 because all of its rows are identical, indicating that they span only a single dimension in the vector space.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) good fitting; B) overfitting; C) underfitting; D) all of the above
+\\ \textit{Note:} Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and unseen data.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) higher; B) same; C) lower; D) it could be any of the above
+\\ \textit{Note:} The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because MAP incorporates prior information, which regularizes the estimation and reduces uncertainty in the parameter estimates.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Nando de Frietas; B) Yann LeCun; C) Stuart Russell; D) Jitendra Malik
+\\ \textit{Note:} Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and written about the potential existential risks associated with advanced AI systems, making him a prominent authority on the subject.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Is unbounded, encompassing all real numbers.; B) Is unbounded, encompassing all integers.; C) Is bounded between 0 and 1.; D) Is bounded between -1 and 1.
+\\ \textit{Note:} The sigmoid function, defined as \( \sigma(x) = \frac{1}{1 + e^{-x}} \), transforms any real-valued input into a value strictly between 0 and 1, making its output bounded within this range.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because P(H|E, F) can be calculated using Bayes' theorem, which requires P(E, F), P(H), and P(E, F|H) to derive the conditional probability of H given E and F.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the Bayesian network H -\textgreater{} U \textless{}- P \textless{}- W involves three nodes with dependencies that require more than four independent parameters to fully specify the conditional probabilities, as each node's distribution depends on its parents' states.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The ResNet-50 model contains approximately 23 million parameters, which is significantly fewer than 1 billion, thus categorizing it as a relatively smaller neural network compared to others in the field.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Ridge regression does not perform feature selection by eliminating less important features; instead, it shrinks the coefficients of all features towards zero but retains all of them in the model.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because best-subset selection evaluates all possible combinations of predictors to find the best model, while forward stepwise selection only adds predictors incrementally based on their individual contributions, which can lead to different models.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def all\_Bits\_Set\_In\_The\_Given\_Range(n,l,r): | return True | return False
+\\ \textit{Note:} The provided answer is incorrect because it lacks the necessary logic to actually check if all bits are unset in the given range and simply returns True and False without evaluating the conditions based on the input parameters.
+\item \textbf{Answer:} def check\_expression(exp): | return False | return False | return False | return not stack
+\\ \textit{Note:} correct because it outlines a function that checks for balanced expressions by utilizing a stack data structure, ensuring that for every opening symbol there is a corresponding closing symbol, and returns a boolean indicating whether the expression is balanced.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

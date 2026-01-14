@@ -1,0 +1,293 @@
+{
+  "docid": "engineering_graduate_doc_04",
+  "document_name": "Engineering - Graduate Level Assessment 4",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_04.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find the Laplace transform of f(t) =t^n, where n is a positive integer,",
+      "options": {
+        "A": "L{t^n} = [n^2 / (s^(n+2))], for s > 0",
+        "B": "L{t^n} = [n! / (s^(n-1))], for s > n",
+        "C": "L{t^n} = [n! / (s^(n+1)+1)], for s > 0",
+        "D": "L{t^n} = [(n-1)! / s^(n-1)], for s > 0",
+        "E": "L{t^n} = [(n+1)! / s^n], for s > 0"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - L{t^n} = [n^2 / (s^(n+2))], for s > 0",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11650"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Determine the available energy that can be associated with a 10 m^3 perfect vacuum and its\nsurroundings at a pressure of 0.100 MPaand at a temperature of 300 K.",
+      "options": {
+        "A": "750 kJ",
+        "B": "1,500 kJ",
+        "C": "250 kJ",
+        "D": "2,000 kJ",
+        "E": "1,250 kJ"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 750 kJ",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11451"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which lamp has the best Colour Rendering Index (CRI)?",
+      "options": {
+        "A": "Xenon",
+        "B": "High pressure sodium vapour",
+        "C": "Halogen",
+        "D": "Low pressure sodium vapour",
+        "E": "Compact fluorescent"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - Xenon",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11659"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The rating of a certain machine from the name-plate is 110 volts, 38.5 amperes, 5 h.p.\nFind the input, output and efficiency at full load.",
+      "options": {
+        "A": "Input: 4235 watts, Output: 3600 watts, Efficiency: 85 percent",
+        "B": "Input: 4500 watts, Output: 4000 watts, Efficiency: 88.9 percent",
+        "C": "Input: 4350 watts, Output: 3730 watts, Efficiency: 85.7 percent",
+        "D": "Input: 4100 watts, Output: 3450 watts, Efficiency: 84.1 percent",
+        "E": "Input: 4200 watts, Output: 3900 watts, Efficiency: 86 percent"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - Input: 4350 watts, Output: 3730 watts, Efficiency: 85.7 percent",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12159"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The smallest change in measured variable to which instrument will respond is",
+      "options": {
+        "A": "calibration.",
+        "B": "sensitivity.",
+        "C": "resolution.",
+        "D": "repeatability.",
+        "E": "linearity."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - resolution.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11658"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The solution for the equation X = AX + bu with the specified parameters results in X(t) = 2 for all t when u(t) is the impulse function.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '0'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11615"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The speed of data transmission in a 4 G network is generally between 10 Gbps and 100 Gbps.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '100 mbps - 1 gbps.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Delta winding is a necessary configuration for all DC machines, providing optimal performance under varying load conditions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'closed winding'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A 60-cycle alternator with a speed of 120 rpm must have 12 poles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '(a) 180 rpm (b) 6 poles'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11383"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_04_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The average energy density of a plane wave with a Poynting vector of 5 watts/meter^2 is (1/4) erg/meter^3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '(1/2) erg/meter^3'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11702"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_04_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the operational principles of an SR latch constructed from NOR gates and analyze\nthe implications of the condition S=1 and R=1 in this context.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "S=1, R=1. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "42"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_04_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the probability of obtaining 2 heads and 1 tail when a penny is tossed three\ntimes. Discuss the underlying principles of probability that support your calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "3/4. Explain why this is the correct answer and provide supporting evidence. Reference key\nfacts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11863"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

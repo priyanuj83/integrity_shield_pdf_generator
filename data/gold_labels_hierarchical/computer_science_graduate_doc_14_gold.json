@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_14",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Choosing to busy-wait on an asynchronous event is unreasonable on a time-sharing system because it monopolizes CPU resources, preventing other processes from executing efficiently and undermining the system's purpose of sharing resources among multiple tasks.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1012
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The set of all bit strings with more ones than zeros cannot be described by a regular expression because it requires counting and comparing the number of ones and zeros, which is beyond the capabilities of regular languages that are defined by finite automata.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1037
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "SQL queries based on user input are most vulnerable to injection attacks because attackers can manipulate the input to alter the structure of the SQL command, potentially gaining unauthorized access to or modifying the database.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1514
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the principle of the One-Time Pad (OTP) encryption, which states that the key can be derived from the ciphertext and plaintext using the XOR operation, as the relationship is defined by the equation k = m XOR c.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1540
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A backdoor is a covert method that allows unauthorized access to a computer system or its data without detection, making it the correct answer for the question about bypassing security mechanisms untraceably.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1517
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Mutation-based fuzzing is a testing technique that systematically alters existing inputs to create new test cases, thereby enabling the discovery of vulnerabilities in software by observing how the modified inputs are processed.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1525
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The decimal number 0.2 cannot be represented exactly in binary notation because it results in a repeating binary fraction, which cannot be precisely expressed with a finite number of bits.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1042
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "WPS, or Wi-Fi Protected Setup, is designed to allow users to easily connect new devices to a secure wireless network with minimal user intervention, usually through a push-button or PIN method.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1554
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "While encryption ensures the confidentiality of data during transmission, it does not inherently guarantee data integrity, as encryption alone does not protect against unauthorized alterations to the data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1522
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A packet filter firewall inspects and controls incoming and outgoing network traffic based on predetermined security rules, functioning primarily at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def is_Perfect_Square(n) : | return True | return False",
+      "marks": 10,
+      "explanation": "The answer correctly defines a function to check if a number is a perfect square by returning True for perfect squares and False otherwise, although it lacks the necessary logic to perform the actual check.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 803
+    },
+    {
+      "question_id": "computer_science_graduate_doc_14_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def min_Operations(A,B): | return B - 1",
+      "marks": 10,
+      "explanation": "correct because it assumes that the only operation needed to make two numbers equal is decrementing the larger number, and thus calculates the minimum operations by subtracting one from the larger number, although it overlooks cases where A is greater than B or where other operations could be involved.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 218
+    }
+  ]
+}

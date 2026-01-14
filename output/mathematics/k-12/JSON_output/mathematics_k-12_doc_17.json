@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_k-12_doc_17",
+  "document_name": "Mathematics - K-12 Level Assessment 17",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_17.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_17_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "When $(x\\sqrt{x^3})^4$ is simplified, what is the exponent of $x$?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "2",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When simplifying $(x\\sqrt{x^3})^4$, we first rewrite $\\sqrt{x^3}$ as $x^{3/2}$, resulting in $(x \\cdot x^{3/2})^4 = (x^{1 + 3/2})^4 = (x^{5/2})^4$, which simplifies to $x^{10}$.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4351"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate $\\left(\\frac{1}{a}\\right)^4 \\cdot 2 \\cdot a^4+a^{2+1-3}$ when $a=42$.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression simplifies to 2 when \\( a = 42 \\), and since \\( a^{2+1-3} = a^0 = 1 \\), adding these gives \\( 2 + 1 = 3 \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4462"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Compute $\\dbinom{85}{82}$.",
+      "options": {
+        "A": "252",
+        "B": "4680",
+        "C": "98770",
+        "D": "101170"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, 98770, is obtained by using the formula for combinations, specifically $\\dbinom{n}{k} = \\frac{n!}{k!(n-k)!}$, where $\\dbinom{85}{82}$ simplifies to $\\dbinom{85}{3}$, which calculates to 98770.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4264"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Six 6-sided dice are rolled. What is the probability that three of the dice show prime\nnumbers and the rest show composite numbers?",
+      "options": {
+        "A": "\\frac{125}{2916}",
+        "B": "\\frac{5}{16}",
+        "C": "\\frac{5}{54}",
+        "D": "\\frac{5}{55}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \\(\\frac{5}{54}\\) because there are 3 prime numbers (2, 3, 5) and 3 composite numbers (4, 6) on a 6-sided die, and the probability of rolling exactly three primes and three composites can be calculated using combinations and the probabilities of each outcome.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4413"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A number is rounded to the nearest hundred. The result is 500. Which number could not be\nthe number before it was rounded to the nearest hundred?",
+      "options": {
+        "A": "458",
+        "B": "463",
+        "C": "547",
+        "D": "559"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number 559 cannot be the original number before rounding because it rounds to 600, while numbers between 450 and 549 round to 500.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2330"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The number 179,912 in word form is written as one hundred seventy-nine thousand twelve.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number 179,912 in word form is correctly written as one hundred seventy-nine thousand nine hundred twelve, not one hundred seventy-nine thousand twelve.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2346"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The number that makes the equation 2 over 9 equal to 14 over ? is 15.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the correct number that makes the equation 2/9 equal to 14/? is 63, not 15, as determined by cross-multiplying to find the unknown denominator.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2368"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Find $(2^{20} + 2^{20} + 2^{20} +2^{21}) \\div 2^{17}$.' is '10'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the expression simplifies to $(3 \\cdot 2^{20} + 2^{21}) \\div 2^{17}$, which equals $10$, but the calculation is incorrect because it does not take into account proper simplification and evaluation of powers of 2.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4394"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The expression -\\dfrac{1}{-3}\\cdot\\cfrac{1}{~\\frac{1}{-3}~} simplifies to 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression -\\dfrac{1}{-3}\\cdot\\cfrac{1}{~\\frac{1}{-3}~} simplifies to -3, not 1, because multiplying a negative fraction by the reciprocal of that fraction results in a negative value.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4320"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "Five inches on the map represents 125 miles in reality, based on the scale of 1 inch equals 25 miles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if 1 inch on the map represents 25 miles, then 5 inches would represent 5 times 25 miles, which equals 125 miles.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2083"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_17_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "How many numbers are in the following list: $$-4, -1, 2, 5,\\ldots, 32$$",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Note that the numbers increase by 3 each time. Hence we increase by 3 a total of $\\frac{32\n- (-4)}{3} = 12$ times. But then there must be $12 + 1 = \\boxed{13}$ numbers, since we\nneed to also include the first number on the list.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it determines the total number of terms in the arithmetic sequence by calculating the number of increments of 3 from the starting value of -4 to the endpoint of 32, and then adding one to account for the initial term.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "19732"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_17_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of vertical axis of symmetry in vowels. Identify which vowel lacks\nthis symmetry and explain your reasoning with examples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The concept of vertical axis of symmetry in vowels refers to the idea that certain vowel\nshapes can be divided into two mirror-image halves along a vertical line. Most vowels,\nsuch as A, O, and U, exhibit this symmetry because they look the same on both sides of the\nvertical line. However, the vowel E lacks this vertical axis of symmetry, as its shape is\nnot identical when split down the middle. For instance, if you draw a vertical line\nthrough the center of E, the left and right sides do not match, demonstrating the absence\nof symmetry. Therefore, E is the only vowel that does not possess this characteristic.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the vertical axis of symmetry in vowels, demonstrates that vowels like A, O, and U possess this symmetry, and clearly explains that the vowel E does not have this symmetry due to its asymmetrical shape when divided vertically.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4443"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

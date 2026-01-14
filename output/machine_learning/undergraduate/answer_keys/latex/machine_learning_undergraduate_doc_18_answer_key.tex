@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 18 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) higher; B) same; C) lower; D) it could be any of the above
+\\ \textit{Note:} The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which tends to regularize the estimate and reduce its uncertainty compared to the MLE that relies solely on the observed data.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(H, U, P, W) = P(H) * P(W) * P(P) * P(U); B) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P); C) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P); D) None of the above
+\\ \textit{Note:} The correct answer is based on the structure of the Bayesian Network, where the joint probability can be expressed as the product of the marginal probability of H, the marginal probability of W, the conditional probability of P given W, and the conditional probability of U given both H and P, following the rules of conditional independence.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Supervised learning; B) Unsupervised learning; C) Clustering; D) None of the above
+\\ \textit{Note:} Predicting the amount of rainfall based on various cues is a supervised learning problem because it involves training a model on labeled data, where the inputs are the cues and the outputs are the corresponding rainfall amounts.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} RELU (Rectified Linear Unit) activation functions are indeed non-monotonic due to their piecewise linear nature, while sigmoid functions are monotonic; additionally, neural networks trained with gradient descent do not guarantee convergence to the global optimum due to the presence of local minima in non-convex loss landscapes.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 3; B) 4; C) 7; D) 15
+\\ \textit{Note:} The correct answer is 15 because, in a Bayesian network with four nodes (H, U, P, and W), each node can have a varying number of parents that require parameters for their conditional probability distributions, leading to a total of 15 independent parameters when no assumptions about independence or conditional independence are made.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the rank of matrix A, which has all identical rows, is 1, as it can be reduced to a single non-zero row, indicating that there is only one linearly independent row.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Underfitting occurs when a model is too simplistic to capture the complexities and patterns in the training data, resulting in poor performance on both the training set and unseen data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the expression P(A, B | C) * P(C) correctly utilizes the chain rule of probability, which allows for the calculation of joint probabilities without any assumptions of independence among the variables A, B, and C.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Neural networks can incorporate a variety of activation functions in different layers, allowing them to capture complex patterns and relationships in data, which enhances learning and increases model complexity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Lasso regression applies L$_{1}$ regularization, which can shrink some feature coefficients to exactly zero, effectively performing feature selection, while Ridge regression uses L$_{2}$ regularization and typically retains all features by only shrinking coefficients.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def multi\_list(rownum,colnum): | return multi\_list
+\\ \textit{Note:} correct because it defines a function named `multi\_list` that takes two parameters, `rownum` and `colnum`, which are essential for generating a two-dimensional array, although it lacks the actual implementation to create and return the array.
+\item \textbf{Answer:} def frequency\_lists(list 1): | return dic\_data
+\\ \textit{Note:} correct as it implies the creation of a function that processes a list of lists and returns a dictionary containing the frequency count of each unique element, which is essential for analyzing data patterns in machine learning.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

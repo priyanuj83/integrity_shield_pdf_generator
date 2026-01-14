@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_03",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction and feature extraction, which does not rely on labeled output data, distinguishing it from supervised learning methods.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Random crop and horizontal flip are common image data augmentation techniques because they effectively introduce variability in the training dataset, helping to improve the robustness and generalization of machine learning models on natural images.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Predicting the amount of rainfall involves using labeled training data (historical weather patterns) to train a model that can make predictions on unseen data, which is characteristic of supervised learning.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Clustering is effective for detecting fraudulent credit card transactions as it groups similar transaction patterns, allowing anomalies that deviate from established clusters to be identified as potential fraud.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The original ResNet paper implemented Batch Normalization to stabilize and accelerate the training of deep neural networks by normalizing layer inputs across each mini-batch, which is distinct from Layer Normalization that normalizes across the features.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The original ResNet architecture relies on convolutional layers and residual connections to facilitate training deep neural networks, while self-attention mechanisms, as utilized in Transformers, are a distinct approach to capturing long-range dependencies in data that ResNet does not employ.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Applying an L1 norm regularization penalty, also known as Lasso regularization, encourages sparsity in the model coefficients by adding a constraint that can lead to some coefficients being exactly zero, effectively performing variable selection.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6934
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because it applies the chain rule of probability, which allows the joint probability of multiple events to be expressed as the product of the marginal probabilities and conditional probabilities of the involved events.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The classification run time of the nearest neighbors algorithm is O(N) in the worst case, as it requires calculating the distance to all points in the dataset, not O(log N), which is characteristic of more efficient searching methods like binary search.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6885
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The choice of polynomial degree in polynomial regression critically influences the balance\nbetween underfitting and overfitting, which in turn affects model performance. A low-\ndegree polynomial may lead to underfitting, as it fails to capture the underlying\ncomplexity of the data, resulting in poor predictive accuracy. Conversely, a high-degree\npolynomial can create an overly complex model that fits the training data too closely,\nleading to overfitting, where the model performs well on training data but poorly on\nunseen data. Therefore, selecting an appropriate polynomial degree is essential; it\nrequires careful consideration of the bias-variance tradeoff to optimize model performance\nand generalization capabilities. Ultimately, employing techniques such as cross-validation\ncan aid in determining the ideal polynomial degree that balances these conflicting\ntendencies.",
+      "marks": 10,
+      "explanation": "correct because it clearly articulates how selecting a low-degree polynomial can result in underfitting by inadequately modeling data complexity, while a high-degree polynomial risks overfitting by capturing noise, both of which directly impact the model's predictive performance.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6853
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "Centering data to achieve zero mean is crucial in both Principal Component Analysis (PCA)\nand Singular Value Decomposition (SVD) because it ensures that the resulting projections\naccurately reflect the structure of the data without being biased by its original scale or\nlocation. When data is centered, the covariance matrix calculated in PCA effectively\ncaptures the relationships among variables, leading to meaningful principal components\nthat reveal the underlying variance in the dataset. Similarly, in SVD, centering the data\nallows for a clearer interpretation of singular values and vectors, as they denote the\ndirections of maximum variance independent of the mean. Failure to center the data can\nresult in misleading interpretations, where the first components may simply reflect the\nmean offset rather than genuine patterns in the data. Thus, centering is essential for\naccurate data analysis and interpretation in these dimensionality reduction techniques.",
+      "marks": 10,
+      "explanation": "Centering data to achieve zero mean is essential in PCA and SVD because it eliminates biases related to the data's original scale or location, thereby enabling accurate covariance calculations that reveal the true underlying structure and variance of the dataset.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6918
+    }
+  ]
+}

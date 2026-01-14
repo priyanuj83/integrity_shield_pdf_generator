@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_10",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 10 because the sum function in Python 3 adds together all the elements in the list l, which totals 1 + 2 + 3 + 4 = 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 6 because the lambda function r takes an input q and returns it multiplied by 2, so r(3) computes as 3 * 2, which equals 6.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14389
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Chemistry\" because in Python, list indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is the second item, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function O(N^(1/N)) grows the slowest because as N increases, N^(1/N) approaches 1, indicating that its growth rate diminishes significantly compared to other functions such as polynomials or exponentials.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer \"Both of the above\" indicates that Python possesses multiple accurate characteristics or features that collectively define its versatility and functionality as a programming language.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, sets are designed to hold only unique values, so converting the list l = [1,2,2,3,4] to a set effectively removes the duplicate value '2', resulting in {1,2,3,4}.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3270
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, the function long(x [,base]) does not exist because the long type was removed and the int type now handles both integers and long integers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the function min(l) returns the smallest element in the list l, not the largest, so for the list [1, 2, 3, 4], it would return 1, not 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3241
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, negative indexing allows access to elements from the end of a list, so the expression ['a', 'Chemistry', 0, 1][-3] retrieves the second element, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3279
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, accessing tuple[0] does not result in an error regardless of whether the tuple contains mixed data types, as tuples can hold elements of different types and are indexed the same way as other sequences.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "Phishing attacks are deceptive attempts to obtain sensitive information by masquerading as\na trustworthy entity, often through emails that urge recipients to click on malicious\nlinks or provide personal details. One characteristic of phishing is that it usually\ninvolves urgent language to provoke hasty responses. In contrast, a legitimate email from\na bank asking you to verify a transaction by calling the official number on your card is\nless likely to be a phishing attempt because it encourages you to use a known and trusted\ncontact method rather than clicking on a link or replying directly to the email. This\napproach reflects good security practices, as it directs you to verify information through\nsecure channels, reducing the risk of falling victim to a scam.",
+      "marks": 10,
+      "explanation": "correct because it highlights that phishing attacks typically use urgent language to incite quick actions, whereas a legitimate bank email requests verification through a safe, official method, reducing the likelihood of it being a phishing attempt.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3235
+    },
+    {
+      "question_id": "computer_science_k-12_doc_10_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "Heuristic algorithms can significantly improve programs designed to find the shortest\ndriving route between two locations by using practical shortcuts and educated guesses to\nexplore possible paths more efficiently. Unlike traditional methods that typically\nevaluate every possible route, heuristic algorithms focus on the most promising options,\nallowing them to find solutions faster. For example, algorithms like A* use a combination\nof actual travel cost and estimated cost to the destination, enabling them to prioritize\nroutes that are likely to be shorter. This approach not only speeds up the routing process\nbut also reduces the computational resources required, making it more efficient for real-\ntime navigation systems. Overall, heuristic algorithms provide a smarter way of finding\noptimal routes, especially in complex urban environments.",
+      "marks": 10,
+      "explanation": "correct because it highlights how heuristic algorithms, by prioritizing promising paths and combining actual and estimated costs, enable faster route-finding compared to traditional methods that evaluate all possible routes.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3208
+    }
+  ]
+}

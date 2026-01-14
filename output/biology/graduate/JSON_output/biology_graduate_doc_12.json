@@ -1,0 +1,293 @@
+{
+  "docid": "biology_graduate_doc_12",
+  "document_name": "Biology - Graduate Level Assessment 12",
+  "domain": "biology",
+  "academic_level": "Graduate",
+  "subjects": [
+    "biology",
+    "anatomy"
+  ],
+  "combination_used": [
+    "mmlu_pro_biology_mcq",
+    "mmlu_pro_biology_tf",
+    "biology_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\graduate\\latex_documents\\biology_graduate_doc_12.tex",
+    "pdf_file": "output\\biology\\graduate\\pdf_documents\\biology_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\biology\\graduate\\answer_keys\\latex\\biology_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\graduate\\answer_keys\\pdf\\biology_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_graduate_doc_12_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "All of the following are examples of hydrolysis EXCEPT",
+      "options": {
+        "A": "conversion of fats to fatty acids and glycerol",
+        "B": "conversion of proteins to amino acids",
+        "C": "conversion of starch to simple sugars",
+        "D": "conversion of pyruvic acid to acetyl CoA"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The conversion of pyruvic acid to acetyl CoA is a decarboxylation reaction rather than a hydrolysis reaction, as it involves the removal of a carbon dioxide molecule rather than the breakdown of a compound by the addition of water.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_graduate_doc_12_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Keystone species are thought to have profound effects on the structure and composition of\necological communities because they",
+      "options": {
+        "A": "are more abundant than most other species in their communities",
+        "B": "tend to reduce diversity by eliminating food resources for other species",
+        "C": "are the largest species in their communities",
+        "D": "are the most aggressive species in their communities",
+        "E": "are the only species capable of reproduction"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is misleading because keystone species are not defined by their abundance but rather by their critical role in maintaining the structure and diversity of an ecosystem, often having a disproportionately large impact relative to their numbers.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_graduate_doc_12_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A feature of amino acids NOT found in carbohydrates is the presence of",
+      "options": {
+        "A": "carbon atoms",
+        "B": "oxygen atoms",
+        "C": "nitrogen atoms",
+        "D": "hydrogen atoms"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Amino acids contain nitrogen atoms in their amine groups, which distinguishes them from carbohydrates that are primarily composed of carbon, hydrogen, and oxygen without nitrogen.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_graduate_doc_12_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following plant cells undergoes programmed cell death to become functional?",
+      "options": {
+        "A": "Epidermal cell",
+        "B": "Stomatal guard cell",
+        "C": "Root cap cell",
+        "D": "Xylem vessel member",
+        "E": "Phloem sieve tube member"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Xylem vessel members undergo programmed cell death to lose their living contents, allowing them to form hollow tubes that facilitate efficient water transport in plants.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2937"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_graduate_doc_12_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A deck of playing cards is thoroughly shuffled and a card is drawn from the deck. What is\nthe probability that the card drawn is the ace of diamonds?",
+      "options": {
+        "A": "1/53",
+        "B": "3/52",
+        "C": "2/51",
+        "D": "2/52",
+        "E": "4/52"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The probability of drawing the ace of diamonds from a standard deck of 52 cards, considering the possibility of a joker or an extra card in a thoroughly shuffled deck, is calculated as 1 favorable outcome (the ace of diamonds) out of 53 total possible outcomes.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3020"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_graduate_doc_12_biology_pubmedqa_tf_1",
+      "question_type": "TF",
+      "stem_text": "Cardiopulmonary bypass temperature does not affect postoperative euthyroid sick syndrome?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The results of this study suggest that normothermic CPB does not prevent the development of the \"euthyroid sick syndrome\" during and after CPB. Despite these changes in thyroid function, most patients in both groups had a normal postoperative recovery.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "7497757"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_graduate_doc_12_biology_pubmedqa_tf_2",
+      "question_type": "TF",
+      "stem_text": "Ultrasound in squamous cell carcinoma of the penis; a useful addition to clinical staging?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "While ultrasound examination is inexpensive and easily done, it is not accurate enough for staging small penile cancers located at the glans penis. However, for larger tumors ultrasound can be a useful addition to physical examination by delineating reliably the anatomic relations of the tumor to structures such as the tunica albuginea, corpus cavernosum, and urethra.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "8165771"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_graduate_doc_12_biology_pubmedqa_tf_3",
+      "question_type": "TF",
+      "stem_text": "Factors determining the survival of nasopharyngeal carcinoma with lung metastasis alone: does combined modality treatment benefit?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Age \\leq 45 years, DFI>1 year, and the combined therapy were good prognostic factors for NPC patients with lung metastasis(es) alone. The combination of local therapy and the basic chemotherapy should be considered for these patients with DFI>1 year.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "21864397"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_graduate_doc_12_biology_pubmedqa_tf_4",
+      "question_type": "TF",
+      "stem_text": "Does base deficit predict mortality in patients with severe traumatic brain injury?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Although BD is correlated with GCS at presentation and RTS, it is not a reliable prognostic marker for outcome and mortality in patients with isolated TBI.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "26079501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_graduate_doc_12_biology_pubmedqa_tf_5",
+      "question_type": "TF",
+      "stem_text": "Can the condition of the cell microenvironment of mediastinal lymph nodes help predict the risk of metastases in non-small cell lung cancer?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The preliminary results of this study suggest that this approach may be helpful as an independent tumor staging factor. It is also worth noting that part of the staging process could also be based on features describing the immune cells in the peripheral blood.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "19931500"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_graduate_doc_12_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Critically analyze the distinctions between innate and adaptive immunity, specifically\naddressing common misconceptions about their functions and interactions within the immune\nsystem.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Innate and adaptive immunity are two fundamental components of the immune system, each\nwith distinct characteristics and functions. Innate immunity, often misconceived as\nsynonymous with adaptive immunity, refers to the body's first line of defense against\npathogens, characterized by immediate, non-specific responses, such as the action of\ncirculating phagocytes that engulf and destroy foreign substances. In contrast, adaptive\nimmunity is a more complex, delayed response that develops over time, involving the\nactivation of specific lymphocytes and the production of antibodies tailored to particular\nantigens. A common misconception is that innate immunity is less important than adaptive\nimmunity; however, the two systems interact dynamically, with innate responses shaping the\nadaptive response and providing essential signals for its activation. Understanding these\ndistinctions clarifies their roles in maintaining immune homeostasis and highlights the\nimportance of both systems in protecting the host from infections.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly distinguishes between innate immunity's immediate, non-specific responses and adaptive immunity's delayed, specific responses, while addressing common misconceptions about their roles and interactions within the immune system.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "2814"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_graduate_doc_12_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the various functions of bones beyond locomotion and support, emphasizing their\nrole in digestion and other physiological processes.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Bones serve several critical functions beyond locomotion and support, one of which is\ntheir role in digestion. In particular, the jawbone and associated structures facilitate\nthe mechanical breakdown of food, allowing for more effective digestion. Additionally,\nbones contribute to the overall homeostasis of minerals such as calcium and phosphorus,\nwhich are essential for various metabolic processes, including those involved in digestion\nand energy metabolism. Moreover, certain bones, like the mandible, provide leverage for\nmuscles that aid in mastication, further enhancing the digestive process. Thus, the\nmultifaceted roles of bones extend into vital physiological processes, underscoring their\nimportance in maintaining overall health and well-being.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights the multifaceted roles of bones, specifically their involvement in the mechanical breakdown of food through the jawbone and their critical function in maintaining mineral homeostasis, which is vital for metabolic processes, including digestion and energy metabolism.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "2841"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

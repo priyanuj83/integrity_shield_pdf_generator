@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 21 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Optimize a convex objective function; B) Can only be trained with stochastic gradient descent; C) Can use a mix of different activation functions; D) None of the above
+\\ \textit{Note:} Neural networks can incorporate various activation functions in different layers to enhance their ability to model complex relationships and improve overall performance.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The dimensionality of the null space of the matrix A is 2 because the rank of the matrix is 1, which leads to a nullity of 2 as per the Rank-Nullity Theorem, indicating that there are two linearly independent solutions to the homogeneous equation Ax = 0.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The rank of the matrix A is 1 because all rows are linearly dependent and can be expressed as scalar multiples of each other, indicating that there is only one linearly independent row.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y); B) P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y); C) P(X, Y, Z) = P(Z) * P(X|Z) * P(Y|Z); D) P(X, Y, Z) = P(X) * P(Y) * P(Z)
+\\ \textit{Note:} The correct answer reflects the chain rule of probability applied to a Bayesian network, where the joint probability distribution of the variables is expressed as the product of the prior probability of Y and the conditional probabilities of X and Z given Y.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} correct because the Stanford Sentiment Treebank specifically focuses on analyzing the sentiment of movie reviews, while the Penn Treebank is a well-known resource that has been utilized for various linguistic tasks, including language modeling.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A small step size typically leads to slower convergence and may cause the training loss to decrease more gradually, but it does not inherently increase training loss due to model capacity, as that is determined by the architecture, not the learning rate.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The polynomial degree determines the model's complexity, as higher degrees can capture more intricate patterns in the data, leading to overfitting, while lower degrees may oversimplify the data and cause underfitting, thus significantly influencing the balance between these two extremes.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Maximum Likelihood Estimation (MLE) can be biased in small samples and does not guarantee unbiasedness, as some MLE estimates are asymptotically unbiased only as the sample size approaches infinity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Both ResNets and Transformers process inputs in a sequential manner without any recurrent connections, classifying them as feedforward neural networks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the probabilities P(A, B), P(A), and P(B) are not directly dependent on each other in a way that guarantees a decrease in P(B) when P(A, B) decreases and P(A) increases, as they can be influenced by other factors or variables in the probabilistic model.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def check\_triplet(A, n, sum, count): | return True | return False | return check\_triplet(A, n - 1, sum - A[n - 1], count + 1) or\
+\\ \textit{Note:} The provided answer correctly implements a recursive function to determine if there exists a triplet in the array whose sum equals the specified target by reducing the problem size and checking combinations of elements while maintaining a count of selected elements.
+\item \textbf{Answer:} def repeat\_tuples(test\_tup, N): | return (res)
+\\ \textit{Note:} correct because it outlines the creation of a function that takes a tuple and an integer as parameters, and by using tuple repetition in Python, it effectively returns a new tuple that consists of the original tuple repeated 'n' times.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

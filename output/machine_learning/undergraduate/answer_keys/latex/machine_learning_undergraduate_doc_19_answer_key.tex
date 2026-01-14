@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 19 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Linear hard-margin SVM.; B) Linear Logistic Regression.; C) Linear Soft margin SVM.; D) The centroid method.
+\\ \textit{Note:} The linear hard-margin SVM is specifically designed to find a hyperplane that perfectly separates linearly separable data without allowing any misclassifications, making it applicable only in scenarios where such a separation is possible.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} L$_{2}$ regularization promotes weight shrinkage without enforcing sparsity, making Statement 1 false, while Statement 2 is true because both ResNets and Transformers utilize residual connections to facilitate training and improve model performance.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The null space of matrix A, which is a rank-deficient matrix with a rank of 1, has a dimensionality of 2 because the number of free variables in the system of equations defined by A equals the total number of columns (3) minus the rank (1).
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) they are biased; B) they have high variance; C) they are not consistent estimators; D) None of the above
+\\ \textit{Note:} Maximum Likelihood Estimation (MLE) estimates are often undesirable because they can exhibit high variance, meaning that they are sensitive to changes in the data and may lead to unstable and inconsistent parameter estimates.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) random crop and horizontal flip; B) random crop and vertical flip; C) posterization; D) dithering
+\\ \textit{Note:} Random cropping and horizontal flipping are common data augmentation techniques for natural images because they effectively increase the diversity of the training dataset by introducing variations in scale and orientation, which helps improve model generalization.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Adding more basis functions in a linear model can actually increase variance by allowing the model to fit the training data more closely, which may lead to overfitting and poorer generalization on unseen data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} ImageNet includes millions of images collected from various sources, resulting in a wide range of resolutions that contribute to the dataset's diversity and effectiveness for training machine learning models.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Discriminative approaches specifically focus on modeling the conditional probability of the output given the input features and parameters, which allows them to predict outcomes directly based on this relationship.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Principal Component Analysis (PCA) is considered an unsupervised learning technique because it identifies patterns in data without using labeled responses, effectively reducing the dimensionality by transforming correlated features into a set of uncorrelated variables called principal components.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because overfitting occurs when the hypothesis space is large and complex, allowing the model to capture noise in the training data rather than just the underlying patterns.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def get\_perrin(n): | return 3 | return 0 | return 2 | return get\_perrin(n - 2) + get\_perrin(n - 3)
+\\ \textit{Note:} The provided function correctly implements the recursive definition of the Perrin sequence, where the base cases return the appropriate values for n = 0, 1, and 2, and for n greater than 2, it recursively computes the nth Perrin number as the sum of the (n-2)th and (n-3)th Perrin numbers.
+\item \textbf{Answer:} def Extract(lst): | return [item[0] for item in lst]
+\\ \textit{Note:} The provided answer correctly defines a Python function that utilizes a list comprehension to iterate through each sublist in the input list and extract the first element, effectively returning a new list containing these first elements.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

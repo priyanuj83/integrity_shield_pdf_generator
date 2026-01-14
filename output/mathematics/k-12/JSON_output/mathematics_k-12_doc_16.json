@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_k-12_doc_16",
+  "document_name": "Mathematics - K-12 Level Assessment 16",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_16.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_16_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which expression is equivalent to 4 x 9?",
+      "options": {
+        "A": "(4 x 4) + (4 x 5)",
+        "B": "(4+4) x (4+5)",
+        "C": "(4+4)+(4+5)",
+        "D": "(4 x 4) x (4 x 5)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression (4 x 4) + (4 x 5) is equivalent to 4 x 9 because it uses the distributive property, where 9 can be expressed as the sum of 4 and 5, allowing the original multiplication to be broken down into two separate products that still yield the same total.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "14292"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Suppose X and Y are random variables with E(X) = 312, var(X) = 6, E(X) = 307, and var(Y) =\n8. What are the expected value and variance of the random variable X + Y?",
+      "options": {
+        "A": "E(X + Y) = 619, var(X + Y) = 7",
+        "B": "E(X + Y) = 619, var(X + Y) = 10",
+        "C": "E(X + Y) = 619, var(X + Y) = 14",
+        "D": "There is insufficient information to answer this question."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is due to the fact that the expected value and variance of the sum of two random variables can only be determined if the covariance or independence of the variables is known, which is not provided in this scenario.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5636"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A coach rounded the number of runners at a track meet to the nearest 10. The rounded\nnumber of runners is 400. Which number could be the actual number of runners at the track\nmeet?",
+      "options": {
+        "A": "382",
+        "B": "397",
+        "C": "406",
+        "D": "447"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 397 because when rounding to the nearest ten, any number from 395 to 404 rounds to 400, and 397 falls within that range.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2086"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is 60% of 30?",
+      "options": {
+        "A": "1.8",
+        "B": "18",
+        "C": "180",
+        "D": "1800"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find 60% of 30, you multiply 30 by 0.60, which equals 18.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2268"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "All of Bella's photos are in 8 photo books. Each photo book has 25 photos. Which\nexpression shows how to find the total number of photos Bella has?",
+      "options": {
+        "A": "25 \\div 8",
+        "B": "25 - 8",
+        "C": "25 + 8",
+        "D": "25 \\times 8"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 25 \u00d7 8 because it represents the total number of photos by multiplying the number of photos per book (25) by the number of photo books (8), thus applying the concept of multiplication to find the total quantity.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2226"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation x + 71 = -22 is x = -93.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The solution to the equation x + 71 = -22 is true because when you subtract 71 from both sides, you get x = -22 - 71, which simplifies to x = -93.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2316"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation 13 over 4 equals x over 7 is x = 23.25.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because when solving the equation 13/4 = x/7, the correct value of x is calculated as 22.75, not 23.25.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2333"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The central limit theorem states that the sample mean is normally distributed only if the sample size is small.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The central limit theorem states that the sample mean is normally distributed regardless of the population's distribution as long as the sample size is sufficiently large, typically n \u2265 30, making the statement false.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "14640"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The sum of 110 and 70 is 180.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when you add 110 and 70 together, the result equals 180, which is confirmed by the basic arithmetic operation of addition.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2155"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "A worker can produce 110 parts in 35 hours if she produces parts at a consistent rate of 22 parts every 7 hours.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if the worker produces 22 parts every 7 hours, then in 35 hours, she can produce 110 parts, as 35 hours is equivalent to 5 cycles of 7 hours, resulting in 5 x 22 = 110 parts.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2099"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_16_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Find the greatest value of $b$ such that $-b^2+7 b-10 \\ge 0$.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "We factor the quadratic, getting $(b-5)(2-b) \\ge 0$. The expression is equal to $0$ when\n$b=5 \\text{ or } 2$. When $b \\le 2$ or $b \\ge 5$, the quadratic is negative. When $2 \\le b\n\\le 5$, the quadratic is non-negative. Therefore, the greatest value of $b$ for which\n$(b-5)(2-b)\\ge 0$ is $b=\\boxed{5}$.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately factors the quadratic inequality and determines the intervals where the expression is non-negative, concluding that the greatest value of \\( b \\) satisfying the inequality is \\( b = 5 \\).",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "15081"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_16_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Consider a sequence of three real numbers that forms an arithmetic progression with a\nfirst term of 9. If the second term is increased by 2 and the third term by 20, the new\nsequence forms a geometric progression. Analyze this situation and determine the smallest\npossible value for the third term of the geometric progression. Provide a detailed\nexplanation of your reasoning and calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Let the three terms of the arithmetic progression be 9, 9 + d, and 9 + 2 d, where d is the\ncommon difference. If the second term is increased by 2, it becomes 9 + d + 2, and if the\nthird term is increased by 20, it becomes 9 + 2 d + 20. The new sequence is then 9, 11 +\nd, and 29 + 2 d. For these terms to form a geometric progression, the square of the middle\nterm must equal the product of the other two, leading to the equation (11 + d)^2 = 9(29 +\n2 d). Solving this gives d = 5, making the third term 9 + 2 d = 19. Thus, the smallest\npossible value for the third term of the geometric progression is 19.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it correctly establishes the relationship between the terms of the arithmetic progression and the conditions for the new sequence to form a geometric progression, leading to the determination of the common difference d through the derived equation.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4302"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

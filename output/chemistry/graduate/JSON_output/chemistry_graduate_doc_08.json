@@ -1,0 +1,294 @@
+{
+  "docid": "chemistry_graduate_doc_08",
+  "document_name": "Chemistry - Graduate Level Assessment 8",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_08.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What pressure would $131 \\mathrm{g}$ of xenon gas in a vessel of volume $1.0\n\\mathrm{dm}^3$ exert at $25^{\\circ} \\mathrm{C}$ if it behaved as a van der Waals gas?",
+      "options": {
+        "A": "22$\\mathrm{atm}$",
+        "B": "20$\\mathrm{atm}$",
+        "C": "15$\\mathrm{atm}$",
+        "D": "30$\\mathrm{atm}$",
+        "E": "34$\\mathrm{atm}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 22 atm arises from applying the van der Waals equation, which accounts for the non-ideal behavior of gases by including factors for intermolecular forces and molecular volume, thus providing a more accurate pressure calculation for xenon gas under the specified conditions.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3657"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Determine the equilibrium constant for the reaction H_2 +I_2 \\rightleftarrows 2 HI the\nequilibrium concentrations are: H_2 , 0.9 moles/liter; I_2 , 0.4 mole/liter; HI, 0.6\nmole/liter.",
+      "options": {
+        "A": "0.9",
+        "B": "1.0",
+        "C": "2.5",
+        "D": "0.3",
+        "E": "0.5"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The equilibrium constant (K) for the reaction H2 + I2 \u21cc 2 HI is calculated using the formula K = [HI]^2 / ([H2][I2]), and substituting the given equilibrium concentrations yields K = (0.6)^2 / (0.9 * 0.4) = 1.0.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4291"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The temperature of the fireball in a thermonuclear explosion can reach temperatures of\napproximately $10^7 \\mathrm{~K}$. What value of $\\lambda_{\\max }$ does this correspond to?",
+      "options": {
+        "A": "2 $10^{-10} \\mathrm{~m}$",
+        "B": "1 $10^{-10} \\mathrm{~m}$",
+        "C": "7 $10^{-10} \\mathrm{~m}$",
+        "D": "6 $10^{-10} \\mathrm{~m}$",
+        "E": "4 $10^{-10} \\mathrm{~m}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of \\(2 \\times 10^{-10} \\mathrm{~m}\\) for \\(\\lambda_{\\max}\\) corresponds to the peak wavelength of radiation emitted by a black body at a temperature of \\(10^7 \\mathrm{~K}\\), which can be calculated using Wien's displacement law, \\(\\lambda_{\\max} = \\frac{b}{T}\\) where \\(b\\) is Wien's displacement constant (\\(2.898 \\times 10^{-3} \\mathrm{~m \\cdot K}\\)).",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The density of a gaseous compound was found to be $1.23 \\mathrm{kg} \\mathrm{m}^{-3}$ at\n$330 \\mathrm{K}$ and $20 \\mathrm{kPa}$. What is the molar mass of the compound?",
+      "options": {
+        "A": "169 $\\mathrm{g} \\mathrm{mol}^{-1}$",
+        "B": "123 $\\mathrm{g} \\mathrm{mol}^{-1}$",
+        "C": "200 $\\mathrm{g} \\mathrm{mol}^{-1}$",
+        "D": "150 $\\mathrm{g} \\mathrm{mol}^{-1}$",
+        "E": "190 $\\mathrm{g} \\mathrm{mol}^{-1}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 169 g mol\u207b\u00b9 is derived from the ideal gas law, using the formula M = (density \u00d7 R \u00d7 T) / P, where R is the ideal gas constant, T is the temperature in Kelvin, and P is the pressure in pascals, leading to the calculation of molar mass based on the given density, temperature, and pressure conditions.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3833"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A liquid element that is a dark-colored, nonconducting substance at room temperature is",
+      "options": {
+        "A": "lead",
+        "B": "cesium",
+        "C": "bromine",
+        "D": "francium",
+        "E": "rubidium"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bromine is the only liquid element that is dark-colored and nonconducting at room temperature, distinguishing it from other elements and fitting the criteria described in the question.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4506"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The height of the mercury column corresponding to a 600 mm water column is approximately 44.1 mm Hg.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because 600 mm of water is equivalent to approximately 44.1 mm of mercury due to the difference in density between water and mercury, with water being around 13.6 times less dense than mercury.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3977"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The most massive subatomic particle is the proton, which has a greater mass than the positron.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the mass of a proton is approximately 1.67 x 10^-27 kilograms, while the mass of a positron is about 9.11 x 10^-31 kilograms, making the proton significantly more massive than the positron.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4601"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The logarithm of 0.0364 is -1.5000, indicating a common misconception about logarithmic values.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the logarithm of a positive number, such as 0.0364, cannot be negative and is instead a negative value, specifically the logarithm is approximately -1.4380, not -1.5000.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4461"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The original energy level of the electron for this transition in the Lyman series is 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The original energy level of the electron for transitions in the Lyman series must be 2 or higher, as the Lyman series corresponds to transitions from higher energy levels (n \u2265 2) to the lowest energy level (n = 1), making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3732"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_08_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "To completely combust 1000 cubic feet of butane, 6500 cubic feet of oxygen are required based on stoichiometric calculations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the complete combustion of butane (C4H10) requires a stoichiometric ratio of 1 mole of butane to 13 moles of oxygen, which, when calculated, shows that 1000 cubic feet of butane indeed requires 6500 cubic feet of oxygen for complete combustion.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4379"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_08_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the volume of concentrated sulfuric acid needed to achieve a mass of 74.0 g,\ngiven its density is 1.85 g/ml. Discuss your approach and reasoning in detail.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the volume of concentrated sulfuric acid required to achieve a mass of 74.0\ng, we can use the relationship between mass, volume, and density, which is given by the\nformula: mass = density \\times volume. Rearranging this formula to solve for volume, we\nfind volume = mass / density. Substituting the given values, we have volume = 74.0 g /\n1.85 g/ml, which equals approximately 40.0 ml. Therefore, to achieve a mass of 74.0 g, we\nneed about 40.0 ml of concentrated sulfuric acid. This calculation demonstrates the direct\napplication of density in determining the necessary volume based on the desired mass of a\nsubstance.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the relationship between mass, volume, and density, using the formula volume = mass / density to determine that approximately 40.0 ml of concentrated sulfuric acid is needed to achieve a mass of 74.0 g, given its density of 1.85 g/ml.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4316"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_08_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "A chemist dropped a 200 g object into water, displacing 60 ml, and then into oil,\ndisplacing 50 g. Calculate and discuss the densities of both the object and the oil,\nexplaining the significance of your findings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The density of the object can be calculated using the formula density = mass/volume. Given\nthe mass of the object is 200 g and the volume of water displaced is 60 ml, the density of\nthe object is 200 g / 60 ml = 3.33 g/ml. For the oil, which displaced 50 g of volume, we\ncan determine its density by considering that 1 ml of water is approximately equivalent to\n1 g; thus, the displaced volume of the oil is 50 ml. Consequently, the density of the oil\nis 50 g / 60 ml = 0.83 g/ml. The significance of these findings lies in the comparison of\ndensities: the object is denser than both water and oil, indicating that it will sink in\nboth mediums, while the oil, being less dense than water, will float, illustrating the\nprinciples of buoyancy and density in fluid mechanics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the principle of displacement to calculate the densities of both the object and the oil by using the mass-to-volume ratio, revealing that the object is denser than water, while the oil is less dense, which is significant in understanding buoyancy and material properties.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3669"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

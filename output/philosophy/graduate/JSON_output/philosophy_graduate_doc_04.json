@@ -1,0 +1,292 @@
+{
+  "docid": "philosophy_graduate_doc_04",
+  "document_name": "Philosophy - Graduate Level Assessment 4",
+  "domain": "philosophy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "philosophy"
+  ],
+  "combination_used": [
+    "mmlu_pro_philosophy_mcq",
+    "mmlu_pro_philosophy_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\philosophy\\graduate\\latex_documents\\philosophy_graduate_doc_04.tex",
+    "pdf_file": "output\\philosophy\\graduate\\pdf_documents\\philosophy_graduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/philosophy_graduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/philosophy_graduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\philosophy\\graduate\\answer_keys\\latex\\philosophy_graduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\philosophy\\graduate\\answer_keys\\pdf\\philosophy_graduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Appeal to beliefs is another name for which of the following fallacies?",
+      "options": {
+        "A": "ad nauseam",
+        "B": "appeal to tradition",
+        "C": "solid slope",
+        "D": "self evident truths"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The term \"self-evident truths\" refers to claims that are considered universally accepted and beyond dispute, making the appeal to beliefs a fallacy when such claims are presented as unquestionable evidence in arguments.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Hobbes's view, to say something is good is to say that:",
+      "options": {
+        "A": "it aligns with natural law.",
+        "B": "it benefits society as a whole.",
+        "C": "it is conducive to human happiness.",
+        "D": "most people ought to desire it.",
+        "E": "it is universally desired."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Hobbes's view, the concept of good is directly tied to the alignment with natural law, as he believes that what is deemed good is that which promotes self-preservation and social order, principles that are encapsulated in natural law.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11067"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "According to Singer, the principle of equality requires",
+      "options": {
+        "A": "differential indifference.",
+        "B": "unequal consideration.",
+        "C": "identical consideration.",
+        "D": "identical indifference.",
+        "E": "unequal treatment."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, differential indifference, reflects Singer's argument that the principle of equality necessitates recognizing that moral consideration should be based on interests rather than equal treatment for all beings, thereby allowing for differences in how we prioritize and respond to varying needs and circumstances.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Aquinas claims that:",
+      "options": {
+        "A": "pleasure exists for the sake of operation.",
+        "B": "operation exists for the sake of pleasure.",
+        "C": "both b and c.",
+        "D": "both a and c.",
+        "E": "neither operation nor pleasure exist for their own sake."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Aquinas posits that pleasure is not an end in itself but serves to enhance and motivate the proper functioning of human activities, thereby affirming that pleasure exists for the sake of operation.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Select the best translation into predicate logic. Alexis is greeted by Ben. (a: Alexis; b:\nBen; Gxy: x greets y)",
+      "options": {
+        "A": "G(ab)",
+        "B": "aGb",
+        "C": "aGba",
+        "D": "~Gba",
+        "E": "Gba"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer Gba accurately represents the statement \"Alexis is greeted by Ben\" in predicate logic, where Gxy indicates that x greets y, with 'b' representing Ben and 'a' representing Alexis, thus aligning the subject and object of the greeting correctly.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11126"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Carruthers approaches the moral standing of nonhuman animals from a relativist perspective, emphasizing contextual moral judgments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Carruthers argues that moral considerations regarding nonhuman animals are influenced by cultural, situational, and contextual factors, aligning his views with a relativist perspective that rejects absolute moral truths.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10821"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The expression Bej suggests that Earth is bigger than Jupiter, which is not accurate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the expression \"Bej\" does not imply any quantitative comparison between Earth and Jupiter, and in fact, Jupiter is significantly larger than Earth in terms of size and mass.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10778"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Critics of speech codes in the 1980 s and early 1990 s argued that these codes violated the principle of freedom of speech.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Critics argued that speech codes imposed restrictions on individual expression and hindered open discourse, which fundamentally contradicts the First Amendment's protection of freedom of speech.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11005"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Zhuangzi is considered a mystic in Confucian philosophy due to his emphasis on the concept of qi (or ch'i).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Zhuangzi is considered a mystic in Confucian philosophy because his exploration of the concept of qi emphasizes the interconnectedness of life and the importance of spontaneity and naturalness, which aligns with mystical perspectives on the nature of existence.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "philosophy_graduate_doc_04_philosophy_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Occupants within Rawls's original position have knowledge of their abilities, including intelligence and strength.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Rawls's original position, occupants are behind a \"veil of ignorance,\" which prevents them from having knowledge about their personal attributes, such as intelligence and strength, to ensure impartiality in the formulation of social principles.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11086"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "philosophy_graduate_doc_04_philosophy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the philosophical significance of Pongal in Hindu culture, focusing on its\nrituals, symbolism, and the impact of these practices on community and individual\nidentity.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Pongal, a harvest festival celebrated predominantly in Tamil Nadu, holds significant\nphilosophical implications within Hindu culture through its rituals and symbolism. The act\nof cooking Pongal rice serves as a metaphor for abundance and gratitude, reflecting the\ninterconnectedness of humans with nature and the divine. Rituals such as the decoration of\nthe cooking pot with kolams (colorful patterns) symbolize the nurturing of creativity and\nthe welcoming of prosperity into the home, reinforcing collective identity and community\nbonds. Additionally, the festival's emphasis on communal participation fosters a sense of\nbelonging and continuity, allowing individuals to assert their cultural identity while\nsimultaneously engaging with the broader societal fabric. Thus, Pongal not only celebrates\nthe material bounty of the harvest but also embodies deeper philosophical themes of\ngratitude, interconnectedness, and identity formation within both individual and communal\ncontexts.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it articulates how Pongal's rituals and symbolism, such as the preparation of Pongal rice and the use of kolams, embody philosophical themes of abundance, gratitude, and the relationship between humanity, nature, and the divine, which are central to understanding community and individual identity within Hindu culture.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10972"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "philosophy_graduate_doc_04_philosophy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of ajiva in Jaina traditions, explaining its significance within the\nphilosophical framework of Jainism and its distinction from the notion of the soul.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In Jaina traditions, ajiva refers to the non-living, non-soul entities that constitute the\nmaterial world, contrasting sharply with the concept of jiva, or the soul. Ajiva\nencompasses all forms of matter, including time, space, and the elements, which are seen\nas devoid of consciousness and spiritual significance. This distinction is crucial within\nJain philosophy as it underscores the belief that true liberation and spiritual progress\ncan only be achieved by transcending the material realm of ajiva. By emphasizing the\nimpermanence and insubstantiality of ajiva, Jainism advocates for a life of asceticism and\nnon-attachment, allowing practitioners to focus on the eternal nature of the soul (jiva)\nand its path toward liberation (moksha). Thus, ajiva serves not only as a foundational\nconcept in the cosmology of Jainism but also as a guiding principle for ethical living and\nspiritual practice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies ajiva as the non-living aspects of existence in Jaina traditions, contrasting it with jiva (the soul) to illustrate the fundamental Jain belief that liberation is attained by moving beyond the material realm represented by ajiva.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11138"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

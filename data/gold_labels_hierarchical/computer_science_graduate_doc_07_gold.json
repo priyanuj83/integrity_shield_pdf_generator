@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_07",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dark web is a specific part of the deep web that requires special software, such as Tor, to access, making it intentionally hidden and inaccessible through standard web browsers.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1496
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to security issues related to authentication and permissions rather than the specific functions and protocols of the transport layer, which primarily focuses on data transmission and error recovery.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A remote procedure call (RPC) operates over a network, which typically requires that parameters be serialized for transmission, making it impossible to pass them by reference as it would not allow the called procedure to directly modify the caller's local variables.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1031
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The maximum possible degree of the minimal-degree interpolating polynomial p(x) for n + 1 distinct real numbers is n, as a polynomial of degree n can uniquely interpolate any set of n + 1 points in the plane.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1007
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The presence of several different classes of registers can actually enhance instruction-level parallelism and reduce hazards, thereby facilitating more aggressive pipelining rather than obstructing it.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1053
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A ping sweep is primarily used to discover active hosts on a network by sending ICMP echo requests, not specifically to locate firewalls.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Public key encryption enables secure communication by using a pair of keys\u2014one public and one private\u2014allowing parties to encrypt messages with the recipient's public key without needing to exchange a secret key beforehand.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1494
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The language {ww | w in (0 + 1)*} is context-sensitive and requires the ability to maintain an arbitrary count of symbols, which is beyond the capabilities of a pushdown automaton that can only manage a single stack, while a Turing machine can utilize its tape to track and compare the two halves of the input.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1013
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A hash function produces a fixed-size digest from variable-length input data, which serves as a Modification Detection Code (MDC) by allowing verification of data integrity through comparison of the generated hash with a previously computed value.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because phishing attacks primarily involve deceiving individuals into revealing sensitive information or downloading malicious software, rather than manipulating memory directly on the victim's machine.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1548
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def harmonic_sum(n): | return 1 | return 1 / n + (harmonic_sum(n - 1))",
+      "marks": 10,
+      "explanation": "The provided function uses recursion to compute the harmonic sum of n-1 by summing the reciprocal of each integer from 1 to n-1, thereby correctly implementing the definition of the harmonic sum.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 704
+    },
+    {
+      "question_id": "computer_science_graduate_doc_07_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def factorial(start,end): | return res | def sum_of_square(n): | return int(factorial(n + 1, 2 * n)  /factorial(1, n))",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a function to compute the sum of squares of binomial coefficients by utilizing the relationship between factorials and binomial coefficients, specifically leveraging the formula for the sum of squares through factorial computations.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 905
+    }
+  ]
+}

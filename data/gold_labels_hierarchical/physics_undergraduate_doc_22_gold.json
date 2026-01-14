@@ -1,0 +1,125 @@
+{
+  "document_id": "physics_undergraduate_doc_22",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The emission spectrum of Li++ is identical to that of hydrogen because both have a single electron, and the wavelengths of emitted light are inversely proportional to the square of the atomic number (Z), so for Li++ (Z=3), the wavelengths are decreased by a factor of 9 (3\u00b2).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1458
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The speed of light in a medium is calculated using the equation \\( v = \\frac{c}{\\sqrt{\\varepsilon_r}} \\), where \\( c \\) is the speed of light in a vacuum (approximately \\( 3 \\times 10^8 \\) m/s) and \\( \\varepsilon_r \\) is the dielectric constant; thus, for a dielectric constant of 4.0, the speed of light becomes \\( \\frac{3 \\times 10^8 \\, \\text{m/s}}{\\sqrt{4}} = 1.5 \\times 10^8 \\, \\text{m/s} \\).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1460
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is derived from the relation between total energy, rest energy, and relativistic momentum, where if the total energy is twice the rest energy (E = 2mc^2), the relativistic momentum can be calculated using the equation p = \u221a(E^2/c^2 - m^2c^2), leading to p = (3^(1/2))mc.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1378
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 393 Hz because in a pipe closed at one end, the harmonics are odd multiples of the fundamental frequency, so the first harmonic is 131 Hz and the next higher harmonic, which is the third harmonic, is 3 times the fundamental frequency: 3 x 131 Hz = 393 Hz.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1431
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A dye laser is the best choice for spectroscopy over a range of visible wavelengths because it can be tuned to emit a wide variety of wavelengths across the visible spectrum, making it highly versatile for analyzing different substances.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1372
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Electromagnetic radiation emitted from a nucleus is most likely in the form of gamma rays because gamma rays are high-energy photons released during nuclear decay processes when the nucleus transitions from a higher energy state to a lower energy state.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14195
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the electric displacement current is defined by Maxwell's equation as being equal to the time rate of change of electric flux through a surface, highlighting the relationship between changing electric fields and the resulting displacement current.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1405
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, according to the principles of relativistic length contraction, the observer would measure the length of the meter stick to be less than 1 meter due to its high speed of 0.8c, resulting in a time measurement that cannot be simply calculated as 1.6 ns for its passage.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1387
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the electric displacement current is defined by Maxwell's equation as being equal to the time rate of change of electric flux through a surface, highlighting the relationship between changing electric fields and the resulting displacement current.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1438
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, according to the theory of special relativity, the length contraction formula dictates that an observer moving at a velocity of 0.60 c relative to a proper length of 1.00 m will measure the length of the rod as 0.80 m.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1435
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_long_1",
+      "type": "long",
+      "correct_answer": "To find the original gas's index of refraction, we can use the formula related to the\nfringe shift in a Michelson interferometer, which states that the number of fringes \\( N\n\\) counted is given by \\( N = \\frac{2 \\Delta n L}{\\lambda} \\), where \\( \\Delta n \\) is the\nchange in index of refraction, \\( L \\) is the optical path length, and \\( \\lambda \\) is\nthe wavelength of light used. Given that 100 fringes are counted during the evacuation of\na gas cell with an optical path length of 10 cm, we can rearrange the equation to solve\nfor the index of refraction \\( n \\) of the original gas. Assuming a standard wavelength \\(\n\\lambda \\) of 500 nm (or \\( 5 \\times 10^{-7} \\) m), we can substitute the values into the\nequation and calculate \\( n \\). The resulting index of refraction for the gas is\napproximately 1.00032. This value indicates that the gas has a very low density compared\nto air, suggesting it may be a light gas such as helium or neon, which can have\nimplications for applications in spectroscopy and atmospheric studies.",
+      "marks": 10,
+      "explanation": "correct because it correctly applies the fringe shift formula for a Michelson interferometer, allowing us to calculate the original gas's index of refraction by relating the number of counted fringes to the change in optical path length caused by the gas's presence.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1410
+    },
+    {
+      "question_id": "physics_undergraduate_doc_22_physics_long_2",
+      "type": "long",
+      "correct_answer": "Dopants play a crucial role in germanium semiconductors by modifying their electrical\nproperties and enabling the control of charge carriers. For n-type doping, suitable\ndopants include elements from group V of the periodic table, such as phosphorus or\narsenic, which provide extra electrons. However, certain ions, such as group IV elements\nlike silicon or germanium itself, cannot be used for n-type doping. The reason for their\nincompatibility lies in the fact that these elements have the same valency as germanium;\nthus, they do not contribute additional free electrons, failing to enhance the n-type\nconductivity. Instead, they would merely substitute for germanium atoms without altering\nthe charge carrier concentration.",
+      "marks": 10,
+      "explanation": "correct because n-type doping in germanium requires dopants that donate extra electrons, such as group V elements, while group IV elements like silicon or germanium cannot provide additional electrons as they have the same valence electron configuration, leading to no increase in charge carriers.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1394
+    }
+  ]
+}

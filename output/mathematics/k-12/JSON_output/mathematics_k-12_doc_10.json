@@ -1,0 +1,289 @@
+{
+  "docid": "mathematics_k-12_doc_10",
+  "document_name": "Mathematics - K-12 Level Assessment 10",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_10.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_10_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_10_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the greatest common factor of 36 and 90?",
+      "options": {
+        "A": "6",
+        "B": "18",
+        "C": "36",
+        "D": "180"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The greatest common factor of 36 and 90 is 18 because it is the largest integer that divides both numbers without leaving a remainder, as evidenced by their prime factorizations: 36 is 2^2 \u00d7 3^2 and 90 is 2 \u00d7 3^2 \u00d7 5, where the common factors are 2 and 3, leading to 2 \u00d7 3 \u00d7 3 = 18.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2157"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_10_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Given that the sample has a standard deviation of zero, which of the following is a true\nstatement?",
+      "options": {
+        "A": "The standard deviation of the population is also zero.",
+        "B": "The sample mean and sample median are equal.",
+        "C": "The sample may have outliers.",
+        "D": "The population has a symmetric distribution."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When the standard deviation is zero, it means all values in the sample are identical, leading to the sample mean and sample median being equal because both measures represent the same value.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5606"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_10_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the least possible positive integer-value of $n$ such that $\\sqrt{18\\cdot n \\cdot\n34}$ is an integer?",
+      "options": {
+        "A": "34",
+        "B": "2",
+        "C": "17",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The least possible positive integer value of \\( n \\) is 17 because it is necessary for \\( n \\) to contain the prime factor 17 to ensure that the product \\( 18 \\cdot n \\cdot 34 \\) is a perfect square, as both 18 and 34 contribute prime factors that require balancing to form a complete set of pairs.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4335"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_10_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let $M=4 a^2 - 2 b^2 +a$. Let $j$ be the value of $M$ when $a=5$ and $b=3$, and let $k$ be\nthe value of $M$ when $a=-1$ and $b=4$. Calculate $j+2 k$.",
+      "options": {
+        "A": "29",
+        "B": "28",
+        "C": "27",
+        "D": "26"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 29 because when substituting the given values into the expression for M, we find that j = 51 and k = -11, leading to j + 2k = 51 + 2(-11) = 29.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4417"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_10_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the sum of all integer solutions to $|n| < |n-3| < 9$?",
+      "options": {
+        "A": "-9",
+        "B": "-14",
+        "C": "14",
+        "D": "9"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of all integer solutions to the inequality |n| < |n-3| < 9 yields the integer solutions n = -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, which sum to -14.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_10_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The value of f(-2) is 5 when f(x) = ax^6 - bx^4 + x - 1 and f(2) = 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because if f(2) = 5, it does not imply that f(-2) will also equal 5, as the polynomial's behavior can differ for negative and positive inputs.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4246"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_10_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "A prism has two faces and can roll, just like a cylinder.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A prism has at least five faces, including two parallel bases, and cannot roll like a cylinder due to its angular edges and flat surfaces.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2184"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_10_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'The numbers $x$ and $y$ are inversely proportional. When the sum of $x$ and $y$ is 42, $x$ is twice $y$. What is the value of $y$ when...' is '-7'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because if \\( x \\) is twice \\( y \\), their sum cannot equal 42 while also being inversely proportional, as inversely proportional quantities cannot maintain a fixed ratio.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4434"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_10_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "If 3^(x - 3) + 10 = 19, then the value of x is 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because solving the equation 3^(x - 3) + 10 = 19 leads to 3^(x - 3) = 9, and since 9 can be expressed as 3^2, it follows that x - 3 = 2, giving x = 5.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4294"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_10_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation 29 = x - 17 is x = 46.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when you add 17 to both sides of the equation 29 = x - 17, you find that x equals 46.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "14295"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_10_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Find the sum of all complex roots of the equation \\[\\frac{1}{x-1} + \\frac{1}{x-5} +\n\\frac{1}{x-10} + \\frac{1}{x-25} = 2,\\]given that there are no repeated roots.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "We seek to use Vieta's formulas. To be able to apply the formulas, we multiply both sides\nby $(x-1)(x-5)(x-10)(x-25)$ to eliminate the fractions. This gives \\[\\begin{aligned}&\\quad\n(x-5)(x-10)(x-25) + (x-1)(x-10)(x-25) \\\\& + (x-1)(x-5)(x-25) + (x-1)(x-5)(x-10) =\n2(x-1)(x-5)(x-10)(x-25). \\end{aligned}\\](Be careful! We may have introduced one of the\nroots $x = 1, 5, 10, 25$ into this equation when we multiplied by\n$(x-1)(x-5)(x-10)(x-25).$ However, note that none of $x = 1, 5, 10, 25$ satisfy our new\nequation, since plugging each one in gives the false equation $1=0.$ Therefore, the roots\nof this new polynomial equation are the same as the roots of the original equation, and we\nmay proceed.) The left-hand side has degree $3$ while the right-hand side has degree $4,$\nso when we move all the terms to the right-hand side, we will have a $4$th degree\npolynomial equation. To find the sum of the roots, it suffices to know the coefficients of\n$x^4$ and $x^3.$ The coefficient of $x^4$ on the right-hand side is $2,$ while the\ncoefficients of $x^3$ on the left-hand and right-hand sides are $4$ and $2(-1-5-10-25) =\n-82,$ respectively. Therefore, when we move all the terms to the right-hand side, the\nresulting equation will be of the form \\[ 0 = 2 x^4 - 86 x^3 + \\cdots\\]It follows that the\nsum of the roots is $\\tfrac{86}{2} = \\boxed{43}.$",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies Vieta's formulas after eliminating the fractions by multiplying through by the common denominator, while also acknowledging that the roots introduced by this multiplication do not satisfy the original equation, ensuring that the solution remains valid.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "10113"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_10_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given that the calories in Yum-Yum Good candy bars are normally distributed with a mean of\n210 and a standard deviation of 10, calculate the percentage of candy bars containing more\nthan 225 calories and explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the percentage of Yum-Yum Good candy bars containing more than 225 calories, we\nfirst need to convert 225 calories into a z-score using the formula: z = (X - \u03bc) / \u03c3,\nwhere X is 225, \u03bc is the mean (210), and \u03c3 is the standard deviation (10). This gives us a\nz-score of (225 - 210) / 10 = 1.5. Using standard normal distribution tables or a\ncalculator, we find that the area to the left of a z-score of 1.5 is approximately 0.9332.\nTherefore, the percentage of candy bars containing more than 225 calories is 1 - 0.9332,\nwhich equals about 0.0668 or 6.68%. This calculation shows that only a small portion of\nthe candy bars exceed 225 calories.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the z-score corresponding to 225 calories and uses the standard normal distribution to determine the percentage of candy bars that exceed this calorie amount by finding the area to the left of the z-score and subtracting it from 1.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "5557"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

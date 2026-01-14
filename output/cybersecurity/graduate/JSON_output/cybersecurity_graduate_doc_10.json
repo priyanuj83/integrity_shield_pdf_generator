@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_10",
+  "document_name": "Cybersecurity - Graduate Level Assessment 10",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_10.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "To verify a digital signature we need the",
+      "options": {
+        "A": "Sender's Private key",
+        "B": "Sender's Public key",
+        "C": "Receiver's Private key",
+        "D": "Receiver's Public key"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To verify a digital signature, the sender's public key is required because it is used to decrypt the signature, allowing the recipient to confirm that the signature was created with the corresponding private key, thereby authenticating the sender's identity and ensuring the integrity of the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1498"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In a _____________ attack, the extra data that holds some specific instructions in the\nmemory for actions is projected by a cyber-criminal or penetration tester to crack the\nsystem.",
+      "options": {
+        "A": "Phishing",
+        "B": "MiTM",
+        "C": "Buffer-overflow",
+        "D": "Clickjacking"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer-overflow attack occurs when a cyber-criminal exploits a vulnerability by sending more data than a buffer can handle, allowing them to overwrite memory and execute arbitrary code, thereby compromising the system's security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1548"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ is categorized as an unknown segment of the Deep Web which has been\npurposely kept hidden & is inaccessible using standard web browsers.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Dark web",
+        "D": "Surface web"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dark web is a specific part of the Deep Web that requires specialized software, such as Tor, to access, making it intentionally hidden and inaccessible through standard web browsers.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authorization aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization aims to restrict what operations or data a user can access by defining permissions and privileges, ensuring that users can only perform actions and access information that align with their roles and responsibilities within a system.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "____________________ is the anticipation of unauthorized access or break to computers or\ndata by means of wireless networks.",
+      "options": {
+        "A": "Wireless access",
+        "B": "Wireless security",
+        "C": "Wired Security",
+        "D": "Wired device apps"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless security refers to the measures and protocols implemented to protect wireless networks and data from unauthorized access or breaches, making it the correct term for the anticipation of such threats.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Memory leakage is a critical vulnerability that directly leads to unauthorized system access and operational failures.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Memory leakage refers to the failure of a program to release memory that is no longer needed, which can lead to performance issues, but it does not directly result in unauthorized system access or operational failures like critical vulnerabilities such as buffer overflows or injection attacks do.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Metasploit framework simplifies the exploitation of vulnerabilities through a user-friendly, point-and-click interface.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Metasploit framework provides a graphical user interface that allows users to easily select and deploy exploit modules, making the process of exploiting vulnerabilities more accessible and efficient for both experienced and novice cybersecurity professionals.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "It is impossible to derive any bits of the OTP key from the original message and its ciphertext.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, in certain scenarios involving insufficiently random keys or predictable patterns in the original message, it is possible to infer bits of the one-time pad (OTP) key from the ciphertext and plaintext.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Nmap determines port states as open, filtered, and unfiltered during network scanning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Nmap categorizes port states as open, filtered, and unfiltered based on the responses it receives during its scanning process, which reflects the accessibility and security posture of the ports on a target system.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1555"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "DaCryptic is known as a remote Trojan that primarily targets mobile devices for data theft.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DaCryptic is not primarily associated with targeting mobile devices; instead, it is known for its capabilities as a remote access Trojan that typically targets desktop environments.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the four-step authentication progression that occurs between a wireless user and\nan access point during the authentication process, highlighting the significance of the\n4-way handshake.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The four-step authentication progression between a wireless user and an access point\ninvolves the exchange of messages that are essential for establishing a secure connection.\nInitially, the access point sends a nonce (a random number) to the user, who then combines\nthis with their pre-shared key to generate a session key and sends a second nonce back to\nthe access point. The access point responds with a confirmation, using the session key to\nsecure the message. Finally, the user acknowledges the receipt of this message, completing\nthe 4-way handshake, which is crucial for ensuring that both parties are authenticated and\nthat the session key is unique to the session, thereby preventing replay attacks and\nensuring data confidentiality during transmission. This process underscores the importance\nof the 4-way handshake in establishing a secure wireless connection.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the four-step authentication process by detailing the exchange of nonces and the generation of a session key, emphasizing the critical role of the 4-way handshake in establishing a secure connection between the wireless user and the access point.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1512"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_10_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the principles and effectiveness of mutation-based fuzzing in cybersecurity,\nemphasizing how it generates new inputs through modifications of existing ones.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Mutation-based fuzzing is a cybersecurity testing technique that generates new inputs by\nsystematically modifying existing ones, thereby creating a diverse set of test cases. This\napproach relies on the principle that even small changes to valid inputs can uncover\nvulnerabilities in software, as these modifications may cause unexpected behaviors or\ncrashes. By altering bytes, changing data formats, and introducing random variations,\nmutation-based fuzzers can simulate a wide range of potential attack vectors that would be\ndifficult to anticipate. This technique has proven effective in identifying security\nflaws, as it leverages the inherent unpredictability of software responses to altered\ninputs, ultimately enhancing the robustness of security measures through rigorous testing.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes mutation-based fuzzing as a technique that generates diverse test cases through systematic modifications of existing inputs, thereby effectively identifying vulnerabilities by exposing software to unexpected behaviors.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

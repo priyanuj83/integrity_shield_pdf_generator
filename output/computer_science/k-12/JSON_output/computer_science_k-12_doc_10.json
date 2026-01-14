@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_10",
+  "document_name": "Computer Science - K-12 Level Assessment 10",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_10.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_10_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is sum(l) in Python 3?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "10",
+        "D": "8"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10 because the sum function in Python 3 adds together all the elements in the list l, which totals 1 + 2 + 3 + 4 = 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, let r = lambda q: q * 2. What is r(3)?",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "3",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6 because the lambda function r takes an input q and returns it multiplied by 2, so r(3) computes as 3 * 2, which equals 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is ['a', 'Chemistry', 0, 1][1]?",
+      "options": {
+        "A": "a",
+        "B": "Chemistry",
+        "C": "0",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Chemistry\" because in Python, list indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is the second item, which is 'Chemistry'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which types of functions grow the slowest?",
+      "options": {
+        "A": "O(N^(1/2))",
+        "B": "O(N^(1/4))",
+        "C": "O(N^(1/N))",
+        "D": "O(N)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function O(N^(1/N)) grows the slowest because as N increases, N^(1/N) approaches 1, indicating that its growth rate diminishes significantly compared to other functions such as polynomials or exponentials.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14392"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_10_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is correct about Python?",
+      "options": {
+        "A": "It supports automatic garbage collection.",
+        "B": "It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.",
+        "C": "Both of the above.",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer \"Both of the above\" indicates that Python possesses multiple accurate characteristics or features that collectively define its versatility and functionality as a programming language.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3226"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, converting the list l = [1,2,2,3,4] to a set results in {1,2,3,4}, removing duplicates.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, sets are designed to hold only unique values, so converting the list l = [1,2,2,3,4] to a set effectively removes the duplicate value '2', resulting in {1,2,3,4}.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function long(x [,base]) is used to convert a string to an integer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the function long(x [,base]) does not exist because the long type was removed and the int type now handles both integers and long integers.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3183"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function min(l) returns the largest element in the list l, which is 4 for the list [1, 2, 3, 4].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the function min(l) returns the smallest element in the list l, not the largest, so for the list [1, 2, 3, 4], it would return 1, not 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression ['a', 'Chemistry', 0, 1][-3] evaluates to 'Chemistry'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, negative indexing allows access to elements from the end of a list, so the expression ['a', 'Chemistry', 0, 1][-3] retrieves the second element, which is 'Chemistry'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3279"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_10_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, accessing tuple[0] results in an error when the tuple contains mixed data types.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, accessing tuple[0] does not result in an error regardless of whether the tuple contains mixed data types, as tuples can hold elements of different types and are indexed the same way as other sequences.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3191"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_10_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the characteristics of phishing attacks and analyze why a legitimate email from a\nbank asking you to verify a transaction by calling an official number is least likely to\nindicate a phishing attempt.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Phishing attacks are deceptive attempts to obtain sensitive information by masquerading as\na trustworthy entity, often through emails that urge recipients to click on malicious\nlinks or provide personal details. One characteristic of phishing is that it usually\ninvolves urgent language to provoke hasty responses. In contrast, a legitimate email from\na bank asking you to verify a transaction by calling the official number on your card is\nless likely to be a phishing attempt because it encourages you to use a known and trusted\ncontact method rather than clicking on a link or replying directly to the email. This\napproach reflects good security practices, as it directs you to verify information through\nsecure channels, reducing the risk of falling victim to a scam.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights that phishing attacks typically use urgent language to incite quick actions, whereas a legitimate bank email requests verification through a safe, official method, reducing the likelihood of it being a phishing attempt.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3235"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_10_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how heuristic algorithms can enhance programs designed to find the shortest\ndriving route between two locations, and analyze their advantages over traditional\nmethods.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Heuristic algorithms can significantly improve programs designed to find the shortest\ndriving route between two locations by using practical shortcuts and educated guesses to\nexplore possible paths more efficiently. Unlike traditional methods that typically\nevaluate every possible route, heuristic algorithms focus on the most promising options,\nallowing them to find solutions faster. For example, algorithms like A* use a combination\nof actual travel cost and estimated cost to the destination, enabling them to prioritize\nroutes that are likely to be shorter. This approach not only speeds up the routing process\nbut also reduces the computational resources required, making it more efficient for real-\ntime navigation systems. Overall, heuristic algorithms provide a smarter way of finding\noptimal routes, especially in complex urban environments.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights how heuristic algorithms, by prioritizing promising paths and combining actual and estimated costs, enable faster route-finding compared to traditional methods that evaluate all possible routes.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3208"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

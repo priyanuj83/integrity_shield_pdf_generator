@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_20",
+  "document_name": "Machine Learning - Graduate Level Assessment 20",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_20.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Consider the Bayesian network given below. How many independent parameters are needed for\nthis Bayesian Network H -> U <- P <- W?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 8 because in this Bayesian network, there are 3 nodes (H, U, P) that have parent-child relationships, requiring 1 parameter for H, 2 parameters for U (given H), and 2 parameters for P (given U), plus 2 parameters for W (given P), totaling 8 independent parameters to fully specify the joint probability distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6843"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural\nnetworks trained with gradient descent with high probability converge to the global\noptimum.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "RELU (Rectified Linear Unit) activation functions are indeed non-monotonic due to their zero output for negative inputs, whereas sigmoid functions are monotonic; additionally, neural networks trained with gradient descent do not guarantee convergence to the global optimum due to issues like local minima and saddle points.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Suppose your model is overfitting. Which of the following is NOT a valid way to try and\nreduce the overfitting?",
+      "options": {
+        "A": "Increase the amount of training data.",
+        "B": "Improve the optimisation algorithm being used for error minimisation.",
+        "C": "Decrease the model complexity.",
+        "D": "Reduce the noise in the training data."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Improving the optimization algorithm primarily focuses on how the model learns from the training data rather than addressing the issue of overfitting, which is related to the model's complexity and generalization to unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following best describes the joint probability distribution P(X, Y, Z) for\nthe given Bayes net. X <- Y -> Z?",
+      "options": {
+        "A": "P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y)",
+        "B": "P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y)",
+        "C": "P(X, Y, Z) = P(Z) * P(X|Z) * P(Y|Z)",
+        "D": "P(X, Y, Z) = P(X) * P(Y) * P(Z)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the factorization of the joint probability distribution in a Bayesian network, where the structure X <- Y -> Z indicates that Y is a parent of both X and Z, allowing the distribution to be expressed as the product of the marginal probability P(Y) and the conditional probabilities P(X|Y) and P(Z|Y).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following best describes what discriminative approaches try to model? (w are\nthe parameters in the model)",
+      "options": {
+        "A": "p(y|x, w)",
+        "B": "p(y, x)",
+        "C": "p(w|x, w)",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Discriminative approaches model the conditional probability of the output variable given the input variables and model parameters, specifically p(y|x, w), focusing on the decision boundary between classes rather than the distribution of the input data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Overfitting refers to a model that can generalize well to new data but fails to fit the training data adequately.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Overfitting occurs when a model learns the training data too well, capturing noise and details that do not generalize to new data, leading to poor performance on unseen datasets.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6846"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Naive Bayes, attributes are statistically dependent of one another given the class value.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Naive Bayes assumes that attributes are conditionally independent of each other given the class value, which simplifies the computation of probabilities.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14780"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The variance of the Maximum A Posteriori (MAP) estimate is typically lower than that of the Maximum Likelihood Estimate (MLE).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The variance of the Maximum A Posteriori (MAP) estimate is typically lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which regularizes the estimate and reduces its sensitivity to noise in the data, leading to more stable parameter estimates.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14786"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "An increase in P(A) while P(A, B) decreases implies that P(B|A) must also increase to maintain consistency in probabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is false because an increase in P(A) and a decrease in P(A, B) can lead to a decrease in P(B|A) due to the relationship P(B|A) = P(A, B) / P(A), illustrating that P(B|A) does not necessarily have to increase to maintain consistency in probabilities.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The cost of one gradient descent update, given the gradient vector g, is O(D), where D is the number of features.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because calculating the gradient vector g involves computing the derivative of the loss function with respect to each feature, which requires O(D) operations, where D represents the number of features in the dataset.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the assumption of full versus diagonal class covariance matrices in a Gaussian\nBayes classifier influences the trade-off between underfitting and overfitting.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The assumption of full versus diagonal class covariance matrices in a Gaussian Bayes\nclassifier significantly influences the trade-off between underfitting and overfitting.\nWhen full covariance matrices are assumed, the model can capture complex relationships and\ninteractions between features, which may lead to better performance on training data but\nincreases the risk of overfitting, especially in high-dimensional spaces with limited\ndata. Conversely, diagonal covariance matrices simplify the model by assuming feature\nindependence, which can lead to underfitting if the true data distribution exhibits\nfeature correlations. Therefore, the choice between these covariance structures must\nbalance the model's flexibility against its ability to generalize, ultimately affecting\nits predictive accuracy on unseen data.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because assuming full covariance matrices allows the model to represent intricate feature relationships, enhancing training performance but heightening overfitting risk, while diagonal covariance matrices restrict this complexity, potentially leading to underfitting in the presence of rich data patterns.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6928"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how to generate a $10\\times 5$ Gaussian matrix with $\\mu=5$ and $\\sigma^2=16$, and\na $10\\times 10$ uniform matrix from $U[-1,1)$ using PyTorch.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To generate a $10 \\times 5$ Gaussian matrix with a mean ($\\mu$) of 5 and a variance\n($\\sigma^2$) of 16 using PyTorch, one can utilize the formula \\(5 + \\text{torch.randn}(10,\n5) \\times 4\\). Here, \\(\\text{torch.randn}(10, 5)\\) produces a matrix of standard normally\ndistributed random numbers, which is then scaled by 4 (the standard deviation, since\n\\(\\sigma = \\sqrt{16} = 4\\)) and shifted by 5 to achieve the desired mean. For the $10\n\\times 10$ uniform matrix from the uniform distribution \\(U[-1,1)\\), the expression \\(2\n\\times \\text{torch.rand}(10, 10) - 1\\) is employed. This generates values uniformly\ndistributed between 0 and 2, which are then shifted to the range of -1 to 1 by scaling and\ntranslating appropriately.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the transformation of a standard normal distribution to create a Gaussian matrix with the specified mean and variance while correctly utilizing PyTorch functions to generate random matrices, and it begins the process of generating a uniform matrix from the uniform distribution \\(U[-1,1)\\).",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6938"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

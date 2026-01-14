@@ -1,6 +1,11 @@
 \documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
 \usepackage{enumitem}
 \usepackage{geometry}
+\usepackage{graphicx}
 \usepackage{amsmath, amssymb}
 \geometry{margin=1in}
 \begin{document}
@@ -10,13 +15,62 @@ Total Marks: 40 \
 Answer all questions.
 \end{center}
 
-\section*{Long Form Response (40 marks)}
-\textit{Provide thorough reasoning and reference key steps.}
+\section*{Multiple Choice (10 marks)}
 \begin{enumerate}[label=\arabic*.]
-\item State the basic laws of Boolean algebra.
-\item Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling.
-\item Let x = 1. What is x << 3 in Python 3?
-\item Consider \$x(t)\$ to be given as, \$\$ x(t)=10 \textbackslash\{\}cos (20 \textbackslash\{\}pi-\textbackslash\{\}pi / 4)-5 \textbackslash\{\}cos (50 \textbackslash\{\}pi t) \$\$ What is minimum sampling rate (/Hz) such that \$y(t)=x(t)\$ ?
+\item Of the following page-replacement policies, which is guaranteed to incur the minimum number of page faults?
+\begin{enumerate}[label=(\alph*)]
+    \item Replace the page whose next reference will be the longest time in the future.
+    \item Replace the page whose next reference will be the shortest time in the future.
+    \item Replace the page whose most recent reference was the shortest time in the past.
+    \item Replace the page whose most recent reference was the longest time in the past.
+\end{enumerate}
+\item Which of the following is the hexadecimal representation of the decimal number 231\_\{10\} ?
+\begin{enumerate}[label=(\alph*)]
+    \item 17\_\{16\}
+    \item E$_{4}$\_\{16\}
+    \item E$_{7}$\_\{16\}
+    \item F$_{4}$\_\{16\}
+\end{enumerate}
+\item In Python 3, which of the following function removes all leading and trailing whitespace in string?
+\begin{enumerate}[label=(\alph*)]
+    \item replace(old, new [, max])
+    \item strip([chars])
+    \item swapcase()
+    \item title()
+\end{enumerate}
+\item In the Internet Protocol (IP) suite of protocols, which of the following best describes the purpose of the Address Resolution Protocol?
+\begin{enumerate}[label=(\alph*)]
+    \item To translate Web addresses to host names
+    \item To determine the IP address of a given host name
+    \item To determine the hardware address of a given host name
+    \item To determine the hardware address of a given IP address
+\end{enumerate}
+\item Which of the following best describes the primary way in which a distributed denial- ofservice (D D o S) attack differs from a denial-ofservice (D o S) attack?
+\begin{enumerate}[label=(\alph*)]
+    \item The goal of the attack
+    \item The number of computers being attacked
+    \item The number of computers launching the attack
+    \item The time period in which the attack occurs
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Merge sort has a running time that is least dependent on the initial ordering of the input data compared to other sorting algorithms.
+\item True or False: The access matrix approach can easily express complex protection requirements without limitation.
+\item True or False: Finding a largest clique in an undirected graph G is known to be solvable in polynomial time.
+\item True or False: A program that has been extensively tested may still contain undetected bugs.
+\item True or False: Python variable names are not case-sensitive, treating all variations of the same name as the same identifier.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to find the second smallest number in a list.
+\item Write a function to check whether the given month number contains 28 days or not.
 \end{enumerate}
 
 \vfill

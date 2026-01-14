@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_graduate_doc_15",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "According to Hooke's law, the displacement or deformation of an elastic material is directly proportional to the applied force, meaning that doubling the weight will result in a proportional doubling of the bend in the branch.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10168
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is isotopes because thermal conduction is influenced by the atomic structure and bonding of materials, and isotopes can affect the vibrational modes of atoms, which in turn impacts the efficiency of heat transfer through conduction.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9825
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The power of a lens is determined by the refractive indices of the materials involved; thus, using the formula for lens power and considering the change in surrounding medium from air to water, the power adjusts to approximately 0.83 diopters due to the lower refractive index contrast.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9568
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 9.0 s because using the kinematic equation \\( d = \\frac{1}{2} a t^2 \\), where \\( d \\) is the distance (200 m) and \\( a \\) is the acceleration (5 m/s\u00b2), we can solve for time \\( t \\) and find that \\( t = \\sqrt{\\frac{2d}{a}} = \\sqrt{\\frac{2 \\times 200 \\, \\text{m}}{5 \\, \\text{m/s}^2}} = 9.0 \\, \\text{s} \\).",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9113
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer derives from the conservation of momentum and energy, where the recoil energy of the nucleus is determined by the energy of the emitted gamma ray divided by the mass of the nucleus and the square of the speed of light, reflecting the relativistic effects involved in the emission process.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9085
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The force exerted on the block by the table, known as the normal force, acts perpendicular to the surface of the table, while during the dragging motion, the frictional force, which opposes the motion, is parallel to the surface of the table.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10053
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The atomic number of the resulting element changes because emitting 1 alpha particle decreases the atomic number by 2, and emitting 2 beta particles increases it by 2, resulting in an overall change of 0, but the original statement incorrectly implies that the atomic number remains unchanged.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10258
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, for a concave mirror, the image distance is not necessarily equal to the object distance; it depends on the position of the object relative to the focal point and the mirror's curvature, which determine the nature and distance of the resulting image.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9844
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The specific heat capacity of sand is lower than that of vegetation, meaning sand requires less energy to change temperature, which results in it cooling more rapidly at night compared to vegetation that retains heat longer due to its higher specific heat capacity.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9122
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A common nuclear fission reactor utilizes the heat produced from the splitting of atomic nuclei to convert water into steam, which then drives turbines to generate electricity.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9436
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_long_1",
+      "type": "long",
+      "correct_answer": "When unpolarized light encounters the first ideal linear polarizer, only half of the\nincident light intensity is transmitted, according to Malus's law, resulting in an\nintensity of I\u2081 = 0.5 I\u2080, where I\u2080 is the initial intensity of the unpolarized light. As\nthis polarized light passes through the second polarizer, oriented at a 45-degree angle to\nthe first, the transmitted intensity is given by I\u2082 = I\u2081 cos^2(\u03b8), where \u03b8 is the angle\nbetween the two polarizers. Substituting the values, we find I\u2082 = (0.5 I\u2080) cos^2(45^\\circ)\n= (0.5 I\u2080)(0.5) = 0.25 I\u2080. Thus, the percentage of the original intensity that emerges\nafter passing through both polarizers is 25%. This demonstrates how the orientation of\npolarizers affects light transmission, leading to significant attenuation of the\nintensity.",
+      "marks": 10,
+      "explanation": "The answer correctly applies Malus's law to determine that the first polarizer transmits half of the unpolarized light intensity, and then it calculates the intensity transmitted through the second polarizer at a 45-degree angle by using the cosine squared of the angle, demonstrating the relationship between polarizer orientation and light intensity.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 9372
+    },
+    {
+      "question_id": "physics_graduate_doc_15_physics_long_2",
+      "type": "long",
+      "correct_answer": "When a body is projected upward with an initial speed of 1000 cm/s, it will reach a\nmaximum height of 510 cm before the effects of gravity cause it to decelerate to a stop\nand then descend. This maximum height can be calculated using the kinematic equation \\(\nv^2 = u^2 + 2 as \\), where \\( v \\) is the final velocity (0 cm/s at the peak), \\( u \\) is\nthe initial velocity (1000 cm/s), \\( a \\) is the acceleration due to gravity (-980 cm/s^2,\nacting downwards), and \\( s \\) is the displacement (maximum height). Rearranging the\nequation to solve for \\( s \\) yields \\( s = \\frac{u^2}{2|a|} = \\frac{(1000)^2}{2 \\times\n980} \\), resulting in a maximum height of 510 cm. Factors influencing this height include\nthe initial speed, the acceleration due to gravity, and air resistance, which can reduce\nthe actual height achieved in real-world conditions.",
+      "marks": 10,
+      "explanation": "correct because it properly applies the kinematic equation to determine the maximum height reached by a body projected upward, taking into account the initial velocity, the deceleration due to gravity, and the relationship between initial velocity, final velocity, and displacement.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 9712
+    }
+  ]
+}

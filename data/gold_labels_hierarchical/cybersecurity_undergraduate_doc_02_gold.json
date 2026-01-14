@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_02",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Authenticated\" because without proper authentication, a man-in-the-middle attacker can impersonate one or both parties in a Diffie-Hellman key exchange, compromising the confidentiality and integrity of the shared secret.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1480
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A backdoor is a method of bypassing normal authentication or encryption in a computer system, often hidden within software or hardware, allowing unauthorized access to the system, which aligns with the description provided in the question.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1562
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer identifies the three main types of scanning in cybersecurity\u2014network scanning, vulnerability scanning, and port scanning\u2014each serving a distinct purpose in identifying and assessing security weaknesses within a system.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Authorization aims to restrict what operations and data a user can access by defining permissions and access controls based on the user's identity and role within a system, thereby ensuring that sensitive information and critical functions are protected from unauthorized use.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1560
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A buffer is a designated area in memory that temporarily holds data, such as character strings or arrays, allowing for efficient data management and processing in cybersecurity applications.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "While installing and configuring an Intrusion Detection System (IDS) can help monitor network traffic for signs of malicious activity, it is not the most effective method for detecting IP address spoofing, as spoofing can evade detection by disguising itself as legitimate traffic, and other techniques such as ingress and egress filtering are more effective in preventing such attacks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1563
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Message integrity specifically ensures that a message has not been altered during transmission, but the statement is false because it lacks the context that integrity is only one aspect of message security, which also includes confidentiality and authenticity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1527
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Backdoor Trojans are primarily designed to provide unauthorized remote access to a system rather than to encrypt files and demand ransom, which is characteristic of ransomware.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1523
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The SYN stealth scan only sends the initial SYN packet and analyzes the response without completing the three-way handshake, which minimizes the likelihood of detection by intrusion detection systems compared to a full TCP connect scan that establishes a complete connection.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1546
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A session symmetric key is designed to enhance security by ensuring that each communication session uses a unique key, thereby minimizing the risk of key compromise and making it more difficult for attackers to decrypt the transmitted data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sort_mixed_list(mixed_list): | return int_part + str_part",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to separate integers and strings into distinct parts before combining them, ensuring that the sorting function can handle the mixed data types effectively.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 37
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def sum_list(lst1,lst2): | return res_list",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that takes two lists as input and implies the creation of a result list that will ultimately contain the summed elements of the two input lists, adhering to the principles of function definition in programming.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 728
+    }
+  ]
+}

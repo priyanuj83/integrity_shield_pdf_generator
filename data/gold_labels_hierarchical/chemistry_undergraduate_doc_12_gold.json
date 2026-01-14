@@ -1,0 +1,124 @@
+{
+  "document_id": "chemistry_undergraduate_doc_12",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "answers": [
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "NaCl is a neutral salt formed from a strong acid (HCl) and a strong base (NaOH), resulting in an aqueous solution with a pH of 7, which is higher than the pH of solutions containing weak acids or bases that would produce lower pH values.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 947
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Sc 3+ has the smallest radius because it has lost three electrons, resulting in a higher effective nuclear charge experienced by the remaining electrons, which pulls them closer to the nucleus and reduces the ionic radius.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 992
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Arsenic-doped silicon is an n-type semiconductor because arsenic, which has five valence electrons, donates extra electrons to the silicon lattice, increasing its electron concentration and enhancing its conductivity.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 916
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is based on the second law of thermodynamics, which states that for any spontaneous process, the total entropy of an isolated system, including both the system and its surroundings, must increase.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 987
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Q-factor, which represents the quality of a resonator, is calculated as the ratio of the resonant frequency to the bandwidth; in this case, the resonant frequency for an X-band EPR cavity is approximately 9.5 GHz, leading to a Q-factor of 6012 when divided by the given bandwidth of 1.58 MHz.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 940
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because each hybrid sp^3 orbital can hold a maximum of two electrons with opposite spins, in accordance with the Pauli exclusion principle, even though the overall molecule can have multiple electrons shared among the orbitals.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 14146
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A three-component mixture can have more than three phases at equilibrium due to the possibility of different phases forming from combinations of the components, such as liquid, gas, and solid phases, leading to a greater number of equilibrium phases than the number of components alone.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 898
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "SCl2 has a complete octet configuration and lacks vacant orbitals to accept additional electron pairs, making it less likely to function as a Lewis acid.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 995
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "T2 relaxation is sensitive to molecular motions at the Larmor frequency because it reflects the loss of phase coherence among spins due to interactions with their environment, which are influenced by molecular motion.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 905
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because fluorine has a higher electron affinity than calcium due to its small atomic size and high electronegativity, which allows it to attract additional electrons more effectively.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 991
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_long_1",
+      "type": "long",
+      "correct_answer": "The chemical shift in NMR spectroscopy is influenced by various factors, including\nelectronegativity, hybridization, and molecular geometry. In the case of CH 3 Cl, the\npresence of the electronegative chlorine atom induces a deshielding effect on the hydrogen\natoms in the methyl group. This deshielding causes the protons to resonate at a frequency\nthat is shifted downfield compared to the reference standard, tetramethylsilane (TMS). In\na 12.0 T magnetic field, the specific resonance frequency of CH 3 Cl is approximately 1.55\nkHz away from TMS due to this deshielding effect, which alters the local magnetic\nenvironment of the protons. Overall, the interplay of these factors leads to the observed\nchemical shift in the NMR spectrum.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies how the electronegativity of chlorine causes deshielding of the hydrogen protons in CH3Cl, resulting in a downfield chemical shift in NMR spectroscopy compared to the TMS reference standard, particularly in the context of a 12.0 T magnetic field.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 956
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_12_chemistry_long_2",
+      "type": "long",
+      "correct_answer": "The 13 C NMR spectrum of 2-methylpentane reveals five distinct chemical shifts, each\ncorresponding to unique carbon environments in the molecule. These shifts reflect the\npresence of different types of carbon: one for the carbonyl group and four for the various\nsaturated carbon atoms, including those in the branched and linear portions of the\nstructure. The distinct chemical shifts indicate the influence of neighboring atoms and\nthe overall molecular structure, which is characterized by branching at the second carbon.\nThis branching leads to differences in electron density around the carbon atoms, resulting\nin varied chemical shifts that highlight the molecule's isomerism. Understanding these\nshifts is crucial for elucidating the structural features and reactivity of\n2-methylpentane and its isomers.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the five distinct chemical shifts in the 13 C NMR spectrum of 2-methylpentane as indicative of the unique carbon environments resulting from the molecule's branching and saturation, reflecting the influence of neighboring atoms on the chemical shifts.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 919
+    }
+  ]
+}

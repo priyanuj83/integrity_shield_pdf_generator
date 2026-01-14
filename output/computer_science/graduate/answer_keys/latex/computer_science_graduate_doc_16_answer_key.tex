@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WEP (Wired Equivalent Privacy) is considered the least strong security encryption standard because it employs outdated and weak encryption algorithms, making it vulnerable to various attacks and easily compromised compared to more modern standards like WPA and WPA 2.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is recognized as the first notable buffer overflow attack because it exploited vulnerabilities in networked systems, leading to widespread disruption and highlighting the security risks associated with buffer overflows in software.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) boundary hacks; B) memory checks; C) boundary checks; D) buffer checks
+\\ \textit{Note:} Buffer overflows occur when data exceeds the allocated buffer size, and without proper boundary checks to validate input sizes, applications can inadvertently allow this overflow, leading to potential vulnerabilities and bugs.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) DNSlookup; B) Whois; C) Nslookup; D) IP Network Browser
+\\ \textit{Note:} The IP Network Browser is specifically designed to scan and enumerate SNMP-enabled devices on a network, allowing for the retrieval of configuration and status information, which makes it an essential tool for performing SNMP enumeration.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) one in which each main memory word can be stored at any of 3 cache locations; B) effective only if 3 or fewer processes are running alternately on the processor; C) possible only with write-back; D) faster to access than a direct-mapped cache
+\\ \textit{Note:} A$_{3}$-way, set-associative cache allows each memory word to be mapped to one of three possible locations within a specific set, providing flexibility in data storage and retrieval while maintaining a balance between direct-mapped and fully associative caches.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A MAC (Message Authentication Code) cannot remain secure with a fixed tag length because a fixed size increases the risk of collisions and allows for potential forgery attacks, regardless of the algorithm's complexity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Identifier length in a programming language is best specified using a context-free grammar is false because context-free grammars can define the structure of identifiers but cannot enforce restrictions on their lengths, which may require additional context-sensitive rules.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, in practice, most systems impose a limit on the number of retries after a timeout to prevent infinite loops or excessive resource consumption.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because C and C++ allow direct memory manipulation without automatic boundary checking for strings, which can lead to buffer overflows when data exceeds allocated memory limits.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Public key encryption is slower than symmetric key cryptography because it relies on complex mathematical algorithms for key generation and encryption, while symmetric key cryptography uses simpler, faster operations with shorter keys.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_positivenum(nums): | return sum(sum\_positivenum)
+\\ \textit{Note:} incorrect as it fails to implement a lambda function to filter the positive numbers from the list before calculating their sum and incorrectly references the function itself instead of the filtered list.
+\item \textbf{Answer:} def check\_subset\_list(list 1, list 2): | return exist
+\\ \textit{Note:} The answer correctly identifies the need for a function that determines if all elements of one nested list exist within another nested list, which is essential for establishing subset relationships in data structures.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

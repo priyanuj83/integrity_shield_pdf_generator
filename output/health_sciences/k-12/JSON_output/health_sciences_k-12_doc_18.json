@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_18",
+  "document_name": "Health Sciences - K-12 Level Assessment 18",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_18.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_18_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Intestinal failiure:",
+      "options": {
+        "A": "Always requires parenteral nutritional suport",
+        "B": "May follow colectomy",
+        "C": "Is always permanent",
+        "D": "May benefit from sodium supplementation of >=90 mmol/l"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Intestinal failure can lead to malabsorption of nutrients and electrolytes, making sodium supplementation of 90 mmol/l or more beneficial to help maintain proper electrolyte balance and overall health.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following nutritional interventions has been shown to improve child\ndevelopment?",
+      "options": {
+        "A": "Protein-energy supplementation during pregnancy",
+        "B": "Protein-energy supplementation during the first two years",
+        "C": "Both of the interventions",
+        "D": "None of the interventions"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both interventions have been empirically demonstrated to enhance various aspects of child development, such as cognitive and physical growth, thereby supporting the overall health and well-being of children.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9677"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of these factors increases the risk for cancer of the stomach?",
+      "options": {
+        "A": "Obesity",
+        "B": "Sugar",
+        "C": "Salt and salt-preserved foods",
+        "D": "Dietary fibre"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Salt and salt-preserved foods are linked to an increased risk of stomach cancer because high salt intake can damage the stomach lining and promote the growth of certain bacteria that are associated with cancer development.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9450"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Normal growth can be defined as BMI between:",
+      "options": {
+        "A": "75 th and 2 nd BMI centile",
+        "B": "91 st and 2 nd BMI centile",
+        "C": "99.6 th and 0.4 th BMI centile",
+        "D": "75 th and 25 th BMI centile"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the understanding that a BMI between the 91st and 2nd centile indicates a range where a child's growth is considered normal compared to their peers, reflecting healthy development in weight relative to height.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15080"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a reason for following a vegetarian diet?",
+      "options": {
+        "A": "Religious belief",
+        "B": "For better health",
+        "C": "To reduce global carbon dioxide and methane emissions",
+        "D": "None of the options given are correct"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"None of the options given are correct\" because all the listed reasons for following a vegetarian diet, such as health benefits, ethical considerations, and environmental impact, are valid and commonly accepted motivations.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15078"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Low intake of dietary fats is the main factor that leads to cognitive decline in older adults.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cognitive decline in older adults is influenced by multiple factors, including genetics, lifestyle, and overall nutrition, rather than solely low dietary fat intake.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9469"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "The elderly require more protein-dense foods to meet their nutritional needs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The elderly require more protein-dense foods because their bodies experience a decrease in muscle mass and protein synthesis, necessitating higher protein intake to maintain muscle health and overall nutritional balance.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9630"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Malnutrition in older adults leads to a reduced length of hospital stay.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Malnutrition in older adults often results in complications that can prolong hospital stays due to the need for additional medical interventions and recovery time.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15082"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "mRNA is a type of coding RNA that carries genetic information from DNA to the ribosome for protein synthesis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "mRNA, or messenger RNA, is indeed a type of coding RNA that transcribes genetic information from DNA and transports it to the ribosome, where it serves as a template for synthesizing proteins.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9597"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "DNMT 3 a is responsible for copying methylation marks during DNA replication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DNMT3a is primarily involved in de novo methylation, establishing new methylation marks rather than copying existing ones during DNA replication, as this process is primarily carried out by DNMT1.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9579"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the prevalence of respiratory diseases among vegetarians compared to non-\nvegetarians, analyzing the factors that may contribute to these health outcomes.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Research indicates that respiratory diseases tend to be less common among vegetarians\ncompared to non-vegetarians. This difference may be attributed to several factors,\nincluding the higher intake of fruits and vegetables among vegetarians, which provide\nessential nutrients and antioxidants that support lung health. Additionally, vegetarians\noften have lower rates of smoking and obesity, both of which are significant risk factors\nfor respiratory issues. Furthermore, the anti-inflammatory properties of a plant-based\ndiet may reduce the incidence of conditions like asthma and chronic bronchitis. Overall,\nthe dietary choices and lifestyle habits associated with vegetarianism contribute to\nbetter respiratory health outcomes.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies that the lower prevalence of respiratory diseases among vegetarians can be linked to their higher consumption of nutrient-rich foods, lower smoking rates, and reduced obesity, all of which contribute positively to lung health.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9688"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_18_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how vitamin K deficiency affects the blood clotting process and analyze the\nimplications of prolonged clotting time on overall health.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Vitamin K deficiency significantly impacts the blood clotting process because vitamin K is\nessential for synthesizing certain proteins known as clotting factors. Without adequate\nvitamin K, the body struggles to form clots effectively, leading to prolonged clotting\ntimes. This means that when a person sustains an injury, their blood takes longer to clot,\nincreasing the risk of excessive bleeding. Prolonged clotting time can have serious health\nimplications, such as increased risk of hemorrhagic events, which can be dangerous and may\nrequire medical intervention. Therefore, maintaining sufficient vitamin K levels is\ncrucial for overall health and effective blood clotting.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it clearly articulates the crucial role of vitamin K in synthesizing clotting factors, explains how its deficiency leads to prolonged clotting times, and outlines the serious health risks associated with excessive bleeding due to delayed clot formation.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9670"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_20",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true for Statement 1 because it is always possible to define a trivial homomorphism from any group G to another group G', while Statement 2 is false since a homomorphism can be many-to-one, not necessarily one-to-one.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 45
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the fact that the set of rational numbers is dense in the real numbers, and if A contains all rational numbers and is closed, it must also contain all irrational numbers, thus making A equal to the entire real line R.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1181
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The order of the element (4, 2) in the group Z_12 x Z_8 is determined by the least common multiple of the orders of its components, where the order of 4 in Z_12 is 3 and the order of 2 in Z_8 is 4, resulting in a least common multiple of 12.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 98
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 11 because the functional equation f(1 + x) = f(x) implies that the polynomial f is constant, and since f(5) = 11, it follows that f(x) = 11 for all x, including at x = 15/2.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 15616
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In the ring of continuous real-valued functions on [0, 1], it is possible for the product of two nonzero functions to be zero at certain points in the interval, demonstrating that the ring contains zero divisors.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1184
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The factor group (Z_11 x Z_15)/(<1, 1>) is isomorphic to the trivial group because the subgroup <1, 1> includes all elements of Z_11 x Z_15, leading to only the identity element in the quotient.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 12
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The element 2 is a generator for the finite field Z_11 because its powers modulo 11 produce all non-zero elements of the field, demonstrating that it is a primitive root.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 57
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In the ring Z_3 x Z_3, every element has an order dividing 3, as the additive identity is reached after adding any element to itself three times, due to the modular arithmetic of Z_3, which confirms that the characteristic is indeed 3.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 73
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The dimension of the intersection of two 2-dimensional subspaces of R^4 can be 0, 1, or 2 because the intersection can vary based on the relative positions of the subspaces, with the maximum possible dimension being the minimum of the dimensions of the two subspaces, which is 2, and the minimum dimension being 0 if the subspaces are disjoint.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1153
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the minimum value of the expression x + 4z, subject to the constraint x^2 + y^2 + z^2 <= 2, can be achieved at the point where x = -\u221a34 and z = -\u221a34/4, satisfying both the constraint and yielding the calculated minimum value.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1162
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "The first ten positive composite integers are 4, 6, 8, 9, 10, 12, 14, 15, 16, 18. The\ndesired quotient is $\\frac{4\\cdot 6\\cdot 8\\cdot 9\\cdot 10}{12\\cdot 14\\cdot 15\\cdot 16\\cdot\n18}$. After cancellation, we get $\\frac{1}{14\\cdot 3}=\\boxed{\\frac{1}{42}}$.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the first ten positive composite integers, computes the product of the first five and the next five, and simplifies the resulting fraction through cancellation to arrive at the final answer of \\(\\frac{1}{42}\\).",
+      "source_dataset": "gsm8k_math",
+      "source_id": 18388
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_20_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "If the composition g \u2218 f: S -> U is injective, this implies that the function f: S -> T\nmust also be injective, or one-to-one. To understand why, consider the definition of an\ninjective function: for any two distinct elements s 1 and s 2 in the domain S, if f(s 1) =\nf(s 2), then it must follow that g(f(s 1)) = g(f(s 2)), leading to g \u2218 f(s 1) = g \u2218 f(s\n2). Since g \u2218 f is injective, the equality g(f(s 1)) = g(f(s 2)) cannot hold unless s 1 =\ns 2. Consequently, if f were not injective, there would exist distinct s 1 and s 2 such\nthat f(s 1) = f(s 2), contradicting the injectivity of g \u2218 f. Thus, for g \u2218 f to maintain\nits injective nature, f must indeed be one-to-one.",
+      "marks": 10,
+      "explanation": "correct because the injectivity of the composition g \u2218 f necessitates that distinct inputs in S map to distinct outputs in T via f, ensuring that f must be injective for the overall composition to maintain its injective property.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14164
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_08",
+  "document_name": "Health Sciences - K-12 Level Assessment 8",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_08.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_08_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What proportion of vegans is likely to be deficient in vitamin B 12?",
+      "options": {
+        "A": "3%",
+        "B": "32%",
+        "C": "66%",
+        "D": "15%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 32% reflects research indicating that a significant portion of vegans may not obtain sufficient vitamin B12 from plant-based diets, which can lead to deficiencies if not properly supplemented.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9443"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Nitrites are added to processed meats mainly to prevent the growth of the following genus\nof microorganisms",
+      "options": {
+        "A": "salmonella",
+        "B": "clostridium",
+        "C": "listeria",
+        "D": "campylobacter"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Nitrites are added to processed meats primarily to inhibit the growth of Clostridium bacteria, which can cause foodborne illnesses such as botulism.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9493"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Colonic microbiome:",
+      "options": {
+        "A": "Is present in babies in utero",
+        "B": "Is a cause of eosinopjhilic oesophagitis",
+        "C": "Is easily changed by probiotic supplementation",
+        "D": "May be changed with consumption of oligo-saccharides"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The colonic microbiome can be altered by the intake of oligosaccharides, which serve as prebiotics that selectively stimulate the growth of beneficial gut bacteria, thereby influencing the overall composition of the microbiome.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9519"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following diet-derived compounds have epigenetic effects?",
+      "options": {
+        "A": "Butyrate",
+        "B": "Curcumin",
+        "C": "Genistein",
+        "D": "All of the options given are correct"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "All of the options given are correct because various diet-derived compounds, such as vitamins, polyphenols, and fatty acids, have been shown to influence gene expression and epigenetic modifications, thereby impacting health and disease outcomes.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What nutritional strategies will not improve performance during prolonged endurance type\nexercise?",
+      "options": {
+        "A": "Carbohydrate loading",
+        "B": "Tapering",
+        "C": "The classic glycogen loading regime",
+        "D": "Exogenous carbohydrate ingestion during exercise"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The classic glycogen loading regime is ineffective for improving performance during prolonged endurance exercise because it primarily benefits short-term events and does not enhance endurance capacity in the way that consistent carbohydrate intake does during prolonged activity.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Rickets of prematurity is associated with hypocalcaemic convulsions, use of frusemide diuretic, and maternal vitamin D deficiency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Rickets of prematurity is true because it can result from maternal vitamin D deficiency, leading to impaired calcium metabolism in premature infants, which may cause hypocalcaemic convulsions, especially when exacerbated by the use of frusemide diuretics that promote calcium loss.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "A deficiency of folate can lead to megaloblastic anaemia, a condition characterized by larger than normal red blood cells.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A deficiency of folate impairs DNA synthesis in red blood cell production, leading to the development of larger than normal cells, which results in megaloblastic anemia.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15077"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Randomised controlled trials are the most effective way to study the relationship between sugar intake and dental caries risk.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Randomised controlled trials are often not feasible for studying the relationship between sugar intake and dental caries risk due to ethical concerns and difficulties in controlling dietary habits in real-world settings.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9692"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Energy balance in a healthy person is usually achieved on a day-to-day basis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Energy balance in a healthy person is not typically achieved on a day-to-day basis because daily energy intake and expenditure can fluctuate significantly due to variations in physical activity, metabolism, and dietary habits.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9452"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "A woman should eat less than 200 kCal per day during pregnancy to maintain a healthy weight.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is false because during pregnancy, women require additional calories, typically around 300 extra per day, to support the growth and development of the fetus and maintain their own health.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9669"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how infections or inflammatory states can affect the accuracy of biochemical\nindices used to assess micronutrient status, focusing on the acute phase reaction's\nimpact.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Infections and inflammatory states can significantly impact the accuracy of biochemical\nindices used to assess micronutrient status in the body. During an acute phase reaction,\nwhich occurs in response to illness or injury, the body alters the distribution of certain\nmicronutrients among tissues. For example, levels of proteins that transport\nmicronutrients may change, leading to decreased availability of these nutrients in the\nblood. This can result in misleading biochemical test results, making it seem as though a\nperson is deficient in certain micronutrients when they may not be. Therefore,\nunderstanding the acute phase reaction is crucial for accurately evaluating micronutrient\nstatus during periods of infection or inflammation.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights how the acute phase reaction during infections alters the distribution and transport of micronutrients, leading to misleading biochemical indices that do not accurately reflect true micronutrient status.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9442"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_08_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of goitrogens in the diet, particularly focusing on specific foods that\ncontain them, and analyze their potential effects on thyroid health.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Goitrogens are substances found in certain foods that can interfere with thyroid function,\nparticularly by inhibiting the uptake of iodine, which is essential for the production of\nthyroid hormones. Foods that contain goitrogens include cruciferous vegetables like\nbroccoli, kale, and Brussels sprouts, which are part of the Brassica family. While these\nfoods are healthy and rich in nutrients, consuming them in excessive amounts, especially\nin raw form, may negatively impact thyroid health, particularly in individuals with\nexisting thyroid issues. Cooking these vegetables can reduce their goitrogenic effects,\nmaking them safer for consumption. Overall, while goitrogens can influence thyroid\nfunction, a balanced diet including these vegetables is beneficial for most people.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies goitrogens as substances that can inhibit iodine uptake and discusses specific foods, particularly cruciferous vegetables, that contain them, while also noting the potential negative effects on thyroid health when consumed excessively.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9675"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

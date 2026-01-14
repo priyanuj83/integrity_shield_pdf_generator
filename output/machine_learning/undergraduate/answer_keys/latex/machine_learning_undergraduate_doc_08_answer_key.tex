@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Larger if the error rate is larger.; B) Larger if the error rate is smaller.; C) Smaller if the error rate is smaller.; D) It does not matter.
+\\ \textit{Note:} A larger number of test examples is needed to achieve statistically significant results when the error rate is smaller because a lower error rate results in less variability in the results, requiring more data to confidently detect true differences or effects.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm may enhance convergence speed or efficiency but does not address the model complexity or capacity issues that typically cause overfitting, making it an ineffective solution for reducing overfitting.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) random crop and horizontal flip; B) random crop and vertical flip; C) posterization; D) dithering
+\\ \textit{Note:} Random crop and horizontal flip are common image data augmentation techniques for natural images because they effectively increase the diversity of training data by introducing variability in scale and orientation, which helps improve the robustness and generalization of machine learning models.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) The polynomial degree; B) Whether we learn the weights by matrix inversion or gradient descent; C) The assumed variance of the Gaussian noise; D) The use of a constant-term unit input
+\\ \textit{Note:} The polynomial degree directly influences the model's complexity, with a lower degree leading to underfitting and a higher degree increasing the risk of overfitting, thus affecting the balance between the two.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It can not be applied to non-differentiable functions.; B) It can not be applied to non-continuous functions.; C) It is hard to implement.; D) It runs reasonably slow for multiple linear regression.
+\\ \textit{Note:} The correct answer highlights that Grid search evaluates every combination of hyperparameters systematically, leading to slower performance, especially in complex models like multiple linear regression that may have numerous parameters to tune.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because, in a Bayesian network, the joint probability distribution can be factored according to the conditional independence relationships represented in the network, allowing P(X, Y, Z) to be expressed as P(Y) * P(X|Y) * P(Z|Y).
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Hidden Markov models are primarily used for modeling sequences and temporal data, such as time series or language processing, rather than for classifying static images.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Word 2 Vec is primarily trained using a predictive model based on neural networks, while Restricted Boltzmann Machines are used for different types of unsupervised learning and do not align with the initialization needs of Word 2 Vec parameters.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The original ResNets were primarily trained using the Adam optimizer, not just SGD, which makes the statement false.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Adding more basis functions in a linear model actually increases the model's complexity, which can lead to overfitting and higher variance, making it less stable across different datasets.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def first\_repeated\_word(str 1): | return word; | return 'None'
+\\ \textit{Note:} correct as it outlines a function structure that aims to identify and return the first repeated word in a string, although it lacks the complete implementation necessary for functionality.
+\item \textbf{Answer:} def count\_vowels(test\_str): | return (res)
+\\ \textit{Note:} The answer correctly identifies the need to define a function that processes a string to count characters with vowels as neighbors, indicating an understanding of string manipulation and conditional logic necessary for solving the problem.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

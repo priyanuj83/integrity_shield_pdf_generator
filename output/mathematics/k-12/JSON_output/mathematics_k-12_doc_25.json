@@ -1,0 +1,289 @@
+{
+  "docid": "mathematics_k-12_doc_25",
+  "document_name": "Mathematics - K-12 Level Assessment 25",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_25.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_25_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_25_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Simplify and write the result with a rational denominator:\n$$\\sqrt{\\sqrt[3]{\\sqrt{\\frac{1}{729}}}}$$",
+      "options": {
+        "A": "\\frac{3\\sqrt{3}}{3}",
+        "B": "\\frac{1}{3}",
+        "C": "\\sqrt{3}",
+        "D": "\\frac{\\sqrt{3}}{3}"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression simplifies to \\(\\frac{\\sqrt{3}}{3}\\) because \\(\\frac{1}{729}\\) equals \\(729^{-1}\\), which simplifies through successive roots to yield \\(\\sqrt{3}/3\\) after rationalizing the denominator.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "15701"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_25_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If there is a 70% chance that it will rain on a given day, what is the percent chance that\nit will NOT rain on that same day?",
+      "options": {
+        "A": "0%",
+        "B": "30%",
+        "C": "50%",
+        "D": "70%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The percent chance that it will NOT rain is calculated by subtracting the probability of rain (70%) from 100%, resulting in a 30% chance of no rain.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4325"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_25_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is three fifth of 100?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "20",
+        "D": "60"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Three fifths of 100 is calculated by multiplying 100 by the fraction 3/5, which equals 60.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2399"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_25_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The area bounded by the parabola y = x^2 and the lines y = 1 and y = 9 equals",
+      "options": {
+        "A": "8",
+        "B": "84/3",
+        "C": "64\\sqrt{2}/3",
+        "D": "104/3"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 104/3 because the area between the parabola y = x^2 and the horizontal lines y = 1 and y = 9 can be calculated by integrating the difference between the line equations and the parabola over the interval determined by their intersection points, yielding the result of 104/3.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4373"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_25_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "When n = 11, what is the value of 10 - (n + 6)?",
+      "options": {
+        "A": "-7",
+        "B": "5",
+        "C": "7",
+        "D": "27"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -7 because when substituting n = 11 into the expression 10 - (n + 6), it simplifies to 10 - (11 + 6) = 10 - 17 = -7.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2101"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_25_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The relative maximum value of the function y = (ln x)/x occurs at x = e, yielding a maximum value of 1/e.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the function y = (ln x)/x reaches its maximum at x = e, where its value is indeed 1/e, as confirmed by finding the first derivative and analyzing critical points.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4257"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_25_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The quotient of 1,248 divided by 7 is 178 with a remainder of 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When you divide 1,248 by 7, it equals 178 with a remainder of 2, since 7 times 178 is 1,246, and subtracting this from 1,248 leaves a remainder of 2.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2360"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_25_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The point (5, 5) can lie on the circle that passes through the points (3, 4) and (5, 7).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The point (5, 5) cannot lie on the circle that passes through (3, 4) and (5, 7) because it does not satisfy the equation of the circle formed by those two points, which requires the third point to be equidistant from the center of the circle defined by the other two points.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "14510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_25_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "Noah rides his bike at a speed of 10 miles per hour.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it accurately describes Noah's biking speed as 10 miles per hour, which is a valid measure of speed in the context of distance and time.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_25_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The P-value for the hypothesis test H 0: p=0.3 against HA: p>0.3 is 1.06.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The P-value cannot exceed 1, as it represents the probability of obtaining a test statistic at least as extreme as the one observed under the null hypothesis, thus making the statement false.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5630"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_25_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "In an algebra test with 35 problems, you need to score at least 80% to pass. Analyze the\nnumber of problems you can miss while still achieving a passing score, and explain your\nreasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To pass the algebra test, you need to score at least 80% out of 35 problems. To find out\nhow many problems you can miss, first calculate 80% of 35, which is 28 problems. This\nmeans you must answer at least 28 problems correctly to pass. Since there are 35 problems\nin total, you can miss 35 - 28 = 7 problems while still achieving a passing score.\nTherefore, you can miss up to 7 problems and still pass the test.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates that achieving at least 80% of 35 problems requires answering 28 correctly, allowing for a maximum of 7 missed problems to still pass the test.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_25_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the area of a square whose perimeter equals that of an equilateral triangle with\na side length of 8. Explain your reasoning and the steps involved in your calculation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the area of a square whose perimeter equals that of an equilateral triangle with a\nside length of 8, we first calculate the perimeter of the triangle. The perimeter of an\nequilateral triangle is given by multiplying the side length by 3, so for a triangle with\na side length of 8, the perimeter is 8 \\times 3 = 24. Since the perimeter of the square is\nequal to 24, we set the equation for the perimeter of a square, which is 4 times the side\nlength (s), equal to 24: 4 s = 24. Solving for s gives us s = 6. Finally, the area of the\nsquare is calculated by squaring the side length: 6 \\times 6 = 36. Thus, the area of the\nsquare is 36.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the perimeter of the equilateral triangle, equates it to the perimeter of the square to find the side length, and uses the correct formula for both shapes to ultimately determine the area of the square.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4415"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

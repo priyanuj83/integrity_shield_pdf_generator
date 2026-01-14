@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} In Python, negative indexing allows access to elements from the end of a list, so ['a', 'Chemistry', 0, 1][-3] retrieves the element at the third position from the end, which is 'Chemistry'.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) A function that averages numeric values in a column or row; B) A function that counts the values in a column or row; C) A function that rounds a numeric value; D) A function that sorts values in a column or row
+\\ \textit{Note:} A function that sorts values in a column or row helps to easily identify and isolate outliers or improbably high or low values, which are often indicative of data entry errors.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) int(x [,base]); B) long(x [,base] ); C) float(x); D) str(x)
+\\ \textit{Note:} The function `int(x [,base])` is specifically designed to convert a string representation of a number into an integer in Python 3, allowing for an optional base parameter to specify the number system used for the conversion.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Error; B) a; C) b; D) c
+\\ \textit{Note:} In Python 3, negative indexing allows access to elements from the end of a sequence, so "abc"[-1] refers to the last character of the string, which is 'c'.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) a \textless{} c; B) a \textless{} b; C) a \textgreater{} b; D) a == b
+\\ \textit{Note:} The condition a \textless{} c is sufficient to guarantee that the entire expression evaluates to true because if a is less than c, the first part of the disjunction (a \textless{} c) is satisfied, making the overall expression true regardless of the values of b or the additional conditions.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the function max(l) where l = [1,2,3,4] actually returns the value 4, which is the largest element in the list.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An abstract syntax tree (AST) represents the hierarchical structure of source code, but it does not manage variable information; that role is typically handled by a symbol table within a compiler.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The user's public key is intended for secure communication and is not a vulnerability; rather, threats to personal privacy online arise more from the misuse of private keys and other factors such as data breaches and poor security practices.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The values of local variables are typically stored within a subroutine's activation record frame to ensure that each invocation of the subroutine maintains its own independent state and data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, negative indexing allows access to list elements starting from the end, so the expression ['a', 'Chemistry', 0, 1][-3] refers to the second element from the start of the list, which is 'Chemistry'.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def listify\_list(list 1): | return result
+\\ \textit{Note:} correct because it outlines the structure of a function that should utilize the map function to apply a transformation to each string in the input list, ultimately returning a new list with the strings listed individually.
+\item \textbf{Answer:} def re\_arrange\_array(arr, n): | return arr
+\\ \textit{Note:} The answer correctly identifies the need for a function that manipulates an array, but it is incomplete as it does not implement the logic to actually rearrange the elements, thus failing to fulfill the requirement of placing all negative elements before positive ones.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

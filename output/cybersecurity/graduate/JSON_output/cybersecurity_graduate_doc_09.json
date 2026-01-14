@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_09",
+  "document_name": "Cybersecurity - Graduate Level Assessment 9",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_09.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A ___________ is a method in which a computer security mechanism is bypassed untraceable\nfor accessing the computer or its information.",
+      "options": {
+        "A": "front-door",
+        "B": "backdoor",
+        "C": "clickjacking",
+        "D": "key-logging"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a method of circumventing normal authentication procedures, allowing unauthorized access to a computer system or its data without detection.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1517"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What was the first buffer overflow attack?",
+      "options": {
+        "A": "Love Bug",
+        "B": "SQL Slammer",
+        "C": "Morris Worm",
+        "D": "Code Red"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm, released in 1988, is widely recognized as the first significant computer worm that exploited a buffer overflow vulnerability, demonstrating the potential for such attacks to spread rapidly and cause extensive damage to networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a Wireless traffic Sniffing tool?",
+      "options": {
+        "A": "Maltego",
+        "B": "BurpSuit",
+        "C": "Nessus",
+        "D": "Wireshark"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireshark is a widely used network protocol analyzer that can capture and analyze wireless traffic, making it a key tool for sniffing and inspecting data transmitted over wireless networks in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The stack is memory for storing",
+      "options": {
+        "A": "Local variables",
+        "B": "Program code",
+        "C": "Dynamically linked libraries",
+        "D": "Global variables"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The stack is a region of memory that stores local variables and function call information, enabling efficient management of temporary data during program execution.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following deals with network intrusion detection and real-time traffic\nanalysis?",
+      "options": {
+        "A": "John the Ripper",
+        "B": "L 0 phtCrack",
+        "C": "Snort",
+        "D": "Nessus"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Snort is an open-source network intrusion detection system that specializes in real-time traffic analysis and packet logging, making it the appropriate choice for the given question.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "IM Trojans are malicious programs designed to steal logins and passwords from instant messaging applications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM Trojans are classified as malware specifically created to infiltrate instant messaging platforms, where they capture and transmit users' login credentials and passwords to malicious actors.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Encryption and decryption do not ensure data integrity, as they primarily focus on confidentiality and secrecy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Encryption and decryption are designed to protect the confidentiality of data by converting it into an unreadable format for unauthorized users, but they do not verify or guarantee that the data has not been altered or tampered with, which is the primary concern of data integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "WPA 3 is considered less secure than WEP due to its reliance on outdated encryption methods.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA3 is actually more secure than WEP because it employs modern encryption standards, including Simultaneous Authentication of Equals (SAE) and improved key management, which address the vulnerabilities found in WEP's outdated and easily compromised encryption methods.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "IP address spoofing can be detected by comparing the TTL values of the actual and spoofed addresses.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IP address spoofing can be detected by comparing the Time to Live (TTL) values because legitimate packets typically have a TTL value that reflects their origin and routing path, while spoofed packets may display anomalous TTL values inconsistent with expected network behavior.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "WiFi traffic sniffing specifically targets only unsecured networks, limiting its effectiveness in forensic analysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WiFi traffic sniffing can be conducted on both secured and unsecured networks, as attackers can exploit vulnerabilities in encryption protocols or use methods such as session hijacking to access data even on protected connections, thereby enhancing its effectiveness in forensic analysis.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of EXE assuming a query is unsatisfiable when the STP solver\ntimes out on a constraint query for a specific path in cybersecurity analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In cybersecurity analysis, when the EXE assumes a query is unsatisfiable due to the STP\nsolver timing out on a constraint query for a specific path, it halts further execution of\nthat path. This assumption can lead to significant implications, as it may prevent the\nidentification of potential vulnerabilities or exploits that could have been discovered\nwith additional processing time. By prematurely considering a path unviable, analysts risk\noverlooking critical attack vectors, which can compromise the overall security assessment.\nFurthermore, this approach may lead to an incomplete understanding of the system's\nbehavior, as it does not account for the possibility that the solver's timeout could be\ndue to complex constraints rather than a definitive impossibility of satisfying the query.\nThus, while stopping execution may streamline analysis, it introduces a trade-off between\nefficiency and thoroughness in cybersecurity evaluations.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because assuming a query is unsatisfiable after a timeout can lead to missed opportunities in identifying vulnerabilities, as it prematurely halts the analysis of potentially critical paths in the cybersecurity context.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_09_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the effectiveness of whitebox fuzzing in achieving comprehensive code coverage in\nsoftware testing. How does this approach compare to other fuzzing techniques?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Whitebox fuzzing is highly effective in achieving comprehensive code coverage in software\ntesting due to its access to the underlying code structure and control flow. By leveraging\nthis visibility, whitebox fuzzers can generate test cases that target specific paths,\nconditions, and potential vulnerabilities within the code more systematically than\nblackbox or graybox fuzzing techniques, which typically rely on input-output behavior\nwithout detailed knowledge of the code. This results in a more thorough exploration of\nedge cases and a higher likelihood of uncovering security flaws. In contrast, while\nblackbox fuzzing can provide insights into the software's behavior from the user's\nperspective, it often misses deeper vulnerabilities that require knowledge of the\nprogram's internal workings. Thus, whitebox fuzzing stands out as a crucial approach in\ncybersecurity for achieving robust and comprehensive testing outcomes.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because whitebox fuzzing utilizes in-depth knowledge of the code structure to systematically generate targeted test cases that enhance code coverage, unlike blackbox and graybox approaches that lack this level of insight.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

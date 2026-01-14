@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Graduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) [0.7, 0.0, 0.7]; B) [0.6, 0.0, 0.8]; C) [0.0, 0.8, 0.6]; D) [0.0, 0.7, 0.7]; E) [0.8, 0.6, 0.0]
+\\ \textit{Note:} The correct answer is derived from calculating the Binormal vector as the cross product of the tangent and normal vectors obtained from the given parametric vector function r(t), resulting in the components [0.7, 0.0, 0.7] after normalization.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1.414214; B) 1.000000; C) 0.785398; D) 1.570796; E) 1.234567
+\\ \textit{Note:} The answer 1.570796 is correct because the Trapezoidal Rule provides a numerical approximation for the definite integral of sin²(x) over the interval [0, π], and this value closely matches the exact result of the integral, which is π/2 or approximately 1.570796.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 72; B) 76; C) 67; D) 64; E) 57
+\\ \textit{Note:} The correct answer is 72 because it satisfies all the given conditions: when divided by 4 it leaves a remainder of 1 (72 = 4*18 + 1), when divided by 3 it also leaves a remainder of 1 (72 = 3*24 + 0), and when divided by 5 it leaves a remainder of 2 (72 = 5*14 + 2).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 1,2; B) 0,1,2,3; C) 1; D) 3,4; E) 0,1,2
+\\ \textit{Note:} The polynomial $x^5$ + 3 $x^3$ + $x^2$ + 2 x in Z\_5 can be factored as x($x^4$ + 3 $x^2$ + x + 2), and by testing the elements 1 and 2 from the field Z\_5, we find that both are roots of the polynomial, confirming they are the zeros within the field.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 10; B) 15; C) 17; D) 9; E) 11
+\\ \textit{Note:} To find the number of floors in the building, divide the total height of the building (185.9 feet) by the height of each story (14.3 feet), resulting in 185.9 ÷ 14.3 = 13, which rounds down to 10 because only whole floors can exist.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because dividing the total number of apples (270) by the number of apples required per pie (7) results in 38.57, which means they can make a maximum of 38 pies, and since they have only 15 boxes, it is reasonable to conclude they can make 37 pies while utilizing most of the apples.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a finite field can exist with a number of elements equal to a power of a prime, specifically, 60 can be expressed as \(2^2 \times 3 \times 5\), indicating it cannot be the number of elements in any finite field, but it is not relevant to the condition of simply having a finite field.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the volume of the solid bounded by the elliptical paraboloid and the plane can be calculated using specific integration techniques, which likely yield a value different from 1.5 cubic units.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because transforming sin x to 3 sin 2 x does not halve the domain, as both functions are defined for all real numbers, and the range is not tripled but rather scaled from [-3, 3] instead of remaining within [-1, 1].
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A field is a set equipped with two operations, addition and multiplication, that satisfy the ring properties of closure, associativity, distributivity, the existence of additive and multiplicative identities, and the existence of additive inverses, along with the additional requirement that every non-zero element has a multiplicative inverse, thus making every field a specific type of ring.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} To calculate the quantity of the drug present in the body after the third dose, we start by noting that the patient retains 5\% of the drug administered just before the next dose. After the first dose of 150 mg, the amount retained is 5\% of 150 mg, which is 7.5 mg. Adding the second dose (150 mg), the total just before the second dose is 157.5 mg. Retaining 5\% of this amount results in 7.875 mg remaining. After the second dose, the total becomes 157.875 mg. Finally, before the third dose, the retained amount is again 5\% of 157.875 mg, which equals approximately 7.89375 mg. Adding the third dose of 150 mg to this retained amount yields a total of approximately 145.5 mg present in the body after the third dose, confirming the key answer.
+\\ \textit{Note:} The answer correctly applies the concept of exponential decay to model the retention of the drug in the body after each dose, calculating the retained amount sequentially based on the percentage retention and cumulative doses.
+\item \textbf{Answer:} To evaluate the surface integral $\iint_S \vec{F} \cdot d \vec{S}$ using the divergence theorem, we first compute the divergence of the vector field $\vec{F} = \sin(\pi x) \vec{i} + (z y^3) \vec{j} + (z^2 + 4 x) \vec{k}$. The divergence is given by $\nabla \cdot \vec{F} = \frac{\partial}{\partial x}(\sin(\pi x)) + \frac{\partial}{\partial y}(zy^3) + \frac{\partial}{\partial z}(z^2 + 4 x) = \pi \cos(\pi x) + 3 zy^2 + 2 z$. Next, we integrate this divergence over the volume of the box defined by $-1 \leq x \leq 2$, $0 \leq y \leq 1$, and $1 \leq z \leq 4$. The volume integral becomes $\iiint_V (\pi \cos(\pi x) + 3 zy^2 + 2 z) \, dV$, which we compute by integrating each term separately. After performing the volume integrations, we find that the total value of the surface integral $\iint_S \vec{F} \cdot d\vec{S}$ equals 80.1, confirming the application of the divergence theorem for this vector field over the specified volume.
+\\ \textit{Note:} correct because it applies the divergence theorem, which states that the surface integral of a vector field over a closed surface can be transformed into a volume integral of the divergence over the region enclosed by that surface, thus allowing the calculation of $\iint_S \vec{F} \cdot d \vec{S}$ by first finding the divergence of the vector field and integrating it over the defined box.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

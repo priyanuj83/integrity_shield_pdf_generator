@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_20",
+  "document_name": "Cybersecurity - Graduate Level Assessment 20",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_20.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Message authentication is a service beyond",
+      "options": {
+        "A": "Message Condentiality",
+        "B": "Message Integrity",
+        "C": "Message Splashing",
+        "D": "Message Sending"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message authentication ensures that a message has not only been delivered without alteration but also verifies the identity of the sender, making it a service that encompasses and extends beyond the concept of message integrity, which only confirms that the message content is unmodified.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1513"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "____________ is also a part of darknet that is employed for transferring files\nanonymously.",
+      "options": {
+        "A": "Freenet",
+        "B": "ARPANET",
+        "C": "Stuxnet",
+        "D": "Internet"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Freenet is designed specifically to facilitate anonymous file sharing and communication, making it a key component of the darknet focused on privacy and security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1478"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Encryption and decryption provide secrecy, or condentiality, but not",
+      "options": {
+        "A": "Authentication",
+        "B": "Integrity",
+        "C": "Privacy",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Integrity refers to the accuracy and completeness of data, which encryption and decryption do not inherently provide, as they primarily focus on protecting data from unauthorized access rather than ensuring that the data remains unaltered.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Encapsulating Security Payload (ESP) belongs to which Internet Security Protocol?",
+      "options": {
+        "A": "Secure Socket Layer Protocol",
+        "B": "Secure IP Protocol",
+        "C": "Secure Http Protocol",
+        "D": "Transport Layer Security Protocol"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Encapsulating Security Payload (ESP) is part of the Internet Protocol Security (IPsec) suite, which provides confidentiality, authentication, and integrity for IP packets, thereby categorizing it under the Secure IP Protocol.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A hash function guarantees the integrity of a message. It guarantees that the message has\nnot be",
+      "options": {
+        "A": "Replaced",
+        "B": "Overview",
+        "C": "Changed",
+        "D": "Violated"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function produces a unique fixed-size string from input data, allowing for the verification of integrity by detecting any alterations in the original message, thus ensuring it has not been changed.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14209"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A buffer overflow occurs when a pointer accesses memory not allocated to it, leading to potential data corruption or security vulnerabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow occurs when a program writes more data to a block of memory, or buffer, than it was allocated, allowing a pointer to access adjacent memory locations, which can corrupt data and create vulnerabilities that can be exploited by attackers.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1506"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Only biometric methods are considered secure forms of authentication in modern cybersecurity practices.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is false because secure forms of authentication in modern cybersecurity practices also include password-based methods, token-based systems, and multi-factor authentication, all of which can be effective in ensuring security beyond just biometric methods.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Correctness is widely recognized as a fundamental security property alongside confidentiality and integrity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correctness is not typically classified as a fundamental security property in cybersecurity; the primary properties are confidentiality, integrity, and availability, often referred to as the CIA triad.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1570"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The AH Protocol ensures both data integrity and privacy for the packets it protects during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol provides data integrity through authentication but does not ensure privacy since it does not encrypt the data packets, leaving their content exposed during transmission.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "A packet filter firewall functions at the application or transport layer, evaluating data packets for specific application protocols.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A packet filter firewall operates at the network layer, evaluating data packets based on IP addresses and port numbers rather than specific application protocols at the application or transport layer.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1508"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to round every number of a given list of numbers and print the total sum\nmultiplied by the length of the list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def round_and_sum(list1): | return round_and_sum",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that processes a list by rounding each number, but fails to provide the complete implementation needed to achieve the summation and multiplication by the list's length.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "419"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to convert the given string to lower case.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_lower(string): | return (string.lower())",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the function utilizes Python's built-in `lower()` method to convert all characters in the provided string to their lowercase equivalents, effectively achieving the goal of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "477"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

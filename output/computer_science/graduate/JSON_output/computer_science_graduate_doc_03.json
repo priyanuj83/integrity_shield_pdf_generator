@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_03",
+  "document_name": "Computer Science - Graduate Level Assessment 3",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_03.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_03_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The Message condentiality or privacy means that the sender and the receiver expect",
+      "options": {
+        "A": "Integrity",
+        "B": "Condentiality",
+        "C": "Authentication",
+        "D": "Nonrepudiation"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Confidentiality\" because message confidentiality ensures that the content of a communication remains private and is accessible only to the intended sender and receiver, thereby protecting sensitive information from unauthorized access.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1511"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_03_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which among the following is the least strong security encryption standard?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA 2",
+        "D": "WPA 3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WEP (Wired Equivalent Privacy) is considered the least strong security encryption standard because it uses outdated and weak encryption algorithms, making it vulnerable to various attacks and easily compromised compared to more modern standards like WPA and WPA2.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_03_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The ____________ is anything which your search engine cannot search.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Surface web",
+        "D": "Deep Web"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Deep Web refers to parts of the internet that are not indexed by standard search engines, making them inaccessible through typical search queries.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "15632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_03_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Of the following sorting algorithms, which has a running time that is LEAST dependent on\nthe initial ordering of the input?",
+      "options": {
+        "A": "Insertion sort",
+        "B": "Quicksort",
+        "C": "Merge sort",
+        "D": "Selection sort"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merge sort consistently divides the input array into smaller subarrays and merges them in a sorted manner, resulting in a time complexity of O(n log n) regardless of the initial order of the elements, making its performance least affected by input arrangement compared to other algorithms.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1032"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_03_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A/an ___________ is a program that steals your logins & passwords for instant messaging\napplications.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "Trojan-Downloader",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM Trojans are specifically designed malware that infiltrate instant messaging applications to capture and transmit users' login credentials and passwords.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_03_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Escaping queries is an effective method to prevent SQL injection by ensuring user input is treated as data rather than executable code.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Escaping queries is true because it sanitizes user input by encoding potentially harmful characters, thereby preventing them from being executed as part of SQL commands, which effectively mitigates the risk of SQL injection attacks.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_03_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "A stack is a sequential segment of memory used for storing data such as character strings or arrays of integers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a stack is not a sequential segment of memory; rather, it is a data structure that follows the Last In, First Out (LIFO) principle for managing function calls and local variables, distinct from arrays or character strings.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1551"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_03_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Finding a shortest cycle in an undirected graph G is solvable in polynomial time.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Finding a shortest cycle in an undirected graph is solvable in polynomial time because it can be efficiently determined using algorithms such as breadth-first search (BFS) which explores all possible paths and identifies the shortest cycle.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1017"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_03_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "A packet filter firewall functions at the application or transport layer, inspecting application data for security threats.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A packet filter firewall operates at the network and transport layers, analyzing header information rather than inspecting application data for security threats.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1508"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_03_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The four primary security principles related to messages are Confidentiality, Integrity, Non-repudiation, and Authentication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Confidentiality, Integrity, Non-repudiation, and Authentication are fundamental principles that ensure secure communication and data protection in information security.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1567"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_03_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the nested list elements which are present in another list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def intersection_nested_lists(l1, l2): | return result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function intended to compute the intersection of elements from a nested list (l1) with another list (l2), signifying the need for an algorithm that identifies common elements between these two data structures.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "298"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_03_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the maximum difference between any two elements in a given\narray.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def max_Abs_Diff(arr,n): | return (maxEle - minEle)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the maximum difference between any two elements in an array can be determined by subtracting the minimum element from the maximum element, effectively capturing the largest possible gap between values in the dataset.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "145"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

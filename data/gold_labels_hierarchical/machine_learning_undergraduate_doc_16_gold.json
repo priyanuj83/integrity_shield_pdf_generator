@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_16",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are correct because ResNets are indeed feedforward neural networks that utilize skip connections for deeper architectures, while Transformers incorporate self-attention mechanisms to process input data, distinguishing their architectures.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is Forward stagewise selection because this method incrementally adds features to the model based on their contribution to reducing prediction error, which can result in a different final model compared to a complete linear regression on the identified subset due to the sequential nature of feature inclusion.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Both statements are false because ResNet originally implemented Batch Normalization, not Layer Normalization, and DCGANs do not utilize self-attention but rather rely on convolutional layers for stable training.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Stuart Russell is widely recognized for his influential work on the potential existential risks associated with artificial intelligence, particularly through his advocacy for AI alignment and safety, making him a leading figure in discussions surrounding these concerns.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The statement is incorrect because Naive Bayes assumes that attributes are conditionally independent of one another given the class value, which is a fundamental premise of the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14780
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The computational complexity of gradient descent is considered polynomial in the number of dimensions, D, because each iteration involves calculating the gradient, which requires O(D) operations, and the total number of iterations is typically bounded by a polynomial function of D.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6862
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "As the number of training examples approaches infinity, the model's variance decreases because it becomes better at capturing the underlying data distribution, leading to more stable and reliable predictions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The learning rate determines the step size at which the model updates its weights during training, significantly affecting the speed and stability of convergence in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The use of weak classifiers in bagging helps prevent overfitting by averaging the predictions of multiple models, which reduces variance and model complexity while retaining enough bias to capture the underlying patterns in the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "This statement is true because, according to Bayes' theorem, the conditional probability P(H|E, F) can be computed using the joint probability P(E, F), the prior probability P(H), and the likelihood P(E, F|H).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6893
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def sum_even_and_even_index(arr,n): | return sum",
+      "marks": 10,
+      "explanation": "correct because it outlines the structure of a Python function that, when properly implemented, will calculate the sum of even numbers located at even indices within an array, aligning with the specified requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 270
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_16_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def find_last_occurrence(A, x): | return result",
+      "marks": 10,
+      "explanation": "correct because it presents a function definition, indicating the implementation of a search algorithm that will identify the index of the last occurrence of a specified number in a sorted array, which is a common problem in algorithmic programming.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 316
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "physics_undergraduate_doc_21",
+  "document_name": "Physics - Undergraduate Level Assessment 21",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_21.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_21_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A satellite of mass m orbits a planet of mass M in a circular orbit of radius R. The time\nrequired for one revolution is",
+      "options": {
+        "A": "independent of M",
+        "B": "proportional to m^(1/2)",
+        "C": "linear in R",
+        "D": "proportional to R^(3/2)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on Kepler's Third Law of planetary motion, which states that the square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit, leading to the conclusion that the time for one revolution is proportional to R^(3/2).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1470"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_21_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The energy required to remove both electrons from the helium atom in its ground state is\n79.0 eV. How much energy is required to ionize helium (i.e., to remove one electron)?",
+      "options": {
+        "A": "24.6 eV",
+        "B": "39.5 eV",
+        "C": "51.8 eV",
+        "D": "54.4 eV"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 24.6 eV because the total energy required to remove both electrons from helium is the sum of the ionization energy of the first electron (24.6 eV) and the energy required to remove the second electron from the resulting He+ ion (54.4 eV), leading to the relationship 24.6 eV + 54.4 eV = 79.0 eV.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1436"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_21_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm,\nrespectively. Which of the following gives the resolving power of the spectrometer?",
+      "options": {
+        "A": "2",
+        "B": "250",
+        "C": "5,000",
+        "D": "10,000"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a grating spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, the minimum difference is 2 nm (502 nm - 500 nm), leading to a resolving power of 500 nm / 2 nm = 250.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_21_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The eigenvalues of a Hermitian operator are always",
+      "options": {
+        "A": "real",
+        "B": "imaginary",
+        "C": "degenerate",
+        "D": "linear"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The eigenvalues of a Hermitian operator are always real because Hermitian operators, which represent observable quantities in quantum mechanics, have the property that their eigenvalues correspond to measurable values, and the mathematical definition ensures that these eigenvalues are real numbers.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1421"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_21_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The negative muon, mu^-, has properties most similar to which of the following?",
+      "options": {
+        "A": "Electron",
+        "B": "Meson",
+        "C": "Photon",
+        "D": "Boson"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The negative muon (\u03bc^-) is a leptonic particle that shares similar charge and spin properties with the electron, making it the closest comparable particle in terms of behavior and characteristics despite being heavier than the electron.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1406"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_21_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Electromagnetic radiation emitted from a nucleus is most likely in the form of gamma rays.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Electromagnetic radiation emitted from a nucleus is most likely in the form of gamma rays because gamma rays are high-energy photons released during nuclear decay processes when the nucleus transitions from a higher energy state to a lower energy state.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1430"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_21_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "In metals, the conduction electrons form a degenerate Fermi gas, leading to a mean kinetic energy significantly higher than kT.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In metals, conduction electrons occupy energy states up to the Fermi level at absolute zero, resulting in a high mean kinetic energy that surpasses the thermal energy scale of kT at typical temperatures.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1444"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_21_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "A helium-neon laser is the most effective choice for spectroscopy over a range of visible wavelengths.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A helium-neon laser, while useful in some applications, is limited to specific wavelengths and does not cover the full range of visible wavelengths as effectively as other lasers, such as those based on solid-state or semiconductor technology, making it a less effective choice for spectroscopy.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1420"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_21_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The angular magnification of the refracting telescope is 6 when using an eye-piece lens with a focal length of 20 cm.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a refracting telescope is determined by the ratio of the focal lengths of the objective lens and the eyepiece, and with a focal length of only 20 cm for the eyepiece, the angular magnification cannot be 6 unless paired with a much longer focal length objective lens, which is not specified in the statement.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15623"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_21_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "An observer moving at 0.50 c parallel to a 1.00 m rod will measure its length as 0.80 m due to relativistic effects.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, according to the principles of length contraction in special relativity, an observer moving parallel to an object does not measure its length to be shorter; instead, the rod would appear to retain its proper length of 1.00 m.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1396"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_21_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "An airplane traveling at a constant speed of 100 m/s drops a payload. Analyze the motion\nof the payload 4.0 s after release, focusing on its velocity relative to the airplane.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Four seconds after the payload is dropped from the airplane traveling at a constant speed\nof 100 m/s, its motion can be analyzed by considering both its horizontal and vertical\ncomponents. The horizontal velocity of the payload remains the same as that of the\nairplane, which is 100 m/s, since it retains the horizontal motion imparted to it by the\nairplane. Vertically, the payload undergoes free fall due to gravity, accelerating\ndownwards at approximately 9.81 m/s^2. After 4 seconds, the vertical velocity of the\npayload can be calculated using the formula v = gt, where g is the acceleration due to\ngravity. Therefore, after 4 seconds, the vertical velocity is approximately 39.24 m/s,\nwhich we can round to 40 m/s down. Thus, the total velocity of the payload relative to the\nairplane, considering that the airplane continues to move horizontally at 100 m/s, is a\ndownward velocity of 40 m/s while maintaining a horizontal velocity of 100 m/s.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the motion of the payload as maintaining the airplane's horizontal velocity of 100 m/s while simultaneously experiencing downward acceleration due to gravity, resulting in a complex motion that includes both horizontal and vertical components.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1468"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_21_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of a reversible thermodynamic process, focusing on how it affects\nthe entropy of the system and its surroundings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A reversible thermodynamic process is characterized by its ability to return both the\nsystem and its surroundings to their initial states without any net change. In such a\nprocess, the entropy of the system and its environment remains unchanged, as there are no\nirreversibilities or dissipative effects that typically lead to increased entropy. This\nequilibrium condition implies that the process occurs in infinitesimally small steps,\nallowing the system to adjust smoothly to external conditions. Consequently, the total\nentropy change for both the system and its surroundings is zero, reinforcing the concept\nof reversibility in thermodynamics. This ideal scenario serves as a benchmark for real\nprocesses, which invariably involve some increase in entropy due to irreversibilities.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how a reversible thermodynamic process maintains constant entropy for both the system and surroundings due to the absence of irreversibilities, allowing for a return to initial states without net change.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1371"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

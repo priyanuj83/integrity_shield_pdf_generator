@@ -1,0 +1,295 @@
+{
+  "docid": "engineering_undergraduate_doc_15",
+  "document_name": "Engineering - Undergraduate Level Assessment 15",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_15.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "f(X) = [\\pi(1 + X^2)]^-1- \\infty < x < \\infty. If Y = X^2, what is the density function of\nY ?",
+      "options": {
+        "A": "h(y) = [2 / {\\pi(1 + \\sqrt{y})}] for y > 0 and = 0 otherwise",
+        "B": "h(y) = [2 / {\\pi\\surdy(1 + y)}]y > 0 and = 0 otherwise",
+        "C": "h(y) = [1 / {\\pi(1 + y^2)}] for y > 0 and = 0 otherwise",
+        "D": "h(y) = [1 / {2\\pi(1 + \\sqrt{y})}] for y > 0 and = 0 otherwise",
+        "E": "h(y) = [1 / {2\\pi(1 + y^2)}] for y > 0 and = 0 otherwise"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - h(y) = [2 / {\\pi(1 + \\sqrt{y})}] for y > 0 and = 0 otherwise",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12183"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the current through a 0.01 \\muF capacitor at t = 0 if the voltage across it is (a) 2\nsin 2\\pi 10^6 t V; (b) - 2 e^-(10)7 t V; (c) - 2 e-(10)7 tsin 2\\pi 10^6 t V.",
+      "options": {
+        "A": "0.1256 A, 0.2 A, 0.1256 A",
+        "B": "0.1256 A, 0.3 A, 0.1256 A",
+        "C": "0.2345 A, 0.1 A, - 0.4567 A",
+        "D": "0.2 A, 0.1 A, 0.2 A",
+        "E": "0 A, 0.1 A, 0 A"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 0.1256 A, 0.2 A, 0.1256 A",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11390"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A certain load to be driven at 1750 r/min requires a torque of 60 lb. ft. What horsepower\nwill be required to drive the load ?",
+      "options": {
+        "A": "15 hp",
+        "B": "20 hp",
+        "C": "10 hp",
+        "D": "35 hp",
+        "E": "5 hp"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 20 hp",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11309"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The moving coil-meters, damping is provided by",
+      "options": {
+        "A": "the resistance of the coil.",
+        "B": "the inertia of the coil.",
+        "C": "the coil spring attached to the moving.",
+        "D": "the electric charge in the coil.",
+        "E": "the magnetic field created by the coil."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - the resistance of the coil.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11435"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The current through a resistor of 2\\Omega is given by i(t) = cos^2\\pit. Find the energy\ndissipated in the resistor from t_0 = 0 to t_1 = 5 sec.",
+      "options": {
+        "A": "5.75 J",
+        "B": "7.50 J",
+        "C": "4.75 J",
+        "D": "1.25 J",
+        "E": "3.75 J"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - 3.75 J",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11325"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The radiation resistance of a single-turn circular loop with a circumference of (1/4) wavelength is 0.77 ohm.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11326"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "One liter-atmosphere of work is equivalent to 106.4 joules.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '101.3 joule'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Newton's Law of cooling for convective heat transfer is represented by the equation q = hA\u0394T.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12168"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A D-flip-flop is transparent when the output is triggered by the rising edge of the clock signal.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'the output follow input'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_15_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The electrostatic energy of a point charge q inside a conducting shell is zero due to shielding effects of the shell.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '{1 / (4\\pi\\epsilon_0)} (1/2) q^2 {(1 / r^2) - (1 / r_1)}'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12222"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_15_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the principles involved in introducing air through a nozzle into water to create\nbubbles of 2 mm diameter. Calculate the necessary pressure difference between the air at\nthe nozzle and the surrounding water, considering the surface tension of water given as \u03c3\n= 72.7 \\times 10^-3 N m^-1.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "143.4 N m^-1. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_15_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the function F(s) = (3 s + 1) / {(s - 1)(s^2 + 1)} and determine its inverse\nLaplace transform. Explain your reasoning and the steps taken in your analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "3 e^t + sin t - cos t. Explain why this is the correct answer and provide supporting\nevidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11416"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

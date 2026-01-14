@@ -1,0 +1,288 @@
+{
+  "docid": "geography_graduate_doc_02",
+  "document_name": "Geography - Graduate Level Assessment 2",
+  "domain": "geography",
+  "academic_level": "Graduate",
+  "subjects": [
+    "global_facts"
+  ],
+  "combination_used": [
+    "mmlu_pro_geography_mcq",
+    "mmlu_pro_geography_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 3,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\geography\\graduate\\latex_documents\\geography_graduate_doc_02.tex",
+    "pdf_file": "output\\geography\\graduate\\pdf_documents\\geography_graduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/geography_graduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/geography_graduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\geography\\graduate\\answer_keys\\latex\\geography_graduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\geography\\graduate\\answer_keys\\pdf\\geography_graduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "geography_graduate_doc_02_geography_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following countries generated the most total energy from solar sources in\n2019?",
+      "options": {
+        "A": "China",
+        "B": "United States",
+        "C": "Germany",
+        "D": "Japan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "China generated the most total energy from solar sources in 2019 due to its significant investment in solar technology, large-scale solar farm installations, and government policies promoting renewable energy.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2572"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "geography_graduate_doc_02_geography_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "As of 2017, what fraction of the population in India used the internet in the past three\nmonths?",
+      "options": {
+        "A": "11%",
+        "B": "26%",
+        "C": "41%",
+        "D": "56%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 26% reflects the significant but limited internet penetration in India as of 2017, highlighting challenges such as infrastructure, accessibility, and affordability that affected widespread internet use in the country.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2578"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "geography_graduate_doc_02_geography_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of people from Brazil says homosexuality should be\naccepted by society?",
+      "options": {
+        "A": "37%",
+        "B": "47%",
+        "C": "57%",
+        "D": "67%"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is supported by survey data indicating that approximately 67% of Brazilians in 2019 expressed acceptance of homosexuality, reflecting broader societal shifts towards LGBTQ+ rights in Brazil.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2594"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "geography_graduate_doc_02_geography_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "As of 2017, the share of global deaths by suicide is about",
+      "options": {
+        "A": "0.70%",
+        "B": "1.40%",
+        "C": "2.80%",
+        "D": "5.60%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 1.40% reflects the World Health Organization's data indicating that suicide accounts for approximately this percentage of total global deaths, highlighting its significant impact on public health and the need for effective prevention strategies.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2664"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "geography_graduate_doc_02_geography_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of people from Russia says homosexuality should be\naccepted by society?",
+      "options": {
+        "A": "14%",
+        "B": "24%",
+        "C": "34%",
+        "D": "44%"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 14% reflects the significant cultural and social attitudes in Russia towards homosexuality, where a majority of the population holds conservative views, resulting in low acceptance rates as of 2019.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2623"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "geography_graduate_doc_02_geography_squad_tf_1",
+      "question_type": "TF",
+      "stem_text": "In 1854 at Ballarat there was an armed rebellion against the government of Victoria by miners protesting against mining taxes (the \"Eureka Stockade\"). This was crushed by British troops, but the discontents prompted colonial authorities to reform the administration (particularly reducing the hated mining licence fees) and extend the franchise.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: mining licence fees",
+      "source": {
+        "dataset": "squad",
+        "source_id": "570d4c3bfed7b91900d45e34"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "geography_graduate_doc_02_geography_squad_tf_2",
+      "question_type": "TF",
+      "stem_text": "For example, mainland Chile observed DST from the second Saturday in October to the second Saturday in March, with transitions at 24:00 local time. The time difference between the United Kingdom and mainland Chile could therefore be five hours during the Northern summer, three hours during the Southern summer and four hours a few weeks per year because of mismatch of changing dates.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: five hours",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56e73fb737bdd419002c3dfc"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "geography_graduate_doc_02_geography_squad_tf_3",
+      "question_type": "TF",
+      "stem_text": "For the 2001 general election The Times declared its support for Tony Blair's a different answer government, which was re-elected by a landslide.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Labour",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57060ec552bb89140068982a"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "geography_graduate_doc_02_geography_squad_tf_4",
+      "question_type": "TF",
+      "stem_text": "Main Street Station, designed by Wilson, Harris, and Richards, has been returned to use in its original purpose. The Jefferson Hotel and the Commonwealth Club were both designed by the classically trained Beaux-Arts architects Carr\u00e8re and Hastings.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: Carr\u00e8re and Hastings",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57344c2b879d6814001ca4c5"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "geography_graduate_doc_02_geography_squad_tf_5",
+      "question_type": "TF",
+      "stem_text": "This led to G\u00f6ring and Jeschonnek agreeing to Hitler's Directive 23, Directions for operations against the British War Economy, which was published on 6 February 1941 and gave aerial interdiction of British imports by sea top priority. This strategy had been recognised before the war, but Operation Eagle Attack and the following Battle of Britain had got in the way of striking at Britain's sea communications and diverted German air strength to the campaign against the RAF and its supporting structures.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: Operation Eagle Attack and the following Battle of Britain",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5730425604bcaa1900d77427"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "geography_graduate_doc_02_geography_squad_long_1",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Research institutes linked to the third level colleges in the city support the research and innovation capacity of the city and region. Examples include the Tyndall National Institute (ICT hardware research), IMERC (Marine Energy), Environmental Research Institute, NIMBUS (Network Embedded Systems); and CREATE (Advanced Therapeutic Engineering). UCC and CIT also have start-up company incubation centres. In UCC, the IGNITE Graduate Business Innovation Centre aims to foster and support entrepreneurship. In CIT, The Rubicon Centre is a business innovation hub that is home to 57 knowledge based start-up companies. Question: Where is a good source of marine research in Cork?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "IMERC (Marine Energy)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: IMERC (Marine Energy)",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5727e8b02ca10214002d994b"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "geography_graduate_doc_02_geography_squad_long_2",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Between 1042 and 1052 King Edward the Confessor began rebuilding St Peter's Abbey to provide himself with a royal burial church. It was the first church in England built in the Romanesque style. The building was not completed until around 1090 but was consecrated on 28 December 1065, only a week before Edward's death on 5 January 1066. A week later he was buried in the church, and nine years later his wife Edith was buried alongside him. His successor, Harold II, was probably crowned in the abbey, although the first documented coronation is that of William the Conqueror later the same year. Question: When did King Edward the Confessor die?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "5 January 1066",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: 5 January 1066",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56e8d58c0b45c0140094cd04"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

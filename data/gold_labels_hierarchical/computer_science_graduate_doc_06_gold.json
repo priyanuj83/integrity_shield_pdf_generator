@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_06",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A proxy firewall operates at the application layer because it intercepts and analyzes the traffic between a client and server, allowing it to filter content based on application-specific protocols and data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1528
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Availability is not considered a classic security property like confidentiality and integrity, as it focuses on ensuring access to information rather than the protection of that information itself.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1570
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Authentication is a fundamental security process used to verify the identity of a user or system, rather than a security exploit, which typically involves malicious actions aimed at compromising security.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1485
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "In a complete K-ary tree of depth N, the total number of nodes is given by (K^(N+1) - 1) / (K - 1), while the number of nonterminal nodes, which are all internal nodes, is K^N - 1, leading to the ratio of nonterminal nodes to total nodes being approximately 1/K as N becomes large.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1019
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A buffer-overrun occurs when a program writes more data to a buffer than it can hold, leading to potential overwriting of adjacent memory, which can be exploited by attackers to gain unauthorized access or disrupt system functionality.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1476
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wireless security encompasses protocols, technologies, and practices designed to safeguard data integrity and prevent unauthorized access to devices connected through wireless networks.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1537
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Church's thesis, which posits that any effectively calculable function can be computed by a Turing machine, remains unprovable as it is a foundational assumption in computer science rather than a theorem that can be definitively proven or disproven with advancements in computational theory.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14151
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "WPA2 is not a recent protocol; it was established in 2004 as an enhancement to WPA and is widely used for securing wireless networks, rather than being a new feature that emerged in recent years.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1554
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The set of Boolean operators {AND, OR} is not complete because it lacks the ability to express negation, which is essential for representing all possible Boolean expressions.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1000
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A front-door typically refers to a legitimate access point in a system, but it may not always be fully traceable or compliant with security protocols, as vulnerabilities can exist even in authorized access methods.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1517
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def alternate_elements(list1): | return result",
+      "marks": 10,
+      "explanation": "correct because it outlines the essential function structure needed to generate a new list containing alternate elements from the provided list, indicating an understanding of list manipulation and function definition in programming.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 718
+    },
+    {
+      "question_id": "computer_science_graduate_doc_06_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def sort_mixed_list(mixed_list): | return int_part + str_part",
+      "marks": 10,
+      "explanation": "The answer correctly outlines a function that separates integers and strings from a mixed list and returns them concatenated, demonstrating an understanding of data types and list manipulation in programming.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 37
+    }
+  ]
+}

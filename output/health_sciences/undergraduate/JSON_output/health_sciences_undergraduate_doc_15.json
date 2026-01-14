@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_15",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 15",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_15.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Where are arenaviruses predominately located in the world?",
+      "options": {
+        "A": "SE Asia",
+        "B": "Russia",
+        "C": "Africa and S. America",
+        "D": "N. America"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Arenaviruses are predominantly found in Southeast Asia due to the region's ecological conditions and the presence of specific rodent hosts that facilitate the transmission of these viruses to humans.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13796"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "BMI is regarded as a better measure of health than weight by itself because BMI is based\non weight and",
+      "options": {
+        "A": "Height",
+        "B": "Bone structure",
+        "C": "Immune Function",
+        "D": "Diet and exercise"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "BMI is considered a better measure of health than weight alone because it incorporates height, allowing for a more accurate assessment of body composition relative to an individual's stature, which helps differentiate between fat mass and lean mass.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6286"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The dementia that results from a long-term deficiency of thiamine is one type of ____\ndementia",
+      "options": {
+        "A": "Alzheimer's",
+        "B": "Korsakoff's",
+        "C": "Creutzfeldt-Jakob",
+        "D": "Lewy body"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Korsakoff's dementia is specifically linked to chronic thiamine (vitamin B1) deficiency, commonly associated with alcohol misuse, leading to memory disturbances and cognitive impairments.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Castration in adulthood",
+      "options": {
+        "A": "will produce a high voice because of decreased testosterone production.",
+        "B": "will produce a high voice because of the pain that accompanies the procedure.",
+        "C": "will not produce a high voice because the larynx has already grown.",
+        "D": "will not produce a high voice because castration does not affect testosterone production."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Castration in adulthood will not produce a high voice because by that stage, the larynx has already fully developed and matured, resulting in a deeper voice that cannot be altered by hormonal changes.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6373"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The presence of two or more cell lines from different zygotes in a single individual is\nknown as:",
+      "options": {
+        "A": "mosaicism.",
+        "B": "diploidy.",
+        "C": "aneuploidy.",
+        "D": "chimaerism."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Chimaerism refers to the condition in which an individual possesses two or more genetically distinct cell lines derived from different zygotes, resulting from the fusion of multiple embryos during early development.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7372"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Sexual intercourse is not a common form of homosexual activity during preadolescence.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sexual intercourse typically involves physical maturity and consent, which are not common characteristics of preadolescents, making it an uncommon form of homosexual activity during this developmental stage.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "15741"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Ebbinghaus was known for his longitudinal study on memory retrieval difficulties as people age.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ebbinghaus is primarily known for his research on memory and forgetting using experimental methods, particularly his studies on nonsense syllables, rather than conducting a longitudinal study on memory retrieval difficulties as people age.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6311"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Patients with pernicious anemia are treated with injections of vitamin B-12 to address their deficiency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Patients with pernicious anemia have an inability to absorb vitamin B-12 due to a lack of intrinsic factor, which is why they are treated with injections of vitamin B-12 to bypass the gastrointestinal absorption issue and correct the deficiency.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "222"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Recombination during meiosis occurs in Prophase I, where homologous chromosomes exchange genetic material.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Recombination during meiosis occurs in Prophase I because this is the stage where homologous chromosomes pair up and exchange segments of genetic material through a process known as crossing over, leading to genetic diversity in gametes.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7340"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Psychological definitions of sexual behavior do not classify individuals based on their specific sexual preferences or behaviors.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Psychological definitions of sexual behavior often take into account specific sexual preferences and behaviors, categorizing individuals based on their sexual orientations, identities, and practices.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6334"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the mechanisms by which the papilloma family of viruses can lead to cancer,\nfocusing on the integration of their genomes into host cellular DNA.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The papilloma family of viruses, particularly human papillomavirus (HPV), can lead to\ncancer through the integration of their viral genomes into the host cellular DNA. This\nintegration disrupts normal cellular functions and can activate oncogenes or inactivate\ntumor suppressor genes. For instance, the viral oncoproteins E 6 and E 7 interfere with\nthe host's p 53 and Rb tumor suppressor pathways, which are critical for regulating the\ncell cycle and preventing uncontrolled cell proliferation. As a result, the infected cells\nmay undergo malignant transformation, ultimately leading to the development of cancers\nsuch as cervical cancer. Thus, the ability of papillomaviruses to integrate their genetic\nmaterial into the host genome is a key mechanism by which they promote oncogenesis.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the integration of HPV genomes into host DNA disrupts cellular regulation by inactivating tumor suppressor genes like p53 and Rb, leading to uncontrolled cell proliferation and cancer development.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "13735"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_15_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the various health implications of cocaine abuse during pregnancy, including\neffects on maternal health, fetal development, and potential long-term outcomes for the\nchild.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Cocaine abuse during pregnancy has significant health implications that affect maternal\nhealth, fetal development, and the potential long-term outcomes for the child. Maternal\nuse of cocaine can lead to increased risks of complications such as placental abruption,\npreterm labor, and maternal cardiovascular issues. For the fetus, exposure to cocaine can\nresult in developmental problems, low birth weight, and neurobehavioral issues, as the\ndrug can interfere with essential brain development. Long-term outcomes for children\nexposed to cocaine in utero may include cognitive deficits, behavioral problems, and an\nincreased risk of substance abuse later in life. Overall, the ramifications of cocaine\nabuse during pregnancy underscore the critical need for targeted interventions and support\nfor affected mothers.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it comprehensively addresses the multifaceted health risks associated with cocaine abuse during pregnancy, detailing its adverse effects on maternal health, fetal development, and the potential for long-term developmental issues in children.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6318"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "document_id": "physics_undergraduate_doc_09",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The quantum efficiency of 0.1 means that, on average, 10 out of 100 photons will be detected, and the statistical variation in detection follows a Poisson distribution, resulting in an rms deviation of about 3.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1402
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is B because n-type semiconductors in germanium require dopants that have more valence electrons than germanium, typically from group V elements, and the ion in option B does not fulfill this criterion.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1394
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is based on Kepler's Third Law of planetary motion, which states that the square of the orbital period of a satellite is directly proportional to the cube of the semi-major axis of its orbit, leading to the conclusion that the time required for one revolution is proportional to R^(3/2).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1470
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 3 kT because, in three-dimensional harmonic oscillators, each degree of freedom contributes an average energy of 1/2 kT, resulting in a total energy of 3/2 kT for the kinetic energy and 3/2 kT for the potential energy, summing to 3 kT.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1403
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The electric displacement current is defined by Maxwell's equations as being proportional to the time rate of change of electric flux through a surface, which accounts for the displacement of electric field lines in regions where the electric field is varying with time.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1438
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because with a quantum efficiency of 0.1, detecting an average of 10 photons implies that on average 100 photons are incident on the detector, leading to a Poisson distribution where the rms deviation is the square root of the average detected photons, which is approximately 3.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1369
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Electromagnetic radiation from a nucleus is typically emitted as gamma rays rather than visible light, as nuclear transitions often involve higher energy levels.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1430
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, according to the theory of special relativity, an observer moving at a significant fraction of the speed of light relative to an object will measure that object's length to be contracted, and the given values satisfy the length contraction formula, confirming the observer's speed of 0.60 c results in a measured length of 0.80 m for the 1.00 m rod.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1435
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the electric displacement current is defined by Maxwell's equations as being proportional to the rate of change of electric flux through a surface, reflecting how changing electric fields generate displacement currents in the absence of conduction currents.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1405
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The frequency of the second harmonic for open pipes is twice the fundamental frequency, and since 262 Hz is not twice the fundamental frequency (which would be 131 Hz), the statement is false.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1431
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_long_1",
+      "type": "long",
+      "correct_answer": "Ionizing a helium atom involves removing its two electrons, which requires a total energy\nof 24.6 eV. The first electron can be removed with approximately 24.6 eV of energy, but\nthe removal of the second electron necessitates additional energy because the remaining\nelectron experiences a greater effective nuclear charge. This is due to the fact that once\nthe first electron is removed, the nuclear attraction on the second electron increases,\nthus requiring more energy to overcome this increased attraction. Therefore, while the\nfirst ionization energy is significant, the second ionization energy is even higher due to\nthese energy dynamics within the atom. The relationship between the total energy required\nto remove both electrons and the individual energies highlights the complexities involved\nin multi-electron systems.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the ionization energy of a helium atom increases for the second electron due to the increased effective nuclear charge experienced by the remaining electron after the first is removed.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1436
+    },
+    {
+      "question_id": "physics_undergraduate_doc_09_physics_long_2",
+      "type": "long",
+      "correct_answer": "In the given scenario, a tube of water moves at a speed of 1/2 c relative to a lab frame,\nand a light beam enters it in the same direction. To calculate the speed of light in the\nwater relative to the lab frame, we first need to consider the index of refraction of\nwater, which is approximately 1.33. The speed of light in water, c/water, is thus c/1.33.\nHowever, when the water itself is moving, we must apply the relativistic velocity addition\nformula. Using this, the speed of light in the lab frame can be calculated as (c/water +\nv)/(1 + (v/c)*(c/water/c)), which simplifies to approximately 10/11 c. Therefore, the\nspeed of light in the water relative to the lab frame is about 10/11 c, illustrating the\neffects of both the medium's index of refraction and the relativistic motion of the medium\nitself.",
+      "marks": 10,
+      "explanation": "The answer correctly applies the relativistic velocity addition formula to determine the speed of light in the moving water by first calculating the speed of light in water and then adjusting for the water's motion relative to the lab frame, taking into account the index of refraction.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1417
+    }
+  ]
+}

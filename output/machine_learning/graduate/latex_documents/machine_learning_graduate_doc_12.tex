@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Graduate Level Assessment 12 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Consider the Bayesian network given below. How many independent parameters are needed for this Bayesian Network H -\textgreater{} U \textless{}- P \textless{}- W?
+\begin{enumerate}[label=(\alph*)]
+    \item 2
+    \item 4
+    \item 8
+    \item 16
+\end{enumerate}
+\item Predicting the amount of rainfall in a region based on various cues is a \_\_\_\_\_\_ problem.
+\begin{enumerate}[label=(\alph*)]
+    \item Supervised learning
+    \item Unsupervised learning
+    \item Clustering
+    \item None of the above
+\end{enumerate}
+\item For polynomial regression, which one of these structural assumptions is the one that most affects the trade-off between underfitting and overfitting:
+\begin{enumerate}[label=(\alph*)]
+    \item The polynomial degree
+    \item Whether we learn the weights by matrix inversion or gradient descent
+    \item The assumed variance of the Gaussian noise
+    \item The use of a constant-term unit input
+\end{enumerate}
+\item As the number of training examples goes to infinity, your model trained on that data will have:
+\begin{enumerate}[label=(\alph*)]
+    \item Lower variance
+    \item Higher variance
+    \item Same variance
+    \item None of the above
+\end{enumerate}
+\item Which among the following prevents overfitting when we perform bagging?
+\begin{enumerate}[label=(\alph*)]
+    \item The use of sampling with replacement as the sampling technique
+    \item The use of weak classifiers
+    \item The use of classification algorithms which are not prone to overfitting
+    \item The practice of validation performed on every classifier trained
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Grid search runs reasonably slow for multiple linear regression due to its exhaustive nature in hyperparameter tuning.
+\item True or False: Principal Component Analysis (PCA) is an unsupervised learning technique used for dimensionality reduction.
+\item True or False: As of 2020, several models achieve over 98\% accuracy on the CIFAR-10 dataset.
+\item True or False: The models obtained from best-subset selection and forward stepwise selection will always yield the same results in linear regression.
+\item True or False: Residual connections are integral components of both ResNets and Transformers, enhancing their training and performance.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Discuss the modifications needed in the EM algorithm to transition from finding maximum likelihood estimates to maximum a posteriori estimates, focusing on the maximization step.
+\item Discuss the implications of applying regularization in linear regression, focusing on how certain penalties can lead to zeroed-out coefficients and their impact on model performance.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

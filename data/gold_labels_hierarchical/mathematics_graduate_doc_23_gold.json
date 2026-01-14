@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_23",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "To solve for g(6), we first determine f(2x) = x + 5, which implies f(2g(6)) = g(6) + 5; since f(g(6)) = 13, we set g(6) + 5 = 13, leading to g(6) = 8, and therefore 2 * g(6) = 16.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 9018
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "E",
+      "marks": 2,
+      "explanation": "Conducting the survey at the entrance to the mall captures a diverse range of shoppers as they enter, ensuring that the sample reflects the overall demographic of the mall's visitors rather than a biased subset.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8465
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 60.0 because the Trapezoidal rule approximates the area under the curve by calculating the average of the function values at the endpoints of each subinterval and multiplying by the width of the intervals, leading to an area calculation of 60.0 when applying this method over the specified intervals from x=0 to x=8 with n=4.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7972
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 13 inches because rounding each monthly rainfall amount (8.1 inches to 8 inches, 4.2 inches to 4 inches, and 0.33 inches to 0 inches) yields a total of 12 inches, and when rounding the sum of the exact figures (12.63 inches) to the nearest whole number, it results in 13 inches.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8256
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 3.5 because the area bounded by the curves \\( y = \\cos x \\) and \\( y = \\cos^2 x \\) from \\( x = 0 \\) to \\( x = \\pi \\) is calculated by integrating the difference \\( \\cos x - \\cos^2 x \\) over that interval, which yields a total area of 3.5.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8631
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the area of the region where x is less than y in the unit square formed by [0, 3] for x and [0, 4] for y is 4/7 of the total area of the rectangle, which is 3 * 4 = 12.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8043
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because as \\( r \\) approaches infinity, the integrals in the limit are dominated by the behavior of the integrands near \\( x = \\frac{\\pi}{2} \\), leading to a specific ratio that evaluates to approximately 0.54321.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8299
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the product of the roots of a quartic equation is determined by the coefficients of the equation, and without specific information about those coefficients, one cannot conclude that the product of two roots equals -32 for k equal to 72.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7763
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the total number of ways to choose 4 balls with at least 2 red requires a detailed combinatorial calculation that likely exceeds the claimed total of 10, depending on the number of red and non-red balls available.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8086
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The smallest positive integer that has 16, 15, and 12 as factors is actually 240, not 120, because the least common multiple of these numbers, which determines the smallest integer divisible by all of them, is 240.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8586
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "We begin by factoring $336$. $336 = 2^4 \\cdot 3 \\cdot 7.$ Because we are looking for phone\nnumbers, we want four single digits that will multiply to equal $336.$ Notice that $7$\ncannot be multiplied by anything, because $7 \\cdot 2$ is $14,$ which is already two\ndigits. So, one of our digits is necessarily $7.$ The factor $3$ can be multiplied by at\nmost $2,$ and the highest power of $2$ that we can have is $2^3 = 8.$ Using these\nobservations, it is fairly simple to come up with the following list of groups of digits\nwhose product is $336:$ \\begin{align*} &1, 6, 7, 8\\\\ &2, 4, 6, 7\\\\ &2, 3, 7, 8 \\\\ &3, 4,\n4, 7 \\end{align*}For the first three groups, there are $4! = 24$ possible rearrangements\nof the digits. For the last group, $4$ is repeated twice, so we must divide by $2$ to\navoid overcounting, so there are $\\frac{4!}{2} = 12$ possible rearrangements of the\ndigits. Thus, there are $3 \\cdot 24 + 12 = \\boxed{84}$ possible phone numbers that can be\nconstructed to have this property.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to factor the three-digit prefix 336 into four single-digit factors, recognizing the constraints imposed by the digits' multiplicative properties, particularly that 7 must be included and the remaining factors must be composed of the remaining prime factors of 336 while adhering to the single-digit limitation.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 8943
+    },
+    {
+      "question_id": "mathematics_graduate_doc_23_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Since $\\angle ABP=90^{\\circ}$, $\\triangle ABP$ is a right-angled triangle. By the\nPythagorean Theorem, $$BP^2=AP^2-AB^2=20^2-16^2=144$$ and so $BP=12$, since $BP>0$. Since\n$\\angle QTP=90^{\\circ}$, $\\triangle QTP$ is a right-angled triangle with $PT=12$. Since\n$PT=BP=12$, then by the Pythagorean Theorem, $$QT^2=QP^2-PT^2=15^2-12^2 = 81$$ and so\n$QT=9$, since $QT>0$. Our final answer is then $\\boxed{12,9}$.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the Pythagorean Theorem to the right triangles formed in the rectangle, allowing for the correct calculation of the lengths \\(BP\\) and \\(QT\\) based on the given dimensions and relationships between the points.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 16854
+    }
+  ]
+}

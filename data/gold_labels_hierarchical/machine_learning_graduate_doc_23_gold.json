@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_23",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are accurate as the Stanford Sentiment Treebank specifically focuses on movie reviews for sentiment analysis, while the Penn Treebank has been widely utilized in various natural language processing tasks, including language modeling.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Adding more basis functions in a linear model allows the model to capture more complex patterns in the data, thereby reducing model bias by improving its ability to fit the training data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6880
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are correct; Word2Vec uses a different approach for parameter initialization than a Restricted Boltzmann Machine, and the tanh function is indeed a nonlinear activation function commonly used in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6899
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Neural networks can incorporate a variety of activation functions across different layers to enhance learning and model complexity, allowing for greater flexibility and better performance in capturing nonlinear relationships in data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Forward stage-wise selection\" because this method builds the model incrementally by adding features one at a time based on their contribution to model performance, which can lead to a different final model compared to one obtained from a complete regression analysis on the selected subset.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Linear hard-margin SVM seeks to find a hyperplane that perfectly separates the classes without allowing for any misclassification, which is only feasible when the training data is linearly separable.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Pruning a Decision Tree reduces its complexity by removing branches that have little importance, which helps prevent overfitting to the training data and enhances the model's ability to generalize to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Transforming the data to a zero median does not account for the variance captured in the data, which is essential for obtaining the same projection in PCA as in SVD, since PCA also requires the data to be centered and scaled to preserve the relationships between variables.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Residual connections help mitigate the vanishing gradient problem by allowing gradients to flow more easily through the network during training, thereby facilitating the training of deeper architectures like ResNets and Transformers.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6892
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "K-fold cross-validation exhibits linear complexity with respect to the number of folds, K, because the model is trained K times on different subsets of the data rather than exhibiting a quadratic relationship.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6906
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The fundamental differences between Bayesian and frequentist approaches in machine\nlearning primarily revolve around the treatment of uncertainty and the role of prior\ndistributions in probabilistic modeling. In the Bayesian framework, prior distributions\nencapsulate the beliefs or knowledge about model parameters before observing any data,\nallowing for the incorporation of previous information into the analysis. This contrasts\nwith the frequentist approach, which relies solely on the observed data to make\ninferences, treating parameters as fixed but unknown quantities. Consequently, Bayesian\nmethods produce a posterior distribution that combines prior beliefs with the likelihood\nof the observed data, enabling a more flexible and nuanced understanding of uncertainty.\nThis incorporation of prior distributions is particularly advantageous in scenarios with\nlimited data or when existing knowledge is critical for guiding model training and\npredictions.",
+      "marks": 10,
+      "explanation": "correct because it clearly distinguishes the Bayesian approach, which incorporates prior distributions to reflect existing beliefs about parameters, from the frequentist approach, which focuses only on data without integrating prior knowledge.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_23_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "To calculate P(H|E, F) without any conditional independence information, three key\ncomponents are necessary: P(E, F), P(H), and P(E, F|H). P(E, F) represents the joint\nprobability of events E and F occurring, providing the denominator in Bayes' theorem. P(H)\nis the prior probability of hypothesis H, serving as a baseline against which the evidence\nis weighed. Lastly, P(E, F|H) captures the likelihood of observing events E and F given\nthat hypothesis H is true, which is crucial for determining how strongly the evidence\nsupports the hypothesis. Together, these components allow us to apply Bayes' theorem\neffectively, enabling a comprehensive assessment of the posterior probability P(H|E, F).",
+      "marks": 10,
+      "explanation": "correct because it identifies the essential components of Bayes' theorem\u2014joint probability P(E, F), prior probability P(H), and likelihood P(E, F|H)\u2014which are necessary for calculating the posterior probability P(H|E, F) without relying on conditional independence assumptions.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6893
+    }
+  ]
+}

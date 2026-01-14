@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_graduate_doc_23",
+  "document_name": "Computer Science - Graduate Level Assessment 23",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_23.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_23.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_23_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_23_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_23_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_23_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_23_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Man in the middle attack can endanger the security of Diffie Hellman method if two parties\nare not",
+      "options": {
+        "A": "Joined",
+        "B": "Authenticated",
+        "C": "Submitted",
+        "D": "Shared"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correctness of the answer lies in the fact that without authentication, a man-in-the-middle attacker can intercept and manipulate the key exchange process in the Diffie-Hellman method, allowing them to impersonate one or both parties and compromise the security of the communication.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_23_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a security exploit?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Cross-site scripting",
+        "C": "Authentication",
+        "D": "SQL Injection"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is a fundamental security mechanism used to verify the identity of users, rather than a security exploit, which typically refers to methods or actions that compromise security.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1485"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_23_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Encapsulating Security Payload (ESP) belongs to which Internet Security Protocol?",
+      "options": {
+        "A": "Secure Socket Layer Protocol",
+        "B": "Secure IP Protocol",
+        "C": "Secure Http Protocol",
+        "D": "Transport Layer Security Protocol"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Encapsulating Security Payload (ESP) is a component of the Internet Protocol Security (IPsec) suite, which is designed to provide secure communication over IP networks, thus categorizing it under the Secure IP Protocol.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_23_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following pairs of 8-bit, two's-complement numbers will result in overflow\nwhen the members of the pairs are added?",
+      "options": {
+        "A": "11111111, 00000001",
+        "B": "00000001, 10000000",
+        "C": "11111111, 10000001",
+        "D": "10000001, 10101010"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The pair of 8-bit, two's-complement numbers 10000001 (which is -127 in decimal) and 10101010 (which is -86 in decimal) results in an overflow during addition because both are negative, and their sum (-213) exceeds the representable range of two's-complement for 8 bits, which is -128 to 127.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1068"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_23_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In the Internet Protocol (IP) suite of protocols, which of the following best describes\nthe purpose of the Address Resolution Protocol?",
+      "options": {
+        "A": "To translate Web addresses to host names",
+        "B": "To determine the IP address of a given host name",
+        "C": "To determine the hardware address of a given host name",
+        "D": "To determine the hardware address of a given IP address"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Address Resolution Protocol (ARP) is essential for mapping an IP address to a physical hardware address (MAC address) on a local network, enabling proper communication between devices.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1058"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_23_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Blackbox fuzzers are effective in covering every line of code in a program without needing knowledge of its internal structure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Blackbox fuzzers are limited by their inability to understand the internal logic and structure of the program, making it difficult for them to achieve comprehensive code coverage as they may miss certain execution paths or edge cases that require knowledge of the program's design.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_23_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Weak or non-existent authentication mechanisms are not issues typically associated with the presentation layer of a system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Weak or non-existent authentication mechanisms are primarily concerns associated with the application and transport layers, where user identity and data integrity are managed, rather than the presentation layer, which focuses on data formatting and presentation techniques.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_23_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Wireless access refers to the methods used to connect devices to a network without the need for wires, ensuring complete security.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because while wireless access allows devices to connect to a network without wires, it does not inherently ensure complete security, as wireless networks can be vulnerable to various security threats and breaches.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_23_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Every cipher can achieve perfect secrecy if the pseudorandom generator is sufficiently secure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because perfect secrecy is fundamentally unattainable for all ciphers, as it requires that the ciphertext provides no information about the plaintext, which can only be achieved under specific conditions, such as using a one-time pad with a truly random key of equal length to the message.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1559"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_23_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "A buffer overflow occurs when a program rejects requests due to a filled buffer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, leading to memory corruption, rather than rejecting requests due to a filled buffer.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1506"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_23_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether the given month number contains 28 days or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_monthnum_number(monthnum1): | return True | return False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that is intended to check if a given month number corresponds to February, which contains 28 days, but it lacks the necessary logic to evaluate the month number and return the appropriate boolean value.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "820"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_23_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to get the word with most number of occurrences in the given strings\nlist.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def most_occurrences(test_list): | return (str(res))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly outlines the intention to define a function that will analyze a list of strings to identify and return the word with the highest frequency of occurrence, although it lacks the necessary implementation details to achieve this goal.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "326"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

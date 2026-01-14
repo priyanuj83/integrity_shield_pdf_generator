@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 14 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 32; B) 56; C) 48; D) 64
+\\ \textit{Note:} The correct answer is 56 because in the Data Encryption Standard (DES), the key length is originally 64 bits, but 8 bits are used for parity checks, leaving an effective key length of 56 bits for encryption.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Dark web; D) Surface web
+\\ \textit{Note:} The dark web is a part of the Deep Web specifically designed to be hidden and requires special software, such as Tor, to access, making it inaccessible through standard web browsers.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Generational; B) Blackbox; C) Whitebox; D) Mutation-based
+\\ \textit{Note:} The whitebox fuzzer is more likely to explore paths covering every line of code because it has access to the program's internal structure and can utilize that information to systematically test all possible execution paths.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Private-key system; B) Shared-key system; C) Public-key system; D) All of them
+\\ \textit{Note:} A digital signature requires a public-key system because it relies on a pair of keys-one public and one private-allowing the signer to generate a unique signature that can be verified by anyone with access to the corresponding public key, thus ensuring authenticity and integrity of the message.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) IM - Trojans; B) Backdoor Trojans; C) Trojan-Downloader; D) Ransom Trojan
+\\ \textit{Note:} IM-Trojans are specifically designed to infiltrate instant messaging applications to capture and steal users' login credentials and passwords, making them the correct answer for the question.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Maltego is a tool designed for open-source intelligence and link analysis, enabling users to visualize relationships between data points rather than focusing on wireless traffic sniffing.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Secure communication can be achieved through various methods, including the use of secure transmission protocols and encryption at intermediate nodes, meaning that encryption and decryption do not necessarily need to occur solely at the sender's location.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Penetration testing involves simulating cyber attacks on a system to identify and assess security flaws and vulnerabilities, thereby providing a thorough evaluation of the system's security posture.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A hash function does not guarantee detection of message replacement because it is possible for an attacker to create a different message that produces the same hash value, known as a collision, thus evading detection.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Deep Web consists of online content that is not indexed by traditional search engines due to restrictions such as password protection, paywalls, or dynamic content, making it inaccessible through standard search queries.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def \_\_init\_\_(self, data): | def max\_height(node): | return 0 ; | return left\_height+1 | return right\_height+1
+\\ \textit{Note:} The provided answer correctly outlines a recursive approach to calculate the height of a binary tree by defining a function that returns 0 when a node is null and adds one to the maximum height of its left and right subtrees.
+\item \textbf{Answer:} def check\_distinct(test\_tup): | return (res)
+\\ \textit{Note:} The answer correctly identifies the need for a function that evaluates the uniqueness of elements within a tuple, which is essential for ensuring data integrity and preventing duplication in cybersecurity applications.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

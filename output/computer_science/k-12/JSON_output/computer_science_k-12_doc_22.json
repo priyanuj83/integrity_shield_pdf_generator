@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_k-12_doc_22",
+  "document_name": "Computer Science - K-12 Level Assessment 22",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_22.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_22_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_22_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following spreadsheet functions would be most useful for detecting improbably\nhigh or low values that have become part of a data set as a result of data entry errors?",
+      "options": {
+        "A": "A function that averages numeric values in a column or row",
+        "B": "A function that counts the values in a column or row",
+        "C": "A function that rounds a numeric value",
+        "D": "A function that sorts values in a column or row"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sorting values in a column or row allows users to easily identify outliers or anomalies in the data set, which are often indicative of data entry errors.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3221"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_22_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is max(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because the `max()` function in Python 3 returns the largest element from a list, and in the list l = [1, 2, 3, 4], the largest number is 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_22_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of 4*1**4 in python?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "256",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because in Python, the expression is evaluated as 4 multiplied by 1 raised to the power of 4, and since any number raised to the power of 0 is 1, the calculation simplifies to 4 * 1, which equals 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_22_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is the output of print list[1:3] if list = [ 'abcd', 786 , 2.23, 'john',\n70.2 ]?",
+      "options": {
+        "A": "[ 'abcd', 786 , 2.23, 'john', 70.2 ]",
+        "B": "abcd",
+        "C": "[786, 2.23]",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is [786, 2.23] because in Python, slicing a list with the notation list[start:end] retrieves the elements from index 'start' up to, but not including, index 'end', so list[1:3] returns the elements at indices 1 and 2.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_22_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The boolean expression a[i] == max || !(max != a[i]) can be simplified to",
+      "options": {
+        "A": "a[i] == max",
+        "B": "a[i] != max",
+        "C": "a[i] < max || a[i] > max",
+        "D": "FALSE"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression !(max != a[i]) is equivalent to saying that max is equal to a[i], thus simplifying the entire boolean expression to a[i] == max.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_22_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function random() sets the integer starting value used in generating random numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the function random() generates a random float between 0.0 and 1.0 but does not set or alter the integer starting value for generating random numbers, which is done using the seed() function instead.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_22_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python, the expression r(3) evaluates to 6 when r is defined as a lambda function that doubles its input.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the lambda function defined as r = lambda x: 2 * x will return 2 times the input value, so r(3) evaluates to 2 * 3, which equals 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_22_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Authentication is compromised when someone uses a stolen login and password to access a system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is compromised because the use of a stolen login and password allows unauthorized individuals to gain access to the system, bypassing the intended security measures.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_22_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the output of set([1,2,2,3,4]) is {1,2,3,4}, which removes duplicate values.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the `set` function creates a collection of unique elements, automatically removing any duplicate values from the input list, resulting in the output {1, 2, 3, 4}.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_22_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The condition a < b is sufficient to ensure that the expression evaluates to true.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the condition a < b alone does not account for other factors or contexts that might influence the truth value of the expression, such as data types or additional logical conditions that may be involved.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_22_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the square root of a perfect number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sqrt_root(num): | return sqrt_root",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly defines a function named `sqrt_root` that takes a numerical input, indicating an intent to find the square root of a perfect number, though it lacks the implementation detail for the actual calculation.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "518"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_22_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the median of two sorted arrays of same size.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_median(arr1, arr2, n): | return (m1 + m2)/2",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the process of calculating the median by averaging the two middle values (m1 and m2) of the combined sorted arrays, assuming that the function properly identifies those values based on the input arrays.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "622"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

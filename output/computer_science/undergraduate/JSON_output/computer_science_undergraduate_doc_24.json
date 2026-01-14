@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_undergraduate_doc_24",
+  "document_name": "Computer Science - Undergraduate Level Assessment 24",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_24.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which types of functions grow the slowest?",
+      "options": {
+        "A": "O(log e^N)",
+        "B": "O(log N)",
+        "C": "O(log log N)",
+        "D": "O(N)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function O(log log N) grows the slowest among common growth rates because it increases at a much slower rate than polynomial, exponential, or even logarithmic functions, making it highly efficient for large input sizes.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following decimal numbers has an exact representation in binary notation?",
+      "options": {
+        "A": "0.1",
+        "B": "0.2",
+        "C": "0.3",
+        "D": "0.5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The decimal number 0.5 has an exact representation in binary notation as 0.1, since it is a power of two (specifically 1/2), which can be expressed without any repeating digits in the binary system.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1042"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following operator in python performs exponential (power)\ncalculation on operands?",
+      "options": {
+        "A": "**",
+        "B": "//",
+        "C": "is",
+        "D": "not in"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The operator \"**\" in Python 3 is specifically designed to perform exponential calculations, raising the left operand to the power of the right operand.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A large Java program was tested extensively, and no errors were found. What can be\nconcluded?",
+      "options": {
+        "A": "All of the preconditions in the program are correct.",
+        "B": "All of the postconditions in the program are correct.",
+        "C": "The program may have bugs.",
+        "D": "Every method in the program may safely be used in other programs."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is supported by the fact that extensive testing can reduce but not completely eliminate the possibility of bugs, as it is impossible to test every possible input and execution path in a large program.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following comes closest to being a perfectly secure encryption scheme?",
+      "options": {
+        "A": "The Caesar Cipher, a substitution cipher",
+        "B": "DES (Data Encryption Standard), a symmetric-key algorithm",
+        "C": "Enigma, a transposition cipher",
+        "D": "One-time pad"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The one-time pad is considered a perfectly secure encryption scheme because it uses a random key that is as long as the message, is used only once, and provides complete uncertainty about the plaintext when the ciphertext is intercepted.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1016"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Merge sort has average-case and worst-case running times of O(n log n), making it efficient for large data sets.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merge sort consistently divides the data set in half and sorts each half recursively, leading to a logarithmic depth of recursion and a linear number of comparisons at each level, resulting in an overall time complexity of O(n log n) for both average and worst-case scenarios, which is efficient for handling large data sets.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression 'abc'[-1] results in an error due to out-of-bounds indexing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because in Python 3, negative indexing allows access to elements from the end of a string, so 'abc'[-1] correctly returns the last character 'c' without causing an error.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3247"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The regular expression a*(c + d) + b(c + d) describes the same set of strings as (a* + b)*(c + d).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the first regular expression allows strings that can end with any number of 'a's followed by either 'c' or 'd', while the second expression requires that after any combination of 'a's and 'b's, the strings must end with 'c' or 'd', which alters the possible combinations of strings generated.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "15608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The value of the Python expression 1 + 3 % 3 is 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 3 % 3 evaluates to 0, so 1 + 3 % 3 equals 1 + 0, which is 1, not 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Local caching of files in distributed file systems guarantees that all machines always have the same view of a file.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Local caching of files can lead to inconsistencies because changes made to a file on one machine may not be immediately reflected on other machines due to the lack of synchronization mechanisms in place.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1085"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether the roots of a quadratic equation are numerically\nequal but opposite in sign or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def Check_Solution(a,b,c): | return (\"Yes\") | return (\"No\")",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is incorrect as it fails to implement the necessary logic to calculate the discriminant of the quadratic equation, which is crucial for determining if the roots are numerically equal but opposite in sign.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "840"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_24_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether a list contains the given sublist or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_sublist(l, s): | return sub_set",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the function is intended to determine if the list 's' exists as a contiguous sequence within the list 'l', which is a fundamental operation in list processing.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "69"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

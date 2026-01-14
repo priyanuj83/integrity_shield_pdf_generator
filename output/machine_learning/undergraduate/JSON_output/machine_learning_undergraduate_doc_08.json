@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_undergraduate_doc_08",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 8",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_08.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The number of test examples needed to get statistically significant results should be _",
+      "options": {
+        "A": "Larger if the error rate is larger.",
+        "B": "Larger if the error rate is smaller.",
+        "C": "Smaller if the error rate is smaller.",
+        "D": "It does not matter."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A larger number of test examples is needed to achieve statistically significant results when the error rate is smaller because a lower error rate results in less variability in the results, requiring more data to confidently detect true differences or effects.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14785"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Suppose your model is overfitting. Which of the following is NOT a valid way to try and\nreduce the overfitting?",
+      "options": {
+        "A": "Increase the amount of training data.",
+        "B": "Improve the optimisation algorithm being used for error minimisation.",
+        "C": "Decrease the model complexity.",
+        "D": "Reduce the noise in the training data."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Improving the optimization algorithm may enhance convergence speed or efficiency but does not address the model complexity or capacity issues that typically cause overfitting, making it an ineffective solution for reducing overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which image data augmentation is most common for natural images?",
+      "options": {
+        "A": "random crop and horizontal flip",
+        "B": "random crop and vertical flip",
+        "C": "posterization",
+        "D": "dithering"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Random crop and horizontal flip are common image data augmentation techniques for natural images because they effectively increase the diversity of training data by introducing variability in scale and orientation, which helps improve the robustness and generalization of machine learning models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "15759"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "For polynomial regression, which one of these structural assumptions is the one that most\naffects the trade-off between underfitting and overfitting:",
+      "options": {
+        "A": "The polynomial degree",
+        "B": "Whether we learn the weights by matrix inversion or gradient descent",
+        "C": "The assumed variance of the Gaussian noise",
+        "D": "The use of a constant-term unit input"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial degree directly influences the model's complexity, with a lower degree leading to underfitting and a higher degree increasing the risk of overfitting, thus affecting the balance between the two.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The disadvantage of Grid search is",
+      "options": {
+        "A": "It can not be applied to non-differentiable functions.",
+        "B": "It can not be applied to non-continuous functions.",
+        "C": "It is hard to implement.",
+        "D": "It runs reasonably slow for multiple linear regression."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that Grid search evaluates every combination of hyperparameters systematically, leading to slower performance, especially in complex models like multiple linear regression that may have numerous parameters to tune.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The joint probability distribution P(X, Y, Z) can be expressed as P(Y) * P(X|Y) * P(Z|Y) in the given Bayes net.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, in a Bayesian network, the joint probability distribution can be factored according to the conditional independence relationships represented in the network, allowing P(X, Y, Z) to be expressed as P(Y) * P(X|Y) * P(Z|Y).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Hidden Markov models are primarily used for classifying images rather than modeling sequences like English sentences.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hidden Markov models are primarily used for modeling sequences and temporal data, such as time series or language processing, rather than for classifying static images.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6924"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Word 2 Vec parameters are typically not initialized using a Restricted Boltzmann Machine.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Word2Vec is primarily trained using a predictive model based on neural networks, while Restricted Boltzmann Machines are used for different types of unsupervised learning and do not align with the initialization needs of Word2Vec parameters.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The original ResNets were primarily trained using the SGD optimizer for all experiments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The original ResNets were primarily trained using the Adam optimizer, not just SGD, which makes the statement false.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6854"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Adding more basis functions in a linear model decreases variance, leading to a more stable model across different datasets.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adding more basis functions in a linear model actually increases the model's complexity, which can lead to overfitting and higher variance, making it less stable across different datasets.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6880"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the first repeated word in a given string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def first_repeated_word(str1): | return word; | return 'None'",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines a function structure that aims to identify and return the first repeated word in a string, although it lacks the complete implementation necessary for functionality.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_08_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to count those characters which have vowels as their neighbors in the\ngiven string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_vowels(test_str): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to define a function that processes a string to count characters with vowels as neighbors, indicating an understanding of string manipulation and conditional logic necessary for solving the problem.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "776"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

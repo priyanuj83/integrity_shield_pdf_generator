@@ -1,0 +1,290 @@
+{
+  "docid": "chemistry_undergraduate_doc_05",
+  "document_name": "Chemistry - Undergraduate Level Assessment 5",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_05.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "When the Heisenberg uncertainty principle is applied to a quantum mechanical particle in\nthe lowest energy level of a one-dimensional box, which of the following is true?",
+      "options": {
+        "A": "Momentum is known exactly, but no information about position can be known.",
+        "B": "Position is known exactly, but no information about momentum can be known.",
+        "C": "No information about either position or momentum can be known.",
+        "D": "Neither position nor momentum can be known exactly."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Heisenberg uncertainty principle states that the more precisely the position of a particle is known, the less precisely its momentum can be known, and vice versa, which applies to a quantum particle in a one-dimensional box, indicating that neither property can be determined exactly.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "961"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements most accurately explains why the 1 H spectrum of 12 CHCl\n3 is a singlet?",
+      "options": {
+        "A": "Both 35 Cl and 37 Cl have I = 0.",
+        "B": "The hydrogen atom undergoes rapid intermolecular exchange.",
+        "C": "The molecule is not rigid.",
+        "D": "Both 35 Cl and 37 Cl have electric quadrupole moments."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The presence of electric quadrupole moments in both isotopes of chlorine (35Cl and 37Cl) leads to a lack of nuclear spin coupling with the hydrogen atoms in CHCl3, resulting in the observed singlet in the 1H NMR spectrum.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "917"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following statements is true:",
+      "options": {
+        "A": "Protons and neutrons have orbital and spin angular momentum.",
+        "B": "Protons have orbital and spin angular momentum, neutrons have spin angular momentum.",
+        "C": "Protons and neutrons possess orbital angular momentum only.",
+        "D": "Protons and neutrons possess spin angular momentum only."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Protons and neutrons possess intrinsic spin, which contributes to their overall angular momentum, while electrons are responsible for orbital angular momentum due to their movement in atomic orbitals.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is classified as a conjugate acid-base pair?",
+      "options": {
+        "A": "HCl / NaOH",
+        "B": "H 3 O+ / H 2 O",
+        "C": "O 2 / H 2 O",
+        "D": "H+ / Cl-"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "H3O+ and H2O are classified as a conjugate acid-base pair because H3O+ is the protonated form (conjugate acid) of H2O, which can donate a proton to become H3O+.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "975"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements about the lanthanide elements is NOT true?",
+      "options": {
+        "A": "The most common oxidation state for the lanthanide elements is +3.",
+        "B": "Lanthanide complexes often have high coordination numbers (> 6).",
+        "C": "All of the lanthanide elements react with aqueous acid to liberate hydrogen.",
+        "D": "The atomic radii of the lanthanide elements increase across the period from La to Lu."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is incorrect because the atomic radii of the lanthanide elements actually decrease across the period from lanthanum (La) to lutetium (Lu) due to the increasing effective nuclear charge, which pulls the electrons closer to the nucleus.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15603"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "CH 3 F shows a 1 H NMR resonance at a similar frequency as CH 3 Cl when measured in a 12.0 T magnetic field.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because CH3F and CH3Cl have different electronegativities and molecular environments, leading to distinct chemical shifts in their 1H NMR spectra despite being measured in the same magnetic field.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "956"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The magnetic field responsible for the polarization of 2.5 x 10^-6 for 13 C at 298 K is 100 T.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the polarization of a material is not directly determined by a magnetic field strength of 100 T at standard conditions, as typical magnetic fields in these contexts are much lower, and the provided polarization value is not consistent with the expected behavior of materials under such extreme magnetic conditions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Unpaired electrons are essential for both paramagnetism and ferromagnetism in materials.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unpaired electrons in materials create a net magnetic moment that contributes to paramagnetism and can align in parallel to produce ferromagnetism, making their presence essential for both phenomena.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "903"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "Lead is often deemed a safe substance in aquatic environments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lead is toxic to aquatic organisms and can accumulate in the food chain, leading to harmful effects on both ecosystems and human health, which makes it unsafe in aquatic environments.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "Ammonia, NH 3, is the strongest base in liquid ammonia.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ammonia, NH3, is not the strongest base in liquid ammonia because stronger bases, such as alkali metal amides, can exist in this solvent and can deprotonate NH3 more effectively.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "938"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of the orbital angular momentum quantum number, l, in determining\nthe electron that is most easily removed from ground-state aluminum during ionization.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The orbital angular momentum quantum number, l, plays a crucial role in determining the\nease of electron removal during the ionization of an atom, such as aluminum. In aluminum,\nwhich has the electron configuration [Ne]3 s^23 p\u00b9, the outermost electron resides in the\n3 p orbital, characterized by l = 1. Electrons in higher l orbitals (like p or d)\ngenerally have higher energy and are less tightly bound compared to those in lower l\norbitals (like s). Therefore, during ionization, the electron in the 3 p orbital is the\nmost easily removed due to its higher energy state and the influence of its angular\nmomentum, which results in increased shielding and reduced effective nuclear charge\nexperienced by that electron. This understanding of the significance of l highlights how\nthe shape and energy of electron orbitals directly affect ionization processes in atoms.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the orbital angular momentum quantum number, l, indicates the shape and energy of the electron's orbital, with higher l values corresponding to higher energy and less tightly bound electrons, making the 3p electron in aluminum the most easily removed during ionization.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "946"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_05_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that contribute to the difference in first ionization energy between\nargon and neon, and explain why argon's first ionization energy is lower.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The difference in first ionization energy between argon and neon primarily arises from\ntheir atomic structure and electron configuration. Neon, with its atomic number of 10, has\na complete outer shell of eight electrons (1 s^2 2 s^2 2 p\u2076), resulting in a strong\neffective nuclear charge that holds the electrons tightly, thereby requiring more energy\nto remove one. In contrast, argon, with an atomic number of 18, has a similar electron\nconfiguration but is larger in size, leading to increased electron shielding and a lower\neffective nuclear charge experienced by its outermost electrons. This reduced attraction\nbetween the nucleus and the outer electrons in argon means that less energy is needed to\nremove an electron, resulting in a lower first ionization energy compared to neon.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that neon's complete outer electron shell and smaller atomic radius result in a higher effective nuclear charge, making it more difficult to remove an electron compared to argon, which, despite having a similar electron configuration, has a larger atomic size that reduces the effective nuclear charge felt by its outer electrons.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "984"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

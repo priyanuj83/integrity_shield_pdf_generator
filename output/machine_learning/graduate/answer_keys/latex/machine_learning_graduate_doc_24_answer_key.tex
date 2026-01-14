@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 24 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Nando de Frietas; B) Yann LeCun; C) Stuart Russell; D) Jitendra Malik
+\\ \textit{Note:} Stuart Russell is a leading figure in AI safety and ethics, known for his work on existential risks associated with artificial intelligence, which directly aligns with the question regarding the prominent academic associated with this issue.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(A | B) * P(B | C) * P(C | A); B) P(C | A, B) * P(A) * P(B); C) P(A, B | C) * P(C); D) P(A | B, C) * P(B | A, C) * P(C | A, B)
+\\ \textit{Note:} The correct answer is based on the chain rule of probability, which states that the joint probability of multiple events can be expressed as the product of the conditional probability of one event given another and the marginal probability of the remaining event.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are correct; Word 2 Vec uses a different approach for parameter initialization than a Restricted Boltzmann Machine, and the tanh function is indeed a nonlinear activation function commonly used in neural networks.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 2; B) 4; C) 8; D) 16
+\\ \textit{Note:} The correct answer is 8 because the Bayesian network has four variables (H, U, P, and W) where H is a parent of U, P is a parent of U and W, and each node requires a number of parameters equal to the number of its parents plus one for its own probabilities, resulting in a total of 8 independent parameters.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The null space of matrix A, which has rank 1 due to the rows being linearly dependent, has a dimensionality of 2, as the dimension of the null space is given by the formula: nullity = number of columns - rank.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The original ResNet architecture utilizes residual connections and convolutional layers rather than self-attention mechanisms, which are characteristic of Transformer models.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Predicting the amount of rainfall in a region is an example of supervised learning because it involves using labeled data (historical rainfall measurements) to train a model to make predictions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because it applies the chain rule of probability, which allows the joint probability of multiple variables to be expressed as the product of the marginal probability of one variable and the conditional probabilities of the others given the preceding variables in the sequence.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} While random crop and vertical flip are popular data augmentation techniques, they are not the most widely used methods, as techniques like rotation, horizontal flipping, and color jittering often prove to be more effective for enhancing the diversity and robustness of natural image datasets.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Increasing the amount of training data is effective in reducing overfitting because it provides the model with a more diverse set of examples, which helps it generalize better to unseen data rather than memorizing the training set.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def removezero\_ip(ip): | return string
+\\ \textit{Note:} correct because it defines a function named `removezero\_ip` that is intended to process an IP address by returning a modified string that excludes leading zeroes, which is a common requirement for standardizing IP address formats.
+\item \textbf{Answer:} def remove\_elements(list 1, list 2): | return result
+\\ \textit{Note:} correct because it outlines a function that aims to filter out elements from the first list that are found in the second list, which is a common operation in data manipulation relevant to machine learning tasks.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

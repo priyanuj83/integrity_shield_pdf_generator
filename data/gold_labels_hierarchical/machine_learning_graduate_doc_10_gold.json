@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_10",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The computational complexity of gradient descent is polynomial in D, where D represents the dimensionality of the data, because each iteration of the algorithm involves calculations that scale linearly with the number of dimensions, resulting in a polynomial time complexity overall when considering the number of iterations needed for convergence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6862
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer highlights that Grid search systematically evaluates all combinations of hyperparameters, which can significantly increase computation time, especially in complex models like multiple linear regression that require extensive processing for each parameter set.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6868
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The BLEU metric indeed relies on precision to evaluate the quality of generated text compared to reference texts, while the ROUGE metric focuses on recall to assess the overlap of n-grams in generated summaries, and Hidden Markov Models have been widely utilized in natural language processing to model the probabilistic structures of English sentences.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6924
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 15 because, in a Bayesian network with four nodes (H, U, P, W), each node has a conditional probability table that requires a number of parameters equal to the product of the number of states for each parent node, leading to a total of 15 independent parameters when no independence assumptions are made.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6881
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of methods that are designed to group data points based on their spatial proximity, making all listed options valid examples within this category.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Lasso regression incorporates an L1 regularization term that penalizes the absolute size of the coefficients, effectively driving some of them to zero and thus facilitating feature selection by excluding less important predictors from the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because best-subset selection may identify an optimal set of features, but the final model may differ due to factors such as regularization, cross-validation, or the inclusion of additional criteria that impact model selection beyond just the feature set.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The null space of the matrix A has a dimensionality of 2 because the rank of A is 1, leading to a nullity (dimension of the null space) of 3 - rank = 3 - 1 = 2, according to the Rank-Nullity Theorem.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, in a Bayesian network, the joint probability distribution can be factored into the product of the prior distribution of the parent variable and the conditional distributions of the child variables given their parents, which in this case is represented by P(Y) * P(X|Y) * P(Z|Y).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14787
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Both ResNets and Transformers incorporate feedforward neural networks as fundamental components in their architecture, enabling them to process input data through layers of neurons in a structured manner.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def count_Char(str,x): | return count",
+      "marks": 10,
+      "explanation": "The provided answer is correct because it outlines a Python function named `count_Char` that is designed to iterate through a given string to count the occurrences of a specified character, which aligns with the task of counting character occurrences in a repeated string.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 684
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def dif_Square(n): | return True | return False",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that a number can be expressed as the difference of two squares if it is either odd or a multiple of 4, and the function should return True for such numbers and False otherwise.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 72
+    }
+  ]
+}

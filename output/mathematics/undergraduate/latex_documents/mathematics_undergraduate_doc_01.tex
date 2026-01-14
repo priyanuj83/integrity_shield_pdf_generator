@@ -1,6 +1,11 @@
 \documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
 \usepackage{enumitem}
 \usepackage{geometry}
+\usepackage{graphicx}
 \usepackage{amsmath, amssymb}
 \geometry{margin=1in}
 \begin{document}
@@ -12,63 +17,60 @@ Answer all questions.
 
 \section*{Multiple Choice (10 marks)}
 \begin{enumerate}[label=\arabic*.]
-\item Susan reads a book at a rate of 1 page every 3 minutes. If her reading rate remains the same, which method could be used to determine the number of minutes...
+\item Determine whether the polynomial in Z[x] satisfies an Eisenstein criterion for irreducibility over Q. $x^2$ - 12
 \begin{enumerate}[label=(\alph*)]
-    \item add 18 and 3
-    \item subtract 18 from 3, then multiply by 3
-    \item divide 18 by 3
-    \item add 18 and 3, then divide by 3
-    \item subtract 3 from 18
+    \item Yes, with p=2.
+    \item Yes, with p=3.
+    \item Yes, with p=5.
+    \item No.
 \end{enumerate}
-\item A function f(x) is given by f(0)=3, f(2)=7, f(4)=11, f(6)=9, f(8)=3. Approximate the area under the curve y=f(x) between x=0 and x=8 using Trapezoidal rule...
+\item Statement 1 | Every nonzero free abelian group has an infinite number of bases. Statement 2 | Every free abelian group of rank at least 2 has an infinite number of bases.
 \begin{enumerate}[label=(\alph*)]
-    \item 85.0
-    \item 60.0
-    \item 65.0
-    \item 45.0
-    \item 55.0
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
 \end{enumerate}
-\item Compute \$\textbackslash\{\}dbinom\{85\}\{82\}\$.
+\item Suppose A, B, and C are statements such that C is true if exactly one of A and B is true. If C is false, which of the following statements must be true?
 \begin{enumerate}[label=(\alph*)]
-    \item 102560
-    \item 252
-    \item 101170
-    \item 100890
-    \item 88440
+    \item If A is true, then B is false.
+    \item If A is false, then B is false.
+    \item If A is false, then B is true.
+    \item Both A and B are true.
 \end{enumerate}
-\item Which of these vowels does NOT have a vertical axis of symmetry?
+\item Let f(x) be a function whose graph passes through the origin. If f(2 n) = $n^2$ + f[2(n - 1)] for every integer n, what is the value of f(8)?
 \begin{enumerate}[label=(\alph*)]
-    \item U
-    \item E
-    \item Y
-    \item V
-    \item X
+    \item 24
+    \item 30
+    \item 32
+    \item 36
 \end{enumerate}
-\item In a game two players take turns tossing a fair coin; the winner is the first one to toss a head. The probability that the player who makes the first toss...
+\item Find the characteristic of the ring Z x Z.
 \begin{enumerate}[label=(\alph*)]
-    \item 1/3
-    \item 1/2
-    \item 3/4
-    \item 1/5
-    \item 1/4
+    \item 0
+    \item 3
+    \item 12
+    \item 30
 \end{enumerate}
 \end{enumerate}
 
 \section*{True / False (10 marks)}
-\textit{Answer True or False and justify briefly.}
+\textit{Answer True or False}
 \begin{enumerate}[label=\arabic*.]
-\item True or False: The correct answer to 'suppose F(x,y,z)=0. What is \$\textbackslash\{\}frac\{\textbackslash\{\}partial x\}\{\textbackslash\{\}partial y\} \textbackslash\{\}frac\{\textbackslash\{\}partial y\}\{\textbackslash\{\}partial z\} \textbackslash\{\}frac\{\textbackslash\{\}partial z\}\{\textbackslash\{\}partial x\}\$?' is '1.5'.
-\item True or False: The correct answer to 'Toss a coin repeatedly until two consecutive heads appear. Assume that the probability of the coin landing on heads is 3/7. Calculate the...' is '9.99999'.
-\item True or False: The correct answer to 'All of the following statements are true for all discrete random variables except for which one?' is 'The sum of all probabilities for all possible outcomes is always 1.'.
-\item True or False: The correct answer to 'Find the sum of all positive integers less than 196 and relatively prime to 98.' is '8232'.
-\item True or False: The correct answer to 'For the regression line, which of the following statements about residuals is true?' is 'The sum of the residuals is always one.'.
+\setcounter{enumi}{5}
+\item True or False: The sum of the determinants of matrix A and matrix B is equal to -1.
+\item True or False: The polynomial f(x) = $x^3$ + 5 $x^2$ + 4 x + 1 can have complex roots 2 + i and 1 - i, as it is of sufficient degree.
+\item True or False: The solution of the differential equation gives f(2) as 1/e.
+\item True or False: The polynomial $x^3$ + 2 $x^2$ + 2 x + 1 can be factored into linear factors as (x - 1)(x - 4)(x - 2) in Z\_7[x].
+\item True or False: If f(z) is an analytic function mapping the complex plane to the real axis, the imaginary axis is mapped to the entire real axis.
 \end{enumerate}
 
 \section*{Long Form Response (20 marks)}
-\textit{Provide thorough reasoning and reference key steps.}
+\textit{Answer each question with a clear and complete explanation.}
 \begin{enumerate}[label=\arabic*.]
-\item Statement 1 | Every field is also a ring. Statement 2 | Every ring has a multiplicative identity.
-\item Coloring the edges of a complete graph with n vertices in 2 colors (red and blue), what is the smallest n that guarantees there is either a triangle in red or a 6-clique in blue?
+\setcounter{enumi}{10}
+\item Abigail, Beatrice, and Carson combine their eggs to sell them at the market. If Abigail has 37 eggs, Beatrice has 49 eggs, and Carson has 14 eggs, and if eggs can only be sold in cartons of 12, how many eggs will be left over if all cartons are sold?
+\item Given a finite set X, where the number of subsets containing exactly 3 elements exceeds those containing exactly 2 elements by 14, determine how many subsets of X contain exactly 4 elements. Justify your reasoning.
 \end{enumerate}
 
 \vfill

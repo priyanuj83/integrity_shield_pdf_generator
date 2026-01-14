@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 7 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Dark web; D) Surface web
+\\ \textit{Note:} The dark web is a specific part of the deep web that requires special software, such as Tor, to access, making it intentionally hidden and inaccessible through standard web browsers.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Mishandling of undefined, poorly defined variables; B) The Vulnerability that allows "fingerprinting" \& other enumeration of host information; C) Overloading of transport-layer mechanisms; D) Unauthorized network access
+\\ \textit{Note:} Unauthorized network access is not a transport layer vulnerability because it pertains to security issues related to authentication and permissions rather than the specific functions and protocols of the transport layer, which primarily focuses on data transmission and error recovery.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It is used to call procedures with addresses that are farther than $2^16$ bytes away.; B) It cannot return a value.; C) It cannot pass parameters by reference.; D) It cannot call procedures implemented in a different language.
+\\ \textit{Note:} A remote procedure call (RPC) operates over a network, which typically requires that parameters be serialized for transmission, making it impossible to pass them by reference as it would not allow the called procedure to directly modify the caller's local variables.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) n; B) n + 1; C) n + 2; D) 2 n
+\\ \textit{Note:} The maximum possible degree of the minimal-degree interpolating polynomial p(x) for n + 1 distinct real numbers is n, as a polynomial of degree n can uniquely interpolate any set of n + 1 points in the plane.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Condition codes set by every instruction; B) Variable-length encoding of instructions; C) Instructions requiring widely varying numbers of cycles to execute; D) Several different classes (sets) of registers
+\\ \textit{Note:} The presence of several different classes of registers can actually enhance instruction-level parallelism and reduce hazards, thereby facilitating more aggressive pipelining rather than obstructing it.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A ping sweep is primarily used to discover active hosts on a network by sending ICMP echo requests, not specifically to locate firewalls.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Public key encryption enables secure communication by using a pair of keys-one public and one private-allowing parties to encrypt messages with the recipient's public key without needing to exchange a secret key beforehand.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The language \{ww | w in (0 + 1)*\} is context-sensitive and requires the ability to maintain an arbitrary count of symbols, which is beyond the capabilities of a pushdown automaton that can only manage a single stack, while a Turing machine can utilize its tape to track and compare the two halves of the input.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A hash function produces a fixed-size digest from variable-length input data, which serves as a Modification Detection Code (MDC) by allowing verification of data integrity through comparison of the generated hash with a previously computed value.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because phishing attacks primarily involve deceiving individuals into revealing sensitive information or downloading malicious software, rather than manipulating memory directly on the victim's machine.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def harmonic\_sum(n): | return 1 | return 1 / n + (harmonic\_sum(n - 1))
+\\ \textit{Note:} The provided function uses recursion to compute the harmonic sum of n-1 by summing the reciprocal of each integer from 1 to n-1, thereby correctly implementing the definition of the harmonic sum.
+\item \textbf{Answer:} def factorial(start,end): | return res | def sum\_of\_square(n): | return int(factorial(n + 1, 2 * n) /factorial(1, n))
+\\ \textit{Note:} The provided answer correctly defines a function to compute the sum of squares of binomial coefficients by utilizing the relationship between factorials and binomial coefficients, specifically leveraging the formula for the sum of squares through factorial computations.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

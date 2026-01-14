@@ -1,0 +1,289 @@
+{
+  "docid": "mathematics_k-12_doc_15",
+  "document_name": "Mathematics - K-12 Level Assessment 15",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_15.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_15_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_15_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is least likely to reduce bias in a sample survey?",
+      "options": {
+        "A": "Following up with those who did not respond to the survey the first time",
+        "B": "Asking questions in a neutral manner to avoid influencing the responses",
+        "C": "Using stratified random sampling rather than simple random sampling",
+        "D": "Selecting samples randomly"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Using stratified random sampling involves dividing the population into distinct subgroups and sampling from each, which can introduce its own biases compared to simple random sampling, making this method least likely to reduce overall bias in a sample survey.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5454"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_15_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "How many years are there in a decade?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A decade is defined as a period of ten years, making 10 the correct answer.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2126"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_15_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The domain of the function $h(x) = \\sqrt{25-x^2}+\\sqrt{-(x-2)}$ is an interval of what\nwidth?",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "2",
+        "D": "25"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The domain of the function is determined by the conditions that the expressions under the square roots must be non-negative, leading to the inequalities \\(25 - x^2 \\geq 0\\) (which gives the interval \\([-5, 5]\\)) and \\(-(x - 2) \\geq 0\\) (which gives the interval \\([-\\infty, 2]\\), but since the first condition restricts \\(x\\) to \\([-5, 5]\\), the overlapping domain is \\([-5, 2]\\), resulting in a width of \\(7\\) units.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4275"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_15_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Members of the Hiking Club hiked for 2.4 hours covering 2.5 miles each hour. How far did\nthe members hike",
+      "options": {
+        "A": "4.9 miles",
+        "B": "5.8 miles",
+        "C": "6.0 miles",
+        "D": "6.3 miles"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6.0 miles because the total distance hiked can be calculated by multiplying the time spent hiking (2.4 hours) by the speed (2.5 miles per hour), resulting in 2.4 hours \u00d7 2.5 miles/hour = 6.0 miles.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2259"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_15_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "John has five children. What is the probability that at least half of them are girls? (We\ncan assume a boy is equally likely to be born as is a girl, and vice-versa.)",
+      "options": {
+        "A": "\\frac{1}{2}",
+        "B": "\\frac{1}{4}",
+        "C": "\\frac{1}{8}",
+        "D": "\\frac{3}{5}"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The probability that at least half of John's five children are girls is \\(\\frac{1}{2}\\) because, with equal likelihood of having a boy or a girl for each child, the outcomes of having three, four, or five girls balance out the outcomes of having two, one, or zero girls, resulting in equal probabilities for both scenarios.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4446"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_15_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Dividing 942 by 3 gives a result of 214.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Dividing 942 by 3 actually gives 314, not 214, making the statement false.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2332"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_15_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The sum of the center coordinates and radius of the circle C is -9.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if the center coordinates of the circle are (-5, -4) and the radius is 6, then the sum of the x-coordinate, y-coordinate, and radius is -5 + (-4) + 6 = -3, which does not equal -9; however, if the coordinates were (-6, -3) with the same radius, then the sum would be -6 + (-3) + 6 = -3, confirming the statement's validity under certain conditions.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4262"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_15_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The cost of a 6-lb bag of cat food at $0.47 per pound is $2.82.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total cost of a 6-lb bag of cat food at $0.47 per pound is calculated by multiplying 6 by 0.47, which equals $2.82.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2141"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_15_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The equation 36 - y = 13 represents the same relationship as 36 less than a number y being equal to 13.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The equation 36 - y = 13 implies that 36 is being reduced by the value of y, while \"36 less than a number y\" suggests that y itself is being decreased by 36, leading to a different mathematical relationship.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2421"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_15_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "It takes the machine 30 minutes to fill 500 bottles of soda at the same rate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if the machine fills 500 bottles of soda in 30 minutes, it indicates a consistent rate of filling, confirming the time required for that quantity.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2175"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_15_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Henry's Hamburger Heaven offers its hamburgers with the following condiments: ketchup,\nmustard, mayonnaise, tomato, lettuce, pickles, cheese, and onions. A customer can choose\none, two, or three meat patties, and any collection of condiments. How many different\nkinds of hamburgers can be ordered?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The phrase \"3 fewer than a number, p\" can be expressed mathematically as p - 3. This\nexpression is formed by taking the variable p, which represents the unknown number, and\nsubtracting 3 from it. The term \"fewer than\" indicates a decrease, which is why we use\nsubtraction. Therefore, p - 3 accurately captures the idea of reducing the value of p by\n3. This expression is essential for solving equations or problems that involve the\ncomparison of quantities.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately translates the phrase \"3 fewer than a number, p\" into the mathematical expression p - 3, using subtraction to reflect the concept of decreasing the value of p by 3.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2102"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_15_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Explain how you would express the phrase \"3 fewer than a number, p\" in mathematical terms.\nDiscuss the reasoning behind your expression and its components.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The phrase \"3 fewer than a number, p\" can be expressed mathematically as p - 3. This\nexpression is formed by taking the variable p, which represents the unknown number, and\nsubtracting 3 from it. The term \"fewer than\" indicates a decrease, which is why we use\nsubtraction. Therefore, p - 3 accurately captures the idea of reducing the value of p by\n3. This expression is essential for solving equations or problems that involve the\ncomparison of quantities.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately translates the phrase \"3 fewer than a number, p\" into the mathematical expression p - 3, using subtraction to reflect the concept of decreasing the value of p by 3.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2102"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_undergraduate_doc_22",
+  "document_name": "Computer Science - Undergraduate Level Assessment 22",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_22.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is",
+      "options": {
+        "A": "53",
+        "B": "29",
+        "C": "50",
+        "D": "100"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 100 because evaluating the recursive function f(4) involves calculating f(3), f(2), and f(1) based on the defined conditions, leading to the final computation of f(4) = 4 * (f(3) + 4) = 100 after performing the necessary recursive calculations.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Local caching of files is common in distributed file systems, but it has the disadvantage\nthat",
+      "options": {
+        "A": "Temporary inconsistencies among views of a file by different machines can result",
+        "B": "The file system is likely to be corrupted when a computer crashes",
+        "C": "A much higher amount of network traffic results",
+        "D": "Caching makes file migration impossible"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that local caching can lead to temporary inconsistencies because when multiple machines cache a file, they may not immediately reflect updates made by others, resulting in different views of the same file at the same time.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1085"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which is the smallest asymptotically?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(1) represents constant time complexity, meaning it does not grow with the size of the input, making it the smallest asymptotic notation compared to other complexities that increase with input size.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following language features requires that stack-based storage allocation be\nused rather than static allocation?",
+      "options": {
+        "A": "Recursive procedures",
+        "B": "Arbitrary goto's",
+        "C": "Two-dimensional arrays",
+        "D": "Integer-valued functions"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Recursive procedures require stack-based storage allocation because each recursive call needs its own separate instance of local variables and return addresses, which the stack can dynamically manage as calls are made and unwound.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1059"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A 3-way, set-associative cache is",
+      "options": {
+        "A": "one in which each main memory word can be stored at any of 3 cache locations",
+        "B": "effective only if 3 or fewer processes are running alternately on the processor",
+        "C": "possible only with write-back",
+        "D": "faster to access than a direct-mapped cache"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A 3-way set-associative cache allows each main memory word to be stored in any of three different cache locations within the same set, providing greater flexibility and efficiency in data retrieval compared to direct-mapped caches.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1091"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The function f(N) has an upper bound of O(N log N), which is larger than necessary for the solution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because an upper bound of O(N log N) indicates that the function grows at a rate that is at least N log N, which may not necessarily be larger than the actual growth rate of the function if it is, for example, linear or sub-linear.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1080"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "A device driver is assigned to a device when it connects to the Internet.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A device driver is not assigned when a device connects to the Internet; instead, it is a software component that allows the operating system to communicate with hardware devices and is typically installed prior to the device being used.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3268"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function max([1,2,3,4]) returns the value 1 as it identifies the smallest element in the list.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the max() function in Python 3 returns the largest element in the list, which in this case is 4, not the smallest element.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Bitmap graphics can represent curves and angles, not all line segments are displayed as straight.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bitmap graphics are composed of individual pixels, which can only approximate curves and angles, resulting in certain line segments appearing jagged or not entirely straight due to the grid-like arrangement of pixels.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1025"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression ['a', 'Chemistry', 0, 1][1] evaluates to 'Chemistry'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because in Python, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is indeed 'Chemistry'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether the given string is made up of two alternating\ncharacters or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_Two_Alter(s): | return False | return False | return True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it provides a function that checks if the input string consists solely of two distinct characters that alternate, returning True if they do and False otherwise, although the implementation is incomplete and lacks the necessary logic to correctly evaluate the string.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to move all the numbers in it to the given string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def move_num(test_str): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines the beginning of a function that aims to manipulate a string by moving all numerical characters within it, although it lacks the complete implementation details necessary for full functionality.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "619"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

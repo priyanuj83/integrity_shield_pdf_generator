@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_02",
+  "document_name": "Computer Science - K-12 Level Assessment 2",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_02.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_02_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is the following function returns item from the list with max value?",
+      "options": {
+        "A": "cmp(list)",
+        "B": "len(list)",
+        "C": "max(list)",
+        "D": "min(list)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function max(list) returns the item from the given list that has the highest value, making it the correct answer for identifying the maximum value in a list in Python 3.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3233"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following has the greatest potential for compromising a user's personal\nprivacy?",
+      "options": {
+        "A": "A group of cookies stored by the user's Web browser",
+        "B": "The Internet Protocol (IP) address of the user's computer",
+        "C": "The user's e-mail address",
+        "D": "The user's public key used for encryption"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A group of cookies stored by the user's Web browser can track and store personal information about the user's online behavior, preferences, and activities, making them a significant threat to personal privacy.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3267"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which pillar of cybersecurity is compromised when someone logs into a system using a\nstolen login and password?",
+      "options": {
+        "A": "Authentication",
+        "B": "Confidentiality",
+        "C": "Integrity",
+        "D": "Nonrepudiation"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is authentication because it refers to the process of verifying the identity of a user, and using a stolen login and password bypasses this essential security measure.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is min(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because the `min()` function in Python returns the smallest element from a list, and in the list l = [1, 2, 3, 4], the smallest value is 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 1 + 3 % 3?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression evaluates to 1 because the modulo operator (%) returns the remainder of 3 divided by 3, which is 0, and then adding 1 results in 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "O(N^(1/4)) grows slower than O(N^(1/N)) for large values of N.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because as N approaches infinity, O(N^(1/N)) approaches 1, while O(N^(1/4)) continues to grow without bound, indicating that O(N^(1/4)) actually grows faster than O(N^(1/N)).",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14392"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "O(1) is the smallest asymptotic notation, indicating constant time complexity regardless of input size.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(1) represents algorithms that have a constant time complexity, meaning their execution time does not change with varying input sizes, making it the smallest asymptotic notation.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "A large Java program that has been tested may still contain hidden bugs despite no errors being found during testing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Even a thoroughly tested Java program can contain hidden bugs because testing cannot cover every possible input and execution path, leaving some bugs undetected.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "A denial-of-service (DoS) attack always targets just one computer at a time, unlike a DDoS attack.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A denial-of-service (DoS) attack can target multiple computers by overwhelming a single system or network, while a distributed denial-of-service (DDoS) attack specifically involves multiple systems attacking a single target simultaneously.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3266"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The output of the statement 'a' + 'ab' in Python 3 is 'aab'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the '+' operator concatenates strings, so 'a' + 'ab' combines the two strings to produce 'aab'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3203"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_02_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Explain how you would implement the nextIntInRange method to ensure it returns a random\ninteger between two specified values, low and high, inclusive. Discuss your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To implement the nextIntInRange method, I would use the formula `(int) (Math.random() *\n(high - low + 1)) + low`. This approach ensures that the method generates a random integer\nthat falls between the specified values, low and high, inclusive. The `Math.random()`\nfunction produces a double value between 0.0 (inclusive) and 1.0 (exclusive), which we\nmultiply by `(high - low + 1)` to scale it to the desired range. By converting this result\ninto an integer and adding `low`, we adjust the range to start from the specified lower\nlimit. This method is efficient and straightforward, making it suitable for generating\nrandom numbers in programming.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively uses the formula involving `Math.random()` to generate a random integer within the inclusive range of low and high by scaling and shifting the output appropriately.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3273"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_02_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Explain the process that occurs when a user requests a file from a web server, focusing on\nhow the file is transmitted and the importance of packet reassembly upon receipt.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When a user requests a file from a web server, the file is divided into smaller pieces\ncalled packets to make the transmission more efficient. Each packet travels through the\ninternet separately and may take different routes to reach the user's device. Upon\nreaching the destination, these packets must be reassembled in the correct order to\nrecreate the original file. This process is crucial because if packets arrive out of order\nor some are lost, the file may become corrupted or incomplete. Thus, packet reassembly\nensures that the user receives the complete and accurate file as intended.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the process of file transmission over the internet, emphasizing the division of files into packets, their independent travel, and the critical need for proper reassembly to ensure the integrity of the received file.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3184"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_14",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 14",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_14.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The sub key length at each round of DES is__________",
+      "options": {
+        "A": "32",
+        "B": "56",
+        "C": "48",
+        "D": "64"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 56 because in the Data Encryption Standard (DES), the key length is originally 64 bits, but 8 bits are used for parity checks, leaving an effective key length of 56 bits for encryption.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1524"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ is categorized as an unknown segment of the Deep Web which has been\npurposely kept hidden & is inaccessible using standard web browsers.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Dark web",
+        "D": "Surface web"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dark web is a part of the Deep Web specifically designed to be hidden and requires special software, such as Tor, to access, making it inaccessible through standard web browsers.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following styles of fuzzer is more likely to explore paths covering every\nline of code in the following program?",
+      "options": {
+        "A": "Generational",
+        "B": "Blackbox",
+        "C": "Whitebox",
+        "D": "Mutation-based"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The whitebox fuzzer is more likely to explore paths covering every line of code because it has access to the program's internal structure and can utilize that information to systematically test all possible execution paths.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A digital signature needs a",
+      "options": {
+        "A": "Private-key system",
+        "B": "Shared-key system",
+        "C": "Public-key system",
+        "D": "All of them"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A digital signature requires a public-key system because it relies on a pair of keys\u2014one public and one private\u2014allowing the signer to generate a unique signature that can be verified by anyone with access to the corresponding public key, thus ensuring authenticity and integrity of the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1507"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A/an ___________ is a program that steals your logins & passwords for instant messaging\napplications.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "Trojan-Downloader",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM-Trojans are specifically designed to infiltrate instant messaging applications to capture and steal users' login credentials and passwords, making them the correct answer for the question.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Maltego is primarily designed for wireless traffic sniffing and does not focus on link analysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maltego is a tool designed for open-source intelligence and link analysis, enabling users to visualize relationships between data points rather than focusing on wireless traffic sniffing.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The message must be encrypted and decrypted at the sender site for secure communication to occur.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Secure communication can be achieved through various methods, including the use of secure transmission protocols and encryption at intermediate nodes, meaning that encryption and decryption do not necessarily need to occur solely at the sender's location.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Penetration testing is a comprehensive evaluation of a system for security flaws and vulnerabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Penetration testing involves simulating cyber attacks on a system to identify and assess security flaws and vulnerabilities, thereby providing a thorough evaluation of the system's security posture.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14202"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "A hash function guarantees that a message cannot be replaced by an attacker without detection.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function does not guarantee detection of message replacement because it is possible for an attacker to create a different message that produces the same hash value, known as a collision, thus evading detection.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14209"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Deep Web comprises all online content that cannot be indexed by traditional search engines.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Deep Web consists of online content that is not indexed by traditional search engines due to restrictions such as password protection, paywalls, or dynamic content, making it inaccessible through standard search queries.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to calculate the height of the given binary tree.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def __init__(self, data): | def max_height(node): | return 0 ; | return left_height+1 | return right_height+1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly outlines a recursive approach to calculate the height of a binary tree by defining a function that returns 0 when a node is null and adds one to the maximum height of its left and right subtrees.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "927"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_14_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check if given tuple is distinct or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_distinct(test_tup): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that evaluates the uniqueness of elements within a tuple, which is essential for ensuring data integrity and preventing duplication in cybersecurity applications.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "394"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

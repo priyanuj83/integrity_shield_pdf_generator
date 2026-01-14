@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Message Condentiality; B) Message Integrity; C) Message Splashing; D) Message Sending
+\\ \textit{Note:} Message authentication ensures that a message comes from a legitimate source and has not been altered, which is a broader purpose than message integrity, which solely focuses on the correctness of the message content.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Message Nonrepudiation; B) Message Integrity; C) Message Condentiality; D) Message Sending
+\\ \textit{Note:} Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the sender's identity and the integrity of the communication, which is crucial in cybersecurity to prevent disputes and enhance accountability.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Secret question; B) Biometric; C) SMS code; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because authentication methods encompass a variety of techniques, including passwords, biometrics, and multi-factor authentication, all of which serve to verify a user's identity in cybersecurity.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Speed; B) Space; C) Key exchange; D) Key length
+\\ \textit{Note:} Public key encryption eliminates the need for a secure key exchange, as it allows users to share their public keys openly while keeping their private keys confidential, enhancing security compared to symmetric key cryptography, which requires both parties to share a secret key securely.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) It generates each different input by modifying a prior input; B) It works by making small mutations to the target program to induce faults; C) Each input is mutation that follows a given grammar; D) It only makes sense for file-based fuzzing, not network-based fuzzing
+\\ \textit{Note:} Mutation-based fuzzing is characterized by its approach of taking existing inputs and systematically altering them to create new test cases, allowing for the discovery of vulnerabilities in software through variations of previously known data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} While encryption and decryption effectively protect data confidentiality by rendering it unreadable to unauthorized users, they do not inherently verify or guarantee that the data remains unchanged and uncorrupted throughout its lifecycle, thus failing to ensure data integrity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Cotton Road was not a Dark Web marketplace but rather a legitimate trade network known for the exchange of cotton and textiles, rather than counterfeit luxury items.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A digital signature relies on asymmetric encryption, where a private key is used for signing and a public key for verification, providing stronger security compared to a shared-key system that uses a single key for both encryption and decryption, making it less secure and susceptible to key compromise.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because decrypting the message at the receiver's site is essential to ensure that it remains confidential and intact, safeguarding it from unauthorized access and ensuring that it has not been altered during transmission.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Wireshark is a powerful network protocol analyzer that enables users to capture and inspect data packets traversing both wired and wireless networks, making it an essential tool for analyzing network traffic in cybersecurity.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def check\_greater(arr, number): | return ('Yes, the entered number is greater than those in the array') | return ('No, entered number is less than those in the array')
+\\ \textit{Note:} The answer correctly outlines a function that evaluates whether a specified number exceeds all elements in a given array, demonstrating basic programming logic and comparison operations fundamental to both coding and cybersecurity applications.
+\item \textbf{Answer:} def check\_subset\_list(list 1, list 2): | return exist
+\\ \textit{Note:} correct because it identifies the need to create a function that verifies whether all elements of one nested list are contained within another nested list, which is essential for data validation and integrity in cybersecurity practices.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,294 @@
+{
+  "docid": "biology_graduate_doc_01",
+  "document_name": "Biology - Graduate Level Assessment 1",
+  "domain": "biology",
+  "academic_level": "Graduate",
+  "subjects": [
+    "biology",
+    "anatomy"
+  ],
+  "combination_used": [
+    "mmlu_pro_biology_mcq",
+    "mmlu_pro_biology_tf",
+    "biology_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\graduate\\latex_documents\\biology_graduate_doc_01.tex",
+    "pdf_file": "output\\biology\\graduate\\pdf_documents\\biology_graduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_graduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_graduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\biology\\graduate\\answer_keys\\latex\\biology_graduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\graduate\\answer_keys\\pdf\\biology_graduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_graduate_doc_01_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What factors determine the characteristics ofparticular organismsthat exist in an\necosystem.",
+      "options": {
+        "A": "Temperature, humidity, and human activities",
+        "B": "Only soil structure and chemistry",
+        "C": "Only sunlight and humidity",
+        "D": "Sunlight, soil pH, and predator-prey relationships",
+        "E": "Only temperature and precipitation"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Temperature, humidity, and human activities are crucial environmental factors that influence the physiological and behavioral traits of organisms, thereby shaping their adaptation, survival, and overall diversity within an ecosystem.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3101"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_graduate_doc_01_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If the activity of an enzyme is constant over a broad range of pH values, it is likely\nthat",
+      "options": {
+        "A": "the enzyme is inactive at all pH values",
+        "B": "no ionizing groups on the enzyme or substrate participate in the reaction",
+        "C": "only ionizing groups on the substrate participate in the reaction",
+        "D": "ionizing groups on both the enzyme and substrate participate in the reaction",
+        "E": "only non-ionizing groups on the substrate participate in the reaction"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is justified because if an enzyme's activity remains constant across a wide pH range, it suggests that the reaction does not rely on ionizable groups, which would otherwise be affected by changes in pH that alter their charge and, consequently, their reactivity.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2938"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_graduate_doc_01_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "How do cyanobacteria differ from green unicellular algae?",
+      "options": {
+        "A": "Cyanobacteria reduce sulfur compounds.",
+        "B": "Cyanobacteria have no nuclei.",
+        "C": "Green algae cannot reduce nitrogen compounds.",
+        "D": "Green algae cannot photosynthesize.",
+        "E": "Green algae produce cell membranes."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cyanobacteria are prokaryotic organisms that lack a defined nucleus, distinguishing them from green unicellular algae, which are eukaryotic and possess membrane-bound nuclei.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3121"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_graduate_doc_01_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Explain why simple diffusion is not sufficient to account for the passage of all of the\ndissolved minerals into the cells of water plants.",
+      "options": {
+        "A": "Simple diffusion can only transport minerals when they are bound to oxygen molecules",
+        "B": "Simple diffusion cannot occur against a concentration gradient",
+        "C": "Simple diffusion requires specific carrier proteins for each mineral",
+        "D": "Simple diffusion only works for organic compounds, not inorganic minerals",
+        "E": "Simple diffusion can transport minerals in any concentration"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Simple diffusion relies on the movement of substances from areas of higher concentration to lower concentration, which is insufficient for the uptake of dissolved minerals by water plants that often require transport against their concentration gradients for proper nutrition and growth.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_graduate_doc_01_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The pH of two lakes is measured. Lake A has a pH of 8.0; Lake B has a pH of 6.0. Which of\nthe following statements is correct about these lakes?",
+      "options": {
+        "A": "Lake B is alkaline.",
+        "B": "Lake B is 100 times more alkaline than Lake A.",
+        "C": "The hydrogen ion concentration of Lake B is 104 M.",
+        "D": "The pH of both lakes will decrease in response to acid rain."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both lakes, regardless of their initial pH levels, will experience a decrease in pH due to the introduction of acid rain, which contains higher concentrations of hydrogen ions that can lower the pH of aquatic ecosystems.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3111"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_graduate_doc_01_biology_pubmedqa_tf_1",
+      "question_type": "TF",
+      "stem_text": "Are lower fasting plasma glucose levels at diagnosis of type 2 diabetes associated with improved outcomes?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "People presenting with type 2 diabetes with lower initial glycemia who may be earlier in the course of their disease had fewer adverse clinical outcomes despite similar glycemic progression. Since most such people are asymptomatic at diagnosis, active case detection programs would be required to identify them.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "12145243"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_graduate_doc_01_biology_pubmedqa_tf_2",
+      "question_type": "TF",
+      "stem_text": "Globulomaxillary cysts--do they really exist?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the results of our study and the data from the international literature, the entity globulomaxillary cyst is no longer justified.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "23455575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_graduate_doc_01_biology_pubmedqa_tf_3",
+      "question_type": "TF",
+      "stem_text": "Is late-night salivary cortisol a better screening test for possible cortisol excess than standard screening tests in obese patients with Type 2 diabetes?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Late-night salivary cortisol has a poor specificity for cortisol excess in obese patients with T 2 DM with 24 hr UFC showing significantly better specificity in our population.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "22522271"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_graduate_doc_01_biology_pubmedqa_tf_4",
+      "question_type": "TF",
+      "stem_text": "Chemoradiotherapy in the management of locally advanced squamous cell carcinoma esophagus: is surgical resection required?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The study suggests that there is no difference in clinical toxicity profiles or survival outcomes with either definitive chemoradiotherapy or chemoradiation followed by surgery in management of locally advanced esophageal cancer.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "23389866"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_graduate_doc_01_biology_pubmedqa_tf_5",
+      "question_type": "TF",
+      "stem_text": "Is vitamin D deficiency a feature of pediatric celiac disease?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Our data showed no difference in 25(OH) D levels between normal children and those with CD when adjusted for body mass index.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "22876568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_graduate_doc_01_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the expected genotypic ratios of the offspring from the cross GgDdww \\times\nGgddWw, specifically focusing on the fraction that would be homozygous recessive for all\ngene pairs.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the expected genotypic ratios of the offspring from the cross GgDdww \\times\nGgddWw, we must analyze each gene independently: G, D, and W. For gene G, the parental\ngenotypes Gg and Gg yield a 1:2:1 ratio, leading to a 1/4 chance of being homozygous\nrecessive (gg). For gene D, Gg and dd produce a 1:1 ratio, resulting in a 0 probability of\nhomozygous recessive (dd) offspring from Gg. Lastly, for gene W, ww and Ww yield a 1:1\nratio, giving a 1/2 chance of being homozygous recessive (ww). Multiplying these\nprobabilities (1/4 for gg, 1/2 for ww, and 0 for dd) results in a total fraction of 1/16\nfor the offspring being homozygous recessive for all gene pairs, confirming that the\nexpected fraction of such offspring is indeed 1/16.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the genotypic ratios for each gene independently, identifies the probabilities of homozygous recessive genotypes for each gene, and combines these probabilities to determine the overall fraction of offspring that would be homozygous recessive for all gene pairs.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "2890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_graduate_doc_01_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how inbreeding and loss of genetic variation contribute to the vulnerability of\nsmall populations and their progression toward extinction. Provide examples to support\nyour analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Inbreeding and loss of genetic variation significantly threaten small populations,\nincreasing their vulnerability to extinction. When individuals within a small population\nbreed, the likelihood of mating between closely related individuals rises, leading to\ninbreeding depression. This results in a decrease in fitness and an increase in the\nexpression of deleterious alleles, which can impair survival and reproductive success.\nFurthermore, reduced genetic variation limits a population's ability to adapt to changing\nenvironmental conditions, making them more susceptible to diseases and shifts in habitat.\nFor example, the Florida panther's population suffered from inbreeding depression, leading\nto heart defects and reduced fertility, illustrating the critical link between genetic\ndiversity and population viability. Thus, the interplay of inbreeding and genetic\nvariation loss creates a precarious situation for small populations, propelling them\ntoward extinction.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it clearly articulates how inbreeding leads to decreased fitness through the increased expression of harmful alleles and emphasizes the critical role of genetic variation in the survival and adaptability of small populations, ultimately linking these factors to their heightened risk of extinction.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3434"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

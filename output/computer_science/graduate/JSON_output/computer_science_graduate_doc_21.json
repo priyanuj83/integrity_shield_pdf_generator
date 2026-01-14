@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_graduate_doc_21",
+  "document_name": "Computer Science - Graduate Level Assessment 21",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_21.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_21_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Local caching of files is common in distributed file systems, but it has the disadvantage\nthat",
+      "options": {
+        "A": "Temporary inconsistencies among views of a file by different machines can result",
+        "B": "The file system is likely to be corrupted when a computer crashes",
+        "C": "A much higher amount of network traffic results",
+        "D": "Caching makes file migration impossible"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Local caching in distributed file systems can lead to temporary inconsistencies because different machines may access and modify their cached versions of a file independently, resulting in divergent views of the same data until synchronization occurs.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1085"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_21_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Of the following, which gives the best upper bound for the value of f(N) where f is a\nsolution to the recurrence f(2 N + 1) = f(2 N) = f(N) + log N for N >= 1, with f(1) = 0?",
+      "options": {
+        "A": "O(log N)",
+        "B": "O(N log N)",
+        "C": "O(log N) + 0(1)",
+        "D": "O((log N)^2)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is O((log N)^2) because the recurrence relation involves a logarithmic term that accumulates at each recursive step, leading to a quadratic growth rate in the logarithmic scale as N increases.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1080"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_21_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Applications developed by programming languages like ____ and ______ have this common\nbuffer-overflow error.",
+      "options": {
+        "A": "C, Ruby",
+        "B": "Python, Ruby",
+        "C": "C, C++",
+        "D": "Tcl, C#"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "C and C++ are known for providing low-level memory management capabilities that allow direct manipulation of memory, which can lead to buffer-overflow errors if bounds checking is not implemented.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_21_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The stack is memory for storing",
+      "options": {
+        "A": "Local variables",
+        "B": "Program code",
+        "C": "Dynamically linked libraries",
+        "D": "Global variables"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The stack is used for storing local variables because it operates on a last-in, first-out principle that efficiently manages memory for function calls and their associated local scopes.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_21_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Of the following problems concerning a given undirected graph G, which is currently known\nto be solvable in polynomial time?",
+      "options": {
+        "A": "Finding a longest simple cycle in G",
+        "B": "Finding a shortest cycle in G",
+        "C": "Finding ALL spanning trees of G",
+        "D": "Finding a largest clique in G"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Finding a shortest cycle in an undirected graph can be solved in polynomial time using graph traversal algorithms like breadth-first search (BFS) to systematically explore all paths and determine the shortest cycle.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1017"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_21_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key between two parties is used only once for a specific communication session.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A session symmetric key is specifically generated for a single communication session to ensure security and confidentiality, preventing the risks associated with key reuse such as cryptographic attacks.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_21_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Message integrity ensures that data arrives at the receiver exactly as it was sent, without alteration during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message integrity involves mechanisms such as checksums and cryptographic hashes that verify that data sent over a network remains unchanged and intact upon arrival at its destination, thus ensuring that it has not been altered during transmission.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1542"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_21_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Windows 7 is widely regarded as having buffer-overflow vulnerabilities similar to those found in UNIX systems.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Windows 7 incorporates several security enhancements, such as Address Space Layout Randomization (ASLR) and Data Execution Prevention (DEP), which significantly reduce the risk of buffer-overflow vulnerabilities compared to traditional UNIX systems.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_21_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The AH Protocol provides source authentication and data integrity but does not ensure privacy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol uses hashing to provide source authentication and data integrity through message integrity checks, but it does not encrypt the data, thus failing to ensure privacy.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_21_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Church's thesis was first proven by Alan Turing, establishing a definitive link between computability and Turing machines.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Church's thesis, also known as the Church-Turing thesis, was not proven by Alan Turing but rather is a hypothesis about the nature of computable functions that was independently proposed by Alonzo Church and Turing, with Turing's work on Turing machines providing evidence for the thesis rather than a definitive proof.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14151"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_21_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove particular data type elements from the given tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_datatype(test_tuple, data_type): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the creation of a function that, when implemented, will effectively filter out elements of a specific data type from a tuple, demonstrating an understanding of function definition and tuple manipulation in Python.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "533"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_21_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to separate and print the numbers and their position of a given string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def num_position(text): | return m.start()",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes the `start()` method from a match object to identify and return the starting position of a number found within the given string, which is essential for separating and printing both the numbers and their respective positions.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "944"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

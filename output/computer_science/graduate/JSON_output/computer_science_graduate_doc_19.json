@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_graduate_doc_19",
+  "document_name": "Computer Science - Graduate Level Assessment 19",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_19.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_19_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "SHA-1 has a message digest of",
+      "options": {
+        "A": "160 bits",
+        "B": "512 bits",
+        "C": "628 bits",
+        "D": "820 bits"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 160 bits because SHA-1 (Secure Hash Algorithm 1) consistently produces a fixed-length output of 160 bits, which is a fundamental characteristic of this cryptographic hash function.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "15628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_19_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The ____________ is anything which your search engine cannot search.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Surface web",
+        "D": "Deep Web"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible through standard search queries.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "15632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_19_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Why would a ping sweep be used?",
+      "options": {
+        "A": "To identify live systems",
+        "B": "To locate live systems",
+        "C": "To identify open ports",
+        "D": "To locate firewalls"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A ping sweep is used to identify live systems on a network by sending ICMP echo requests to multiple IP addresses and determining which addresses respond, indicating active devices.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1566"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_19_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Any set of Boolean operators that is sufficient to represent all Boolean expressions is\nsaid to be complete. Which of the following is NOT complete?",
+      "options": {
+        "A": "{AND, NOT}",
+        "B": "{NOT, OR}",
+        "C": "{AND, OR}",
+        "D": "{NAND}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The set {AND, OR} is not complete because it lacks the NOT operator, which is necessary to express negation and thus represent all possible Boolean expressions.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1000"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_19_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Of the following sorting algorithms, which has a running time that is LEAST dependent on\nthe initial ordering of the input?",
+      "options": {
+        "A": "Insertion sort",
+        "B": "Quicksort",
+        "C": "Merge sort",
+        "D": "Selection sort"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merge sort consistently has a time complexity of O(n log n) regardless of the initial order of the input data, as it divides the array into halves and processes each half independently before merging, making its efficiency stable across different input configurations.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1032"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_19_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Nmap categorizes port states into active, inactive, and standby based on the network conditions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Nmap categorizes port states into open, closed, filtered, and unfiltered, rather than active, inactive, and standby, based on the responses it receives from the target ports during a network scan.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1555"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_19_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "A buffer-overflow attack involves exploiting memory vulnerabilities by injecting extra data with malicious instructions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer-overflow attack takes advantage of programming errors that allow an attacker to overwrite adjacent memory by injecting excessive data, which can include malicious code, leading to unauthorized control of a program's execution.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1548"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_19_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Opera browser is specifically designed for accessing the Tor network and its services.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Opera browser is not specifically designed for accessing the Tor network; it is a general web browser that does not inherently provide the anonymity features and routing capabilities that the Tor network requires.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1530"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_19_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Escaping queries is an effective method to prevent SQL injection attacks by neutralizing malicious input.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Escaping queries effectively prevents SQL injection attacks by treating user input as literal values rather than executable code, thereby neutralizing potentially harmful input that could manipulate the database.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_19_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The regular expression (a + b)*c + (a + b)*d is equivalent to (a* + b)*(c + d).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because both regular expressions describe the same set of strings, where any combination of 'a' and 'b' can precede either 'c' or 'd', thus ensuring that both expressions generate the same language.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "15608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_19_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the equilibrium index of the given array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def equilibrium_index(arr): | return i | return -1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to return the index of an equilibrium point in the array, where the sum of the elements to the left is equal to the sum of the elements to the right, and includes a fallback return of -1 to indicate that no such index exists.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "701"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_19_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the sum of squares of first n even natural numbers.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def square_Sum(n): | return int(2*n*(n+1)*(2*n+1)/3)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function correctly calculates the sum of squares of the first n even natural numbers by leveraging the formula for the sum of squares of the first n natural numbers and adjusting it for even integers, resulting in an efficient computation without the need for iterative summation.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "287"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

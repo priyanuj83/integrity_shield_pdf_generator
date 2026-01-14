@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_25",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The rank of the matrix A is 1 because all its rows are linearly dependent, as they are identical, resulting in only one linearly independent row vector.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement \"It discovers causal relationships\" is false because regression analysis identifies correlations between variables rather than establishing definitive cause-and-effect relationships.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual model errors by smoothing out predictions, leading to a more stable and accurate overall model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6863
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Both statements are false because the original ResNet paper introduced Batch Normalization, not Layer Normalization, and DCGANs do not utilize self-attention; instead, they rely on convolutional layers and upsampling techniques for stabilization.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The sigmoid function, defined as \\( \\sigma(x) = \\frac{1}{1 + e^{-x}} \\), transforms any real-valued input into an output that is always within the range of 0 to 1, making it particularly useful for modeling probabilities in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The original ResNets were primarily optimized using stochastic gradient descent (SGD), but other optimizers like Adam and RMSprop have also been employed in various implementations and adaptations of ResNet architectures.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6854
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "An excessively large step size can lead to overshooting the optimal solution during the optimization process, causing the model to diverge and resulting in an increase in training loss instead of convergence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The variance of the MAP estimate is lower than that of the MLE because the MAP incorporates prior information, which helps to stabilize the estimates and reduce their variability compared to the MLE that relies solely on the observed data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14786
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Ridge regression applies L2 regularization which shrinks coefficients but does not set them to zero, while Lasso regression uses L1 regularization, which can eliminate features entirely by driving their coefficients to zero, resulting in significant differences in their feature selection methodologies.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a higher error rate typically indicates a less reliable model, necessitating more test examples to obtain statistically significant results and accurately assess performance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14785
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def convert(list): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it outlines the basic structure of a Python function intended to process a list, although it lacks the actual implementation logic needed to convert the list of integers into a single integer.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 673
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_25_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def check_integer(text): | return None | return True | return True | return False",
+      "marks": 10,
+      "explanation": "The answer correctly outlines a function structure that evaluates a string input and returns boolean values indicating whether the string can be interpreted as an integer, though it lacks the necessary logic to perform the actual check.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 113
+    }
+  ]
+}

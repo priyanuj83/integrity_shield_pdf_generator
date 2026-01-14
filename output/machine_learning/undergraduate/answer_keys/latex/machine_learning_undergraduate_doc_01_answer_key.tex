@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 1 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Ridge; B) Lasso; C) both (a) and (b); D) neither (a) nor (b)
+\\ \textit{Note:} Lasso is more appropriate for feature selection because it applies L$_{1}$ regularization, which can shrink some coefficients to zero, effectively allowing it to identify and select only the most relevant features in a model.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(A|B) decreases; B) P(B|A) decreases; C) P(B) decreases; D) All of above
+\\ \textit{Note:} As P(A, B) represents the joint probability of events A and B occurring together, a decrease in P(A, B) coupled with an increase in P(A) indicates that the likelihood of B occurring given A (P(B|A)) must decrease, since P(B|A) is calculated as P(A, B) / P(A).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The correct answer is "True, True" because the Stanford Sentiment Treebank specifically focuses on analyzing the sentiment of movie reviews, while the Penn Treebank is widely recognized for its applications in language modeling tasks.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) O(D); B) O(N); C) O(ND); D) O($ND^2$)
+\\ \textit{Note:} The cost of one gradient descent update is O(D) because updating each parameter in the model requires a constant time operation proportional to the number of dimensions D in the parameter space, as each element of the gradient vector g must be processed individually to adjust the corresponding model parameter.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Partitioning based clustering; B) K-means clustering; C) Grid based clustering; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because spatial clustering algorithms encompass various techniques that group data points based on their geographic or spatial proximity, and all listed options are valid examples of such algorithms.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because it follows the chain rule of probability, which allows the joint distribution of multiple random variables to be expressed as the product of a marginal probability and conditional probabilities, specifically P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y) when Z is conditionally independent of X given Y.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Maximum Likelihood Estimation (MLE) can lead to high variance in estimates, particularly in small sample sizes or when the model is overly complex, because it tends to fit the noise in the data rather than the underlying distribution, resulting in less reliable predictions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Principal Component Analysis (PCA) is considered an unsupervised learning technique because it identifies patterns in data without using labeled outcomes, allowing for dimensionality reduction by transforming correlated variables into a smaller set of uncorrelated principal components.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Discriminative approaches directly model the conditional probability of the output given the input, p(y|x), which allows them to focus specifically on the relationship between the features of the input x and the corresponding output y, often incorporating additional parameters w that may represent specific characteristics of the model.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The ResNet-50 model contains approximately 23 million parameters, which is significantly fewer than 1 billion, thus making the statement false.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def empty\_dit(list 1): | return empty\_dit
+\\ \textit{Note:} The provided answer is not correct as it does not define the logic to check if all dictionaries in the list are empty, nor does it return a meaningful result; instead, it simply returns the function name itself, which does not fulfill the requirements of the question.
+\item \textbf{Answer:} def check\_monthnum\_number(monthnum 1): | return True | return False
+\\ \textit{Note:} The provided function is structured to return True or False based on the input month number, correctly identifying that February (month 2) is the only month that consistently contains 28 days in a non-leap year, while all other months have more than 28 days.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

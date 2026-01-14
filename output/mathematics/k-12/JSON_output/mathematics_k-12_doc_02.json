@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_02",
+  "document_name": "Mathematics - K-12 Level Assessment 2",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_02.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_02_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The first number in a number pattern is 28. The pattern rule is to add 14 to get the next\nnumber in the pattern. If the pattern continues, which statement is true?",
+      "options": {
+        "A": "All the numbers in the pattern can be divided equally by 10.",
+        "B": "All the numbers in the pattern can be divided equally by 4.",
+        "C": "All the numbers in the pattern can be divided equally by 8.",
+        "D": "All the numbers in the pattern can be divided equally by 7."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "All the numbers in the pattern can be divided equally by 7 because each number is formed by adding 14 (which is a multiple of 7) to the previous number, starting from 28, which is also divisible by 7.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2263"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Solve the equation 14 = w + 23.",
+      "options": {
+        "A": "-37",
+        "B": "-9",
+        "C": "9",
+        "D": "37"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -9 because solving the equation 14 = w + 23 requires isolating w by subtracting 23 from both sides, resulting in w = 14 - 23, which simplifies to w = -9.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2306"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Erin made 12 pints of juice. She drinks 3 cups of juice each day. How many days will Erin\ntake to drink all of the juice she made?",
+      "options": {
+        "A": "2 days",
+        "B": "4 days",
+        "C": "8 days",
+        "D": "9 days"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Erin made 12 pints of juice, which is equivalent to 24 cups (since 1 pint equals 2 cups), and dividing 24 cups by her daily consumption of 3 cups results in 8 days to drink all the juice.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2233"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Mr. Jones rolls a six-sided cube numbered 1, 2, 3, 4, 5, 6. What is the probability he\nrolls a three?",
+      "options": {
+        "A": "6-Jan",
+        "B": "5-Jan",
+        "C": "3-Jan",
+        "D": "2-Jan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1/6 because there is one favorable outcome (rolling a three) out of a total of six possible outcomes on a fair six-sided die.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2408"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If $f(x) = 2$ for all real numbers $x$, what is the value of $f(x + 2)$?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "0",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2 because the function f(x) is defined to be constant at 2 for all real numbers x, so regardless of the input, f(x + 2) will also equal 2.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4333"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sum of 365 and 56 is 421.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when you add 365 and 56 together, the result equals 421.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2437"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The number eighteen thousand ninety-six can be expressed in expanded form as 10,000 + 8,000 + 90 + 6.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number eighteen thousand ninety-six can be broken down into its place values as 10,000 (ten thousand), 8,000 (eight thousand), 90 (ninety), and 6 (six), which correctly represents its expanded form.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2190"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The inequality x^2 - 6 x + c < 0 has real solutions for c in the interval (0, 9).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The inequality x^2 - 6x + c < 0 has real solutions for c in the interval (0, 9) because the quadratic opens upwards, and the vertex of the parabola, located at x = 3, yields a minimum value less than zero when c is in that range.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4487"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The expression -105 + (-14) + 34 simplifies to -85.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression -105 + (-14) + 34 simplifies to -85 because adding -105 and -14 gives -119, and then adding 34 results in -85.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "14294"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The composition f(g(h(x))) results in the expression 15 x^2 + 15.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the composition f(g(h(x))) does not simplify to 15x^2 + 15 without knowing the specific definitions of the functions f, g, and h involved.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4453"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_02_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Determine the equation of the tangent line to the curve defined by F(t) = (t^2 + 1, 2^t)\nat the point where y = 4. Explain your reasoning and calculations in detail.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the equation of the tangent line to the curve defined by F(t) = (t^2 + 1, 2^t) at\nthe point where y = 4, we first need to determine the corresponding value of t. Since 2^t\n= 4, we solve for t and find t = 2. Now, substituting t = 2 into F(t), we get the point\n(2^2 + 1, 2^2) = (5, 4). Next, we calculate the derivative dy/dx by using the chain rule:\ndy/dx = (d(2^t)/dt) / (d(t^2 + 1)/dt) = (2^t ln(2)) / (2 t) = (2^2 ln(2)) / (2*2) = ln(2).\nThe slope of the tangent line at the point (5, 4) is ln(2). Using the point-slope form of\nthe equation of a line, we write y - 4 = ln(2)(x - 5), which is the equation of the\ntangent line.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the point on the curve where y = 4, calculates the corresponding value of t, and correctly applies the chain rule to find the slope of the tangent line at that point.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4445"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_02_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Explain the concept of a P-value in hypothesis testing. How does it help determine the\nvalidity of the null hypothesis, and why is it important in statistical analysis?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A P-value in hypothesis testing is the probability of obtaining a test statistic as\nextreme as the one observed, assuming that the null hypothesis is true. It helps determine\nthe validity of the null hypothesis by providing a measure of how compatible the observed\ndata is with the assumption that the null hypothesis holds. A low P-value suggests that\nthe observed data is unlikely under the null hypothesis, leading researchers to consider\nrejecting it. This is important in statistical analysis because it helps to assess whether\nthe evidence is strong enough to support an alternative hypothesis, guiding decision-\nmaking in various fields such as science, medicine, and social research.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately defines a P-value as the probability of observing data as extreme as the test statistic under the null hypothesis, and it explains how a low P-value indicates that the null hypothesis may not be valid, which is crucial for making informed decisions in statistical analysis.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "5633"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

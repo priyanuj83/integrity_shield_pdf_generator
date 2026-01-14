@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_graduate_doc_10",
+  "document_name": "Machine Learning - Graduate Level Assessment 10",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_10.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Computational complexity of Gradient descent is,",
+      "options": {
+        "A": "linear in D",
+        "B": "linear in N",
+        "C": "polynomial in D",
+        "D": "dependent on the number of iterations"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The computational complexity of gradient descent is polynomial in D, where D represents the dimensionality of the data, because each iteration of the algorithm involves calculations that scale linearly with the number of dimensions, resulting in a polynomial time complexity overall when considering the number of iterations needed for convergence.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6862"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The disadvantage of Grid search is",
+      "options": {
+        "A": "It can not be applied to non-differentiable functions.",
+        "B": "It can not be applied to non-continuous functions.",
+        "C": "It is hard to implement.",
+        "D": "It runs reasonably slow for multiple linear regression."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that Grid search systematically evaluates all combinations of hyperparameters, which can significantly increase computation time, especially in complex models like multiple linear regression that require extensive processing for each parameter set.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The BLEU metric uses precision, while the ROGUE metric uses recall. Statement\n2| Hidden markov models were frequently used to model English sentences.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The BLEU metric indeed relies on precision to evaluate the quality of generated text compared to reference texts, while the ROUGE metric focuses on recall to assess the overlap of n-grams in generated summaries, and Hidden Markov Models have been widely utilized in natural language processing to model the probabilistic structures of English sentences.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6924"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Consider the Bayesian network given below. How many independent parameters would we need\nif we made no assumptions about independence or conditional independence H -> U <- P <- W?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "15"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 15 because, in a Bayesian network with four nodes (H, U, P, W), each node has a conditional probability table that requires a number of parameters equal to the product of the number of states for each parent node, leading to a total of 15 independent parameters when no independence assumptions are made.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6881"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following are the spatial clustering algorithms?",
+      "options": {
+        "A": "Partitioning based clustering",
+        "B": "K-means clustering",
+        "C": "Grid based clustering",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of methods that are designed to group data points based on their spatial proximity, making all listed options valid examples within this category.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Lasso regression is more effective for feature selection due to its ability to shrink some coefficients to zero.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lasso regression incorporates an L1 regularization term that penalizes the absolute size of the coefficients, effectively driving some of them to zero and thus facilitating feature selection by excluding less important predictors from the model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The model derived from best-subset selection is always identical to the final model after feature selection is completed.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because best-subset selection may identify an optimal set of features, but the final model may differ due to factors such as regularization, cross-validation, or the inclusion of additional criteria that impact model selection beyond just the feature set.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6864"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The dimensionality of the null space of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The null space of the matrix A has a dimensionality of 2 because the rank of A is 1, leading to a nullity (dimension of the null space) of 3 - rank = 3 - 1 = 2, according to the Rank-Nullity Theorem.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The joint probability distribution P(X, Y, Z) for the Bayes net X <- Y -> Z is given by P(Y) * P(X|Y) * P(Z|Y).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, in a Bayesian network, the joint probability distribution can be factored into the product of the prior distribution of the parent variable and the conditional distributions of the child variables given their parents, which in this case is represented by P(Y) * P(X|Y) * P(Z|Y).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The original ResNets and Transformers are both architectures that utilize feedforward neural networks for their operations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both ResNets and Transformers incorporate feedforward neural networks as fundamental components in their architecture, enabling them to process input data through layers of neurons in a structured manner.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count occurences of a character in a repeated string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_Char(str,x): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is correct because it outlines a Python function named `count_Char` that is designed to iterate through a given string to count the occurrences of a specified character, which aligns with the task of counting character occurrences in a repeated string.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "684"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_10_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether the given number can be represented as difference\nof two squares or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def dif_Square(n): | return True | return False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that a number can be expressed as the difference of two squares if it is either odd or a multiple of 4, and the function should return True for such numbers and False otherwise.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "72"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

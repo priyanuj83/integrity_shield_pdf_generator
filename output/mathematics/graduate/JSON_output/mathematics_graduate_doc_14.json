@@ -1,0 +1,293 @@
+{
+  "docid": "mathematics_graduate_doc_14",
+  "document_name": "Mathematics - Graduate Level Assessment 14",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_14.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How many ways are there to arrange 6 pairs of parentheses such that they are balanced?",
+      "options": {
+        "A": "42",
+        "B": "144",
+        "C": "156",
+        "D": "132",
+        "E": "96"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 132 because the number of ways to arrange 6 pairs of balanced parentheses is given by the 6th Catalan number, which is calculated as C(6) = (1/(6+1)) * (2*6 choose 6) = 132.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7762"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "For any poitie integer $n$, let $\\langle n\\rangle$ denote the closest integer to\n$\\sqrt{n}$. Evaluate $\\sum_{n=1}^{\\infty} \\frac{2^{\\langle n \\rangle}+2^{-\\langle n\n\\rangle}}{2^n}$.",
+      "options": {
+        "A": "7.0",
+        "B": "2.0",
+        "C": "4.5",
+        "D": "1.0",
+        "E": "5.0"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 7.0 because the series converges to a sum of geometric series that can be simplified, resulting in the total of 7.0 when evaluated over all positive integers \\( n \\) using the properties of the nearest integer function \\( \\langle n \\rangle \\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If x and y are directly proportional and x = 3 when y = 8, what is the value of x when y =\n13?",
+      "options": {
+        "A": "2.0",
+        "B": "3.25",
+        "C": "34.667",
+        "D": "7.5",
+        "E": "6.125"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2.0 because in a direct proportion, the ratio of x to y remains constant, so using the initial values to find the constant of proportionality and applying it to the new value of y leads to the result x = 2.0 when y = 13.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8380"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the number of equivalent parameter settings due to interchange symmetries in a\nmixture model with 10 components?",
+      "options": {
+        "A": "12000000",
+        "B": "5000000",
+        "C": "2000000",
+        "D": "40320",
+        "E": "7257600"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 12,000,000 because the number of equivalent parameter settings in a mixture model with 10 components arises from the combinatorial calculation of the permutations of the components, specifically given by the formula for the number of ways to arrange 10 distinct items, which is 10! (factorial of 10) divided by the product of the factorials of the counts of each indistinguishable item, leading to 10! = 3,628,800, and accounting for interchange symmetries results in 12,000,000 distinct equivalent settings.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7761"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the ones digit of $1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8 \\cdot\n9$?",
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "0",
+        "D": "1",
+        "E": "6"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ones digit of the product \\(1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8 \\cdot 9\\) is 0 because the multiplication includes the factor 5 and an even number (specifically, 2), resulting in a product that is a multiple of 10.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8160"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The eigenvalues of the matrix A = [[5, 4], [1, 2]] are 4 and 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The eigenvalues of the matrix A = [[5, 4], [1, 2]] are actually 6 and 1, as determined by solving the characteristic polynomial, which contradicts the stated eigenvalues of 4 and 1.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The cost of the used car Manuel bought is represented as the numeral 6049.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the numeral 6049 accurately represents the numerical value of the cost of the used car Manuel bought, indicating that the car's price is indeed $6,049.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8788"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Molly's final cost after a 15% tip on a $25 haircut is $28.75.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Molly's final cost is calculated as $25 for the haircut plus a 15% tip of $3.75 (15% of $25), resulting in a total of $28.75.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Express $0.1\\overline{7}$ as a common fraction.' is '\\frac{8}{45}'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The decimal \\(0.1\\overline{7}\\) can be expressed as the fraction \\(\\frac{8}{45}\\) by recognizing that it is equal to \\(\\frac{1}{10} + \\frac{7}{90}\\), which simplifies to \\(\\frac{8}{45}\\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8390"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The number 240 is a powerful integer because it has prime factors whose squares also divide 240.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, for an integer to be classified as a powerful integer, every prime factor must appear with an exponent of at least 2 in its prime factorization, and the prime factorization of 240 is \\(2^4 \\times 3^1 \\times 5^1\\), which includes primes (3 and 5) with exponents less than 2.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8373"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_14_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "In the geoboard shown, the points are evenly spaced vertically and horizontally. Segment\n$AB$ is drawn using two points, as shown. Point $C$ is to be chosen from the remaining\n$23$ points. How many of these $23$ points will result in triangle $ABC$ being isosceles?\n[asy] draw((0,0)--(0,6)--(6,6)--(6,0)--cycle,linewidth(1)); for(int i=1;i<6;++i) {for(int\nj=1;j<6;++j) {dot((i,j));} } draw((2,2)--(4,2),linewidth(1)); label(\"A\",(2,2),SW);\nlabel(\"B\",(4,2),SE); [/asy]",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the value of \\( x \\) such that the area of the rectangle equals its perimeter, we\nfirst express both quantities. The area \\( A \\) is given by \\( A = \\text{length} \\times\n\\text{width} = 3 x(x + 5) = 3 x^2 + 15 x \\). The perimeter \\( P \\) is calculated as \\( P =\n2(\\text{length} + \\text{width}) = 2(3 x + (x + 5)) = 2(4 x + 5) = 8 x + 10 \\). Setting the\narea equal to the perimeter gives the equation \\( 3 x^2 + 15 x = 8 x + 10 \\). Simplifying\nthis leads to the quadratic equation \\( 3 x^2 + 7 x - 10 = 0 \\). Using the quadratic\nformula, we find \\( x = \\frac{-7 \\pm \\sqrt{7^2 - 4(3)(-10)}}{2(3)} = \\frac{-7 \\pm 11}{6}\n\\), yielding \\( x = \\frac{2}{3} \\) or \\( x = -3 \\). Since \\( x \\) must be positive, we\nconclude that \\( x = \\frac{3}{10} \\) satisfies the condition where the area equals the\nperimeter.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately formulates the area and perimeter of the rectangle as algebraic expressions, sets them equal to each other, and derives a quadratic equation that allows for the determination of the variable \\( x \\).",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8391"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_14_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given a rectangle with dimensions of length $3 x$ inches and width $x + 5$ inches, derive\nthe value of $x$ such that the area equals the perimeter, and explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the value of \\( x \\) such that the area of the rectangle equals its perimeter, we\nfirst express both quantities. The area \\( A \\) is given by \\( A = \\text{length} \\times\n\\text{width} = 3 x(x + 5) = 3 x^2 + 15 x \\). The perimeter \\( P \\) is calculated as \\( P =\n2(\\text{length} + \\text{width}) = 2(3 x + (x + 5)) = 2(4 x + 5) = 8 x + 10 \\). Setting the\narea equal to the perimeter gives the equation \\( 3 x^2 + 15 x = 8 x + 10 \\). Simplifying\nthis leads to the quadratic equation \\( 3 x^2 + 7 x - 10 = 0 \\). Using the quadratic\nformula, we find \\( x = \\frac{-7 \\pm \\sqrt{7^2 - 4(3)(-10)}}{2(3)} = \\frac{-7 \\pm 11}{6}\n\\), yielding \\( x = \\frac{2}{3} \\) or \\( x = -3 \\). Since \\( x \\) must be positive, we\nconclude that \\( x = \\frac{3}{10} \\) satisfies the condition where the area equals the\nperimeter.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately formulates the area and perimeter of the rectangle as algebraic expressions, sets them equal to each other, and derives a quadratic equation that allows for the determination of the variable \\( x \\).",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8391"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

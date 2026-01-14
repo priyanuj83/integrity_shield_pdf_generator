@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_08",
+  "document_name": "Mathematics - Undergraduate Level Assessment 8",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_08.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A subset H of a group (G,*) is a group if",
+      "options": {
+        "A": "a,b in H=> a * b in H",
+        "B": "a in H => a^-1 in H",
+        "C": "a,b in H=> a * b^-1 in H",
+        "D": "H contains the identity element"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the criterion for a subset to be a subgroup, which requires that for any two elements a and b in the subset H, the result of the operation a * b^-1 must also be in H, ensuring closure under the group operation and the existence of inverses.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "67"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In the xy-plane, the curve with parametric equations x = cos t and y = sin t, 0 <= t <=\npi, has length",
+      "options": {
+        "A": "3",
+        "B": "pi",
+        "C": "3 pi",
+        "D": "3/2"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The length of the curve defined by the parametric equations x = cos t and y = sin t from t = 0 to t = \u03c0 represents the arc length of a semicircle with radius 1, which is calculated as \u03c0.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1143"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If the finite group G contains a subgroup of order seven but no element (other than the\nidentity) is its own inverse, then the order of G could be",
+      "options": {
+        "A": "27",
+        "B": "28",
+        "C": "35",
+        "D": "37"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The order of the group G could be 35 based on the Sylow theorems, which indicate that if G has a subgroup of order 7, then the total order of G must be a multiple of 7, and since the group contains no elements that are their own inverses (other than the identity), it implies that there are no elements of order 2, thus making 35 (which is 5 times 7) a valid candidate for the order of G.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1179"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | R is a splitting field of some polynomial over Q. Statement 2 | There is a\nfield with 60 elements.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are false because while R is indeed a splitting field for some polynomials over Q, it does not imply that a field with 60 elements exists, as the number of elements in a finite field must be a power of a prime, and 60 is not of that form.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the sum of the given polynomials in the given polynomial ring. f(x) = 4 x - 5, g(x) =\n2 x^2 - 4 x + 2 in Z_8[x].",
+      "options": {
+        "A": "2 x^2 + 5",
+        "B": "6 x^2 + 4 x + 6",
+        "C": "0",
+        "D": "x^2 + 1"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2 x^2 + 5 because when adding the polynomials f(x) and g(x) in the ring Z_8[x], the coefficients are computed modulo 8, resulting in the sum 2 x^2 + (4x - 4x) + (-5 + 2) = 2 x^2 + 5.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "21"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The maximum possible order for an element of S_10 is 30.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order of an element in the symmetric group S_10 is 30, which occurs for a permutation that is the product of a 5-cycle and a 3-cycle, since the order of a permutation is the least common multiple of the lengths of its disjoint cycles.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The degree of the field extension Q(sqrt(2), sqrt(3)) over Q is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The degree of the field extension Q(\u221a2, \u221a3) over Q is 4, not 2, because both \u221a2 and \u221a3 are algebraically independent over Q, leading to a degree of 2 for each extension and a total degree of 2 * 2 = 4.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "35"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The linear transformation T maps the point (2, 1) to the point (-1, 4).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a linear transformation must satisfy the properties of additivity and homogeneity, and mapping (2, 1) to (-1, 4) does not adhere to these properties.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1195"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The index of the subgroup generated by the permutation p in S_5 is 8.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The index of the subgroup generated by a permutation in S_5 is determined by the order of the permutation and the size of the group, and since S_5 has 120 elements, the index cannot be 8 unless the order of the subgroup is 15, which is not possible for any subgroup generated by a single permutation in S_5.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "1"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The identity element of the group formed by the integers Z under the operation a*b = a + b + 1 is 0.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The identity element of the group formed by the integers Z under the operation a*b = a + b + 1 is actually -1, because for any integer a, the equation a + (-1) + 1 must equal a for it to satisfy the identity property.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "40"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the properties of a linear transformation \\( P \\) on a finite-dimensional real\nvector space \\( V \\) given that \\( P^2 = P \\). Analyze whether \\( P \\) is always\ndiagonalizable and explore the implications of this property.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A linear transformation \\( P \\) on a finite-dimensional real vector space \\( V \\) that\nsatisfies the property \\( P^2 = P \\) is known as a projection. One key property of such\ntransformations is that they are always diagonalizable. This is because the eigenvalues of\n\\( P \\) can only be 0 or 1, corresponding to the eigenspaces that are the kernel and image\nof \\( P \\), respectively. Since the vector space can be decomposed into these two\neigenspaces, \\( V = \\text{Ker}(P) \\oplus \\text{Im}(P) \\), it follows that \\( P \\) can be\nrepresented by a diagonal matrix in an appropriate basis. Thus, \\( P \\) is indeed always\ndiagonalizable, highlighting the structured and predictable nature of projections in\nlinear algebra.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because a linear transformation \\( P \\) that satisfies \\( P^2 = P \\) is a projection, which is always diagonalizable with eigenvalues 0 and 1, allowing the vector space to be decomposed into the direct sum of the kernel and image of \\( P \\).",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1104"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_08_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given the circle C in the yz-plane defined by the equation (y - 3)^2 + z^2 = 1, derive the\nequation of the torus formed when C is revolved around the z-axis, and explain the\ngeometric implications of this transformation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To derive the equation of the torus formed by revolving the circle C, defined by (y - 3)^2\n+ z^2 = 1 in the yz-plane, around the z-axis, we first recognize that the circle has a\ncenter at (0, 3) and a radius of 1. When this circle is revolved, the resulting torus can\nbe described in 3 D space. The equation of the torus is given by (x^2 + y^2 + z^2 + 8)^2 =\n36(x^2 + y^2). This equation indicates that points on the torus maintain a constant\ndistance from a central axis, which geometrically represents the circular cross-section of\nthe torus at different z-values, thereby illustrating the relationship between the\noriginal circle's dimensions and the 3 D shape formed through revolution.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly derives the equation of the torus by recognizing the geometric transformation of revolving the circle around the z-axis, which results in the relationship between the distances from the central axis and the specific geometric structure of the torus.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1131"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

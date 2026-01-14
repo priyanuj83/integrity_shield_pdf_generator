@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_24",
+  "document_name": "Physics - Graduate Level Assessment 24",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_24.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The atomic mass of the 4 He atom is 4.002603 u. Find the binding energy of the 4 He\nnucleus in MeV.",
+      "options": {
+        "A": "33.9",
+        "B": "29.8",
+        "C": "27.5",
+        "D": "31.2",
+        "E": "24.3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The binding energy of the 4 He nucleus, calculated using the mass defect and Einstein's equation E=mc\u00b2, yields approximately 33.9 MeV, reflecting the energy required to hold the nucleus together against the repulsive forces between protons.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9743"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the self-inductance of a coil if a rate of change of current of 5 amperes per\nsecond produces a backemfof 2 volts.",
+      "options": {
+        "A": "0.4 henry",
+        "B": "0.3 henry",
+        "C": "0.2 henry",
+        "D": "0.6 henry",
+        "E": "0.7 henry"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The self-inductance of the coil can be calculated using the formula \\( L = \\frac{V}{\\frac{di}{dt}} \\), where \\( V \\) is the back electromotive force (2 volts) and \\( \\frac{di}{dt} \\) is the rate of change of current (5 amperes per second), resulting in \\( L = \\frac{2 \\, \\text{V}}{5 \\, \\text{A/s}} = 0.4 \\, \\text{H} \\).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9301"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What happens to the force of gravitational attraction between two small objects if the\nmass of each object is doubled and the distance between their centers is doubled?",
+      "options": {
+        "A": "It is increased by two times.",
+        "B": "It remains the same.",
+        "C": "It becomes zero.",
+        "D": "It is reduced to half.",
+        "E": "It is increased by eight times."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The gravitational force between two objects is directly proportional to the product of their masses and inversely proportional to the square of the distance between them, so doubling both the masses and the distance results in the force remaining unchanged, as both changes cancel each other out.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the focal length, of a combination of two thin convex lenses, each of focal length\nf, placed apart at a distance of (2 f / 3)?",
+      "options": {
+        "A": "(f / 3)",
+        "B": "(f / 2)",
+        "C": "(5 f / 3)",
+        "D": "(6 f / 5)",
+        "E": "(3 f / 4)"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the lens formula for thin lenses in combination, where the effective focal length (F) of two lenses separated by a distance (d) is given by the formula F = (f1 * f2) / (f1 + f2 - d) for lenses with focal lengths f1 and f2, leading to F = (f * f) / (f + f - (2f/3)), which simplifies to (3f/4).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9580"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Why are the season's in Mars' southern hemisphere so extreme?",
+      "options": {
+        "A": "because Mars' axis is less tilted than the Earth's",
+        "B": "because Mars has a smaller size than the Earth",
+        "C": "because Mars has a slower rotation speed than the Earth",
+        "D": "because Mars has more carbon dioxide in its atmosphere than the Earth",
+        "E": "because Mars has a shorter year than the Earth"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The seasons in Mars' southern hemisphere are more extreme than on Earth because Mars has a smaller axial tilt (approximately 25 degrees compared to Earth's 23.5 degrees), resulting in greater variations in solar radiation received during its orbital path, which amplifies seasonal changes.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9872"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The ratio of forward-bias to reverse-bias currents at 1.5 V is -6 e+25, indicating a significant difference in behavior.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because a ratio of forward-bias to reverse-bias currents of -6 e+25 indicates that the forward current is vastly greater than the reverse current, reflecting the exponential increase in carrier injection under forward-bias conditions compared to the negligible reverse current in a diode.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10178"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "An object with an angular size of 0.5 degrees and a height of 5 cm is approximately 15 meters away from the observer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because an object with an angular size of 0.5 degrees and a height of 5 cm would actually be approximately 6 meters away from the observer, not 15 meters, based on the relationship between angular size, actual size, and distance.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9260"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "A lens with a focal length of 20 in can produce a virtual image when the object is placed 10 in from it.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A lens with a focal length of 20 inches cannot produce a virtual image when the object is placed 10 inches from it because the object is located within the focal length, which results in a real image rather than a virtual image.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10131"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A thin film with half the optical density of a metallic coating absorbs 44% of incident light.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a thin film's absorption is not solely determined by its optical density but also by its thickness and refractive index, which together influence the fraction of incident light that is absorbed.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9975"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_24_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The surface temperature of the Sun is approximately 6000 K, which is consistent with stellar temperature classifications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the Sun's surface temperature of approximately 6000 K places it in the G-type star category, which aligns with the established stellar temperature classification system that categorizes stars based on their effective temperatures.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9364"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_24_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the change in entropy when 100 g of water at 0^\\circC is mixed with 50 g of water\nat 50^\\circC. Analyze the thermodynamic principles involved in this process.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When 100 g of water at 0^\\circC is mixed with 50 g of water at 50^\\circC, the system\nreaches thermal equilibrium, resulting in a change in entropy. The final temperature can\nbe calculated using the principle of conservation of energy, leading to a mixed\ntemperature of approximately 20^\\circC. The change in entropy (\u0394S) for the system can be\ndetermined using the formula \u0394S = mc ln(T_final/T_initial), where m is the mass, c is the\nspecific heat capacity of water (1 cal/g\u00b7^\\circC), and T is the temperature in Kelvin.\nConsidering the contributions from both masses of water and the calculated final\ntemperature, the total change in entropy for the system is approximately 0.5 cal/K/deg.\nThis positive change reflects the increase in disorder as the two water masses mix,\nconsistent with the second law of thermodynamics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it correctly identifies the process of reaching thermal equilibrium, applies the conservation of energy to find the final temperature, and uses the appropriate entropy formula to quantify the change in entropy for the mixed water system.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10305"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_24_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the electrostatic force acting on a 10.0 g block with a charge of +8.00 \\times\n10^-5 C in the electric field E = (3000 i - 600 j) N/C, and discuss the underlying\nprinciples involved.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the electrostatic force acting on a 10.0 g block with a charge of +8.00\n\\times 10^-5 C in the electric field E = (3000 i - 600 j) N/C, we use the equation F = qE,\nwhere F is the force, q is the charge, and E is the electric field vector. Substituting\nthe given values, we find F = (8.00 \\times 10^-5 C) * (3000 i - 600 j) N/C, which results\nin a force vector of (0.24 i - 0.048 j) N. The magnitude of this force can be calculated\nusing the Pythagorean theorem, yielding approximately 0.245 N. This calculation\nillustrates the fundamental principle that the electrostatic force on a charge in an\nelectric field is directly proportional to the magnitude of the charge and the strength of\nthe electric field, highlighting the interaction between electric charges and fields in\nelectrostatics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formula for electrostatic force, F = qE, using the given charge and electric field vector, and correctly computes both the vector and magnitude of the resulting force.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9651"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

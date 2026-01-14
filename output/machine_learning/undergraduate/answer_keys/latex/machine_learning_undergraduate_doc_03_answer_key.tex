@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 3 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Decreases model bias; B) Decreases estimation bias; C) Decreases variance; D) Doesn't affect bias and variance
+\\ \textit{Note:} Adding more basis functions in a linear model allows for a more flexible representation of the data, which helps reduce model bias by enabling the model to better capture the underlying patterns in the data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The softmax function is indeed used in multiclass logistic regression to convert logits into probabilities, and the temperature parameter in a nonuniform softmax distribution modifies the distribution's sharpness, thereby influencing its entropy.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm primarily affects the convergence speed and efficiency of training rather than addressing the model complexity or generalization issues that contribute to overfitting.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Nando de Frietas; B) Yann LeCun; C) Stuart Russell; D) Jitendra Malik
+\\ \textit{Note:} Stuart Russell is widely recognized for his work on the potential existential risks of artificial intelligence and has extensively addressed the implications of AI safety and alignment in his research and public discussions.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) good fitting; B) overfitting; C) underfitting; D) all of the above
+\\ \textit{Note:} Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and new, unseen data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the output of a sigmoid node is bounded between 0 and 1, not encompassing all real numbers.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} One-class detection aims to identify instances that differ from a defined normal class, while out-of-distribution detection specifically seeks to identify instances that do not belong to any of the known classes, indicating that they are not synonymous.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DenseNets require more memory than ResNets because their architecture involves dense connectivity between layers, leading to a significant increase in the number of feature maps that must be stored and processed at each layer.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the null space of a matrix is determined by the number of linearly independent solutions to the homogeneous equation Ax = 0, and a dimensionality of 2 indicates that there are two such independent solutions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} As the error rate decreases, a larger sample size is required to detect meaningful differences and achieve statistical significance due to the reduced variability in the results.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_elim(num): | return count\_elim
+\\ \textit{Note:} incorrect because it does not provide a complete function to count elements in a list until a tuple is encountered, lacking both the necessary logic and structure to fulfill the requirement.
+\item \textbf{Answer:} def rear\_extract(test\_list): | return (res)
+\\ \textit{Note:} correct as it outlines a function that presumably processes a list of tuples to extract the last element from each tuple, which is the intended operation described in the question.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

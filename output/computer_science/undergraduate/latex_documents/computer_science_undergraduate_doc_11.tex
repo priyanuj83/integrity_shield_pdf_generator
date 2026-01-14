@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - Undergraduate Level Assessment 11 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Which types of functions grow the slowest?
+\begin{enumerate}[label=(\alph*)]
+    \item O(log $e^N$)
+    \item O(log N)
+    \item O(log log N)
+    \item O(N)
+\end{enumerate}
+\item Church's thesis equates the concept of "computable function" with those functions computable by, for example, Turing machines. Which of the following is true of Church's thesis?
+\begin{enumerate}[label=(\alph*)]
+    \item It was first proven by Alan Turing.
+    \item It has not yet been proven, but finding a proof is a subject of active research.
+    \item It can never be proven.
+    \item It is now in doubt because of the advent of parallel computers.
+\end{enumerate}
+\item Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is
+\begin{enumerate}[label=(\alph*)]
+    \item 53
+    \item 29
+    \item 50
+    \item 100
+\end{enumerate}
+\item What is the output of "abc"[::-1] in Python 3?
+\begin{enumerate}[label=(\alph*)]
+    \item Error
+    \item abc
+    \item cba
+    \item c
+\end{enumerate}
+\item The boolean expression a[i] == max || !(max != a[i]) can be simplified to
+\begin{enumerate}[label=(\alph*)]
+    \item a[i] == max
+    \item a[i] != max
+    \item a[i] \textless{} max || a[i] \textgreater{} max
+    \item FALSE
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: In Python 3, the element at index 1 of the list ['a', 'Chemistry', 0, 1] is 'Chemistry'.
+\item True or False: Confidentiality is compromised when someone logs into a system using a stolen login and password.
+\item True or False: Reference counting is not effective for reclaiming cyclic structures due to its inability to detect circular references.
+\item True or False: The method 'ab'.sort() can be used to sort the characters in the string 'ab' in place.
+\item True or False: Static allocation is sufficient for managing the memory of recursive procedures without any issues.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a python function to check whether a sequence of numbers has an increasing trend or not.
+\item Write a function to check if the given tuple has any none value or not.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

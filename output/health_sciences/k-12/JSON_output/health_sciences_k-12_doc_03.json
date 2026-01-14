@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_03",
+  "document_name": "Health Sciences - K-12 Level Assessment 3",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_03.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_03_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the density of fat free mass?",
+      "options": {
+        "A": "0.900 g/cm 3",
+        "B": "0.730 g/cm 3",
+        "C": "1.100 g/cm 3",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The density of fat-free mass is approximately 1.100 g/cm\u00b3 because this value represents the average density of lean body tissues, which includes muscles, bones, and organs, excluding fat.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9500"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Molecules of natural polyunsaturated fatty acids in vegetable oils contain:",
+      "options": {
+        "A": "18 carbon atoms with one carbon-carbon double bond in the cis configuration",
+        "B": "20 carbon atoms with at least two carbon-carbon double bonds in the cis configuration",
+        "C": "18 carbon atoms with at least two carbon-carbon double bonds in the trans configuration",
+        "D": "18 carbon atoms with at least two carbon-carbon double bonds in the cis configuration"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is accurate because natural polyunsaturated fatty acids typically have 18 carbon atoms and feature at least two double bonds in the cis configuration, which is common in many vegetable oils, contributing to their health benefits.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9624"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The thermic effect of food",
+      "options": {
+        "A": "is substantially higher for carbohydrate than for protein",
+        "B": "is accompanied by a slight decrease in body core temperature.",
+        "C": "is partly related to sympathetic activity stimulation in the postprandial phase",
+        "D": "is not attenuated by food malabsorption."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The thermic effect of food is influenced by sympathetic nervous system activity, which increases metabolism and energy expenditure during the digestion and absorption of nutrients after eating.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9679"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does not occur with increasing age?",
+      "options": {
+        "A": "A reduction in lean body mass",
+        "B": "A reduction in bone density",
+        "C": "An increased appetite",
+        "D": "Impaired immune function"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As individuals age, their metabolism typically slows down, often leading to a decrease in appetite rather than an increase.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9432"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What are the main enzyme systems for catalysing ethanol to acetaldehyde?",
+      "options": {
+        "A": "Alcohol dehydrogenase (ADH)",
+        "B": "Catalase",
+        "C": "Alcohol dehydrogenase (ADH), cytochrome P 450 2 E 1 (CYP 2 EI), catalase",
+        "D": "cytochrome P 450 2 E 1 (CYP 2 EI)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer identifies the primary enzyme systems\u2014alcohol dehydrogenase (ADH), cytochrome P450 2E1 (CYP2E1), and catalase\u2014that are responsible for the oxidation of ethanol to acetaldehyde in the human body, highlighting their distinct roles in alcohol metabolism.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9451"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Lactose is always the cause of milk intolerance in all individuals.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lactose intolerance varies among individuals, and while some people cannot digest lactose due to a deficiency of the enzyme lactase, others can consume milk without any issues.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9581"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Macrobiotic and vegan diets are generally low in sugar content.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Macrobiotic and vegan diets primarily consist of whole, plant-based foods that are naturally low in added sugars and refined carbohydrates, leading to a lower overall sugar content.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15064"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Additional dietary protein can stimulate the production of insulin-like growth hormone, which supports growth and muscle development.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Additional dietary protein provides the amino acids necessary for the body to produce insulin-like growth factor (IGF-1), which plays a crucial role in stimulating growth and muscle development.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9700"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Cholesterol and fatty acids absorbed from the intestine are packaged into chylomicrons and secreted into the lymph.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cholesterol and fatty acids are absorbed by the intestinal cells and then combined with proteins to form chylomicrons, which are then released into the lymphatic system for transport throughout the body.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Pregnancy and lactation can result in bone mineral loss from the skeleton due to increased calcium demands.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "During pregnancy and lactation, the body requires additional calcium to support fetal development and milk production, which can lead to a decrease in calcium levels in the bones if dietary intake is insufficient.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of pepsinogen and gastric lipase in the digestive process within the\nstomach, and explain how they contribute to digestion.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Pepsinogen and gastric lipase are two important enzymes secreted into the lumen of the\nstomach that play crucial roles in the digestive process. Pepsinogen is an inactive form\nof the enzyme pepsin, which is activated by the acidic environment of the stomach. Once\nactivated, pepsin helps break down proteins into smaller peptides, making them easier for\nthe body to absorb later. Gastric lipase, on the other hand, is responsible for the\ndigestion of fats by breaking down triglycerides into fatty acids and glycerol. Together,\nthese enzymes contribute to the efficient digestion of proteins and fats, ensuring that\nour bodies can obtain essential nutrients from the food we eat.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the functions of pepsinogen and gastric lipase in the stomach, detailing how pepsinogen is activated to digest proteins and how gastric lipase facilitates fat digestion, both of which are essential for effective nutrient absorption.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9686"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_03_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of enteropeptidase in the activation of digestive enzymes in the pancreas\nafter a meal, and explain its significance in the digestive process.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Enteropeptidase plays a crucial role in the activation of digestive enzymes in the\npancreas after a meal. It converts trypsinogen, an inactive enzyme, into its active form,\ntrypsin, by cleaving a specific peptide sequence that blocks trypsin's active site. This\nactivation is significant because trypsin then activates other digestive enzymes, which\nhelp break down proteins in food into smaller peptides and amino acids. Without\nenteropeptidase, trypsinogen would remain inactive, leading to ineffective digestion and\nnutrient absorption. Thus, enteropeptidase is essential for initiating the digestive\nprocess and ensuring that our bodies can properly utilize the nutrients from the meals we\nconsume.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because enteropeptidase is essential for converting trypsinogen into active trypsin, which then activates other digestive enzymes necessary for protein digestion, highlighting its critical role in the digestive process after a meal.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9654"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 14 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 4; B) 1; C) 256; D) 16
+\\ \textit{Note:} The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) A group of cookies stored by the user's Web browser; B) The Internet Protocol (IP) address of the user's computer; C) The user's e-mail address; D) The user's public key used for encryption
+\\ \textit{Note:} A group of cookies stored by the user's Web browser can track and store personal information about browsing habits, preferences, and login details, thereby significantly compromising a user's personal privacy.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 2; B) 6; C) 3; D) 1
+\\ \textit{Note:} The correct answer is 6 because the lambda function r takes an input q and returns it multiplied by 2, so r(3) computes 3 * 2, which equals 6.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It supports automatic garbage collection.; B) It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.; C) Both of the above.; D) None of the above.
+\\ \textit{Note:} The correct answer is "Both of the above" because it acknowledges that multiple statements about Python, such as its versatility and ease of learning, are true, reflecting its wide applicability in various programming contexts.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) All of the preconditions in the program are correct.; B) All of the postconditions in the program are correct.; C) The program may have bugs.; D) Every method in the program may safely be used in other programs.
+\\ \textit{Note:} The conclusion that "the program may have bugs" is correct because the absence of errors during testing does not guarantee that the program is free of all defects, as some bugs may remain undetected due to limitations in the testing process or coverage.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because O(log N) actually grows faster than O(log log N) as N increases, since the logarithmic function increases faster than the logarithm of the logarithmic function.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The isupper() function in Python 3 returns True if all the characters in the string are uppercase letters and there is at least one character, confirming that the statement is accurate.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Python variable names are case-sensitive, meaning that 'Variable' and 'variable' are considered two distinct identifiers.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression x \textless{}\textless{} 3 shifts the binary representation of 1 (which is 0001 in binary) three places to the left, resulting in 1000 in binary, which is equal to 8 in decimal.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the slicing operation `list[1:3]` retrieves the elements at index 1 and 2 from the list `['abcd', 786, 2.23, 'john', 70.2']`, which are 786 and 2.23, resulting in the output `[786, 2.23]`.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def grouping\_dictionary(l): | return d
+\\ \textit{Note:} correct because it indicates the use of a function that will ultimately create a dictionary where each key maps to a list of values, utilizing the collections module to facilitate this grouping process.
+\item \textbf{Answer:} def get\_item(tup 1,index): | return item
+\\ \textit{Note:} correct because it defines a function that takes a tuple and an index as parameters, allowing the retrieval of the specified item from the tuple based on the provided index.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

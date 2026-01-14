@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 25 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Partitioning based clustering; B) K-means clustering; C) Grid based clustering; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because spatial clustering algorithms, such as K-means, DBSCAN, and hierarchical clustering, all utilize specific methods to group data points based on their spatial proximity in a multidimensional space.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) PCA; B) Decision Tree; C) Linear Regression; D) Naive Bayesian
+\\ \textit{Note:} PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction, as it does not rely on labeled output data, unlike supervised learning methods that require labeled training data.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Highway networks indeed follow the introduction of ResNets and utilize convolutions instead of max pooling, making the first statement false, while DenseNets typically require more memory due to their dense connectivity pattern, making the second statement true.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 3; B) 4; C) 7; D) 15
+\\ \textit{Note:} The correct answer is 15 because in a Bayesian network with four variables (H, U, P, and W), each variable can take on multiple states, and without any assumptions of independence, the total number of parameters needed equals the product of the number of states for each variable minus the constraints imposed by the structure of the network, leading to a calculation of 15 independent parameters.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Attributes are equally important.; B) Attributes are statistically dependent of one another given the class value.; C) Attributes are statistically independent of one another given the class value.; D) Attributes can be nominal or numeric
+\\ \textit{Note:} The correct answer is based on the fundamental assumption of Naive Bayes, which posits that attributes are conditionally independent of one another given the class label, making the statement about their statistical dependence incorrect.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Bayesians incorporate prior beliefs about parameters through prior distributions in their probabilistic models, whereas frequentists rely solely on the data at hand without incorporating prior information.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Yann LeCun emphasizes the importance of a combination of supervised, unsupervised, and self-supervised learning, rather than prioritizing self-supervised learning as the sole critical component.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Residual connections are used in both ResNets and Transformers to facilitate the flow of gradients during training, thereby improving convergence and enabling the construction of deeper models.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because MAP incorporates prior information that helps regularize the estimate, reducing its sensitivity to noise in the data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The ResNet-50 model contains approximately 23 million parameters, significantly fewer than 1 billion, which makes it a relatively compact neural network compared to larger models.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def max\_path\_sum(tri, m, n): | return tri[0][0]
+\\ \textit{Note:} The provided answer is incorrect as it simply returns the top element of the triangle without implementing any logic to compute the maximum total path sum from the top to the bottom, which requires evaluating the possible paths and accumulating their sums.
+\item \textbf{Answer:} def text\_match\_three(text): | return 'Found a match!'
+\\ \textit{Note:} The function correctly identifies a match for the specified pattern by checking whether the input string contains the character 'a' followed by exactly three 'b's, thus fulfilling the requirements of the question.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

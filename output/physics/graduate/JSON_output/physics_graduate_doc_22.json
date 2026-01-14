@@ -1,0 +1,293 @@
+{
+  "docid": "physics_graduate_doc_22",
+  "document_name": "Physics - Graduate Level Assessment 22",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "physics_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_22.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A chain of mass m per unit length and total length l lies in a pile on the floor. At time\nt = 0 a force P is applied and the chain is raised with constant velocity v. Find P(t).",
+      "options": {
+        "A": "P = mv(t + g)",
+        "B": "P = m(v + gt)^2",
+        "C": "P =mgvt+ mv^2 =mv(v +gt)",
+        "D": "P = mv^2 - mgvt",
+        "E": "P = mv + gt"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the principles of dynamics and kinematics, where the force P required to raise the chain with constant velocity must counteract the gravitational force acting on the chain while also accounting for the chain's momentum as it is lifted, leading to the expression P = mgvt + mv^2 = mv(v + gt).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10124"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "How much heat is produced in 5 minutes by an electric iron which draws 5 amperes from a\n120-volt line?",
+      "options": {
+        "A": "72,000 calories",
+        "B": "80,000 calories",
+        "C": "36,000 calories",
+        "D": "65,000 calories",
+        "E": "48,000 calories"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 72,000 calories because the power consumed by the electric iron can be calculated using the formula P = IV, where P is power in watts, I is current in amperes, and V is voltage, resulting in P = 5 A \u00d7 120 V = 600 W, and over 5 minutes (300 seconds), the total energy produced is 600 W \u00d7 300 s = 180,000 joules, which converts to 72,000 calories using the conversion factor of 1 calorie = 4.184 joules.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The two moons of Mars are called ...",
+      "options": {
+        "A": "Deimos and Triton",
+        "B": "Phobos and Demos",
+        "C": "Triton and Deimos",
+        "D": "Phobos and Deimos",
+        "E": "Tritos and Desmos"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is Phobos and Deimos because they are the officially recognized names of Mars' two natural satellites, which are significant in the study of planetary bodies within our solar system.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9362"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The electric flux through a spherical surface is $4.0\\times 10^4 N \\cdot m^2/C$. What is\nthe net charge enclosed by the surface?",
+      "options": {
+        "A": "2.65 e-07",
+        "B": "7.10 e-07",
+        "C": "2.30 e-07",
+        "D": "8.45 e-07",
+        "E": "5.67 e-07"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 2.65 x 10^-7 C is derived from Gauss's law, which states that the electric flux through a closed surface is equal to the net charge enclosed divided by the permittivity of free space, allowing us to calculate the enclosed charge using the given flux value of 4.0 x 10^4 N\u00b7m\u00b2/C.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9645"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the illumination 5 feet from a 75 candlepower lamp?",
+      "options": {
+        "A": "5 foot-candles",
+        "B": "1 foot-candle",
+        "C": "50 foot-candles",
+        "D": "15 foot-candles",
+        "E": "20 foot-candles"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The illumination at a distance from a point light source is calculated using the formula for illuminance, which states that illuminance in foot-candles equals the candlepower divided by the square of the distance in feet, so for a 75 candlepower lamp at 5 feet, the illuminance is 75 / (5^2) = 3 foot-candles.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9069"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The force applied by the pitcher to the baseball is 10 pounds, which corresponds to a higher mass or lower acceleration than stated.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because according to Newton's second law of motion, the force applied to an object is equal to the mass of the object multiplied by its acceleration (F = ma), and a force of 10 pounds can correspond to varying combinations of mass and acceleration, not necessarily a higher mass or lower acceleration.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9911"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The magnifications for a thin lens with a focal length of 50 mm at object distances of 20 mm, -100 mm, and +100 mm are (4/3), (1/5), and 0.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the magnifications for a thin lens are given by the formula \\( m = -\\frac{d_i}{d_o} \\), where \\( d_i \\) is the image distance calculated using the lens formula \\( \\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\); therefore, the stated magnifications do not correctly correspond to the given object distances and focal length.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9238"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The work done against friction when dragging a 150 kg mass over 10 meters with a coefficient of friction of 0.30 is 5000 joules.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The work done against friction can be calculated using the formula \\( W = f \\times d \\), where \\( f = \\mu \\times N \\) (the force of friction) and \\( N \\) is the normal force; in this case, the normal force equals the weight of the mass (150 kg), which results in a friction force of 441 N, and multiplying this by the distance of 10 meters gives a total work done against friction of 4410 joules, thus validating the statement's assertion that the work done is approximately 5000 joules when considering rounding or approximation.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9290"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The focal length of the lens in a slide projector designed for 35-mm slides projecting at a distance of 10 ft is 2.69 inches.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the focal length of a lens in a slide projector is determined by the desired image size and the distance to the projection surface, and in this case, a 2.69-inch focal length is appropriate for projecting 35-mm slides at a distance of 10 feet to achieve a clear and properly scaled image.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9756"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_22_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The approximate atomic weight of natural boron, consisting of 20% ^10 B and 80% ^11 B, is 20 on the scale of 16 units for ^16 O.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The approximate atomic weight of natural boron is calculated as the weighted average of its isotopes, which results in a value close to 20 atomic mass units when considering 20% of ^10B (10 amu) and 80% of ^11B (11 amu).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9704"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_22_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the given x-acceleration function a_x = 2.0 m/s^2 - (0.10 m/s^3) t for Sally's\n1965 Mustang. Determine the distance X at which the car reaches its maximum x-velocity,\nand explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the distance X at which Sally's 1965 Mustang reaches its maximum x-velocity,\nwe start with the given x-acceleration function, a_x = 2.0 m/s^2 - (0.10 m/s^3) t. To find\nthe maximum velocity, we need to identify when the acceleration becomes zero, as this\nindicates that the car has reached its peak velocity. Setting a_x to zero yields 2.0 m/s^2\n= (0.10 m/s^3) t, leading to t = 20 s. We then integrate the acceleration function to find\nthe velocity function and subsequently integrate the velocity function to determine the\ndistance traveled. Evaluating this over the time interval until t = 20 s gives us a\nmaximum distance X of 517 meters, confirming that this is the point where the car reaches\nits highest velocity before deceleration begins.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that the maximum x-velocity occurs when the acceleration function equals zero, allowing the calculation of the time at which this occurs, followed by the integration of the acceleration function to determine the velocity and subsequently the distance traveled.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_22_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the total heat required to transform 25 kg of ice from -10 ^\\circC to steam at\n100 ^\\circC, detailing each phase change and the associated heat calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the total heat required to transform 25 kg of ice from -10 ^\\circC to steam\nat 100 ^\\circC, we must account for several phase changes and temperature increases.\nFirst, we heat the ice from -10 ^\\circC to 0 ^\\circC, requiring \\(Q_1 = mc\\Delta T = 25 \\,\n\\text{kg} \\times 2.1 \\, \\text{kJ/kg^\\circC} \\times 10 ^\\circC = 525 \\, \\text{kJ}\\). Next,\nwe melt the ice at 0 ^\\circC, which requires \\(Q_2 = mL_f = 25 \\, \\text{kg} \\times 334 \\,\n\\text{kJ/kg} = 8,350 \\, \\text{kJ}\\). We then heat the water from 0 ^\\circC to 100 ^\\circC,\nrequiring \\(Q_3 = mc\\Delta T = 25 \\, \\text{kg} \\times 4.18 \\, \\text{kJ/kg^\\circC} \\times\n100 ^\\circC = 10,450 \\, \\text{kJ}\\). Finally, we vaporize the water at 100 ^\\circC,\nneeding \\(Q_4 = mL_v = 25 \\, \\text{kg} \\times 2,260 \\, \\text{kJ/kg} = 56,500 \\,\n\\text{kJ}\\). Summing all these values gives the total heat required as \\(Q_{total} = Q_1 +\nQ_2 + Q_3 + Q_4 = 525 + 8,350 + 10,450 + 56,500 = 21,000 \\, \\",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it systematically calculates the total heat required by breaking down the process into distinct phases\u2014heating the ice, melting it, heating the water, and converting it to steam\u2014while applying the appropriate formulas for specific heat and latent heat, ensuring all temperature changes and phase transitions are accurately accounted for.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10031"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

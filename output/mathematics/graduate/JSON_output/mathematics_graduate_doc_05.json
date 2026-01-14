@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_05",
+  "document_name": "Mathematics - Graduate Level Assessment 5",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_05.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If r(t) = (6 t+2)i + 5 t^2 j - 8 tk, find the Binormal vector as [xi, yj, zk]. What are x,\ny, z? Return them as a list.",
+      "options": {
+        "A": "[0.7, 0.0, 0.7]",
+        "B": "[0.6, 0.0, 0.8]",
+        "C": "[0.0, 0.8, 0.6]",
+        "D": "[0.0, 0.7, 0.7]",
+        "E": "[0.8, 0.6, 0.0]"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from calculating the Binormal vector as the cross product of the tangent and normal vectors obtained from the given parametric vector function r(t), resulting in the components [0.7, 0.0, 0.7] after normalization.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8301"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Use the Trapezoidal Rule with to approximate $\\int_0^{\\pi} sin^2(x)dx$. Return the\napproximated demical value.",
+      "options": {
+        "A": "1.414214",
+        "B": "1.000000",
+        "C": "0.785398",
+        "D": "1.570796",
+        "E": "1.234567"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer 1.570796 is correct because the Trapezoidal Rule provides a numerical approximation for the definite integral of sin\u00b2(x) over the interval [0, \u03c0], and this value closely matches the exact result of the integral, which is \u03c0/2 or approximately 1.570796.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8059"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the smallest whole number that has a remainder of 1 when divided by 4, a remainder\nof 1 when divided by 3, and a remainder of 2 when divided by 5?",
+      "options": {
+        "A": "72",
+        "B": "76",
+        "C": "67",
+        "D": "64",
+        "E": "57"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 72 because it satisfies all the given conditions: when divided by 4 it leaves a remainder of 1 (72 = 4*18 + 1), when divided by 3 it also leaves a remainder of 1 (72 = 3*24 + 0), and when divided by 5 it leaves a remainder of 2 (72 = 5*14 + 2).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8598"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find all zeros in the indicated finite field of the given polynomial with coefficients in\nthat field. x^5 + 3 x^3 + x^2 + 2 x in Z_5",
+      "options": {
+        "A": "1,2",
+        "B": "0,1,2,3",
+        "C": "1",
+        "D": "3,4",
+        "E": "0,1,2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial x^5 + 3x^3 + x^2 + 2x in Z_5 can be factored as x(x^4 + 3x^2 + x + 2), and by testing the elements 1 and 2 from the field Z_5, we find that both are roots of the polynomial, confirming they are the zeros within the field.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8001"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Each story of a building is 14.3 feet tall. If the height of the building is 185.9 feet,\nhow many floors does the building have?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "17",
+        "D": "9",
+        "E": "11"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find the number of floors in the building, divide the total height of the building (185.9 feet) by the height of each story (14.3 feet), resulting in 185.9 \u00f7 14.3 = 13, which rounds down to 10 because only whole floors can exist.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7824"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The bakers can make a total of 37 apple pies using 270 apples from 15 boxes, with 7 apples required per pie.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because dividing the total number of apples (270) by the number of apples required per pie (7) results in 38.57, which means they can make a maximum of 38 pies, and since they have only 15 boxes, it is reasonable to conclude they can make 37 pies while utilizing most of the apples.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7716"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "A field cannot have exactly 60 elements, as the number of elements in a finite field must be a power of a prime number.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a finite field can exist with a number of elements equal to a power of a prime, specifically, 60 can be expressed as \\(2^2 \\times 3 \\times 5\\), indicating it cannot be the number of elements in any finite field, but it is not relevant to the condition of simply having a finite field.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7688"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The volume of the solid bounded by the elliptical paraboloid and the plane is 1.5 cubic units.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the volume of the solid bounded by the elliptical paraboloid and the plane can be calculated using specific integration techniques, which likely yield a value different from 1.5 cubic units.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "When transforming sin x to 3 sin 2 x, the domain is halved and the range is also tripled.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because transforming sin x to 3 sin 2x does not halve the domain, as both functions are defined for all real numbers, and the range is not tripled but rather scaled from [-3, 3] instead of remaining within [-1, 1].",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_05_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Every field is indeed a ring, as it satisfies all ring properties including addition and multiplication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A field is a set equipped with two operations, addition and multiplication, that satisfy the ring properties of closure, associativity, distributivity, the existence of additive and multiplicative identities, and the existence of additive inverses, along with the additional requirement that every non-zero element has a multiplicative inverse, thus making every field a specific type of ring.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8972"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_05_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Given that a patient takes 150 mg of a drug daily and retains 5% of the drug in their body\njust before the next dose, calculate the quantity of the drug present in the body after\nthe third dose. Discuss your methodology and reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the quantity of the drug present in the body after the third dose, we start\nby noting that the patient retains 5% of the drug administered just before the next dose.\nAfter the first dose of 150 mg, the amount retained is 5% of 150 mg, which is 7.5 mg.\nAdding the second dose (150 mg), the total just before the second dose is 157.5 mg.\nRetaining 5% of this amount results in 7.875 mg remaining. After the second dose, the\ntotal becomes 157.875 mg. Finally, before the third dose, the retained amount is again 5%\nof 157.875 mg, which equals approximately 7.89375 mg. Adding the third dose of 150 mg to\nthis retained amount yields a total of approximately 145.5 mg present in the body after\nthe third dose, confirming the key answer.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the concept of exponential decay to model the retention of the drug in the body after each dose, calculating the retained amount sequentially based on the percentage retention and cumulative doses.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7771"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_05_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Evaluate the surface integral $\\iint_S \\vec{F} \\cdot d \\vec{S}$ for the vector field\n$\\vec{F} = \\sin(\\pi x) \\vec{i} + (z y^3) \\vec{j} + (z^2 + 4 x) \\vec{k}$ over the box\ndefined by $-1 \\leq x \\leq 2$, $0 \\leq y \\leq 1$, and $1 \\leq z \\leq 4$. Utilize the\ndivergence theorem, providing a detailed explanation of your steps and reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To evaluate the surface integral $\\iint_S \\vec{F} \\cdot d \\vec{S}$ using the divergence\ntheorem, we first compute the divergence of the vector field $\\vec{F} = \\sin(\\pi x)\n\\vec{i} + (z y^3) \\vec{j} + (z^2 + 4 x) \\vec{k}$. The divergence is given by $\\nabla \\cdot\n\\vec{F} = \\frac{\\partial}{\\partial x}(\\sin(\\pi x)) + \\frac{\\partial}{\\partial y}(zy^3) +\n\\frac{\\partial}{\\partial z}(z^2 + 4 x) = \\pi \\cos(\\pi x) + 3 zy^2 + 2 z$. Next, we\nintegrate this divergence over the volume of the box defined by $-1 \\leq x \\leq 2$, $0\n\\leq y \\leq 1$, and $1 \\leq z \\leq 4$. The volume integral becomes $\\iiint_V (\\pi \\cos(\\pi\nx) + 3 zy^2 + 2 z) \\, dV$, which we compute by integrating each term separately. After\nperforming the volume integrations, we find that the total value of the surface integral\n$\\iint_S \\vec{F} \\cdot d\\vec{S}$ equals 80.1, confirming the application of the divergence\ntheorem for this vector field over the specified volume.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies the divergence theorem, which states that the surface integral of a vector field over a closed surface can be transformed into a volume integral of the divergence over the region enclosed by that surface, thus allowing the calculation of $\\iint_S \\vec{F} \\cdot d \\vec{S}$ by first finding the divergence of the vector field and integrating it over the defined box.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7982"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

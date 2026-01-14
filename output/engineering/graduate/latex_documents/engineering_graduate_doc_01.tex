@@ -1,6 +1,11 @@
 \documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
 \usepackage{enumitem}
 \usepackage{geometry}
+\usepackage{graphicx}
 \usepackage{amsmath, amssymb}
 \geometry{margin=1in}
 \begin{document}
@@ -12,62 +17,64 @@ Answer all questions.
 
 \section*{Multiple Choice (10 marks)}
 \begin{enumerate}[label=\arabic*.]
-\item Find the solution for the equationX=AX+bu;X(0) = X\_0 where A=\textbackslash\{\}vert10\textbackslash\{\}vert,b=\textbackslash\{\}vert1\textbackslash\{\}vert,X\_0 =\textbackslash\{\}vert- 1\textbackslash\{\}vert, \textbackslash\{\}vert- 22\textbackslash\{\}vert\textbackslash\{\}vert2\textbackslash\{\}vert\textbackslash\{\}vert0\textbackslash\{\}vert u(t) =...
+\item The ROM programmed during manufacturing process itself is called
 \begin{enumerate}[label=(\alph*)]
-    \item -3
-    \item 2
-    \item 0
-    \item 3
+    \item PROM
+    \item MROM
+    \item DRAM
+    \item EPROM
+    \item SRAM
+\end{enumerate}
+\item An electromagnetic wave of 40 KHzis radiated by an antenna . Find the time taken by this wave to reach a point 60 km away.
+\begin{enumerate}[label=(\alph*)]
+    \item 0.3 msec
+    \item 0.8 msec
+    \item 0.6 msec
+    \item 0.25 msec
+    \item 0.1 msec
+\end{enumerate}
+\item Evaluate the Laplace inverse of F(s) = [(5 s 2 - 15 s + 7) / \{(s + 1)(s - $2)^3$\}]
+\begin{enumerate}[label=(\alph*)]
+    \item - e^-t - $e^2$ t + 2 $te^2$ t - ($t^2$ / $2)e^2$ t
+    \item e^-t - 2 $e^2$ t + 3 $te^2$ t - ($t^3$ / $6)e^2$ t
+    \item -e^-t + 3 $e^2$ t - $t^2$ $e^2$ t
+    \item -e^-t + 2 $e^2$ t - 2 $te^2$ t + ($t^3$ / $3)e^2$ t
+    \item e^-t + $e^2$ t - 2 $te^2$ t + ($t^2$ / $2)e^2$ t
+\end{enumerate}
+\item Use Laplace's equation to find the capacitance of a parallel platecapacitor.
+\begin{enumerate}[label=(\alph*)]
+    \item C= (\ensuremath{\epsilon}^2 S/ d)
+    \item C= (\ensuremath{\epsilonS}/ $d^2$)
+    \item C= (\ensuremath{\epsilonS}/ d)
+    \item C= (\ensuremath{\epsilon}/ dS)
+\end{enumerate}
+\item In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch
+\begin{enumerate}[label=(\alph*)]
+    \item 150
+    \item 100
+    \item 200
+    \item 5
     \item 10
-\end{enumerate}
-\item At a frequency of 1590 Hz find (a) the characteristic impedance; (b) the phase velocity of wave propagation for a transmissionline with the following...
-\begin{enumerate}[label=(\alph*)]
-    \item Z\_0 = 30 ngle-10$^\circ$\textbackslash\{\}Omega, \textbackslash\{\}cup = 3.5 $\times$ 10\^{}7 meters/sec
-    \item Z\_0 = 40 ngle-30$^\circ$\textbackslash\{\}Omega, \textbackslash\{\}cup = 2.5 $\times$ 10\^{}7 meters/sec
-    \item Z\_0 = 37.5 ngle-20$^\circ$\textbackslash\{\}Omega, \textbackslash\{\}cup = 2.96 $\times$ 10\^{}7 meters/sec
-    \item Z\_0 = 35 ngle-15$^\circ$\textbackslash\{\}Omega, \textbackslash\{\}cup = 3 $\times$ 10\^{}7 meters/sec
-\end{enumerate}
-\item A dc motor requires 10 kilowatts to enable it to supply its full capacity of 10 horsepower to its pulley. What is its full-load efficiency ?
-\begin{enumerate}[label=(\alph*)]
-    \item 74.6\%
-    \item 65\%
-    \item 50\%
-    \item 85\%
-    \item 92\%
-\end{enumerate}
-\item Find the input impedance of a 50-ohm line terminated in +j50 ohms, for a line length such that\textbackslash\{\}betad= (\textbackslash\{\}pi/1) radian.
-\begin{enumerate}[label=(\alph*)]
-    \item 100 ohms
-    \item 25 ohms
-    \item j100 ohms
-    \item 50 ohms
-    \item - j50 ohms
-\end{enumerate}
-\item A rigid tank contains 1lbmof air and 0.2lbmof saturated water vapor at 250$^\circ$F. Determine the volume of the tank and the total pressure of the air-vapor mixture.
-\begin{enumerate}[label=(\alph*)]
-    \item V = 3.2 ft\^{}3, P\_t = 128psia
-    \item V = 2.766 ft\^{}3, P\_t = 124.92psia
-    \item V = 2.5 ft\^{}3, P\_t = 120psia
-    \item V = 2.2 ft\^{}3, P\_t = 140psia
-    \item V = 3.0 ft\^{}3, P\_t = 115psia
 \end{enumerate}
 \end{enumerate}
 
 \section*{True / False (10 marks)}
-\textit{Answer True or False and justify briefly.}
+\textit{Answer True or False}
 \begin{enumerate}[label=\arabic*.]
-\item True or False: The correct answer to 'A plate 1 ft. high and 2 ft. wide is welded inside a reservoir to heatthe water at 70$^\circ$F. Determine the required surface temperatureof the...' is '120.4$^\circ$F'.
-\item True or False: The correct answer to 'Compute the surface temperature of a 1/12 in. diameter resistance wire generating heat at the rate of 236.77 Btu/hr per foot length. The...' is '1700$^\circ$F'.
-\item True or False: The correct answer to 'The number of rings in the Bohr model of any element is determined by what?' is 'Atomic mass.'.
-\item True or False: The correct answer to 'The errors mainly caused by human mistakes are' is 'gross error.'.
-\item True or False: The correct answer to 'Given the transfer function of a two port network H( \textbackslash\{\}omega ) = \textbackslash\{\}vertH(\textbackslash\{\}omega\_0)\textbackslash\{\}vert exp(-j\textbackslash\{\}textphi). \textbackslash\{\}omega Derive an expression for...' is 'ertH(\textbackslash\{\}omega\_0) ertcos(\textbackslash\{\}omega\_0t - extphi)'.
+\setcounter{enumi}{5}
+\item True or False: The maximum pressure exerted on an aircraft flying at 200 mph at sea level is 19.5 psia.
+\item True or False: Zinc silicate is a fluorescent material that exhibits red color fluorescence under UV light.
+\item True or False: The correct answer to 'Suppose a fluid particle moves according to the equations x = at, y =bt- $ct^2$, where a, b, c are constants. Find the normal and...' is 'a\_n = [(2 ca) / \ensuremath{\surd{a^2 - (b - 2 ct)^2}}], a\_t = [\{2 c(b - 2 ct)\} / \ensuremath{\surd{a^2 - (b - 2 ct)^2}}]'.
+\item True or False: The entropy change can be expressed as ds = C\_p (dT/T) + (R/J)(dp/p).
+\item True or False: The Laplace transform of f(t) = cos(kt) for t \textgreater{} 0 is s / ($s^2$ + $k^2$), valid for s \textgreater{} 0.
 \end{enumerate}
 
 \section*{Long Form Response (20 marks)}
-\textit{Provide thorough reasoning and reference key steps.}
+\textit{Answer each question with a clear and complete explanation.}
 \begin{enumerate}[label=\arabic*.]
-\item The surface of a space ship, at temperature 40$^\circ$F and emissivity0.1, is exposed to space. Consider the space as a perfectblack body at temperature 0$^\circ$R,and the space ship as agray infinite cylinder. Calculate the net radiant heat loss persquare foot.
-\item Which of these sets of logic gates are designated as universal gates?
+\setcounter{enumi}{10}
+\item Given the conditions of air flow at a velocity of 224 fps, a pressure of 14.7 psia, and a temperature of 17^\ensuremath{\circC}, analyze and calculate the Mach number of the flow. Discuss the implications of your findings in the context of fluid dynamics.
+\item Discuss the number of entries in the truth table of a 3-input NAND gate, and analyze how the number of inputs affects the overall functionality and characteristics of the gate.
 \end{enumerate}
 
 \vfill

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 4 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Round-robin; B) Priority queuing; C) Shortest job first; D) Youngest job first
+\\ \textit{Note:} Round-robin scheduling is starvation-free because it allocates a fixed time slice to each job in a cyclic order, ensuring that every job receives regular service without indefinite waiting.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) \{AND, NOT\}; B) \{NOT, OR\}; C) \{AND, OR\}; D) \{NAND\}
+\\ \textit{Note:} The set \{AND, OR\} is not complete because it lacks the NOT operator, which is essential for representing all possible Boolean expressions by allowing for the negation of values.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) ( 'abcd', 786 , 2.23, 'john', 70.2 ); B) abcd; C) Error; D) None of the above.
+\\ \textit{Note:} The correct answer is 'abcd' because in Python, indexing starts at 0, and accessing tuple[0] retrieves the first element of the tuple, which is 'abcd'.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Temporary inconsistencies among views of a file by different machines can result; B) The file system is likely to be corrupted when a computer crashes; C) A much higher amount of network traffic results; D) Caching makes file migration impossible
+\\ \textit{Note:} The correct answer highlights that local caching can lead to temporary discrepancies in the file's state across different machines, as updates made on one machine may not be immediately reflected on others, resulting in inconsistent views of the same file.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It supports automatic garbage collection.; B) It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.; C) Both of the above.; D) None of the above.
+\\ \textit{Note:} The correct answer is "Both of the above" because it indicates that multiple statements about Python, likely regarding its features or capabilities, are accurate, showcasing the language's versatility and widespread applicability in programming.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the regular expression a*(c + d)* + b(c + d)* allows for strings that start with zero or more 'a's or a single 'b' followed by zero or more 'c's or 'd's, while (a* + b)*(c + d) allows for any combination of 'a's and 'b's followed by at least one 'c' or 'd', thus representing different sets of strings.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because in Python, the modulus operator (\%) has higher precedence than the addition operator (+), so the expression is evaluated as 4 + (3 \% 2), resulting in 4 + 1, which equals 5.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the '+' operator concatenates strings, so 'a' + 'ab' results in the combined string 'aab'.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because for each of the m elements in set A, there are n possible choices in set B, leading to a total of $n^m$ distinct functions when considering all combinations of mappings.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression evaluates to the string 'Chemistry', which is at index 1 of the list, not the integer 1.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def is\_Power\_Of\_Two (x): | return x and (not(x \& (x - 1))) | def differ\_At\_One\_Bit\_Pos(a,b): | return is\_Power\_Of\_Two(a ^ b)
+\\ \textit{Note:} correct because it leverages the property that two numbers differ at exactly one bit position if their bitwise XOR results in a power of two, which is determined by the function is\_Power\_Of\_Two.
+\item \textbf{Answer:} def convert\_list\_dictionary(l 1, l 2, l 3): | return result
+\\ \textit{Note:} correct because it indicates the creation of a function that takes multiple lists as input, suggesting the intention to organize the data from these lists into a structured nested dictionary format, although the implementation details for building the result are not provided.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

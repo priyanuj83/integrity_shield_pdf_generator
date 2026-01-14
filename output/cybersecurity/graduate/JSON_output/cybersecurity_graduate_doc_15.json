@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_15",
+  "document_name": "Cybersecurity - Graduate Level Assessment 15",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_15.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The digest created by a hash function is normally called a",
+      "options": {
+        "A": "Modication detection code (MDC)",
+        "B": "Modify authentication connection",
+        "C": "Message authentication control",
+        "D": "Message authentication cipher"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is Modification Detection Code (MDC) because a hash function generates a unique digest that serves to verify the integrity of data by detecting any alterations made to the original content.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1532"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following styles of fuzzer is more likely to explore paths covering every\nline of code in the following program?",
+      "options": {
+        "A": "Generational",
+        "B": "Blackbox",
+        "C": "Whitebox",
+        "D": "Mutation-based"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Whitebox fuzzers have access to the program's internal structure and logic, enabling them to systematically explore all code paths and ensure comprehensive coverage, making them more effective than other styles in achieving line coverage.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The ____________ is anything which your search engine cannot search.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Surface web",
+        "D": "Deep Web"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Deep Web refers to all parts of the internet that are not indexed by traditional search engines, including databases, private content, and other resources, making it inaccessible for standard search queries.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "SHA-1 has a message digest of",
+      "options": {
+        "A": "160 bits",
+        "B": "512 bits",
+        "C": "628 bits",
+        "D": "820 bits"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "SHA-1 produces a hash value that is 160 bits long, which is a fundamental characteristic of the SHA-1 hashing algorithm used in cryptography.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is true of mutation-based fuzzing?",
+      "options": {
+        "A": "It generates each different input by modifying a prior input",
+        "B": "It works by making small mutations to the target program to induce faults",
+        "C": "Each input is mutation that follows a given grammar",
+        "D": "It only makes sense for file-based fuzzing, not network-based fuzzing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutation-based fuzzing is characterized by its method of creating new test inputs through systematic alterations of existing inputs, thereby allowing it to explore variations that may uncover vulnerabilities in software.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A proxy firewall filters traffic at the physical layer, managing data transmission between devices on a network.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A proxy firewall operates at the application layer of the OSI model, rather than the physical layer, by intercepting and filtering traffic between clients and servers based on application-level protocols.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1528"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "In message confidentiality, the transmitted message must be comprehensible to both the sender and the translator.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In message confidentiality, the transmitted message is meant to be unintelligible to unauthorized parties, including potential interceptors, meaning it does not need to be comprehensible to the translator if they lack the proper decryption key.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1474"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "BurpSuite is primarily designed for monitoring and analyzing wireless traffic in cybersecurity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "BurpSuite is primarily designed for web application security testing, specifically for identifying vulnerabilities in web applications, rather than for monitoring and analyzing wireless traffic.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Message nonrepudiation ensures that a sender cannot deny having sent a particular message.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message nonrepudiation is achieved through mechanisms such as digital signatures, which provide proof of the origin and integrity of a message, thereby preventing the sender from denying their involvement in sending it.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Message integrity ensures that data is received exactly as it was sent, without any modification during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message integrity is achieved through cryptographic techniques that verify that data has not been altered during transmission, confirming that it is received exactly as it was sent.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1542"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the sum of absolute differences in all pairs of the given\narray.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_Pairs(arr,n): | return sum",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function that is intended to compute the sum of absolute differences for all pairs in the given array, which is a fundamental operation in many cybersecurity algorithms for analyzing data variability and ensuring data integrity.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "144"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to add two integers. however, if the sum is between the given range it\nwill return 20.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_nums(x, y,m,n): | return 20 | return sum_nums",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly defines a method that adds two integers, but it lacks the necessary logic to check if the sum falls within the specified range and return 20 accordingly, thus failing to meet the requirements of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "675"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 20 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 2; B) 4; C) 8; D) 16
+\\ \textit{Note:} The correct answer is 8 because in this Bayesian network, there are 3 nodes (H, U, P) that have parent-child relationships, requiring 1 parameter for H, 2 parameters for U (given H), and 2 parameters for P (given U), plus 2 parameters for W (given P), totaling 8 independent parameters to fully specify the joint probability distribution.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} RELU (Rectified Linear Unit) activation functions are indeed non-monotonic due to their zero output for negative inputs, whereas sigmoid functions are monotonic; additionally, neural networks trained with gradient descent do not guarantee convergence to the global optimum due to issues like local minima and saddle points.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm primarily focuses on how the model learns from the training data rather than addressing the issue of overfitting, which is related to the model's complexity and generalization to unseen data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y); B) P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y); C) P(X, Y, Z) = P(Z) * P(X|Z) * P(Y|Z); D) P(X, Y, Z) = P(X) * P(Y) * P(Z)
+\\ \textit{Note:} The correct answer is based on the factorization of the joint probability distribution in a Bayesian network, where the structure X \textless{}- Y -\textgreater{} Z indicates that Y is a parent of both X and Z, allowing the distribution to be expressed as the product of the marginal probability P(Y) and the conditional probabilities P(X|Y) and P(Z|Y).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) p(y|x, w); B) p(y, x); C) p(w|x, w); D) None of the above
+\\ \textit{Note:} Discriminative approaches model the conditional probability of the output variable given the input variables and model parameters, specifically p(y|x, w), focusing on the decision boundary between classes rather than the distribution of the input data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Overfitting occurs when a model learns the training data too well, capturing noise and details that do not generalize to new data, leading to poor performance on unseen datasets.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Naive Bayes assumes that attributes are conditionally independent of each other given the class value, which simplifies the computation of probabilities.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The variance of the Maximum A Posteriori (MAP) estimate is typically lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which regularizes the estimate and reduces its sensitivity to noise in the data, leading to more stable parameter estimates.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} This statement is false because an increase in P(A) and a decrease in P(A, B) can lead to a decrease in P(B|A) due to the relationship P(B|A) = P(A, B) / P(A), illustrating that P(B|A) does not necessarily have to increase to maintain consistency in probabilities.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because calculating the gradient vector g involves computing the derivative of the loss function with respect to each feature, which requires O(D) operations, where D represents the number of features in the dataset.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The assumption of full versus diagonal class covariance matrices in a Gaussian Bayes classifier significantly influences the trade-off between underfitting and overfitting. When full covariance matrices are assumed, the model can capture complex relationships and interactions between features, which may lead to better performance on training data but increases the risk of overfitting, especially in high-dimensional spaces with limited data. Conversely, diagonal covariance matrices simplify the model by assuming feature independence, which can lead to underfitting if the true data distribution exhibits feature correlations. Therefore, the choice between these covariance structures must balance the model's flexibility against its ability to generalize, ultimately affecting its predictive accuracy on unseen data.
+\\ \textit{Note:} correct because assuming full covariance matrices allows the model to represent intricate feature relationships, enhancing training performance but heightening overfitting risk, while diagonal covariance matrices restrict this complexity, potentially leading to underfitting in the presence of rich data patterns.
+\item \textbf{Answer:} To generate a $10 \times 5$ Gaussian matrix with a mean ($\mu$) of 5 and a variance ($\sigma^2$) of 16 using PyTorch, one can utilize the formula \(5 + \text{torch.randn}(10, 5) \times 4\). Here, \(\text{torch.randn}(10, 5)\) produces a matrix of standard normally distributed random numbers, which is then scaled by 4 (the standard deviation, since \(\sigma = \sqrt{16} = 4\)) and shifted by 5 to achieve the desired mean. For the $10 \times 10$ uniform matrix from the uniform distribution \(U[-1,1)\), the expression \(2 \times \text{torch.rand}(10, 10) - 1\) is employed. This generates values uniformly distributed between 0 and 2, which are then shifted to the range of -1 to 1 by scaling and translating appropriately.
+\\ \textit{Note:} correct because it accurately applies the transformation of a standard normal distribution to create a Gaussian matrix with the specified mean and variance while correctly utilizing PyTorch functions to generate random matrices, and it begins the process of generating a uniform matrix from the uniform distribution \(U[-1,1)\).
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

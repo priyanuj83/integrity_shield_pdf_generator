@@ -1,0 +1,296 @@
+{
+  "docid": "engineering_undergraduate_doc_11",
+  "document_name": "Engineering - Undergraduate Level Assessment 11",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_engineering_mcq",
+    "mmlu_engineering_tf",
+    "mmlu_pro_engineering_mcq",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_11.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In force-current analogy, electrical analogous quantity for displacement (x) is",
+      "options": {
+        "A": "inductance.",
+        "B": "resistance.",
+        "C": "impedance.",
+        "D": "voltage.",
+        "E": "capacitance."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - inductance.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11289"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A 7-hp motor takes 6.3 kilowatts at full load. What is its efficiency ?",
+      "options": {
+        "A": "75%",
+        "B": "86%",
+        "C": "95%",
+        "D": "60%",
+        "E": "80%"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 75%",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11771"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find the inverse Laplace transform L^-1[1 / {s(s^2 + 4)}], using the convolution.",
+      "options": {
+        "A": "(1 / 2)(e^(2 t) - 1)",
+        "B": "(1 / 2)(1 + cos 2 t)",
+        "C": "(1 / 4)(1 - cos 2 t)",
+        "D": "(1 / 4)(sin(2 t) - cos(2 t))",
+        "E": "(1 / 2)sin(2 t)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - (1 / 4)(1 - cos 2 t)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11349"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The current through an inductor with inductance L = 10^-3 henryis given as i_L(t) = 0.1\nsin 10^6 t. Find the voltageV_L(t) across this inductor.",
+      "options": {
+        "A": "0.1 cos 10^6 t",
+        "B": "100 cos 10^6 t",
+        "C": "1 cos 10^6 t",
+        "D": "10^-3 cos 10^6 t",
+        "E": "0.01 sin 10^6 t"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 100 cos 10^6 t",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11998"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the inverse Laplace transforms (a) L^-1{2 s / (s^2 + 1)^2}, (b) L^-1{1 / \\surds}",
+      "options": {
+        "A": "t sin t, (1 / \\surd\\pi) ullet (1 / \\surdt)",
+        "B": "cos t, (1 / \\surd\\pi) \\cdot t e^{-t^2}",
+        "C": "e^t sin t, (1 / 2\\surd\\pi) \\cdot t",
+        "D": "t cos t, (1 / \\surd\\pi) ullet (1 / \\surdt)",
+        "E": "t^2 sin t, (1 / 2\\surd\\pi) \\cdot (1 / \\surdt)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - t sin t, (1 / \\surd\\pi) ullet (1 / \\surdt)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11735"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Silicon and Germanium are monovalent elements, each having one valence electron available for bonding.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'tetravalant'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11893"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The first digit from right to left in the binary number system is referred to as the Most Significant Bit (MSB).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'LSB, Least Significant Bit'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11742"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The cutoff frequency of the first higher-order mode for a 50-ohm coaxial line with a 2 mm inner conductor radius is 14.5 GHz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11467"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "If the holding current of a thyristor is 2 mA, the latching current should be 0.002 A.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '0.004 A.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12052"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_11_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The normal voltage used in directional heating is 1.5 KV.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12122"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_11_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Given the joint density function f(x, y, z) = e^-(x+y+z) for 0 < x, y, z < \u221e, derive the\ncumulative distribution function F(x, y, z) and discuss its significance in probability\ntheory.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "1 - e^-(x+y+z) for x, y, z > 0. Explain why this is the correct answer and provide\nsupporting evidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12110"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_11_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of multiplexers in the ALU and control section of a CPU, analyzing their\nsignificance in data processing and control flow within computer architecture.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Multiplexers. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11578"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

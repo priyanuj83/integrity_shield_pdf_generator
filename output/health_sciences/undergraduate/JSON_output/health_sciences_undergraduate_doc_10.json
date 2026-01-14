@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_10",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 10",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_10.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Primary motor cortex activity results in",
+      "options": {
+        "A": "bilateral contraction of antigravity limb muscles.",
+        "B": "bilateral contraction of limb musculature.",
+        "C": "contraction of ipsilateral limb musculature.",
+        "D": "contraction of contralateral limb musculature."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The primary motor cortex is responsible for initiating voluntary movements and directly influences the contraction of muscles on the opposite side of the body (contralateral) due to the crossing of motor pathways in the brainstem.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "109"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "When asked where they would like to live for the rest of their lives most older adults say\nthat they would prefer",
+      "options": {
+        "A": "Moving to be close to their children",
+        "B": "Moving to Arizona or Florida if they could",
+        "C": "Residing in a very nice nursing home",
+        "D": "Staying in their own home"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Most older adults prefer staying in their own home because it provides them with a sense of familiarity, independence, and comfort, which are crucial for their emotional well-being and quality of life.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "14708"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which is a major characteristic of the bunyavirus family?",
+      "options": {
+        "A": "Amplify by persistent infection of midgets, mosquitoes, sand flies, ticks",
+        "B": "Predominantly mosquito borne",
+        "C": "Genetic recombination or reassortment",
+        "D": "Spread to humans via bites of mice and rats"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The bunyavirus family is characterized by its ability to replicate and persist within arthropod vectors such as mosquitoes and ticks, which play a crucial role in their transmission and life cycle.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13804"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Repeat core sequences consisting of 2, 3, or 4 base pairs are known as what?",
+      "options": {
+        "A": "Single nucleotide polymorphisms (SNPs)",
+        "B": "Microsatellites",
+        "C": "Minisatellites",
+        "D": "Satellites"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Microsatellites are defined as short, repeating sequences of 2 to 4 base pairs of DNA, which makes them the correct answer to the question about repeat core sequences.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "14828"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The stage of meiosis in which chromosomes pair and cross over is:",
+      "options": {
+        "A": "prophase I",
+        "B": "metaphase I",
+        "C": "prophase II",
+        "D": "metaphase II"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Prophase I is the stage of meiosis where homologous chromosomes pair up and engage in crossing over, allowing for genetic recombination and increased genetic diversity.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "15777"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Monosomy is the most frequently observed chromosome abnormality in first trimester spontaneous miscarriages.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Monosomy is not the most frequently observed chromosome abnormality in first trimester spontaneous miscarriages; rather, trisomy, particularly trisomy 16, is more commonly identified in these cases.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7352"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Girls most frequently learn about masturbation through self-discovery rather than external sources.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Research indicates that many girls tend to explore their own bodies and develop an understanding of masturbation through personal experience rather than relying on external sources such as education or media.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6416"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Cytotoxic T cells are activated by reacting with antibodies that bind to viral particles in the bloodstream.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cytotoxic T cells are primarily activated by recognizing and binding to antigen-presenting cells that display viral peptides on their surface, rather than through interaction with antibodies in the bloodstream.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "15540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Herpes viruses do not cause infantile paralysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Herpes viruses primarily cause conditions such as cold sores and genital herpes, and they are not associated with causing infantile paralysis, which is typically linked to viruses like poliovirus.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Sterilization is the most common method of birth control for married couples in the U.S.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sterilization is the most common method of birth control for married couples in the U.S. because it provides a permanent solution to prevent pregnancies, making it a preferred choice for those who have completed their families.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6361"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of proprioceptive information in the function of the temporomandibular\njoint, specifically focusing on the contributions of the masseteric and auriculotemporal\nnerves.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Proprioceptive information plays a crucial role in the function of the temporomandibular\njoint (TMJ) by providing the central nervous system with feedback about the position and\nmovement of the jaw. This sensory information is primarily conveyed through the masseteric\nand auriculotemporal nerves, which innervate the masseter muscle and the TMJ,\nrespectively. The masseteric nerve transmits proprioceptive signals related to the\nmuscle's contraction and tension, while the auriculotemporal nerve carries sensory\ninformation from the joint itself. Together, these nerves facilitate coordinated jaw\nmovements and help maintain proper occlusion and joint stability, which are essential for\neffective mastication and overall oral health. Understanding the proprioceptive pathways\ninvolved in TMJ function underscores the importance of these nerves in the regulation of\nmasticatory dynamics and the prevention of dysfunction.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how proprioceptive information from the masseteric and auriculotemporal nerves provides essential sensory feedback to the central nervous system regarding the position and movement of the jaw, which is vital for the proper function of the temporomandibular joint.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "112"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_10_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of ovulation within a typical 28-day menstrual cycle, focusing on the\ntiming, physiological changes, and factors influencing ovulation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Ovulation is a critical phase of the typical 28-day menstrual cycle, occurring around day\n14. This process is initiated by a surge in luteinizing hormone (LH) triggered by elevated\nlevels of estrogen produced by developing follicles. Physiologically, the leading follicle\nreleases an egg, which is then available for fertilization. Factors such as hormonal\nimbalances, stress, and lifestyle choices can influence the timing and regularity of\novulation. Understanding these elements is essential in health sciences, as they play a\nsignificant role in reproductive health and fertility management.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies ovulation as occurring around day 14 of the menstrual cycle, explains the hormonal regulation involving a surge in luteinizing hormone and estrogen, describes the physiological release of the egg, and acknowledges external factors that can impact ovulation, thus providing a comprehensive overview of the process within the specified context.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6353"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_22",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Discriminative approaches in machine learning aim to directly model the conditional probability of the output variable y given the input variable x and parameters w, focusing on the decision boundary between classes rather than the joint distribution of inputs and outputs.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is P(A, B | C) * P(C) because it follows the fundamental rule of probability that states the joint probability of A and B given C can be expressed as the product of the conditional probability of A and B given C and the marginal probability of C.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Averaging the output of multiple decision trees helps decrease variance by reducing the impact of individual tree predictions that may be highly variable, leading to a more stable and accurate overall model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6863
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is either (a) Lasso regularization or (b) Elastic Net regularization, as both techniques can lead to zeroing out some coefficients in linear regression due to their inherent properties of promoting sparsity in the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6934
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to each of the N training instances to determine the closest neighbors for classification, resulting in a linear time complexity relative to the number of training instances.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6885
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because best-subset selection evaluates all possible combinations of predictors to find the optimal model, while forward stepwise selection only adds predictors one at a time based on their individual contribution, potentially missing the best overall combination.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Lasso performs feature selection by applying L1 regularization, which can shrink some coefficients to exactly zero, effectively removing irrelevant features from the model, while Ridge regression uses L2 regularization, which does not achieve this zeroing effect.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The learning rate determines the size of the steps taken during the optimization process, directly impacting how quickly and effectively a neural network can adjust its weights based on the data it processes, thus influencing convergence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Clustering is an unsupervised learning technique that groups data points based on similarity rather than predicting outcomes, making it unsuitable for predicting specific values like rainfall.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the BLEU metric measures the precision of n-grams in generated translations compared to reference translations, while the ROGUE metric emphasizes recall by comparing the overlap of n-grams between generated summaries and reference summaries.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6924
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def find_demlo(s): | return res",
+      "marks": 10,
+      "explanation": "correct as it outlines the basic structure of a function in Python that is intended to compute a specific mathematical property (the demlo number) for a given input, though it lacks the actual implementation details needed to perform the calculation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 321
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_22_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def sumofFactors(n) : | return 0 | return res",
+      "marks": 10,
+      "explanation": "correct as it outlines the basic structure of a Python function that aims to compute the sum of even factors of a given number, although it requires additional logic to calculate and return the actual sum of even factors.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 453
+    }
+  ]
+}

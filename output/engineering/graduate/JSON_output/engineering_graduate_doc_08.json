@@ -1,0 +1,293 @@
+{
+  "docid": "engineering_graduate_doc_08",
+  "document_name": "Engineering - Graduate Level Assessment 8",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_08.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find an expression for the coefficient of compressibility at constanttemperature for an\nideal gas.",
+      "options": {
+        "A": "(p^2) / (mRT)",
+        "B": "(RT) / (pV)",
+        "C": "(nRT) / (pV^2)",
+        "D": "(mRT) / p^2",
+        "E": "(RT) / p^2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - (p^2) / (mRT)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11670"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the Fourier cosine series over the interval 0 < x < c for the function f(x) = x.",
+      "options": {
+        "A": "f(x) \\sim (1 / 2)c + (2 c / \\pi^2)\\infty\\sum_k=1 [{cos[(2 k)\\pix/ c]} / (2 k)^2]",
+        "B": "f(x) \\sim (1 / 2)c + (4 c / \\pi^2)\\infty\\sum_k=0 [{cos[(2 k + 1)\\pix/ c]} / (2 k + 1)^2]",
+        "C": "f(x) \\sim (1 / 2)c - (4 c / \\pi^2)\\infty\\sum_n=1 [1 / n^2]cos{(n\\pix) / c}",
+        "D": "f(x) \\sim (1 / 2)c - (4 c / \\pi^2)\\infty\\sum_k=0 [{cos[(2 k + 1)\\pix/ c]} / (2 k + 1)^2]",
+        "E": "f(x) \\sim (1 / 2)c - (4 c / \\pi^2)\\infty\\sum_k=1 [{cos[(2 k)\\pix/ c]} / (2 k)^2]"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - f(x) \\sim (1 / 2)c - (4 c / \\pi^2)\\infty\\sum_k=0 [{cos[(2 k + 1)\\pix/ c]} / (2 k + 1)^2]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11427"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Evaluate f(t) if F(s) = [(2 s^2 + 13 s + 17) / {(s + 1)(s + 3)}]",
+      "options": {
+        "A": "2\\delta(t) + (3 e^-t + e^-3 t)u(t)",
+        "B": "2\\delta(t) + (3 e^-t + 2 e^-3 t)u(t)",
+        "C": "3\\delta(t) + (3 e^-t + 2 e^-3 t)u(t)",
+        "D": "2 + (3 e^-t + 2 e^-3 t)u(t)",
+        "E": "2 + (5 e^-t + 2 e^-3 t)"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 2\\delta(t) + (3 e^-t + 2 e^-3 t)u(t)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12096"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the radiation resistance of a single-turn circular loop witha circumference of (1/4)\nwavelength.",
+      "options": {
+        "A": "1.27 ohm",
+        "B": "1.07 ohm",
+        "C": "0.107 ohm",
+        "D": "0.77 ohm",
+        "E": "0.87 ohm"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - 0.77 ohm",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11326"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What will be the number of lamps, each having 300 lumens, required to obtain an average\nilluminance of 50 lux on a 4 m * 3 m rectangular room?",
+      "options": {
+        "A": "6",
+        "B": "1",
+        "C": "2",
+        "D": "5",
+        "E": "7"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - 2",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11285"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The inverse Laplace transform of F(s) = [(2 s^2 - 4) / {(s - 2)(s + 1)(s - 3)}] is f(t) = [(- 4) / 3]e^-2 t - (1 / 6)e^2 t + (7 / 2)e^-3 t.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11479"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The vertical frequency in a Lissajous pattern with 5 horizontal and 2 vertical tangencies is 500 Hz when the horizontal frequency is 100 Hz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '250 Hz.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11965"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The initial current i(0^+) can be expressed as E / (v(0^+) * R) based on the Laplace transform relationship.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12246"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The range of the moving coil meter, given the specified parameters, is 2 mA.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "41"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_08_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The partial-fraction expansion of F(s) is given by F(s) = [(1 / 2) / (s + 1)^2] + [(1 / 4) / (s + 1)] - [(1 / 4) / (s + 3)].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11619"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_08_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the probability of drawing 4 aces consecutively from a standard deck of 52 playing\ncards without replacement. Analyze the implications of this probability in engineering\ncontexts that involve randomness.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": ".000037. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11958"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_08_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of mean-square quantization error in the context of signal\nquantization, and derive the expression for this error given that the quantization error\nis uniformly distributed between -S/2 and +S/2.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "(S^2 / 12). Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11866"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

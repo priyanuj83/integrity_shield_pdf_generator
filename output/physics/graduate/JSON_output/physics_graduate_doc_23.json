@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_23",
+  "document_name": "Physics - Graduate Level Assessment 23",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_23.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_23.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_23_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_23_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_23_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_23_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The red glow in the neon tube of an advertising sign is a result of",
+      "options": {
+        "A": "Refraction",
+        "B": "de-excitation",
+        "C": "Chemiluminescence",
+        "D": "Thermal radiation",
+        "E": "Phosphorescence"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The red glow in the neon tube is produced by de-excitation of neon gas atoms, which emit light as they return to a lower energy state after being energized by an electric current.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9828"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A coil of 60 ohms inductive reactance in series with a resistance of 25 ohms is connected\nto an a-c line of 130 volts. What will be the current through the circuit?",
+      "options": {
+        "A": "2.5 amp",
+        "B": "0.5 amp",
+        "C": "2.8 amp",
+        "D": "3.0 amp",
+        "E": "1.0 amp"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2.5 amps because the total impedance of the circuit, calculated using the formula Z = \u221a(R\u00b2 + X_L\u00b2), results in 68.31 ohms, leading to a current of I = V/Z = 130V/68.31\u03a9, which approximately equals 2.5 amps.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If light of wavelength 635 nm causes a certain amount of Rayleigh scattering, light of\nwhat wavelength will give exactly 10 times as much scattering?",
+      "options": {
+        "A": "700 nm",
+        "B": "450 nm",
+        "C": "750 nm",
+        "D": "300 nm",
+        "E": "357 nm"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 357 nm because Rayleigh scattering is inversely proportional to the fourth power of the wavelength, so a decrease in wavelength from 635 nm to 357 nm results in an increase in scattering by a factor of 10.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9345"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "At what velocity is the mass of a particle twice its rest mass?",
+      "options": {
+        "A": "3.2 \\times 10^10 cm/sec",
+        "B": "3.0 \\times 10^10 cm/sec",
+        "C": "2.8 \\times 10^10 cm/sec",
+        "D": "2.4 \\times 10^10 cm/sec",
+        "E": "1.8 \\times 10^10 cm/sec"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, 3.2 \\times 10^{10} cm/sec, is derived from the relativistic mass-energy relation which states that the relativistic mass of a particle increases with its velocity and is given by the equation m = m_0 / sqrt(1 - (v^2/c^2)), where the mass becomes twice the rest mass (m = 2m_0) at that specific velocity.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9493"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The pressure at the bottom of a pond does NOT depend on the",
+      "options": {
+        "A": "salinity of the water.",
+        "B": "proximity to the equator.",
+        "C": "presence of fish in the pond.",
+        "D": "type of pond vegetation.",
+        "E": "acceleration due to gravity."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The pressure at the bottom of a pond is determined solely by the depth of the water column and the density of the water, which is primarily influenced by gravitational force, rather than the salinity of the water.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9942"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The Mars Exploration Rover Spirit is tilted towards the north to maximize solar power generation while avoiding a sand storm.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Mars Exploration Rover Spirit was actually tilted towards the south to optimize solar power generation during winter and to minimize exposure to dust accumulation on its solar panels.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10210"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The reflectance for light of normal incidence at a water-glass boundary is 0.70% for crown glass and 1.20% for flint glass.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the reflectance at a water-glass boundary depends on the refractive indices of the materials, and the given reflectance values for crown glass and flint glass are inaccurately specified; for normal incidence, the reflectance for crown glass is approximately 2.1% and for flint glass it is around 4.0%.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9758"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The frequency of the next higher harmonic for a closed organ pipe with a fundamental frequency of 131 Hz is 196 Hz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The frequency of the next higher harmonic for a closed organ pipe is calculated using the formula for harmonics of closed pipes, which states that the harmonics are odd multiples of the fundamental frequency, making the first harmonic (fundamental) 131 Hz and the next harmonic (third) 3 times the fundamental, resulting in 393 Hz, indicating that the statement is actually false, as 196 Hz does not correspond to any harmonic of 131 Hz.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9054"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "An object can have zero acceleration if the net external forces are perfectly balanced, regardless of their individual magnitudes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because an object can only have zero acceleration when the net external forces are balanced to zero, which means the individual forces must be equal in magnitude and opposite in direction, not just perfectly balanced in some other sense.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9205"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_23_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The impedance of a 1-henry inductor at angular frequencies of 100, 1000, and 10,000 rad/sec is 500 ohms, 5000 ohms, and 50 ohms, respectively.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The impedance of an inductor is given by the formula Z = j\u03c9L, where Z is the impedance, j is the imaginary unit, \u03c9 is the angular frequency, and L is the inductance; thus, for a 1-henry inductor, the impedance at 100 rad/sec is 100j ohms, at 1000 rad/sec is 1000j ohms, and at 10,000 rad/sec is 10,000j ohms, making the statement about the magnitude of the impedance at these frequencies correct.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9384"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_23_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "A 5-cm plane mirror can reflect the entire image of a tree when positioned 30 cm from an\nobserver 100 m away. Calculate the height of the tree and discuss the principles involved\nin this scenario.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the height of the tree, we can apply the principles of similar triangles and\nthe geometry of reflection. Given that the observer is 100 m away from the tree and the\nmirror is positioned 30 cm (0.3 m) from the observer, the total distance from the tree to\nthe mirror is 100 m - 0.3 m = 99.7 m. The height of the image reflected in the mirror is\nequal to the height of the tree, and the mirror's height is 5 cm (0.05 m). Using the ratio\nof the distances, we find that the height of the tree can be calculated as follows:\n(height of the mirror / distance from observer to mirror) = (height of the tree / distance\nfrom tree to mirror). Solving this proportion results in a tree height of approximately\n16.67 m. This scenario illustrates the principles of optics, specifically the behavior of\nlight and reflection in forming images.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes the principles of similar triangles and reflection geometry to establish the relationship between the distances of the observer, mirror, and tree to accurately calculate the tree's height based on the height of the mirror and the distances involved.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9757"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_23_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how operating a heat engine, such as a jet engine, at high temperatures influences\nits efficiency. Analyze the underlying thermodynamic principles at play.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Operating a heat engine, such as a jet engine, at high temperatures significantly enhances\nits efficiency due to the principles outlined in the second law of thermodynamics and the\nCarnot efficiency equation. Higher temperatures increase the temperature difference\nbetween the heat source and the heat sink, which directly boosts the maximum theoretical\nefficiency of the engine, as described by the formula \u03b7 = 1 - (Tc/Th), where Tc is the\ncold reservoir temperature and Th is the hot reservoir temperature. Additionally, high\noperating temperatures lead to improved thermodynamic properties of the working fluid,\nsuch as higher energy content and lower viscosity, which facilitate greater energy\nconversion and reduced frictional losses. However, these advantages must be balanced\nagainst material limitations and the potential for increased thermal stress, which can\nlead to mechanical failure if not carefully managed. Thus, while high-temperature\noperation can dramatically enhance efficiency, it necessitates advanced materials and\nengineering solutions to ensure reliability and performance.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that operating a heat engine at higher temperatures increases the efficiency by maximizing the temperature difference between the heat source and sink, as dictated by the second law of thermodynamics and illustrated by the Carnot efficiency equation.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9427"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) No, an attacker can simply guess the tag for messages; B) It depends on the details of the MAC; C) Yes, the attacker cannot generate a valid tag for any message; D) Yes, the PRG is pseudorandom
+\\ \textit{Note:} The MAC is only 5 bits long, which means there are only 32 possible tags ($2^5$), allowing an attacker to easily guess the correct tag for any message through brute force.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Message Nonrepudiation; B) Message Integrity; C) Message Condentiality; D) Message Sending
+\\ \textit{Note:} Message nonrepudiation ensures that a sender cannot deny having sent a message, providing proof of the origin and integrity of the communication, which is essential for accountability in cybersecurity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) SYN stealth scan; B) TCP connect; C) XMAS tree scan; D) ACK scan
+\\ \textit{Note:} The SYN stealth scan, also known as a half-open scan, sends SYN packets to initiate a TCP connection but does not complete the three-way handshake, allowing the scanner to identify open ports without establishing a full connection that could be logged by the target system.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Active, inactive, standby; B) Open, half-open, closed; C) Open, filtered, unfiltered; D) Active, closed, unused
+\\ \textit{Note:} The correct answer is open, filtered, and unfiltered because these terms describe the states of network ports as determined by Nmap during its scanning process, indicating whether a port is accepting connections, being blocked by a firewall, or is accessible without restrictions.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Freenet; B) ARPANET; C) Stuxnet; D) Internet
+\\ \textit{Note:} Freenet is designed specifically for anonymous file sharing and communication, making it a key component of the darknet focused on privacy and security.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA 3 incorporates advanced security protocols such as Simultaneous Authentication of Equals (SAE) for stronger password protection and improved encryption methods, significantly enhancing wireless security compared to earlier standards like WEP, WPA, and WPA 2.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WiFi traffic sniffing can analyze both encrypted and unencrypted wireless networks, as it involves capturing all data packets transmitted over the air, regardless of their encryption status.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authorization is primarily concerned with determining what resources and actions a user is permitted to access or perform after their identity has been verified, rather than identifying if they are an attacker.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because Confidentiality, Integrity, Non-repudiation, and Authentication are universally recognized as the foundational principles that ensure the secure handling and transmission of messages in cybersecurity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message authentication involves the use of cryptographic techniques to confirm that a message has not been altered in transit and that it originates from a legitimate source, thereby ensuring both its integrity and authenticity.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def perimeter\_pentagon(a): | return perimeter
+\\ \textit{Note:} correct because it defines a function that takes a single argument representing the side length of a regular pentagon and indicates that the perimeter, calculated as five times that side length, will be returned, thus addressing the question's requirement to find the perimeter of a pentagon.
+\item \textbf{Answer:} def get\_pairs\_count(arr, n, sum): | return count
+\\ \textit{Note:} The answer correctly outlines a function that aims to identify and count pairs in an integer array that add up to a specified sum, which is a fundamental task in algorithms and data structures relevant to cybersecurity for analyzing patterns and potential vulnerabilities in numerical datasets.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

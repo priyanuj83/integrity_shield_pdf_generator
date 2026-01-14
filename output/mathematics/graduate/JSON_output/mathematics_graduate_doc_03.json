@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_03",
+  "document_name": "Mathematics - Graduate Level Assessment 3",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_03.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let A be the set of all ordered pairs of integers (m, n) such that 7 m + 12 n = 22. What\nis the greatest negative number in the set B = {m + n : (m, n) \\in A}?",
+      "options": {
+        "A": "-5",
+        "B": "0",
+        "C": "-3",
+        "D": "-7",
+        "E": "-4"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -4 because by solving the equation 7m + 12n = 22 for integer values of (m, n), we find that the combinations yielding the maximum negative value for m + n occur at (m, n) = (-4, 2), resulting in m + n = -4.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "2"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A model of a park was built on a scale of 1.5 centimeters to 50 meters. If the distance\nbetween two trees in the park is 150 meters, what is this distance on the model?",
+      "options": {
+        "A": "6 centimeters",
+        "B": "150 centimeters",
+        "C": "0.5 centimeter",
+        "D": "9 centimeters",
+        "E": "225 centimeters"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find the model distance, we use the scale ratio where 1.5 centimeters corresponds to 50 meters, leading to the calculation of the model distance as (150 meters / 50 meters) * 1.5 centimeters, which equals 6 centimeters.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7709"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Let V and W be 4-dimensional subspaces of a 7-dimensional vector space X. Which of the\nfollowing CANNOT be the dimension of the subspace V intersect W?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "9",
+        "D": "8",
+        "E": "2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimension of the intersection of two subspaces cannot be 0 because in a 7-dimensional space, the sum of the dimensions of V and W (4 + 4 = 8) exceeds the dimension of the entire space, implying that their intersection must have a positive dimension to account for the overlap.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8473"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Solve 13 over 4 = x over 7.",
+      "options": {
+        "A": "22.25",
+        "B": "23.25",
+        "C": "25.25",
+        "D": "23.75",
+        "E": "21.75"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 22.25 because solving the proportion 13/4 = x/7 involves cross-multiplying to find x, resulting in x = (13/4) * 7, which simplifies to 22.25.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If all the values of a data set are the same, all of the following must equal zero except\nfor which one?",
+      "options": {
+        "A": "Mean",
+        "B": "Standard deviation",
+        "C": "Variance",
+        "D": "Interquartile range",
+        "E": "Quartile deviation"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mean of a data set where all values are the same is equal to that constant value, which is not zero, while other measures such as variance, standard deviation, and range would all equal zero in this scenario.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sum of the second partial derivatives of u with respect to x and y equals 2.0.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the sum of the second partial derivatives of a function with respect to x and y can vary based on the specific function and its behavior, and is not universally equal to a constant value like 2.0.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8302"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The arc length of y = (1/4)x^4 over the interval [1,2] calculated using the Trapezoidal Rule T_5 is 4.322.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the arc length of the curve y = (1/4)x^4 over the interval [1,2] can be accurately approximated by the Trapezoidal Rule with 5 subdivisions, yielding a calculated result of 4.322.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The fraction \\( \\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}} \\) simplifies to \\( \\frac{1}{2\\sqrt{3}} \\).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The fraction \\( \\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}} \\) simplifies to \\( \\frac{1}{\\sqrt{3}} \\) instead of \\( \\frac{1}{2\\sqrt{3}} \\) because the denominator simplifies to \\( 4\\sqrt{3} \\), not \\( 2\\sqrt{3} \\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8602"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Every group of order 159 is cyclic, as it is the product of two distinct primes and thus must have a non-cyclic structure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a group of order 159, which is the product of the distinct primes 3 and 53, may not be cyclic; specifically, groups of such order can have non-cyclic structures due to the possible existence of non-trivial normal subgroups and the application of Sylow's theorems.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7692"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The limit of 3 n(a_n)^3 as n approaches infinity is 1.0.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if \\( a_n \\) converges to \\( \\frac{1}{\\sqrt[3]{3}} \\), then \\( 3n(a_n)^3 \\) approaches 1 as \\( n \\) approaches infinity, satisfying the limit condition.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_03_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the value of the integral $\\int_{|z|=r} \\frac{f(z)}{(z-z_1)(z-z_2)} dz$ for a\nbounded entire function $f$ and points $z_1, z_2$ within the ball $B(0,r)$. Justify your\nanswer.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The value of the integral \\( \\int_{|z|=r} \\frac{f(z)}{(z-z_1)(z-z_2)} dz \\) is zero, given\nthat \\( f(z) \\) is a bounded entire function and both points \\( z_1 \\) and \\( z_2 \\) are\nlocated within the ball \\( B(0,r) \\). By the Cauchy integral theorem, since \\( f(z) \\) is\nentire and thus analytic everywhere, and the singularities at \\( z_1 \\) and \\( z_2 \\) are\nnot on the contour \\( |z|=r \\), the integral can be evaluated using residues or simply by\nconsidering the analyticity of the integrand. The boundedness of \\( f(z) \\) ensures that\nany contributions from the singularities at \\( z_1 \\) and \\( z_2 \\) are cancelled out when\nintegrated over a closed contour that does not enclose these singularities. Therefore, the\nresult of the integral is \\( 0 \\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The integral evaluates to zero because the integrand is analytic on and inside the contour defined by \\( |z|=r \\), as the singularities at \\( z_1 \\) and \\( z_2 \\) are not included on this contour, allowing the application of the Cauchy integral theorem.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8407"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_03_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Determine the value of \\( N \\) that satisfies the equation \\( \\frac{4^{(3^3)}}{(4^3)^3} =\n2^N \\). Provide a detailed analysis of your solution process.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the value of \\( N \\) that satisfies the equation \\( \\frac{4^{(3^3)}}{(4^3)^3}\n= 2^N \\), we first simplify the left-hand side. We know that \\( 4 = 2^2 \\), so we can\nrewrite \\( 4^{(3^3)} \\) as \\( (2^2)^{27} = 2^{54} \\) and \\( (4^3)^3 = (2^2)^9 = 2^{18} \\).\nThus, the left-hand side simplifies to \\( \\frac{2^{54}}{2^{18}} = 2^{54 - 18} = 2^{36} \\).\nThis gives us \\( 2^{36} = 2^N \\), leading to the conclusion that \\( N = 36 \\). Hence, the\nsolution to the equation is \\( N = 36 \\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the laws of exponents to simplify the left-hand side of the equation, ultimately revealing that \\( N \\) must equal 36 by equating the exponents of the base 2 on both sides of the equation.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7946"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

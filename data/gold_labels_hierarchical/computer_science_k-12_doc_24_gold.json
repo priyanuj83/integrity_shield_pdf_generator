@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_24",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The `strip([chars])` function in Python 3 is designed specifically to remove all leading and trailing whitespace from a string, making it the correct answer for this question.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because the `min()` function in Python 3 returns the smallest element in a list, and in the list l = [1, 2, 3, 4], the smallest value is 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3241
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "O(1) is considered the smallest asymptotic notation because it represents a constant time complexity that does not grow with the size of the input, making it the most efficient in terms of performance.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "When a new device connects to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and enables communication with other devices.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(n^2) is the largest asymptotic notation among the options provided because it grows faster than linear (O(n)) or logarithmic (O(log n)) functions as the input size n increases, indicating that it represents a higher rate of growth in computational complexity.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The sum of the list l = [1, 2, 3, 4] in Python 3 is 10 because adding the numbers together (1 + 2 + 3 + 4) equals 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the expression x << 3 performs a left bitwise shift on the binary representation of x, which multiplies it by 2 raised to the power of 3; therefore, when x is 1 (binary 0001), shifting it left by 3 results in 8 (binary 1000).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression ['Hi!'] * 4 successfully creates a list containing four references to the string \"Hi!\" without raising any syntax errors.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Averaging numeric values may mask outliers and inaccuracies, making it an ineffective method for detecting data entry errors, as it does not identify individual discrepancies in the dataset.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3221
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because O(n) represents a linear growth rate, which increases more slowly than O(n^2), a quadratic growth rate, as the input size increases.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def series_sum(number): | return total",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that calculates the sum of squares of the first n integers, although it lacks the implementation details to compute the total.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 935
+    },
+    {
+      "question_id": "computer_science_k-12_doc_24_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def chinese_zodiac(year): | return sign",
+      "marks": 10,
+      "explanation": "correct because it outlines the structure of a function named `chinese_zodiac` that takes a year as input and is intended to return the corresponding zodiac sign, capturing the essential requirement of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 950
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_02",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 2",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_02.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Man in the middle attack can endanger the security of Diffie Hellman method if two parties\nare not",
+      "options": {
+        "A": "Joined",
+        "B": "Authenticated",
+        "C": "Submitted",
+        "D": "Shared"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Authenticated\" because without proper authentication, a man-in-the-middle attacker can impersonate one or both parties in a Diffie-Hellman key exchange, compromising the confidentiality and integrity of the shared secret.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A _________________ may be a hidden part of a program, a separate infected program a\nTrojan in disguise of an executable or code in the firmware of any system's hardware.",
+      "options": {
+        "A": "crypter",
+        "B": "virus",
+        "C": "backdoor",
+        "D": "key-logger"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a method of bypassing normal authentication or encryption in a computer system, often hidden within software or hardware, allowing unauthorized access to the system, which aligns with the description provided in the question.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1562"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What are the types of scanning?",
+      "options": {
+        "A": "Port, network, and services",
+        "B": "Network, vulnerability, and port",
+        "C": "Passive, active, and interactive",
+        "D": "Server, client, and network"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer identifies the three main types of scanning in cybersecurity\u2014network scanning, vulnerability scanning, and port scanning\u2014each serving a distinct purpose in identifying and assessing security weaknesses within a system.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authorization aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization aims to restrict what operations and data a user can access by defining permissions and access controls based on the user's identity and role within a system, thereby ensuring that sensitive information and critical functions are protected from unauthorized use.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A __________ is a sequential segment of the memory location that is allocated for\ncontaining some data such as a character string or an array of integers.",
+      "options": {
+        "A": "stack",
+        "B": "queue",
+        "C": "external storage",
+        "D": "buffer"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer is a designated area in memory that temporarily holds data, such as character strings or arrays, allowing for efficient data management and processing in cybersecurity applications.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1551"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Installing and configuring an IDS is the most effective method for detecting IP address spoofing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "While installing and configuring an Intrusion Detection System (IDS) can help monitor network traffic for signs of malicious activity, it is not the most effective method for detecting IP address spoofing, as spoofing can evade detection by disguising itself as legitimate traffic, and other techniques such as ingress and egress filtering are more effective in preventing such attacks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Message integrity refers to the assurance that a message has not been altered during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message integrity specifically ensures that a message has not been altered during transmission, but the statement is false because it lacks the context that integrity is only one aspect of message security, which also includes confidentiality and authenticity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Backdoor Trojans are primarily used for encrypting files and demanding ransom from users.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Backdoor Trojans are primarily designed to provide unauthorized remote access to a system rather than to encrypt files and demand ransom, which is characteristic of ransomware.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The SYN stealth scan does not complete the TCP handshake, making it less detectable than a full TCP connect scan.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The SYN stealth scan only sends the initial SYN packet and analyzes the response without completing the three-way handshake, which minimizes the likelihood of detection by intrusion detection systems compared to a full TCP connect scan that establishes a complete connection.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1546"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key between two parties is used only once during a single communication session.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A session symmetric key is designed to enhance security by ensuring that each communication session uses a unique key, thereby minimizing the risk of key compromise and making it more difficult for attackers to decrypt the transmitted data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sort a given mixed list of integers and strings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sort_mixed_list(mixed_list): | return int_part + str_part",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to separate integers and strings into distinct parts before combining them, ensuring that the sorting function can handle the mixed data types effectively.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "37"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_02_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sum elements in two lists.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_list(lst1,lst2): | return res_list",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that takes two lists as input and implies the creation of a result list that will ultimately contain the summed elements of the two input lists, adhering to the principles of function definition in programming.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "728"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

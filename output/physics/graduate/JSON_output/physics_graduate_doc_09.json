@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_09",
+  "document_name": "Physics - Graduate Level Assessment 9",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "mmlu_pro_physics_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_09.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the total binding energy and the binding energy per nucleon of the nucleus of _24\nCr^52 which has a mass of 51.95699 amu?",
+      "options": {
+        "A": "4.0 \\times 10^8 eV and 7.7 \\times 10^6 eV",
+        "B": "4.2 \\times 10^8 eV and 8.1 \\times 10^6 eV",
+        "C": "4.6 \\times 10^8 eV and 8.9 \\times 10^7 eV",
+        "D": "4.6 \\times 10^8 eV and 8.9 \\times 10^6 eV",
+        "E": "5.0 \\times 10^8 eV and 9.6 \\times 10^6 eV"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total binding energy of the nucleus of chromium-52 can be calculated using the mass defect, which, when converted to energy using Einstein's equation E=mc\u00b2, yields approximately 4.6 \u00d7 10^8 eV, while dividing this total binding energy by the number of nucleons (52) gives a binding energy per nucleon of approximately 8.9 \u00d7 10^6 eV, reflecting the stability of the nucleus.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A car covers a distance of 30 miles in 1/2 hour. What is its speed in miles per hour and\nin feet per second?",
+      "options": {
+        "A": "30 mi per hr, 60 ft per sec",
+        "B": "90 mi per hr, 132 ft per sec",
+        "C": "75 mi per hr, 110 ft per sec",
+        "D": "60 mi per hr, 55 ft per sec",
+        "E": "45 mi per hr, 88 ft per sec"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the calculation of speed as distance divided by time, where covering 30 miles in 0.5 hours results in a speed of 60 miles per hour, which converts to 88 feet per second, but since the question asks for miles per hour and feet per second, the calculation must be revisited for accuracy.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9894"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "An object of mass 100 g is at rest. A net force of 2000 dynes is applied for 10 sec. What\nis the final velocity? How far will the object have moved in the 10-sec interval?",
+      "options": {
+        "A": "150 cm/sec and 7.5 m",
+        "B": "350 cm/sec and 17.5 m",
+        "C": "450 cm/sec and 22.5 m",
+        "D": "250 cm/sec and 12.5 m",
+        "E": "200 cm/sec and 10 m"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from applying Newton's second law, where the acceleration is calculated using the net force (2000 dynes) divided by the mass (100 g), resulting in an acceleration of 20 m/s\u00b2, which, when multiplied by the time (10 sec), gives a final velocity of 200 cm/sec and a displacement of 10 m.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9706"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the ratio of intensities of Rayleigh scattering for the two hydrogen lines\n\\lambda_1 = 410 nm and \\lambda_2 = 656 nm?",
+      "options": {
+        "A": "4.23:1",
+        "B": "10.24:1",
+        "C": "8.67:1",
+        "D": "2.98:1",
+        "E": "5.67:1"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 4.23:1 for the ratio of intensities of Rayleigh scattering for the two hydrogen lines is derived from the inverse fourth power dependence of scattering intensity on wavelength, where the intensity ratio is calculated as (\u03bb2/\u03bb1)\u2074, resulting in a value of approximately 4.23 when substituting \u03bb1 = 410 nm and \u03bb2 = 656 nm.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10348"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Why can't we see the Sun's corona except during total solar eclipses?",
+      "options": {
+        "A": "We can't see magnetic fields",
+        "B": "The corona is blocked by the Earth's atmosphere",
+        "C": "The corona is hidden by the Sun's photosphere",
+        "D": "The corona is made up mostly of charged particles which aren't luminous.",
+        "E": "The Sun's corona is actually invisible to the human eye"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Sun's corona is usually obscured by its much brighter surface, and it is only during total solar eclipses that the Moon blocks out this intense light, allowing us to observe the faint corona which is shaped by the Sun's magnetic fields.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "When a branch is bent, the top side primarily experiences compressive stress as it is pushed downward.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because when a branch is bent, the top side primarily experiences tensile stress as it is stretched, while the bottom side experiences compressive stress as it is pushed upward.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9324"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "A photon with a wavelength of 1600.0 nm can cause an electron in germanium to jump from the valence to the conduction band at 300 K.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the energy of a photon with a wavelength of 1600.0 nm is insufficient to overcome the bandgap energy of germanium, which is approximately 0.66 eV, thereby preventing an electron from transitioning from the valence to the conduction band at 300 K.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9130"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The period of revolution for two double stars of solar mass separated by 4 light years is approximately 9 x 10^7 years.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, according to Kepler's Third Law, the orbital period of two stars can be calculated using the formula T^2 = (4\u03c0^2/GM) * a^3, where T is the period, G is the gravitational constant, M is the total mass of the stars, and a is the semi-major axis of the orbit, which in this case results in a period of approximately 9 x 10^7 years for two solar mass stars separated by 4 light years.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9962"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "An ocular focal length of 4 cm would produce an overall magnification of 100 x with a 10 x objective magnification.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The overall magnification is calculated by multiplying the objective magnification by the ocular magnification, and with a 10x objective magnification, an ocular focal length of 4 cm would not yield an ocular magnification high enough to achieve an overall magnification of 100x.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10199"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_09_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "In a longitudinal wave, the vibrations move along and parallel to the direction of wave propagation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a longitudinal wave, the particles of the medium oscillate back and forth in the same direction as the wave travels, resulting in compressions and rarefactions that propagate along the direction of wave motion.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9938"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_09_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the specific gravity of a rectangular bar of iron with a mass of 320 grams and\ndimensions of 2 \\times 2 \\times 10 centimeters. Discuss the implications of your result in\nthe context of material properties.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the specific gravity of the rectangular bar of iron, we first determine its\nvolume using the formula for the volume of a rectangular prism, V = length \\times width\n\\times height. For the given dimensions of 2 cm \\times 2 cm \\times 10 cm, the volume is 40\ncm^3. Next, we calculate the density of the iron by dividing its mass (320 grams) by its\nvolume: density = mass/volume = 320 g / 40 cm^3 = 8 g/cm^3. The specific gravity, which is\nthe ratio of the density of a substance to the density of water (1 g/cm^3), is thus 8.\nThis value indicates that the iron is significantly denser than water, reflecting its\nmaterial properties, such as strength and durability, which are essential for applications\nin construction and manufacturing.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the volume of the rectangular bar, derives the density from the mass and volume, and then determines the specific gravity by comparing the calculated density of the iron to the reference density of water.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_09_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the rotational kinetic energy of a flywheel with a mass of 30 kg and a radius of\ngyration of 2 m, rotating at 2.4 rev/sec. Discuss the implications of your findings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The rotational kinetic energy (KE) of a flywheel can be calculated using the formula KE =\n(1/2)I\u03c9^2, where I is the moment of inertia and \u03c9 is the angular velocity in radians per\nsecond. The moment of inertia for a flywheel is given by I = m(k^2), where m is the mass\nand k is the radius of gyration. For a flywheel with a mass of 30 kg and a radius of\ngyration of 2 m, the moment of inertia is I = 30 kg \\times (2 m)^2 = 120 kg\u00b7m^2. The\nangular velocity can be converted from revolutions per second to radians per second: \u03c9 =\n2.4 rev/sec \\times 2\u03c0 rad/rev = 15.08 rad/sec. Substituting these values into the kinetic\nenergy formula gives KE = (1/2) \\times 120 kg\u00b7m^2 \\times (15.08 rad/sec)^2, which results\nin a rotational kinetic energy of approximately 15432.98 Joules. This substantial energy\nreflects the flywheel's ability to store rotational energy efficiently, which is crucial\nin applications such as energy storage systems and mechanical flywheel energy storage\ntechnologies.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the formulas for moment of inertia and rotational kinetic energy, accurately calculates the moment of inertia for the flywheel using its mass and radius of gyration, and converts the angular velocity from revolutions per second to radians per second, allowing for the determination of the flywheel's rotational kinetic energy.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9403"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

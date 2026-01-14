@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 21 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Linear hard-margin SVM.; B) Linear Logistic Regression.; C) Linear Soft margin SVM.; D) The centroid method.
+\\ \textit{Note:} The linear hard-margin SVM is specifically designed to find a hyperplane that perfectly separates linearly separable data without allowing any misclassifications, making it applicable only in such cases.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has approximately 25 million parameters, not over 1 billion.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} As of 2020, advancements in deep learning architectures enabled certain models to achieve over 98\% accuracy on the CIFAR-10 dataset, while the original ResNet models were trained using stochastic gradient descent rather than the Adam optimizer, confirming both statements as true.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Partitioning based clustering; B) K-means clustering; C) Grid based clustering; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because spatial clustering algorithms encompass a variety of techniques, such as DBSCAN, K-means, and hierarchical clustering, that are all designed to identify and group spatially related data points based on their proximity in a multidimensional space.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) linear in D; B) linear in N; C) polynomial in D; D) dependent on the number of iterations
+\\ \textit{Note:} The computational complexity of gradient descent is polynomial in D because the algorithm requires a number of operations that scales with the dimensionality of the input space, specifically involving matrix-vector multiplications and updates that are linear with respect to D in each iteration.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Stuart Russell is a leading researcher in artificial intelligence who has extensively addressed the potential existential risks associated with AI development, particularly through his co-authored book "Artificial Intelligence: A Modern Approach" and his advocacy for safe AI practices.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Predicting the amount of rainfall is an example of regression in machine learning, not clustering, as it involves estimating a continuous value rather than grouping data points based on similarity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Out-of-distribution detection involves identifying data points that deviate from the expected distribution, which aligns with the principles of anomaly detection that focus on recognizing unusual patterns or outliers in datasets.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} While sampling with replacement in bagging helps reduce variance by creating diverse subsets of data, the primary method that prevents overfitting in ensemble models is the combination of multiple weak learners, which collectively improves generalization rather than just relying on the sampling technique.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} RoBERTa pretrains on a dataset of 160 GB of text, significantly larger than the 16 GB corpus used for BERT, which allows it to learn more comprehensive language representations.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The rank of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 1. This is because all rows (and columns) of the matrix are linearly dependent, meaning they can be expressed as scalar multiples of one another. In the context of machine learning, the rank of a matrix is significant as it relates to the dimensionality of the data being analyzed; a low rank indicates that the data may lie in a lower-dimensional subspace. This can impact model performance and interpretability, as well as influence techniques such as dimensionality reduction and feature extraction, which are crucial for improving model efficiency and effectiveness. Understanding the rank helps in assessing the capacity of models to generalize from the training data to unseen examples.
+\\ \textit{Note:} correct because the matrix A has all rows and columns as linearly dependent vectors, resulting in a rank of 1, which signifies that the data it represents exists in a lower-dimensional space, a crucial aspect in machine learning that affects analysis, model performance, and interpretability.
+\item \textbf{Answer:} Principal Component Analysis (PCA) and spectral clustering both utilize eigendecomposition, but they do so for different purposes and in distinct contexts. PCA focuses on reducing dimensionality by identifying the directions (principal components) that maximize variance in the data, typically computed from the covariance matrix. In contrast, spectral clustering employs eigendecomposition of the Laplacian matrix derived from a similarity graph, aiming to identify clusters by analyzing the eigenvalues and eigenvectors that capture the data's structure. Regarding logistic regression, it is inaccurate to categorize it as a special case of linear regression; while both methods model relationships between variables, logistic regression is specifically designed for binary outcomes and utilizes a logistic function to ensure predictions are limited to the (0,1) range, distinguishing it fundamentally from the linear model's continuous outcome framework.
+\\ \textit{Note:} The answer correctly highlights that PCA and spectral clustering both involve eigendecomposition but serve different objectives-PCA for dimensionality reduction through variance maximization and spectral clustering for identifying clusters via the Laplacian matrix of a similarity graph.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

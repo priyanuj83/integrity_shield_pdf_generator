@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_01",
+  "document_name": "Machine Learning - Graduate Level Assessment 1",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_01.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural\nnetworks trained with gradient descent with high probability converge to the global\noptimum.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The first statement is false because ReLU activations are indeed monotonic (non-decreasing), while the second statement is true as neural networks trained with gradient descent often converge to local minima, with certain conditions allowing for convergence to the global optimum in specific cases.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the dimensionality of the null space of the following matrix? A = [[3, 2, -9],\n[-6, -4, 18], [12, 8, -36]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimensionality of the null space of matrix A is 2 because the rank of the matrix is 1, leading to a nullity of 2 as determined by the Rank-Nullity Theorem, which states that the dimension of the null space plus the rank equals the number of columns in the matrix.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6897"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Existential risks posed by AI are most commonly associated with which of the following\nprofessors?",
+      "options": {
+        "A": "Nando de Frietas",
+        "B": "Yann LeCun",
+        "C": "Stuart Russell",
+        "D": "Jitendra Malik"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Stuart Russell is widely recognized for his work on the safety and ethical implications of artificial intelligence, particularly regarding existential risks, making him a leading authority on this topic in the field of machine learning.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6909"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The numerical output of a sigmoid node in a neural network:",
+      "options": {
+        "A": "Is unbounded, encompassing all real numbers.",
+        "B": "Is unbounded, encompassing all integers.",
+        "C": "Is bounded between 0 and 1.",
+        "D": "Is bounded between -1 and 1."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sigmoid function transforms any real-valued input into a value between 0 and 1, making the output of a sigmoid node in a neural network bounded within this range.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A and B are two events. If P(A, B) decreases while P(A) increases, which of the following\nis true?",
+      "options": {
+        "A": "P(A|B) decreases",
+        "B": "P(B|A) decreases",
+        "C": "P(B) decreases",
+        "D": "All of above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is P(B|A) decreases because if P(A, B) decreases while P(A) increases, the conditional probability P(B|A), calculated as P(A, B)/P(A), must decrease due to the numerator decreasing relative to the increasing denominator.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Out-of-distribution detection is synonymous with train-test mismatch robustness in machine learning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Out-of-distribution detection refers specifically to the ability of a model to identify data points that differ from the training distribution, while train-test mismatch robustness encompasses a broader range of issues related to performance degradation due to differences between training and testing data distributions, making the two concepts distinct.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6882"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The computational complexity of gradient descent is polynomial in the dimensionality D of the data.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The computational complexity of gradient descent is considered polynomial in the dimensionality D of the data because each iteration of the algorithm requires computing the gradient, which involves a linear scan of the D-dimensional data, resulting in a time complexity of O(D) per iteration.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6862"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The rank of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the rank of matrix A, which consists of three identical rows, is 1, as all rows are linearly dependent.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6857"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Discriminative approaches attempt to model the joint distribution p(y, x), which captures the overall data distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Discriminative approaches model the conditional distribution p(y | x) to directly differentiate between classes given the input features, rather than modeling the joint distribution p(y, x) that represents the overall data distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Lasso regression is more suitable for feature selection due to its ability to shrink some coefficients to zero.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lasso regression incorporates L1 regularization, which penalizes the absolute size of the coefficients, leading to some coefficients being shrunk to zero, thereby effectively selecting a subset of features for the model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the given matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] and determine the\ndimensionality of its null space. Discuss the implications of your findings in the context\nof linear transformations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is a 3 x 3 matrix where all rows are\nidentical, indicating that its rank is 1. To determine the dimensionality of its null\nspace, we apply the rank-nullity theorem, which states that the nullity (dimension of the\nnull space) plus the rank must equal the number of columns. Thus, nullity = number of\ncolumns - rank = 3 - 1 = 2. This implies that the null space of A is two-dimensional,\nmeaning there are infinitely many vectors that can be mapped to the zero vector under the\nlinear transformation represented by A. In the context of machine learning, this indicates\nthat the transformation loses a degree of freedom, which can impact the model's ability to\ncapture variability in the data.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the rank-nullity theorem to determine that the null space of the matrix A, which has a rank of 1, must have a dimensionality of 2, indicating the presence of infinitely many vectors that can be transformed to the zero vector under the corresponding linear transformation.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the conditions under which a linear hard-margin SVM is applicable for training\ndata, and analyze the implications of linear separability in machine learning models.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A linear hard-margin Support Vector Machine (SVM) is applicable under the condition that\nthe training data is linearly separable, meaning that there exists a hyperplane that can\nperfectly divide the data points of different classes without any misclassifications. This\ncondition implies that there is a clear margin between the classes, which enables the SVM\nto maximize this margin while ensuring that all training instances are correctly\nclassified. The implications of linear separability in machine learning models are\nsignificant, as they determine the choice of algorithms; when data is not linearly\nseparable, hard-margin SVMs may fail, leading practitioners to consider alternative\napproaches like soft-margin SVMs or kernel methods that can handle non-linear\nrelationships. Thus, understanding the nature of the data and its separability is crucial\nin selecting the appropriate model and ensuring effective classification.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that a linear hard-margin SVM requires linearly separable data to function effectively, allowing for the maximization of the margin between classes without misclassifications, which is fundamental to the SVM algorithm's design and performance.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6889"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) cmp(list); B) len(list); C) max(list); D) min(list)
+\\ \textit{Note:} The function `max(list)` in Python 3 returns the item from the list that has the highest value, making it the correct choice for identifying the maximum element in a list.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [19,21]; B) [11,15]; C) [11,15,19]; D) [13,17,21]
+\\ \textit{Note:} The correct answer is [11,15,19] because the slice notation b[::2] extracts every second element from the list b, starting from the first element at index 0.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) **; B) //; C) is; D) not in
+\\ \textit{Note:} The operator '**' in Python 3 is specifically designed to perform exponentiation, allowing users to raise a number to the power of another number.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 17\_\{16\}; B) E$_{4}$\_\{16\}; C) E$_{7}$\_\{16\}; D) F$_{4}$\_\{16\}
+\\ \textit{Note:} The correct answer is E$_{7}$\_\{16\} because when converting the decimal number 231 to hexadecimal, it equals 14*$16^1$ + 7*$16^0$, which corresponds to the hexadecimal digits E (for 14) and 7.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O($N^(1$/2)); B) O($N^(1$/4)); C) O($N^(1$/N)); D) O(N)
+\\ \textit{Note:} The function O($N^(1$/N)) grows the slowest among common complexity classes because as N increases, $N^(1$/N) approaches 1, indicating that it increases at a rate that diminishes significantly compared to polynomial or exponential functions.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The addition of the two's-complement numbers 10000001 (which represents -127) and 10101010 (which represents -86) results in a sum of 10101011 (which represents -53), but since the signs of the operands were both negative and the result is positive, it indicates an overflow occurred.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, the multiplication operator (*) when applied to a list creates a new list that contains the original list's elements repeated the specified number of times, so ['Hi!'] * 4 produces a list with four instances of 'Hi!'.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the left bitwise shift operator '\textless{}\textless{}' shifts the bits of the number 1 three positions to the left, resulting in the binary representation of 8 (which is 1000 in binary).
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, tuples are zero-indexed, meaning that the first element can be accessed using index 0, which in this case is 'abcd'.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Caesar Cipher is not perfectly secure because it relies on a simple substitution method that can be easily broken through frequency analysis and brute force attacks, as there are only a limited number of possible keys (25).
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def most\_common\_elem(s,a): | return most\_common\_elem
+\\ \textit{Note:} The answer correctly identifies the need to define a function that processes a given text string to determine the frequency of each element, ultimately returning the most common elements along with their counts, which is a fundamental requirement of the problem.
+\item \textbf{Answer:} def remove\_words(list 1, charlist): | return new\_list
+\\ \textit{Note:} correct because it outlines a function that takes a list of strings and a character or string to filter out, implying that it will create a new list without the specified words, though the implementation details are incomplete.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

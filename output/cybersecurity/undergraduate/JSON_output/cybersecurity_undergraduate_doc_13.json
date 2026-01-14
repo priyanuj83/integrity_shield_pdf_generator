@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_13",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 13",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_13.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is the central node of 802.11 wireless operations.",
+      "options": {
+        "A": "WPA",
+        "B": "Access Point",
+        "C": "WAP",
+        "D": "Access Port"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Access Point serves as the central node in 802.11 wireless operations because it facilitates communication between wireless devices and the wired network, managing data traffic and connections within the wireless local area network (WLAN).",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "___________________ began to show up few years back on wireless access points as a new way\nof adding or connecting new devices.",
+      "options": {
+        "A": "WPA 2",
+        "B": "WPA",
+        "C": "WPS",
+        "D": "WEP"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPS, or Wi-Fi Protected Setup, was introduced to simplify the process of connecting new devices to a wireless network by allowing users to connect via a PIN or push-button method, enhancing user convenience in home networking.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a transport layer vulnerability?",
+      "options": {
+        "A": "Mishandling of undefined, poorly defined variables",
+        "B": "The Vulnerability that allows \"fingerprinting\" & other enumeration of host information",
+        "C": "Overloading of transport-layer mechanisms",
+        "D": "Unauthorized network access"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unauthorized network access is considered an application layer vulnerability rather than a transport layer vulnerability, as it pertains to issues related to user authentication and data access rather than the mechanisms that facilitate data transfer between devices.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1491"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What tool can be used to perform SNMP enumeration?",
+      "options": {
+        "A": "DNSlookup",
+        "B": "Whois",
+        "C": "Nslookup",
+        "D": "IP Network Browser"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The IP Network Browser is specifically designed to discover and enumerate devices on a network using SNMP (Simple Network Management Protocol), making it an effective tool for this purpose in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "______________ is a widespread app's coding mistake made by developers which could be\nexploited by an attacker for gaining access or malfunctioning your system.",
+      "options": {
+        "A": "Memory leakage",
+        "B": "Buffer-overrun",
+        "C": "Less processing power",
+        "D": "Inefficient programming"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overrun is the correct answer because it refers to a coding error where a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite memory, gain unauthorized access, or cause system malfunctions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Brute-force attacks on access credentials are primarily conducted at the physical layer of the OSI model.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Brute-force attacks on access credentials are primarily conducted at the application layer of the OSI model, where authentication processes occur, rather than at the physical layer, which is concerned with the transmission of raw data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key between two parties is used only once during a single communication session.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A session symmetric key is used only once to encrypt and decrypt messages during a single communication session to ensure confidentiality and prevent replay attacks, thereby enhancing security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Burp Suite is primarily designed for network analysis in multiprotocol diverse networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Burp Suite is primarily designed for web application security testing rather than for network analysis in multiprotocol diverse networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1549"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Metasploit framework simplifies the process of exploiting vulnerabilities through a user-friendly interface.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Metasploit framework provides a comprehensive set of tools and a streamlined interface that allow users, including those with limited technical knowledge, to efficiently identify and exploit security vulnerabilities in software systems.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Authentication aims to determine the identity of the user accessing a system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is the process that verifies the identity of a user attempting to access a system, ensuring that only authorized individuals gain access based on their credentials.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the sum of even numbers at even positions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_even_and_even_index(arr,n): | return sum",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly identifies the need to iterate through an array to sum even numbers located at even indices, which aligns with the requirements of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to filter even numbers using lambda function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def filter_evennumbers(nums): | return even_nums",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it demonstrates the use of a function to filter even numbers from a list, which is a fundamental programming concept applicable in various domains, including cybersecurity for tasks such as data processing and analysis.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "41"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

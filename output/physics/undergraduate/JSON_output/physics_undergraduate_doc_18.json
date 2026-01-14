@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_18",
+  "document_name": "Physics - Undergraduate Level Assessment 18",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_18.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_18_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_18_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The eigenvalues of a Hermitian operator are always",
+      "options": {
+        "A": "real",
+        "B": "imaginary",
+        "C": "degenerate",
+        "D": "linear"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The eigenvalues of a Hermitian operator are always real because Hermitian operators, which represent observable quantities in quantum mechanics, have the property that their matrix elements are equal to their complex conjugates, leading to real eigenvalues when solving the corresponding eigenvalue equations.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1421"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_18_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical\nto that of a hydrogen atom in which all the wavelengths are",
+      "options": {
+        "A": "decreased by a factor of 9",
+        "B": "decreased by a factor of 49",
+        "C": "decreased by a factor of 81",
+        "D": "increased by a factor of 9"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The emission spectrum of the Li++ ion is identical to that of hydrogen because both have one electron; however, since Li++ has a higher nuclear charge (Z = 3) compared to hydrogen (Z = 1), the wavelengths of emitted photons are decreased by a factor of 9 (which is the square of the ratio of the atomic numbers, 3/1).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1458"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_18_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature\nreservoir at temperature T. The average total energy of the oscillator is",
+      "options": {
+        "A": "(1/2) k T",
+        "B": "kT",
+        "C": "(3/2) k T",
+        "D": "3 kT"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The average total energy of a three-dimensional harmonic oscillator in thermal equilibrium at temperature T is given by the equipartition theorem, which states that each quadratic degree of freedom contributes an average energy of (1/2)kT, and since there are three spatial dimensions, the total average energy is 3(1/2)kT = 3kT.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1403"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_18_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "For which of the following thermodynamic processes is the increase in the internal energy\nof an ideal gas equal to the heat added to the gas?",
+      "options": {
+        "A": "Constant temperature",
+        "B": "Constant volume",
+        "C": "Constant pressure",
+        "D": "Adiabatic"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a constant volume process, no work is done on or by the gas, so the change in internal energy is equal to the heat added to the system, according to the first law of thermodynamics.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15624"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_18_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "An organ pipe, closed at one end and open at the other, is designed to have a fundamental\nfrequency of C (131 Hz). What is the frequency of the next higher harmonic for this pipe?",
+      "options": {
+        "A": "44 Hz",
+        "B": "196 Hz",
+        "C": "262 Hz",
+        "D": "393 Hz"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The next higher harmonic for an organ pipe closed at one end and open at the other is the third harmonic, which has a frequency that is three times the fundamental frequency, resulting in 3 x 131 Hz = 393 Hz.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_18_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "In a single-electron atom with l = 2, there are only 4 allowed values for the magnetic quantum number m_l.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because for a given angular momentum quantum number l = 2, the magnetic quantum number m_l can take on values ranging from -l to +l, resulting in a total of 5 possible values: -2, -1, 0, +1, and +2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1451"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_18_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "Electromagnetic radiation emitted from a nucleus is most likely to be in the form of gamma rays.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Electromagnetic radiation emitted from a nucleus is most likely to be in the form of gamma rays because gamma radiation is produced during radioactive decay processes when the nucleus transitions from a higher energy state to a lower energy state, releasing excess energy in the form of high-energy photons.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14195"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_18_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "A dye laser is the most suitable type of laser for spectroscopy across a range of visible wavelengths.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A dye laser is the most suitable type of laser for spectroscopy across a range of visible wavelengths because it can be tuned to emit a wide variety of wavelengths by changing the dye used, allowing for precise measurements in various spectroscopic applications.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1372"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_18_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "A particle that decays in 2.0 ms in its rest frame will travel 360 m in the lab frame at a speed of 0.60 c.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the time dilation effect in the lab frame means that the particle will travel a shorter distance than 360 m before decaying, as its proper decay time of 2.0 ms is longer when observed in the lab frame due to its relativistic speed of 0.60 c.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1416"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_18_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "In a reversible thermodynamic process, the entropy of the system and its environment remains unchanged.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a reversible thermodynamic process, the system and its surroundings can be returned to their original states without any net change in entropy, as all processes occur infinitely slowly and without dissipative effects.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_18_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the conditions under which a beam of electrons can diffract on a crystal surface,\nand analyze the relationship between the kinetic energy of the electrons and the observed\nscattering pattern, considering a lattice spacing of 0.4 nm. What is the approximate\nkinetic energy required to achieve this diffraction?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A beam of electrons can diffract on a crystal surface when certain conditions are met,\nprimarily when the electron wavelength is comparable to the lattice spacing of the\ncrystal. For a lattice spacing of 0.4 nm, the de Broglie wavelength of the electrons must\nbe on the order of this length to observe distinct diffraction patterns. The relationship\nbetween the kinetic energy of the electrons and the scattering pattern is governed by the\nde Broglie wavelength, which is inversely proportional to the square root of the kinetic\nenergy. Specifically, electrons with a kinetic energy of approximately 10 eV yield a de\nBroglie wavelength of about 0.12 nm, allowing them to interact effectively with the\ncrystal lattice and produce observable diffraction. Thus, achieving a kinetic energy\naround 10 eV is necessary for the diffraction phenomenon to occur under these conditions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies that for electron diffraction to occur, the de Broglie wavelength must match the crystal lattice spacing, and it explains that the kinetic energy of the electrons is inversely related to their wavelength, thus determining the conditions necessary for observing diffraction patterns.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1411"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_18_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship hypothesized by De Broglie between the linear momentum and\nwavelength of a free massive particle, emphasizing the role of Planck's constant in this\ncontext.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "De Broglie hypothesized a fundamental relationship between the linear momentum (p) of a\nfree massive particle and its wavelength (\u03bb) through the equation \u03bb = h/p, where h is\nPlanck's constant. This relationship implies that every particle exhibits wave-like\nbehavior, with its wavelength inversely proportional to its momentum. Planck's constant\nserves as a crucial proportionality factor, linking the macroscopic world of classical\nmechanics with the microscopic realm of quantum mechanics. In essence, as the momentum of\na particle increases, its wavelength decreases, highlighting the dual wave-particle nature\nof matter and the significance of h in quantifying this behavior. This groundbreaking\ninsight laid the foundation for modern quantum theory, illustrating the intrinsic\nconnection between physical properties that were once thought to be distinct.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes De Broglie's hypothesis that associates a particle's wavelength with its momentum through the equation \u03bb = h/p, illustrating how Planck's constant serves as a bridge between classical and quantum mechanics by establishing the wave-particle duality of matter.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1377"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

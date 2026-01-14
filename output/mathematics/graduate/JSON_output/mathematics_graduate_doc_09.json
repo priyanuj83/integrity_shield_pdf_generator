@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_09",
+  "document_name": "Mathematics - Graduate Level Assessment 9",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_09.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "There are 72 students on the dance team, and 4 over 9 take tap lessons. How many students\ntake tap lessons?",
+      "options": {
+        "A": "32",
+        "B": "45",
+        "C": "40",
+        "D": "49",
+        "E": "63"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find the number of students taking tap lessons, multiply the total number of students (72) by the fraction of those taking tap lessons (4/9), resulting in 72 * (4/9) = 32 students.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8804"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A tournament has 393 players with 3 players on each team. Which expression shows how to\nfind the number of teams in the tournament?",
+      "options": {
+        "A": "3 + 393",
+        "B": "3 \\times 393",
+        "C": "(393 - 3) \\times 3",
+        "D": "393 \\div 3",
+        "E": "(393 + 3) \\div 3"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 393 \u00f7 3 because dividing the total number of players by the number of players per team yields the total number of teams in the tournament.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7718"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Coloring the edges of a complete graph with n vertices in 2 colors (red and blue), what is\nthe smallest n that guarantees there is either a 4-clique in red or a 4-clique in blue?",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "14",
+        "D": "16",
+        "E": "22"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 12 because, according to Ramsey's theorem, R(4,4) = 18, meaning that in any coloring of the edges of a complete graph with 18 vertices, there must exist either a red 4-clique or a blue 4-clique, and thus 12 vertices are required to ensure at least one colored 4-clique in a complete graph with edge colorings.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8303"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The quadratic $2 x^2+5 x+12=19-7 x$ has two solutions. What is the positive difference\nbetween these solutions?",
+      "options": {
+        "A": "2\\sqrt{3}",
+        "B": "\\sqrt{7}",
+        "C": "3\\sqrt{2}",
+        "D": "5\\sqrt{2}",
+        "E": "2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The positive difference between the two solutions of the quadratic equation can be calculated using the quadratic formula, revealing that the distance between the roots is derived from the discriminant and is equal to 5\u221a2.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8825"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the measure, in degrees, of an angle that is equivalent to 1/360 of a circle?",
+      "options": {
+        "A": "0",
+        "B": "720",
+        "C": "30",
+        "D": "180",
+        "E": "90"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An angle that is equivalent to 1/360 of a circle is 0 degrees because a full circle measures 360 degrees, and 1/360 of that is a fractional measure that approaches zero.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8988"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The value of the series \\sum_{n=0}^{\\infty}(-1)^n \\frac{1}{3 n+1} is approximately 1.1356488482647211.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the actual value of the series \\(\\sum_{n=0}^{\\infty}(-1)^n \\frac{1}{3n+1}\\) is approximately 0.5493061443340549, not 1.1356488482647211.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8423"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The number must include 25 as a factor since it is a product of the prime factor 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because while 25 is a product of the prime factor 5 (specifically, \\(5^2\\)), having 5 as a factor does not guarantee that the number is also divisible by \\(25\\), as it may not contain two factors of 5.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8588"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Suppose $x-3$ and $y+3$ are multiples of $7$. What is the smallest positive integer, $n,$ for which $x^2+xy+y^2+n$ is a multiple of $7$?' is '4'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the conditions given do not ensure that the expression \\(x^2 + xy + y^2 + n\\) will always yield a multiple of 7 for \\(n = 4\\), as \\(x\\) and \\(y\\) can take on values that make the sum non-divisible by 7.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8826"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The distance walked in the morning exceeds that of the afternoon by 1 over 2 miles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because it implies a specific numerical difference in distance between the morning and afternoon walks that may not universally apply, as the actual distances walked in each session are not quantified or compared.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "9004"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_09_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The value of p in the equation 24 = 2^p is p = 6.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because solving for p in the equation 24 = 2^p requires finding the power of 2 that equals 24, which is p = log2(24), approximately equal to 4.585, not 6.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_09_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Tim wants to invest some money in a bank which compounds quarterly with an annual interest\nrate of $7\\%$. To the nearest dollar, how much money should he invest if he wants a total\nof $\\$60,\\!000$ at the end of $5$ years?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Recall the formula $A=P\\left(1+\\frac{r}{n}\\right)^{nt}$, where $A$ is the end balance, $P$\nis the principal, $r$ is the interest rate, $t$ is the number of years, and $n$ is the\nnumber of times the interest is compounded in a year. This formula represents the idea\nthat the interest is compounded every $1/n$ years with the rate of $r/n$. Substituting the\ngiven information, we have \\[60,\\!000=P\\left(1+\\frac{0.07}{4}\\right)^{4 \\cdot 5}.\\]Solving\nfor $P$ gives $P=42409.474...$, which rounded to the nearest dollar is $\\boxed{\\$42409}$.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the compound interest formula, accounts for quarterly compounding by using the correct values for the interest rate and number of compounding periods, and correctly solves for the principal amount needed to reach the desired future value.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "15311"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_09_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the total length of rope required for Ms. Gutierrez's gym class of 32 students,\neach receiving a piece measuring 5 feet 8 inches. Discuss your reasoning and methodology.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the total length of rope required for Ms. Gutierrez's gym class of 32\nstudents, each receiving a piece measuring 5 feet 8 inches, we first convert the length of\neach piece into inches. Since there are 12 inches in a foot, 5 feet equals 60 inches,\nmaking 5 feet 8 inches a total of 68 inches. Multiplying this by the number of students,\nwe have 68 inches \\times 32 students = 2176 inches. Converting this back to feet, we\ndivide by 12, yielding 181 feet with a remainder of 4 inches. Therefore, the total length\nof rope required is 181 feet 4 inches.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately converts the length of rope from feet and inches to a single unit of inches for calculation, multiplies by the number of students, and then converts the total back to feet and inches, ensuring all steps adhere to the principles of unit conversion and multiplication.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8021"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

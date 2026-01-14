@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 10 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are correct because ResNets are a type of feedforward neural network that utilizes skip connections to improve training, while Transformers employ self-attention mechanisms to process sequential data, distinguishing their architectures and functionalities.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} ImageNet indeed contains images of various resolutions due to its diverse dataset, while Caltech-101, which has a total of 9,146 images, has fewer images than ImageNet, which has over 14 million images.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Overfitting is more likely with a small training dataset because the model can learn noise instead of the underlying pattern, while a small hypothesis space restricts the model's complexity and reduces the risk of overfitting.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) The use of a non-Gaussian noise model in probabilistic regression.; B) The use of probabilistic modelling for regression.; C) The use of prior distributions on the parameters in a probabilistic model.; D) The use of class priors in Gaussian Discriminant Analysis.
+\\ \textit{Note:} Bayesians incorporate prior distributions to quantify their beliefs about parameters before observing data, while frequentists reject the use of priors, focusing solely on the data at hand to make inferences.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Optimize a convex objective function; B) Can only be trained with stochastic gradient descent; C) Can use a mix of different activation functions; D) None of the above
+\\ \textit{Note:} Neural networks can incorporate a variety of activation functions, such as ReLU, sigmoid, and tanh, to optimize performance for different layers and tasks, allowing for greater flexibility and improved learning capabilities.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An increasing training loss with the number of epochs suggests that the model is diverging rather than converging, which can happen if the learning rate (step size) is too large, causing the optimization process to overshoot the minimum of the loss function.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Stanford Sentiment Treebank is a dataset specifically designed for sentiment analysis that includes a collection of movie reviews annotated with sentiment labels, making the statement true.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Principal Component Analysis (PCA) is considered an unsupervised learning technique because it analyzes the structure of the data without utilizing labeled output, focusing solely on finding patterns and reducing dimensionality based on the input features.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Using strong classifiers in bagging can actually increase the risk of overfitting because these classifiers may capture noise in the training data, reducing the overall generalization performance of the ensemble model.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Linear hard-margin SVM requires that the data can be perfectly separated by a hyperplane without any misclassifications, which is only possible when the training data is linearly separable.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def replace\_max\_specialchar(text,n): | return (re.sub("[ ,.]", ":", text, n))
+\\ \textit{Note:} The answer correctly implements a function that utilizes regular expressions to substitute up to 'n' occurrences of spaces, commas, or dots in the input text with a colon, demonstrating an understanding of string manipulation and the use of the 're' library in Python.
+\item \textbf{Answer:} def find\_exponentio(test\_tup 1, test\_tup 2): | return (res)
+\\ \textit{Note:} correct as it outlines the creation of a function that takes two tuples as input and suggests returning a result, which implies performing exponentiation operations on corresponding elements of the tuples.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

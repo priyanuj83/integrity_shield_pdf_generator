@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_graduate_doc_17",
+  "document_name": "Computer Science - Graduate Level Assessment 17",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_17.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_17_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "___________ is a process of wireless traffic analysis that may be helpful for forensic\ninvestigations or during troubleshooting any wireless issue.",
+      "options": {
+        "A": "Wireless Traffic Sniffing",
+        "B": "WiFi Traffic Sniffing",
+        "C": "Wireless Traffic Checking",
+        "D": "Wireless Transmission Sniffing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless Traffic Sniffing is the correct answer because it involves capturing and analyzing wireless data packets transmitted over a network, which is essential for identifying issues or gathering evidence in forensic investigations.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Can we build a secure PRP from a secure PRG?",
+      "options": {
+        "A": "No, it cannot be done",
+        "B": "Yes, just plug the GGM PRF into the Luby-Rackoff theorem",
+        "C": "It depends on the underlying PRG",
+        "D": "Option text"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the Luby-Rackoff theorem, which demonstrates that a secure pseudorandom generator (PRG) can be transformed into a secure pseudorandom permutation (PRP) by using a pseudorandom function (PRF) like the GGM construction, ensuring that the output remains indistinguishable from random.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "14208"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is an authentication method?",
+      "options": {
+        "A": "Secret question",
+        "B": "Biometric",
+        "C": "SMS code",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because authentication methods encompass a variety of techniques, including passwords, biometrics, and security tokens, all of which are valid forms of verifying a user's identity.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "___________________ is alike as that of Access Point (AP) from 802.11, & the mobile\noperators uses it for offering signal coverage.",
+      "options": {
+        "A": "Base Signal Station",
+        "B": "Base Transmitter Station",
+        "C": "Base Transceiver Station",
+        "D": "Transceiver Station"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Base Transceiver Station (BTS) functions similarly to an Access Point (AP) in that both serve as critical components in wireless communication networks, facilitating signal coverage and connectivity for mobile devices.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1550"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the name of the data structure in a compiler that is responsible\nfor managing information about variables and their attributes?",
+      "options": {
+        "A": "Abstract Syntax Tree (AST)",
+        "B": "Attribute Grammar",
+        "C": "Symbol Table",
+        "D": "Semantic Stack"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The symbol table is a critical data structure in a compiler that stores information about variables, including their names, types, scopes, and attributes, enabling efficient management and access during the compilation process.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1022"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The Silk Road was a prominent marketplace on the Dark Web known for the sale of illegal drugs and other illicit goods.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Silk Road was indeed a prominent online marketplace on the Dark Web that facilitated the anonymous sale of illegal drugs and other illicit goods, operating primarily through cryptocurrencies to ensure user privacy.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Replacing the page whose next reference will be the shortest time in the future guarantees the fewest page faults in all scenarios.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because replacing the page with the next reference that will occur the farthest in the future does not account for the varying access patterns and can lead to suboptimal decisions in certain scenarios, resulting in more page faults.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Unauthorized network access is not considered a vulnerability specific to the transport layer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unauthorized network access is primarily associated with vulnerabilities at the application and network layers, rather than the transport layer, which is responsible for end-to-end communication and does not inherently deal with access control mechanisms.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1491"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "A buffer-overrun is a common coding error that can be exploited by attackers to compromise system security or functionality.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer-overrun occurs when a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite adjacent memory and execute arbitrary code, thereby compromising system security or functionality.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "IM Trojans are malicious programs designed to steal logins and passwords from instant messaging applications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM Trojans are indeed malicious programs that specifically target instant messaging applications to surreptitiously capture and transmit users' login credentials and passwords for malicious purposes.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_17_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to compute the sum of digits of each number of a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_of_digits(nums): | return sum(int(el) for n in nums for el in str(n) if el.isdigit())",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly computes the sum of digits for each number in the list by converting each number to a string, iterating through each character, checking if it is a digit, converting it back to an integer, and summing these values using a generator expression.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "398"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_17_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether the given string is ending with only alphanumeric\ncharacters or not using regex.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_alphanumeric(string): | return (\"Accept\") | return (\"Discard\")",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is correct as it outlines a function that presumably uses regex to determine if the input string ends with alphanumeric characters, although it lacks the actual implementation of the regex logic.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "860"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

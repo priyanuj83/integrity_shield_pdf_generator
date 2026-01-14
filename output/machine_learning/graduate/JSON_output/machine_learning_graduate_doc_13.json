@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_13",
+  "document_name": "Machine Learning - Graduate Level Assessment 13",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_13.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Neural networks:",
+      "options": {
+        "A": "Optimize a convex objective function",
+        "B": "Can only be trained with stochastic gradient descent",
+        "C": "Can use a mix of different activation functions",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Neural networks can utilize a variety of activation functions in different layers to enhance their ability to learn complex patterns and improve performance on diverse tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6865"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "_ refers to a model that can neither model the training data nor generalize to new data.",
+      "options": {
+        "A": "good fitting",
+        "B": "overfitting",
+        "C": "underfitting",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns of the training data, resulting in poor performance on both the training data and new, unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6846"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sentence is FALSE regarding regression?",
+      "options": {
+        "A": "It relates inputs to outputs.",
+        "B": "It is used for prediction.",
+        "C": "It may be used for interpretation.",
+        "D": "It discovers causal relationships"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because regression analysis identifies correlations between variables but does not establish causation, as it does not account for confounding factors or the directionality of the relationship.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6870"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What would you do in PCA to get the same projection as SVD?",
+      "options": {
+        "A": "Transform data to zero mean",
+        "B": "Transform data to zero median",
+        "C": "Not possible",
+        "D": "None of these"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Transforming the data to zero mean ensures that both PCA and SVD operate on the same centered dataset, which is essential for accurately capturing the directions of maximum variance in the data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A and B are two events. If P(A, B) decreases while P(A) increases, which of the following\nis true?",
+      "options": {
+        "A": "P(A|B) decreases",
+        "B": "P(B|A) decreases",
+        "C": "P(B) decreases",
+        "D": "All of above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "P(B|A) decreases because an increase in P(A) while P(A, B) decreases suggests that the probability of B occurring given A is less likely, indicating that B is becoming less dependent on A.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Caltech-101 includes a larger number of images than ImageNet, providing a richer resource for learning algorithms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Caltech-101 contains only 9,146 images across 101 categories, while ImageNet consists of over 14 million images spanning thousands of categories, making ImageNet a significantly larger resource for learning algorithms.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Random crop and horizontal flip are common image data augmentation techniques used in natural images.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Random crop and horizontal flip are effective techniques for image data augmentation as they help enhance the diversity of training data by introducing variations in scale and orientation, which can improve the robustness of machine learning models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "15759"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The number of test examples required does not depend on the error rate, and remains constant regardless of its value.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number of test examples required depends on the desired confidence level and the error rate, as a lower error rate necessitates a larger sample size to accurately estimate model performance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14785"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "DenseNets typically require more memory than ResNets due to their dense connectivity pattern.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DenseNets require more memory than ResNets because their architecture involves a dense connectivity pattern where each layer receives inputs from all preceding layers, leading to a significant increase in the number of feature maps stored in memory.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6884"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Ridge regression is preferred for feature selection because it reduces model complexity by eliminating variables.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ridge regression does not eliminate variables; instead, it shrinks their coefficients towards zero, thereby reducing model complexity without performing variable selection.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Explain the joint probability of H, U, P, and W in the context of the given Bayesian\nNetwork H -> U <- P <- W. Discuss the roles of conditional probabilities in this network.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In the context of the Bayesian Network represented as H -> U <- P <- W, the joint\nprobability of the variables H, U, P, and W can be expressed as P(H, U, P, W) = P(H) *\nP(W) * P(P | W) * P(U | H, P). This formulation illustrates how the joint distribution\nfactors through the individual probabilities and the conditional dependencies defined by\nthe network structure. Specifically, P(H) and P(W) represent the marginal probabilities of\nH and W, while P(P | W) captures the dependency of P on W. Furthermore, P(U | H, P)\nreflects the relationship between U and its parents H and P, highlighting the role of\nconditional probabilities in determining the likelihood of U given the states of H and P.\nThis structure enables efficient computation of probabilities in complex systems by\nleveraging the conditional independencies encoded in the Bayesian Network.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the factorization of the joint probability in the Bayesian Network according to its structure, emphasizing the roles of marginal and conditional probabilities in representing the dependencies among the variables.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6876"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the existential risks associated with artificial intelligence as articulated by\nStuart Russell, analyzing their implications for the future of AI development and safety.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Stuart Russell highlights significant existential risks associated with artificial\nintelligence, particularly the potential for AI systems to operate autonomously in ways\nthat could be harmful to humanity. He argues that if AI is not aligned with human values\nand goals, it may pursue objectives that are detrimental, especially if given unchecked\npower and autonomy. This misalignment could arise from poorly defined objectives or the\npursuit of goals without sufficient ethical considerations. The implications for AI\ndevelopment are profound; they necessitate a robust framework for AI safety and alignment\nthat prioritizes human oversight and values. Consequently, addressing these risks is\ncrucial for ensuring that AI technologies contribute positively to society rather than\npose existential threats.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the core existential risks of artificial intelligence as articulated by Stuart Russell, emphasizing the dangers of misalignment between AI objectives and human values, which could lead to harmful autonomous actions, thereby underscoring the importance of ethical considerations in AI development.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6909"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "docid": "economics_undergraduate_doc_16",
+  "document_name": "Economics - Undergraduate Level Assessment 16",
+  "domain": "economics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "econometrics",
+    "economics"
+  ],
+  "combination_used": [
+    "mmlu_economics_mcq",
+    "mmlu_economics_tf",
+    "mmlu_pro_economics_mcq",
+    "economics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\economics\\undergraduate\\latex_documents\\economics_undergraduate_doc_16.tex",
+    "pdf_file": "output\\economics\\undergraduate\\pdf_documents\\economics_undergraduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/economics_undergraduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/economics_undergraduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\economics\\undergraduate\\answer_keys\\latex\\economics_undergraduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\economics\\undergraduate\\answer_keys\\pdf\\economics_undergraduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following would reduce economic growth?",
+      "options": {
+        "A": "An increase in immigration from abroad.",
+        "B": "A rise in the level of education.",
+        "C": "A rise in the literacy rate.",
+        "D": "A decrease in unemployment rates.",
+        "E": "A growth in the number of small businesses."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increase in immigration from abroad can reduce economic growth by potentially leading to increased competition for jobs and resources, which may suppress wages and limit opportunities for native workers, ultimately impacting overall productivity and economic expansion.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7360"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following increases the size of the tax multiplier?",
+      "options": {
+        "A": "An increase in the reserve ratio.",
+        "B": "An increase in the money supply.",
+        "C": "A decrease in the marginal propensity to consume.",
+        "D": "A decrease in the spending multiplier.",
+        "E": "An increase in the interest rate."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increase in the reserve ratio reduces the amount of money banks can lend out, leading to a lower money supply and therefore a higher tax multiplier effect as it amplifies the impact of tax changes on overall economic activity.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7102"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Assume the reserve requirement is 10 percent. If the FED sells $29 million worth of\ngovernment securities in an open market operation then the money supply can",
+      "options": {
+        "A": "decrease by $29 million.",
+        "B": "increase by $2900 million.",
+        "C": "decrease by $2.9 million.",
+        "D": "stay the same.",
+        "E": "increase by $29 million."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the fact that when the Federal Reserve sells government securities, it decreases the reserves of the banking system, leading to a direct reduction in the money supply by the amount of the securities sold, in this case, $29 million.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Tariffs and quotas",
+      "options": {
+        "A": "affect domestic prices: the former lowers them while the latter raises them.",
+        "B": "reduce the overall cost of goods for consumers.",
+        "C": "have no impact on the volume of trade between nations.",
+        "D": "result in higher domestic prices.",
+        "E": "ensure the stability of international markets without influencing domestic markets."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Tariffs and quotas limit the supply of imported goods, which raises their prices and consequently increases the prices of domestic goods, leading to higher overall domestic prices.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7645"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Consider the following model for $y_t$: $y_t = \\mu + \\lambda t + u_t$ Which one of the\nfollowing most accurately describes the process for $y_t$?",
+      "options": {
+        "A": "A non-stationary process without trend",
+        "B": "A random walk with drift",
+        "C": "A stationary process",
+        "D": "A mean-reverting process",
+        "E": "A stationary process with trend"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The model $y_t = \\mu + \\lambda t + u_t$ describes a non-stationary process because the term $\\lambda t$ introduces a deterministic trend over time, indicating that the mean of the process changes with time, thus violating the condition for stationarity.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "A monopoly faces a perfectly elastic demand curve for its product.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A monopoly faces a downward-sloping demand curve for its product, indicating that it has market power to set prices above marginal cost, rather than facing perfectly elastic demand, which would imply it cannot influence market prices.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6984"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "An externality leads to an equilibrium price that is exactly equal to the market price, indicating efficient outcomes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An externality occurs when the actions of individuals or firms have effects on third parties not reflected in the market price, leading to market failures and an equilibrium price that does not reflect the true social costs or benefits, thus indicating inefficient outcomes.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7434"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "In the standard regression model, the dependent variable y is assumed to have a probability distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the standard regression model, the dependent variable y is assumed to have a probability distribution because it reflects the variability in the data due to both the inherent randomness of the process being modeled and the influence of independent variables.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7373"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "An unplanned decrease in inventories typically leads to an increase in output as firms respond to rising demand.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An unplanned decrease in inventories indicates that consumer demand is exceeding supply, prompting firms to increase production to meet the rising demand.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7426"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "economics_undergraduate_doc_16_economics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Economies and diseconomies of scale are defined over the business cycle, reflecting long-term trends in production efficiency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Economies and diseconomies of scale refer to the changes in production efficiency as a firm increases its output, which are influenced by long-term trends in the business cycle that affect costs, production capabilities, and market demand.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7468"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "economics_undergraduate_doc_16_economics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of government intervention in the economy, focusing on its impact on\neconomic activity and resource redistribution, and analyze the perspectives of supply-side\neconomists on this issue.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Government intervention in the economy plays a crucial role in regulating economic\nactivity and redistributing resources to promote social welfare. Such intervention can\ntake the form of fiscal policies, subsidies, and regulations that aim to correct market\nfailures and address inequalities. However, supply-side economists argue that excessive\ngovernment intervention can stifle economic growth by creating disincentives for\ninvestment and production. They advocate for policies that reduce taxes and deregulate\nindustries, believing that these measures will enhance economic activity by allowing\nindividuals and businesses to retain more of their earnings, ultimately leading to job\ncreation and increased overall wealth. Thus, while government intervention can have\npositive effects, supply-side economists emphasize the importance of minimizing its scope\nto foster a more vibrant economy.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the dual role of government intervention in both correcting market failures and addressing inequalities while also acknowledging the counterarguments from supply-side economists regarding the potential negative effects of such intervention on economic growth and incentives.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7333"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "economics_undergraduate_doc_16_economics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the components of the demand for money as outlined by Marshall and Fisher, and\nanalyze their relevance in today's economic context.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Marshall and Fisher identified two primary components of the demand for money:\ntransactions demand and asset demand. Transactions demand refers to the need for money to\nfacilitate everyday purchases and expenses, which remains relevant today as consumers\ncontinue to require liquid assets for daily transactions. Asset demand, on the other hand,\npertains to the desire to hold money as a store of value, influenced by factors like\ninterest rates and inflation; this is increasingly significant in today's economic context\nwhere individuals may prioritize liquidity during uncertain economic times. Together,\nthese components illustrate the multifaceted nature of money demand, emphasizing its role\nin both immediate consumption and long-term financial planning in a rapidly changing\neconomic environment.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies and explains Marshall and Fisher's two components of money demand\u2014transactions demand for everyday purchases and asset demand for storing value\u2014while highlighting their ongoing relevance in contemporary economic conditions influenced by factors like liquidity needs and inflation.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7134"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

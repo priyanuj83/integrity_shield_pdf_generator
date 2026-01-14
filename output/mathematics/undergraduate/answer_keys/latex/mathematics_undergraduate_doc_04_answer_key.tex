@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 4 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) -5; B) -4; C) -3; D) -2
+\\ \textit{Note:} The correct answer is -4 because the equation 7 m + 12 n = 22 can be rewritten to express m in terms of n, allowing us to find integer pairs (m, n) that satisfy the equation, and among the possible sums m + n, the maximum negative sum occurs when m = -4 and n = 0, resulting in m + n = -4.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) None; B) One; C) Four; D) Five
+\\ \textit{Note:} The number of trailing zeros in k! is determined by the formula ⌊k/5⌋ + ⌊k/25⌋ + ⌊k/125⌋, and for k! to end in exactly 99 zeros, this formula yields five specific values of k, specifically for k = 400, 401, 402, 403, and 404.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 8; B) 120; C) 240; D) 24
+\\ \textit{Note:} The maximum possible order of an element in the direct product of groups is the least common multiple of the orders of the individual groups, so for Z\_8 (order 8), Z\_10 (order 10), and Z\_24 (order 24), the LCM is 120.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} The number 2 is a generator for the finite field Z\_11 because it generates all non-zero elements of the field when raised to the powers of integers from 0 to 9, demonstrating that it is a primitive root modulo 11.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) (S, +, x) is closed under addition modulo 10.; B) (S, +, x) is closed under multiplication modulo 10.; C) (S, +, x) has an identity under addition modulo 10.; D) (S, +, x) has no identity under multiplication modulo 10.
+\\ \textit{Note:} The statement is correct because the subset S = \{0, 2, 4, 6, 8\} lacks a multiplicative identity element under multiplication modulo 10, as none of its elements can multiply with every other element in S to yield an element of S itself that serves as the multiplicative identity (which would be 1 in a ring).
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the three nonisomorphic trees with 5 vertices are characterized by their distinct structures: one with a star configuration (1 central vertex connected to 4 leaves), one with a linear configuration (a path of 5 vertices), and one with a more branched configuration (a vertex connected to two others, which each have one additional leaf).
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the subgroup 4 Z has multiple cosets in 2 Z, specifically 4 Z and 2 Z \ 4 Z, which includes elements like 2 and 6.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The product of 20 and -8 in the ring Z\_26 is calculated as (20 * -8) mod 26, which equals -160 mod 26, resulting in 22.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The largest order of an element in the symmetric group S$_{5}$, which represents the permutations of 5 objects, is actually 60, corresponding to the permutation with the cycle structure of a 5-cycle.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the correct probability that 0 will not be chosen when selecting k digits is (9/$10)^k$, as there are 9 other digits (1 through 9) that can be chosen for each selection.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Given a real 2 x 2 matrix A such that A = $A^($-1) and I \ensuremath{\neq} A \ensuremath{\neq} -I, we can derive implications for the trace of A. Since A is its own inverse, it must satisfy $A^2$ = I, meaning the eigenvalues of A are either 1 or -1. However, since A is neither the identity matrix (I) nor the negative identity matrix (-I), it must have one eigenvalue of 1 and one of -1. The trace of a matrix is the sum of its eigenvalues, so in this case, the trace of A is 1 + (-1) = 0. Thus, our analysis reveals that the trace of matrix A is 0.
+\\ \textit{Note:} correct because it logically deduces that since the matrix A is its own inverse, its eigenvalues must be 1 and -1, leading to a trace of 0, while also adhering to the given conditions that A is neither the identity nor the negative identity matrix.
+\item \textbf{Answer:} To determine the minimum value of the expression x + 4 z under the constraint $x^2$ + $y^2$ + $z^2$ \ensuremath{\leq} 2, we can utilize the method of Lagrange multipliers or analyze the geometry of the constraint. Since the constraint describes a sphere of radius \ensuremath{\sqrt} 2, we can parametrically express x and z in terms of spherical coordinates. By substituting z = (2 - $x^2$ - $y^2$$)^(1$/2) into the expression and optimizing, we find that the minimum occurs when x and z take on specific values. After calculations, we find that the minimum value of the expression x + 4 z is -\ensuremath{\sqrt} 34, which is achieved when x = -1 and z = -\ensuremath{\sqrt} 2. This solution illustrates the relationship between optimization and geometric constraints in multivariable calculus.
+\\ \textit{Note:} correct because it employs the method of Lagrange multipliers or geometric analysis to optimize the expression x + 4 z within the given spherical constraint, leading to specific values for x and z that yield the minimum.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_25",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A backdoor is a hidden method of bypassing normal authentication or security mechanisms in a computer system, allowing unauthorized access to the system and its information without detection.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1517
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Choosing to busy-wait on an asynchronous event is not reasonable on a time-sharing system because it can waste CPU cycles and degrade overall system performance by preventing other processes from executing.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1012
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer, (a + b)*c + (a + b)*d, accurately captures the structure of the original expression (a* + b)*(c + d) by expressing that any combination of 'a's and 'b's can precede either 'c' or 'd', reflecting the union and concatenation operations inherent in the original regular expression.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 15608
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is considered the first buffer overflow attack as it exploited a vulnerability in the Unix sendmail program to propagate itself, demonstrating the severe consequences of such security flaws in software.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Confidentiality\" because it refers to the assurance that information is accessible only to those authorized to have access, ensuring that both the sender and receiver can communicate without unauthorized interception or disclosure.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Interrupts are mechanisms that allow the CPU to respond to events or signals from hardware devices, enhancing the efficiency of input and output operations, rather than replacing data channels which are crucial for data transmission.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1026
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Burp Suite is primarily designed for web application security testing and not for analyzing wireless traffic, which is the primary function of Wireshark.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Operator precedence can be effectively specified using a context-free grammar because context-free grammars can define the hierarchical structure of expressions, allowing for the correct interpretation of operator precedence and associativity in programming languages.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1077
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because WPA (Wi-Fi Protected Access) is not the central node of 802.11 wireless operations; rather, it is a security protocol used to provide encryption and secure communication within those networks, while the central node typically refers to the access point or router that manages wireless connections.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1486
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In stack-based programming languages, local variables are typically stored in the activation record of a subroutine's stack frame, but they are not necessarily stored in the activation record frame itself, as they can also be held in registers or allocated on the heap depending on the language's implementation and optimization strategies.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1030
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def tuple_to_int(nums): | return result",
+      "marks": 10,
+      "explanation": "correct because it outlines the basic structure of a function that will take a tuple of positive integers as input and aims to convert those integers into a single integer, emphasizing the importance of defining a function and the expected output format.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 116
+    },
+    {
+      "question_id": "computer_science_graduate_doc_25_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def check_min_heap(arr, i): | return True | return left_child and right_child",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that checks the properties of a min heap by ensuring that each parent node is less than or equal to its children, which is essential for validating the min heap structure.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 751
+    }
+  ]
+}

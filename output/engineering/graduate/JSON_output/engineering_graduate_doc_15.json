@@ -1,0 +1,294 @@
+{
+  "docid": "engineering_graduate_doc_15",
+  "document_name": "Engineering - Graduate Level Assessment 15",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_15.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find the Laplace transform L{g(t)}, where g(t)= 0,t < 4 and= (t - 4)^2,t \\geq 4",
+      "options": {
+        "A": "[(2 e^-4 s) / s^3]",
+        "B": "2 / s^3",
+        "C": "(2 / s^2) * e^-4 s",
+        "D": "4 / s^3",
+        "E": "[(2 e^-4 s) / s^4]"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - [(2 e^-4 s) / s^3]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11482"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A box contains 7 red, 5 white, and 4 black balls. What is the probability of your drawing\nat random one red ball? One black ball?",
+      "options": {
+        "A": "P(R) = 2/3, P(B) = 1/3",
+        "B": "P(R) = 5/14, P(B) = 4/14",
+        "C": "P(R) = 1/2, P(B) = 1/4",
+        "D": "P(R) = 7/15, P(B) = 4/15",
+        "E": "P(R) = 7/16, P(B) = 1/4"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - P(R) = 7/16, P(B) = 1/4",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "LC oscillators are used for produce a waveform with frequency ranging from",
+      "options": {
+        "A": "1 kHz to 100 kHz",
+        "B": "500 MHz to 1 GHz",
+        "C": "1 Hz to 1 kHz",
+        "D": "1 KHz to 1 MHz",
+        "E": "10 kHz to 100 MHz"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 1 kHz to 100 kHz",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11576"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "An isolated spherical conductor of radius R carries a surface charge density \\sigma. Find\nthe potential energy in terms of R.",
+      "options": {
+        "A": "{Q^2 / (16\\pi\\epsilon_0 R)}",
+        "B": "{2 Q^2 / (8\\pi\\epsilon_0 R)}",
+        "C": "{Q / (8\\pi\\epsilon_0 R)}",
+        "D": "{Q / (16\\pi\\epsilon_0 R^2)}",
+        "E": "{Q / (4\\pi\\epsilon_0 R^2)}"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - {Q^2 / (16\\pi\\epsilon_0 R)}",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the attenuation per meter along a wave guide for an appliedwave length \\lambda_0 = 2\nmeters, if the cutoff wave length ofthe guide is\\lambda_oc= 20 cm.",
+      "options": {
+        "A": "400 db/meter",
+        "B": "545 db/meter",
+        "C": "600 db/meter",
+        "D": "325 db/meter",
+        "E": "250 db/meter"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 545 db/meter",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11315"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The maximum effective aperture of a short dipole is 0.075 \u03bb^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11779"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "A reverse-biased diode can act as an amplifier by allowing some current to flow through the junction.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'Off Switch'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12125"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The inverse Laplace transform L^-1[1 / {s(s^2 + 4)}] is equal to (1 / 2)sin(2 t).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '(1 / 4)(1 - cos 2 t)'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11349"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A sinusoidal signal is a digital signal because it only has two values: positive and negative.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'it is a square wave signal'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_15_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The electric field in the gap between two infinite parallel plates with equal surface charge density of the same polarity is zero.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_15_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Given an air flow condition where the Mach number upstream of a shock is M_x = 1.8 and the\nstatic temperature downstream is T_y = 800^\\circR, calculate the change in velocity across\nthe shock. Discuss the implications of your findings in the context of compressible flow\nand shock wave phenomena.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "1160 ft/sec. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11456"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_15_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "An induction motor operates with a rotor current of 10 amperes at a slip of 5 percent and\na rotor effective resistance of 0.1 ohm per phase. Calculate the internal power developed\nper phase and discuss the implications of your findings on motor performance.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "1.9 ohms. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11762"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

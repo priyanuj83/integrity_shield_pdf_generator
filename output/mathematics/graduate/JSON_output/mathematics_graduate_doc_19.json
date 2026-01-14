@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_19",
+  "document_name": "Mathematics - Graduate Level Assessment 19",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_19.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find the GCD of 25 and 55.",
+      "options": {
+        "A": "275",
+        "B": "15",
+        "C": "20",
+        "D": "50",
+        "E": "11"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The GCD of 25 and 55 is actually 5, as it is the largest positive integer that divides both numbers without leaving a remainder, but the answer 275 is incorrect; thus, the given answer does not reflect the correct application of the Euclidean algorithm or prime factorization for calculating the GCD.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8907"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Compute the area of the triangle whose altitudes have lengths 10, 12, and 15.",
+      "options": {
+        "A": "56\\sqrt{15}",
+        "B": "60\\sqrt{7}",
+        "C": "240\\sqrt{7}/7",
+        "D": "48\\sqrt{15}",
+        "E": "120\\sqrt{15}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The area of a triangle can be calculated using the formula \\(A = \\frac{abc}{4R}\\), where \\(a\\), \\(b\\), and \\(c\\) are the sides of the triangle and \\(R\\) is the circumradius, which can be derived from the altitudes; thus, using the given altitudes of 10, 12, and 15, we find the area to be \\(240\\sqrt{7}/7\\) through the appropriate relationships between the sides and altitudes.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8603"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A number $x$ equals $2^{15}\\cdot 3^6$. What number's cube equals $x$?",
+      "options": {
+        "A": "125",
+        "B": "343",
+        "C": "64",
+        "D": "216",
+        "E": "512"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cube root of $x = 2^{15} \\cdot 3^6$ is $x^{1/3} = 2^{15/3} \\cdot 3^{6/3} = 2^5 \\cdot 3^2 = 32 \\cdot 9 = 288$, and since 125 is $5^3$, the question likely involves a misunderstanding, as the cube root of $x$ should yield 288 instead of 125; thus, the provided answer does not match the cube root of the original expression.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8168"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The American flag is usually made with its width and length in the ratio of 10 to 19.\nWhich dimensions are in the correct ratio for the flag?",
+      "options": {
+        "A": "27 ft by 53 ft",
+        "B": "35 ft by 66 ft",
+        "C": "25 ft by 47 ft",
+        "D": "30 ft by 53 ft",
+        "E": "30 in. by 57 in."
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimensions 30 inches by 57 inches maintain the ratio of 10 to 19, as 30/57 simplifies to 10/19, confirming that they are proportional according to the specified ratio for the American flag.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8794"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Let I=[0,1]\\times[0,1]. Suppose $E={(x, y) \\in I: sin(x)<\\frac{1}{2}, cos(x+y) is\nirrational}$, what is the Lebesgue measure of E?",
+      "options": {
+        "A": "0.7853981634",
+        "B": "1.0471975512",
+        "C": "1.8849555922",
+        "D": "0.6283185307",
+        "E": "0.2617993833"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Lebesgue measure of the set E corresponds to the area of the region defined by the conditions sin(x) < 1/2 and the irrationality of cos(x+y), leading to the measure of E being calculated as the area of the applicable region in the unit square, which evaluates to 0.7853981634.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Is the Taylor Series for $f$ at x=5 where $f(x)=\\sum_{n=0}^{\\infty}\\frac{x^n}{n!} absolutely converging?' is '1.0'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Taylor Series for \\( f(x) = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!} \\), which is the series expansion for \\( e^x \\), converges absolutely for all \\( x \\) in the real numbers, including \\( x = 5 \\), making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8833"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Compute $\\int_C dz / (z * (z-2)^2)dz$, where C: |z - 2| = 1. The answer is Ai with i denoting the imaginary unit, what is A?' is '1'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the integral involves a singularity at z = 0, which lies inside the contour defined by |z - 2| = 1, making the integral's evaluation not equal to 1.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7758"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Even with a standard deviation of zero, the sample can still have a skewed distribution due to the presence of outliers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A standard deviation of zero indicates that all data points in the sample are identical, meaning there can be no outliers and therefore no skewness in the distribution.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7910"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The function f(x, y) = x^3 + y^3 + 3 xy has local minima at both distinct points P and Q.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the function f(x, y) = x^3 + y^3 + 3xy has a single critical point at (0,0), which is a saddle point, indicating that it does not have any local minima at distinct points P and Q.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8916"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The probability that a random integer from the set S is divisible by 9 is 0.1005.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the probability that a random integer from any set is divisible by 9 must be calculated based on the total number of integers in the set and their divisibility by 9, which does not yield a probability of 0.1005.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7870"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_19_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Considering a normally distributed waiting time for a new roller coaster ride with a mean\nof 35 minutes and a standard deviation of 10 minutes, analyze the time interval that\nencompasses the waiting times for 100,000 riders out of 150,000. Discuss the implications\nof this interval in the context of statistical distribution and rider experience.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the waiting times for 100,000 out of 150,000 riders on a new roller coaster\nride, we refer to the normal distribution characterized by a mean of 35 minutes and a\nstandard deviation of 10 minutes. By calculating the 66.67 th percentile of this\ndistribution, which corresponds to the waiting times for approximately 100,000 riders, we\nfind the time interval to be between 25.3 and 44.7 minutes. This interval indicates that a\nsignificant majority of riders can expect to wait within this range, highlighting the\ndistribution's role in understanding rider experience. Such statistical insights are\ncrucial for park management to optimize operational efficiency and enhance customer\nsatisfaction by setting realistic expectations regarding wait times.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the 66.67th percentile of a normally distributed waiting time using the provided mean and standard deviation, thereby establishing that 100,000 out of 150,000 riders are expected to wait within the calculated interval of 25.3 to 44.7 minutes, which reflects the characteristics of normal distribution and its implications for rider experience.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8662"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_19_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Consider a point in space defined by coordinates \\((x,y,z)\\) selected uniformly within the\ncube bounded by \\(-1 \\leq x, y, z \\leq 1\\). Analyze the probability that this point lies\nwithin the unit sphere defined by the equation \\(x^2 + y^2 + z^2 \\leq 1\\). Discuss the\ngeometric interpretation and the mathematical principles involved in your analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the probability that a point selected uniformly within the cube bounded by \\(-1\n\\leq x, y, z \\leq 1\\) lies within the unit sphere defined by \\(x^2 + y^2 + z^2 \\leq 1\\),\nwe first calculate the volumes of both the cube and the sphere. The volume of the cube is\n\\(V_{\\text{cube}} = (2)^3 = 8\\), while the volume of the unit sphere is\n\\(V_{\\text{sphere}} = \\frac{4}{3} \\pi (1)^3 = \\frac{4\\pi}{3}\\). The probability \\(P\\) is\nthen given by the ratio of the sphere's volume to the cube's volume, \\(P =\n\\frac{V_{\\text{sphere}}}{V_{\\text{cube}}} = \\frac{\\frac{4\\pi}{3}}{8} = \\frac{\\pi}{6}\\).\nThus, the correct probability that the point lies within the unit sphere is\n\\(\\frac{\\pi}{6}\\). This analysis highlights the geometric relationship between the\nenclosed volumes and the principles of probability in a three-dimensional space.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately computes the volumes of the cube and the unit sphere and uses the ratio of these volumes to determine the probability that a point randomly selected within the cube also lies within the sphere, illustrating the relationship between geometric shapes and probability in a uniform distribution context.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8919"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

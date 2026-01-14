@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_14",
+  "document_name": "Mathematics - Undergraduate Level Assessment 14",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_14.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Determine whether the polynomial in Z[x] satisfies an Eisenstein criterion for\nirreducibility over Q. 8 x^3 + 6 x^2 - 9 x + 24",
+      "options": {
+        "A": "Yes, with p=2.",
+        "B": "Yes, with p=3.",
+        "C": "Yes, with p=5.",
+        "D": "No."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial 8x^3 + 6x^2 - 9x + 24 satisfies the Eisenstein criterion for irreducibility over Q because, when evaluated with p = 3, the coefficients of the polynomial demonstrate that all coefficients except the leading coefficient are divisible by 3, while the constant term is not divisible by 3 squared.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "27"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If a polynomial f(x) over the real numbers has the complex numbers 2 + i and 1 - i as\nroots, then f(x) could be",
+      "options": {
+        "A": "x^3 + 5 x^2 + 4 x + 1",
+        "B": "x^4 - 6 x^3 + 15 x^2 - 18 x + 10",
+        "C": "x^3 - x^2 + 4 x + 1",
+        "D": "x^4 + 7 x^2 + 10"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial must have real coefficients, so the roots 2 + i and 1 - i imply that their complex conjugates, 2 - i and 1 + i, are also roots, leading to a polynomial of degree 4 that can be expressed as x^4 - 6 x^3 + 15 x^2 - 18 x + 10, which satisfies this condition.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "14158"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Every integral domain with characteristic 0 is infinite. Statement 2 | Every\nintegral domain with prime characteristic is finite.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is true, false because an integral domain with characteristic 0 must contain infinitely many elements (as it can't be a finite field), while an integral domain with prime characteristic can be finite, as seen in finite fields where the characteristic is a prime number.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "43"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let I != A != -I, where I is the identity matrix and A is a real 2 x 2 matrix. If A =\nA^(-1), then the trace of A is",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "-1"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The trace of a matrix is the sum of its eigenvalues, and since A is an involutory matrix (A = A^(-1)), its eigenvalues must be either 1 or -1, leading to the conclusion that for a 2x2 matrix, the only way to satisfy the condition that the eigenvalues sum to zero is if the trace of A is 0.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1173"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Let f(x,y) = x^2 - 2 xy + y^3 for all real x and y. Which of the following is true?",
+      "options": {
+        "A": "f has all of its relative extrema on the line x = y.",
+        "B": "f has all of its relative extrema on the parabola x = y^2.",
+        "C": "f has a relative minimum at (0, 0).",
+        "D": "f has an absolute minimum at (2/3, 2/3)."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the fact that the critical points of the function f(x, y) can be found by setting the partial derivatives equal to zero, and upon solving these equations, it becomes evident that the solutions lie along the line x = y, indicating that all relative extrema occur on this line.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1124"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The probability that 0 will not be chosen when selecting k digits from {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} is (9/10)^k.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when selecting k digits from the set {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, the probability of not choosing 0 for each digit is 9 out of 10, and since the selections are independent, the overall probability is (9/10)^k.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "14162"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The unity of a subring must always be the same as the unity of the larger ring from which it is derived.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A subring can exist without a unity, or it may have a different unity than the larger ring, as the definition of a subring does not require it to inherit the unity of its parent ring.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "60"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The polynomial x^2 + 1 has one zero in the finite field Z_2, which is 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the finite field Z_2, the polynomial x^2 + 1 evaluates to 0 when x = 1, confirming that 1 is indeed a zero of the polynomial.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "96"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The probability that the player who makes the first toss wins the game is 1/4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The probability that the player who makes the first toss wins the game is not 1/4 because it depends on the game's specific rules and win conditions, which generally provide a higher probability for the first player than the stated fraction.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1159"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "In a group, (ab)^n = a^nb^n is false; the correct form is (ab)^n = a^n b^n if a and b commute.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the equation (ab)^n = a^n b^n holds only when the elements a and b commute, meaning ab = ba, which is not generally true for all elements in a group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "75"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "The acute angles of a particular isosceles trapezoid each measure 40 degrees. What is the\nmeasure, in degrees, of each obtuse angle in the trapezoid?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In an isosceles trapezoid, there are two pairs of congruent angles. Let $x$ and $y$ be the\ndistinct angle measures. Since the angles of a quadrilateral sum to 360, we have $2 x+2\ny=360$. Setting $x=40$ we find $y=\\boxed{140}$ degrees.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because, in an isosceles trapezoid, the sum of the interior angles equals 360 degrees, and with two acute angles measuring 40 degrees each, the corresponding obtuse angles must measure 140 degrees to maintain the balance of angle measures.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "12237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Determine the units digit of 7^25 and explain the process you used to arrive at your\nanswer, including any patterns or properties of powers that you identified.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the units digit of \\( 7^{25} \\), we can analyze the pattern of the units\ndigits of consecutive powers of 7. Calculating the first few powers, we find: - \\( 7^1 = 7\n\\) (units digit is 7) - \\( 7^2 = 49 \\) (units digit is 9) - \\( 7^3 = 343 \\) (units digit\nis 3) - \\( 7^4 = 2401 \\) (units digit is 1) Notably, the units digits repeat every four\npowers: 7, 9, 3, 1. To find the units digit of \\( 7^{25} \\), we calculate \\( 25 \\mod 4 \\),\nwhich gives us a remainder of 1. Therefore, \\( 7^{25} \\) shares the same units digit as \\(\n7^1 \\), which is 7. Thus, the units digit of \\( 7^{25} \\) is 7.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the repeating pattern of the units digits of powers of 7 (7, 9, 3, 1) and uses modular arithmetic to determine that \\( 7^{25} \\) corresponds to the first digit in this cycle, which is 7.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1140"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

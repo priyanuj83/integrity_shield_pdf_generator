@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 1 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) ( 'abcd', 786 , 2.23, 'john', 70.2 ); B) abcd; C) Error; D) None of the above.
+\\ \textit{Note:} The correct answer is "abcd" because in Python, indexing starts at 0, so tuple[0] refers to the first element of the tuple, which is the string 'abcd'.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(log $e^N$); B) O(log N); C) O(log log N); D) O(N)
+\\ \textit{Note:} The function O(log log N) grows the slowest among common complexity classes because its growth rate decreases significantly as N increases, indicating that it requires fewer resources relative to larger input sizes compared to other functions like O(N) or O(log N).
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 6; C) 4; D) 5
+\\ \textit{Note:} The correct answer is 5 because in Python, the expression evaluates the modulus operator first, resulting in 3 \% 2 equaling 1, and then adds that to 4, giving a final value of 5.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 4 because the max() function in Python returns the largest value in a list, and in the list [1,2,3,4], the largest value is 4.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) a[i] == max; B) a[i] != max; C) a[i] \textless{} max || a[i] \textgreater{} max; D) FALSE
+\\ \textit{Note:} The expression !(max != a[i]) simplifies to a[i] == max, making the entire boolean expression equivalent to just a[i] == max.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, the slicing syntax `[::-1]` effectively reverses the order of elements in a string, so applying it to 'abc' results in 'cba'.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is True because the set() function in Python 3 creates a set from the list l, automatically removing any duplicate elements and resulting in a collection of unique values.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, the exponentiation operator (**) has a higher precedence than multiplication (*), so the expression evaluates as 4 * (1 ** 4), which simplifies to 4 * 1, resulting in 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the operator for floor division is represented by a double slash (//), while the single slash (/) is used for regular division that returns a float.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, using negative indexing on a string allows you to access characters from the end of the string, thus it does not always result in an error.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The RGB color model represents colors by combining varying intensities of red, green, and blue light. Each of these three colors can have a value ranging from 0 to 255, which allows for a total of 256 different shades for each color. Since there are three colors being combined, the total number of distinct colors that can be represented is 256 x 256 x 256, which equals over 16 million colors. To store these colors, 24 bits are required: 8 bits for red, 8 bits for green, and 8 bits for blue. This means each color channel can represent 256 levels of intensity, ensuring a rich and diverse palette for digital images.
+\\ \textit{Note:} correct because it accurately describes the RGB color model as a combination of red, green, and blue light values ranging from 0 to 255, leading to over 16 million possible colors, and explains that 24 bits are needed to represent these colors with 8 bits allocated to each primary color.
+\item \textbf{Answer:} Providing laptops or tablets to all students can significantly reduce the digital divide in education by ensuring equal access to technology and online resources. This initiative allows students from diverse backgrounds to engage with digital learning tools, fostering a more inclusive educational environment. Potential benefits include improved digital literacy skills, enhanced collaboration among students, and increased engagement with learning materials. However, challenges may arise, such as ensuring proper training for both students and teachers, maintaining the devices, and addressing differences in students' home internet access. Overall, while this policy can promote equity in education, careful planning and support are essential for its success.
+\\ \textit{Note:} correct because it emphasizes that providing laptops or tablets to all students promotes equal access to technology, which can bridge the digital divide and enhance educational outcomes, while also acknowledging the potential benefits and challenges of implementing such a policy.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

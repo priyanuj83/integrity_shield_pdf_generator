@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_25",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms, such as K-means, DBSCAN, and hierarchical clustering, all utilize specific methods to group data points based on their spatial proximity in a multidimensional space.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction, as it does not rely on labeled output data, unlike supervised learning methods that require labeled training data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Highway networks indeed follow the introduction of ResNets and utilize convolutions instead of max pooling, making the first statement false, while DenseNets typically require more memory due to their dense connectivity pattern, making the second statement true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 15 because in a Bayesian network with four variables (H, U, P, and W), each variable can take on multiple states, and without any assumptions of independence, the total number of parameters needed equals the product of the number of states for each variable minus the constraints imposed by the structure of the network, leading to a calculation of 15 independent parameters.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6881
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the fundamental assumption of Naive Bayes, which posits that attributes are conditionally independent of one another given the class label, making the statement about their statistical dependence incorrect.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14780
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Bayesians incorporate prior beliefs about parameters through prior distributions in their probabilistic models, whereas frequentists rely solely on the data at hand without incorporating prior information.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Yann LeCun emphasizes the importance of a combination of supervised, unsupervised, and self-supervised learning, rather than prioritizing self-supervised learning as the sole critical component.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14783
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Residual connections are used in both ResNets and Transformers to facilitate the flow of gradients during training, thereby improving convergence and enabling the construction of deeper models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6892
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because MAP incorporates prior information that helps regularize the estimate, reducing its sensitivity to noise in the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14786
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The ResNet-50 model contains approximately 23 million parameters, significantly fewer than 1 billion, which makes it a relatively compact neural network compared to larger models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def max_path_sum(tri, m, n): | return tri[0][0]",
+      "marks": 10,
+      "explanation": "The provided answer is incorrect as it simply returns the top element of the triangle without implementing any logic to compute the maximum total path sum from the top to the bottom, which requires evaluating the possible paths and accumulating their sums.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 147
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_25_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def text_match_three(text): | return 'Found a match!'",
+      "marks": 10,
+      "explanation": "The function correctly identifies a match for the specified pattern by checking whether the input string contains the character 'a' followed by exactly three 'b's, thus fulfilling the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 787
+    }
+  ]
+}

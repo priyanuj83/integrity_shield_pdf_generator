@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_16",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The condition \"a < c\" is sufficient to guarantee that the entire expression evaluates to true because if a is less than c, the first part of the disjunction (a < c) is satisfied, making the whole expression true regardless of the other conditions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3269
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 10 because the sum function in Python 3 calculates the total of all elements in the list l, which are 1, 2, 3, and 4, adding them together to yield 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 4 because the `max()` function in Python returns the largest value from the list, and in the list [1, 2, 3, 4], the largest number is 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression `!(max != a[i])` simplifies to `max == a[i]`, making the entire expression equivalent to `a[i] == max || a[i] == max`, which further simplifies to just `a[i] == max`.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Chemistry\" because negative indexing in Python allows access to list elements starting from the end, so [-3] refers to the third element from the end of the list, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3279
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, the slicing syntax b[::2] retrieves every second element from the list starting from the first element, which results in the list [11, 15, 19] from the original list [11, 13, 15, 17, 19, 21].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the function min([1, 2, 3, 4]) returns the smallest value in the list, which is 1, not the second smallest value, which is 2.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3241
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The function choice(seq) in Python 3 is used to select a random element from a non-empty sequence and does not set or alter the starting value for generating random numbers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3261
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the '+' operator concatenates two strings, so adding 'a' and 'ab' combines them into the single string 'aab'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, tuples are zero-indexed, meaning that the first element can be accessed using the index 0, which for the tuple ('abcd', 786, 2.23, 'john', 70.2) corresponds to 'abcd'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "Failing to check for a zero value in the denominator when calculating the average of N\nnumbers in an algorithm can lead to a runtime error, specifically a division by zero\nerror. This occurs because dividing by zero is mathematically undefined, and when the\nalgorithm attempts this operation, it will crash or produce an unexpected result. Such\nerrors typically become apparent during runtime, when the program is executing and tries\nto perform the calculation. To prevent this, programmers should include a check to ensure\nthat the denominator is not zero before performing the division, ensuring the algorithm\nruns smoothly and produces correct outputs.",
+      "marks": 10,
+      "explanation": "correct because failing to check for a zero value in the denominator can cause a division by zero error during runtime, leading to program crashes or unexpected results.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3275
+    },
+    {
+      "question_id": "computer_science_k-12_doc_16_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "When the Python 3 set function is applied to the list l = [1, 2, 2, 3, 4], it processes\nthe elements of the list and removes any duplicates, resulting in the output {1, 2, 3, 4}.\nThis happens because sets are designed to contain only unique elements, meaning that each\nvalue can only appear once. The significance of using sets in programming lies in their\nability to simplify tasks that involve uniqueness, such as removing duplicates from a list\nor checking membership efficiently. By using sets, programmers can write cleaner and more\nefficient code when dealing with collections of items.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the set function removes duplicates from the list, resulting in a collection of unique elements, and explains the importance of sets in programming for tasks involving uniqueness and efficient membership checks.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3270
+    }
+  ]
+}

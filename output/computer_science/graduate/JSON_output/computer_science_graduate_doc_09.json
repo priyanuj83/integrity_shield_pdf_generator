@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_09",
+  "document_name": "Computer Science - Graduate Level Assessment 9",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_09.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ can cost you money, by sending text messages from your mobile phone\nnumbers.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "SMS Trojan",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An SMS Trojan is a type of malware that secretly sends costly text messages from a user's mobile phone without their consent, leading to unexpected charges on their phone bill.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Can a stream cipher have perfect secrecy?",
+      "options": {
+        "A": "Yes, if the PRG is really \"secure\"",
+        "B": "No, there are no ciphers with perfect secrecy",
+        "C": "Yes, every cipher has perfect secrecy",
+        "D": "No, since the key is shorter than the message"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A stream cipher cannot achieve perfect secrecy because if the key is shorter than the message, it can be reused, allowing for patterns to emerge that compromise the confidentiality of the encrypted data.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1559"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following regular expressions is equivalent to (describes the same set of\nstrings as) (a* + b)*(c + d)?",
+      "options": {
+        "A": "a*(c + d)+ b(c + d)",
+        "B": "a*(c + d)* + b(c + d)*",
+        "C": "a*(c + d)+ b*(c + d)",
+        "D": "(a + b)*c +(a + b)*d"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, (a + b)*c + (a + b)*d, is equivalent to the original expression (a* + b)*(c + d) because it captures all strings formed by any combination of 'a' and 'b' followed by either 'c' or 'd', reflecting the union of sequences that end with 'c' or 'd' after any number of 'a's or 'b's.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "15608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What are the types of scanning?",
+      "options": {
+        "A": "Port, network, and services",
+        "B": "Network, vulnerability, and port",
+        "C": "Passive, active, and interactive",
+        "D": "Server, client, and network"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer identifies network scanning, vulnerability scanning, and port scanning as essential methods used in cybersecurity to assess and identify potential weaknesses and active services within a computer network.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a remote Trojan?",
+      "options": {
+        "A": "Troya",
+        "B": "DaCryptic",
+        "C": "BankerA",
+        "D": "Game-Troj"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Troya is classified as a remote Trojan because it is designed to allow an attacker to remotely control the infected system, facilitating unauthorized access and manipulation of data.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Wireless traffic sniffing is a process used for analyzing wireless network data, aiding in forensic investigations and troubleshooting.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over a wireless network, making it a valuable tool for forensic investigations and troubleshooting network issues.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Freenet is a decentralized platform used for anonymous file sharing, functioning as part of the darknet.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Freenet is designed to allow users to share files anonymously and operates on a decentralized network, making it a key component of the darknet.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1478"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Message Confidentiality, the transmitted message must be understandable to both the sender and the translator.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Message Confidentiality, the focus is on ensuring that the content of the message remains secret and unintelligible to unauthorized parties, meaning it does not need to be understandable to any translator or intermediary involved in its transmission.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1474"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Wireshark is a widely used tool for capturing and analyzing wireless network traffic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireshark is an open-source network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network, making it an essential tool for analyzing both wired and wireless network traffic.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Ruby and Python applications commonly encounter buffer overflow errors because of their dynamic typing features.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer overflow errors are primarily associated with low-level languages like C and C++ that allow direct memory manipulation, whereas Ruby and Python, being higher-level languages with automatic memory management and dynamic typing, typically prevent such errors.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_09_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find all index positions of the minimum values in a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def position_min(list1): | return min_result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that aims to identify the index positions of the minimum values in a list, which is essential for solving the problem as stated.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "322"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_09_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find quotient of two numbers.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find(n,m): | return (q)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function to compute the quotient of two numbers, although it lacks the implementation details necessary to perform the division operation and assign the result to the variable 'q'.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "292"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

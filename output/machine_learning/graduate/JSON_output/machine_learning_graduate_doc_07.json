@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_07",
+  "document_name": "Machine Learning - Graduate Level Assessment 7",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_07.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "As the number of training examples goes to infinity, your model trained on that data will\nhave:",
+      "options": {
+        "A": "Lower variance",
+        "B": "Higher variance",
+        "C": "Same variance",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As the number of training examples approaches infinity, the model's predictions become more stable and less sensitive to fluctuations in the training data, resulting in lower variance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Yann LeCun's cake, the cherry on top is",
+      "options": {
+        "A": "reinforcement learning",
+        "B": "self-supervised learning",
+        "C": "unsupervised learning",
+        "D": "supervised learning"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's cake because it represents the pinnacle of machine learning techniques that effectively addresses complex decision-making and learning from interaction with an environment, thus enhancing the capabilities of AI systems.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14783"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Let us say that we have computed the gradient of our cost function and stored it in a\nvector g. What is the cost of one gradient descent update given the gradient?",
+      "options": {
+        "A": "O(D)",
+        "B": "O(N)",
+        "C": "O(ND)",
+        "D": "O(ND^2)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cost of one gradient descent update is O(D) because updating each parameter involves a simple arithmetic operation based on the gradient vector g, where D represents the number of parameters in the model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "MLE estimates are often undesirable because",
+      "options": {
+        "A": "they are biased",
+        "B": "they have high variance",
+        "C": "they are not consistent estimators",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maximum Likelihood Estimation (MLE) estimates can be highly sensitive to small changes in the data, leading to high variance and less reliable predictions, especially in small sample sizes or complex models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural\nnetworks trained with gradient descent with high probability converge to the global\noptimum.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is False, True because while it is true that sigmoids are monotonic functions, RELUs can be considered piecewise linear and are not strictly monotonic, and gradient descent does not guarantee convergence to a global optimum in non-convex optimization problems typically encountered in neural networks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Highway networks were introduced after ResNets and utilize max pooling instead of convolutions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Highway networks were introduced before ResNets and use learned gating mechanisms rather than max pooling, which distinguishes them from traditional convolutional layers.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6884"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The numerical output of a sigmoid node in a neural network is unbounded, encompassing all real numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The numerical output of a sigmoid node in a neural network is bounded between 0 and 1, not encompassing all real numbers.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Batch Normalization, not Layer Normalization, was utilized in the original ResNet architecture to improve training stability.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Batch Normalization was specifically designed to normalize the inputs of each layer across the mini-batch during training, which was a crucial factor in enhancing the convergence and stability of the original ResNet architecture, whereas Layer Normalization normalizes across the features instead of the batch dimension.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Predicting the amount of rainfall based solely on historical data is an unsupervised learning problem.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Predicting the amount of rainfall based solely on historical data is a supervised learning problem because it involves using labeled data (historical rainfall amounts) to make predictions about future outcomes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6869"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Dropout randomly sets activation values to one, effectively allowing all neurons to contribute during training.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Dropout randomly sets activation values to zero for a subset of neurons during training, preventing them from contributing to the forward pass and thereby promoting robustness and preventing overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Critically analyze the statements regarding the ID 3 algorithm's optimality in decision\ntree generation and the properties of continuous probability distributions. Discuss the\nimplications of each statement.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The ID 3 algorithm is not optimal for decision tree generation, primarily because it\nutilizes a greedy approach that selects the attribute with the highest information gain at\neach node without considering future implications. This can lead to suboptimal trees that\ndo not generalize well to unseen data. Additionally, the properties of continuous\nprobability distributions are not adequately addressed by ID 3, as it is designed for\ncategorical data, which limits its applicability in scenarios where continuous variables\nare prevalent. Consequently, while ID 3 is a foundational algorithm in decision tree\nlearning, its lack of optimality and inability to handle continuous distributions\nhighlight significant limitations that can affect model performance and accuracy in real-\nworld applications.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes that the ID3 algorithm's greedy selection process can result in suboptimal decision trees that fail to generalize to new data, and it also highlights the algorithm's limitation in handling continuous probability distributions, which restricts its effectiveness in diverse data scenarios.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6878"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how you would modify the EM algorithm to compute MAP estimates in a model with\nlatent variables. What specific steps would require changes, and why?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To modify the EM algorithm for computing Maximum A Posteriori (MAP) estimates in a model\nwith latent variables, one must adjust the E-step and M-step to incorporate prior\ndistributions over the parameters. In the E-step, rather than merely calculating the\nexpected values of the latent variables based on the current parameter estimates, we would\ncompute the posterior distribution of the latent variables given both the observed data\nand the parameter priors. In the M-step, the maximization step would then not only\noptimize the likelihood of the observed data but also include the log-prior of the\nparameters, effectively maximizing the posterior. This adjustment is crucial because MAP\nestimation aims to find the parameter set that maximizes the posterior distribution, which\ninherently requires the inclusion of prior information in the optimization process.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the need to incorporate prior distributions in both the E-step and M-step of the EM algorithm to compute MAP estimates, thereby adjusting the calculations of latent variable expectations and parameter maximization to account for the influence of these priors.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6927"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

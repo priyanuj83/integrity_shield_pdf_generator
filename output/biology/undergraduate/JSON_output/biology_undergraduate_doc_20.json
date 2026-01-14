@@ -1,0 +1,294 @@
+{
+  "docid": "biology_undergraduate_doc_20",
+  "document_name": "Biology - Undergraduate Level Assessment 20",
+  "domain": "biology",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_biology",
+    "biology"
+  ],
+  "combination_used": [
+    "mmlu_pro_biology_mcq",
+    "mmlu_pro_biology_tf",
+    "biology_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\undergraduate\\latex_documents\\biology_undergraduate_doc_20.tex",
+    "pdf_file": "output\\biology\\undergraduate\\pdf_documents\\biology_undergraduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_undergraduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_undergraduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\biology\\undergraduate\\answer_keys\\latex\\biology_undergraduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\undergraduate\\answer_keys\\pdf\\biology_undergraduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If a random variable X is normally distributed with a mean of 118 and a standard deviation\nof 11, what Z-scores correspond to raw scores of 115, 134, and 99?",
+      "options": {
+        "A": "-.27, 1.45, 1.73",
+        "B": "-.27, -1.45, -1.73",
+        "C": "-2.18, 0.15, -1.82",
+        "D": "0, 1.5, -2",
+        "E": ".27, 1.45, 1.73"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct Z-scores for the raw scores of 115, 134, and 99 are calculated using the formula Z = (X - \u03bc) / \u03c3, where X is the raw score, \u03bc is the mean (118), and \u03c3 is the standard deviation (11), resulting in Z-scores of approximately -0.27, 1.45, and -1.73, respectively.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3304"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "This biome contains plants whose roots cannot go deep due to the presence of a permafrost.",
+      "options": {
+        "A": "Savanna",
+        "B": "Taiga",
+        "C": "Tundra",
+        "D": "Chaparral",
+        "E": "Alpine"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The taiga, also known as the boreal forest, is characterized by its cold climate and the presence of permafrost, which limits the depth of plant roots, making it difficult for many species to grow deep-rooted systems.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3200"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What are the major forces of evolution?",
+      "options": {
+        "A": "reproduction, migration, mutation, natural selection",
+        "B": "mutation, genetic drift, migration, genetic hitchhiking",
+        "C": "mutation, genetic drift, migration, random mating",
+        "D": "mutation, gene flow, migration, natural selection",
+        "E": "adaptation, genetic drift, migration, natural selection"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The major forces of evolution\u2014reproduction, migration, mutation, and natural selection\u2014are fundamental mechanisms that drive genetic variation, adaptation, and the evolution of species over time.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2901"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which group is composed entirely of individuals who maintained that species are fixed\n(i.e., unchanging)?",
+      "options": {
+        "A": "Aristotle, Darwin, and Lamarck",
+        "B": "Aristotle, Lyell, and Darwin",
+        "C": "Aristotle, Linnaeus, and Cuvier",
+        "D": "Aristotle, Cuvier, and Lamarck",
+        "E": "Linnaeus, Darwin, and Lamarck"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Aristotle, Linnaeus, and Cuvier all held views that supported the idea of species being immutable and unchanging, reflecting a fixed hierarchy of life that was prevalent in their respective eras.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2808"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Fungi participate in each of the following EXCEPT",
+      "options": {
+        "A": "photosynthesis to produce glucose",
+        "B": "fermentation to produce alcohol",
+        "C": "association with humans to produce ringworm",
+        "D": "association with the roots of plants to form mycorrhizae"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fungi do not perform photosynthesis to produce glucose because they are heterotrophic organisms that obtain their nutrients by decomposing organic matter rather than synthesizing their own food through photosynthesis like plants do.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3443"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Gene flow between populations increases the likelihood of speciation in the metapopulation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Gene flow between populations tends to reduce genetic divergence and homogenizes genetic variation, which decreases the likelihood of speciation rather than increasing it.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3122"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "Maintaining the mosquito population at the highest point of its logistic curve will ensure long-term population stability.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maintaining the mosquito population at the highest point of its logistic curve would lead to resource depletion and increased competition, ultimately destabilizing the population rather than ensuring long-term stability.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3118"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The extra Y chromosome can decrease a male's aggression.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Research has shown that the presence of an extra Y chromosome in males, as seen in conditions like XYY syndrome, has been associated with lower levels of aggression and impulsivity compared to typical XY males, suggesting that the additional Y chromosome may influence behavioral traits.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2840"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Commensalism is not considered an interspecies interaction because it does not involve any relationship between different species.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Commensalism is indeed an interspecies interaction because it involves a relationship between different species, where one species benefits while the other is neither helped nor harmed.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_undergraduate_doc_20_biology_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The conversion of pyruvic acid to acetyl CoA is not an example of hydrolysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The conversion of pyruvic acid to acetyl CoA involves decarboxylation and the addition of Coenzyme A, rather than the breakdown of a compound through the addition of water, which is characteristic of hydrolysis.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_undergraduate_doc_20_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the methods used to estimate the age of rock formations, focusing on the role of\nradioactive elements and fossil content in this process.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The age of rock formations can be estimated through various methods, primarily utilizing\nradioactive elements and fossil content. Radioactive dating, specifically radiometric\ndating, measures the decay of isotopes within minerals, allowing geologists to determine\nthe age of a rock based on the ratio of parent to daughter isotopes. Additionally, the\nfossil content found within rock layers plays a critical role in dating, as the presence\nof certain fossils, known as index fossils, can indicate specific time periods in Earth's\nhistory. By correlating the fossil assemblages with established geological time scales,\nscientists can further refine the age estimates of rock formations. Together, these\nmethods provide a comprehensive approach to understanding the chronological sequence of\ngeological events.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes two primary methods for estimating rock ages: radiometric dating, which relies on the decay of radioactive isotopes, and the use of index fossils to provide relative dating based on the presence of specific fossilized organisms within the rock layers.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "2955"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_undergraduate_doc_20_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concepts of incomplete dominance and epistasis in genetics, highlighting their\ndifferences and similarities in terms of allele interactions and gene relationships.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Incomplete dominance and epistasis are both important concepts in genetics that illustrate\ndifferent interactions between alleles and genes. Incomplete dominance occurs when two\nalleles of a single gene interact to produce a phenotype that is a blend of the traits\nassociated with each allele, exemplified by the pink flowers resulting from the cross of\nred and white flowering plants. In contrast, epistasis involves the interaction between\ntwo different genes, where the presence of one gene's alleles can mask or modify the\nexpression of another gene's alleles, leading to variations in phenotypic outcomes. While\nboth concepts demonstrate complex genetic interactions, they differ fundamentally in that\nincomplete dominance focuses on the interaction within a single gene, whereas epistasis\nemphasizes the relationship between multiple genes. Understanding these concepts enhances\nour comprehension of genetic variation and inheritance patterns.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly distinguishes between incomplete dominance, which involves a blending of traits from two alleles of the same gene, and epistasis, which describes the interaction between alleles of different genes that can affect the expression of phenotypes.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3109"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

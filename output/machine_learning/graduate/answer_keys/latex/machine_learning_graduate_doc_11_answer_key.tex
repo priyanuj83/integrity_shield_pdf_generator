@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) PCA; B) Decision Tree; C) Linear Regression; D) Naive Bayesian
+\\ \textit{Note:} PCA (Principal Component Analysis) is an unsupervised learning technique used for dimensionality reduction, as it does not rely on labeled output data to guide its learning process.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Transform data to zero mean; B) Transform data to zero median; C) Not possible; D) None of these
+\\ \textit{Note:} Transforming the data to zero mean is essential in PCA because it ensures that the principal components reflect the actual variance in the data, aligning the PCA results with those obtained from Singular Value Decomposition (SVD), which also assumes centered data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} As of 2020, several advanced neural network architectures demonstrated over 98\% accuracy on the CIFAR-10 dataset, and the original ResNet models were primarily trained using stochastic gradient descent rather than the Adam optimizer, validating both statements as true.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Nando de Frietas; B) Yann LeCun; C) Stuart Russell; D) Jitendra Malik
+\\ \textit{Note:} Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and articulated the potential existential risks associated with AI, making him a prominent authority on this topic.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} ImageNet indeed contains images of various resolutions, while Caltech-101 has significantly fewer images (approximately 9,000) compared to ImageNet, which has over 14 million images, making the correct answer true for Statement 1 and false for Statement 2.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Penn Treebank is primarily focused on annotating syntactic and semantic structures of text for natural language processing tasks, particularly language modeling, rather than image classification.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Fully connected networks are often not the best choice for high-resolution image classification tasks because they require an impractical amount of parameters and computation, leading to inefficiencies and overfitting, while convolutional neural networks (CNNs) are specifically designed to handle such tasks more effectively by leveraging spatial hierarchies in the data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} K-fold cross-validation is linear in K because the model is trained K times on different subsets of the data, leading to a direct proportionality in computation time rather than a quadratic relationship.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Maximum Likelihood Estimation (MLE) can produce high-variance estimates, particularly in small sample sizes or when the model is complex, leading to overfitting and reduced generalizability to new data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Dropout randomly sets a fraction of the neurons' activation values to zero during training, but it does not disable the entire layer, as it retains some active neurons to maintain the layer's functionality.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def parallel\_lines(line 1, line 2): | return line 1[0]/line 1[1] == line 2[0]/line 2[1]
+\\ \textit{Note:} correct because it utilizes the property that two lines are parallel if their slopes, represented as the ratio of their coefficients, are equal, assuming the lines are given in the standard form of Ax + By = C.
+\item \textbf{Answer:} def previous\_palindrome(num): | return x
+\\ \textit{Note:} correct because it outlines the structure of a function that is intended to compute and return the previous palindrome of a given number, although it lacks the implementation details necessary to achieve this goal.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,290 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_19",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 19",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_19.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authorization aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization aims to restrict what operations or data a user can access to ensure that individuals only have permissions necessary for their roles, thus protecting sensitive information and maintaining system security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+      "options": {
+        "A": "boundary hacks",
+        "B": "memory checks",
+        "C": "boundary checks",
+        "D": "buffer checks"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, which can be prevented by implementing thorough boundary checks to ensure that data sizes are properly validated before being processed.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "______________ is a widespread app's coding mistake made by developers which could be\nexploited by an attacker for gaining access or malfunctioning your system.",
+      "options": {
+        "A": "Memory leakage",
+        "B": "Buffer-overrun",
+        "C": "Less processing power",
+        "D": "Inefficient programming"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overrun is the correct answer because it refers to a coding error where a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite memory and execute arbitrary code, leading to unauthorized access or system malfunctions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is true of mutation-based fuzzing?",
+      "options": {
+        "A": "It generates each different input by modifying a prior input",
+        "B": "It works by making small mutations to the target program to induce faults",
+        "C": "Each input is mutation that follows a given grammar",
+        "D": "It only makes sense for file-based fuzzing, not network-based fuzzing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutation-based fuzzing is characterized by its approach of creating new test inputs by systematically altering existing inputs, allowing it to explore various execution paths and uncover potential vulnerabilities in software.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Three of the following are classic security properties; which one is not?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Availability",
+        "C": "Correctness",
+        "D": "Integrity"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Availability\" because it refers to the accessibility of information and systems, while the classic security properties are typically identified as confidentiality, integrity, and authenticity, with availability being a separate but important aspect of overall security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1570"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A packet filter firewall primarily filters traffic at the network or transport layer of the OSI model.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A packet filter firewall operates by examining the header information of packets at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model to determine whether to allow or block the traffic based on predefined rules.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1508"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "A stack is a continuous memory location used for storing variables and data structures like character strings or arrays.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a stack is not a continuous memory location; rather, it is a data structure that operates on a last-in, first-out (LIFO) principle, typically using non-contiguous memory locations to manage function calls and local variables dynamically.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1551"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Whitebox fuzzers are designed to explore all code paths, increasing the likelihood of covering every line of code in a program.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Whitebox fuzzers utilize knowledge of the program's internal structure, such as control flow and data flow, to systematically explore all possible execution paths, thereby enhancing the chances of achieving comprehensive code coverage.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Morris Worm is considered the first known buffer overflow attack in cybersecurity history.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm is considered the first known buffer overflow attack because it exploited a vulnerability in the Unix sendmail program's handling of strings, allowing it to spread across the internet and demonstrate the potential impact of such attacks on computer systems.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "IM Trojans are programs specifically designed to steal logins and passwords for instant messaging applications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM Trojans are malicious software specifically created to infiltrate instant messaging applications and capture sensitive user credentials, such as logins and passwords.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check for majority element in the given sorted array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_majority(arr, n, x): | return False | return True | return False | def binary_search(arr, low, high, x): | return mid | return binary_search(arr, (mid + 1), high, x) | return binary_search(arr, low, (mid -1), x) | return -1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is correct because it outlines the implementation of a function that uses binary search to efficiently determine the presence of a majority element in a sorted array by checking if the count of the element exceeds half the size of the array.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether the given two arrays are equal or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def are_Equal(arr1,arr2,n,m): | return False | return False | return True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that two arrays are equal if they have the same elements in the same order, returning True only when both arrays are identical in length and content, while returning False otherwise.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "650"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_24",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses inherent to the transport layer protocols, which primarily focus on end-to-end communication and data integrity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is integrity because encryption and decryption primarily focus on making data unreadable to unauthorized users, thereby ensuring confidentiality, but they do not inherently verify that the data has not been altered or tampered with, which is the essence of integrity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1522
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "IM-Trojans are specifically designed malware that infiltrate instant messaging applications to capture and transmit users' login credentials and passwords.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1523
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Whitebox fuzzers analyze the program's internal structure and logic, allowing them to systematically explore all code paths and increase the likelihood of covering every line of code.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1471
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The AH Protocol, or Authentication Header Protocol, is designed to ensure source authentication and data integrity by providing mechanisms to verify the authenticity of the data and its sender, but it does not encrypt the data itself, thereby lacking privacy features.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1484
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Reusing a session symmetric key across different sessions increases the risk of key compromise and vulnerability to cryptographic attacks, as it allows attackers to potentially decrypt multiple sessions if they gain access to the key.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because WPA (Wi-Fi Protected Access) supports both AES encryption in WPA2 and TKIP (Temporal Key Integrity Protocol) in WPA, allowing for the use of TKIP in certain legacy scenarios.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message authentication provides assurance that a message has not been altered during transmission and confirms the identity of the sender, thereby ensuring both the integrity and authenticity of the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1513
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "CBF, or Cipher Block Feedback, is not an officially recognized operating mode within widely accepted cryptographic standards such as those defined by NIST, thus making the statement true.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1518
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Buffer-overflow issues require both comprehensive memory checks and boundary checks to ensure that data does not exceed allocated memory limits, as relying solely on memory checks may not prevent overflows that lead to security vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "The Tor browser serves as a specialized tool for accessing the Tor network, which is\ndesigned to facilitate anonymous internet usage by routing traffic through a series of\nvolunteer-operated servers. This anonymity is significant for users who require privacy\nprotection, such as whistleblowers, journalists in oppressive regimes, and individuals\nseeking to evade surveillance or censorship. The Tor browser employs multiple layers of\nencryption, allowing users to access both the standard web and hidden services while\nobscuring their IP addresses. However, while it enhances user privacy, the Tor network\nalso raises cybersecurity concerns, as it can be exploited for illicit activities, making\nit a double-edged sword in the landscape of online security. Ultimately, the Tor browser\nexemplifies the ongoing tension between privacy and security in the digital age.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the Tor browser's function as a tool for accessing the Tor network, emphasizing its role in providing anonymity through traffic routing and encryption, which is crucial for users needing privacy in contexts such as journalism and activism.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1530
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "Address sanitizer (ASAN) plays a crucial role in enhancing the effectiveness of fuzzing\ntechniques by providing detailed insights into memory errors that may be introduced during\nprogram execution. When a program is compiled with ASAN, it instruments the code to detect\nvarious memory-related issues such as buffer overflows, use-after-free errors, and memory\nleaks. This instrumentation not only allows for real-time detection of such errors but\nalso generates comprehensive reports that pinpoint the exact source of the problem. As a\nresult, developers can more easily identify and rectify vulnerabilities, significantly\nimproving the reliability and security of software applications. By integrating ASAN with\nfuzzing, the process of uncovering and addressing memory errors becomes more efficient and\neffective, ultimately leading to more robust software.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how ASAN enhances fuzzing by instrumenting code to detect and report memory errors in real time, thereby providing valuable insights that improve the identification of vulnerabilities during program execution.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1499
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_16",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 16",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_16.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let I = (S,V)I=(S,V) be a MAC. Suppose S(k,m)S(k,m) is always 5 bits long. Can this MAC be\nsecure?",
+      "options": {
+        "A": "No, an attacker can simply guess the tag for messages",
+        "B": "It depends on the details of the MAC",
+        "C": "Yes, the attacker cannot generate a valid tag for any message",
+        "D": "Yes, the PRG is pseudorandom"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The MAC is only 5 bits long, which means there are only 32 possible tags (2^5), allowing an attacker to easily guess the correct tag for any message through brute force.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1509"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A sender must not be able to deny sending a message that was sent, is known as",
+      "options": {
+        "A": "Message Nonrepudiation",
+        "B": "Message Integrity",
+        "C": "Message Condentiality",
+        "D": "Message Sending"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message nonrepudiation ensures that a sender cannot deny having sent a message, providing proof of the origin and integrity of the communication, which is essential for accountability in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which Nmap scan is does not completely open a TCP connection?",
+      "options": {
+        "A": "SYN stealth scan",
+        "B": "TCP connect",
+        "C": "XMAS tree scan",
+        "D": "ACK scan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The SYN stealth scan, also known as a half-open scan, sends SYN packets to initiate a TCP connection but does not complete the three-way handshake, allowing the scanner to identify open ports without establishing a full connection that could be logged by the target system.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1546"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What are the port states determined by Nmap?",
+      "options": {
+        "A": "Active, inactive, standby",
+        "B": "Open, half-open, closed",
+        "C": "Open, filtered, unfiltered",
+        "D": "Active, closed, unused"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is open, filtered, and unfiltered because these terms describe the states of network ports as determined by Nmap during its scanning process, indicating whether a port is accepting connections, being blocked by a firewall, or is accessible without restrictions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1555"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "____________ is also a part of darknet that is employed for transferring files\nanonymously.",
+      "options": {
+        "A": "Freenet",
+        "B": "ARPANET",
+        "C": "Stuxnet",
+        "D": "Internet"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Freenet is designed specifically for anonymous file sharing and communication, making it a key component of the darknet focused on privacy and security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1478"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "WPA 3 offers the strongest wireless security features compared to previous standards like WEP, WPA, and WPA 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA3 incorporates advanced security protocols such as Simultaneous Authentication of Equals (SAE) for stronger password protection and improved encryption methods, significantly enhancing wireless security compared to earlier standards like WEP, WPA, and WPA2.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "WiFi traffic sniffing specifically targets only encrypted wireless networks for analysis and does not apply to unencrypted traffic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WiFi traffic sniffing can analyze both encrypted and unencrypted wireless networks, as it involves capturing all data packets transmitted over the air, regardless of their encryption status.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Authorization is primarily concerned with identifying whether a user is an attacker or not.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization is primarily concerned with determining what resources and actions a user is permitted to access or perform after their identity has been verified, rather than identifying if they are an attacker.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The four primary security principles related to messages are Confidentiality, Integrity, Non-repudiation, and Authentication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Confidentiality, Integrity, Non-repudiation, and Authentication are universally recognized as the foundational principles that ensure the secure handling and transmission of messages in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1567"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Message authentication ensures the integrity of a message by verifying its origin and preventing tampering.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message authentication involves the use of cryptographic techniques to confirm that a message has not been altered in transit and that it originates from a legitimate source, thereby ensuring both its integrity and authenticity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1513"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the perimeter of a pentagon.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def perimeter_pentagon(a): | return perimeter",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that takes a single argument representing the side length of a regular pentagon and indicates that the perimeter, calculated as five times that side length, will be returned, thus addressing the question's requirement to find the perimeter of a pentagon.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "171"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_16_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find all pairs in an integer array whose sum is equal to a given\nnumber.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_pairs_count(arr, n, sum): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines a function that aims to identify and count pairs in an integer array that add up to a specified sum, which is a fundamental task in algorithms and data structures relevant to cybersecurity for analyzing patterns and potential vulnerabilities in numerical datasets.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "527"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

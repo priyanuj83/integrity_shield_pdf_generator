@@ -1,0 +1,290 @@
+{
+  "docid": "chemistry_undergraduate_doc_21",
+  "document_name": "Chemistry - Undergraduate Level Assessment 21",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_21.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The anhydride of Ba(OH)2 is",
+      "options": {
+        "A": "BaH 2",
+        "B": "BaOH",
+        "C": "Ba",
+        "D": "BaO"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The anhydride of Ba(OH)2 is BaO because it is formed by the removal of water (H2O) from the hydroxide, resulting in the oxide of barium.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14144"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The +1 oxidation state is more stable than the +3 oxidation state for which group 13\nelement?",
+      "options": {
+        "A": "B",
+        "B": "Al",
+        "C": "In",
+        "D": "Tl"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The +1 oxidation state is more stable than the +3 oxidation state for thallium (Tl) due to the relativistic effects and the inert pair effect, which favor the stability of the fully filled 6s subshell in Tl.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "966"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Reduction of D-xylose with NaBH 4 yields a product that is a",
+      "options": {
+        "A": "racemic mixture",
+        "B": "single pure enantiomer",
+        "C": "mixture of two diastereomers in equal amounts",
+        "D": "meso compound"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reduction of D-xylose with NaBH4 leads to the formation of a sugar alcohol that has two stereogenic centers and an internal plane of symmetry, classifying it as a meso compound.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14142"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The T 2 of an NMR line is 15 ms. Ignoring other sources of linebroadening, calculate its\nlinewidth.",
+      "options": {
+        "A": "0.0471 Hz",
+        "B": "21.2 Hz",
+        "C": "42.4 Hz",
+        "D": "66.7 Hz"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The linewidth can be calculated using the relationship \u0394\u03bd = 1/(2\u03c0T2), and substituting T2 = 15 ms yields a linewidth of approximately 21.2 Hz.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The 13 C spectrum of which isomer of C 6 H 14 has lines with three distinct chemical\nshifts?",
+      "options": {
+        "A": "hexane",
+        "B": "2-methylpentane",
+        "C": "3-methylpentane",
+        "D": "2,3-dimethylbutane"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hexane has a linear structure that allows for three distinct types of carbon environments\u2014primary, secondary, and tertiary\u2014resulting in three distinct chemical shifts in its 13C NMR spectrum.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "The 55 Mn nuclide has three allowed energy levels for its nuclear states.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the 55 Mn nuclide possesses three distinct nuclear energy levels due to its specific configuration of protons and neutrons, which allows for transitions between these states.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "968"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The equilibrium polarization of 13 C nuclei in a 20.0 T magnetic field at 300 K is 1.71 x 10^-5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The equilibrium polarization of 13 C nuclei in a 20.0 T magnetic field at 300 K is true because the nuclear magnetic resonance polarization can be calculated using the Boltzmann distribution and is consistent with the measured value of 1.71 x 10^-5 at that temperature and field strength.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "957"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Arsenic-doped silicon is classified as an n-type semiconductor due to the addition of donor impurities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Arsenic-doped silicon is classified as an n-type semiconductor because arsenic introduces extra electrons into the silicon lattice, acting as a donor impurity that increases the material's electrical conductivity.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "916"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "The infrared absorption frequency shift between DCl and HCl is primarily caused by differences in their dipole moments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The infrared absorption frequency shift between DCl and HCl is primarily due to differences in their reduced masses rather than their dipole moments, as the mass difference affects the vibrational frequency of the molecules.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "967"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "Silicon is most commonly found in nature as an oxide, primarily in the form of silicates and quartz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Silicon is abundant in the Earth's crust and primarily occurs as silicon dioxide (SiO2) and in silicate minerals, which are the most prevalent forms of silicon in nature.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "920"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the reasons why spin trapping is a preferred method for detecting free radical\nintermediates in chemical reactions, focusing on the advantages of detecting spin adducts.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Spin trapping is a preferred method for detecting free radical intermediates in chemical\nreactions primarily because it allows for the stabilization and identification of these\ntransient species through the formation of spin adducts. This technique requires lower\npower than the direct detection of free radicals, making it more accessible and practical\nin many experimental setups. By using a spin trap, the free radicals react with the trap\nto form more stable adducts, which can then be detected using techniques like electron\nparamagnetic resonance (EPR) spectroscopy. This enhanced stability not only facilitates\neasier detection but also provides clearer insights into the reaction mechanisms involving\nfree radicals. Overall, the advantages of spin trapping significantly improve the\nreliability and effectiveness of free radical detection in chemical research.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because spin trapping stabilizes free radical intermediates by forming detectable spin adducts, making the detection process more practical and efficient compared to direct methods.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "910"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_21_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the rate expression for a zero-order chemical reaction, specifically how it\nrelates to the rate constant, and analyze its implications for reaction kinetics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In a zero-order chemical reaction, the rate of the reaction is constant and is independent\nof the concentration of the reactants. The rate expression for a zero-order reaction is\ngiven by r = k, where r represents the rate of the reaction and k is the rate constant.\nThis implies that the reaction proceeds at a steady rate until the reactants are depleted,\nregardless of their initial concentrations. The rate constant k, in this context, is a\nmeasure of how quickly the reaction occurs, and it remains constant over the course of the\nreaction as long as the temperature and other conditions are unchanged. Consequently, the\nimplications for reaction kinetics indicate that zero-order reactions are often\ncharacterized by a linear decrease in reactant concentration over time, which can simplify\nthe analysis of certain chemical processes.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes that in a zero-order reaction, the reaction rate is constant and solely determined by the rate constant k, indicating that changes in reactant concentrations do not affect the rate until the reactants are exhausted.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "896"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

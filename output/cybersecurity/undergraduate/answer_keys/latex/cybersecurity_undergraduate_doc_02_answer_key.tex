@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 2 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Joined; B) Authenticated; C) Submitted; D) Shared
+\\ \textit{Note:} The correct answer is "Authenticated" because without proper authentication, a man-in-the-middle attacker can impersonate one or both parties in a Diffie-Hellman key exchange, compromising the confidentiality and integrity of the shared secret.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) crypter; B) virus; C) backdoor; D) key-logger
+\\ \textit{Note:} A backdoor is a method of bypassing normal authentication or encryption in a computer system, often hidden within software or hardware, allowing unauthorized access to the system, which aligns with the description provided in the question.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Port, network, and services; B) Network, vulnerability, and port; C) Passive, active, and interactive; D) Server, client, and network
+\\ \textit{Note:} The correct answer identifies the three main types of scanning in cybersecurity-network scanning, vulnerability scanning, and port scanning-each serving a distinct purpose in identifying and assessing security weaknesses within a system.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authorization aims to restrict what operations and data a user can access by defining permissions and access controls based on the user's identity and role within a system, thereby ensuring that sensitive information and critical functions are protected from unauthorized use.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) stack; B) queue; C) external storage; D) buffer
+\\ \textit{Note:} A buffer is a designated area in memory that temporarily holds data, such as character strings or arrays, allowing for efficient data management and processing in cybersecurity applications.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} While installing and configuring an Intrusion Detection System (IDS) can help monitor network traffic for signs of malicious activity, it is not the most effective method for detecting IP address spoofing, as spoofing can evade detection by disguising itself as legitimate traffic, and other techniques such as ingress and egress filtering are more effective in preventing such attacks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message integrity specifically ensures that a message has not been altered during transmission, but the statement is false because it lacks the context that integrity is only one aspect of message security, which also includes confidentiality and authenticity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Backdoor Trojans are primarily designed to provide unauthorized remote access to a system rather than to encrypt files and demand ransom, which is characteristic of ransomware.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The SYN stealth scan only sends the initial SYN packet and analyzes the response without completing the three-way handshake, which minimizes the likelihood of detection by intrusion detection systems compared to a full TCP connect scan that establishes a complete connection.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A session symmetric key is designed to enhance security by ensuring that each communication session uses a unique key, thereby minimizing the risk of key compromise and making it more difficult for attackers to decrypt the transmitted data.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sort\_mixed\_list(mixed\_list): | return int\_part + str\_part
+\\ \textit{Note:} The answer correctly identifies the need to separate integers and strings into distinct parts before combining them, ensuring that the sorting function can handle the mixed data types effectively.
+\item \textbf{Answer:} def sum\_list(lst 1,lst 2): | return res\_list
+\\ \textit{Note:} The answer correctly identifies the need for a function that takes two lists as input and implies the creation of a result list that will ultimately contain the summed elements of the two input lists, adhering to the principles of function definition in programming.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

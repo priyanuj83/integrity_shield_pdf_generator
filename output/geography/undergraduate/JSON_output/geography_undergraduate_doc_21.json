@@ -1,0 +1,290 @@
+{
+  "docid": "geography_undergraduate_doc_21",
+  "document_name": "Geography - Undergraduate Level Assessment 21",
+  "domain": "geography",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "global_facts"
+  ],
+  "combination_used": [
+    "mmlu_geography_mcq",
+    "mmlu_geography_tf",
+    "mmlu_pro_geography_mcq",
+    "geography_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 3,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\geography\\undergraduate\\latex_documents\\geography_undergraduate_doc_21.tex",
+    "pdf_file": "output\\geography\\undergraduate\\pdf_documents\\geography_undergraduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/geography_undergraduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/geography_undergraduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\geography\\undergraduate\\answer_keys\\latex\\geography_undergraduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\geography\\undergraduate\\answer_keys\\pdf\\geography_undergraduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "geography_undergraduate_doc_21_geography_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What was GDP per capita in the United States in 1950 when adjusting for inflation and PPP\nin 2011 prices?",
+      "options": {
+        "A": "About $3 k",
+        "B": "About $8 k",
+        "C": "About $15 k",
+        "D": "About $30 k"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of about $15k reflects the inflation-adjusted GDP per capita in the United States for 1950, which, when converted to 2011 prices using Purchasing Power Parity (PPP), provides a more accurate representation of the economic output per person relative to today's values.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2587"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "geography_undergraduate_doc_21_geography_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the median international income as of 2020?",
+      "options": {
+        "A": "$300",
+        "B": "$1,000",
+        "C": "$10,000",
+        "D": "$30,000"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of $10,000 represents the median international income in 2020, which indicates the middle point of income distribution globally, where half of the population earns less and half earns more, highlighting significant disparities in wealth across different countries.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2642"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "geography_undergraduate_doc_21_geography_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of the global population does not have access to safe\ndrinking water?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 30% reflects the World Health Organization's data indicating that approximately 2.2 billion people worldwide lack access to safely managed drinking water services, highlighting a significant global health and geography issue.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "geography_undergraduate_doc_21_geography_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "At its peak, what was the approximate difference in approval of school desegration from\nthe South and the rest of the U.S.?",
+      "options": {
+        "A": "80%",
+        "B": "40%",
+        "C": "-40%",
+        "D": "-80%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on historical data showing that during the peak of the school desegregation movement, public approval rates in Southern states were significantly lower\u2014approximately 40%\u2014compared to the more favorable approval rates in the Northern and Western states, reflecting regional disparities in attitudes toward civil rights and integration.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2654"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "geography_undergraduate_doc_21_geography_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "After the Atom bomb how many Americans support giving aid to Japan even at the cost of\nfood shortages?",
+      "options": {
+        "A": "33%",
+        "B": "50%",
+        "C": "66%",
+        "D": "85%"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 66% because it reflects the significant public sentiment in the immediate aftermath of World War II, indicating that a majority of Americans were in favor of aiding Japan despite potential domestic consequences, demonstrating a shift towards humanitarian concerns and international cooperation.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "14329"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_tf_1",
+      "question_type": "TF",
+      "stem_text": "During the Wisconsin glaciation, 50-17,000 years ago, falling sea levels allowed people to move across the land bridge of Beringia that joined Siberia to north west North America (Alaska). Alaska was a glacial refugia because it had low snowfall, allowing a small population to exist. The a different answer covered most of North America, blocking nomadic inhabitants and confining them to Alaska (East Beringia) for thousands of years.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Laurentide Ice Sheet",
+      "source": {
+        "dataset": "squad",
+        "source_id": "573128b3497a881900248be9"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_tf_2",
+      "question_type": "TF",
+      "stem_text": "According to the official Twenty-Four Histories, the History of Ming compiled in 1739 by the subsequent Qing dynasty (1644-1912), the Ming dynasty established the \"\u00c9-L\u00ec-S\u012b Army-Civilian Marshal Office\" (Chinese: \u4fc4\u529b\u601d\u8ecd\u6c11\u5143\u5e25\u5e9c) in western Tibet and installed the \"\u00dc-Tsang Itinerant High Commandery\" and \"Amdo-Kham Itinerant High Commandery\" to administer Kham.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: 1739",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56ccd5bc62d2951400fa64c7"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_tf_3",
+      "question_type": "TF",
+      "stem_text": "The state has areas like Dharamsala that receive very heavy rainfall, as well as those like Lahaul and Spiti that are cold and almost rainless. Broadly, Himachal experiences three seasons: summer, winter, and rainy season.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: summer, winter, and rainy season",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5709667eed30961900e840a2"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Taih\u014d Code lapsed, its institutions relegated to ceremonial functions. Family administrations now became public institutions. As the most powerful family, the a different answer governed Japan and determined the general affairs of state, such as succession to the throne.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Fujiwara",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572774bf708984140094de14"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_tf_5",
+      "question_type": "TF",
+      "stem_text": "Although 75% of the Jewish population in France survived the Holocaust during World War II, half the city's Jewish population perished in Nazi concentration camps, while some others fled abroad. A large migration of North Africa Sephardic Jews settled Paris in the a different answer, and represent most of the Paris Jewish community today.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: 1960 s",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572901d03f37b31900477f74"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_long_1",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Three community college districts exist with campuses in and around Houston. The Houston Community College System serves most of Houston. The northwestern through northeastern parts of the city are served by various campuses of the Lone Star College System, while the southeastern portion of Houston is served by San Jacinto College, and a northeastern portion is served by Lee College. The Houston Community College and Lone Star College systems are within the 10 largest institutions of higher learning in the United States. Question: How are the Houston Community College and Lone Star College systems ranked among educational facilities?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "within the 10 largest",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: within the 10 largest",
+      "source": {
+        "dataset": "squad",
+        "source_id": "570aa1e34103511400d598a3"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "geography_undergraduate_doc_21_geography_squad_long_2",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: An alternative concept is that they formed closer to the Sun, where the matter density was higher, and then subsequently migrated to their current orbits after the removal of the gaseous protoplanetary disc. This hypothesis of migration after formation is favoured, due to its ability to better explain the occupancy of the populations of small objects observed in the trans-Neptunian region. The current most widely accepted explanation of the details of this hypothesis is known as the Nice model, which explores the effect of a migrating Neptune and the other giant planets on the structure of the Kuiper belt. Question: If Neptune formed closer to the sun, what is the matter density?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "higher",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: higher",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572eae2203f9891900756929"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

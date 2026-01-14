@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_02",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 2",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_02.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A major difference between programmed and unprogrammed theories of senescence is that\nprogrammed theories",
+      "options": {
+        "A": "Attribute senescence only to environmental factors",
+        "B": "Are far too difficulty to test",
+        "C": "Claim that senescence follows a predetermined plan",
+        "D": "Rely too heavily on computer models"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Programmed theories of senescence propose that aging is a biological process governed by genetic factors and follows a specific timeline, contrasting with unprogrammed theories that view aging as a result of accumulated damage and environmental influences.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6098"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following conditions shows anticipation in paternal transmission?",
+      "options": {
+        "A": "Huntington disease",
+        "B": "Marfan syndrome",
+        "C": "Cystic fibrosis",
+        "D": "Fragile X syndrome"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Huntington disease is characterized by genetic anticipation because the severity of symptoms and age of onset tend to increase with each subsequent generation due to the expansion of CAG repeats in the HTT gene during paternal transmission.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7320"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A problem for immune system theories of senescence is",
+      "options": {
+        "A": "Determining what first causes the senescence in the immune system",
+        "B": "Auto-immune disorders are far too rare",
+        "C": "That the immune system does not decline with age",
+        "D": "The lack of information about senescence in general"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights the challenge in identifying the initial triggers of immune system aging, which complicates our understanding of how and why senescence occurs within the immune response.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6180"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Arabidopsis is advantageous for plant genetic research because:",
+      "options": {
+        "A": "it is commercially important as a food crop",
+        "B": "it is an endangered species",
+        "C": "it is the closest to humans of any existing plant",
+        "D": "it is a small plant with a small genome size which can be raised inexpensively"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Arabidopsis is advantageous for plant genetic research because its small size and genome facilitate easier manipulation and analysis, while its low cost makes it accessible for extensive experimentation.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7331"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Freud said that the penis first becomes the major focus of pleasure-seeking at:",
+      "options": {
+        "A": "birth",
+        "B": "about age 1",
+        "C": "between the ages of 3 and 6",
+        "D": "puberty"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Freud identified the phallic stage of psychosexual development, occurring between the ages of 3 and 6, as the period when children become focused on the genitalia and the associated pleasure, marking a significant shift in their sexual identity and development.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6322"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "An increase in neuroticism later in life is a strong predictor of enhanced social support.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increase in neuroticism later in life is typically associated with heightened emotional instability and anxiety, which can lead to diminished social support rather than enhancement.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6195"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "The ascending colon is a section of the small intestine located after the ileum.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ascending colon is part of the large intestine, not the small intestine, and it follows the cecum, which is located after the ileum.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The zona pellucida is a protective layer that surrounds the egg, playing a crucial role in fertilization.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The zona pellucida is a glycoprotein layer that surrounds the oocyte, facilitating sperm binding, preventing polyspermy, and ultimately playing a critical role in the fertilization process.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6437"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Psychoanalytic theory attributes changes in behavior due to exposure to erotica primarily to unconscious desires and conflicts.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Psychoanalytic theory emphasizes the role of unconscious desires and conflicts in shaping behavior, but it does not specifically attribute changes in behavior due to exposure to erotica primarily to these factors, as other psychological and sociocultural influences also play significant roles.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6328"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Cohort effects can significantly influence the prevalence of alcoholism across different age groups in a population.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cohort effects can significantly influence the prevalence of alcoholism across different age groups because individuals born and socialized during the same time period may experience unique cultural, economic, and social factors that shape their drinking behaviors and attitudes towards alcohol consumption.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6144"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the importance of testing for chlamydia in pregnant individuals, considering the\npotential complications it may cause for both maternal and fetal health.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Testing for chlamydia in pregnant individuals is crucial due to the significant\ncomplications it can cause for both maternal and fetal health. Chlamydia infection can\nlead to serious maternal health issues, such as pelvic inflammatory disease, which may\nresult in chronic pain and infertility. For the fetus, untreated chlamydia can lead to\npreterm birth, low birth weight, and even transmission during delivery, potentially\ncausing neonatal infections. Early detection and treatment of chlamydia can minimize these\nrisks, ensuring better health outcomes for both the mother and the child. Therefore,\nroutine screening for chlamydia in pregnant individuals is an essential component of\nprenatal care.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights the serious health risks associated with untreated chlamydia in pregnant individuals, including potential maternal complications and adverse fetal outcomes, emphasizing the necessity for early detection and treatment.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6359"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_02_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the typical sperm count in a human ejaculate, its biological significance, and the\nfactors that can influence this count in reproductive health.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The typical sperm count in a human ejaculate ranges around 300 million sperm per\nmilliliter. This count is biologically significant as it reflects male fertility; a higher\nsperm count increases the likelihood of successful fertilization of an egg. Various\nfactors can influence sperm count, including lifestyle choices such as diet, exercise,\nsmoking, and exposure to environmental toxins. Additionally, health conditions like\nobesity, hormonal imbalances, and infections can negatively impact sperm production.\nUnderstanding these factors is crucial for addressing reproductive health issues and\npromoting male fertility.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately states the typical sperm count, emphasizes its importance for fertility, and identifies various lifestyle and health factors that can affect sperm production, thereby providing a comprehensive overview of reproductive health.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6401"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

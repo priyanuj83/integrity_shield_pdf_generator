@@ -1,0 +1,289 @@
+{
+  "docid": "chemistry_undergraduate_doc_25",
+  "document_name": "Chemistry - Undergraduate Level Assessment 25",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_25.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following lists the hydrides of group-14 elements in order of thermal\nstability, from lowest to highest?",
+      "options": {
+        "A": "PbH 4 < SnH 4 < GeH 4 < SiH 4 < CH 4",
+        "B": "PbH 4 < SnH 4 < CH 4 < GeH 4 < SiH 4",
+        "C": "CH 4 < SiH 4 < GeH 4 < SnH 4 < PbH 4",
+        "D": "CH 4 < PbH 4 < GeH 4 < SnH 4 < SiH 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The thermal stability of group-14 hydrides increases with decreasing atomic size and increasing bond strength; thus, CH4 is the most stable due to the strong C-H bonds, while PbH4 is the least stable due to the weak Pb-H bonds, resulting in the order PbH4 < SnH4 < GeH4 < SiH4 < CH4.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15607"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the Larmor frequency for a proton in a magnetic field of 1 T.",
+      "options": {
+        "A": "23.56 GHz",
+        "B": "42.58 MHz",
+        "C": "74.34 kHz",
+        "D": "13.93 MHz"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Larmor frequency for a proton in a magnetic field is calculated using the formula f = \u03b3B, where \u03b3 (the gyromagnetic ratio for a proton) is approximately 42.58 MHz/T, leading to a frequency of 42.58 MHz in a 1 T magnetic field.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "915"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Of the following ionic substances, which has the greatest lattice enthalpy?",
+      "options": {
+        "A": "MgO",
+        "B": "MgS",
+        "C": "NaF",
+        "D": "NaCl"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "MgO has the greatest lattice enthalpy due to the high charge and small size of the magnesium and oxide ions, which results in stronger electrostatic forces of attraction between them compared to the other ionic substances.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "955"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A buffer is made from equal concentrations of a weak acid and its conjugate base. Doubling\nthe volume of the buffer solution by adding water has what effect on its pH?",
+      "options": {
+        "A": "It has little effect.",
+        "B": "It significantly increases the pH.",
+        "C": "It significantly decreases the pH.",
+        "D": "It changes the pH asymptotically to the pKa of the acid."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the volume of the buffer solution by adding water dilutes both the weak acid and its conjugate base equally, maintaining their ratio and thus having little effect on the pH according to the Henderson-Hasselbalch equation.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "974"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The strongest base in liquid ammonia is",
+      "options": {
+        "A": "NH 3",
+        "B": "NH 2-",
+        "C": "NH 4+",
+        "D": "N 2 H 4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "NH2- is the strongest base in liquid ammonia because it is the conjugate base of ammonia (NH3) and possesses a high affinity for protons due to its negative charge, making it more capable of accepting protons than other species present in that solvent.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "938"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "The 13 C spectrum of 2-methylpentane has lines with three distinct chemical shifts due to its unique branching.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because 2-methylpentane has more than three distinct chemical shifts in its 13C NMR spectrum due to the presence of multiple unique carbon environments resulting from its branching and chain structure.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "Barium hydroxide (Ba(OH)2) can be directly converted to barium metal (Ba) without any intermediate steps.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because barium hydroxide cannot be directly converted to barium metal due to the need for a reduction process, which typically requires an intermediate step involving the removal of hydroxide ions or the presence of a reducing agent.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14144"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "The equilibrium polarization of 13 C nuclei is higher at lower magnetic field strengths, such as 10.0 T.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The equilibrium polarization of 13 C nuclei is higher at higher magnetic field strengths, such as 10.0 T, because the polarization increases with the strength of the magnetic field due to the greater difference in energy between the nuclear spin states.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "957"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "The atomic radii of the lanthanide elements decrease across the period from La to Lu due to increasing effective nuclear charge.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The atomic radii of the lanthanide elements decrease from La to Lu because the increasing effective nuclear charge, resulting from the greater number of protons, pulls the electron cloud closer to the nucleus, effectively reducing the size of the atom.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15603"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "In the balanced equation, the ratio of MnO 4- to I- is 6:5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the balanced redox reaction between permanganate ion (MnO4-) and iodide ion (I-), the stoichiometry shows that for every 6 moles of MnO4- reduced, 5 moles of I- are oxidized, establishing the 6:5 ratio.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the chemical environment of CH 3 Cl influences its proton NMR resonance\nfrequency in a 12.0 T magnetic field, and explain the significance of this observation in\nspectroscopy.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The chemical environment of CH 3 Cl significantly influences its proton NMR resonance\nfrequency due to the presence of the electronegative chlorine atom, which creates a\ndeshielding effect on the protons of the methyl group. In a 12.0 T magnetic field, this\ndeshielding results in a downfield shift of the NMR signal, meaning the protons resonate\nat a higher frequency compared to protons in less electronegative environments. This\nobservation is significant in spectroscopy as it illustrates how molecular structure and\nelectronegativity affect the electronic environment of nuclei, thereby allowing chemists\nto deduce structural information about the compound. Understanding these shifts aids in\nthe identification and characterization of organic molecules through NMR spectroscopy.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the electronegative chlorine atom in CH3Cl creates a deshielding effect on the protons, leading to a downfield shift in their NMR resonance frequency in a strong magnetic field, which is a key concept in understanding molecular environments in spectroscopy.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "956"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_25_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the ratio of line intensities in the EPR spectrum of the\nt-Bu radical (CH 3)3 C\u2022, and analyze how these factors contribute to the observed\nintensity distribution.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The ratio of line intensities in the EPR spectrum of the t-Bu radical (CH 3)3 C\u2022 is\ninfluenced by several factors, including the multiplicity of the radical and the coupling\nof unpaired electrons with surrounding nuclei. The intensity distribution observed is a\nresult of the relative populations of different spin states, which is reflected in the\nratio of 1:8:28:56:70:56:28:8:1. This specific ratio arises from the combinatorial\npossibilities of arranging the unpaired electron spins among the equivalent hydrogen\nnuclei surrounding the carbon atom. As a result, the highest intensity corresponds to the\nmost probable configuration, while the lower intensities represent less likely\narrangements, leading to the characteristic pattern seen in the EPR spectrum.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies that the ratio of line intensities in the EPR spectrum of the t-Bu radical is determined by the multiplicity of the radical and the arrangements of unpaired electron spins, leading to specific intensity distributions that reflect the combinations of different spin states.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "909"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

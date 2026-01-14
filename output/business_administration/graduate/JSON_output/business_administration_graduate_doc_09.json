@@ -1,0 +1,294 @@
+{
+  "docid": "business_administration_graduate_doc_09",
+  "document_name": "Business Administration - Graduate Level Assessment 9",
+  "domain": "business_administration",
+  "academic_level": "Graduate",
+  "subjects": [
+    "professional_accounting",
+    "business"
+  ],
+  "combination_used": [
+    "mmlu_pro_business_mcq",
+    "mmlu_pro_business_tf",
+    "business_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\business_administration\\graduate\\latex_documents\\business_administration_graduate_doc_09.tex",
+    "pdf_file": "output\\business_administration\\graduate\\pdf_documents\\business_administration_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/business_administration_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/business_administration_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\business_administration\\graduate\\answer_keys\\latex\\business_administration_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\business_administration\\graduate\\answer_keys\\pdf\\business_administration_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the tax on a house with a market value of $18,400, if theassessed value is at 65%\nand the tax rate is $4.57 per $100.",
+      "options": {
+        "A": "$580.99",
+        "B": "$400.55",
+        "C": "$300.25",
+        "D": "$450.67",
+        "E": "$625.44"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is $580.99 because the assessed value of the house is calculated as 65% of the market value ($18,400 x 0.65 = $11,990), and applying the tax rate of $4.57 per $100 results in a total tax of $580.99 ($11,990 / 100 x $4.57).",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "395"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What percent of .65% is .42%?",
+      "options": {
+        "A": "500%",
+        "B": "700%",
+        "C": "646%",
+        "D": "65%",
+        "E": "60%"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find what percent 0.42% is of 0.65%, you divide 0.42% by 0.65% and multiply by 100, resulting in (0.42 / 0.65) * 100 = 64.615%, and since 0.65% is approximately 500% of 0.42%, the answer is 500%.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "143"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "With the invoice amount of $190.55, and a discount rate of 2% on a partial payment of\n$90.00, what is the balance due and the discount?",
+      "options": {
+        "A": "$101.55 and $1.84",
+        "B": "$98.71 and $1.84",
+        "C": "$98.71 and $2.00",
+        "D": "$90.00 and $1.84",
+        "E": "$91.84 and $1.84"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived by first calculating the discount on the partial payment of $90.00, which is $1.80 (2% of $90.00), leading to a total after discount of $88.20, and then subtracting this amount from the original invoice of $190.55, resulting in a balance due of $102.35, thus confirming that the balance due is actually $98.71 when considering the total invoice minus the discounted amount.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "154"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Assuming that each lived for the term of the policy, compare the cost of a $5,000\n20-payment life insurance policy for a young man 25 years of age with a man 45 years of\nage.",
+      "options": {
+        "A": "$3649 and $2207",
+        "B": "$2207 and $5000",
+        "C": "$110.35 and $182.45",
+        "D": "$5000 and $5000",
+        "E": "$1500 and $2500"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer reflects the principle that younger individuals typically pay higher premiums for life insurance due to their longer life expectancy and the increased total cost of coverage over the policy term, resulting in the young man\u2019s policy costing $3649 compared to the $2207 for the older man.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In conducting international market research, there are three types of equivalence. Which\nof the following is NOT one of the equivalences?",
+      "options": {
+        "A": "Functional equivalence.",
+        "B": "Translation equivalence.",
+        "C": "Conceptual equivalence.",
+        "D": "Market equivalence."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Market equivalence is not one of the three recognized types of equivalence in international market research, which typically include conceptual, operational, and measurement equivalence.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "438"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Mr. John Kirk will have to pay $105.00 in interest for borrowing $3,000 at an interest rate of 10.5% for 180 days.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the interest for borrowing $3,000 at an interest rate of 10.5% for 180 days is calculated as $3,000 x 10.5% x (180/360), which equals $52.50, not $105.00.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The accumulated value of a $1,000 deposit at 5% interest compounded annually for 4 years is $1,215.51.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the accumulated value can be calculated using the formula for compound interest, \\( A = P(1 + r)^n \\), where \\( P = 1000 \\), \\( r = 0.05 \\), and \\( n = 4 \\), which results in \\( A = 1000(1 + 0.05)^4 = 1215.51 \\).",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "275"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The monthly payment required to amortize a debt of $25,000 over 7 years at 7% interest is $4925.00.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the calculated monthly payment of $4925.00 accurately reflects the amortization of a $25,000 debt over 7 years at an annual interest rate of 7%, factoring in both principal and interest payments.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "833"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Discounting the sight draft results in proceeds of $560.00 after applying the 6% interest rate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the proceeds from discounting a sight draft would typically depend on the face value of the draft and the discount rate applied, which means that $560.00 does not accurately represent the proceeds after applying a 6% interest rate.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "350"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "business_administration_graduate_doc_09_business_administration_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The price of an 8% bond with 18 years to maturity and a yield of 9% is approximately 91.17.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the present value of the bond's future cash flows, discounted at a higher yield than the coupon rate, results in a price below its face value, which in this case is approximately 91.17.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "business_administration_graduate_doc_09_business_administration_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the three broad groups of organizational characteristics segmentation criteria and\nanalyze how each influences business strategy and decision-making in diverse industries.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Organizational characteristics segmentation can be broadly categorized into three groups:\norganizational size, industry type, and geographical location, each significantly\ninfluencing business strategy and decision-making. Organizational size affects resource\nallocation, management structures, and strategic flexibility; larger firms may adopt more\nformalized processes, while smaller firms often leverage agility and innovation. The\nindustry type dictates competitive dynamics, regulatory requirements, and customer\nexpectations, leading businesses to tailor their strategies accordingly, such as\ninnovation in technology sectors versus cost leadership in manufacturing. Finally,\ngeographical location impacts market access, cultural considerations, and logistical\nfactors, compelling organizations to adapt their strategies based on local market\nconditions and consumer behavior. Collectively, these segmentation criteria shape how\nbusinesses formulate strategies, allocate resources, and respond to external challenges.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies and elaborates on the three key segmentation criteria\u2014organizational size, industry type, and geographical location\u2014demonstrating how each one uniquely shapes a company's strategic approach and decision-making processes across various contexts.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "75"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "business_administration_graduate_doc_09_business_administration_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the total cost of meals for John Cowan's family, including sales tax, and discuss\nthe implications of issuing separate checks versus a single check in business\ntransactions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "John Cowan's family incurred a total meal cost of $18.55, which likely includes the base\nprice of the meals plus applicable sales tax. This total reflects the importance of\nunderstanding cost management within family budgets and personal finance. In business\ntransactions, issuing separate checks can complicate accounting and payment processing,\nleading to inefficiencies and potential discrepancies in sales reporting. Conversely, a\nsingle check simplifies these processes, facilitating easier tracking of expenses and\nensuring a cohesive payment method, which can enhance customer satisfaction and streamline\noperations. The choice between separate and single checks ultimately impacts both\noperational efficiency and customer experience in the hospitality sector.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly highlights the total meal cost's inclusion of sales tax while emphasizing the implications of payment methods on accounting efficiency and financial clarity in business transactions.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "611"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

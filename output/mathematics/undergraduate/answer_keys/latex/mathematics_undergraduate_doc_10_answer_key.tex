@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 10 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) (0, 0, 1); B) (3/7, 3/14, 9/14); C) (7/15, 8/15, 1/15); D) (5/6, 1/3, 1/3)
+\\ \textit{Note:} The coordinates (3/7, 3/14, 9/14) represent the point on the plane 2 x + y + 3 z = 3 that minimizes the distance to the origin, as it satisfies both the plane's equation and the condition for closest proximity, determined by projecting the origin onto the plane using the method of Lagrange multipliers or minimizing the distance function subject to the plane's constraint.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The correct answer is true for Statement 1 because homomorphisms can always be defined from any group G to the trivial group, while Statement 2 is false since not all homomorphisms are injective (one-to-one).
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 3; C) 5; D) 7
+\\ \textit{Note:} The units digit of powers of 7 follows a repeating cycle of 7, 9, 3, 1, and since 25 mod 4 equals 1, the units digit of $7^25$ is the same as that of $7^1$, which is 7.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) i; C) 32; D) 32 i
+\\ \textit{Note:} The expression (1+$i)^10$ can be simplified using De Moivre's theorem, converting it to polar form and calculating the power, which results in 32 i.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) G is abelian; B) G = \{e\}; C) $a^3$ = e; D) $a^2$ = a
+\\ \textit{Note:} The map x -\textgreater{} $axa^2$ is a homomorphism if and only if it preserves the group operation, which requires that for any elements x and y in the group G, the condition a($xy)a^2$ = ($axa^2$)($aya^2$) holds, leading to the conclusion that $a^3$ must equal the identity element e for the operation to be preserved.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the function f(x) = $e^x$ - cx attains its minimum at x = log(c) by setting its derivative, f'(x) = $e^x$ - c, equal to zero, which results in $e^(log(c$)) = c, confirming that this critical point corresponds to a minimum for c \textgreater{} 0.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The norm ||x||\_2 corresponds to the Euclidean norm, which can be derived from the inner product ⟨x, y⟩ = $x^T$ y, thus satisfying the properties of an inner product space.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the order of the product of two permutations can be less than, equal to, or greater than the sum of their individual orders, depending on the specific permutations and their interactions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the set of all n x n non-singular matrices with rational entries is infinite, as there are infinitely many rational numbers that can be used to construct such matrices.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, in the group (Z,*), the operation is multiplication, and the inverse of an element a is actually 1/a, not a-2, and in the context of integers, the only invertible elements are 1 and -1.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Suppose our polynomial is equal to\[ax^3+bx^2+cx+d\]Then we are given that\[-9=b+d-a-c.\]If we let $-a=a'-9, -c=c'-9$ then we have\[9=a'+c'+b+d.\]This way all four variables are within 0 and 9. The number of solutions to this equation is simply $\binom{12}{3}=\boxed{220}$ by stars and bars.
+\\ \textit{Note:} correct because it reformulates the original polynomial equation into a new equation using substitutions that allow for non-negative integer solutions, and then applies the combinatorial stars and bars method to count the number of valid combinations of coefficients constrained by the given conditions.
+\item \textbf{Answer:} Converting to degrees, \[-\frac{3 \pi}{4} = \frac{180^\circ}{\pi} \cdot \left( -\frac{3 \pi}{4} \right) = -135^\circ.\]Since the tangent function has period $180^\circ,$ $\tan (-135^\circ) = \tan (-135^\circ + 180^\circ) = \tan 45^\circ = \boxed{1}.$
+\\ \textit{Note:} correct because it accurately converts the angle to degrees, utilizes the periodicity of the tangent function to find an equivalent positive angle, and correctly evaluates the tangent of that angle, leading to the final result of 1.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

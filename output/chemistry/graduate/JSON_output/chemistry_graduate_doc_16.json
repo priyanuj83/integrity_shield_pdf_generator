@@ -1,0 +1,293 @@
+{
+  "docid": "chemistry_graduate_doc_16",
+  "document_name": "Chemistry - Graduate Level Assessment 16",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_16.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Use the van der Waals parameters for chlorine to calculate approximate values of the\nradius of a $\\mathrm{Cl}_2$ molecule regarded as a sphere.",
+      "options": {
+        "A": "0.185 $\\mathrm{nm}$",
+        "B": "0.110 $\\mathrm{nm}$",
+        "C": "0.125 $\\mathrm{nm}$",
+        "D": "0.200 $\\mathrm{nm}$",
+        "E": "0.095 $\\mathrm{nm}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 0.185 nm is derived from the van der Waals radius for chlorine, which provides an estimate of the size of the $\\mathrm{Cl}_2$ molecule when considered as a spherical entity, reflecting the effective distance at which the molecule's electron cloud interacts with other molecules.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "An electron was accelerated through a potential difference of 1.00 \\pm 0.01 kV. What is\nthe uncertainty of the position of the electron along its line of flight?",
+      "options": {
+        "A": "6.75 \\times 10^-10 m",
+        "B": "8.22 \\times 10^-11 m",
+        "C": "2.15 \\times 10^-12 m",
+        "D": "1.885 \\times 10^7 m s^-1",
+        "E": "1.22 \\times 10^-9 m"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 6.75 \u00d7 10^-10 m arises from applying the Heisenberg uncertainty principle, which relates the uncertainty in position to the uncertainty in momentum, with the electron's acceleration through a potential difference resulting in a defined kinetic energy and corresponding momentum uncertainty.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3877"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Express the van der Waals parameters $b=0.0226 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ in SI\nbase units.",
+      "options": {
+        "A": "22.6 \\times 10^{-3} $\\mathrm{~m}^3 \\mathrm{~mol}^{-1}$",
+        "B": "0.0226 $\\mathrm{~m}^3 \\mathrm{~mol}^{-1}$",
+        "C": "2.26 \\times 10^{-6} $\\mathrm{~m}^3 \\mathrm{~mol}^{-1}$",
+        "D": "226 \\times 10^{-6} $\\mathrm{~m}^3 \\mathrm{~mol}^{-1}$",
+        "E": "2.26 \\times 10^{-2} $\\mathrm{~m}^3 \\mathrm{~mol}^{-1}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 22.6 \u00d7 10^{-3} m^3 mol^{-1} because the van der Waals parameter $b$ represents volume per mole, and converting 0.0226 dm^3 to cubic meters requires multiplying by 10^{-3} to account for the factor that 1 dm^3 equals 10^{-3} m^3.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4616"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Of what importance are proteins to biological systems?",
+      "options": {
+        "A": "Proteins determine the rate of photosynthesis in plants.",
+        "B": "Proteins are used for insulation in cold environments",
+        "C": "Proteins are the main constituent of cell walls in bacteria.",
+        "D": "Proteins are responsible for coloration of organisms",
+        "E": "Proteins serve as structural material and biological regulators."
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Proteins are essential to biological systems because they not only provide structural support to cells and tissues but also function as enzymes and hormones that regulate various biochemical processes.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3661"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The weight percent of sodium hydroxide dissolved in water is 50%. What is the mole\nfraction of sodium hydroxide?",
+      "options": {
+        "A": "0.311",
+        "B": "0.5",
+        "C": "1.00",
+        "D": "0.05",
+        "E": "0.10"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mole fraction of sodium hydroxide is calculated by determining the number of moles of sodium hydroxide and water in a solution with 50% weight by using their molar masses to convert the weight percent into moles, leading to a resultant mole fraction of approximately 0.311.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4246"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The addition of NaOH to HCl results in a neutral pH of 7 due to complete neutralization of the acid.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the resulting pH after adding NaOH to HCl depends on the relative concentrations of the acid and base, and if NaOH is in excess, the solution will have a pH greater than 7, indicating it is basic rather than neutral.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4010"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "A 3.00 liter solution of 0.500 N sulfuric acid contains 102.5 grams of H 2 SO 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because a 0.500 N solution of sulfuric acid (H2SO4) indicates a normality that accounts for the two hydrogen ions contributed by each molecule of H2SO4, resulting in a total mass of 102.5 grams in 3.00 liters of solution.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The infrared absorption frequency of deuterium chloride (DCl) shifts from hydrogen chloride (HCl) due to differences in their reduced mass.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the infrared absorption frequency is inversely related to the square root of the reduced mass of the diatomic molecules, and since deuterium (D) has a greater mass than hydrogen (H), the reduced mass of DCl is greater than that of HCl, resulting in a lower absorption frequency for DCl.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4439"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The maximum kinetic energy of the \u03b2^- particle emitted in the radioactive decay of He^6 is 7.51 MeV.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum kinetic energy of the \u03b2^- particle emitted during the decay of He^6 is calculated based on the mass difference between the parent and daughter nuclei, resulting in a value of 7.51 MeV due to the specific decay process and energy conservation principles involved.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3920"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_16_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The mole fraction of H_2 SO_4 in the solution is 0.1, while the mole fraction of H_2 O is 0.9.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the mole fraction, defined as the ratio of the number of moles of a component to the total number of moles in the solution, correctly indicates that in this case, H\u2082SO\u2084 constitutes 10% of the total moles while H\u2082O constitutes 90%.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3674"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_16_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the work done when a gas in a 2.0-liter container at 2.4 atmospheres expands\nagainst an external pressure of 0.80 atmosphere. Discuss the implications of this work in\nthermodynamic terms.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the work done by the gas during its expansion, we can use the formula \\( W =\n-P_{\\text{ext}} \\Delta V \\). The initial volume is 2.0 liters, and since the gas expands\nagainst an external pressure of 0.80 atm, we first need to find the change in volume,\nwhich is equal to the final volume minus the initial volume. Assuming the gas expands to\n3.0 liters, the change in volume (\\( \\Delta V \\)) is 1.0 liter. Thus, the work done is \\(\nW = -0.80 \\, \\text{atm} \\times 1.0 \\, \\text{L} = -0.80 \\, \\text{L atm} \\). However, if the\ngas expands fully to 2.0 liters, the work done would be \\( W = -2.4 \\, \\text{atm} \\times\n2.0 \\, \\text{L} = -4.8 \\, \\text{L atm} \\), indicating that the work done by the system is\n-3.2 L atm when the expansion is considered against 0.80 atm. In thermodynamic terms, this\nnegative sign signifies that work is done by the system on the surroundings, indicating an\nenergy transfer that can affect both the internal energy and enthalpy of the gas.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formula for work done during gas expansion, taking into account the external pressure and the change in volume, and correctly calculates the work as negative, indicating work done by the system on the surroundings.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3985"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_16_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between pH, pKa, and chemical shift in a solution of sodium\nphosphate, particularly focusing on the expected chemical shift at the pKa of H 2 PO 4\u203e.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The relationship between pH, pKa, and chemical shift in a solution of sodium phosphate is\ncritical for understanding protonation states of phosphoric acid species. At the pKa of H\n2 PO 4-, which is approximately 7.2, the equilibrium between H 2 PO 4- and HPO 4^2- is\nestablished, influencing the protonation state and resulting chemical environment of\nphosphorus in the solution. At this pKa, the expected chemical shift for the phosphorus\nsignal is around 6.10 ppm, indicating a distinct resonance that reflects the balance of\nprotonation. This shift is a result of the chemical environment influenced by the acidic\nand basic forms of the phosphate species, illustrating how pH impacts the NMR chemical\nshifts of the molecules in solution. Understanding this interplay is essential for\ninterpreting NMR spectra in biochemical and chemical contexts involving phosphate.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the pH and pKa determine the protonation states of H2PO4\u2212 and HPO4\u00b2\u2212, which in turn influence the chemical environment and the resulting chemical shift of phosphorus in a sodium phosphate solution, particularly noting the expected shift at the pKa value of approximately 7.2.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4513"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

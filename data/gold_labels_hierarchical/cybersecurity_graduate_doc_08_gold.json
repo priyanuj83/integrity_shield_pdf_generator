@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_08",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "An SMS Trojan is a type of malware that exploits mobile devices by sending unauthorized text messages, often leading to financial loss for the user through premium-rate services or hidden charges.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1569
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 56 because the Data Encryption Standard (DES) uses a key length of 64 bits, but 8 bits are used for parity checks, leaving 56 bits for actual encryption.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1524
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer identifies the four primary security principles essential for ensuring the protection and reliability of messages in cybersecurity, as they collectively address the need for message confidentiality, accuracy, verification of origin, and assurance that the sender cannot deny sending the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1567
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The SYN stealth scan, also known as a half-open scan, sends SYN packets to initiate a connection but does not complete the TCP handshake, thus allowing the scanner to detect open ports without establishing a full connection.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1546
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Authenticated\" because a man-in-the-middle attack can intercept and alter communications between two parties during the Diffie-Hellman key exchange process if they do not verify each other's identities, allowing an attacker to establish separate keys with each party and compromise the security of the exchanged information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1480
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because message confidentiality pertains to ensuring that the content of the message remains secret from unauthorized parties, and it does not require that the message be understandable to anyone other than the intended sender and receiver.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the Deep Web consists of vast amounts of information that are not accessible through traditional search engine indexing, including databases, private networks, and other resources that require specific permissions or credentials to access.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15632
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A digest created by a hash function is typically called a hash value or hash digest, whereas a Message Authentication Code (MAC) involves a cryptographic key and is used to verify both the integrity and authenticity of a message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A ping sweep is true because it utilizes Internet Control Message Protocol (ICMP) echo requests to systematically determine which IP addresses in a specified range are active and responsive, thereby identifying live systems on a network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The IP Network Browser is effective for performing SNMP enumeration in network security assessments because it allows security professionals to easily discover and analyze SNMP-enabled devices on a network, facilitating the identification of vulnerabilities and misconfigurations.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1501
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "The Tor browser plays a crucial role in facilitating anonymous internet access by enabling\nusers to connect to the Tor network, which obscures their online identity and location. By\nrouting internet traffic through a series of volunteer-operated servers, or nodes, the Tor\nbrowser effectively encrypts data multiple times, making it extremely difficult for third\nparties to monitor user activity. In the context of cybersecurity, this anonymity is\nsignificant as it protects individuals from surveillance, censorship, and potential\nretaliation for their online actions. Furthermore, the Tor browser is instrumental for\nusers in oppressive regimes, where accessing uncensored information can be life-saving.\nOverall, the Tor browser not only enhances personal privacy but also contributes to a more\nopen and secure internet landscape.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the Tor browser enables anonymous internet access by routing traffic through multiple encrypted nodes, thereby enhancing user privacy and security against surveillance.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1530
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_08_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "AddressSanitizer (ASAN) plays a crucial role in identifying memory errors during fuzz\ntesting by instrumenting the program's code to detect various types of memory issues, such\nas buffer overflows, use-after-free, and memory leaks. By compiling the program with ASAN,\ndevelopers gain the ability to pinpoint the exact source of memory errors, which\nsignificantly enhances the debugging process. This capability is particularly valuable in\ncybersecurity, where understanding the root cause of vulnerabilities is essential for\nremediation and improving software robustness. Furthermore, ASAN provides detailed error\nreports that include stack traces, facilitating a more efficient analysis and faster\nresolution of memory-related security flaws. Overall, the integration of ASAN into the\nfuzz testing workflow strengthens the security posture of applications by enabling\ndevelopers to address critical memory errors proactively.",
+      "marks": 10,
+      "explanation": "The answer correctly highlights that AddressSanitizer enhances the debugging process in cybersecurity by instrumenting code to detect memory errors, allowing developers to identify and address vulnerabilities such as buffer overflows and use-after-free errors effectively.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1499
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_09",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A buffer-overflow attack occurs when a cyber-criminal exploits a vulnerability in a program by writing more data to a buffer than it can hold, thereby allowing them to overwrite memory and execute arbitrary code or commands.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1548
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Weak or non-existent authentication mechanisms are primarily associated with security and access control issues rather than presentation layer concerns, which focus on how data is formatted and presented to the user.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1564
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The stack is primarily used in programming to store local variables and function call information, allowing for efficient memory management and automatic cleanup of these variables once the function execution is complete.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1558
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"4-way handshake\" because this process is essential in the WPA/WPA2 security protocol, where it establishes a secure connection between a wireless user and an access point by confirming the validity of the credentials and generating session keys.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1512
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer identifies three fundamental types of scanning in cybersecurity\u2014network scanning for identifying active devices, vulnerability scanning for detecting security weaknesses, and port scanning for discovering open ports on a network\u2014which are essential for assessing and securing information systems.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A packet filter firewall operates at the network layer of the OSI model, filtering data based on IP addresses and port numbers rather than at the application or transport layer.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The digest created by a hash function is known as a hash value or hash digest, not a Message Authentication Cipher, which refers to a different cryptographic construct used for ensuring the authenticity and integrity of a message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A Base Signal Station is not equivalent to a Base Transceiver Station because the former refers to a broader set of infrastructure used for signal coverage, while the latter specifically denotes the equipment responsible for transmitting and receiving radio signals in mobile communication.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1550
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message confidentiality is achieved through encryption techniques that protect the content of the communication from unauthorized access, ensuring that only the intended sender and receiver can decrypt and read the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The sender's public key is essential for verifying a digital signature because it allows the recipient to decrypt the signature using the corresponding private key, ensuring that the signature was created by the claimed sender and that the message has not been altered.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1498
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_difference(n): | return squareofsum - sumofsquares",
+      "marks": 10,
+      "explanation": "correct because it succinctly captures the need to compute the difference between two mathematical expressions: the square of the sum of the first n natural numbers and the sum of the squares of the first n natural numbers, which are essential calculations in number theory.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 320
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_09_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def check_alphanumeric(string): | return (\"Accept\") | return (\"Discard\")",
+      "marks": 10,
+      "explanation": "The answer correctly outlines a function that utilizes regular expressions to determine if a string ends with alphanumeric characters by returning \"Accept\" for valid cases and \"Discard\" for invalid ones, which aligns with the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 860
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 3 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} The correct answer is "Chemistry" because the expression ['a', 'Chemistry', 0, 1] is a list in Python, and the index [1] accesses the second element of the list, which is 'Chemistry'.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [ 'abcd', 786 , 2.23, 'john', 70.2 ]; B) abcd; C) [786, 2.23]; D) None of the above.
+\\ \textit{Note:} The output is [786, 2.23] because the slice list[1:3] retrieves the elements from index 1 to index 2 (the end index is exclusive) of the original list, which are the second and third elements, 786 and 2.23 respectively.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) **; B) //; C) is; D) not in
+\\ \textit{Note:} The operator ** in Python 3 is specifically designated for performing exponential calculations, raising the left operand to the power of the right operand.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) a \textless{} c; B) a \textless{} b; C) a \textgreater{} b; D) a == b
+\\ \textit{Note:} The condition "a \textless{} c" is sufficient to guarantee that the entire expression evaluates to true because if this condition is met, the first part of the logical OR (||) is satisfied, making the overall expression true regardless of the other conditions.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 17\_\{16\}; B) E$_{4}$\_\{16\}; C) E$_{7}$\_\{16\}; D) F$_{4}$\_\{16\}
+\\ \textit{Note:} The correct answer is E$_{7}$\_\{16\} because when converting the decimal number 231 to hexadecimal, it is equivalent to 14 times 16 (which is E) plus 7, resulting in E$_{7}$.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the function long(x [,base]) does not exist in Python 3, as integer conversion is done using the int() function instead.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the expression x \textgreater{}\textgreater{} 1 for x = 8 evaluates to 4, not 3, as a right bitwise shift divides the number by 2 for each shift.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the expression ['Hi!'] * 4 creates a list that repeats the single element 'Hi!' four times, resulting in ['Hi!', 'Hi!', 'Hi!', 'Hi!'].
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Python can be integrated with languages like C or Java through various methods such as the use of extension modules, foreign function interfaces, or interoperability frameworks like Jython and CPython.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Python variable names are case-sensitive, meaning that variables such as "myVar" and "myvar" are considered distinct and cannot be used interchangeably.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} When comparing linear search and binary search for finding a target value in a sorted list, there are distinct advantages and disadvantages to each method, especially as the list size grows. Linear search examines each element one by one until it finds the target, making it simple and straightforward but inefficient for large lists, as its time complexity is O(n). On the other hand, binary search takes advantage of the sorted nature of the list, repeatedly dividing the search interval in half, which significantly reduces the number of comparisons needed, leading to a time complexity of O(log n). As the size of the list increases, the advantages of binary search become more pronounced, making it the preferred method for large datasets due to its efficiency. Thus, while linear search may be easier to implement for small lists, binary search is generally more effective for larger ones.
+\\ \textit{Note:} correct because it accurately outlines that linear search is straightforward but inefficient for large lists with a time complexity of O(n), while binary search is more efficient due to its logarithmic time complexity by leveraging the sorted nature of the list.
+\item \textbf{Answer:} In the given code segment, the variables r, s, and t undergo specific changes through a series of operations. Initially, let's assume r is assigned a value of 2. In the next step, s is set to r + 1, which means s becomes 3. Finally, t could be assigned the value of s, but since the question focuses on r and s, the final values of these variables are r = 2 and s = 3. Thus, the program will display the final output of 2 for r and 3 for s. This step-by-step analysis highlights how the variables were manipulated and their final states.
+\\ \textit{Note:} The answer correctly outlines the step-by-step operations performed on the variables r and s, demonstrating how their values are derived and concluding with the accurate final output displayed by the program.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

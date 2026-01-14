@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 10 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Sender's Private key; B) Sender's Public key; C) Receiver's Private key; D) Receiver's Public key
+\\ \textit{Note:} To verify a digital signature, the sender's public key is required because it is used to decrypt the signature, allowing the recipient to confirm that the signature was created with the corresponding private key, thereby authenticating the sender's identity and ensuring the integrity of the message.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Phishing; B) MiTM; C) Buffer-overflow; D) Clickjacking
+\\ \textit{Note:} A buffer-overflow attack occurs when a cyber-criminal exploits a vulnerability by sending more data than a buffer can handle, allowing them to overwrite memory and execute arbitrary code, thereby compromising the system's security.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Dark web; D) Surface web
+\\ \textit{Note:} The dark web is a specific part of the Deep Web that requires specialized software, such as Tor, to access, making it intentionally hidden and inaccessible through standard web browsers.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authorization aims to restrict what operations or data a user can access by defining permissions and privileges, ensuring that users can only perform actions and access information that align with their roles and responsibilities within a system.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Wireless access; B) Wireless security; C) Wired Security; D) Wired device apps
+\\ \textit{Note:} Wireless security refers to the measures and protocols implemented to protect wireless networks and data from unauthorized access or breaches, making it the correct term for the anticipation of such threats.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Memory leakage refers to the failure of a program to release memory that is no longer needed, which can lead to performance issues, but it does not directly result in unauthorized system access or operational failures like critical vulnerabilities such as buffer overflows or injection attacks do.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Metasploit framework provides a graphical user interface that allows users to easily select and deploy exploit modules, making the process of exploiting vulnerabilities more accessible and efficient for both experienced and novice cybersecurity professionals.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, in certain scenarios involving insufficiently random keys or predictable patterns in the original message, it is possible to infer bits of the one-time pad (OTP) key from the ciphertext and plaintext.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Nmap categorizes port states as open, filtered, and unfiltered based on the responses it receives during its scanning process, which reflects the accessibility and security posture of the ports on a target system.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DaCryptic is not primarily associated with targeting mobile devices; instead, it is known for its capabilities as a remote access Trojan that typically targets desktop environments.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The four-step authentication progression between a wireless user and an access point involves the exchange of messages that are essential for establishing a secure connection. Initially, the access point sends a nonce (a random number) to the user, who then combines this with their pre-shared key to generate a session key and sends a second nonce back to the access point. The access point responds with a confirmation, using the session key to secure the message. Finally, the user acknowledges the receipt of this message, completing the 4-way handshake, which is crucial for ensuring that both parties are authenticated and that the session key is unique to the session, thereby preventing replay attacks and ensuring data confidentiality during transmission. This process underscores the importance of the 4-way handshake in establishing a secure wireless connection.
+\\ \textit{Note:} The answer correctly outlines the four-step authentication process by detailing the exchange of nonces and the generation of a session key, emphasizing the critical role of the 4-way handshake in establishing a secure connection between the wireless user and the access point.
+\item \textbf{Answer:} Mutation-based fuzzing is a cybersecurity testing technique that generates new inputs by systematically modifying existing ones, thereby creating a diverse set of test cases. This approach relies on the principle that even small changes to valid inputs can uncover vulnerabilities in software, as these modifications may cause unexpected behaviors or crashes. By altering bytes, changing data formats, and introducing random variations, mutation-based fuzzers can simulate a wide range of potential attack vectors that would be difficult to anticipate. This technique has proven effective in identifying security flaws, as it leverages the inherent unpredictability of software responses to altered inputs, ultimately enhancing the robustness of security measures through rigorous testing.
+\\ \textit{Note:} correct because it accurately describes mutation-based fuzzing as a technique that generates diverse test cases through systematic modifications of existing inputs, thereby effectively identifying vulnerabilities by exposing software to unexpected behaviors.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 15 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are correct because Word 2 Vec does not utilize Restricted Boltzmann Machines for parameter initialization, and the tanh function is indeed classified as a nonlinear activation function.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The BLEU metric indeed emphasizes precision in evaluating machine translation quality, while the ROGUE metric focuses on recall for summarization tasks, and Hidden Markov Models have historically been utilized in natural language processing to effectively model the probabilistic structure of English sentences.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Increase bias; B) Decrease bias; C) Increase variance; D) Decrease variance
+\\ \textit{Note:} Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual tree errors, leading to a more stable and reliable overall prediction.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Overfitting occurs more frequently with small training data due to limited generalization capability, while a small hypothesis space restricts model complexity, reducing the risk of overfitting.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Is unbounded, encompassing all real numbers.; B) Is unbounded, encompassing all integers.; C) Is bounded between 0 and 1.; D) Is bounded between -1 and 1.
+\\ \textit{Note:} The sigmoid function outputs values in a continuous range between 0 and 1 due to its mathematical properties, making it suitable for modeling probabilities in neural networks.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because calculating P(H|E, F) can utilize Bayes' theorem and the chain rule of probability, which allows for the computation of conditional probabilities without needing all the specified quantities, especially if additional independence assumptions or relationships between the variables are known.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Both ResNets and Transformers are designed to process input data through layers of neurons without recurrent connections, classifying them as types of feedforward neural networks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Fully connected networks require significantly more parameters and computational resources than convolutional networks, making them less efficient and effective for classifying high-resolution images, where local patterns and hierarchical features are better captured by convolutional architectures.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Linear hard-margin SVM requires that the training data is perfectly linearly separable because it aims to find a hyperplane that maximizes the margin between two classes without allowing any misclassifications, which is impossible if the data points overlap or are not distinctly separable.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which regularizes the estimate and reduces uncertainty compared to the MLE, which only relies on the observed data.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The computational cost of performing a single gradient descent update when the gradient of the cost function is represented as a vector is O(D), where D denotes the dimensionality of the parameter space. This cost arises because each component of the gradient vector must be computed and then used to update the corresponding parameter, resulting in a linear relationship between the number of parameters and the computation required. Factors influencing this cost include the complexity of the cost function, the method used to compute the gradient (e.g., analytical vs. numerical), and the dimensionality of the input data. Additionally, if the cost function is based on a large dataset, the time taken to compute the gradient can also be affected by the size and structure of the data, as processing each data point contributes to the overall computation. Thus, understanding these factors is essential for optimizing the efficiency of gradient descent in high- dimensional spaces.
+\\ \textit{Note:} correct because the computational cost of a gradient descent update is directly proportional to the dimensionality of the parameter space, O(D), since each parameter's update requires the computation of its corresponding gradient component, making the process linear with respect to the number of parameters involved.
+\item \textbf{Answer:} Applying unsupervised learning to analyze a large dataset of medical records from heart disease patients can lead to the identification of treatment clusters that may not be evident through traditional methods. This approach utilizes algorithms such as k-means clustering or hierarchical clustering to group patients based on similarities in their medical profiles, treatment responses, or outcomes without prior labeling. The implications of this analysis include the potential for personalized treatment strategies and improved patient outcomes, as clusters may reveal distinct subpopulations that respond differently to therapies. Furthermore, by revealing hidden patterns in complex datasets, unsupervised learning can enhance our understanding of disease mechanisms and inform future clinical research. Overall, this methodology can drive innovations in treatment approaches by leveraging data-driven insights.
+\\ \textit{Note:} correct because it accurately highlights how unsupervised learning algorithms can uncover hidden patterns and clusters in patient data, facilitating personalized treatment strategies for heart disease by grouping patients based on similarities without the need for pre-existing labels.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

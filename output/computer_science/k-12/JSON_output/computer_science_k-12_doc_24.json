@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_k-12_doc_24",
+  "document_name": "Computer Science - K-12 Level Assessment 24",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_24.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_24_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following function removes all leading and trailing whitespace\nin string?",
+      "options": {
+        "A": "replace(old, new [, max])",
+        "B": "strip([chars])",
+        "C": "swapcase()",
+        "D": "title()"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The `strip([chars])` function in Python 3 is designed specifically to remove all leading and trailing whitespace from a string, making it the correct answer for this question.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14386"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is min(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because the `min()` function in Python 3 returns the smallest element in a list, and in the list l = [1, 2, 3, 4], the smallest value is 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which is the smallest asymptotically?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(1) is considered the smallest asymptotic notation because it represents a constant time complexity that does not grow with the size of the input, making it the most efficient in terms of performance.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following best explains what happens when a new device is connected to the\nInternet?",
+      "options": {
+        "A": "A device driver is assigned to the device.",
+        "B": "An Internet Protocol (IP) address is assigned to the device.",
+        "C": "A packet number is assigned to the device.",
+        "D": "A Web site is assigned to the device."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When a new device connects to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and enables communication with other devices.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3268"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_24_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which is the largest asymptotically?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(n^2) is the largest asymptotic notation among the options provided because it grows faster than linear (O(n)) or logarithmic (O(log n)) functions as the input size n increases, indicating that it represents a higher rate of growth in computational complexity.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3213"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sum of the list l = [1, 2, 3, 4] in Python 3 is 10.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of the list l = [1, 2, 3, 4] in Python 3 is 10 because adding the numbers together (1 + 2 + 3 + 4) equals 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression x << 3 evaluates to 8 when x is equal to 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the expression x << 3 performs a left bitwise shift on the binary representation of x, which multiplies it by 2 raised to the power of 3; therefore, when x is 1 (binary 0001), shifting it left by 3 results in 8 (binary 1000).",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression ['Hi!'] * 4 raises an error due to incorrect syntax.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the expression ['Hi!'] * 4 successfully creates a list containing four references to the string \"Hi!\" without raising any syntax errors.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3262"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "A function that averages numeric values in a column or row is the best way to detect data entry errors.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging numeric values may mask outliers and inaccuracies, making it an ineffective method for detecting data entry errors, as it does not identify individual discrepancies in the dataset.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3221"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_24_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "O(n) grows faster than O(n^2) as the input size increases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because O(n) represents a linear growth rate, which increases more slowly than O(n^2), a quadratic growth rate, as the input size increases.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3213"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_24_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to calculate the sum of series 1^2+2^2+3^2+\u2026.+n^2.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def series_sum(number): | return total",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that calculates the sum of squares of the first n integers, although it lacks the implementation details to compute the total.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_24_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to display sign of the chinese zodiac for given year.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def chinese_zodiac(year): | return sign",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the structure of a function named `chinese_zodiac` that takes a year as input and is intended to return the corresponding zodiac sign, capturing the essential requirement of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "950"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

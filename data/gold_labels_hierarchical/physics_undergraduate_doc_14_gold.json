@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_undergraduate_doc_14",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 0.60 c because according to the principles of special relativity, length contraction occurs when an observer moves relative to an object, and the formula for length contraction (L = L0\u221a(1 - v\u00b2/c\u00b2)) allows for the calculation of the necessary velocity to achieve a contracted length of 0.80 m from an original length of 1.00 m.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1435
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In a constant volume process, no work is done on or by the system, so the increase in internal energy of an ideal gas is equal to the heat added, as expressed by the first law of thermodynamics (\u0394U = Q - W, where W = 0).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 15624
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "In the diamond structure of elemental carbon, each carbon atom is covalently bonded to four other carbon atoms at the corners of a tetrahedron, which reflects the sp3 hybridization and tetrahedral geometry that characterizes the arrangement of atoms in this crystalline form.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1379
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is derived from the relativistic energy-momentum relation, E^2 = (pc)^2 + (m\u2080c\u00b2)\u00b2, which allows us to calculate the rest mass m\u2080 using the given total energy and momentum values, resulting in approximately 1.0 GeV/c\u00b2.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14193
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The energy required to ionize helium, which involves removing one electron, is determined by the difference between the total energy needed to remove both electrons (79.0 eV) and the energy associated with the remaining electron after the first removal, resulting in a calculated ionization energy of 24.6 eV for the first electron.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1436
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Doubling the voltage across a resistor increases the power dissipated by a factor of four, not two, because power is proportional to the square of the voltage (P = V^2/R).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1409
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the electric displacement current, as described by Maxwell's equations, is defined as the rate of change of electric flux density through a surface, indicating that it is directly proportional to the changing electric flux.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1438
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because bosons have symmetric wave functions and do not obey the Pauli exclusion principle, which allows multiple bosons to occupy the same quantum state simultaneously.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1384
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The speed of light in a medium is calculated using the formula \\( v = \\frac{c}{\\sqrt{\\epsilon_r}} \\), where \\( c \\) is the speed of light in a vacuum and \\( \\epsilon_r \\) is the dielectric constant; for a dielectric constant of 4.0, this results in a speed of \\( 1.5 \\times 10^8 \\) m/s, confirming the statement as true.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1460
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A helium-neon laser, while stable, is not the best type of laser for spectroscopy because it has limited wavelength range and lower resolution compared to other lasers, such as tunable dye lasers or solid-state lasers, which are more suitable for detailed spectroscopic analysis.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1420
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_long_1",
+      "type": "long",
+      "correct_answer": "When unpolarized light passes through two ideal linear polarizers with their transmission\naxes oriented at a 45-degree angle, the intensity of the transmitted light can be\ncalculated using Malus's Law. Initially, the unpolarized light's intensity is reduced by\nhalf after passing through the first polarizer, resulting in an intensity of I\u2081 = 0.5 I\u2080,\nwhere I\u2080 is the incident intensity. As the light then passes through the second polarizer,\nMalus's Law states that the transmitted intensity I\u2082 is given by I\u2082 = I\u2081 cos^2(\u03b8), where \u03b8\nis the angle between the light's polarization direction and the polarizer's axis. In this\ncase, \u03b8 = 45 degrees, so I\u2082 = (0.5 I\u2080) cos^2(45^\\circ) = (0.5 I\u2080)(0.5) = 0.25 I\u2080. Thus,\nthe intensity of the transmitted light is 25% of the incident intensity, illustrating how\nthe alignment of the polarizers affects light transmission.",
+      "marks": 10,
+      "explanation": "correct because it applies Malus's Law, which describes how the intensity of polarized light is affected by a polarizer's orientation, indicating that the unpolarized light's intensity is halved upon passing through the first polarizer, and then further calculated based on the angle between the two polarizers, leading to a final transmitted intensity that reflects this interaction.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1456
+    },
+    {
+      "question_id": "physics_undergraduate_doc_14_physics_long_2",
+      "type": "long",
+      "correct_answer": "Dopants play a crucial role in modifying the electrical properties of germanium\nsemiconductors, particularly in the creation of n-type semiconductors. Suitable dopants\nfor this purpose include elements from group V of the periodic table, such as phosphorus,\narsenic, and antimony. These elements have five valence electrons, which contribute an\nextra electron to the conduction band of germanium, enhancing its conductivity.\nConversely, group III elements like boron or aluminum are unsuitable for n-type doping, as\nthey possess only three valence electrons and would create 'holes' instead of extra\nelectrons, leading to p-type rather than n-type conductivity. Thus, the choice of dopant\nis critical in determining the type and effectiveness of the semiconductor's electrical\nproperties.",
+      "marks": 10,
+      "explanation": "correct because n-type semiconductors are formed by doping germanium with group V elements that provide extra electrons for conduction, while group III elements do not create the necessary surplus electrons, making them unsuitable for this purpose.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1394
+    }
+  ]
+}

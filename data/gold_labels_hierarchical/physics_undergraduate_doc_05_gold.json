@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_undergraduate_doc_05",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The resolving power of a spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, with wavelengths of 500 nm and 502 nm, the resolving power is calculated as 500 nm divided by 2 nm, resulting in a value of 250.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14194
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The emission spectrum of Li++ is identical to that of hydrogen because both have one electron, but the wavelengths are decreased by a factor of 9 due to the difference in nuclear charge, with the energy levels being inversely proportional to the square of the atomic number (Z^2), and for Li++, Z=3, thus (1/3^2) = 1/9.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1458
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "De Broglie's hypothesis establishes that the wavelength of a particle is inversely proportional to its momentum, with the relationship defined by the equation \u03bb = h/p, where h represents Planck's constant.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1377
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A dye laser is the correct answer because it can be tuned to emit a wide range of wavelengths across the visible spectrum, making it ideal for versatile spectroscopy applications.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1372
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The total spin quantum number of the electrons in the ground state of neutral nitrogen is 3/2 because nitrogen has three unpaired electrons in its 2p subshell, each contributing a spin of 1/2, leading to a total spin of 3/2 when considering their alignment.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1374
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The resolving power of a grating spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and since a resolving power of 250 indicates that it can distinguish between wavelengths that differ by 2 nm (from 500 nm to 502 nm), the statement is true.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14194
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The magnetic susceptibility of a doped semiconductor is influenced by the density of states and the effective mass of charge carriers, but it does not directly indicate their sign (positive or negative), which is determined by the type of dopant used (donor or acceptor).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1393
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a transition from n = 4, l = 1 to n = 3, l = 2 is not allowed since the change in the angular momentum quantum number (\u0394l = 1) does not comply with the selection rules for allowed transitions, which only permit changes in the angular momentum quantum number of \u0394l = \u00b11.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1450
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the magnetic quantum number m_l can take on integer values ranging from -l to +l, and for l = 2, this results in the values -2, -1, 0, 1, and 2, giving a total of 5 allowed values.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1451
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In a reversible thermodynamic process, the system and its surroundings undergo changes that can be reversed without any net change, thereby maintaining constant entropy throughout the entire process.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1371
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_long_1",
+      "type": "long",
+      "correct_answer": "To calculate the total radiation force exerted on a completely reflecting surface of 3 m^2\nat the Earth's surface with a solar flux of 1,000 W/m^2, we can use the formula for\nradiation pressure. The radiation pressure P exerted by light is given by P = I/c, where I\nis the intensity (solar flux) and c is the speed of light (approximately 3 x 10^8 m/s).\nFor a perfectly reflecting surface, the force F can be calculated as F = P \\times A, where\nA is the area. Thus, P = 1,000 W/m^2 / (3 x 10^8 m/s) results in a pressure of\napproximately 3.33 x 10^-6 N/m^2. Multiplying this by the area of 3 m^2 gives a total\nforce of around 2 x 10^-5 N. This illustrates the principles of radiation pressure and\nmomentum transfer from light to surfaces.",
+      "marks": 10,
+      "explanation": "correct because it applies the principles of radiation pressure and the conservation of momentum for light, using the formula for radiation pressure to calculate the force exerted on a reflecting surface based on the solar flux and the area of the surface.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1392
+    },
+    {
+      "question_id": "physics_undergraduate_doc_05_physics_long_2",
+      "type": "long",
+      "correct_answer": "Doubling the frequency of laser light in a double-slit experiment affects the separation\nof bright fringes observed on a screen. The fringe separation, or fringe spacing, is\ndetermined by the equation \\( y = \\frac{\\lambda L}{d} \\), where \\( y \\) is the fringe\nseparation, \\( \\lambda \\) is the wavelength of the light, \\( L \\) is the distance to the\nscreen, and \\( d \\) is the slit separation. When the frequency is doubled, the wavelength\n\\( \\lambda \\) decreases, since the speed of light is constant (\\( c = \\lambda f \\)).\nConsequently, with a constant slit separation of 0.5 micrometers, the new fringe\nseparation will be halved. Therefore, the separation of the bright fringes will become 0.5\nmm, illustrating the direct relationship between wavelength and fringe spacing in\ndiffraction patterns.",
+      "marks": 10,
+      "explanation": "Doubling the frequency of the laser light reduces the wavelength, leading to a narrower fringe separation according to the relationship between wavelength, slit separation, and fringe spacing in the double-slit experiment.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1391
+    }
+  ]
+}

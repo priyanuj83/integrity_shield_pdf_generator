@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_02",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true for Statement 1 because every ideal is indeed a subring that is closed under addition and multiplication, but false for Statement 2 because not every subring satisfies the condition of absorbing multiplication from the ring, which is required to be an ideal.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 99
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The probability that neither integer chosen will be the square of the other is 0.95 because out of the 100 possible pairs of integers (10 choices for Sofia and 10 for Tess), only 5 pairs correspond to one integer being the square of the other (1 and 1, 2 and 4, 4 and 2, 3 and 9, 9 and 3), thus resulting in a probability of 95 out of 100 that they do not choose such pairs.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1110
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The polynomial x^4 + 4 can be factored into linear factors in Z_5[x] as (x - 2)(x + 2)(x - 1)(x + 1) because in the field Z_5, the roots of the equation x^4 + 4 = 0 correspond to the values of x that produce zero when substituted into the polynomial, specifically at x = 2, -2, 1, and -1, which simplifies to 2, 3, 1, and 4 modulo 5.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 68
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In an abelian group, the operation is commutative, allowing the expression (g o h)^2 to be rewritten as g o h o g o h, which can be rearranged due to commutativity to equal g o g o h o h, confirming that (g o h)^2 = g^2 o h^2 for all elements g and h in the group G.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 33
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Since the number of days can be reduced modulo 7 (the number of days in a week), calculating \\(10^{10^{10}} \\mod 7\\) yields 0, indicating that 10^(10^(10)) days from Wednesday falls on the same day of the week, which is Sunday.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1165
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Every group of prime-power order is solvable because it can be shown that any group whose order is a power of a prime number has a normal subgroup whose index is a prime, leading to a series of normal subgroups that ultimately results in an abelian group.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 50
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the determinant of a 5 x 5 matrix can be non-zero even if some column vectors are linearly independent, as long as the entire set of columns is also linearly independent.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1182
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The equation cos(97x) = x has only one positive solution due to the behavior of the cosine function, which oscillates between -1 and 1, while the line y = x continuously increases without bound, resulting in a maximum of one intersection point in the positive domain.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1183
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The dimension of the intersection of two 2-dimensional subspaces of R^4 can be 0, 1, or 2 because the intersection can vary from being empty (0-dimensional) to sharing an entire plane (2-dimensional), with 1-dimensional intersections representing cases where they share a line.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1153
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, using the normal approximation to the binomial distribution, the probability of rolling a six 70 or more times in 360 tosses of a fair die falls within the calculated range of approximately 0.02 to 0.16.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 14165
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Let $a$ be the number of colonies on Earth-like planets and $b$ be the number on Mars-like\nplanets. We therefore seek nonnegative integers $a$ and $b$ such that $2 a + b = 12$. From\nthis equation, we see that $b$ can be at most 6 while $a$ can at most be 5. In addition,\n$b$ must be even, so the only possibilities are $b = 6, 4, 2$. Thus, there are 3 possible\ncolonization options: $a = 3, b = 6; a=4, b = 4; a=5, b=2$. In the first option, we take\nall 6 Mars-like planets, and can choose the Earth-like planets in $\\binom{5}{3} = 10$\nways. This gives us 10 possibilities. In the second option, we can choose any 4 of the 5\nlike Earth and any 4 of the 6 like Mars. This is $\\binom{5}{4}\\binom{6}{4} = 75$\npossibilities. In the third option, all Earth-like planets must be occupied while only 2\nof those like Mars must be occupied. This is $\\binom{5}{5}\\binom{6}{2} = 15$\npossibilities. In all, there are $10 + 75 + 15 = \\boxed{100}$ planets.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the relationship between the number of colonies allocated to Earth-like and Mars-like planets, formulates the appropriate equation to represent the total colonization units, and systematically derives the valid combinations of planet colonization that satisfy the constraints of the problem.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 15973
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The exterior angles of a triangle sum to $360^\\circ$, so the average of their measures is\n$360^\\circ/3 = \\boxed{120^\\circ}$.",
+      "marks": 10,
+      "explanation": "correct because the sum of all exterior angles of any polygon, including a triangle, is always 360 degrees, and dividing this total by the number of angles (three, in this case) gives the mean exterior angle, which is 120 degrees.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 12310
+    }
+  ]
+}

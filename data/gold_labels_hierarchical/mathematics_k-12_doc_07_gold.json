@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_k-12_doc_07",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "To find the number of calories in 6 ounces of ice cream, you can set up a proportion based on the fact that 4 ounces contains 230 calories, leading to the calculation of calories in 1 ounce (230/4) and then multiplying by 6 ounces, resulting in 345 calories.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2130
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 1:4 because the ratio of the number of toucans (15) to the number of parrots (60) simplifies to 1:4 when both numbers are divided by their greatest common divisor, which is 15.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2156
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "To obtain 42 balloons, you need to divide 42 by 8, which equals 5.25, and since you cannot buy a fraction of a package, you must round up to 6 packages to ensure you have enough balloons.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2409
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "It is impossible for two events to be both independent and mutually exclusive because if they are mutually exclusive, the occurrence of one event means the other cannot occur, which contradicts the definition of independence where the occurrence of one event does not affect the probability of the other.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5449
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is found by recognizing that the equation can be rewritten in standard quadratic form, and since $x = r$ is one solution, the sum of the roots (given by Vieta's formulas) can be used to determine the other solution as $p + q - r$.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4424
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Dividing 30 by 5 calculates the number of students per group by evenly distributing a total of 30 students across 5 groups.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2262
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the product of the positive divisors of a number \\( n \\) is equal to \\( n^{t(n)/2} \\), where \\( t(n) \\) is the total number of divisors of \\( n \\), and for \\( n = 64 \\) (which is \\( 2^6 \\)), \\( t(64) = 7 \\), resulting in a product of \\( 64^{7/2} \\) rather than \\( 64^6 \\).",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4239
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The greatest common factor of 252 and 96 is 12 because 12 is the largest number that evenly divides both 252 and 96 without leaving a remainder.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4311
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Randomization is crucial in experimental design because it helps eliminate bias and ensures that the treatment groups are comparable, leading to more reliable and valid results.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5502
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the number 24,516 has more than five divisors from 1 to 9, including 1, 2, 3, 4, 6, and 8.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14501
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To determine the day of the week that Carlos Montado will be 706 days old, starting from\nhis birth date of November 9, 2002, we first need to calculate the day of the week for\nthis date. November 9, 2002, was a Saturday. Next, we find the day of the week 706 days\nlater by calculating the remainder when 706 is divided by 7, since there are 7 days in a\nweek. Dividing 706 by 7 gives us a remainder of 6, which means that 706 days from Saturday\nis 6 days later, landing on a Friday. Therefore, Carlos will be 706 days old on a Friday.",
+      "marks": 10,
+      "explanation": "correct because by determining that November 9, 2002, is a Saturday and calculating the remainder of 706 days divided by 7, which is 6, we find that 706 days later falls on a Friday.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4252
+    },
+    {
+      "question_id": "mathematics_k-12_doc_07_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To calculate the total cost of repairing the windows, we need to determine the cost of 3\nfeet of wood and 4 pieces of glass. If we assume that 1 foot of wood costs $10, then 3\nfeet would cost 3 x $10 = $30. If each piece of glass costs $20, then 4 pieces would cost\n4 x $20 = $80. Adding these two amounts together gives us a total cost of $30 + $80 =\n$110. However, if there are additional costs or taxes involved that we have not accounted\nfor, the final total could reach $113. Thus, the total cost for Dawn's materials is $113.",
+      "marks": 10,
+      "explanation": "The answer correctly calculates the total cost by determining the individual costs of the wood and glass based on given prices, multiplying the quantities needed, and then adding those amounts together to arrive at a final total.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14304
+    }
+  ]
+}

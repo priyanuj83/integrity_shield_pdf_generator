@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 25 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Eavesdropping; B) Cross-site scripting; C) Authentication; D) SQL Injection
+\\ \textit{Note:} Authentication is a fundamental process in cybersecurity used to verify the identity of users and is not considered a security exploit, which typically refers to vulnerabilities or attacks that compromise system security.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central hub in 802.11 wireless networks by facilitating communication between wireless devices and providing access to the wired network, thereby managing data traffic and connectivity within the network.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, I cannot compute the key.; B) Yes, the key is k = m xor c.; C) I can only compute half the bits of the key.; D) Yes, the key is k = m xor m.
+\\ \textit{Note:} The correct answer is based on the property of the one-time pad (OTP) encryption, where the key can be derived by performing a bitwise XOR operation between the plaintext message (m) and the ciphertext (c), resulting in the key (k = m xor c).
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is widely recognized as the first significant buffer overflow attack, as it exploited vulnerabilities in Unix systems to propagate itself, thereby highlighting the dangers of such security flaws in software.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Physical layer; B) Data-link Layer; C) Session layer; D) Presentation layer
+\\ \textit{Note:} The correct answer is the Session layer because it is responsible for establishing, managing, and terminating sessions between applications, making it the layer where authentication and credential verification take place, which are vulnerable to brute-force attacks.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A digest created by a hash function is called a Modification Detection Code (MDC) because it serves to verify the integrity of data by providing a unique output that changes if the input data is altered.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, while the .NET framework includes security features to help developers build secure applications, it is also a target for vulnerability exploitation, highlighting the need for ongoing security practices and awareness in software development.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because EXE does not assume the query is satisfiable after a timeout; instead, it indicates that the STP solver was unable to resolve the query within the given time, leading to a lack of definitive conclusions about satisfiability.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA 2 employs stronger encryption methods and more robust security protocols than WEP, making it significantly more secure for protecting wireless networks.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is indeed a component of the Internet Protocol Security (IPsec) suite, which is designed to provide confidentiality, integrity, and authentication for IP packets transmitted over a network.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Mutation-based fuzzing is a crucial process in cybersecurity that enhances software testing by generating new test inputs through the modification of existing ones. This method involves systematically altering various components of a valid input, such as changing data values, appending random bytes, or altering the structure of the input. The significance of this approach lies in its ability to uncover vulnerabilities that may not be detected through traditional testing methods, as it simulates unexpected or malformed inputs that software might encounter in real-world scenarios. By leveraging the principle of modifying prior inputs, mutation-based fuzzing can effectively identify security flaws, leading to more robust and secure software systems. This iterative process not only aids in detecting bugs but also improves overall software reliability and resilience against potential attacks.
+\\ \textit{Note:} The answer correctly highlights that mutation-based fuzzing enhances software testing by systematically altering valid inputs to generate new test cases, which helps identify vulnerabilities that traditional testing may overlook, thereby emphasizing its significance in cybersecurity.
+\item \textbf{Answer:} In cybersecurity, the classic security properties are often summarized as confidentiality, integrity, and availability, collectively known as the CIA triad. While confidentiality and integrity are traditionally regarded as core properties essential for protecting information from unauthorized access and alteration, availability is frequently viewed as a secondary concern. This distinction implies that many security frameworks prioritize the first two properties, potentially neglecting availability, which is crucial for ensuring that systems and data are accessible when needed. The implications of this oversight can lead to vulnerabilities where services may be disrupted, affecting business continuity and user trust. Thus, a balanced approach that equally emphasizes all three properties is essential for a comprehensive security posture.
+\\ \textit{Note:} correct because it accurately identifies confidentiality and integrity as core properties of the CIA triad in cybersecurity, while positioning availability as a secondary concern, thereby highlighting the potential oversight in security frameworks that may prioritize the former two properties at the expense of ensuring system availability.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

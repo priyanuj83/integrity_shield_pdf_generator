@@ -1,0 +1,289 @@
+{
+  "docid": "geography_graduate_doc_22",
+  "document_name": "Geography - Graduate Level Assessment 22",
+  "domain": "geography",
+  "academic_level": "Graduate",
+  "subjects": [
+    "global_facts"
+  ],
+  "combination_used": [
+    "mmlu_pro_geography_mcq",
+    "mmlu_pro_geography_tf",
+    "geography_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 3,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\geography\\graduate\\latex_documents\\geography_graduate_doc_22.tex",
+    "pdf_file": "output\\geography\\graduate\\pdf_documents\\geography_graduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/geography_graduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/geography_graduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\geography\\graduate\\answer_keys\\latex\\geography_graduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\geography\\graduate\\answer_keys\\pdf\\geography_graduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "geography_graduate_doc_22_geography_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of people from Turkey agree that the state is run for\nthe benefit of all the people?",
+      "options": {
+        "A": "36%",
+        "B": "51%",
+        "C": "66%",
+        "D": "81%"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 66% reflects a significant majority of the Turkish population's perception of their government's role in serving the interests of all citizens, highlighting a prevalent belief in the state's inclusive governance as of 2019.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "geography_graduate_doc_22_geography_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following countries emitted the most CO 2 per capita in 2017?",
+      "options": {
+        "A": "Japan",
+        "B": "Canada",
+        "C": "Russia",
+        "D": "Iran"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In 2017, Canada had one of the highest per capita carbon dioxide emissions due to its reliance on fossil fuels for energy, significant industrial activities, and a relatively small population spread over a vast land area, leading to high energy consumption per person.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2636"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "geography_graduate_doc_22_geography_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what share of electricity came from fossil fuels in the United States?",
+      "options": {
+        "A": "23%",
+        "B": "43%",
+        "C": "63%",
+        "D": "83%"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 63% reflects the dominant role that fossil fuels, particularly natural gas and coal, played in the U.S. energy mix for electricity generation as of 2019, highlighting the continued reliance on these sources despite a growing emphasis on renewable energy.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2596"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "geography_graduate_doc_22_geography_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In 1943 how many Americans believed in the Holocaust?",
+      "options": {
+        "A": "30%",
+        "B": "50%",
+        "C": "70%",
+        "D": "90%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In 1943, public awareness of the Holocaust was limited, with approximately 50% of Americans believing in its occurrence due to the lack of comprehensive media coverage and government information at the time.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2658"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "geography_graduate_doc_22_geography_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of Russians say it is very important to have free media\nin our country without government/state censorship?",
+      "options": {
+        "A": "38%",
+        "B": "53%",
+        "C": "68%",
+        "D": "83%"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 38% reflects survey data indicating that a significant minority of Russians value the necessity of free media free from government censorship, highlighting the complex relationship between public opinion and state control in Russia.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "15661"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "geography_graduate_doc_22_geography_squad_tf_1",
+      "question_type": "TF",
+      "stem_text": "The Red Lion in Parliament Square is close to the Palace of Westminster and is consequently used by political journalists and members of parliament. The pub is equipped with a Division bell that summons MPs back to the chamber when they are required to take part in a vote.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: a Division bell",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56dff2277aa994140058e29c"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "geography_graduate_doc_22_geography_squad_tf_2",
+      "question_type": "TF",
+      "stem_text": "It takes place from 6 to 8 January with mass participation serenaded by brass bands, pipises, Macedonian and grand casa drums. It is an ancient celebration of a different answer (fiestas for Dionysus (Dionysia) and Kronos (Saturnalia)), which ends the third day in a dance in the medieval square Ntoltso where the bands play at the same time.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: nature's rebirth",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57277db4dd62a815002e9e95"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "geography_graduate_doc_22_geography_squad_tf_3",
+      "question_type": "TF",
+      "stem_text": "The long conflicts of the period strengthened royal control over their kingdoms and were extremely hard on the peasantry. Kings profited from warfare that extended royal legislation and increased the lands they directly controlled. a different answer required that methods of taxation become more effective and efficient, and the rate of taxation often increased.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Paying for the wars",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56fb896db28b3419009f1e17"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "geography_graduate_doc_22_geography_squad_tf_4",
+      "question_type": "TF",
+      "stem_text": "The most widely accepted estimate for the Middle East, including Iraq, Iran and Syria, during this time, is for a death rate of about a third. The Black Death killed about 40% of Egypt's population. Half of Paris's population of 100,000 people died.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: Half of Paris's population of 100,000 people",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5726542ff1498d1400e8dc29"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "geography_graduate_doc_22_geography_squad_tf_5",
+      "question_type": "TF",
+      "stem_text": "In climates with significant heating loads, deciduous trees should not be planted on the Equator facing side of a building because they will interfere with winter solar availability.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: they will interfere with winter solar availability",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56cff48f234ae51400d9c15b"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "geography_graduate_doc_22_geography_squad_long_1",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: In 1958, he became a Boy Scout and fulfilled a requirement for the photography merit badge by making a nine-minute 8 mm film entitled The Last Gunfight. Years later, Spielberg recalled to a magazine interviewer, \"My dad's still-camera was broken, so I asked the scoutmaster if I could tell a story with my father's movie camera. He said yes, and I got an idea to do a Western. I made it and got my merit badge. That was how it all started.\" At age thirteen, while living in Phoenix, Spielberg won a prize for a 40-minute war film he titled Escape to Nowhere, using a cast composed of other high school friends. That motivated him to make 15 more amateur 8 mm films.:548 In 1963, at age sixteen, Spielberg wrote and directed his first independent film, a 140-minute science fiction adventure called Fi... Question: What was Spielberg's first indepenent film?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Firelight",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: Firelight",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572e85c9cb0c0d14000f1248"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "geography_graduate_doc_22_geography_squad_long_2",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Agriculture is dominated by the cultivation and sale of food crops such as cassava, peanuts, maize, sorghum, millet, sesame, and plantain. The annual real GDP growth rate is just above 3%. The importance of food crops over exported cash crops is indicated by the fact that the total production of cassava, the staple food of most Central Africans, ranges between 200,000 and 300,000 tonnes a year, while the production of cotton, the principal exported cash crop, ranges from 25,000 to 45,000 tonnes a year. Food crops are not exported in large quantities, but still constitute the principal cash crops of the country, because Central Africans derive far more income from the periodic sale of surplus food crops than from exported cash crops such as cotton or coffee.[citation needed] Much of the cou... Question: How many tonnes of Cassave is produced per year?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "200,000 and 300,000",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: 200,000 and 300,000",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572821484b864d190016451c"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

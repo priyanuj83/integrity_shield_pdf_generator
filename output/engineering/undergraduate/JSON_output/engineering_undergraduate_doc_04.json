@@ -1,0 +1,296 @@
+{
+  "docid": "engineering_undergraduate_doc_04",
+  "document_name": "Engineering - Undergraduate Level Assessment 4",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_engineering_mcq",
+    "mmlu_engineering_tf",
+    "mmlu_pro_engineering_mcq",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_04.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The rating of a certain machine from the name-plate is 110 volts, 38.5 amperes, 5 h.p.\nFind the input, output and efficiency at full load.",
+      "options": {
+        "A": "Input: 4235 watts, Output: 3600 watts, Efficiency: 85 percent",
+        "B": "Input: 4500 watts, Output: 4000 watts, Efficiency: 88.9 percent",
+        "C": "Input: 4350 watts, Output: 3730 watts, Efficiency: 85.7 percent",
+        "D": "Input: 4100 watts, Output: 3450 watts, Efficiency: 84.1 percent",
+        "E": "Input: 4200 watts, Output: 3900 watts, Efficiency: 86 percent"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - Input: 4350 watts, Output: 3730 watts, Efficiency: 85.7 percent",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12159"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Evaluate the determinant \\vert 1- 4- 5\\vert \\Delta=\\vert 123\\vert \\vert- 31- 2\\vert",
+      "options": {
+        "A": "-28",
+        "B": "28",
+        "C": "-7",
+        "D": "0",
+        "E": "7"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - -28",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11701"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Electrons in p-type material of a semi-conductor are called as",
+      "options": {
+        "A": "majority carriers",
+        "B": "dominant carriers",
+        "C": "neutral carriers",
+        "D": "non-conductive carriers",
+        "E": "charge carriers"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - majority carriers",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11358"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The feedback factor of a Wien bridge oscillator using Op-Amp is",
+      "options": {
+        "A": "3/2",
+        "B": "1/4",
+        "C": "0",
+        "D": "1/5",
+        "E": "1/3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 3/2",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The field winding of a shunt motor has a resistance of 110 ohms, and the voltage applied\nto it is 220 volts. What is the amount of power expended in the field excitation ?",
+      "options": {
+        "A": "660 watts",
+        "B": "880 watts",
+        "C": "200 watts",
+        "D": "120 watts",
+        "E": "110 watts"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 660 watts",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11311"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The discharge from a rectangular broad crested weir with a 2 ft head and a discharge coefficient of 0.7 is 476 cfs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12064"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The time function corresponding to F(s) = [(s^2 + 3 s + 1) / {(s + 1)^3 (s + 2)^2}] is F(t) = - t^2 e^-t + 4 te^-t - 5 e^-t + 2 te^-2 t + 5 e^-2 t.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'F(t) = - (1/2) t^2 e^-t + 3 te^-t - 4 e^-t + te^-2 t + 4 e^-2 t'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12019"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Power dissipation in an ideal inductor is maximum, indicating significant energy loss during operation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'Negative'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11288"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The potential energy of an isolated spherical conductor of radius R with surface charge density \u03c3 is Q^2 / (8\u03c0\u03b5\u2080R).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '{Q^2 / (16\\pi\\epsilon_0 R)}'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_04_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The theoretical variance of the given probability distribution is 1.125.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '0.625'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_04_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the internal pressure of a water droplet at 20^\\circC and\ndetermine the necessary diameter for the internal pressure to exceed external pressure by\n1.0 kPa.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "0.3 mm. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_04_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Explain how to derive the group velocity of a plane wave in a normally dispersive,\nlossless medium, given that its phase velocity is expressed as v = k\\sqrt\u03bb, where k is a\nconstant.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "3.5 \\times 10^8 meters/sec. Explain why this is the correct answer and provide supporting\nevidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11768"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

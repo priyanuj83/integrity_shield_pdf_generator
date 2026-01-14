@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_01",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Lasso is more appropriate for feature selection because it applies L1 regularization, which can shrink some coefficients to zero, effectively allowing it to identify and select only the most relevant features in a model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "As P(A, B) represents the joint probability of events A and B occurring together, a decrease in P(A, B) coupled with an increase in P(A) indicates that the likelihood of B occurring given A (P(B|A)) must decrease, since P(B|A) is calculated as P(A, B) / P(A).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"True, True\" because the Stanford Sentiment Treebank specifically focuses on analyzing the sentiment of movie reviews, while the Penn Treebank is widely recognized for its applications in language modeling tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The cost of one gradient descent update is O(D) because updating each parameter in the model requires a constant time operation proportional to the number of dimensions D in the parameter space, as each element of the gradient vector g must be processed individually to adjust the corresponding model parameter.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass various techniques that group data points based on their geographic or spatial proximity, and all listed options are valid examples of such algorithms.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because it follows the chain rule of probability, which allows the joint distribution of multiple random variables to be expressed as the product of a marginal probability and conditional probabilities, specifically P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y) when Z is conditionally independent of X given Y.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14787
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) can lead to high variance in estimates, particularly in small sample sizes or when the model is overly complex, because it tends to fit the noise in the data rather than the underlying distribution, resulting in less reliable predictions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Principal Component Analysis (PCA) is considered an unsupervised learning technique because it identifies patterns in data without using labeled outcomes, allowing for dimensionality reduction by transforming correlated variables into a smaller set of uncorrelated principal components.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Discriminative approaches directly model the conditional probability of the output given the input, p(y|x), which allows them to focus specifically on the relationship between the features of the input x and the corresponding output y, often incorporating additional parameters w that may represent specific characteristics of the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The ResNet-50 model contains approximately 23 million parameters, which is significantly fewer than 1 billion, thus making the statement false.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def empty_dit(list1): | return empty_dit",
+      "marks": 10,
+      "explanation": "The provided answer is not correct as it does not define the logic to check if all dictionaries in the list are empty, nor does it return a meaningful result; instead, it simply returns the function name itself, which does not fulfill the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 115
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def check_monthnum_number(monthnum1): | return True | return False",
+      "marks": 10,
+      "explanation": "The provided function is structured to return True or False based on the input month number, correctly identifying that February (month 2) is the only month that consistently contains 28 days in a non-leap year, while all other months have more than 28 days.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 820
+    }
+  ]
+}

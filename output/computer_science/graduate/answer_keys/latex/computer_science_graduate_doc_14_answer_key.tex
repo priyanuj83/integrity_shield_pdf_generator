@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 14 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) The wait is expected to be short.; B) A busy-wait loop is easier to code than an interrupt handler.; C) There is no other work for the processor to do.; D) The program executes on a time-sharing system.
+\\ \textit{Note:} Choosing to busy-wait on an asynchronous event is unreasonable on a time-sharing system because it monopolizes CPU resources, preventing other processes from executing efficiently and undermining the system's purpose of sharing resources among multiple tasks.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) All bit strings whose number of zeros is a multiple of five; B) All bit strings starting with a zero and ending with a one; C) All bit strings with an even number of zeros; D) All bit strings with more ones than zeros
+\\ \textit{Note:} The set of all bit strings with more ones than zeros cannot be described by a regular expression because it requires counting and comparing the number of ones and zeros, which is beyond the capabilities of regular languages that are defined by finite automata.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Session IDs; B) Registry keys; C) Network communications; D) SQL queries based on user input
+\\ \textit{Note:} SQL queries based on user input are most vulnerable to injection attacks because attackers can manipulate the input to alter the structure of the SQL command, potentially gaining unauthorized access to or modifying the database.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, I cannot compute the key.; B) Yes, the key is k = m xor c.; C) I can only compute half the bits of the key.; D) Yes, the key is k = m xor m.
+\\ \textit{Note:} The correct answer is based on the principle of the One-Time Pad (OTP) encryption, which states that the key can be derived from the ciphertext and plaintext using the XOR operation, as the relationship is defined by the equation k = m XOR c.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a covert method that allows unauthorized access to a computer system or its data without detection, making it the correct answer for the question about bypassing security mechanisms untraceably.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Mutation-based fuzzing is a testing technique that systematically alters existing inputs to create new test cases, thereby enabling the discovery of vulnerabilities in software by observing how the modified inputs are processed.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The decimal number 0.2 cannot be represented exactly in binary notation because it results in a repeating binary fraction, which cannot be precisely expressed with a finite number of bits.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPS, or Wi-Fi Protected Setup, is designed to allow users to easily connect new devices to a secure wireless network with minimal user intervention, usually through a push-button or PIN method.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} While encryption ensures the confidentiality of data during transmission, it does not inherently guarantee data integrity, as encryption alone does not protect against unauthorized alterations to the data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A packet filter firewall inspects and controls incoming and outgoing network traffic based on predetermined security rules, functioning primarily at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def is\_Perfect\_Square(n) : | return True | return False
+\\ \textit{Note:} The answer correctly defines a function to check if a number is a perfect square by returning True for perfect squares and False otherwise, although it lacks the necessary logic to perform the actual check.
+\item \textbf{Answer:} def min\_Operations(A,B): | return B - 1
+\\ \textit{Note:} correct because it assumes that the only operation needed to make two numbers equal is decrementing the larger number, and thus calculates the minimum operations by subtracting one from the larger number, although it overlooks cases where A is greater than B or where other operations could be involved.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

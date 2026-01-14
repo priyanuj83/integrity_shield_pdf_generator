@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_03",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "E",
+      "marks": 2,
+      "explanation": "The correct answer is -4 because by solving the equation 7m + 12n = 22 for integer values of (m, n), we find that the combinations yielding the maximum negative value for m + n occur at (m, n) = (-4, 2), resulting in m + n = -4.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 2
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "To find the model distance, we use the scale ratio where 1.5 centimeters corresponds to 50 meters, leading to the calculation of the model distance as (150 meters / 50 meters) * 1.5 centimeters, which equals 6 centimeters.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7709
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The dimension of the intersection of two subspaces cannot be 0 because in a 7-dimensional space, the sum of the dimensions of V and W (4 + 4 = 8) exceeds the dimension of the entire space, implying that their intersection must have a positive dimension to account for the overlap.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8473
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 22.25 because solving the proportion 13/4 = x/7 involves cross-multiplying to find x, resulting in x = (13/4) * 7, which simplifies to 22.25.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8569
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The mean of a data set where all values are the same is equal to that constant value, which is not zero, while other measures such as variance, standard deviation, and range would all equal zero in this scenario.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8675
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the sum of the second partial derivatives of a function with respect to x and y can vary based on the specific function and its behavior, and is not universally equal to a constant value like 2.0.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8302
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the arc length of the curve y = (1/4)x^4 over the interval [1,2] can be accurately approximated by the Trapezoidal Rule with 5 subdivisions, yielding a calculated result of 4.322.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8836
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The fraction \\( \\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}} \\) simplifies to \\( \\frac{1}{\\sqrt{3}} \\) instead of \\( \\frac{1}{2\\sqrt{3}} \\) because the denominator simplifies to \\( 4\\sqrt{3} \\), not \\( 2\\sqrt{3} \\).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8602
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a group of order 159, which is the product of the distinct primes 3 and 53, may not be cyclic; specifically, groups of such order can have non-cyclic structures due to the possible existence of non-trivial normal subgroups and the application of Sylow's theorems.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7692
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because if \\( a_n \\) converges to \\( \\frac{1}{\\sqrt[3]{3}} \\), then \\( 3n(a_n)^3 \\) approaches 1 as \\( n \\) approaches infinity, satisfying the limit condition.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8934
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "The value of the integral \\( \\int_{|z|=r} \\frac{f(z)}{(z-z_1)(z-z_2)} dz \\) is zero, given\nthat \\( f(z) \\) is a bounded entire function and both points \\( z_1 \\) and \\( z_2 \\) are\nlocated within the ball \\( B(0,r) \\). By the Cauchy integral theorem, since \\( f(z) \\) is\nentire and thus analytic everywhere, and the singularities at \\( z_1 \\) and \\( z_2 \\) are\nnot on the contour \\( |z|=r \\), the integral can be evaluated using residues or simply by\nconsidering the analyticity of the integrand. The boundedness of \\( f(z) \\) ensures that\nany contributions from the singularities at \\( z_1 \\) and \\( z_2 \\) are cancelled out when\nintegrated over a closed contour that does not enclose these singularities. Therefore, the\nresult of the integral is \\( 0 \\).",
+      "marks": 10,
+      "explanation": "The integral evaluates to zero because the integrand is analytic on and inside the contour defined by \\( |z|=r \\), as the singularities at \\( z_1 \\) and \\( z_2 \\) are not included on this contour, allowing the application of the Cauchy integral theorem.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8407
+    },
+    {
+      "question_id": "mathematics_graduate_doc_03_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To determine the value of \\( N \\) that satisfies the equation \\( \\frac{4^{(3^3)}}{(4^3)^3}\n= 2^N \\), we first simplify the left-hand side. We know that \\( 4 = 2^2 \\), so we can\nrewrite \\( 4^{(3^3)} \\) as \\( (2^2)^{27} = 2^{54} \\) and \\( (4^3)^3 = (2^2)^9 = 2^{18} \\).\nThus, the left-hand side simplifies to \\( \\frac{2^{54}}{2^{18}} = 2^{54 - 18} = 2^{36} \\).\nThis gives us \\( 2^{36} = 2^N \\), leading to the conclusion that \\( N = 36 \\). Hence, the\nsolution to the equation is \\( N = 36 \\).",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the laws of exponents to simplify the left-hand side of the equation, ultimately revealing that \\( N \\) must equal 36 by equating the exponents of the base 2 on both sides of the equation.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 7946
+    }
+  ]
+}

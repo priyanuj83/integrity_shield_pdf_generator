@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 10 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) By overwriting the return address to point to the location of that code; B) By writing directly to the instruction pointer register the address of the code; C) By writing directly to \%eax the address of the code; D) By changing the name of the running executable, stored on the stack
+\\ \textit{Note:} A buffer overflow on the stack allows an attacker to overwrite the return address of a function so that when the function exits, control is redirected to the attacker-injected code, enabling the execution of malicious instructions.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) It generates each different input by modifying a prior input; B) It works by making small mutations to the target program to induce faults; C) Each input is mutation that follows a given grammar; D) It only makes sense for file-based fuzzing, not network-based fuzzing
+\\ \textit{Note:} Mutation-based fuzzing involves taking existing inputs and altering them to create new test cases, which helps in discovering vulnerabilities by evaluating how the system responds to these modified inputs.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, it cannot be done; B) Yes, just plug the GGM PRF into the Luby-Rackoff theorem; C) It depends on the underlying PRG; D) Option text
+\\ \textit{Note:} The correct answer is based on the Luby-Rackoff theorem, which demonstrates that a secure pseudorandom generator (PRG) can be transformed into a secure pseudorandom permutation (PRP) by using the GGM construction, thus establishing a secure connection between the two cryptographic primitives.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Opera browser; B) Firefox; C) Chrome; D) Tor browser
+\\ \textit{Note:} The Tor browser is specifically designed to facilitate anonymous browsing and access to the Tor network, enabling users to utilize various Tor services securely.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Yes, if the PRG is really "secure"; B) No, there are no ciphers with perfect secrecy; C) Yes, every cipher has perfect secrecy; D) No, since the key is shorter than the message
+\\ \textit{Note:} A stream cipher cannot achieve perfect secrecy because, by definition, perfect secrecy requires the key to be at least as long as the message, ensuring that each possible plaintext is equally likely for every key used.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Weak or non-existent authentication mechanisms are classified as issues related to the application layer rather than the presentation layer, as they directly pertain to the validation of user identities and access control rather than the formatting or presentation of data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Backdoor Trojans not only steal personal data but can also facilitate unauthorized financial transactions or access to systems, thereby incurring financial costs for victims.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because EXE does not indefinitely retry the STP solver; instead, it employs a finite number of attempts to find a satisfiable result before terminating the query process.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because message confidentiality emphasizes that the content of the message should remain unreadable to unauthorized parties, meaning it does not need to be clear to the translator if the translation occurs within a secure context.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The one-time pad key must be a truly random and independent sequence of bits that is as long as the plaintext message, and the formula k = m xor m would always yield a key of all zeroes, which is not secure for encryption.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_demlo(s): | return res
+\\ \textit{Note:} correct as it defines a function that presumably calculates the demlo number, aligning with the requirement to process an input number and return a result, essential in programming and cybersecurity contexts.
+\item \textbf{Answer:} def find\_adverb\_position(text): | return (m.start(), m.end(), m.group(0))
+\\ \textit{Note:} The answer correctly identifies a method to locate adverbs in a sentence by utilizing regular expressions to find their positions, returning the start and end indices along with the adverb itself.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

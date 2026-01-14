@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - Undergraduate Level Assessment 4 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item A starvation-free job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation-free?
+\begin{enumerate}[label=(\alph*)]
+    \item Round-robin
+    \item Priority queuing
+    \item Shortest job first
+    \item Youngest job first
+\end{enumerate}
+\item Any set of Boolean operators that is sufficient to represent all Boolean expressions is said to be complete. Which of the following is NOT complete?
+\begin{enumerate}[label=(\alph*)]
+    \item \{AND, NOT\}
+    \item \{NOT, OR\}
+    \item \{AND, OR\}
+    \item \{NAND\}
+\end{enumerate}
+\item In Python 3, what is the output of print tuple[0] if tuple = ( 'abcd', 786 , 2.23, 'john', 70.2 )?
+\begin{enumerate}[label=(\alph*)]
+    \item ( 'abcd', 786 , 2.23, 'john', 70.2 )
+    \item abcd
+    \item Error
+    \item None of the above.
+\end{enumerate}
+\item Local caching of files is common in distributed file systems, but it has the disadvantage that
+\begin{enumerate}[label=(\alph*)]
+    \item Temporary inconsistencies among views of a file by different machines can result
+    \item The file system is likely to be corrupted when a computer crashes
+    \item A much higher amount of network traffic results
+    \item Caching makes file migration impossible
+\end{enumerate}
+\item Which of the following is correct about Python?
+\begin{enumerate}[label=(\alph*)]
+    \item It supports automatic garbage collection.
+    \item It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+    \item Both of the above.
+    \item None of the above.
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The regular expression a*(c + d)* + b(c + d)* is equivalent to (a* + b)*(c + d) and describes the same set of strings.
+\item True or False: The value of the Python expression 4 + 3 \% 2 is 5, as the modulus operator is evaluated before addition.
+\item True or False: The output of the statement 'a' + 'ab' in Python 3 is 'aab'.
+\item True or False: The number of distinct functions mapping a finite set A with m elements into a finite set B with n elements is $n^m$.
+\item True or False: In Python 3, the expression ['a', 'Chemistry', 0, 1][1] evaluates to the integer 1.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a python function to check whether the two numbers differ at one bit position only or not.
+\item Write a function to convert more than one list to nested dictionary.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

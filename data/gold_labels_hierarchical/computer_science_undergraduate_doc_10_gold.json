@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_undergraduate_doc_10",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Interrupts serve as signals to the processor that an I/O operation has completed, allowing the system to efficiently manage tasks and resources without constant polling.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1026
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The statement \"All line segments can be displayed as straight\" is incorrect for bitmap graphics because bitmap images are composed of pixels, which can only approximate curves and angles, often resulting in jagged edges or aliasing rather than smooth straight lines.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1025
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The function int(x [,base]) is designed to convert a string representation of a number into an integer, with an optional base parameter to specify the numeral system used for the conversion.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Finding a shortest cycle in an undirected graph can be solved in polynomial time using algorithms such as breadth-first search (BFS) to explore all paths and determine the shortest cycle efficiently.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1017
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Merge sort consistently divides and merges elements regardless of their initial order, resulting in a stable time complexity of O(n log n) that is unaffected by the arrangement of the input data.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1032
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Condition codes set by instructions can introduce dependencies and stalls in the pipeline, thereby acting as barriers to aggressive pipelining of an integer unit.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1053
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A 3-way, set-associative cache divides the cache into multiple sets, each containing three lines, allowing any given main memory word to be stored in any of the three lines within its designated set.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1091
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The language {ww | w in (0 + 1)*} requires the ability to compare two potentially unbounded strings for equality, which is a capability of Turing machines but exceeds the memory limitations of pushdown automata that can only use a single stack for recognition.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1013
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Identifier length in programming language design is better specified by context-sensitive grammar rather than context-free grammar because context-free grammars cannot enforce constraints that depend on the surrounding context, such as the specific lengths or formats of identifiers.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1077
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Python supports integration with languages like C and Java through various interfaces and libraries, such as ctypes, Cython, and Jython, which enhances its versatility in system programming.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def count_no (A,N,L,R): | return (i)",
+      "marks": 10,
+      "explanation": "The provided function correctly identifies the nth number in a sequence that is not a multiple of a specified number by iterating through a range and counting the valid numbers until the desired count is reached.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 575
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_10_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def remove_parenthesis(items): | return (re.sub(r\" ?\\([^)]+\\)\", \"\", item))",
+      "marks": 10,
+      "explanation": "The provided function uses a regular expression to identify and remove any substring that is enclosed in parentheses, along with any leading space, effectively cleaning the input string of unwanted parenthetical content.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 640
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_06",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 6",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_06.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_06.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_06_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_06_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_06_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_06_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "______________ is a widespread app's coding mistake made by developers which could be\nexploited by an attacker for gaining access or malfunctioning your system.",
+      "options": {
+        "A": "Memory leakage",
+        "B": "Buffer-overrun",
+        "C": "Less processing power",
+        "D": "Inefficient programming"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer-overrun occurs when a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite adjacent memory and gain unauthorized access or disrupt system functionality.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "___________________ is alike as that of Access Point (AP) from 802.11, & the mobile\noperators uses it for offering signal coverage.",
+      "options": {
+        "A": "Base Signal Station",
+        "B": "Base Transmitter Station",
+        "C": "Base Transceiver Station",
+        "D": "Transceiver Station"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Base Transceiver Station (BTS) functions similarly to an Access Point (AP) by facilitating wireless communication and providing signal coverage for mobile operators, as both are essential components in their respective wireless networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1550"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a remote Trojan?",
+      "options": {
+        "A": "Troya",
+        "B": "DaCryptic",
+        "C": "BankerA",
+        "D": "Game-Troj"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Troya is classified as a remote Trojan because it enables unauthorized remote access to a victim's system, allowing the attacker to control and manipulate it from a distance.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The stack is memory for storing",
+      "options": {
+        "A": "Local variables",
+        "B": "Program code",
+        "C": "Dynamically linked libraries",
+        "D": "Global variables"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The stack is used for storing local variables because it operates on a last-in, first-out (LIFO) principle that efficiently manages the allocation and deallocation of memory for variables that are only needed within a specific function or block scope.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The sub key length at each round of DES is__________",
+      "options": {
+        "A": "32",
+        "B": "56",
+        "C": "48",
+        "D": "64"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 56 because the Data Encryption Standard (DES) uses a 56-bit key length for the subkeys generated in each of its 16 rounds of encryption.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1524"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "WPA is the central node of 802.11 wireless operations, managing connections and data flow in the network.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because WPA (Wi-Fi Protected Access) is a security protocol used to secure wireless networks, not a central node that manages connections and data flow, which is the role of the access point in an 802.11 wireless network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Escaping queries is an effective method to prevent SQL injection attacks in web applications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Escaping queries helps prevent SQL injection attacks by ensuring that user input is treated as data rather than executable code, thus mitigating the risk of malicious SQL commands being executed.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "WPS, or Wi-Fi Protected Setup, is a protocol designed to simplify the connection of new devices to wireless networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPS, or Wi-Fi Protected Setup, is designed to facilitate the easy and secure addition of devices to a wireless network by allowing users to connect through methods like PIN entry or the push of a button, thereby simplifying the setup process.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The AH Protocol guarantees both data integrity and nonrepudiation for secure communications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol provides data integrity through hashing but does not ensure nonrepudiation, as it does not include mechanisms for authentication that would prevent a sender from denying the transmission of the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "SHA-1 produces a message digest with a length of 512 bits.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "SHA-1 produces a message digest with a length of 160 bits, not 512 bits.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to count the number of sublists containing a particular element.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_element_in_list(list1, x): | return ctr",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that presumably iterates through the provided list to count and return the number of sublists that contain the specified element, thus fulfilling the requirement of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "425"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_06_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to generate all sublists of a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sub_lists(my_list): | return subs",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the function's purpose to generate sublists from a given list, indicating a foundational understanding of list manipulation in programming, which is essential in various cybersecurity tasks such as data analysis and pattern recognition.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "859"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

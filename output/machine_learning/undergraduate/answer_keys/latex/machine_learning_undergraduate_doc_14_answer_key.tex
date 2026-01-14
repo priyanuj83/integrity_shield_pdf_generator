@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 14 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) O(1); B) O( N ); C) O(log N ); D) O( $N^2$ )
+\\ \textit{Note:} The correct answer is O(N) because the nearest neighbors algorithm requires a linear search through all training instances to find the closest neighbors for classification, resulting in a runtime that scales directly with the number of instances N in the dataset.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Regularization is too low and model is overfitting; B) Regularization is too high and model is underfitting; C) Step size is too large; D) Step size is too small
+\\ \textit{Note:} A step size that is too large can cause the model to overshoot the optimal solution during training, leading to increased training loss over epochs as it fails to converge.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm primarily affects the convergence speed and efficiency of training rather than directly addressing the model's complexity and its tendency to overfit the training data.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It relates inputs to outputs.; B) It is used for prediction.; C) It may be used for interpretation.; D) It discovers causal relationships
+\\ \textit{Note:} The statement is false because regression analysis identifies statistical relationships between variables but does not establish causation, as correlation does not imply causation.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Clustering is effective for detecting fraudulent credit card transactions because it identifies and groups similar spending behaviors, allowing for the identification of anomalies that may indicate fraudulent activity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the joint probability distribution P(X, Y, Z) can only be expressed as the product of the marginal distributions P(X), P(Y), and P(Z) if X, Y, and Z are independent random variables, which is not generally the case.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Out-of-distribution detection is considered a form of anomaly detection because both involve identifying data points that significantly deviate from the expected distribution, indicating they are unusual or not representative of the normal dataset.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A smaller error rate implies that the model is performing better, requiring a larger sample size to reliably distinguish between the subtle differences in performance and to ensure that the observed results are not due to random chance.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because a null space dimensionality of 2 indicates that there are two linearly independent vectors that span the null space of the matrix A, implying that the rank of A is reduced by two dimensions in relation to its total number of columns.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def average\_tuple(nums): | return result
+\\ \textit{Note:} correct because it provides a function definition that indicates the intention to compute the average of numbers contained in a tuple of tuples, which is essential for solving the posed problem in the context of data processing in machine learning.
+\item \textbf{Answer:} def is\_key\_present(d,x): | return True | return False
+\\ \textit{Note:} correct because it defines a function that checks for the presence of a specified key in a dictionary and appropriately returns a Boolean value indicating its existence.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

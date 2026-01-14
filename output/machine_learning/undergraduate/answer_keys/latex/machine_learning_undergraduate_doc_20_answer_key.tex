@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 20 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The null space of the matrix A consists of all vectors that, when multiplied by A, yield the zero vector, and since A has rank 1 (as all rows are linearly dependent), the dimension of the null space, given by the formula dimension = number of columns - rank, is 2 (3 - 1 = 2).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Lower variance; B) Higher variance; C) Same variance; D) None of the above
+\\ \textit{Note:} As the number of training examples approaches infinity, the model becomes better at capturing the true underlying patterns in the data, leading to lower variance and improved generalization to unseen data.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It can not be applied to non-differentiable functions.; B) It can not be applied to non-continuous functions.; C) It is hard to implement.; D) It runs reasonably slow for multiple linear regression.
+\\ \textit{Note:} Grid search is computationally intensive as it evaluates every combination of hyperparameters across a predefined grid, leading to slow performance, especially with the increased complexity and dimensionality in multiple linear regression scenarios.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Larger if the error rate is larger.; B) Larger if the error rate is smaller.; C) Smaller if the error rate is smaller.; D) It does not matter.
+\\ \textit{Note:} A larger number of test examples is needed to achieve statistically significant results when the error rate is smaller because a lower error rate requires more samples to reliably detect the true performance of the model and ensure that the observed results are not due to random chance.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} ImageNet indeed contains images of various resolutions, making Statement 1 true, while Statement 2 is false because ImageNet has significantly more images than Caltech-101, which only contains 9,144 images compared to ImageNet's millions.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Underfitting occurs when a model is too simplistic to represent the complexity of the training data, leading to poor performance both on the training set and when applied to new, unseen data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Linear hard-margin SVM requires that the data can be perfectly separated by a hyperplane without any misclassifications, which is only possible when the training data are linearly separable.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DCGANs (Deep Convolutional Generative Adversarial Networks) do not use self-attention mechanisms; instead, they rely on convolutional layers and batch normalization to improve training stability.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Sampling with replacement in bagging reduces overfitting by increasing diversity among the models but does not eliminate it entirely, as individual classifiers can still overfit to their respective training samples.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because calculating P(H|E, F) also requires knowledge of P(E, F|H) and P(E, F) to apply Bayes' theorem correctly.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def get\_inv\_count(arr, n): | return inv\_count
+\\ \textit{Note:} correct because it outlines the purpose of a function that computes the number of inversions in an array, which are pairs of elements that are out of order, and implicitly suggests the need for a variable to hold the count of these inversions, though the actual implementation details are incomplete.
+\item \textbf{Answer:} def divSum(n): | return sum; | def areEquivalent(num 1,num 2): | return divSum(num 1) == divSum(num 2);
+\\ \textit{Note:} The provided function first calculates the sum of the divisors of a given number through the `divSum` function, and then compares the sums of the divisors of two numbers using the `areEquivalent` function, correctly addressing the question of whether these sums are equal.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

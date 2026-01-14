@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 24 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(log $e^N$); B) O(log N); C) O(log log N); D) O(N)
+\\ \textit{Note:} The function O(log log N) grows the slowest among common growth rates because it increases at a much slower rate than polynomial, exponential, or even logarithmic functions, making it highly efficient for large input sizes.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 0.1; B) 0.2; C) 0.3; D) 0.5
+\\ \textit{Note:} The decimal number 0.5 has an exact representation in binary notation as 0.1, since it is a power of two (specifically 1/2), which can be expressed without any repeating digits in the binary system.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) **; B) //; C) is; D) not in
+\\ \textit{Note:} The operator "**" in Python 3 is specifically designed to perform exponential calculations, raising the left operand to the power of the right operand.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) All of the preconditions in the program are correct.; B) All of the postconditions in the program are correct.; C) The program may have bugs.; D) Every method in the program may safely be used in other programs.
+\\ \textit{Note:} The correct answer is supported by the fact that extensive testing can reduce but not completely eliminate the possibility of bugs, as it is impossible to test every possible input and execution path in a large program.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) The Caesar Cipher, a substitution cipher; B) DES (Data Encryption Standard), a symmetric-key algorithm; C) Enigma, a transposition cipher; D) One-time pad
+\\ \textit{Note:} The one-time pad is considered a perfectly secure encryption scheme because it uses a random key that is as long as the message, is used only once, and provides complete uncertainty about the plaintext when the ciphertext is intercepted.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Merge sort consistently divides the data set in half and sorts each half recursively, leading to a logarithmic depth of recursion and a linear number of comparisons at each level, resulting in an overall time complexity of O(n log n) for both average and worst-case scenarios, which is efficient for handling large data sets.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because in Python 3, negative indexing allows access to elements from the end of a string, so 'abc'[-1] correctly returns the last character 'c' without causing an error.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the first regular expression allows strings that can end with any number of 'a's followed by either 'c' or 'd', while the second expression requires that after any combination of 'a's and 'b's, the strings must end with 'c' or 'd', which alters the possible combinations of strings generated.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression 3 \% 3 evaluates to 0, so 1 + 3 \% 3 equals 1 + 0, which is 1, not 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Local caching of files can lead to inconsistencies because changes made to a file on one machine may not be immediately reflected on other machines due to the lack of synchronization mechanisms in place.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def Check\_Solution(a,b,c): | return ("Yes") | return ("No")
+\\ \textit{Note:} The provided answer is incorrect as it fails to implement the necessary logic to calculate the discriminant of the quadratic equation, which is crucial for determining if the roots are numerically equal but opposite in sign.
+\item \textbf{Answer:} def is\_sublist(l, s): | return sub\_set
+\\ \textit{Note:} correct because the function is intended to determine if the list 's' exists as a contiguous sequence within the list 'l', which is a fundamental operation in list processing.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

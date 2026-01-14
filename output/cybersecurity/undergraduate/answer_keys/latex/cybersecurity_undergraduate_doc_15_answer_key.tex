@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 15 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) stack; B) queue; C) external storage; D) buffer
+\\ \textit{Note:} A buffer is defined as a temporary storage area in memory that holds data being transferred between two locations, making it the correct term for a sequential segment allocated for storing data such as character strings or arrays of integers.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Windows 7; B) Chrome; C) IOS 12; D) UNIX
+\\ \textit{Note:} UNIX systems, like many older operating systems, have a history of vulnerabilities, including buffer overflow attacks, due to their use of low-level memory management and lack of built-in security features that protect against such exploits.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Session IDs; B) Registry keys; C) Network communications; D) SQL queries based on user input
+\\ \textit{Note:} SQL queries based on user input are most vulnerable to injection attacks because attackers can manipulate the input to execute arbitrary SQL code, potentially compromising the database and sensitive information.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Phishing; B) MiTM; C) Buffer-overflow; D) Clickjacking
+\\ \textit{Note:} A buffer-overflow attack exploits vulnerabilities in a program by overflowing a buffer with extra data that can overwrite adjacent memory, allowing cyber-criminals to inject malicious instructions and potentially gain control of the system.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a hidden method that allows unauthorized access to a computer system or its data without detection, making it a key concept in cybersecurity related to security vulnerabilities.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Integrity is considered a fundamental security property in cybersecurity, but it is typically classified alongside confidentiality and availability as part of the triad known as the CIA triad, rather than being regarded as a separate primary property.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A proxy firewall operates at the application layer by intercepting and analyzing data packets, allowing it to filter traffic based on the content and context of the transmitted information.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Troya is considered a remote Trojan because it enables an attacker to gain unauthorized access and control over a victim's system from a remote location, often without the user's knowledge.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message confidentiality ensures that the data is kept secret from unauthorized parties during transmission, but it does not guarantee that the data remains unchanged, as integrity checks are required to verify data integrity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authentication is a fundamental security measure designed to confirm the identity of users, thereby protecting systems from unauthorized access rather than being an exploit that undermines security.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_Divisors(n) : | return ("Even") | return ("Odd")
+\\ \textit{Note:} correct because it outlines a function that is intended to determine if the number of divisors of a given integer is even or odd, although it lacks the necessary logic to count the actual divisors before returning the results.
+\item \textbf{Answer:} def No\_of\_Triangle(N,K): | return -1; | return Tri\_up + Tri\_down;
+\\ \textit{Note:} correct as it outlines a function that calculates the total number of smaller equilateral triangles (Tri\_up and Tri\_down) that can be formed within a larger equilateral triangle, based on its dimensions (N and K).
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

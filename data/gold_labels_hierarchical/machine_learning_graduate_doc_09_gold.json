@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_09",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is false because regression analysis identifies correlations between variables but does not establish causation, as it cannot account for confounding factors or the direction of influence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The use of weak classifiers in bagging reduces overfitting by averaging their predictions, which helps to mitigate the variance that can arise from complex models while maintaining a strong overall predictive performance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Anomaly detection refers to the identification of data points that deviate significantly from the norm, which aligns with the concept of out-of-distribution detection, where the goal is to recognize instances that differ from the training data distribution.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Improving the optimization algorithm primarily affects the convergence speed and efficiency of finding a minimum, but does not directly address the complexity of the model or its tendency to fit noise in the training data, which are the main causes of overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to each of the N instances in the training dataset to determine the closest neighbors for classification.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6885
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Linear Soft margin SVM allows for the classification of data that is not perfectly linearly separable by introducing a penalty for misclassification, enabling it to handle overlaps between classes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Bayesians incorporate prior distributions to express beliefs about parameters before observing data, while frequentists rely on the data alone for inference, often avoiding the use of priors.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "RoBERTa enhances BERT's training methodology by utilizing a significantly larger dataset, specifically around 160GB of text data compared to BERT's 16GB, which allows it to learn more robust language representations.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6836
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The rank of the matrix A is 1 because all its rows are identical and therefore linearly dependent, indicating that it can be reduced to a single row of non-zero values.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Neural networks can combine different activation functions in their architecture to leverage the strengths of each function for various layers, enhancing model performance and flexibility in learning complex patterns.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def find_last_occurrence(A, x): | return result",
+      "marks": 10,
+      "explanation": "correct because it outlines the essential structure of a function that should implement a search algorithm, such as binary search, to efficiently locate the index of the last occurrence of a specified number in a sorted array.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 316
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def Find_Max_Length(lst): | return maxLength",
+      "marks": 10,
+      "explanation": "correct because it defines a function that aims to identify the maximum length of contiguous sublists within the given list, employing the concept of utilizing Python's built-in functions to effectively compute the desired outcome.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 562
+    }
+  ]
+}

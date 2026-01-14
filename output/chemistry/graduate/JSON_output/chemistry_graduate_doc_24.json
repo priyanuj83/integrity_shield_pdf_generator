@@ -1,0 +1,293 @@
+{
+  "docid": "chemistry_graduate_doc_24",
+  "document_name": "Chemistry - Graduate Level Assessment 24",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_24.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A sample of solid MgCl 2 would be most soluble in which of the following solutions?",
+      "options": {
+        "A": "AlCl 3(aq)",
+        "B": "CBr 4(aq)",
+        "C": "NaOH(aq)",
+        "D": "HCl(aq)",
+        "E": "LiOH(aq)"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Solid MgCl2 is most soluble in LiOH(aq) because the presence of hydroxide ions from LiOH promotes the formation of soluble complexes with magnesium ions, enhancing the dissociation of MgCl2 in solution.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4249"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "0.25 mol of a weak, monoprotic acid is dissolved in 0.25 L of distilled water. The pH was\nthen measured as 4.26. What is the pKa of this weak acid?",
+      "options": {
+        "A": "4.26",
+        "B": "3.66",
+        "C": "9.26",
+        "D": "2.66",
+        "E": "10.52"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The pKa of a weak acid is equal to the pH of a solution when the concentration of the acid equals its dissociation constant, and in this case, the pH of 4.26 indicates that the concentration of the dissociated hydrogen ions is equal to the concentration of the undissociated acid, thus making the pKa also 4.26.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4248"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In the infrared spectrum of $\\mathrm{H}^{127} \\mathrm{I}$, there is an intense line at\n$2309 \\mathrm{~cm}^{-1}$. Calculate the force constant of $\\mathrm{H}^{127} \\mathrm{I}$.",
+      "options": {
+        "A": "400 $ \\mathrm{~N} \\cdot \\mathrm{m}^{-1}$",
+        "B": "350 $ \\mathrm{~N} \\cdot \\mathrm{m}^{-1}$",
+        "C": "250 $ \\mathrm{~N} \\cdot \\mathrm{m}^{-1}$",
+        "D": "285 $\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$",
+        "E": "450 $\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 400 N\u00b7m\u207b\u00b9 is derived from the relationship between the vibrational frequency of the molecular bond, as given by the infrared line at 2309 cm\u207b\u00b9, and the force constant, which can be calculated using the formula \\( k = 4\\pi^2 \\mu \\nu^2 \\), where \\(\\mu\\) is the reduced mass of the hydrogen iodide molecule and \\(\\nu\\) is the wavenumber corresponding to the observed infrared transition.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3822"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the reduced mass of a nitrogen molecule in which both nitrogen atoms have an\natomic mass of 14.00.",
+      "options": {
+        "A": "1.75",
+        "B": "3.50",
+        "C": "14.00",
+        "D": "10.00",
+        "E": "12.00"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reduced mass of a nitrogen molecule, composed of two nitrogen atoms each with an atomic mass of 14.00, is calculated using the formula \\( \\mu = \\frac{m_1 m_2}{m_1 + m_2} \\), which results in \\( \\mu = \\frac{14.00 \\cdot 14.00}{14.00 + 14.00} = 7.00 \\) u, and when expressed in terms of kg, it is approximately 1.75 kg for the system's dynamics.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3905"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the kinetic energy of an automobile weighing 2000 pounds and moving at a speed\nof 50 miles per hour. Record your answer in (a) Joules and (b) ergs.",
+      "options": {
+        "A": "3.0 \\times 10^5 Joules, 3.0 \\times 10^12 ergs",
+        "B": "2.5 \\times 10^5 Joules, 2.5 \\times 10^12 ergs",
+        "C": "2.0 \\times 10^5 Joules, 2.0 \\times 10^12 ergs",
+        "D": "1.8 \\times 10^5 Joules, 1.8 \\times 10^12 ergs",
+        "E": "3.56 \\times 10^5 Joules, 3.56 \\times 10^12 ergs"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the kinetic energy formula KE = 0.5 * m * v\u00b2, where the weight of the automobile is converted to mass in kilograms, and the speed is converted from miles per hour to meters per second, resulting in 3.0 \u00d7 10^5 Joules and 3.0 \u00d7 10^12 ergs.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4458"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The simplest alkene has a tetrahedral configuration around its double bond carbon atoms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because alkenes have a trigonal planar configuration around their double bond carbon atoms due to the sp\u00b2 hybridization, which allows for 120-degree bond angles rather than the tetrahedral 109.5-degree angles associated with sp\u00b3 hybridization.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3531"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The number of allowed energy levels for the 55 Mn nuclide is 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number of allowed energy levels for the 55 Mn nuclide is not limited to five due to the complex interplay of its nuclear structure and the presence of multiple nuclear states, which can significantly exceed that number.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4348"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The constants in the Dieterici equation are a' = 2 RT_cV_c and b' = V_c / 2, derived from critical constants.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the constants a' and b' in the Dieterici equation are indeed derived from the critical constants, where a' represents the interaction energy between molecules at the critical point and b' reflects the volume occupied by the molecules at that point, thus establishing their relationship to the critical parameters of the substance.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4025"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "During the electrolysis of molten magnesium bromide, magnesium is produced at the cathode and bromine at the anode.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the electrolysis of molten magnesium bromide, magnesium ions gain electrons at the cathode to form magnesium metal, while bromide ions lose electrons at the anode to produce bromine gas, confirming the statement is true.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_24_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A light pulse of 2.00 mJ at a wavelength of 1.06 \u03bcm contains approximately 1.80 \\times 10^{16} photons.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the calculation of the number of photons in a light pulse of 2.00 mJ at a wavelength of 1.06 \u03bcm yields approximately 1.13 \u00d7 10^{19} photons, not 1.80 \u00d7 10^{16}.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3998"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_24_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of the orbital angular momentum quantum number, l, in the context\nof ionization energy, particularly focusing on the electron that is most easily removed\nfrom ground-state aluminum.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The orbital angular momentum quantum number, l, plays a crucial role in determining the\nionization energy of an atom by influencing the spatial distribution and shielding effects\nof electrons. In the case of ground-state aluminum, which has an electronic configuration\nof [Ne]3 s^23 p\u00b9, the electron that is most easily removed during ionization corresponds\nto the 3 p orbital, where l equals 1. This electron is more shielded by the inner\nelectrons and experiences less effective nuclear charge compared to the 3 s electrons,\nresulting in a lower ionization energy. The significance of l is thus highlighted, as it\nhelps explain why the 3 p electron is more easily ionized, reflecting both the energy\nlevels and the stability of electron configurations. Understanding this relationship is\nvital for predicting reactivity and bonding in aluminum and similar elements.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the orbital angular momentum quantum number, l, influences the ionization energy by determining the electron's spatial distribution and shielding, with the 3p electron in aluminum being the most easily removed due to its higher shielding and lower effective nuclear charge compared to the more tightly bound 3s electrons.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4255"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_24_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the decrease in atmospheric pressure at 4000 meters altitude affects the\nboiling point of water, and calculate the expected boiling point under these conditions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "At 4000 meters altitude, the atmospheric pressure decreases significantly, which directly\ninfluences the boiling point of water. The boiling point of a liquid is the temperature at\nwhich its vapor pressure equals the surrounding pressure; thus, as altitude increases and\npressure decreases, the boiling point lowers. At 4000 meters, the expected boiling point\nof water is approximately 86.2^\\circC. This decrease can be attributed to the lower\natmospheric pressure, which reduces the energy required for water molecules to escape into\nthe vapor phase, demonstrating the relationship between pressure and boiling point in\naccordance with the principles of physical chemistry.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately explains that the boiling point of water decreases with altitude due to reduced atmospheric pressure, and it provides a calculated boiling point of approximately 86.2\u00b0C at 4000 meters, illustrating the relationship between vapor pressure and environmental pressure.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3785"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "docid": "chemistry_graduate_doc_22",
+  "document_name": "Chemistry - Graduate Level Assessment 22",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "mmlu_pro_chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_22.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is incorrectly named?",
+      "options": {
+        "A": "MgO magnesium oxide",
+        "B": "AgNO 3 silver nitrate",
+        "C": "CuCl 2 copper(II) chloride",
+        "D": "H 2 SO 4 sulfuric acid",
+        "E": "K 2 Cr 2 O 7 potassium dichromate"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "MgO is incorrectly named magnesium oxide because it should be referred to as magnesium(II) oxide to indicate the oxidation state of magnesium in the compound.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following geometries corresponds to a substance that has five sigma bonds and\none nonbonding pair of electrons?",
+      "options": {
+        "A": "Bent",
+        "B": "Trigonal pyramid",
+        "C": "T-shaped",
+        "D": "Trigonal planar",
+        "E": "Trigonal bipyramidal"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Bent\" because a molecular geometry with five sigma bonds and one nonbonding pair of electrons results in a distorted tetrahedral arrangement, leading to a bent shape due to the repulsion between the lone pair and bonding pairs.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3720"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the mass of one molecule of cholesterol (C 27 H 46 O, molecular mass = 386)?",
+      "options": {
+        "A": "3 \\times 10^-23 g",
+        "B": "7.15 \\times 10^-22 g",
+        "C": "1.38 \\times 10^-21 g",
+        "D": "6.41 \\times 10^-22 g",
+        "E": "8.41 \\times 10^-22 g"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mass of one molecule of cholesterol is calculated by dividing its molecular mass (386 g/mol) by Avogadro's number (approximately 6.022 x 10^23 molecules/mol), resulting in a mass of approximately 6.41 x 10^-22 g per molecule.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4602"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Solve 6 x^2 - 7 x - 20 = 0.",
+      "options": {
+        "A": "5/2, 4/3",
+        "B": "-5/3, 4/2",
+        "C": "5/3, -4/2",
+        "D": "2, -10",
+        "E": "4, -5"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, 5/2 and 4/3, results from applying the quadratic formula to the equation 6 x^2 - 7 x - 20 = 0, which reveals the solutions to the values of x where the quadratic expression equals zero.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3754"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the pressure exerted by $1.0 \\mathrm{~mol} \\mathrm{Xe}$ when it is confined to\n$1.0 \\mathrm{dm}^3$ at $25^{\\circ} \\mathrm{C}$.",
+      "options": {
+        "A": "21$\\mathrm{atm}$",
+        "B": "28 $\\mathrm{atm}$",
+        "C": "30 $\\mathrm{atm}$",
+        "D": "12 $\\mathrm{atm}$",
+        "E": "18 $\\mathrm{atm}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 21 atm is derived from the ideal gas law, \\( PV = nRT \\), where the number of moles (1.0 mol), the universal gas constant (0.0821 L\u00b7atm/(K\u00b7mol)), and the temperature (298 K) yield a pressure of approximately 21 atm when the volume is 1.0 dm\u00b3.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3832"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The resulting molarity of the sucrose solution after mixing is 0.33 M.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resulting molarity of the sucrose solution after mixing is 0.33 M because the total number of moles of sucrose divided by the total volume of the solution in liters equals 0.33 M.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4466"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The nuclide mass of N^13 is 13.00335 amu, reflecting its specific atomic mass post eta^+ decay.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the nuclide mass of N^13 is accurately measured at 13.00335 amu, which accounts for the mass defect resulting from the binding energy in the nucleus after the beta-plus decay process, where a proton is converted into a neutron, emitting a positron and a neutrino.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4668"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The pH of a 0.001 M aqueous solution of KOH is 13, indicating it is a strong base.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The pH of a 0.001 M aqueous solution of KOH is 13 because KOH fully dissociates in water, resulting in a hydroxide ion concentration of 0.001 M, which corresponds to a pH calculated as 14 - (-log[0.001]) = 13, confirming it as a strong base.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The work function of potassium metal is approximately 2.50 \\times 10^{-19} J, which is lower than its threshold energy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the work function of potassium is a measure of the minimum energy required to remove an electron from the metal's surface, and it cannot be lower than the threshold energy, which is defined as the energy required to initiate the photoelectric effect.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_22_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The volume of O_2 required to completely burn 50 liters of CO is 75 liters, producing 150 liters of CO_2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the balanced chemical reaction for the combustion of carbon monoxide (CO) shows that one mole of CO reacts with half a mole of O_2 to produce one mole of CO_2, thus requiring 1.5 times the volume of O_2 compared to CO, leading to the conclusion that 50 liters of CO would need 75 liters of O_2 and produce 150 liters of CO_2 under the same conditions of temperature and pressure.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_22_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of determining the pH of a 0.2 M NH\u2083 solution, given that K_b = 1.8\n\\times 10\u207b\u2075 at 25^\\circC. Include the equilibrium reaction and your calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the pH of a 0.2 M NH\u2083 solution, we start with the equilibrium reaction for\nthe base ionization of ammonia: NH\u2083 + H\u2082O \u21cc NH\u2084\u207a + OH\u207b. The base dissociation constant,\nK_b, is given as 1.8 \\times 10\u207b\u2075. Setting up the equilibrium expression, K_b =\n[NH\u2084\u207a][OH\u207b]/[NH\u2083], and letting x represent the concentration of OH\u207b produced, we can\nexpress this as K_b = (x)(x)/(0.2 - x). Assuming x is small relative to 0.2, we simplify\nto K_b = x^2/0.2. Solving for x gives us x = \\sqrt(K_b \\times 0.2) = \\sqrt(1.8 \\times 10\u207b\u2075\n\\times 0.2) \\approx 0.00134 M for [OH\u207b]. The pOH is then calculated as pOH = -log(0.00134)\n\\approx 2.87, leading to a pH of 14 - pOH = 14 - 2.87 = 11.13. Thus, the pH of the 0.2 M\nNH\u2083 solution is approximately 11.13, confirming that the solution is basic and consistent\nwith the expected behavior of ammonia.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it correctly identifies the base ionization reaction of ammonia, applies the appropriate equilibrium expression for K_b, and utilizes the assumption of negligible x to simplify the calculation for the hydroxide ion concentration, ultimately allowing for the determination of pH from the resulting concentration of hydroxide ions.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3851"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_22_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the reaction that occurs when Fehling's solution is added to diabetic urine\ncontaining sugar. Analyze the chemical processes involved and identify the precipitate\nformed upon heating.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When Fehling's solution is added to diabetic urine containing sugar, a redox reaction\noccurs, wherein the reducing sugar, such as glucose, reduces the blue cupric ions (Cu^2\u207a)\npresent in the solution to cuprous ions (Cu\u207a). Upon heating, the cuprous ions precipitate\nout of solution as copper(I) oxide (Cu\u2082O), which appears as a brick-red solid. This\ntransformation is indicative of the presence of reducing sugars in the urine, serving as a\nqualitative test for diabetes. The underlying chemical process involves the oxidation of\nthe sugar and the concomitant reduction of copper ions, demonstrating a classic example of\nredox chemistry in biological analysis.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the redox reaction between the reducing sugar in diabetic urine and the cupric ions in Fehling's solution, leading to the formation of a brick-red precipitate of copper(I) oxide, which serves as a qualitative indicator of reducing sugars and, by extension, diabetes.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3860"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

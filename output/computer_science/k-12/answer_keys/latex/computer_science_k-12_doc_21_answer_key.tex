@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 21 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Yes; B) No; C) It's machine-dependent; D) None of the above
+\\ \textit{Note:} Python variable names are case-sensitive, meaning that variables named "Variable", "variable", and "VARIABLE" are considered distinct and can hold different values.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It supports automatic garbage collection.; B) It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.; C) Both of the above.; D) None of the above.
+\\ \textit{Note:} The correct answer is "Both of the above" because it indicates that both statements provided in the options accurately reflect key features or characteristics of Python, reinforcing its versatile and user-friendly nature as a programming language.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) The goal of the attack; B) The number of computers being attacked; C) The number of computers launching the attack; D) The time period in which the attack occurs
+\\ \textit{Note:} A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking systems involved.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} In Python, negative indexing allows you to access elements from the end of a list, so ['a', 'Chemistry', 0, 1][-3] retrieves the second element from the beginning, which is 'Chemistry'.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} The correct answer is "Chemistry" because in Python, lists are indexed starting from 0, so the element at index 1 corresponds to the second item in the list, which is "Chemistry".
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The function O(log log N) grows the slowest among common complexity classes because it increases at a much slower rate than other logarithmic, linear, or polynomial functions as N becomes very large.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the Python expression 'abc'[::-1] is a valid syntax that correctly reverses the string, resulting in 'cba'.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The sort() method is not applicable to strings in Python because strings are immutable, and sorting can only be performed on mutable sequences like lists.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the '+' operator concatenates two strings, so combining 'a' and 'ab' results in the string 'aab'.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the right shift operation (\textgreater{}\textgreater{}) divides the binary representation of the number by 2 for each shift, and shifting the binary representation of 8 (which is 1000 in binary) to the right by one position results in 4 (which is 0100 in binary).
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} In Python 3, floor division is performed using the double forward slash operator (//). This operation divides two numbers and rounds down the result to the nearest whole number, which is significant when you need an integer result without any decimal places. For example, 7 // 2 equals 3, since 7 divided by 2 is 3.5, and the floor division rounds it down to 3. In contrast, regular division using a single forward slash (/) would yield a float, so 7 / 2 results in 3.5. Understanding the difference between these two types of division is important for programming tasks that require whole numbers or when working with loops and indices.
+\\ \textit{Note:} correct because it accurately defines floor division in Python 3, explains its significance in providing whole number results, and contrasts it with regular division by demonstrating the different outputs for the same operation using appropriate examples.
+\item \textbf{Answer:} Even if a large Java program passes extensive testing without errors, it does not guarantee that the program is free of bugs. This is because testing can only cover a limited number of scenarios, and some bugs may only appear under specific conditions that were not tested. Additionally, the complexity of the program can lead to unforeseen interactions between different parts of the code that testing may not reveal. Therefore, while thorough testing is essential, it is not always sufficient to ensure that a program is completely bug-free. Continuous monitoring and updates are necessary to address any potential issues that might arise after the program is deployed.
+\\ \textit{Note:} correct because it emphasizes that exhaustive testing cannot account for all possible scenarios and interactions within a complex program, leaving the possibility for undetected bugs despite the absence of errors during tests.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

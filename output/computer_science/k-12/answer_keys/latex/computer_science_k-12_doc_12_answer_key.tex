@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) A group of cookies stored by the user's Web browser; B) The Internet Protocol (IP) address of the user's computer; C) The user's e-mail address; D) The user's public key used for encryption
+\\ \textit{Note:} A group of cookies stored by the user's web browser can track online behavior and preferences, potentially revealing sensitive personal information to advertisers and third parties, thereby significantly compromising user privacy.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 6; C) 4; D) 5
+\\ \textit{Note:} The correct answer is 5 because in Python, the modulo operator (\%) has higher precedence than addition (+), so the expression is evaluated as 4 + (3 \% 2), which equals 4 + 1, resulting in 5.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [19,21]; B) [11,15]; C) [11,15,19]; D) [13,17,21]
+\\ \textit{Note:} The correct answer is [11,15,19] because the slicing operation b[::2] selects every second element from the list b, starting from the first element at index 0.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 17\_\{16\}; B) E$_{4}$\_\{16\}; C) E$_{7}$\_\{16\}; D) F$_{4}$\_\{16\}
+\\ \textit{Note:} The correct answer is E$_{7}$\_\{16\} because when converting the decimal number 231 to hexadecimal, it equals 14 in the 16 s place (E) and 7 in the 1 s place, resulting in the hexadecimal representation E$_{7}$.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) O(1); B) O(n); C) O($n^2$); D) O(log n)
+\\ \textit{Note:} O(1) is the smallest asymptotic notation because it represents a constant time complexity that does not grow with the size of the input, unlike other notations such as O(n), O(n log n), or O($n^2$), which indicate increasing time complexities as the input size increases.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, floor division is performed using the operator '//' instead of the operator '/', which is used for regular division.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authentication is compromised because it relies on verifying the identity of a user, and if an unauthorized individual gains access using stolen credentials, the system cannot accurately confirm the legitimate user's identity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A distributed denial-of-service (DDoS) attack is characterized by the coordinated effort of multiple compromised computers, known as a botnet, that overwhelm a target's resources by sending a high volume of traffic simultaneously.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because in Python, list slicing with the expression list[1:3] retrieves the elements at index 1 and index 2 from the given list, which are 786 and 2.23, resulting in the sublist [786, 2.23].
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, variable names are considered different if they differ in capitalization, so 'Variable' and 'variable' are treated as separate identifiers due to the language's case sensitivity.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def get\_total\_number\_of\_sequences(m,n): | return T[m][n]
+\\ \textit{Note:} correct because it utilizes a dynamic programming approach by storing the computed values in a table T, where T[m][n] represents the total number of valid sequences of length n with the maximum value m, effectively encapsulating the problem constraints of the sequence formation.
+\item \textbf{Answer:} def concatenate\_elements(test\_tup): | return (res)
+\\ \textit{Note:} The answer correctly identifies the need to define a function that processes tuples, suggesting that it will return a result based on concatenating adjacent elements, which is the core requirement of the question.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

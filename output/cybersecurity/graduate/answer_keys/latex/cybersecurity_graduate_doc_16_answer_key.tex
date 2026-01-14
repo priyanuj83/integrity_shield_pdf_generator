@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) .Net; B) Metasploit; C) Zeus; D) Ettercap
+\\ \textit{Note:} Metasploit is a widely-used penetration testing framework that simplifies the exploitation of vulnerabilities through its user-friendly interface and extensive library of pre-built exploits, allowing users to perform attacks with minimal technical expertise.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Windows 7; B) Chrome; C) IOS 12; D) UNIX
+\\ \textit{Note:} UNIX operating systems have historically been prone to buffer-overflow vulnerabilities due to their use of C programming, which lacks built-in bounds checking, making it easier for attackers to exploit memory management flaws.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Poor handling of unexpected input can lead to the execution of arbitrary instructions; B) Unintentional or ill-directed use of superficially supplied input; C) Cryptographic flaws in the system may get exploited to evade privacy; D) Weak or non-existent authentication mechanisms
+\\ \textit{Note:} Weak or non-existent authentication mechanisms are primarily related to security measures at the application and network layers rather than the presentation layer, which focuses on data formatting and representation.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) boundary hacks; B) memory checks; C) boundary checks; D) buffer checks
+\\ \textit{Note:} Buffer-overflow vulnerabilities occur when data exceeds a program's allocated memory boundaries, and without proper boundary checks, these overflows can lead to unintended behavior or security breaches in applications.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) crypter; B) virus; C) backdoor; D) key-logger
+\\ \textit{Note:} A backdoor is a method of bypassing normal authentication or encryption in a system, allowing unauthorized access and control, often disguised as legitimate software or embedded in firmware, making it a hidden threat in cybersecurity.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Merging tables does not inherently prevent SQL injection vulnerabilities; rather, proper input validation and parameterized queries are essential practices for safeguarding against such attacks.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A session symmetric key is designed to provide temporary encryption for a single communication session, enhancing security by ensuring that even if the key is compromised, only that specific session's data is at risk, thereby adhering to the principle of key uniqueness and minimizing potential exposure.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message confidentiality is achieved through encryption techniques that protect the content of communications from unauthorized access, ensuring that only the intended sender and receiver can read the information.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WEP is considered the least secure encryption standard among wireless security protocols due to its weak cryptographic mechanisms, which are vulnerable to multiple attack vectors, allowing unauthorized access and data breaches.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the dark web consists of encrypted networks that require specific software, configurations, or authorization to access, making it deliberately obscured from standard web browsers and search engines.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The SYN stealth scan, also known as half-open scanning, is a technique utilized by Nmap that enables the identification of open ports on a target system without completing the TCP handshake. This method operates by sending a SYN packet to the target port; if the port is open, the target responds with a SYN-ACK packet, which Nmap can then interpret as an indication of an open port. If the port is closed, the target will respond with a RST packet. By not completing the handshake, SYN scans evade some intrusion detection systems and logging mechanisms, thereby reducing the likelihood of detection during network security assessments. This stealthy approach allows penetration testers and security analysts to map out potential vulnerabilities more discreetly, highlighting the importance of employing such techniques in thorough vulnerability assessments and the necessity for robust defensive measures against these scanning methods.
+\\ \textit{Note:} correct because it accurately describes the SYN stealth scan's methodology of sending SYN packets to probe ports without completing the TCP handshake, thereby allowing for the detection of open ports while minimizing the chances of detection by intrusion detection systems.
+\item \textbf{Answer:} The 4-way handshake is a crucial authentication process in wireless networking, specifically within the IEEE 802.11 standard, designed to establish a secure connection between a client and an access point (AP). This process involves four distinct steps: the AP sends a nonce (a random number) to the client, the client responds with its nonce and a message integrity check (MIC), the AP then validates the client's response, and finally, both parties generate session keys based on the exchanged nonces. The significance of the 4-way handshake lies in its ability to authenticate devices and establish encryption keys that protect data during transmission, thereby mitigating risks such as unauthorized access and eavesdropping. By ensuring that both the client and AP possess the shared secret (the pre-shared key), the 4-way handshake enhances the overall security of wireless communications, making it a foundational component of secure wireless networking.
+\\ \textit{Note:} The answer correctly outlines the 4-way handshake process by detailing each of the four steps involved in establishing a secure connection and emphasizes its significance in ensuring secure communication through the generation of session keys and message integrity checks.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

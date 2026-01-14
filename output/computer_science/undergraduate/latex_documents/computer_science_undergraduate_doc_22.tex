@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - Undergraduate Level Assessment 22 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is
+\begin{enumerate}[label=(\alph*)]
+    \item 53
+    \item 29
+    \item 50
+    \item 100
+\end{enumerate}
+\item Local caching of files is common in distributed file systems, but it has the disadvantage that
+\begin{enumerate}[label=(\alph*)]
+    \item Temporary inconsistencies among views of a file by different machines can result
+    \item The file system is likely to be corrupted when a computer crashes
+    \item A much higher amount of network traffic results
+    \item Caching makes file migration impossible
+\end{enumerate}
+\item Which is the smallest asymptotically?
+\begin{enumerate}[label=(\alph*)]
+    \item O(1)
+    \item O(n)
+    \item O($n^2$)
+    \item O(log n)
+\end{enumerate}
+\item Which of the following language features requires that stack-based storage allocation be used rather than static allocation?
+\begin{enumerate}[label=(\alph*)]
+    \item Recursive procedures
+    \item Arbitrary goto's
+    \item Two-dimensional arrays
+    \item Integer-valued functions
+\end{enumerate}
+\item A$_{3}$-way, set-associative cache is
+\begin{enumerate}[label=(\alph*)]
+    \item one in which each main memory word can be stored at any of 3 cache locations
+    \item effective only if 3 or fewer processes are running alternately on the processor
+    \item possible only with write-back
+    \item faster to access than a direct-mapped cache
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The function f(N) has an upper bound of O(N log N), which is larger than necessary for the solution.
+\item True or False: A device driver is assigned to a device when it connects to the Internet.
+\item True or False: In Python 3, the function max([1,2,3,4]) returns the value 1 as it identifies the smallest element in the list.
+\item True or False: Bitmap graphics can represent curves and angles, not all line segments are displayed as straight.
+\item True or False: In Python 3, the expression ['a', 'Chemistry', 0, 1][1] evaluates to 'Chemistry'.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a python function to check whether the given string is made up of two alternating characters or not.
+\item Write a function to move all the numbers in it to the given string.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

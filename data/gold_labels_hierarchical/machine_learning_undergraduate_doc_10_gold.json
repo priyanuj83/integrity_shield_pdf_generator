@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_10",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are correct because ResNets are a type of feedforward neural network that utilizes skip connections to improve training, while Transformers employ self-attention mechanisms to process sequential data, distinguishing their architectures and functionalities.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "ImageNet indeed contains images of various resolutions due to its diverse dataset, while Caltech-101, which has a total of 9,146 images, has fewer images than ImageNet, which has over 14 million images.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Overfitting is more likely with a small training dataset because the model can learn noise instead of the underlying pattern, while a small hypothesis space restricts the model's complexity and reduces the risk of overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Bayesians incorporate prior distributions to quantify their beliefs about parameters before observing data, while frequentists reject the use of priors, focusing solely on the data at hand to make inferences.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Neural networks can incorporate a variety of activation functions, such as ReLU, sigmoid, and tanh, to optimize performance for different layers and tasks, allowing for greater flexibility and improved learning capabilities.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "An increasing training loss with the number of epochs suggests that the model is diverging rather than converging, which can happen if the learning rate (step size) is too large, causing the optimization process to overshoot the minimum of the loss function.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Stanford Sentiment Treebank is a dataset specifically designed for sentiment analysis that includes a collection of movie reviews annotated with sentiment labels, making the statement true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Principal Component Analysis (PCA) is considered an unsupervised learning technique because it analyzes the structure of the data without utilizing labeled output, focusing solely on finding patterns and reducing dimensionality based on the input features.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Using strong classifiers in bagging can actually increase the risk of overfitting because these classifiers may capture noise in the training data, reducing the overall generalization performance of the ensemble model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Linear hard-margin SVM requires that the data can be perfectly separated by a hyperplane without any misclassifications, which is only possible when the training data is linearly separable.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def replace_max_specialchar(text,n): | return (re.sub(\"[ ,.]\", \":\", text, n))",
+      "marks": 10,
+      "explanation": "The answer correctly implements a function that utilizes regular expressions to substitute up to 'n' occurrences of spaces, commas, or dots in the input text with a colon, demonstrating an understanding of string manipulation and the use of the 're' library in Python.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 220
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def find_exponentio(test_tup1, test_tup2): | return (res)",
+      "marks": 10,
+      "explanation": "correct as it outlines the creation of a function that takes two tuples as input and suggests returning a result, which implies performing exponentiation operations on corresponding elements of the tuples.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 197
+    }
+  ]
+}

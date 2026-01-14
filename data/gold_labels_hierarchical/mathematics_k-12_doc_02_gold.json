@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_k-12_doc_02",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "All the numbers in the pattern can be divided equally by 7 because each number is formed by adding 14 (which is a multiple of 7) to the previous number, starting from 28, which is also divisible by 7.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2263
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is -9 because solving the equation 14 = w + 23 requires isolating w by subtracting 23 from both sides, resulting in w = 14 - 23, which simplifies to w = -9.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2306
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Erin made 12 pints of juice, which is equivalent to 24 cups (since 1 pint equals 2 cups), and dividing 24 cups by her daily consumption of 3 cups results in 8 days to drink all the juice.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2233
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 1/6 because there is one favorable outcome (rolling a three) out of a total of six possible outcomes on a fair six-sided die.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2408
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 2 because the function f(x) is defined to be constant at 2 for all real numbers x, so regardless of the input, f(x + 2) will also equal 2.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4333
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when you add 365 and 56 together, the result equals 421.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2437
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The number eighteen thousand ninety-six can be broken down into its place values as 10,000 (ten thousand), 8,000 (eight thousand), 90 (ninety), and 6 (six), which correctly represents its expanded form.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2190
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The inequality x^2 - 6x + c < 0 has real solutions for c in the interval (0, 9) because the quadratic opens upwards, and the vertex of the parabola, located at x = 3, yields a minimum value less than zero when c is in that range.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4487
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The expression -105 + (-14) + 34 simplifies to -85 because adding -105 and -14 gives -119, and then adding 34 results in -85.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 14294
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the composition f(g(h(x))) does not simplify to 15x^2 + 15 without knowing the specific definitions of the functions f, g, and h involved.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4453
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To find the equation of the tangent line to the curve defined by F(t) = (t^2 + 1, 2^t) at\nthe point where y = 4, we first need to determine the corresponding value of t. Since 2^t\n= 4, we solve for t and find t = 2. Now, substituting t = 2 into F(t), we get the point\n(2^2 + 1, 2^2) = (5, 4). Next, we calculate the derivative dy/dx by using the chain rule:\ndy/dx = (d(2^t)/dt) / (d(t^2 + 1)/dt) = (2^t ln(2)) / (2 t) = (2^2 ln(2)) / (2*2) = ln(2).\nThe slope of the tangent line at the point (5, 4) is ln(2). Using the point-slope form of\nthe equation of a line, we write y - 4 = ln(2)(x - 5), which is the equation of the\ntangent line.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the point on the curve where y = 4, calculates the corresponding value of t, and correctly applies the chain rule to find the slope of the tangent line at that point.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4445
+    },
+    {
+      "question_id": "mathematics_k-12_doc_02_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "A P-value in hypothesis testing is the probability of obtaining a test statistic as\nextreme as the one observed, assuming that the null hypothesis is true. It helps determine\nthe validity of the null hypothesis by providing a measure of how compatible the observed\ndata is with the assumption that the null hypothesis holds. A low P-value suggests that\nthe observed data is unlikely under the null hypothesis, leading researchers to consider\nrejecting it. This is important in statistical analysis because it helps to assess whether\nthe evidence is strong enough to support an alternative hypothesis, guiding decision-\nmaking in various fields such as science, medicine, and social research.",
+      "marks": 10,
+      "explanation": "correct because it accurately defines a P-value as the probability of observing data as extreme as the test statistic under the null hypothesis, and it explains how a low P-value indicates that the null hypothesis may not be valid, which is crucial for making informed decisions in statistical analysis.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 5633
+    }
+  ]
+}

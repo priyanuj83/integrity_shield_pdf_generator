@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_17",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is widely recognized as the first notable example of a buffer overflow attack, exploiting vulnerabilities in UNIX systems to propagate itself and cause significant disruption.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Escaping queries prevents SQL injection by ensuring that user input is treated as data rather than executable code, thereby mitigating the risk of malicious SQL statements being executed against the database.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1489
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Public key encryption simplifies the key exchange process by allowing users to share their public keys openly, eliminating the need for a secure channel to exchange secret keys as required in symmetric key cryptography.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1494
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as its primary encryption method to enhance the security of wireless networks by dynamically generating encryption keys and addressing vulnerabilities present in the earlier WEP protocol.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "WEP (Wired Equivalent Privacy) is considered the least strong encryption standard due to its outdated security protocols and vulnerabilities that allow for easy cracking by attackers.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1556
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Buffer overflow vulnerabilities in C and C++ primarily arise from improper handling of memory allocation and bounds checking rather than insufficient database checks, as these vulnerabilities exploit flaws in how the programming languages manage memory rather than issues with database interactions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "DNSlookup is not typically used for SNMP enumeration because DNS (Domain Name System) is primarily concerned with resolving domain names to IP addresses, while SNMP (Simple Network Management Protocol) enumeration involves gathering information about network devices and their configurations, which is unrelated to DNS functions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1501
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "WPA primarily relies on TKIP (Temporal Key Integrity Protocol) for securing wireless communication, while AES encryption is used in the later WPA2 standard.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Penetration testing is a comprehensive security assessment that evaluates the entire system's defenses, including network infrastructure, applications, and user behavior, rather than focusing solely on individual program components.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14202
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A secure pseudorandom permutation can indeed be constructed from a secure pseudorandom generator using the GGM construction, which utilizes the Luby-Rackoff theorem to prove that the output of the construction has pseudorandom properties.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14208
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def count_Rectangles(radius): | return rectangles",
+      "marks": 10,
+      "explanation": "correct as it outlines the structure of a Python function named 'count_Rectangles' that would serve as a foundation for implementing logic to calculate the number of rectangles that can fit within a circle of a given radius, although it lacks the complete implementation details necessary for functionality.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 355
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_17_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def number_ctr(str): | return  number_ctr",
+      "marks": 10,
+      "explanation": "incorrect as it does not implement the logic needed to count numeric values in a string; a correct function should iterate through the string, check for numeric characters, and maintain a count of those characters.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 764
+    }
+  ]
+}

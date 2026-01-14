@@ -1,0 +1,296 @@
+{
+  "docid": "economics_undergraduate_doc_22",
+  "document_name": "Economics - Undergraduate Level Assessment 22",
+  "domain": "economics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "econometrics",
+    "economics"
+  ],
+  "combination_used": [
+    "mmlu_economics_mcq",
+    "mmlu_economics_tf",
+    "mmlu_pro_economics_mcq",
+    "economics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\economics\\undergraduate\\latex_documents\\economics_undergraduate_doc_22.tex",
+    "pdf_file": "output\\economics\\undergraduate\\pdf_documents\\economics_undergraduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/economics_undergraduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/economics_undergraduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\economics\\undergraduate\\answer_keys\\latex\\economics_undergraduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\economics\\undergraduate\\answer_keys\\pdf\\economics_undergraduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The aggregate demand curve has a negative slope in part because when the price level\nincreases",
+      "options": {
+        "A": "the real quantity of money increases",
+        "B": "imports become relatively more expensive",
+        "C": "the value of cash increases",
+        "D": "exports become relatively cheaper",
+        "E": "inflation rate decreases"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the liquidity effect, which states that an increase in the price level reduces the real value of money balances, leading to a decrease in consumer spending and investment, thereby resulting in a downward-sloping aggregate demand curve.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6964"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The characteristic roots of the MA process $y_t = -3 u_{t-1} + u_{t-2} + u_t$ are",
+      "options": {
+        "A": "1 and 0.5",
+        "B": "2 and 0.5",
+        "C": "-1 and -0.5",
+        "D": "-1 and 2",
+        "E": "3 and -2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The characteristic roots of the MA process are derived from the characteristic equation formed by the coefficients of the lagged error terms, which in this case leads to the roots being 1 and 0.5, indicating the influence of past shocks on the current value of the series.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7248"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What school of economists defended Say's Law? Which pro-minent economist disputed this\ntheory?",
+      "options": {
+        "A": "Chicago school, Stiglitz",
+        "B": "Marxist school, Minsky",
+        "C": "Behavioral school, Akerlof",
+        "D": "Neoclassical school, Friedman",
+        "E": "Neoclassical school, Coase"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Chicago school of economists supports Say's Law, which posits that supply creates its own demand, while Joseph Stiglitz is a prominent economist who has criticized this theory, arguing that demand deficiencies can lead to prolonged economic downturns.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7331"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "An increase in the price level and a decrease in real GDP in the short run could be the\nresult of",
+      "options": {
+        "A": "a decrease in the money supply.",
+        "B": "an increase in consumer confidence.",
+        "C": "a sudden surge in technological innovation.",
+        "D": "a prolonged period of very bad weather.",
+        "E": "a decrease in consumer confidence."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A prolonged period of very bad weather can disrupt agricultural production and supply chains, leading to higher prices (inflation) and reduced output (lower real GDP), which aligns with the scenario of increased price levels and decreased real GDP in the short run.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7565"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If a series, y, follows a random walk, what is the optimal one-step ahead forecast of y?",
+      "options": {
+        "A": "The current value of y",
+        "B": "The median value of y over the in-sample period",
+        "C": "The minimum value of y over the in-sample period",
+        "D": "The value of y two periods back",
+        "E": "One"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a random walk, the best predictor of the next value is the current value because the future path of the series is unpredictable and solely dependent on its most recent observation.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7064"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "A tax cut of $10 billion, with a marginal propensity to consume of 0.85, increases savings by $1.5 billion.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because with a marginal propensity to consume of 0.85, consumers will spend 85% of the $10 billion tax cut (which is $8.5 billion), leaving 15% (or $1.5 billion) to be saved.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7083"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The levels of incomes in foreign nations significantly influence the volume of a nation's exports and imports.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The levels of incomes in foreign nations significantly influence the volume of a nation's exports and imports because higher income levels typically lead to increased demand for goods and services, affecting trade patterns between countries.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The cabbages grown in a summer garden are not counted in GDP as they are not sold in the market.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cabbages grown in a summer garden are considered non-market production and are not included in GDP because GDP measures the value of goods and services that are sold in the marketplace.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7107"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Sales promotions in retail typically suggest a non-competitive market with strict price collusion among firms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sales promotions in retail indicate a competitive market environment where firms use discounts and special offers to attract customers and differentiate themselves, rather than adhering to strict price collusion.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7465"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "economics_undergraduate_doc_22_economics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A leftward shift in the aggregate demand curve leads to a decrease in both inflation and unemployment, contrary to the Phillips curve's implications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a leftward shift in the aggregate demand curve typically results in higher unemployment and lower inflation, aligning with the Phillips curve's implication of an inverse relationship between inflation and unemployment.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "economics_undergraduate_doc_22_economics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Given the prices of labor and capital and their respective marginal products, analyze the\nfirm's optimal adjustment strategy for resource allocation. What actions should the firm\ntake and why?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To optimize resource allocation, the firm should decrease its capital and increase its\nlabor. This adjustment is based on the relationship between the prices of labor and\ncapital and their respective marginal products. By reducing capital, the firm can lower\nthe marginal product of capital, making it less costly relative to labor. Simultaneously,\nincreasing labor will raise its marginal product, enhancing productivity per unit of\nlabor. This strategy allows the firm to achieve a more efficient allocation of resources,\nultimately maximizing output while minimizing costs.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes the need for the firm to realign its resource allocation by decreasing capital and increasing labor in response to their respective marginal products and prices, which leads to greater productivity and cost efficiency.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7433"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "economics_undergraduate_doc_22_economics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that can shift the aggregate supply curve and analyze why an increase\nin the price level does not contribute to such a shift.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The aggregate supply curve can shift due to several factors, including changes in\nproduction costs, technological advancements, government policies, and the availability of\nresources. For instance, a decrease in the price of raw materials can shift the curve to\nthe right, indicating an increase in supply at every price level. Conversely, an increase\nin the price level itself does not shift the aggregate supply curve; instead, it leads to\na movement along the curve. This is because the price level reflects the prices of goods\nand services without altering the fundamental production capabilities or costs in the\neconomy. Thus, while the price level may change the quantity supplied, it does not affect\nthe overall supply capacity of the economy.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that shifts in the aggregate supply curve are influenced by factors like production costs and technology, while changes in the price level result in movements along the curve rather than shifts.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7563"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

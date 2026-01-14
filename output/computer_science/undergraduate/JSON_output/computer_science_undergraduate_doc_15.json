@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_undergraduate_doc_15",
+  "document_name": "Computer Science - Undergraduate Level Assessment 15",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_15.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of \"abc\"[-1] in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "a",
+        "C": "b",
+        "D": "c"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, negative indexing allows access to elements from the end of a sequence, so \"abc\"[-1] retrieves the last character, which is 'c'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3247"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is sum(l) in Python 3?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "10",
+        "D": "8"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10 because the sum function in Python 3 calculates the total of the elements in the list l, which are 1, 2, 3, and 4, resulting in 1 + 2 + 3 + 4 = 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT a reasonable justification for choosing to busy-wait on an\nasynchronous event?",
+      "options": {
+        "A": "The wait is expected to be short.",
+        "B": "A busy-wait loop is easier to code than an interrupt handler.",
+        "C": "There is no other work for the processor to do.",
+        "D": "The program executes on a time-sharing system."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The program executing on a time-sharing system indicates that resources are shared among multiple processes, making busy-waiting inefficient as it can waste CPU cycles while other processes could use the CPU more effectively.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1012"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sets of bit strings CANNOT be described with a regular expression?",
+      "options": {
+        "A": "All bit strings whose number of zeros is a multiple of five",
+        "B": "All bit strings starting with a zero and ending with a one",
+        "C": "All bit strings with an even number of zeros",
+        "D": "All bit strings with more ones than zeros"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The set of all bit strings with more ones than zeros cannot be described by a regular expression because it requires counting and comparing the number of ones and zeros, which exceeds the capabilities of regular languages that can only recognize patterns without maintaining such counts.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1037"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of 4*1**4 in python?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "256",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, the expression 4*1**4 evaluates as 4 multiplied by 1 raised to the power of 4, where the exponentiation operator (**) has higher precedence than multiplication (*), resulting in 4*1, which equals 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The number of distinct functions mapping a finite set A with m elements into a finite set B with n elements is n!/(n - m)!",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the correct formula for the number of distinct functions mapping a set A with m elements into a set B with n elements is n^m, not n!/(n - m)!.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1072"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "O(n^2) grows faster than O(n) and O(log n) as the input size increases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(n^2) grows faster than O(n) and O(log n) as the input size increases because the quadratic term dominates the linear and logarithmic terms, leading to a more rapid increase in function value as n becomes large.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3213"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Local caching of files ensures that the file system remains entirely consistent across all machines at all times.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Local caching of files can lead to inconsistencies because changes made to a file on one machine may not be immediately reflected on other machines until the cache is synchronized, resulting in potential discrepancies across the file system.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1085"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Priority queuing is a starvation-free job-scheduling policy that guarantees all jobs receive equal service over time.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Priority queuing can lead to starvation for lower-priority jobs because higher-priority jobs may continuously receive service, preventing equal access to resources over time.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1079"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The function random() in Python 3 sets the integer starting value used in generating random numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function random() in Python 3 generates random numbers based on a pseudo-random number generator, but it does not set the starting integer value; instead, the seed value is set using the random.seed() function.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the maximum occurring character in a given string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_max_occuring_char(str1): | return ch",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly defines a Python function intended to find the maximum occurring character in a string, as indicated by its naming and structure, although it lacks the complete implementation details necessary for full functionality.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to multiply two lists using map and lambda function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def mul_list(nums1,nums2): | return list(result)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it illustrates the use of a lambda function within the map function to apply multiplication element-wise to two lists, returning the result as a new list.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "682"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

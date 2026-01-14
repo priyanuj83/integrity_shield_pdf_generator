@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - Graduate Level Assessment 21 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Local caching of files is common in distributed file systems, but it has the disadvantage that
+\begin{enumerate}[label=(\alph*)]
+    \item Temporary inconsistencies among views of a file by different machines can result
+    \item The file system is likely to be corrupted when a computer crashes
+    \item A much higher amount of network traffic results
+    \item Caching makes file migration impossible
+\end{enumerate}
+\item Of the following, which gives the best upper bound for the value of f(N) where f is a solution to the recurrence f(2 N + 1) = f(2 N) = f(N) + log N for N \textgreater{}= 1, with f(1) = 0?
+\begin{enumerate}[label=(\alph*)]
+    \item O(log N)
+    \item O(N log N)
+    \item O(log N) + 0(1)
+    \item O((log $N)^2$)
+\end{enumerate}
+\item Applications developed by programming languages like \_\_\_\_ and \_\_\_\_\_\_ have this common buffer-overflow error.
+\begin{enumerate}[label=(\alph*)]
+    \item C, Ruby
+    \item Python, Ruby
+    \item C, C++
+    \item Tcl, C\#
+\end{enumerate}
+\item The stack is memory for storing
+\begin{enumerate}[label=(\alph*)]
+    \item Local variables
+    \item Program code
+    \item Dynamically linked libraries
+    \item Global variables
+\end{enumerate}
+\item Of the following problems concerning a given undirected graph G, which is currently known to be solvable in polynomial time?
+\begin{enumerate}[label=(\alph*)]
+    \item Finding a longest simple cycle in G
+    \item Finding a shortest cycle in G
+    \item Finding ALL spanning trees of G
+    \item Finding a largest clique in G
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: A session symmetric key between two parties is used only once for a specific communication session.
+\item True or False: Message integrity ensures that data arrives at the receiver exactly as it was sent, without alteration during transmission.
+\item True or False: Windows 7 is widely regarded as having buffer-overflow vulnerabilities similar to those found in UNIX systems.
+\item True or False: The AH Protocol provides source authentication and data integrity but does not ensure privacy.
+\item True or False: Church's thesis was first proven by Alan Turing, establishing a definitive link between computability and Turing machines.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to remove particular data type elements from the given tuple.
+\item Write a function to separate and print the numbers and their position of a given string.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Graduate Level Assessment 15 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Statement 1| Word 2 Vec parameters were not initialized using a Restricted Boltzman Machine. Statement 2| The tanh function is a nonlinear activation function.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Statement 1| The BLEU metric uses precision, while the ROGUE metric uses recall. Statement 2| Hidden markov models were frequently used to model English sentences.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Averaging the output of multiple decision trees helps \_.
+\begin{enumerate}[label=(\alph*)]
+    \item Increase bias
+    \item Decrease bias
+    \item Increase variance
+    \item Decrease variance
+\end{enumerate}
+\item Statement 1| Overfitting is more likely when the set of training data is small. Statement 2| Overfitting is more likely when the hypothesis space is small.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item The numerical output of a sigmoid node in a neural network:
+\begin{enumerate}[label=(\alph*)]
+    \item Is unbounded, encompassing all real numbers.
+    \item Is unbounded, encompassing all integers.
+    \item Is bounded between 0 and 1.
+    \item Is bounded between -1 and 1.
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Calculating P(H|E, F) requires P(E, F), P(H), and P(E|H), P(F|H) without any conditional independence information.
+\item True or False: The original ResNets and Transformers are both types of feedforward neural networks.
+\item True or False: Fully connected networks have been shown to outperform convolutional networks in classifying high-resolution images.
+\item True or False: Linear hard-margin SVM can only be effectively used when the training data is linearly separable.
+\item True or False: The variance of the Maximum A Posteriori (MAP) estimate is lower than the variance of the Maximum Likelihood Estimate (MLE).
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Discuss the computational cost of performing a single gradient descent update when the gradient of the cost function is represented as a vector. What factors influence this cost?
+\item Discuss the implications and methodologies of applying unsupervised learning to analyze a large dataset of medical records from heart disease patients to identify potential treatment clusters.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

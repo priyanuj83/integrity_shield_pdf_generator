@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_13",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Neural networks can utilize a variety of activation functions in different layers to enhance their ability to learn complex patterns and improve performance on diverse tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns of the training data, resulting in poor performance on both the training data and new, unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is false because regression analysis identifies correlations between variables but does not establish causation, as it does not account for confounding factors or the directionality of the relationship.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Transforming the data to zero mean ensures that both PCA and SVD operate on the same centered dataset, which is essential for accurately capturing the directions of maximum variance in the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "P(B|A) decreases because an increase in P(A) while P(A, B) decreases suggests that the probability of B occurring given A is less likely, indicating that B is becoming less dependent on A.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Caltech-101 contains only 9,146 images across 101 categories, while ImageNet consists of over 14 million images spanning thousands of categories, making ImageNet a significantly larger resource for learning algorithms.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Random crop and horizontal flip are effective techniques for image data augmentation as they help enhance the diversity of training data by introducing variations in scale and orientation, which can improve the robustness of machine learning models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The number of test examples required depends on the desired confidence level and the error rate, as a lower error rate necessitates a larger sample size to accurately estimate model performance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14785
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "DenseNets require more memory than ResNets because their architecture involves a dense connectivity pattern where each layer receives inputs from all preceding layers, leading to a significant increase in the number of feature maps stored in memory.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Ridge regression does not eliminate variables; instead, it shrinks their coefficients towards zero, thereby reducing model complexity without performing variable selection.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "In the context of the Bayesian Network represented as H -> U <- P <- W, the joint\nprobability of the variables H, U, P, and W can be expressed as P(H, U, P, W) = P(H) *\nP(W) * P(P | W) * P(U | H, P). This formulation illustrates how the joint distribution\nfactors through the individual probabilities and the conditional dependencies defined by\nthe network structure. Specifically, P(H) and P(W) represent the marginal probabilities of\nH and W, while P(P | W) captures the dependency of P on W. Furthermore, P(U | H, P)\nreflects the relationship between U and its parents H and P, highlighting the role of\nconditional probabilities in determining the likelihood of U given the states of H and P.\nThis structure enables efficient computation of probabilities in complex systems by\nleveraging the conditional independencies encoded in the Bayesian Network.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the factorization of the joint probability in the Bayesian Network according to its structure, emphasizing the roles of marginal and conditional probabilities in representing the dependencies among the variables.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_13_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "Stuart Russell highlights significant existential risks associated with artificial\nintelligence, particularly the potential for AI systems to operate autonomously in ways\nthat could be harmful to humanity. He argues that if AI is not aligned with human values\nand goals, it may pursue objectives that are detrimental, especially if given unchecked\npower and autonomy. This misalignment could arise from poorly defined objectives or the\npursuit of goals without sufficient ethical considerations. The implications for AI\ndevelopment are profound; they necessitate a robust framework for AI safety and alignment\nthat prioritizes human oversight and values. Consequently, addressing these risks is\ncrucial for ensuring that AI technologies contribute positively to society rather than\npose existential threats.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the core existential risks of artificial intelligence as articulated by Stuart Russell, emphasizing the dangers of misalignment between AI objectives and human values, which could lead to harmful autonomous actions, thereby underscoring the importance of ethical considerations in AI development.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6909
+    }
+  ]
+}

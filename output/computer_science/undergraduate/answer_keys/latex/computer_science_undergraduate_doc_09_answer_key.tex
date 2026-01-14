@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 9 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) replace(old, new [, max]); B) strip([chars]); C) swapcase(); D) title()
+\\ \textit{Note:} The function `strip([chars])` in Python 3 removes all leading and trailing whitespace from a string, making it the correct answer for the question regarding the removal of such whitespace.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) a*(c + d)+ b(c + d); B) a*(c + d)* + b(c + d)*; C) a*(c + d)+ b*(c + d); D) (a + b)*c +(a + b)*d
+\\ \textit{Note:} The correct answer, (a + b)*c + (a + b)*d, is equivalent to (a* + b)*(c + d) because it represents any combination of 'a's and 'b's followed by either 'c' or 'd', aligning with the structure of the original expression which allows for any sequence of 'a's and 'b's before the final character selection.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [ 'abcd', 786 , 2.23, 'john', 70.2 ]; B) abcd; C) [786, 2.23]; D) None of the above.
+\\ \textit{Note:} The correct answer is [786, 2.23] because in Python, list slicing syntax list[start:end] retrieves elements starting from index 'start' up to, but not including, index 'end', so list[1:3] returns the elements at index 1 and 2 from the given list.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Error; B) aab; C) ab; D) a ab
+\\ \textit{Note:} The output of the statement "a" + "ab" in Python 3 is "aab" because the + operator concatenates the two strings together, resulting in a single string that combines their characters.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) A device driver is assigned to the device.; B) An Internet Protocol (IP) address is assigned to the device.; C) A packet number is assigned to the device.; D) A Web site is assigned to the device.
+\\ \textit{Note:} When a new device connects to the Internet, it is assigned a unique Internet Protocol (IP) address that allows it to communicate with other devices and access online resources.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The set of Boolean operators \{AND, OR\} is not complete because it lacks the ability to express negation, which is essential for representing all possible Boolean expressions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The access matrix approach, while useful for representing permissions and access controls, has limitations in scalability and complexity, particularly in dynamic environments where user roles and permissions need frequent updates.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A distributed denial-of-service (DDoS) attack is characterized by the coordination of multiple compromised computers, often part of a botnet, to overwhelm a target's resources and disrupt its services simultaneously.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the maximum possible degree of the minimal-degree interpolating polynomial for n + 1 distinct points is n, as the polynomial must have a degree less than or equal to the number of points minus one to ensure it passes through all the points.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Sorting values in a column or row allows for easy visual identification of outliers, which may indicate data entry errors, as these values will appear significantly higher or lower than the majority of the dataset.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def extract\_max(input): | return max(numbers)
+\\ \textit{Note:} correct because it identifies the key operation of finding the maximum numeric value from a string, which should involve extracting numbers using regex and then applying the `max()` function to determine the largest value.
+\item \textbf{Answer:} def min\_sum\_path(A): | return memo[0]
+\\ \textit{Note:} correct because it indicates that the function retrieves the minimum total path sum from a memoization table, which stores the optimal solutions to subproblems in a dynamic programming approach applied to the triangle structure.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

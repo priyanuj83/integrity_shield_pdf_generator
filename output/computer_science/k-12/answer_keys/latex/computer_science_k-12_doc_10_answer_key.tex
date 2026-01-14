@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 10 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 4; B) 1; C) 10; D) 8
+\\ \textit{Note:} The correct answer is 10 because the sum function in Python 3 adds together all the elements in the list l, which totals 1 + 2 + 3 + 4 = 10.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 2; B) 6; C) 3; D) 1
+\\ \textit{Note:} The correct answer is 6 because the lambda function r takes an input q and returns it multiplied by 2, so r(3) computes as 3 * 2, which equals 6.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} The correct answer is "Chemistry" because in Python, list indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is the second item, which is 'Chemistry'.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O($N^(1$/2)); B) O($N^(1$/4)); C) O($N^(1$/N)); D) O(N)
+\\ \textit{Note:} The function O($N^(1$/N)) grows the slowest because as N increases, $N^(1$/N) approaches 1, indicating that its growth rate diminishes significantly compared to other functions such as polynomials or exponentials.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It supports automatic garbage collection.; B) It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.; C) Both of the above.; D) None of the above.
+\\ \textit{Note:} The correct answer "Both of the above" indicates that Python possesses multiple accurate characteristics or features that collectively define its versatility and functionality as a programming language.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, sets are designed to hold only unique values, so converting the list l = [1,2,2,3,4] to a set effectively removes the duplicate value '2', resulting in \{1,2,3,4\}.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the function long(x [,base]) does not exist because the long type was removed and the int type now handles both integers and long integers.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the function min(l) returns the smallest element in the list l, not the largest, so for the list [1, 2, 3, 4], it would return 1, not 4.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, negative indexing allows access to elements from the end of a list, so the expression ['a', 'Chemistry', 0, 1][-3] retrieves the second element, which is 'Chemistry'.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, accessing tuple[0] does not result in an error regardless of whether the tuple contains mixed data types, as tuples can hold elements of different types and are indexed the same way as other sequences.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Phishing attacks are deceptive attempts to obtain sensitive information by masquerading as a trustworthy entity, often through emails that urge recipients to click on malicious links or provide personal details. One characteristic of phishing is that it usually involves urgent language to provoke hasty responses. In contrast, a legitimate email from a bank asking you to verify a transaction by calling the official number on your card is less likely to be a phishing attempt because it encourages you to use a known and trusted contact method rather than clicking on a link or replying directly to the email. This approach reflects good security practices, as it directs you to verify information through secure channels, reducing the risk of falling victim to a scam.
+\\ \textit{Note:} correct because it highlights that phishing attacks typically use urgent language to incite quick actions, whereas a legitimate bank email requests verification through a safe, official method, reducing the likelihood of it being a phishing attempt.
+\item \textbf{Answer:} Heuristic algorithms can significantly improve programs designed to find the shortest driving route between two locations by using practical shortcuts and educated guesses to explore possible paths more efficiently. Unlike traditional methods that typically evaluate every possible route, heuristic algorithms focus on the most promising options, allowing them to find solutions faster. For example, algorithms like A* use a combination of actual travel cost and estimated cost to the destination, enabling them to prioritize routes that are likely to be shorter. This approach not only speeds up the routing process but also reduces the computational resources required, making it more efficient for real- time navigation systems. Overall, heuristic algorithms provide a smarter way of finding optimal routes, especially in complex urban environments.
+\\ \textit{Note:} correct because it highlights how heuristic algorithms, by prioritizing promising paths and combining actual and estimated costs, enable faster route-finding compared to traditional methods that evaluate all possible routes.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

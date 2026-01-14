@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_24",
+  "document_name": "Cybersecurity - Graduate Level Assessment 24",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_24.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a transport layer vulnerability?",
+      "options": {
+        "A": "Mishandling of undefined, poorly defined variables",
+        "B": "The Vulnerability that allows \"fingerprinting\" & other enumeration of host information",
+        "C": "Overloading of transport-layer mechanisms",
+        "D": "Unauthorized network access"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses inherent to the transport layer protocols, which primarily focus on end-to-end communication and data integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1491"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Encryption and decryption provide secrecy, or condentiality, but not",
+      "options": {
+        "A": "Authentication",
+        "B": "Integrity",
+        "C": "Privacy",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is integrity because encryption and decryption primarily focus on making data unreadable to unauthorized users, thereby ensuring confidentiality, but they do not inherently verify that the data has not been altered or tampered with, which is the essence of integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A/an ___________ is a program that steals your logins & passwords for instant messaging\napplications.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "Trojan-Downloader",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM-Trojans are specifically designed malware that infiltrate instant messaging applications to capture and transmit users' login credentials and passwords.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following styles of fuzzer is more likely to explore paths covering every\nline of code in the following program?",
+      "options": {
+        "A": "Generational",
+        "B": "Blackbox",
+        "C": "Whitebox",
+        "D": "Mutation-based"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Whitebox fuzzers analyze the program's internal structure and logic, allowing them to systematically explore all code paths and increase the likelihood of covering every line of code.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The AH Protocol provides source authentication and data integrity, but not",
+      "options": {
+        "A": "Integrity",
+        "B": "Privacy",
+        "C": "Nonrepudiation",
+        "D": "Both A & C"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol, or Authentication Header Protocol, is designed to ensure source authentication and data integrity by providing mechanisms to verify the authenticity of the data and its sender, but it does not encrypt the data itself, thereby lacking privacy features.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key can be reused multiple times across different sessions without compromising security.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reusing a session symmetric key across different sessions increases the risk of key compromise and vulnerability to cryptographic attacks, as it allows attackers to potentially decrypt multiple sessions if they gain access to the key.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "WPA exclusively uses AES encryption, rendering TKIP obsolete in all scenarios.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because WPA (Wi-Fi Protected Access) supports both AES encryption in WPA2 and TKIP (Temporal Key Integrity Protocol) in WPA, allowing for the use of TKIP in certain legacy scenarios.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1552"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Message authentication is a service that ensures message integrity by verifying the authenticity of the message origin.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message authentication provides assurance that a message has not been altered during transmission and confirms the identity of the sender, thereby ensuring both the integrity and authenticity of the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1513"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "CBF is not a recognized block cipher operating mode within cryptographic standards.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "CBF, or Cipher Block Feedback, is not an officially recognized operating mode within widely accepted cryptographic standards such as those defined by NIST, thus making the statement true.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1518"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Buffer-overflow issues can be effectively mitigated by comprehensive memory checks alone without boundary checks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow issues require both comprehensive memory checks and boundary checks to ensure that data does not exceed allocated memory limits, as relying solely on memory checks may not prevent overflows that lead to security vulnerabilities.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of the Tor browser as a specialized tool for accessing the Tor network,\nfocusing on its significance for anonymous internet users and the implications for\ncybersecurity.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The Tor browser serves as a specialized tool for accessing the Tor network, which is\ndesigned to facilitate anonymous internet usage by routing traffic through a series of\nvolunteer-operated servers. This anonymity is significant for users who require privacy\nprotection, such as whistleblowers, journalists in oppressive regimes, and individuals\nseeking to evade surveillance or censorship. The Tor browser employs multiple layers of\nencryption, allowing users to access both the standard web and hidden services while\nobscuring their IP addresses. However, while it enhances user privacy, the Tor network\nalso raises cybersecurity concerns, as it can be exploited for illicit activities, making\nit a double-edged sword in the landscape of online security. Ultimately, the Tor browser\nexemplifies the ongoing tension between privacy and security in the digital age.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the Tor browser's function as a tool for accessing the Tor network, emphasizing its role in providing anonymity through traffic routing and encryption, which is crucial for users needing privacy in contexts such as journalism and activism.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1530"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_24_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of address sanitizer (ASAN) in enhancing the effectiveness of fuzzing\ntechniques for detecting memory errors in programs. How does ASAN facilitate error\nidentification?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Address sanitizer (ASAN) plays a crucial role in enhancing the effectiveness of fuzzing\ntechniques by providing detailed insights into memory errors that may be introduced during\nprogram execution. When a program is compiled with ASAN, it instruments the code to detect\nvarious memory-related issues such as buffer overflows, use-after-free errors, and memory\nleaks. This instrumentation not only allows for real-time detection of such errors but\nalso generates comprehensive reports that pinpoint the exact source of the problem. As a\nresult, developers can more easily identify and rectify vulnerabilities, significantly\nimproving the reliability and security of software applications. By integrating ASAN with\nfuzzing, the process of uncovering and addressing memory errors becomes more efficient and\neffective, ultimately leading to more robust software.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how ASAN enhances fuzzing by instrumenting code to detect and report memory errors in real time, thereby providing valuable insights that improve the identification of vulnerabilities during program execution.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1499"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

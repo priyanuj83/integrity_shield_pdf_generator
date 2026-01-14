@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Mathematics - Graduate Level Assessment 23 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item If f(2 x) = x + 5 and f(g(6)) = 13, then 2 * g(6) =
+\begin{enumerate}[label=(\alph*)]
+    \item 6
+    \item 32
+    \item 30
+    \item 12
+    \item 36
+\end{enumerate}
+\item A shopping mall wants to conduct a survey of the people who shop at the mall. Which would give them the most representative sample?
+\begin{enumerate}[label=(\alph*)]
+    \item conducting the survey at one shoe store
+    \item conducting the survey online targeting only the mall's registered customers
+    \item conducting the survey at all clothing stores
+    \item conducting the survey only on weekends
+    \item conducting the survey at the entrance to the mall
+\end{enumerate}
+\item A function f(x) is given by f(0)=3, f(2)=7, f(4)=11, f(6)=9, f(8)=3. Approximate the area under the curve y=f(x) between x=0 and x=8 using Trapezoidal rule with n=4 subintervals.
+\begin{enumerate}[label=(\alph*)]
+    \item 85.0
+    \item 60.0
+    \item 65.0
+    \item 45.0
+    \item 55.0
+\end{enumerate}
+\item The rainfall for the last three months of school was 8.1 inches, 4.2 inches, and 0.33 inch. Estimate the total rainfall for the three months by rounding to the nearest whole number.
+\begin{enumerate}[label=(\alph*)]
+    \item 13 in.
+    \item 10 in.
+    \item 11 in.
+    \item 45.0 in.
+    \item 15 in.
+\end{enumerate}
+\item Find the area bounded by the curves $y=\cos x$ and $y=\cos ^2 x$ between $x=0$ and $x=\pi$.
+\begin{enumerate}[label=(\alph*)]
+    \item 3.5
+    \item 1
+    \item 0.25
+    \item 0.5
+    \item 2.5
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The probability that a randomly chosen real number x from [0, 3] is less than a randomly chosen real number y from [0, 4] is 4/7.
+\item True or False: The correct answer to 'What is $\lim _{r \rightarrow \infty} (\int_0^{\pi/2} x^r sin(x) dx)/(r\int_0^{\pi/2} x^r cos(x) dx)$?' is '0.54321'.
+\item True or False: The value of k for which the product of two roots of the quartic equation equals -32 is 72.
+\item True or False: The total number of ways to choose 4 balls from the box, with at least 2 red, is 10.
+\item True or False: The smallest positive integer that has 16, 15, and 12 as factors is 120.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Derek's phone number, $336$ - $7624,$ has the property that the three-digit prefix, $336,$ equals the product of the last four digits, $7 \times 6 \times 2 \times 4.$ How many seven-digit phone numbers beginning with $336$ have this property?
+\item In rectangle $ABCD$, $P$ is a point on $BC$ so that $\angle APD=90^{\circ}$. $TS$ is perpendicular to $BC$ with $BP=PT$, as shown. $PD$ intersects $TS$ at $Q$. Point $R$ is on $CD$ such that $RA$ passes through $Q$. In $\triangle PQA$, $PA=20$, $AQ=25$ and $QP=15$. [asy] size(7 cm);defaultpen(fontsize(9)); real sd = 7/9 * 12; path extend(pair a, pair b) \{return a--(10 * (b - a));\} // Rectangle pair a = (0, 0); pair b = (0, 16); pair d = (24 + sd, 0); pair c = (d.x, b.y); draw(a--b--c--d--cycle); label("$A$", a, SW);label("$B$", b, NW);label("$C$", c, NE);label("$D$", d, SE); // Extra points and lines pair q = (24, 7); pair s = (q.x, 0); pair t = (q.x, b.y); pair r = IP(c--d, extend(a, q)); pair p = (12, b.y); draw(q--a--p--d--r--cycle);draw(t--s); label("$R$", r, E); label("$P$", p, N);label("$Q$", q, 1.2 * NE + 0.2 * N);label("$S$", s, S); label("$T$", t, N); // Right angles and tick marks markscalefactor = 0.1; draw(rightanglemark(a, b, p)); draw(rightanglemark(p, t, s)); draw(rightanglemark(q, s, d));draw(rightanglemark(a, p, q)); add(pathticks(b--p, 2, spacing=3.4, s=10));add(pathticks(p--t, 2, spacing=3.5, s=10)); // Number labels label("$16$", midpoint(a--b), W); label("$20$", midpoint(a--p), NW); label("$15$", midpoint(p--q), NE); label("$25$", midpoint(a--q), 0.8 * S + E); [/asy] Find the lengths of $BP$ and $QT$. When writing your answer, first write the length of $BP$, then a comma, and then the length of $QT$. For example, if you find that these lengths are $5$ and $3/4$, respectively, your final answer should be written "5,3/4" (without the quotes).
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

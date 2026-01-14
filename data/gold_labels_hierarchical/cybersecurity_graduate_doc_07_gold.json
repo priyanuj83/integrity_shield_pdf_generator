@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_07",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible to standard search queries.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15632
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A hash function produces a fixed-size hash value from input data, allowing for the detection of any alterations to the message, thus ensuring its integrity by confirming that the content has not changed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14209
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Message integrity ensures that the data received is identical to the data sent, protecting it from unauthorized alterations during transmission.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1542
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A packet filter firewall operates by examining packets at the network and transport layers of the OSI model, allowing or blocking traffic based on IP addresses, port numbers, and protocols.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Confidentiality\" because it refers to the principle that information is only accessible to those authorized to have access, ensuring that the sender and receiver can communicate securely without unauthorized interception.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, often leading to memory corruption and security vulnerabilities, rather than actively rejecting requests when the buffer is full.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1506
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "WPA3 includes enhanced security features such as improved encryption methods and protections against brute-force attacks, making it more secure than WPA2 despite its shorter history.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1502
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Unauthorized network access is primarily associated with vulnerabilities at the application or network layers, rather than the transport layer, which is responsible for end-to-end communication and data transfer reliability.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer-overflow attack is true because it specifically involves sending more data to a program's buffer than it can handle, leading to memory corruption that can be exploited to execute unauthorized code.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1548
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Metasploit framework provides a user-friendly interface that allows cybersecurity professionals to easily identify, select, and exploit vulnerabilities in systems, thus streamlining the process of penetration testing.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "A compiler cannot determine the absolute address of a local variable due to the nature of\nstack allocation, where the variable's address is relative to the stack pointer at\nruntime, which can change with each function call. Since local variables are allocated on\nthe stack, their addresses are dependent on the sequence and frequency of function\ninvocations, leading to different memory layouts each time a function is executed. This\ndynamic allocation poses significant implications in cybersecurity, particularly with\nbuffer overflow attacks, where an attacker may exploit the unpredictability of local\nvariable addresses to manipulate the stack and execute arbitrary code. Consequently, the\ninability to ascertain a fixed address reinforces the necessity for robust security\nmeasures, such as stack canaries and address space layout randomization (ASLR), to\nmitigate these vulnerabilities.",
+      "marks": 10,
+      "explanation": "correct because it highlights that local variables are allocated on the stack with addresses determined relative to the stack pointer at runtime, which varies with each function call, creating dynamic memory layouts that complicate absolute address determination and have significant cybersecurity implications.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1557
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_07_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "In cybersecurity, the classic security properties are confidentiality, integrity, and\navailability, often referred to as the CIA triad. Among these, availability stands out as\nit focuses on ensuring that systems, services, and data are accessible when needed, which\nis distinct from the protective nature of confidentiality and integrity. The implications\nof prioritizing availability can lead to vulnerabilities; for instance, systems may be\ndesigned to remain operational at the expense of robust security measures, potentially\nallowing unauthorized access or data breaches. This trade-off illustrates that while\navailability is essential for operational effectiveness, it must be carefully balanced\nwith confidentiality and integrity to maintain an overall secure system. Thus, while\navailability is a critical aspect of security, its emphasis can inadvertently compromise\nthe foundational elements of cybersecurity.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies availability as the distinct property within the CIA triad, emphasizing its focus on system accessibility rather than the protective measures associated with confidentiality and integrity, while also discussing the potential vulnerabilities that may arise from prioritizing availability over security.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1570
+    }
+  ]
+}

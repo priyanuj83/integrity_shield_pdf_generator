@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_25",
+  "document_name": "Health Sciences - K-12 Level Assessment 25",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_25.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_25_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Insulin deficiency is associated with",
+      "options": {
+        "A": "Reduced lipolysis",
+        "B": "Increased ketogenesis",
+        "C": "Reduced gluconeogenesis",
+        "D": "Reduced proteolysis"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Insulin deficiency leads to an inability to properly utilize glucose for energy, resulting in the body breaking down fatty acids for fuel, which increases the production of ketone bodies through the process of ketogenesis.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9588"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the best method to estimate changes in body fat during weight loss?",
+      "options": {
+        "A": "BMI",
+        "B": "DXA",
+        "C": "Four-compartment model",
+        "D": "MRI"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The four-compartment model provides the most accurate estimation of body fat changes during weight loss by measuring fat mass, lean mass, water, and bone mineral content, allowing for a comprehensive assessment of body composition.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "From the list of oral microorganisms, which is primarily responsible for the initiation of\ndental caries?",
+      "options": {
+        "A": "Mutans streptococci",
+        "B": "bifidobacteria",
+        "C": "Lactobacilli",
+        "D": "P. gingivalis"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutans streptococci are primarily responsible for the initiation of dental caries because they are acidogenic bacteria that produce acids from fermentable carbohydrates, leading to the demineralization of tooth enamel.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9712"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following inborn errors of metabolism gives rise to zinc deficiency?",
+      "options": {
+        "A": "Acrodermatitis enteropathica",
+        "B": "Wilson's disease",
+        "C": "Menkes disease",
+        "D": "Haemochromatosis"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Acrodermatitis enteropathica is a genetic disorder that impairs the absorption of zinc in the intestines, leading to a clinically significant zinc deficiency.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The gut microbes metabolize L-carnitine into which metabolite that has been shown increase\ncardiovascular disease?",
+      "options": {
+        "A": "choline",
+        "B": "betaine",
+        "C": "Trimethylamine",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Trimethylamine is the metabolite produced by gut microbes from L-carnitine, and it has been linked to an increased risk of cardiovascular disease due to its role in promoting the formation of harmful compounds in the body.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9458"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Molecules of natural polyunsaturated fatty acids in vegetable oils contain 18 carbon atoms with at least two carbon-carbon double bonds in the trans configur...",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because natural polyunsaturated fatty acids typically contain carbon-carbon double bonds in the cis configuration, not the trans configuration.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9624"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Fish can be classified as goitrogens because they contain substances that impact thyroid health.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fish are not classified as goitrogens because goitrogens specifically refer to substances that inhibit thyroid function, whereas fish are generally considered a healthy source of nutrients that support thyroid health.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Vitamin A does not play a role in the synthesis of blood clotting proteins.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Vitamin A is primarily involved in processes such as vision, immune function, and skin health, while the synthesis of blood clotting proteins is mainly dependent on vitamin K, not vitamin A.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Gluten is the main protein found in maize, which is not accurate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because gluten is primarily found in wheat and related grains, while maize (corn) contains different proteins such as zein, and does not contain gluten.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9644"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "A sedentary 43-year-old woman who weighs 63 kg requires about 1800 kcal per day to maintain her energy levels.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a sedentary 43-year-old woman weighing 63 kg typically requires around 1600 to 1800 kcal per day, but individual requirements can vary based on factors such as metabolism, muscle mass, and overall health.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15079"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of niacin as a coenzyme in reduction reactions during fatty acid\nsynthesis, and analyze its importance in human health and metabolism.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Niacin, also known as vitamin B 3, plays a crucial role as a coenzyme in the reduction\nreactions involved in fatty acid synthesis. In the body, niacin is converted into\nnicotinamide adenine dinucleotide (NAD+), which is essential for various biochemical\nprocesses, including the synthesis of fatty acids. During this process, NAD+ helps in\ntransferring electrons, facilitating the conversion of substrates into fatty acids, which\nare vital for energy storage and cellular structures. Additionally, niacin is important\nfor overall human health as it supports metabolism, helps maintain healthy skin, and\ncontributes to the proper functioning of the nervous system. A deficiency in niacin can\nlead to health issues, highlighting its significance in maintaining metabolic balance and\noverall well-being.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes niacin's conversion to NAD+, its role in electron transfer during fatty acid synthesis, and emphasizes the significance of fatty acids for energy storage and cellular structures, thus linking niacin's function to human health and metabolism.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9589"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_25_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that contribute to vitamin and mineral deficiencies in older adults in\nhigh-income countries, and explain why high nutrient requirements for tissue turnover do\nnot increase this risk.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Vitamin and mineral deficiencies in older adults in high-income countries can be\nattributed to several factors, including poor dietary choices, changes in metabolism, and\nhealth conditions that affect nutrient absorption. Despite having high nutrient\nrequirements for tissue turnover due to aging and recovery processes, these needs do not\nnecessarily increase the risk of deficiencies. This is because, in high-income countries,\nolder adults often have access to a variety of foods and supplements that can meet these\nrequirements. However, if their diets lack diversity or are insufficient in quality, they\nmay still experience deficiencies despite the body's high nutrient demands. Therefore,\nit's essential for older adults to maintain a balanced diet to support their health and\nmeet their nutrient needs effectively.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that vitamin and mineral deficiencies in older adults are influenced by dietary choices, metabolism changes, and health conditions, while also clarifying that access to diverse foods and supplements in high-income countries mitigates the risks associated with increased nutrient requirements for tissue turnover.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9544"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

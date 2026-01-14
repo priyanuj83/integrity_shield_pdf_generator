@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_23",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 5 because the expression evaluates the modulus operation first, where 3 % 2 equals 1, and then adds that result to 4, resulting in 4 + 1 = 5.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3250
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"abcd\" because in Python, tuples are zero-indexed, meaning that the first element of the tuple, which is at index 0, is 'abcd'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The function int(x [,base]) in Python 3 is specifically designed to convert a string representation of an integer into its corresponding integer value, optionally allowing for a specified base for conversion.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it equals 14*16^1 + 7*16^0, which corresponds to the hexadecimal representation E7.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(N^(1/N)) grows the slowest among functions because as N increases, the growth rate approaches 1, making it effectively constant for large values of N, compared to other polynomial and exponential functions that grow much faster.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the function max(list) evaluates all the elements in the list and returns the one with the highest value based on the default comparison rules for the data types contained within the list.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Cookies can track users' online behavior and store personal information, which can lead to privacy breaches if accessed by unauthorized parties.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3267
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The expression 3 % 3 evaluates to 0, so 1 + 0 equals 1, making the statement true.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The isupper() function in Python 3 returns True if all the alphabetic characters in the string are uppercase and there is at least one alphabetic character, which confirms the statement as true.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the '**' operator is specifically designated for exponentiation, allowing users to raise a number to the power of another number.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3219
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def arc_length(d,a): | return None | return arclength",
+      "marks": 10,
+      "explanation": "correct as it outlines the structure of a function named `arc_length` that is intended to calculate the arc length based on the parameters for diameter and angle, although it requires further implementation to actually compute and return the arc length value.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 761
+    },
+    {
+      "question_id": "computer_science_k-12_doc_23_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def left_rotate(s,d): | return tmp",
+      "marks": 10,
+      "explanation": "correct because it defines a Python function that is intended to perform a left rotation on a string by shifting its characters to the left by a specified number of positions, represented by the variable 'd'.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 973
+    }
+  ]
+}

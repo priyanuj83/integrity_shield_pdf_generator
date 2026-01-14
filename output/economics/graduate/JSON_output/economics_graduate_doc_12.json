@@ -1,0 +1,293 @@
+{
+  "docid": "economics_graduate_doc_12",
+  "document_name": "Economics - Graduate Level Assessment 12",
+  "domain": "economics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "economics"
+  ],
+  "combination_used": [
+    "mmlu_pro_economics_mcq",
+    "mmlu_pro_economics_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\economics\\graduate\\latex_documents\\economics_graduate_doc_12.tex",
+    "pdf_file": "output\\economics\\graduate\\pdf_documents\\economics_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/economics_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/economics_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\economics\\graduate\\answer_keys\\latex\\economics_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\economics\\graduate\\answer_keys\\pdf\\economics_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "An ARMA(p,q) (p, q are integers bigger than zero) model will have",
+      "options": {
+        "A": "An acf that declines geometrically and a pacf that is zero after p lags",
+        "B": "An acf that declines geometrically and a pacf that is zero after p+q lags",
+        "C": "An acf and pacf that are both zero after q lags",
+        "D": "An acf and pacf that are both zero after p lags",
+        "E": "An acf that is zero after q lags and a pacf that is zero after p lags"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In an ARMA(p,q) model, the autocorrelation function (ACF) displays a geometric decline due to the moving average component, while the partial autocorrelation function (PACF) becomes zero after p lags, reflecting the finite order of the autoregressive part, thus making this statement correct.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7372"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Why is the Wagner Act (officially the National Labor Relations Act), considered to be\n\"labor's Magna Charta\"?",
+      "options": {
+        "A": "It introduced mandatory profit sharing between employers and employees",
+        "B": "It obligated employers to bargain in good faith with a union",
+        "C": "It outlawed company unions",
+        "D": "It created a universal pension system for all workers regardless of employer contributions",
+        "E": "It allowed for automatic union membership for all employees in a workplace"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Wagner Act is considered \"labor's Magna Charta\" because it established essential rights for workers to organize and engage in collective bargaining, thereby significantly enhancing their economic power and protections in the workplace, which is often misinterpreted as mandatory profit sharing.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6939"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following statements best describes the algebraic representation of the\nfitted regression line?",
+      "options": {
+        "A": "\\hat{y}_t = \\hat{\\alpha} + \\hat{\\beta}x_t^2 + \\hat{u}_t",
+        "B": "\\hat{y}_t = \\hat{\\alpha} + \\hat{\\beta}x_t + u_t",
+        "C": "\\hat{y}_t = \\hat{\\alpha}x_t + \\hat{\\beta}x_t",
+        "D": "y_t = \\hat{\\alpha} + \\hat{\\beta}x_t + \\hat{u}_t",
+        "E": "\\hat{y}_t = \\hat{\\alpha} + \\hat{\\beta}"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer represents the fitted regression line as an equation where \\(\\hat{y}_t\\) is the predicted value of the dependent variable based on the independent variable \\(x_t^2\\), with \\(\\hat{\\alpha}\\) as the intercept and \\(\\hat{\\beta}\\) as the coefficient, encapsulating the relationship established through regression analysis in economics.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Required reserves",
+      "options": {
+        "A": "can be used by banks to make loans or buy investments.",
+        "B": "must be held at the FED exclusively.",
+        "C": "must be kept in a bank's vault.",
+        "D": "are optional for large banks but compulsory for smaller ones.",
+        "E": "can be invested in government securities."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Required reserves are the portion of deposits that banks must hold in reserve and can utilize to make loans or invest, thereby facilitating financial intermediation and contributing to the overall money supply in the economy.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7286"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The market for Cincinnati Reds baseball tickets is currently in equilibrium. Which of the\nfollowing events would most likely increase the consumer surplus received by Reds fans?",
+      "options": {
+        "A": "The Reds decrease ticket prices due to lower stadium maintenance costs.",
+        "B": "The Reds launch a new marketing campaign that increases ticket demand.",
+        "C": "The Reds decide to limit the number of games in a season.",
+        "D": "The Reds offer discounted parking for all home games.",
+        "E": "The Reds increase ticket prices due to a rise in player salaries."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Offering discounted parking for all home games reduces the overall cost of attending a game for consumers, effectively increasing their consumer surplus by allowing them to enjoy greater net benefits from their purchases.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "A decrease in the international demand for Mexican-made textiles will shift the demand curve for the Mexican peso to the left.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A decrease in international demand for Mexican-made textiles reduces the need for foreign buyers to purchase pesos to pay for these goods, leading to a leftward shift in the demand curve for the peso.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6967"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "In the long run, all inputs are fixed, preventing any adjustments to changes in demand or supply.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, in the long run, firms can adjust all inputs, including capital and labor, allowing them to respond to changes in demand or supply.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7047"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The optimal one-step ahead forecast of a random walk series is the average value of the series over the in-sample period.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The optimal one-step ahead forecast of a random walk series is the last observed value rather than the average value of the series, as a random walk has no tendency to revert to the mean.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7064"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Increased exports lead to a decrease in the value of the dollar due to a decrease in demand for dollars.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Increased exports typically lead to an increase in demand for dollars because foreign buyers must purchase dollars to pay for the exported goods, which can strengthen the value of the dollar rather than decrease it.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7351"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "economics_graduate_doc_12_economics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "An increase in the reserve ratio decreases the money supply, leading to a larger tax multiplier effect in the economy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increase in the reserve ratio reduces the amount of money banks can lend, thereby decreasing the money supply, which amplifies the impact of tax changes on economic activity due to the reduced availability of credit.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7102"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "economics_graduate_doc_12_economics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of deadweight loss in the context of a monopoly market, and analyze\nhow it differs from the market dynamics of monopolistic competition.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Deadweight loss in a monopoly market arises when the monopolist sets prices above marginal\ncost, resulting in reduced quantity sold compared to a competitive market equilibrium.\nThis inefficiency leads to a loss of consumer and producer surplus that does not benefit\nany party, thus creating a deadweight loss triangle on the supply and demand graph. In\ncontrast, monopolistic competition, characterized by many firms selling differentiated\nproducts, leads to a more efficient allocation of resources, albeit still with some degree\nof inefficiency due to excess capacity. While both market structures exhibit some level of\ndeadweight loss, monopolistic competition tends to have a smaller deadweight loss compared\nto a monopoly, as firms can price closer to marginal cost and produce at a level more\naligned with consumer demand. Therefore, the extent and implications of deadweight loss\nhighlight significant differences in market dynamics between monopolies and monopolistic\ncompetition.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that deadweight loss in a monopoly occurs due to pricing above marginal cost, leading to inefficiencies and reduced total surplus, while contrasting this with the more efficient resource allocation typically seen in monopolistic competition, where product differentiation allows for a closer approximation to competitive market outcomes.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7443"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "economics_graduate_doc_12_economics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the effects on wage levels and employment when a monopsony labor market\ntransitions to a perfectly competitive labor market, providing a detailed analysis of the\nunderlying economic mechanisms.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The transition from a monopsony labor market to a perfectly competitive labor market\nresults in increased wage levels and employment. In a monopsony, a single employer has\nsignificant market power to set wages below the equilibrium level, leading to lower\noverall wages and reduced employment due to the firm's ability to dictate labor\nconditions. When the market becomes perfectly competitive, numerous employers compete for\nworkers, driving wages up to the marginal productivity of labor. This competitive\nenvironment incentivizes firms to hire more workers, thus increasing overall employment.\nAs a result, both wage levels and employment rise, reflecting the efficiency and fairness\nof a competitive labor market compared to a monopsonistic structure.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the shift from a monopsony, where a single employer suppresses wages and employment due to their market power, to a perfectly competitive labor market, characterized by multiple employers competing for workers, leads to higher wage levels and increased employment opportunities as wages align with the marginal productivity of labor.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7242"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

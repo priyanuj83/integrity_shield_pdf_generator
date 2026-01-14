@@ -1,0 +1,293 @@
+{
+  "docid": "physics_graduate_doc_01",
+  "document_name": "Physics - Graduate Level Assessment 1",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "physics_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_01.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "10 calories of heat are supplied to 1 g of water. How much does the mass of the water\nincrease?",
+      "options": {
+        "A": "5.5 \\times 10^-13 g",
+        "B": "2.5 \\times 10-13 g",
+        "C": "2.0 \\times 10^-12 g",
+        "D": "4.7 \\times 10-13 g",
+        "E": "8.6 \\times 10^-13 g"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The increase in mass of the water is calculated using Einstein's mass-energy equivalence principle (E=mc\u00b2), where the energy supplied (10 calories, equivalent to 41.84 joules) results in an extremely small mass increase of approximately 4.7 \u00d7 10^-13 g due to the large value of the speed of light squared in the denominator.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10018"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Compute the mean molecular speed v in the light gas hydrogen (H 2) in m/s",
+      "options": {
+        "A": "1750.0",
+        "B": "1500.0",
+        "C": "2200.0",
+        "D": "2100.0",
+        "E": "1400.0"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 1750.0 m/s for the mean molecular speed of hydrogen (H2) is derived from the formula v = sqrt(3kT/m), where k is the Boltzmann constant, T is the absolute temperature, and m is the molecular mass of hydrogen, resulting in a high speed due to hydrogen's low molecular mass.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10266"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Consider two mercury barometers, one having a cross-sectional area of 1 cm 2 and the other\n2 cm 2. The height of mercury in the narrower tube is",
+      "options": {
+        "A": "two-thirds",
+        "B": "twice",
+        "C": "the same",
+        "D": "half",
+        "E": "four times higher"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The height of mercury in both barometers remains the same because atmospheric pressure acting on the surface of the mercury is constant, causing the mercury to rise to the same height regardless of the cross-sectional area of the tubes.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9636"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which one of these constellations is not located along the Milky Way in the sky?",
+      "options": {
+        "A": "Virgo",
+        "B": "Perseus",
+        "C": "Ursa Major",
+        "D": "Sagittarius",
+        "E": "Aquila"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Virgo is located in a region of the sky that is not densely populated by stars in the Milky Way, as it lies farther away from the galactic plane compared to other constellations that are directly along the Milky Way.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10103"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "An object, starting from rest, is given an acceleration of 16 feet per second^2 for 3\nseconds. What is its speed at the end of 3 seconds?",
+      "options": {
+        "A": "48 ft per sec",
+        "B": "64 ft per sec",
+        "C": "30 ft per sec",
+        "D": "72 ft per sec",
+        "E": "16 ft per sec"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 48 ft per sec because the final speed can be calculated using the formula \\( v = u + at \\), where \\( u \\) (initial velocity) is 0, \\( a \\) (acceleration) is 16 ft/s\u00b2, and \\( t \\) (time) is 3 seconds, resulting in \\( v = 0 + (16 \\, \\text{ft/s}^2 \\times 3 \\, \\text{s}) = 48 \\, \\text{ft/s} \\).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9409"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The angular magnification of the refracting telescope can be calculated as 20, based on the separation of the lenses.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a refracting telescope is determined by the focal lengths of the objective and eyepiece lenses, not merely by the separation of the lenses.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "12"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is approximately 1.0 GeV/c^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The rest mass of a particle can be calculated using the relation \\(E^2 = p^2c^2 + m_0^2c^4\\), and substituting \\(E = 5.0 \\text{ GeV}\\) and \\(p = 4.9 \\text{ GeV}/c\\) yields a rest mass of approximately \\(1.0 \\text{ GeV}/c^2\\).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10218"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The efficiency of a device that converts 100 J of input energy into 40 J of useful work is 25%.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The efficiency of a device is calculated by dividing the useful work output (40 J) by the input energy (100 J) and multiplying by 100, resulting in an efficiency of 40%, which is not 25%, making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9735"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Doubling the thickness of a neutral density filter will always halve its transmittance regardless of initial transmission values.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the thickness of a neutral density filter does not always halve its transmittance because the transmittance depends on the filter's optical density and the specific material properties, which can vary with thickness and wavelength.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9755"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_01_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "If the volume of an object doubles while its mass remains constant, its density will halve.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Density is defined as mass divided by volume, so if the volume of an object doubles while its mass remains constant, the density must halve, as the same mass is now distributed over a larger volume.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10171"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_01_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the shape of the illuminated area on a screen positioned 1 cm and 2 m away from a\ntiny plane mirror measuring 2 mm \\times 2 mm, explaining the underlying physical\nprinciples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The shape of the illuminated area on a screen positioned 1 cm away from a tiny plane\nmirror measuring 2 mm \\times 2 mm will be circular, while at a distance of 2 m, the shape\nwill transform into a rectangular area. At 1 cm, the small size of the mirror causes light\nrays reflecting off its surface to diverge rapidly, producing a circular pattern due to\nthe close proximity of the screen. Conversely, at 2 m, the increased distance allows the\nreflected rays to converge more uniformly, leading to a rectangular projection that\ncorresponds to the dimensions of the mirror. This transformation illustrates the principle\nof geometric optics, where the distance from the mirror significantly influences the shape\nof the light distribution on the screen.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the small size of the mirror causes light rays to diverge rapidly at a short distance, creating a circular illuminated area, while the greater distance allows the rays to converge more uniformly, resulting in a rectangular shape.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9979"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_01_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Considering a converging lens with a 5.0 cm focal length used as a simple magnifier,\ndetermine the object distance required to produce a virtual image 25 cm from the eye.\nAdditionally, calculate the magnification and discuss the implications of these values in\nthe context of optical systems.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To produce a virtual image 25 cm from the eye using a converging lens with a focal length\nof 5.0 cm, the required object distance can be calculated using the lens formula: \\(\n\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\). Here, \\( d_i = -25 \\) cm (negative since\nthe image is virtual), leading to \\( \\frac{1}{5} = \\frac{1}{d_o} - \\frac{1}{25} \\).\nSolving this equation gives \\( d_o \\approx 4.2 \\) cm. The magnification \\( M \\) is\ncalculated using the formula \\( M = -\\frac{d_i}{d_o} \\), yielding \\( M \\approx 5.9 \\).\nThese values indicate that the optical system is capable of significantly enlarging the\nimage while allowing it to be positioned within a comfortable viewing distance,\nemphasizing the practical applications of magnifying lenses in various optical devices.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the lens formula to determine the object distance needed to achieve a virtual image at the specified distance from the eye, while also accurately calculating the magnification to illustrate the effectiveness of the lens as a simple magnifier.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9799"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_undergraduate_doc_23",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Hall coefficient indicates the type of charge carriers in a doped semiconductor (positive or negative) based on the direction of the induced electric field when a magnetic field is applied perpendicular to the current flow.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1393
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The resolving power of a grating spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, the minimum difference is 2 nm (502 nm - 500 nm), leading to a resolving power of 500 nm / 2 nm = 250.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1419
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is B because n-type semiconductors require dopants that have more valence electrons than germanium, and the ion represented by option B does not meet this criterion.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1394
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The average total energy of a three-dimensional harmonic oscillator in thermal equilibrium is given by the equipartition theorem, which states that each degree of freedom contributes an average energy of (1/2)kT, leading to a total of 3kT for the three spatial dimensions.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1403
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 393 Hz because in a pipe closed at one end, the harmonics are odd multiples of the fundamental frequency, so the first harmonic is 131 Hz and the next higher harmonic, which is the third harmonic, is 3 times the fundamental frequency: 3 x 131 Hz = 393 Hz.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1431
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, in the lab frame, the particle's relativistic decay length can be calculated using its speed and lifetime, and at v = 0.60 c, it can indeed travel 450 m before decaying.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1416
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The eigenvalues of a Hermitian operator are always real numbers, as Hermitian operators represent observable quantities in quantum mechanics, which must yield real measurement results.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1421
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The resolving power of a spectrometer is defined as the ability to distinguish between two closely spaced wavelengths, and a resolving power of 250 indicates that the spectrometer can effectively separate spectral lines that are close together within the given wavelength range.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14194
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The ionization energy of helium for removing one electron is approximately 24.6 eV, not 39.5 eV, making the statement false.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1436
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The rest mass of a particle can be determined using the energy-momentum relation, E^2 = (pc)^2 + (m_0c^2)^2, and substituting the given total energy and momentum values shows that the calculated rest mass is approximately 1.0 GeV/c^2.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14193
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_long_1",
+      "type": "long",
+      "correct_answer": "To achieve a measurement uncertainty of 1 percent for the disintegration of the\nradioactive isotope, the student should count for 5,000 seconds. This conclusion is based\non the statistical nature of radioactive decay, where the uncertainty is inversely\nproportional to the square root of the number of counts observed. Given the initial data\ncollected, the average disintegration count per second was relatively low, leading to\nsignificant relative uncertainty. By extending the counting time to 5,000 seconds, the\nstudent can increase the number of decay events measured, thus reducing the relative\nuncertainty to the desired level. Additionally, factors such as the decay rate of the\nisotope and the intrinsic variability of radioactive decay highlight the importance of a\nlonger counting period for precise measurements.",
+      "marks": 10,
+      "explanation": "correct because to achieve a measurement uncertainty of 1 percent in radioactive decay, the student must increase the counting time to 5,000 seconds, which reduces relative uncertainty by increasing the total number of observed decay events, aligning with the principle that uncertainty is inversely proportional to the square root of the count.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1404
+    },
+    {
+      "question_id": "physics_undergraduate_doc_23_physics_long_2",
+      "type": "long",
+      "correct_answer": "Dye lasers offer significant advantages for spectroscopy in the visible wavelength range\ndue to their tunability and broad emission spectrum. Unlike solid-state or gas lasers, dye\nlasers can be easily adjusted to emit light across a wide range of wavelengths by changing\nthe dye solution or the cavity configuration, making them ideal for studying various\nchemical species and their interactions. Additionally, dye lasers can provide high peak\npowers and relatively narrow linewidths, which enhance their sensitivity in detecting\nsubtle spectral features. In comparison to other laser types, such as semiconductor\nlasers, dye lasers excel in providing the versatility required for complex spectroscopic\nexperiments, making them a preferred choice in many analytical applications. Overall, the\nunique properties of dye lasers facilitate advanced spectroscopic techniques, allowing for\na more comprehensive analysis of materials.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes the tunability and broad emission spectrum of dye lasers, which allow for precise and versatile applications in spectroscopy, surpassing the capabilities of other laser types like solid-state and gas lasers.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1372
+    }
+  ]
+}

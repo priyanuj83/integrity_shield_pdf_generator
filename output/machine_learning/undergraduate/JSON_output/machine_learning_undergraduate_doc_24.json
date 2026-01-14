@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_24",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 24",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_24.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| As of 2020, some models attain greater than 98% accuracy on CIFAR-10.\nStatement 2| The original ResNets were not optimized with the Adam optimizer.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2020, advancements in deep learning have led to models achieving over 98% accuracy on the CIFAR-10 dataset, while the original ResNet architectures were trained using stochastic gradient descent instead of the Adam optimizer, confirming both statements as true.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6854"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Predicting the amount of rainfall in a region based on various cues is a ______ problem.",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Unsupervised learning",
+        "C": "Clustering",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Predicting the amount of rainfall in a region based on various cues is a supervised learning problem because it involves using labeled training data (historical rainfall measurements) to train a model that can make predictions on new, unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6869"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Suppose your model is overfitting. Which of the following is NOT a valid way to try and\nreduce the overfitting?",
+      "options": {
+        "A": "Increase the amount of training data.",
+        "B": "Improve the optimisation algorithm being used for error minimisation.",
+        "C": "Decrease the model complexity.",
+        "D": "Reduce the noise in the training data."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Improving the optimization algorithm typically affects convergence speed and efficiency rather than directly addressing overfitting, which is primarily mitigated through techniques like regularization, cross-validation, or reducing model complexity.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What would you do in PCA to get the same projection as SVD?",
+      "options": {
+        "A": "Transform data to zero mean",
+        "B": "Transform data to zero median",
+        "C": "Not possible",
+        "D": "None of these"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Transforming the data to zero mean is essential in PCA because it ensures that the principal components reflect the directions of maximum variance without being influenced by the mean, making the results consistent with those obtained from Singular Value Decomposition (SVD).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "High entropy means that the partitions in classification are",
+      "options": {
+        "A": "pure",
+        "B": "not pure",
+        "C": "useful",
+        "D": "useless"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "High entropy indicates a high level of disorder or uncertainty in a dataset, which means that the classification partitions contain a mix of different classes rather than being dominated by a single class, resulting in them being not pure.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6849"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The computational complexity of gradient descent is polynomial in the number of dimensions, D.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The computational complexity of gradient descent is considered polynomial in the number of dimensions, D, because the algorithm performs a fixed number of operations proportional to D for each iteration, leading to a total complexity that scales polynomially with respect to D.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6862"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Out-of-distribution detection is commonly referred to as background detection in the field of machine learning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Out-of-distribution detection refers to identifying data points that differ significantly from the training distribution, whereas background detection typically involves distinguishing relevant objects from irrelevant background elements in images, making the two concepts distinct in machine learning.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6882"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "A Bayesian network with the structure H -> U <- P <- W requires 4 independent parameters to fully define its conditional probabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a Bayesian network with the structure H -> U <- P <- W actually requires only 3 independent parameters to fully define its conditional probabilities, as the dependency relationships reduce the number of parameters needed.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6843"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "K-fold cross-validation has a computational complexity that is linear in K, as it involves training the model K times.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because K-fold cross-validation requires the model to be trained K times on different subsets of the data, resulting in a computational complexity that increases linearly with K.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6906"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The cost of one gradient descent update given the gradient is O(N), where N is the number of training examples.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cost of one gradient descent update is O(N * d), where N is the number of training examples and d is the number of features, because the gradient must be computed for each feature across all training examples.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove odd characters in a string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_odd(str1): | return str2",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines the basic structure of a function in Python that is intended to process a string, although it lacks the implementation details to actually remove odd characters.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "437"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether the given number is armstrong or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def armstrong_number(number): | return True | return False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct in that it provides a function structure to check for Armstrong numbers, but it lacks the necessary logic to perform the actual calculation and determination, as it only returns True and False without evaluating the input number.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "598"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

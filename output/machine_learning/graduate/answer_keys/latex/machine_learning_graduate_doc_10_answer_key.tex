@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 10 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) linear in D; B) linear in N; C) polynomial in D; D) dependent on the number of iterations
+\\ \textit{Note:} The computational complexity of gradient descent is polynomial in D, where D represents the dimensionality of the data, because each iteration of the algorithm involves calculations that scale linearly with the number of dimensions, resulting in a polynomial time complexity overall when considering the number of iterations needed for convergence.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It can not be applied to non-differentiable functions.; B) It can not be applied to non-continuous functions.; C) It is hard to implement.; D) It runs reasonably slow for multiple linear regression.
+\\ \textit{Note:} The correct answer highlights that Grid search systematically evaluates all combinations of hyperparameters, which can significantly increase computation time, especially in complex models like multiple linear regression that require extensive processing for each parameter set.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The BLEU metric indeed relies on precision to evaluate the quality of generated text compared to reference texts, while the ROUGE metric focuses on recall to assess the overlap of n-grams in generated summaries, and Hidden Markov Models have been widely utilized in natural language processing to model the probabilistic structures of English sentences.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 3; B) 4; C) 7; D) 15
+\\ \textit{Note:} The correct answer is 15 because, in a Bayesian network with four nodes (H, U, P, W), each node has a conditional probability table that requires a number of parameters equal to the product of the number of states for each parent node, leading to a total of 15 independent parameters when no independence assumptions are made.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Partitioning based clustering; B) K-means clustering; C) Grid based clustering; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because spatial clustering algorithms encompass a variety of methods that are designed to group data points based on their spatial proximity, making all listed options valid examples within this category.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Lasso regression incorporates an L$_{1}$ regularization term that penalizes the absolute size of the coefficients, effectively driving some of them to zero and thus facilitating feature selection by excluding less important predictors from the model.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because best-subset selection may identify an optimal set of features, but the final model may differ due to factors such as regularization, cross-validation, or the inclusion of additional criteria that impact model selection beyond just the feature set.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The null space of the matrix A has a dimensionality of 2 because the rank of A is 1, leading to a nullity (dimension of the null space) of 3 - rank = 3 - 1 = 2, according to the Rank-Nullity Theorem.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because, in a Bayesian network, the joint probability distribution can be factored into the product of the prior distribution of the parent variable and the conditional distributions of the child variables given their parents, which in this case is represented by P(Y) * P(X|Y) * P(Z|Y).
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Both ResNets and Transformers incorporate feedforward neural networks as fundamental components in their architecture, enabling them to process input data through layers of neurons in a structured manner.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_Char(str,x): | return count
+\\ \textit{Note:} The provided answer is correct because it outlines a Python function named `count\_Char` that is designed to iterate through a given string to count the occurrences of a specified character, which aligns with the task of counting character occurrences in a repeated string.
+\item \textbf{Answer:} def dif\_Square(n): | return True | return False
+\\ \textit{Note:} The answer correctly identifies that a number can be expressed as the difference of two squares if it is either odd or a multiple of 4, and the function should return True for such numbers and False otherwise.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

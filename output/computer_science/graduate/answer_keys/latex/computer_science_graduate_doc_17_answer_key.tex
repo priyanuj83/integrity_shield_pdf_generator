@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Wireless Traffic Sniffing; B) WiFi Traffic Sniffing; C) Wireless Traffic Checking; D) Wireless Transmission Sniffing
+\\ \textit{Note:} Wireless Traffic Sniffing is the correct answer because it involves capturing and analyzing wireless data packets transmitted over a network, which is essential for identifying issues or gathering evidence in forensic investigations.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, it cannot be done; B) Yes, just plug the GGM PRF into the Luby-Rackoff theorem; C) It depends on the underlying PRG; D) Option text
+\\ \textit{Note:} The correct answer is based on the Luby-Rackoff theorem, which demonstrates that a secure pseudorandom generator (PRG) can be transformed into a secure pseudorandom permutation (PRP) by using a pseudorandom function (PRF) like the GGM construction, ensuring that the output remains indistinguishable from random.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Secret question; B) Biometric; C) SMS code; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because authentication methods encompass a variety of techniques, including passwords, biometrics, and security tokens, all of which are valid forms of verifying a user's identity.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Base Signal Station; B) Base Transmitter Station; C) Base Transceiver Station; D) Transceiver Station
+\\ \textit{Note:} The Base Transceiver Station (BTS) functions similarly to an Access Point (AP) in that both serve as critical components in wireless communication networks, facilitating signal coverage and connectivity for mobile devices.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Abstract Syntax Tree (AST); B) Attribute Grammar; C) Symbol Table; D) Semantic Stack
+\\ \textit{Note:} The symbol table is a critical data structure in a compiler that stores information about variables, including their names, types, scopes, and attributes, enabling efficient management and access during the compilation process.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Silk Road was indeed a prominent online marketplace on the Dark Web that facilitated the anonymous sale of illegal drugs and other illicit goods, operating primarily through cryptocurrencies to ensure user privacy.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because replacing the page with the next reference that will occur the farthest in the future does not account for the varying access patterns and can lead to suboptimal decisions in certain scenarios, resulting in more page faults.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Unauthorized network access is primarily associated with vulnerabilities at the application and network layers, rather than the transport layer, which is responsible for end-to-end communication and does not inherently deal with access control mechanisms.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer-overrun occurs when a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite adjacent memory and execute arbitrary code, thereby compromising system security or functionality.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} IM Trojans are indeed malicious programs that specifically target instant messaging applications to surreptitiously capture and transmit users' login credentials and passwords for malicious purposes.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_of\_digits(nums): | return sum(int(el) for n in nums for el in str(n) if el.isdigit())
+\\ \textit{Note:} The provided function correctly computes the sum of digits for each number in the list by converting each number to a string, iterating through each character, checking if it is a digit, converting it back to an integer, and summing these values using a generator expression.
+\item \textbf{Answer:} def check\_alphanumeric(string): | return ("Accept") | return ("Discard")
+\\ \textit{Note:} The provided answer is correct as it outlines a function that presumably uses regex to determine if the input string ends with alphanumeric characters, although it lacks the actual implementation of the regex logic.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

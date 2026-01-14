@@ -1,0 +1,294 @@
+{
+  "docid": "chemistry_graduate_doc_09",
+  "document_name": "Chemistry - Graduate Level Assessment 9",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_09.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the Larmor frequency for a proton in a magnetic field of 1 T.",
+      "options": {
+        "A": "23.56 GHz",
+        "B": "50 MHz",
+        "C": "100 MHz",
+        "D": "42.58 MHz",
+        "E": "1 GHz"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Larmor frequency for a proton in a magnetic field of 1 T is calculated using the formula f = \u03b3B, where \u03b3 (the gyromagnetic ratio for a proton) is approximately 42.58 MHz/T, resulting in a frequency of 42.58 MHz.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4167"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the normality of a solution 40 ml of which is required to neutralize 0.56 g of\nKOH.",
+      "options": {
+        "A": "0.5 N",
+        "B": "0.2 N",
+        "C": "0.75 N",
+        "D": "0.1 N",
+        "E": "1 N"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The normality of the solution is 0.5 N because KOH is a strong base that dissociates to provide one hydroxide ion (OH\u207b) per molecule, and using the formula for normality (N = equivalents of solute/volume of solution in liters), the calculation shows that 0.5 equivalents are present in 40 mL of the solution.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4032"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Each resonance form of the nitrate ion, NO 3-, has how many sigma and how many pi bonds?",
+      "options": {
+        "A": "4 sigma and 1 pi",
+        "B": "3 sigma and 1 pi",
+        "C": "0 sigma and 4 pi",
+        "D": "3 sigma and 2 pi",
+        "E": "2 sigma and 1 pi"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Each resonance form of the nitrate ion, NO3-, features three single bonds (sigma bonds) between the nitrogen and oxygen atoms, along with one double bond (which includes one sigma bond and one pi bond), resulting in a total of three sigma bonds and one pi bond across all resonance forms.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3982"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In a chemical reaction requiring two atoms of phosphorus for five atoms of oxygen, how\nmany grams of oxygen are required by 3.10 g of phosphorus?",
+      "options": {
+        "A": "9.30 g O",
+        "B": "2.50 g O",
+        "C": "4.00 g O",
+        "D": "5.00 g O",
+        "E": "3.10 g O"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4.00 g O because the stoichiometric ratio from the balanced reaction indicates that for every 2 atoms of phosphorus, 5 atoms of oxygen are needed, allowing us to calculate the required mass of oxygen based on the mass of phosphorus given.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3604"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A sample of $255 \\mathrm{mg}$ of neon occupies $3.00 \\mathrm{dm}^3$ at $122 \\mathrm{K}$.\nUse the perfect gas law to calculate the pressure of the gas.",
+      "options": {
+        "A": "$4.20 \\times 10^{-2}$ $\\text{atm}$",
+        "B": "$5.55 \\times 10^{-2}$ $\\text{atm}$",
+        "C": "$6.33 \\times 10^{-2}$ $\\text{atm}$",
+        "D": "$3.15 \\times 10^{-2}$ $\\text{atm}$",
+        "E": "$8.21 \\times 10^{-2}$ $\\text{atm}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from applying the ideal gas law, \\( PV = nRT \\), where the number of moles \\( n \\) is calculated from the mass of neon, the volume \\( V \\) is given, and the temperature \\( T \\) is converted to Kelvin, leading to the calculated pressure of \\( 4.20 \\times 10^{-2} \\text{atm} \\).",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3909"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The magnetogyric ratio of 23 Na is 20.78 x 10^7 T-1 s-1 based on its NMR frequency in a 750 MHz spectrometer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The magnetogyric ratio of 23Na is accurately determined to be 20.78 x 10^7 T-1 s-1 based on its resonance frequency, which is a direct relationship in nuclear magnetic resonance (NMR) spectroscopy where the frequency is proportional to the magnetic field strength and the magnetogyric ratio.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4169"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "When a solid melts, it experiences a positive enthalpy change and a positive entropy change due to increased molecular disorder.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When a solid melts, the transition from a highly ordered solid state to a more disordered liquid state results in an increase in entropy, and the energy required to overcome the intermolecular forces leads to a positive enthalpy change, making the statement true.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3810"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The molar weight of the non-electrolyte in solution is approximately 100 g solute per mole solute.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because non-electrolytes typically have a molar weight around 100 g/mol, which corresponds to common organic compounds, allowing for convenient stoichiometric calculations in solution chemistry.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4595"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Hydrogen bonds are stronger than dipole-dipole interactions, which are in turn stronger than induced dipole forces.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hydrogen bonds involve a strong attraction between a hydrogen atom covalently bonded to a highly electronegative atom and another electronegative atom, making them stronger than dipole-dipole interactions, which arise from permanent dipoles, while induced dipole forces, or London dispersion forces, are the weakest due to their dependence on temporary dipoles that occur in all molecules.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3986"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_09_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The energy of one mole of UV photons with a wavelength of 300 nm is approximately 450 kJ/mol.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the energy of one mole of photons can be calculated using the equation E = (hc/\u03bb) multiplied by Avogadro's number, and for a wavelength of 300 nm, this calculation yields approximately 450 kJ/mol.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4264"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_09_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of electrolysis in an electrolytic cell using a zinc salt solution,\nand calculate the equivalent weight of zinc based on the deposition of 3.27 g of zinc from\na current of 5.36 A over 30 minutes.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Electrolysis in an electrolytic cell involves the decomposition of a compound, such as a\nzinc salt solution, through the application of an external electric current. During the\nelectrolysis of zinc sulfate, zinc ions (\\(Zn^{2+}\\)) are reduced at the cathode,\nresulting in the deposition of metallic zinc. To calculate the equivalent weight of zinc,\nwe first determine the total charge (Q) that passed through the cell using the formula \\(Q\n= I \\times t\\), where \\(I = 5.36 \\, A\\) and \\(t = 30 \\, min \\times 60 \\, s/min = 1800 \\,\ns\\). This results in \\(Q = 5.36 \\, A \\times 1800 \\, s = 9648 \\, C\\). Given that the\ndeposition of 3.27 g of zinc corresponds to a transfer of 2 moles of electrons (since\n\\(Zn^{2+} + 2 e^- \\rightarrow Zn\\)), the equivalent weight can be calculated using the\nformula \\( \\text{Equivalent weight} = \\frac{\\text{mass of zinc deposited}}{\\text{number of\nequivalents}} \\). Thus, the equivalent weight of zinc is determined to be \\( \\frac{3.27 \\,\ng}{1.5} = 27.7 \\, g\\), confirming the equivalent weight based on the deposited mass.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly describes the electrolysis process by detailing the reduction of zinc ions at the cathode and accurately calculates the equivalent weight of zinc using the total charge derived from the current and time, demonstrating a solid understanding of Faraday's laws of electrolysis.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3603"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_09_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the electrochemical cell Pt/H\u2082/HCl (0.2 M)/HCl (0.8 M)/H\u2082/Pt at 25^\\circC with t\u208a\n= 0.83. Calculate the cell voltage and discuss the factors influencing your result.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the electrochemical cell Pt/H\u2082/HCl (0.2 M)/HCl (0.8 M)/H\u2082/Pt at 25^\\circC, we\ncan apply the Nernst equation to calculate the cell voltage. Given that the standard\nelectrode potential for the hydrogen electrode is 0 V, the cell voltage can be determined\nusing the concentration difference of H\u207a ions in the two HCl solutions. The Nernst\nequation yields a cell voltage of 0.0006 volts. This low voltage is influenced by the\nratio of the hydrogen ion concentrations in the two compartments, as well as temperature\nand pressure conditions, which dictate the electrochemical potential and the extent of the\nreaction.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively applies the Nernst equation to account for the concentration difference of hydrogen ions between the two HCl solutions, leading to the calculated cell voltage of 0.0006 volts, which reflects the electrochemical behavior of the system at the specified conditions.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4324"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

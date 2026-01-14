@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_18",
+  "document_name": "Cybersecurity - Graduate Level Assessment 18",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_18.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_18_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ can cost you money, by sending text messages from your mobile phone\nnumbers.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "SMS Trojan",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An SMS Trojan is a type of malware that exploits mobile devices to send unauthorized text messages, often resulting in financial charges to the user without their consent.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The message must be encrypted at the sender site and decrypted at the",
+      "options": {
+        "A": "Sender Site",
+        "B": "Site",
+        "C": "Receiver site",
+        "D": "Conferencing"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Receiver site\" because encryption ensures that only the intended recipient can access the original message, requiring decryption at the receiver's end to restore it to its readable form.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What are the types of scanning?",
+      "options": {
+        "A": "Port, network, and services",
+        "B": "Network, vulnerability, and port",
+        "C": "Passive, active, and interactive",
+        "D": "Server, client, and network"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer identifies three essential types of scanning in cybersecurity\u2014network scanning for identifying active devices, vulnerability scanning for detecting security weaknesses, and port scanning for discovering open ports and services\u2014each of which plays a crucial role in assessing and securing networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a security exploit?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Cross-site scripting",
+        "C": "Authentication",
+        "D": "SQL Injection"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is a fundamental security mechanism designed to verify the identity of users and is not an exploit, which refers to a method used to take advantage of vulnerabilities in a system.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1485"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In MD-5 the length of the message digest is",
+      "options": {
+        "A": "160",
+        "B": "128",
+        "C": "64",
+        "D": "54"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 128 because MD5 generates a fixed-length message digest of 128 bits, which is equivalent to 32 hexadecimal characters, regardless of the size of the input message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1487"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Public key encryption is faster than symmetric key cryptography, making it more efficient for all encryption tasks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Public key encryption is generally slower than symmetric key cryptography due to the complex mathematical operations involved, making it less efficient for tasks that require rapid data encryption and decryption.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1494"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "WPA 2 was designed to enhance security on wireless networks by providing an easy method for device connections.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA2 was designed to enhance security on wireless networks primarily through robust encryption and authentication protocols, not specifically to provide an easy method for device connections.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Cotton Road was a well-known Dark Web platform primarily used for trading legal goods and services.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Cotton Road was actually a darknet market used for the illegal trade of drugs and other illicit goods, not a platform for legal goods and services.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "IM-Trojans are malicious programs designed to steal login credentials for instant messaging applications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM-Trojans are indeed malicious programs specifically crafted to infiltrate instant messaging applications and capture users' login information, thereby compromising their security and privacy.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "To verify a digital signature, the receiver's private key is necessary to confirm the sender's identity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because to verify a digital signature, the receiver uses the sender's public key, not their own private key, to confirm the authenticity of the signature and the sender's identity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1498"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the importance of stealthiness in penetration testing, analyzing the strategies\nemployed to minimize detection by security systems and their implications for test\neffectiveness.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Stealthiness is a critical aspect of penetration testing, as it directly impacts the\neffectiveness of the assessment by minimizing the likelihood of detection by security\nsystems. To achieve this, penetration testers employ various strategies such as using low-\nand-slow techniques to avoid triggering intrusion detection systems (IDS) and conducting\nactivities during off-peak hours to reduce visibility. Additionally, they may obfuscate\ntheir traffic and utilize encrypted communication methods to blend in with legitimate\nnetwork activity. The implications of these strategies are significant; by remaining\nundetected, testers can more accurately simulate real-world attacks and identify\nvulnerabilities that organizations may not have noticed otherwise. Ultimately, the\neffectiveness of penetration testing hinges on the careful balance between thoroughness\nand stealthiness, ensuring that security measures are rigorously evaluated without\nprematurely alerting defenders.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes the significance of stealthiness in penetration testing by outlining strategies like low-and-slow techniques, timing of activities, traffic obfuscation, and encryption, all of which are essential for minimizing detection and enhancing the effectiveness of security assessments.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1490"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_18_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of SNMP enumeration in cybersecurity, focusing on the tools used for this\nprocess and the implications of their use in network security assessments.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "SNMP enumeration plays a crucial role in cybersecurity by allowing attackers and security\nprofessionals to gather detailed information about network devices and configurations.\nTools such as IP Network Browser facilitate this process by leveraging the Simple Network\nManagement Protocol (SNMP) to query devices for valuable data, including device types,\noperating systems, and active services. The implications of using such tools in network\nsecurity assessments are significant; while they can aid in identifying vulnerabilities\nand misconfigurations, they also raise ethical concerns regarding unauthorized access and\npotential exploitation of sensitive information. Thus, the responsible use of SNMP\nenumeration tools is essential to balance effective security assessments with adherence to\nlegal and ethical standards in cybersecurity practices.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies SNMP enumeration as a method for gathering critical network information through specific tools, highlighting both its utility in security assessments and the potential risks involved in its use.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1501"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

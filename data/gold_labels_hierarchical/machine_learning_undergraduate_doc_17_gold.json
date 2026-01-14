@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_17",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's cake because it represents an advanced and crucial approach in machine learning that focuses on training algorithms to make sequences of decisions through trial and error, thereby enhancing the overall effectiveness and adaptability of AI systems.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14783
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Highway networks indeed utilize convolutions without max pooling, making Statement 1 false, while DenseNets generally require more memory than ResNets due to their dense connectivity pattern, making Statement 2 true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Pruning a Decision Tree is primarily aimed at reducing its complexity to prevent overfitting, which occurs when the model learns noise in the training data rather than the underlying patterns, leading to poor generalization on unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "correct because the Stanford Sentiment Treebank specifically focuses on analyzing movie reviews for sentiment analysis, while the Penn Treebank has been extensively utilized in various language modeling tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "As P(A, B) decreases while P(A) increases, the conditional probability P(B|A) is given by P(A, B) / P(A), leading to a decrease in P(B|A) since the numerator decreases while the denominator increases.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Transforming data to a zero median does not ensure that the data is centered around the mean, which is essential for PCA to achieve the same projection as Singular Value Decomposition (SVD).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "By 2020, advancements in deep learning architectures, such as convolutional neural networks, enabled several models to surpass 98% accuracy on the CIFAR-10 dataset, demonstrating significant progress in image classification tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6854
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Grid search evaluates every possible combination of hyperparameters in a defined range, which can lead to a significant increase in computation time, especially in complex models like multiple linear regression with many parameters.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6868
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Convolutional networks, particularly through their ability to capture spatial hierarchies and features in visual data, have demonstrated superior performance in classifying high-resolution images compared to other architectures, making them the most effective choice as of 2020.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6839
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the Bayesian network consists of four nodes (H, U, P, W) and their conditional independence relationships require specifying the parameters of each node given its parents, resulting in a total of eight independent parameters to fully characterize the joint distribution.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def cummulative_sum(test_list): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it outlines the creation of a function that will compute the cumulative sum of all values in a tuple list, which requires iterating through the list and accumulating the total, though the specific implementation details are incomplete.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 614
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def even_bit_toggle_number(n) : | return n ^ res",
+      "marks": 10,
+      "explanation": "correct because it utilizes the bitwise XOR operator to toggle all even bits of the number, where `res` is a mask that has 1s in the positions of the even bits, allowing the function to flip those specific bits in the original number `n`.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 155
+    }
+  ]
+}

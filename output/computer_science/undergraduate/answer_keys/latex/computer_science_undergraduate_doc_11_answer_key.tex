@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(log $e^N$); B) O(log N); C) O(log log N); D) O(N)
+\\ \textit{Note:} The function O(log log N) represents an extremely slow growth rate compared to other common functions such as polynomial, exponential, and even logarithmic functions, making it the slowest growing type among the options typically considered in algorithm complexity analysis.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It was first proven by Alan Turing.; B) It has not yet been proven, but finding a proof is a subject of active research.; C) It can never be proven.; D) It is now in doubt because of the advent of parallel computers.
+\\ \textit{Note:} Church's thesis, also known as the Church-Turing thesis, asserts that any function that can be intuitively considered computable can be computed by a Turing machine, but it cannot be proven as it is a statement about the nature of computability rather than a theorem that can be formally verified.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 53; B) 29; C) 50; D) 100
+\\ \textit{Note:} The value of f(4) is 100 because the recursive function evaluates as f(4) = 4 * f(3) + 16, f(3) = 3 * f(2) + 9, f(2) = 2 * f(1) + 4, and f(1) = 0, leading to the final calculation f(4) = 4 * (3 * (2 * 0 + 4) + 9) + 16 = 100.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Error; B) abc; C) cba; D) c
+\\ \textit{Note:} The output of "abc"[::-1] in Python 3 is "cba" because the slicing notation with a step of -1 reverses the string by starting from the end and moving to the beginning.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) a[i] == max; B) a[i] != max; C) a[i] \textless{} max || a[i] \textgreater{} max; D) FALSE
+\\ \textit{Note:} The expression !(max != a[i]) is logically equivalent to a[i] == max, making the entire boolean expression reducible to just a[i] == max.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is indeed 'Chemistry'.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because confidentiality is not compromised solely by the act of logging in with stolen credentials; it is the unauthorized access and subsequent exposure of sensitive information that constitutes a breach of confidentiality.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Reference counting cannot reclaim cyclic structures because it only tracks the number of references to an object, failing to recognize when objects are mutually referencing each other, thus preventing their reference counts from ever reaching zero.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The method 'ab'.sort() is false because strings in Python are immutable, meaning they cannot be modified in place, and thus do not have a sort() method.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Static allocation does not accommodate the dynamic nature of recursive calls, which can lead to issues such as stack overflow and insufficient memory management for variable storage during multiple recursive invocations.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def increasing\_trend(nums): | return True | return False
+\\ \textit{Note:} The answer correctly identifies the need to evaluate a sequence of numbers for an increasing trend, but it lacks the necessary logic to compare the elements of the sequence and determine if each subsequent number is greater than the previous one, which is essential for accurately implementing the function.
+\item \textbf{Answer:} def check\_none(test\_tup): | return (res)
+\\ \textit{Note:} correct because it defines a function that is expected to evaluate the elements of a tuple for the presence of any `None` values, although the implementation details are incomplete and need to be filled in to provide the actual logic for checking.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

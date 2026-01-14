@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 22 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Sender's Private key; B) Sender's Public key; C) Receiver's Private key; D) Receiver's Public key
+\\ \textit{Note:} To verify a digital signature, the recipient must use the sender's public key because it allows them to decrypt the signature and confirm that it was created by the corresponding private key, ensuring the authenticity and integrity of the message.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) John the Ripper; B) L$_{0}$ phtCrack; C) Snort; D) Nessus
+\\ \textit{Note:} Snort is an open-source network intrusion detection system that effectively analyzes real-time traffic and identifies potential intrusions by monitoring network packets for suspicious activity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Modication detection code (MDC); B) Modify authentication connection; C) Message authentication control; D) Message authentication cipher
+\\ \textit{Note:} The correct answer is "Modification detection code (MDC)" because it describes the output of a hash function, which is used to verify data integrity by detecting any changes made to the original data.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Assume that the query is satisfiable and continue executing the path.; B) Assume that the query is not satisfiable and stop executing the path; C) Restart STP and retry the query, up to a limited number of retries.; D) Remove a subset of the constraints and retry the query.
+\\ \textit{Note:} The correct answer is based on the principle that when a solver times out, it cannot conclusively determine the satisfiability of the query, leading EXE to conservatively assume the query is unsatisfiable to prevent potential security vulnerabilities.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Yes, if the PRG is really "secure"; B) No, there are no ciphers with perfect secrecy; C) Yes, every cipher has perfect secrecy; D) No, since the key is shorter than the message
+\\ \textit{Note:} A stream cipher cannot achieve perfect secrecy because, by definition, perfect secrecy requires that the key length be at least as long as the message, ensuring that every possible plaintext is equally likely given any ciphertext, which is not the case when the key is shorter than the message.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A man-in-the-middle attack can still compromise the Diffie-Hellman method, as an attacker can intercept and alter the key exchange process regardless of the security of the connection between the two parties.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In the Data Encryption Standard (DES), the key schedule generates 16 subkeys, each of which is 48 bits long, from the original 56-bit key to be used in each round of the encryption process.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} SQL queries are highly vulnerable to injection attacks when user input is not properly validated and sanitized, allowing attackers to manipulate the query and execute malicious commands on the database.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} EtterPeak is recognized for its capability to analyze and visualize network traffic across various protocols, making it an effective tool for network analysis in cybersecurity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because while confidentiality, integrity, and non-repudiation are indeed primary security principles, access control is generally considered a mechanism to enforce those principles rather than a fundamental principle itself.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def text\_match\_zero\_one(text): | return 'Found a match!'
+\\ \textit{Note:} correct because it defines a function that is intended to identify a string pattern where the letter 'a' is followed by either no 'b' or one 'b', fulfilling the requirement of matching the specified regex condition.
+\item \textbf{Answer:} def check\_char(string): | return "Valid" | return "Invalid"
+\\ \textit{Note:} The provided answer correctly outlines a function to determine if a string starts and ends with the same character, but it lacks the implementation of the regex logic needed to perform the check, thereby failing to fully address the requirements of the question.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_03",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Adding more basis functions in a linear model allows for a more flexible representation of the data, which helps reduce model bias by enabling the model to better capture the underlying patterns in the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6880
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The softmax function is indeed used in multiclass logistic regression to convert logits into probabilities, and the temperature parameter in a nonuniform softmax distribution modifies the distribution's sharpness, thereby influencing its entropy.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6874
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Improving the optimization algorithm primarily affects the convergence speed and efficiency of training rather than addressing the model complexity or generalization issues that contribute to overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Stuart Russell is widely recognized for his work on the potential existential risks of artificial intelligence and has extensively addressed the implications of AI safety and alignment in his research and public discussions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and new, unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the output of a sigmoid node is bounded between 0 and 1, not encompassing all real numbers.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "One-class detection aims to identify instances that differ from a defined normal class, while out-of-distribution detection specifically seeks to identify instances that do not belong to any of the known classes, indicating that they are not synonymous.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "DenseNets require more memory than ResNets because their architecture involves dense connectivity between layers, leading to a significant increase in the number of feature maps that must be stored and processed at each layer.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the null space of a matrix is determined by the number of linearly independent solutions to the homogeneous equation Ax = 0, and a dimensionality of 2 indicates that there are two such independent solutions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "As the error rate decreases, a larger sample size is required to detect meaningful differences and achieve statistical significance due to the reduced variability in the results.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14785
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def count_elim(num): | return count_elim",
+      "marks": 10,
+      "explanation": "incorrect because it does not provide a complete function to count elements in a list until a tuple is encountered, lacking both the necessary logic and structure to fulfill the requirement.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 941
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def rear_extract(test_list): | return (res)",
+      "marks": 10,
+      "explanation": "correct as it outlines a function that presumably processes a list of tuples to extract the last element from each tuple, which is the intended operation described in the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 272
+    }
+  ]
+}

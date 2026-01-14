@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 7 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) AP-handshaking; B) 4-way handshake; C) 4-way connection; D) wireless handshaking
+\\ \textit{Note:} The correct answer is "4-way handshake" because it refers to the four-step process used in Wi-Fi security protocols, such as WPA and WPA 2, to securely establish a session key between a wireless user and an access point (AP) for encrypted communication.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) overwriting cryptographic keys in memory; B) a kind of code injection; C) a read outside bounds of a buffer; D) a format string attack
+\\ \textit{Note:} The Heartbleed bug allows attackers to exploit a vulnerability in the OpenSSL implementation of the TLS/SSL protocols, enabling them to read more data than intended from the server's memory, thus facilitating a read outside bounds of a buffer.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Replaced; B) Overview; C) Changed; D) Violated
+\\ \textit{Note:} A hash function produces a unique fixed-size output for a given input, allowing any alteration of the original message to be detected by comparing the hash values, thereby ensuring the integrity of the message by indicating whether it has been changed.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is widely recognized as the first significant instance of a buffer overflow attack, as it exploited vulnerabilities in networked systems to propagate itself and caused substantial disruptions, thereby highlighting the dangers of such exploits in cybersecurity.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Surface web; D) Deep Web
+\\ \textit{Note:} The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible through standard search queries.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a front-door typically refers to a legitimate access point to a system, while security enhancement is often achieved through back-door management and other protective measures that restrict unauthorized access.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} CBF, or Cipher Block Feedforward, is not a widely accepted or standardized block cipher operating mode in cryptography, making the statement true.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Wireless traffic sniffing involves capturing and analyzing data packets transmitted over wireless networks, which can provide critical information for forensic investigations into security incidents.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} While encryption provides confidentiality by making data unreadable to unauthorized users, it does not inherently ensure integrity, which requires additional mechanisms like hashing or digital signatures to verify that data has not been altered.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A packet filter firewall primarily operates at the network and transport layers, analyzing packet headers rather than inspecting payload data, which is characteristic of application layer firewalls.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def access\_key(ditionary,key): | return list(ditionary)[key]
+\\ \textit{Note:} correct because it converts the dictionary's keys into a list, allowing for indexed access to a specific key based on the provided index, which is essential for retrieving elements in a dictionary by their position.
+\item \textbf{Answer:} def distance\_lat\_long(slat,slon,elat,elon): | return dist
+\\ \textit{Note:} correct as it outlines a function that takes the latitude and longitude of two points as inputs, essential for calculating the geographical distance between them, which is a fundamental concept in cybersecurity for location-based data analysis.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

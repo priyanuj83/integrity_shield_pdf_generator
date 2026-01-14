@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_03",
+  "document_name": "Computer Science - K-12 Level Assessment 3",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_03.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_03_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is ['a', 'Chemistry', 0, 1][1]?",
+      "options": {
+        "A": "a",
+        "B": "Chemistry",
+        "C": "0",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Chemistry\" because the expression ['a', 'Chemistry', 0, 1] is a list in Python, and the index [1] accesses the second element of the list, which is 'Chemistry'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is the output of print list[1:3] if list = [ 'abcd', 786 , 2.23, 'john',\n70.2 ]?",
+      "options": {
+        "A": "[ 'abcd', 786 , 2.23, 'john', 70.2 ]",
+        "B": "abcd",
+        "C": "[786, 2.23]",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The output is [786, 2.23] because the slice list[1:3] retrieves the elements from index 1 to index 2 (the end index is exclusive) of the original list, which are the second and third elements, 786 and 2.23 respectively.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following operator in python performs exponential (power)\ncalculation on operands?",
+      "options": {
+        "A": "**",
+        "B": "//",
+        "C": "is",
+        "D": "not in"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The operator ** in Python 3 is specifically designated for performing exponential calculations, raising the left operand to the power of the right operand.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "If a, b, and c are integers, which of the following conditions is sufficient to guarantee\nthat the expression a < c || a < b && !(a == c) evaluates to true?",
+      "options": {
+        "A": "a < c",
+        "B": "a < b",
+        "C": "a > b",
+        "D": "a == b"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition \"a < c\" is sufficient to guarantee that the entire expression evaluates to true because if this condition is met, the first part of the logical OR (||) is satisfied, making the overall expression true regardless of the other conditions.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the hexadecimal representation of the decimal number 231_{10} ?",
+      "options": {
+        "A": "17_{16}",
+        "B": "E 4_{16}",
+        "C": "E 7_{16}",
+        "D": "F 4_{16}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it is equivalent to 14 times 16 (which is E) plus 7, resulting in E7.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The function long(x [,base]) in Python 3 is used to convert a string to an integer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the function long(x [,base]) does not exist in Python 3, as integer conversion is done using the int() function instead.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3183"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression x >> 1 for x = 8 evaluates to 3, which is the result of a right bitwise shift.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the expression x >> 1 for x = 8 evaluates to 4, not 3, as a right bitwise shift divides the number by 2 for each shift.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3227"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression ['Hi!'] * 4 produces the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the expression ['Hi!'] * 4 creates a list that repeats the single element 'Hi!' four times, resulting in ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3262"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Python cannot be integrated with languages like C or Java.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Python can be integrated with languages like C or Java through various methods such as the use of extension modules, foreign function interfaces, or interoperability frameworks like Jython and CPython.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3226"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Python variable names are not case-sensitive and can be used interchangeably regardless of their letter casing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Python variable names are case-sensitive, meaning that variables such as \"myVar\" and \"myvar\" are considered distinct and cannot be used interchangeably.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_03_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the advantages and disadvantages of using linear search versus binary search for\nfinding a target value in a sorted list, particularly as the list size increases.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When comparing linear search and binary search for finding a target value in a sorted\nlist, there are distinct advantages and disadvantages to each method, especially as the\nlist size grows. Linear search examines each element one by one until it finds the target,\nmaking it simple and straightforward but inefficient for large lists, as its time\ncomplexity is O(n). On the other hand, binary search takes advantage of the sorted nature\nof the list, repeatedly dividing the search interval in half, which significantly reduces\nthe number of comparisons needed, leading to a time complexity of O(log n). As the size of\nthe list increases, the advantages of binary search become more pronounced, making it the\npreferred method for large datasets due to its efficiency. Thus, while linear search may\nbe easier to implement for small lists, binary search is generally more effective for\nlarger ones.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately outlines that linear search is straightforward but inefficient for large lists with a time complexity of O(n), while binary search is more efficient due to its logarithmic time complexity by leveraging the sorted nature of the list.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3230"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_03_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the given code segment involving the variables r, s, and t. Explain the changes to\neach variable step-by-step and discuss the final output displayed by the program.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In the given code segment, the variables r, s, and t undergo specific changes through a\nseries of operations. Initially, let's assume r is assigned a value of 2. In the next\nstep, s is set to r + 1, which means s becomes 3. Finally, t could be assigned the value\nof s, but since the question focuses on r and s, the final values of these variables are r\n= 2 and s = 3. Thus, the program will display the final output of 2 for r and 3 for s.\nThis step-by-step analysis highlights how the variables were manipulated and their final\nstates.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the step-by-step operations performed on the variables r and s, demonstrating how their values are derived and concluding with the accurate final output displayed by the program.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3277"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

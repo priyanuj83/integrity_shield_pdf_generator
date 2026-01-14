@@ -1,0 +1,294 @@
+{
+  "docid": "engineering_graduate_doc_05",
+  "document_name": "Engineering - Graduate Level Assessment 5",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_05.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How many joules are equivalent to one lit-atmof work?",
+      "options": {
+        "A": "106.4 joule",
+        "B": "98.6 joule",
+        "C": "99.5 joule",
+        "D": "97.8 joule",
+        "E": "101.3 joule"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - 101.3 joule",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Determine if the function f(x, y) = [(x^2 - y^2) / (x^2 + y^2)](1) iscontinuous at the\norigin.",
+      "options": {
+        "A": "The function is continuous at (0, 0)",
+        "B": "The function is continuous along the line y = x",
+        "C": "The function has a removable discontinuity at the origin",
+        "D": "The function is continuous along the line y = -x",
+        "E": "The function is continuous at all points"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - The function is continuous at (0, 0)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11939"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In force-current analogy, electrical analogous quantity for displacement (x) is",
+      "options": {
+        "A": "inductance.",
+        "B": "resistance.",
+        "C": "impedance.",
+        "D": "voltage.",
+        "E": "capacitance."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - inductance.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11289"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the Laplace transform of f(t) = t, for t > 0.",
+      "options": {
+        "A": "L{t} = (2 / s^3)",
+        "B": "L{t} = (1 / s^3)",
+        "C": "L{t} = s^2",
+        "D": "L{t} = (1 / (2 s^2))",
+        "E": "L{t} = (1 / s^2)"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - L{t} = (1 / s^2)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Use the derivative property of Laplace transforms to solve the differential equation y' -\ny = e^-x(1) where y(0) = 0 is the initial value of y.",
+      "options": {
+        "A": "sinh x",
+        "B": "e^x - e^-x",
+        "C": "e^x + x",
+        "D": "x^2 e^x",
+        "E": "cosh x"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - sinh x",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The convolution of f(t) = t and g(t) = t^2 results in f(t) *_* g(t) = t^4 / 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11727"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The voltage across an inductor is equal to the current multiplied by the inductance, resulting in V_L(t) = 0.1 sin(10^6 t).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '100 cos 10^6 t'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11998"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The gain of a half-wave dipole antenna is approximately 1.2 dBi.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11838"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A heat sink is sufficient on its own to protect the SCR from overcurrent without additional protective devices.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'Voltage clamping device.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11739"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_05_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A steel bar designed for the same load and safety factor could adequately perform with a diameter of 2 inches.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '1 5/8 inches'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12176"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_05_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between droplet diameter and internal pressure in water at\n20^\\circC. What diameter is required for the internal pressure to exceed external pressure\nby 1.0 kPa?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "0.3 mm. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_05_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Using dimensional analysis, derive and discuss the relationship between the bubble\ndiameter and the physical properties of water in the context of gas bubbles formed from a\nsmall orifice.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "D = f[(\\sigma) / (g_c\\rho d^2), {\\mu^2 / (g\\rho d^3)}]. Explain why this is the correct\nanswer and provide supporting evidence. Reference key facts or concepts that support this\nchoice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12032"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

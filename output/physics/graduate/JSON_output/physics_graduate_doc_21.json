@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_21",
+  "document_name": "Physics - Graduate Level Assessment 21",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_21.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In the atomic nucleus, electrical forces tend to",
+      "options": {
+        "A": "cause particles to become neutral",
+        "B": "increase the mass of the nucleus",
+        "C": "cause particles to spin",
+        "D": "generate heat within the nucleus",
+        "E": "create magnetic fields"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the atomic nucleus, electrical forces cause positively charged protons to repel each other, while the presence of neutrons helps to neutralize these repulsive forces, contributing to the overall stability of the nucleus.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9947"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A car battery supplies a currentI of 50 amp to the starter motor. How much charge passes\nthrough the starter in (1/2) min?",
+      "options": {
+        "A": "1000 coul",
+        "B": "1800 coul",
+        "C": "3000 coul",
+        "D": "1500 coul",
+        "E": "2500 coul"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1500 coulombs because charge is calculated by multiplying current (in amperes) by time (in seconds), so 50 A for 30 seconds (1/2 min) yields 50 A \u00d7 30 s = 1500 C.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9064"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Electricity and magnetism connect to form",
+      "options": {
+        "A": "mass",
+        "B": "low-frequency sound",
+        "C": "nuclear power",
+        "D": "energy",
+        "E": "heat"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on Einstein's theory of relativity, which establishes a deep connection between electricity, magnetism, and mass, demonstrating that energy (from electric and magnetic fields) can be converted into mass, as expressed in the equation E=mc\u00b2.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9435"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature\nreservoir at temperature T. The average total energy of the oscillator is",
+      "options": {
+        "A": "2 kT",
+        "B": "(7/2) k T",
+        "C": "5 kT",
+        "D": "(1/4) k T",
+        "E": "3 kT"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a three-dimensional harmonic oscillator, each degree of freedom contributes an average energy of \\( \\frac{1}{2} kT \\) due to equipartition of energy, resulting in a total average energy of \\( 3 \\times \\frac{1}{2} kT = \\frac{3}{2} kT \\) for kinetic energy and the same for potential energy, leading to an overall average total energy of \\( 3 kT \\).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9996"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "An airplane lands on a carrier deck at 150 mi/hr and is brought to a stop uniformly, by an\narresting device, in 500 ft. Find the acceleration and the time required to stop.",
+      "options": {
+        "A": "-45 ft/sec^2 and 4 sec",
+        "B": "-48.4 ft/sec^2 and 4.55 sec",
+        "C": "-40 ft/sec^2 and 6 sec",
+        "D": "-42 ft/sec^2 and 5.5 sec",
+        "E": "-52 ft/sec^2 and 4.8 sec"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from applying the kinematic equations of motion, where the airplane's initial velocity, final velocity (zero upon stopping), and stopping distance allow for the calculation of acceleration as -48.4 ft/sec\u00b2 and the time to stop as 4.55 seconds through the relationship \\( v^2 = u^2 + 2as \\) and \\( v = u + at \\).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9530"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The total energy needed to remove both electrons from a helium atom is 39.5 eV.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total energy required to remove both electrons from a helium atom is approximately 79 eV, as the first ionization energy is about 24.6 eV and the second ionization energy is around 54.4 eV, leading to a total that exceeds 39.5 eV.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9172"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "Solar radiation is the primary contributor to Earth's internal energy, primarily through thermal conduction and gravitational pressure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Solar radiation primarily influences Earth's surface temperature and atmospheric processes, while Earth's internal energy is mainly generated by radioactive decay and residual heat from its formation, not through thermal conduction and gravitational pressure.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10334"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The mass of an atom comes mostly from its electrons, and its volume is primarily due to its protons.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mass of an atom primarily comes from its protons and neutrons, as they have significantly greater mass than electrons, while the volume of an atom is mainly due to the space occupied by its electron cloud rather than the volume of the protons.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9322"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Protons have a half-life of 10^33 years, resulting in a decay rate of approximately 4.8 e-05 per day for a 62-kg person.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because protons are currently understood to be stable particles with no confirmed decay, thus they do not have a half-life.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9739"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_21_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A car engine with a power output of 33 horsepower generates a force of 300 lbs while traveling at 45 mi/hr.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the power output of 33 horsepower, which is equivalent to approximately 24,500 watts, cannot produce a force of 300 lbs at a speed of 45 mi/hr, as the required power to maintain that force at that speed would exceed 33 horsepower.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9185"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_21_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the motion of a stone thrown horizontally from a bridge with an initial speed of\n10 m/s. Analyze the time it takes to reach the water 80 m below, considering gravitational\neffects and neglecting air resistance.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the motion of a stone thrown horizontally from a bridge with an initial speed\nof 10 m/s, we first consider the vertical motion under the influence of gravity. The stone\nfalls 80 m vertically, and using the equation of motion \\( s = ut + \\frac{1}{2}gt^2 \\)\n(where \\( s \\) is the vertical distance, \\( u \\) is the initial vertical speed, \\( g \\) is\nthe acceleration due to gravity, and \\( t \\) is time), we set \\( u = 0 \\) since the\ninitial vertical velocity is zero. Rearranging the equation for time yields \\( t =\n\\sqrt{\\frac{2 s}{g}} \\). Substituting \\( s = 80 \\) m and \\( g \\approx 9.81 \\) m/s^2, we\nfind \\( t \\approx \\sqrt{\\frac{160}{9.81}} \\approx 4 \\) seconds. Thus, the stone takes\napproximately 4 seconds to reach the water, confirming the key answer.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it appropriately applies the kinematic equation for vertical motion, recognizing that the stone's initial vertical speed is zero, allowing for the calculation of the time to fall 80 m solely under the influence of gravity.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10162"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_21_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the motion of passengers on a carnival ride moving in a horizontal circle of\nradius 5.0 m, completing a revolution in 4.0 s. Calculate their acceleration and discuss\nthe implications of this acceleration in terms of centripetal force and safety.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the motion of passengers on a carnival ride moving in a horizontal circle with\na radius of 5.0 m, completing a revolution in 4.0 s, we first calculate the linear\nvelocity (v) using the formula v = 2\u03c0r/T, where r is the radius and T is the period.\nSubstituting the values gives v = 2\u03c0(5.0 m)/(4.0 s) = 3.93 m/s. The centripetal\nacceleration (a_c) can then be calculated using the formula a_c = v^2/r, leading to a_c =\n(3.93 m/s)^2/(5.0 m) = 3.08 m/s^2. This acceleration indicates that a centripetal force\nmust act upon the passengers, directed towards the center of the circular path, which is\ncrucial for maintaining their circular motion. The implications of this acceleration in\nterms of safety suggest that the ride must be designed to ensure that the centripetal\nforce is sufficient to keep passengers securely in their seats, preventing potential\nhazards associated with excessive acceleration or inadequate centripetal force.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formulas for linear velocity and centripetal acceleration to determine the motion of passengers on a carnival ride, demonstrating the relationship between these calculations and the implications for centripetal force and safety.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9832"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

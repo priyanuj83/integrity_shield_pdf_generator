@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_05",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The condition (ab)^-1 = a^-1 b^-1 implies that the operation in the group is commutative, meaning a*b = b*a for all a, b in G, which defines an abelian group.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 31
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The relation ~ is transitive because for every pair (a, b) and (b, c) in the relation, there exists a pair (a, c), specifically, since (1, 2) and (1, 3) do not violate transitivity and the other pairs do not provide a counterexample.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 63
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 0 and 4 because these are the values in the finite field Z_5 that satisfy the polynomial equation x^5 + 3x^3 + x^2 + 2x = 0 when evaluated modulo 5.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 2
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The condition (ab)^2 = a^2 b^2 for all a, b in G implies that ab * ab = aa * bb, which can be rearranged to show that ab = ba, demonstrating that G is abelian since the operation is commutative for any elements a and b in the group.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1137
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The maximum possible order of an element in the symmetric group S_n is determined by the least common multiple of the lengths of the disjoint cycles in its cycle decomposition, and for n=7, the cycle type (3,2,2) produces an order of 12, which is the highest achievable.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 14050
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The functional equation f(1 + x) = f(x) implies that f is periodic with a period of 1, allowing us to determine that f(15/2) = f(5) = 11.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 15616
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because while every permutation can be expressed as a product of disjoint cycles, not every permutation can be expressed as a single disjoint cycle, particularly when considering permutations with multiple independent cycles.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 39
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the circle intersects the parabola at a maximum of two points, while other curves can intersect the parabola at more than two points, such as lines or other parabolas.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1193
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The product of (2,3) and (3,5) in the ring Z_5 x Z_9 is calculated as (2*3 mod 5, 3*5 mod 9), which results in (1,6), not (3,1), making the statement false.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 17
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a function is a permutation if and only if it is both one-to-one and onto, and this definition holds true; thus, it is incorrect to claim it is \"not always the case.\"",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 89
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Cardinality in set theory refers to the size of a set, specifically the number of elements\nit contains. When considering the set of all functions from the real numbers R to the set\n{0, 1}, we can observe that each function can be seen as a way to assign either 0 or 1 to\nevery real number. This results in a vast number of possible functions, specifically\n2^|R|, where |R| represents the cardinality of the real numbers. Since the cardinality of\nthe continuum, |R|, is uncountably infinite, this leads to the conclusion that the set of\nall such functions has a cardinality of 2^\u2135\u2081, which is greater than the cardinality of R\nitself. Therefore, the set of all functions from R to {0, 1} not only demonstrates the\nconcept of cardinality but also highlights why it has the greatest cardinality compared to\nother sets.",
+      "marks": 10,
+      "explanation": "correct because it highlights that the set of all functions from R to {0, 1} has a cardinality of 2^|R|, which is greater than the cardinality of any other set, due to the uncountably infinite size of R.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1176
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The trace of an n \\times n matrix, denoted as tr(A), is defined as the sum of its diagonal\nelements. A key property of the trace is that it is linear, meaning tr(A + B) = tr(A) +\ntr(B) and tr(cA) = c tr(A) for any scalar c. Additionally, the trace of the product of two\nmatrices satisfies the cyclic property: tr(AB) = tr(BA). However, when examining the\nstatement regarding tr(A^2), it is important to note that while tr(A^2) is always non-\nnegative (as it is the sum of squares of the eigenvalues of A), the specific assertions\nabout its properties can depend on the context or conditions given. Therefore, the\nvalidity of statements regarding tr(A^2) holds true under certain conditions, particularly\nwhen A is symmetric or positive definite, which justifies the assertion that only\nstatement II is valid.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the properties of the trace, including linearity and the cyclic property, while also addressing the specific case of tr(A^2) being non-negative due to its relationship with the eigenvalues of the matrix A.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1139
+    }
+  ]
+}

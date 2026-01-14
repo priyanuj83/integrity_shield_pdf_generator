@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 15 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Modication detection code (MDC); B) Modify authentication connection; C) Message authentication control; D) Message authentication cipher
+\\ \textit{Note:} The correct answer is Modification Detection Code (MDC) because a hash function generates a unique digest that serves to verify the integrity of data by detecting any alterations made to the original content.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Generational; B) Blackbox; C) Whitebox; D) Mutation-based
+\\ \textit{Note:} Whitebox fuzzers have access to the program's internal structure and logic, enabling them to systematically explore all code paths and ensure comprehensive coverage, making them more effective than other styles in achieving line coverage.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Surface web; D) Deep Web
+\\ \textit{Note:} The Deep Web refers to all parts of the internet that are not indexed by traditional search engines, including databases, private content, and other resources, making it inaccessible for standard search queries.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 160 bits; B) 512 bits; C) 628 bits; D) 820 bits
+\\ \textit{Note:} SHA-1 produces a hash value that is 160 bits long, which is a fundamental characteristic of the SHA-1 hashing algorithm used in cryptography.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) It generates each different input by modifying a prior input; B) It works by making small mutations to the target program to induce faults; C) Each input is mutation that follows a given grammar; D) It only makes sense for file-based fuzzing, not network-based fuzzing
+\\ \textit{Note:} Mutation-based fuzzing is characterized by its method of creating new test inputs through systematic alterations of existing inputs, thereby allowing it to explore variations that may uncover vulnerabilities in software.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A proxy firewall operates at the application layer of the OSI model, rather than the physical layer, by intercepting and filtering traffic between clients and servers based on application-level protocols.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In message confidentiality, the transmitted message is meant to be unintelligible to unauthorized parties, including potential interceptors, meaning it does not need to be comprehensible to the translator if they lack the proper decryption key.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} BurpSuite is primarily designed for web application security testing, specifically for identifying vulnerabilities in web applications, rather than for monitoring and analyzing wireless traffic.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message nonrepudiation is achieved through mechanisms such as digital signatures, which provide proof of the origin and integrity of a message, thereby preventing the sender from denying their involvement in sending it.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message integrity is achieved through cryptographic techniques that verify that data has not been altered during transmission, confirming that it is received exactly as it was sent.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_Pairs(arr,n): | return sum
+\\ \textit{Note:} correct because it outlines a function that is intended to compute the sum of absolute differences for all pairs in the given array, which is a fundamental operation in many cybersecurity algorithms for analyzing data variability and ensuring data integrity.
+\item \textbf{Answer:} def sum\_nums(x, y,m,n): | return 20 | return sum\_nums
+\\ \textit{Note:} The provided function correctly defines a method that adds two integers, but it lacks the necessary logic to check if the sum falls within the specified range and return 20 accordingly, thus failing to meet the requirements of the question.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

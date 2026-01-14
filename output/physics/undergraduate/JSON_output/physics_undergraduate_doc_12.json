@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_12",
+  "document_name": "Physics - Undergraduate Level Assessment 12",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_12.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_12_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A meter stick with a speed of 0.8 c moves past an observer. In the observer's reference\nframe, how long does it take the stick to pass the observer ?",
+      "options": {
+        "A": "1.6 ns",
+        "B": "2.5 ns",
+        "C": "4.2 ns",
+        "D": "6.9 ns"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2.5 ns because, in the observer's reference frame, the length contraction of the meter stick due to its speed of 0.8c results in an effective length of approximately 0.6 meters, and the time taken to pass the observer is calculated using the formula time = length/speed, which gives 0.6m / (0.8c) = 2.5 ns.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_12_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm,\nrespectively. Which of the following gives the resolving power of the spectrometer?",
+      "options": {
+        "A": "2",
+        "B": "250",
+        "C": "5,000",
+        "D": "10,000"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and since the difference between the two wavelengths is 2 nm (502 nm - 500 nm), the resolving power is calculated as 500 nm / 2 nm = 250.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_12_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which\nof the following properties?",
+      "options": {
+        "A": "Specific heat",
+        "B": "Thermal conductivity",
+        "C": "Electrical resistivity",
+        "D": "Hall coefficient"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Hall coefficient indicates the type of charge carriers in a doped semiconductor\u2014positive or negative\u2014by analyzing the direction of the induced voltage resulting from a magnetic field applied perpendicular to the current flow.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1381"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_12_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant\nof 4.0 is",
+      "options": {
+        "A": "1.2 * 10^9 m/s",
+        "B": "3.0 * 10^8 m/s",
+        "C": "1.5 * 10^8 m/s",
+        "D": "1.0 * 10^8 m/s"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The speed of light in a dielectric medium is calculated using the formula c/n, where c is the speed of light in a vacuum (approximately 3.0 x 10^8 m/s) and n is the refractive index, which is the square root of the dielectric constant; thus, for a dielectric constant of 4.0, the refractive index n is 2.0, resulting in a speed of light of 1.5 x 10^8 m/s.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1460"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_12_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The negative muon, mu^-, has properties most similar to which of the following?",
+      "options": {
+        "A": "Electron",
+        "B": "Meson",
+        "C": "Photon",
+        "D": "Boson"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The negative muon (\u03bc^-) is a leptonic particle that shares similar properties with the electron, such as having a negative charge and being a fundamental particle with comparable mass and behavior under electromagnetic interactions.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1406"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_12_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Electromagnetic radiation emitted from a nucleus is most likely in the form of gamma rays.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Electromagnetic radiation emitted from a nucleus is most likely in the form of gamma rays because gamma rays are high-energy photons released during nuclear decay processes when the nucleus transitions from a higher energy state to a lower energy state.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14195"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_12_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The primary source of the Sun's energy is the fusion of four hydrogen atoms into one helium atom, releasing energy according to E=mc^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the core processes of the Sun involve nuclear fusion, where four hydrogen nuclei combine to form a helium nucleus, releasing energy as a result of the mass defect, which is described by Einstein's equation E=mc^2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_12_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The resolving power of the grating spectrometer for wavelengths of 500 nm and 502 nm is 250.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a grating spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and for wavelengths of 500 nm and 502 nm, the resolving power is indeed 250, which allows for distinguishing between these two closely spaced wavelengths.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1419"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_12_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "A dye laser is the best type of laser for spectroscopy across a range of visible wavelengths.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A dye laser is considered the best type of laser for spectroscopy across a range of visible wavelengths because it can be tuned to emit a wide variety of wavelengths by changing the dye solution, allowing it to match specific absorption or emission lines of different molecules effectively.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1420"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_12_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "In a single-electron atom with l = 2, there are only 3 allowed values for the magnetic quantum number m_l.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because for a given azimuthal quantum number l, the magnetic quantum number m_l can take on values ranging from -l to +l, which for l = 2 allows for a total of 5 possible values: -2, -1, 0, +1, and +2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1432"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_12_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the allowed transitions for an electron in the n = 4, l = 1 state of hydrogen.\nExplain which final states are not reachable and why, using quantum mechanical principles.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In the hydrogen atom, an electron in the n = 4, l = 1 state can transition to a variety of\nlower energy states, specifically those allowed by the selection rules of quantum\nmechanics. The primary selection rules dictate that the change in the principal quantum\nnumber (\u0394n) can be any integer, while the change in the azimuthal quantum number (\u0394l) must\nbe \\pm 1. Therefore, an electron in the n = 4, l = 1 state can transition to the n = 3, l\n= 0 state or the n = 3, l = 2 state. However, transitions to states such as n = 4, l = 1\nor n = 2, l = 1 are not allowed, as they violate the selection rules regarding changes in\nl or do not result in a decrease in energy. Thus, the only reachable final state from n =\n4, l = 1 is n = 3, l = 1, which adheres to these quantum mechanical principles.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the quantum mechanical selection rules, specifically that \u0394l must be \u00b11, allowing transitions from the n = 4, l = 1 state to the n = 3, l = 0 and n = 3, l = 2 states, while also recognizing that certain final states are not reachable due to these rules.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1450"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_12_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze a one-dimensional inelastic collision where a particle of mass 2 m collides with a\nstationary mass m. Discuss the initial kinetic energy and calculate the fraction lost\nduring the collision.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In a one-dimensional inelastic collision between a particle of mass 2 m and a stationary\nmass m, the initial kinetic energy is solely due to the moving mass, given by KE_initial =\n1/2 (2 m)v^2 = mv^2, where v is the initial velocity of the moving mass. After the\ncollision, the two masses stick together and move with a common velocity, which can be\nfound using conservation of momentum: 2 mv = (2 m + m)V, leading to V = (2/3)v. The final\nkinetic energy of the combined mass is KE_final = 1/2 (3 m)(2/3 v)^2 = 2/3 mv^2. The\nfraction of kinetic energy lost during the collision is then calculated as (KE_initial -\nKE_final) / KE_initial = (mv^2 - (2/3)mv^2) / mv^2 = 1/3. Thus, the collision results in a\nloss of one-third of the initial kinetic energy.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it correctly applies the principles of conservation of momentum and kinetic energy to determine the initial kinetic energy, the final velocity after the inelastic collision, and subsequently calculates the fraction of kinetic energy lost during the collision.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1465"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

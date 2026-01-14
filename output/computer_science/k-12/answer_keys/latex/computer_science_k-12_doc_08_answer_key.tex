@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Yes; B) No; C) It's machine-dependent; D) None of the above
+\\ \textit{Note:} Python variable names are case-sensitive, meaning that variables such as "Variable", "variable", and "VARIABLE" are considered distinct and separate identifiers.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 1 because the expression evaluates the modulus operation first, where 3 \% 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) ( 'abcd', 786 , 2.23, 'john', 70.2 ); B) abcd; C) Error; D) None of the above.
+\\ \textit{Note:} The correct answer is "abcd" because in Python, indexing starts at 0, so tuple[0] retrieves the first element of the tuple, which is 'abcd'.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) A device driver is assigned to the device.; B) An Internet Protocol (IP) address is assigned to the device.; C) A packet number is assigned to the device.; D) A Web site is assigned to the device.
+\\ \textit{Note:} When a new device is connected to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and allows for communication with other devices.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 4; B) 1; C) 256; D) 16
+\\ \textit{Note:} The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the seed([x]) function initializes the random number generator with a specified starting value, ensuring that the sequence of random numbers can be reproduced if the same seed is used.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The condition a \textless{} c guarantees that the value of a is less than c, which makes any comparison involving a and c true in the context of evaluating relational expressions within programming and mathematical logic.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the max function in Python 3 is designed to evaluate a list of numerical values and return the highest value, which in the case of the list [1, 2, 3, 4], is indeed 4.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The strip() function in Python 3 is designed to remove all types of leading and trailing whitespace characters, including spaces, tabs, and newline characters, from a string.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression x \textless{}\textless{} 3 performs a left bitwise shift on the binary representation of x, so when x is 1 (which is 0001 in binary), shifting it left by 3 positions results in 8 (which is 1000 in binary), not 16.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} A Web server is a crucial component of the Internet ecosystem, functioning as a computer system that delivers Web pages to clients, such as users' browsers. When a user types a website address, their browser sends a request to the Web server hosting that site. The server processes this request, retrieves the appropriate Web page, and sends it back to the client's browser, allowing the user to view the content. This process is vital for web communication, as it enables the exchange of information and resources across the Internet, connecting people and services worldwide. Without Web servers, accessing and sharing information online would not be possible.
+\\ \textit{Note:} The answer correctly identifies the Web server's role in processing user requests and delivering Web pages, emphasizing its essential function in facilitating web communication and information exchange.
+\item \textbf{Answer:} The selection sort algorithm operates by repeatedly finding the minimum element from the unsorted portion of the array and moving it to the beginning. In each pass, it compares each element in the unsorted portion to find the smallest one, resulting in a fixed number of comparisons that does not depend on how the elements are arranged initially. Specifically, for an array of size n, selection sort makes n-1 comparisons in the first pass, n-2 in the second, and so on, totaling to about n(n-1)/2 comparisons overall. This means that regardless of whether the array is already sorted, reverse sorted, or randomly ordered, the algorithm will still perform the same number of comparisons. Thus, the number of comparisons remains consistent because selection sort always examines every element in the unsorted portion during each pass.
+\\ \textit{Note:} correct because selection sort consistently performs a predetermined number of comparisons based solely on the array's size, regardless of the initial arrangement of elements, as it systematically scans the entire unsorted segment to locate the minimum value in each iteration.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

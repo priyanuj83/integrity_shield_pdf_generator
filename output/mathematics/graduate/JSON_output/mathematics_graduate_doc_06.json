@@ -1,0 +1,293 @@
+{
+  "docid": "mathematics_graduate_doc_06",
+  "document_name": "Mathematics - Graduate Level Assessment 6",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_06.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_06.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_06_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_06_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_06_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_06_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Of the cans of soup in Rolando's cupboard, 1/2 are tomato and 2/5 are chicken noodle. What\nfraction of the cans of soup in Rolando's cupboard are either tomato or chicken noodle?",
+      "options": {
+        "A": "2/3",
+        "B": "10-Sep",
+        "C": "5-Mar",
+        "D": "6/11",
+        "E": "5/8"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10/9 because to find the total fraction of the cans that are either tomato or chicken noodle, we add 1/2 (tomato) and 2/5 (chicken noodle) by finding a common denominator, which results in 10/10 + 8/10 = 18/10 or 9/5, and then simplifying gives us 10/9 for the cans of soup.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8797"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The value of the digit 5 in 24,513 is how many times the value of the digit 5 in 357?",
+      "options": {
+        "A": "0",
+        "B": "50",
+        "C": "100",
+        "D": "100,000",
+        "E": "5,000"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of the digit 5 in 24,513 is 500, while the value of the digit 5 in 357 is 5, making the ratio of their values 500/5, which simplifies to 100, not 0; however, the question specifically asks how many times the digit 5 in 357 fits into the value of 5 in 24,513, which results in a comparative basis of 0 since 500 is not a multiple of 5 in the context indicated.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8356"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If a series circuit has a capacitor of $C=0.8 \\times 10^{-6} \\mathrm{~F}$ and an inductor\nof $L=0.2 \\mathrm{H}$, find the resistance $R$ so that the circuit is critically damped.",
+      "options": {
+        "A": "500 $\\Omega$",
+        "B": "400 $\\Omega$",
+        "C": "3000 $\\Omega$",
+        "D": "1250 $\\Omega$",
+        "E": "1000 $\\Omega$"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct resistance for critical damping in an RLC series circuit is given by the formula \\( R = 2\\sqrt{\\frac{L}{C}} \\), and substituting \\( L = 0.2 \\, \\text{H} \\) and \\( C = 0.8 \\times 10^{-6} \\, \\text{F} \\) results in \\( R = 1000 \\, \\Omega \\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8644"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let V be the space spanned by functions cos(2 x) and sin(2 x). Find the determinant of the\nlinear transformation D(f) = f' from V to V.",
+      "options": {
+        "A": "0",
+        "B": "-1",
+        "C": "1",
+        "D": "2",
+        "E": "-2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The determinant of the linear transformation D(f) = f' is 0 because the functions cos(2x) and sin(2x) are linearly dependent on their derivatives, which implies that the transformation does not have full rank in the finite-dimensional space V spanned by these functions.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "How many ways are there to partition a set of 5 elements into 3 non-empty cycles?",
+      "options": {
+        "A": "45",
+        "B": "10",
+        "C": "15",
+        "D": "40",
+        "E": "50"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 45 because the number of ways to partition a set of \\( n \\) elements into \\( k \\) non-empty cycles is given by the formula \\( \\frac{n!}{k!} \\cdot S(n, k) \\), where \\( S(n, k) \\) is the Stirling number of the second kind, and for \\( n = 5 \\) and \\( k = 3 \\), this calculation yields 45.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The correct answer to '5.4-21. Let $X$ and $Y$ be independent with distributions $N(5,16)$ and $N(6,9)$, respectively. Evaluate $P(X>Y)=$ $P(X-Y>0)$.' is '$0.5873$'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, when \\( X \\) and \\( Y \\) are independent normal variables, the difference \\( X - Y \\) also follows a normal distribution with mean \\( 5 - 6 = -1 \\) and variance \\( 16 + 9 = 25 \\), allowing us to calculate \\( P(X - Y > 0) \\) using the cumulative distribution function of the resulting normal distribution, which yields an approximate probability of \\( 0.5873 \\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7783"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The number 343 can be expressed in exponential notation as 7^3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because 7 raised to the power of 3 (7^3) equals 7 \u00d7 7 \u00d7 7, which equals 343.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7713"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Reflecting the vertex (-1, 4) across the line y = x results in the vertex (4, -1) in pentagon P'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reflection of the vertex (-1, 4) across the line y = x results in the point (4, -1), but this does not correspond to the vertex of pentagon P', which would require verifying if (4, -1) is indeed a vertex of that specific pentagon.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8582"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The correct answer to '\\lim_{x \\to 1}(1/(x - 1) - c/(x^3 - 1)) exists. What is the value of c?' is '4'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the limit does not exist for any value of c, as the term \\(1/(x - 1)\\) approaches infinity while the term \\(-c/(x^3 - 1)\\) also approaches infinity as \\(x\\) approaches 1, leading to an indeterminate form.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8749"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_06_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The largest integer for which (x+11)/(x+7) is an integer is 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because (x + 11)/(x + 7) simplifies to 1 + 4/(x + 7), indicating that it can take on integer values for various integers x, specifically for x = -6, which results in the expression being equal to 2, thus proving that the largest integer is not limited to 1.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8613"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_06_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of a correlation coefficient of 1 in the context of statistical\nanalysis, particularly focusing on its interpretation regarding cause-and-effect\nrelationships between variables.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A correlation coefficient of 1 signifies a perfect positive linear relationship between\ntwo variables, suggesting that as one variable increases, the other does so in a\nconsistent and proportional manner. This correlation can be interpreted as indicative of a\ndirect cause-and-effect relationship, where changes in one variable directly lead to\nchanges in the other. However, it is crucial to exercise caution in interpretation, as\ncorrelation does not inherently imply causation without additional context or experimental\nevidence. External factors, confounding variables, or coincidental relationships may also\ninfluence the observed correlation. Therefore, while a correlation of 1 strongly suggests\na relationship, it necessitates further investigation to establish true causality.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that a correlation coefficient of 1 indicates a perfect positive linear relationship between two variables, while also emphasizing the critical distinction that correlation alone does not establish causation, necessitating further analysis to confirm any cause-and-effect dynamics.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8981"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_06_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of a 70% probability of rain on a given day. What is the\ncomplementary probability of no rain, and how does this concept apply to probability\ntheory?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A 70% probability of rain on a given day indicates a high likelihood of precipitation,\nsuggesting that weather-related decisions should account for this risk. The complementary\nprobability of no rain is therefore 30%, calculated as 1 minus the probability of rain (1\n- 0.70 = 0.30). This concept illustrates fundamental principles in probability theory,\nwhere the probabilities of all possible outcomes in a sample space must sum to 1.\nUnderstanding this complementary relationship is crucial for making informed decisions\nbased on probabilistic forecasts, as it highlights the inherent uncertainty and\nvariability in predicting weather patterns.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the complementary probability of no rain as 30%, demonstrating the fundamental principle in probability theory that the sum of the probabilities of all possible outcomes must equal 1, which is essential for understanding risk assessment in weather forecasting.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8819"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

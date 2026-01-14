@@ -1,0 +1,290 @@
+{
+  "docid": "physics_undergraduate_doc_01",
+  "document_name": "Physics - Undergraduate Level Assessment 1",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_01.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_01_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature\nreservoir at temperature T. The average total energy of the oscillator is",
+      "options": {
+        "A": "(1/2) k T",
+        "B": "kT",
+        "C": "(3/2) k T",
+        "D": "3 kT"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The average total energy of a three-dimensional harmonic oscillator in thermal equilibrium at temperature T is given by the equipartition theorem, which states that each degree of freedom contributes an average energy of (1/2)kT, resulting in a total of 3kT for the three spatial dimensions.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1403"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_01_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The eigenvalues of a Hermitian operator are always",
+      "options": {
+        "A": "real",
+        "B": "imaginary",
+        "C": "degenerate",
+        "D": "linear"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The eigenvalues of a Hermitian operator are always real because Hermitian operators, which represent observable physical quantities in quantum mechanics, have the property that their eigenvalues must correspond to measurable values, and the mathematical formulation ensures that these values are real numbers.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1421"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_01_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The quantum efficiency of a photon detector is 0.1. If 100 photons are sent into the\ndetector, one after the other, the detector will detect photons",
+      "options": {
+        "A": "an average of 10 times, with an rms deviation of about 4",
+        "B": "an average of 10 times, with an rms deviation of about 3",
+        "C": "an average of 10 times, with an rms deviation of about 1",
+        "D": "an average of 10 times, with an rms deviation of about 0.1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The quantum efficiency of 0.1 means that each photon has a 10% chance of being detected, so with 100 photons, the expected average detection is 10, while the rms deviation, calculated using the binomial distribution, is approximately 3, reflecting the statistical fluctuations in the detection process.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1369"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_01_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical\nto that of a hydrogen atom in which all the wavelengths are",
+      "options": {
+        "A": "decreased by a factor of 9",
+        "B": "decreased by a factor of 49",
+        "C": "decreased by a factor of 81",
+        "D": "increased by a factor of 9"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The emission spectrum of Li++ is identical to that of hydrogen because both have one electron, and since the energy levels are scaled by the square of the atomic number (Z^2), for Li++ (Z=3), the wavelengths are decreased by a factor of 9 (3^2) compared to hydrogen.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1453"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_01_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is\napproximately",
+      "options": {
+        "A": "0.1 GeV/c^2",
+        "B": "0.2 GeV/c^2",
+        "C": "0.5 GeV/c^2",
+        "D": "1.0 GeV/c^2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The rest mass can be determined using the energy-momentum relation, E\u00b2 = (pc)\u00b2 + (m\u2080c\u00b2)\u00b2, where the total energy is 5.0 GeV and momentum is 4.9 GeV/c, leading to a calculated rest mass of approximately 1.0 GeV/c\u00b2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1418"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_01_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The time required for one revolution of a satellite is independent of the mass of the planet it orbits.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the time required for one revolution of a satellite, known as its orbital period, is influenced by the mass of the planet it orbits, as described by Kepler's Third Law of planetary motion, which shows that a more massive planet exerts a stronger gravitational pull, affecting the satellite's orbital dynamics.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1470"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_01_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The electric displacement current through a surface S is proportional to the rate of change of the electric flux through S.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The electric displacement current is defined by Maxwell's equations as being directly proportional to the time rate of change of the electric flux through a surface, which accounts for the displacement current in regions where electric fields vary with time.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1438"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_01_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The energy required to ionize helium by removing one electron from its ground state is 24.6 eV.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the ionization energy of helium from its ground state is indeed 24.6 eV, reflecting the energy needed to remove one electron from its tightly bound 1s orbital.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1436"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_01_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "If a particle's total energy is twice its rest energy, its relativistic momentum is equal to mc/2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the relativistic momentum of a particle is given by the formula p = \u03b3mv, where \u03b3 (gamma) is the Lorentz factor and v is the particle's velocity, and simply knowing that the total energy is twice the rest energy does not directly lead to the conclusion that momentum equals mc/2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1378"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_01_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "Electromagnetic radiation emitted from a nucleus is most commonly in the form of gamma rays.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Electromagnetic radiation emitted from a nucleus is most commonly in the form of gamma rays because gamma rays are the highest energy form of electromagnetic radiation released during nuclear decay processes, which often occur to stabilize the nucleus after a radioactive decay event.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14195"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_01_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the Hall coefficient can be utilized to determine the sign of charge carriers\nin a doped semiconductor, including the underlying principles and implications of your\nfindings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The Hall coefficient is a crucial parameter in determining the sign of charge carriers in\na doped semiconductor. When a magnetic field is applied perpendicular to the current flow\nin the semiconductor, a voltage, known as the Hall voltage, develops across the material.\nThe Hall coefficient (R_H) is defined as the ratio of the induced Hall voltage to the\nproduct of the current and the magnetic field strength. A positive Hall coefficient\nindicates that the primary charge carriers are holes (positive charge), whereas a negative\nHall coefficient signifies that electrons (negative charge) are the dominant carriers.\nThis relationship allows for the identification of the type of doping in the\nsemiconductor, which has significant implications for its electronic properties and\napplications in devices.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the Hall coefficient, determined by measuring the Hall voltage in the presence of a magnetic field, indicates the type of charge carriers in a doped semiconductor, with a positive value signifying holes as the dominant carriers.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_01_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between internal energy and heat transfer in an ideal gas during\na constant volume process. What principles govern this interaction?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In a constant volume process involving an ideal gas, the relationship between internal\nenergy and heat transfer is governed by the first law of thermodynamics, which states that\nthe change in internal energy (\u0394U) of the system is equal to the heat added to the system\n(Q) minus the work done by the system (W). Since the volume remains constant, no work is\ndone (W = 0). Therefore, any heat transfer to the gas directly results in an increase in\nits internal energy, as expressed by the equation \u0394U = Q. This means that when heat is\nadded to the gas at constant volume, its internal energy increases, leading to a rise in\ntemperature. Hence, in this context, the internal energy of an ideal gas is solely\ndependent on its temperature, which is influenced by the heat transfer occurring during\nthe process.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because, in a constant volume process for an ideal gas, the first law of thermodynamics simplifies to \u0394U = Q, indicating that all heat added to the system directly increases its internal energy since no work is performed.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15624"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

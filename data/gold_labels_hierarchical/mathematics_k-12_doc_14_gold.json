@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_k-12_doc_14",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 0.3 because the probability of rain is given as 30%, which directly indicates that under these conditions, there is a 30% chance of both rain occurring and no sun present.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4234
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is -2 because simplifying $\\sqrt[3]{-128}$ gives $-2\\sqrt[3]{16}$, where $a = -2$ and $b = 16$, leading to $a + b = -2 + 16 = 14$.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14507
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 125 because 5 raised to the power of 3 (5^3) means multiplying 5 by itself two more times (5 x 5 x 5), which equals 125.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2422
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "To find the quotient of 5.04 divided by 0.7, you can multiply both numbers by 10 to eliminate the decimal, resulting in 50.4 divided by 7, which equals 7.2.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2074
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The mean will increase because the addition of a higher score of 100 to Marguerite's previous scores, which ranged from 75 to 89, raises the overall average.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2230
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The probability of picking a blue chip is calculated by dividing the number of blue chips (5) by the total number of chips (15), which gives a probability of 1 out of 3, not 2 out of 15.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2350
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because there are actually 899 three-digit positive integers, as they range from 100 to 998 inclusive.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4348
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The number of rainy days in a week cannot be modeled by a binomial distribution because the occurrence of rain is not independent from day to day, and the probability of rain can change based on various factors.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5550
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "0.32 grams is equal to 32 centigrams because 1 gram is equal to 100 centigrams, so multiplying 0.32 grams by 100 gives 32 centigrams.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2090
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The ratio 24 over 64 simplifies to 3 over 8, which shows that both ratios are equivalent, thus forming a proportion.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2275
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To determine how many boxes of cat food Rob would need for a month, we first need to know\nhow many days are in a month. For this calculation, we can use 30 days as a standard\nmonth. Since Rob feeds his cats 1 box of cat food every 5 days, we can divide 30 days by 5\ndays per box. This calculation gives us 30 \\div 5 = 6 boxes. Therefore, Rob would need 6\nboxes of cat food for a month, ensuring his cats are well-fed throughout the month.",
+      "marks": 10,
+      "explanation": "correct because it accurately calculates the number of boxes needed by dividing the total days in a month (30) by the number of days each box lasts (5), resulting in 6 boxes required for the month.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 2123
+    },
+    {
+      "question_id": "mathematics_k-12_doc_14_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "When randomly selecting three points on a circle, the condition for all pairwise distances\nbetween these points to be less than the circle's radius holds true when the points are\nlocated within a semicircle. This means that if all three points fall within the same\nsemicircle, the distances between them will be less than the radius of the circle. The\nprobability of this scenario occurring is \\(\\frac{1}{12}\\). This calculation stems from\ngeometric probability, where the positions of the points are constrained by the circle's\ncurvature, allowing for the derivation of the specific probability ratio. Thus, while it\nmay seem intuitive that any three points could be close together, the geometric layout\nsignificantly influences the likelihood of maintaining distances shorter than the radius.",
+      "marks": 10,
+      "explanation": "correct because all pairwise distances between three points on a circle are less than the radius if the points are confined to the same semicircle, and the probability of this event occurring is calculated to be \\(\\frac{1}{12}\\) based on geometric probability principles.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4375
+    }
+  ]
+}

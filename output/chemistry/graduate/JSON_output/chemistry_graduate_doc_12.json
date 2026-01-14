@@ -1,0 +1,294 @@
+{
+  "docid": "chemistry_graduate_doc_12",
+  "document_name": "Chemistry - Graduate Level Assessment 12",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "mmlu_pro_chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_12.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A student made three successiveweighingsof an object as follows: 9.17 g, 9.15 g, and 9.20\ng. What is the average weight of the object in milligrams?",
+      "options": {
+        "A": "9180 mg",
+        "B": "9150 mg",
+        "C": "9200 mg",
+        "D": "9135 mg",
+        "E": "9155 mg"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The average weight of the object is calculated by summing the three measurements (9.17 g + 9.15 g + 9.20 g = 27.52 g) and dividing by the number of weighings (3), resulting in an average of 9.1733 g, which converts to 9180 mg when multiplied by 1000.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3772"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the ratio of energy loss when a 4 Mevalpha particle travelling through carbon\ncollides with nuclei (scattering) to the energy loss when it collides with bound\nelectrons.",
+      "options": {
+        "A": "2.5 \\times 10^-3",
+        "B": "5.5 \\times 10^-3",
+        "C": "1.5 \\times 10^-3",
+        "D": "1.0 \\times 10^-3",
+        "E": "1.2 \\times 10^-3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 2.5 \u00d7 10^-3 arises from the fact that the energy loss due to scattering from nuclei is significantly lower than that from collisions with bound electrons, as the interaction cross-section and energy transfer characteristics favor greater energy loss from the latter.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The dissociation sequence of thepolyproticacid H_3 PO_4 showsthreeBronsted-Lowry acids.\nRank them in order of decreasingstrengths.",
+      "options": {
+        "A": "H_2 PO_4^-, HPO_4^2-, H_3 PO_4",
+        "B": "HPO_4^-2 , H_3 PO_4 , H_2 PO_4^-",
+        "C": "HPO_4^2-, H_2 PO_4^-, H_3 PO_4",
+        "D": "H_2 PO_4^-, H_3 PO_4, PO_4^3-",
+        "E": "PO_4^3-, HPO_4^2-, H_2 PO_4^-"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer ranks the acids in order of decreasing strength based on their ability to donate protons, with H3PO4 being the strongest (most protonated form) and H2PO4^- and HPO4^2- being progressively weaker as they are more deprotonated species.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the molarity of ethanol in 90-proof whiskey? Density of alcohol = 0.8 g/ml.",
+      "options": {
+        "A": "9.20 M",
+        "B": "12.10 M",
+        "C": "5.60 M",
+        "D": "7.83 M",
+        "E": "2.95 M"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The molarity of ethanol in 90-proof whiskey is calculated by determining the mass of ethanol in a given volume, using the density of ethanol (0.8 g/ml) to convert volume to mass, and then dividing by the molar mass of ethanol (46.07 g/mol), resulting in a molarity of 7.83 M.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4048"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "When air is let out of an automobile tire, the air feels cold to the touch. Explain why\nyou feel this cooling sensation.",
+      "options": {
+        "A": "The air feels cold because it mixes with colder atmospheric air",
+        "B": "The air feels cold due to a chemical reaction within the tire",
+        "C": "The air temperature falls because it is doing work and expending energy",
+        "D": "The cooling sensation is a result of the air's rapid expansion",
+        "E": "The cooling sensation is due to the air's humidity"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cooling sensation occurs because as the air expands rapidly when exiting the tire, it does work against the surrounding atmosphere, leading to a decrease in temperature due to the conversion of internal energy into work.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3745"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The spin angular momentum of a proton is 14.22 \\times 10^{-35} J\u00b7s, which is greater than that of an electron.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The spin angular momentum of a proton is actually equal to 1/2 \u0127 (where \u0127 is the reduced Planck constant), which is approximately 1.05 \u00d7 10^{-34} J\u00b7s, while that of an electron is also 1/2 \u0127, making the statement false since their magnitudes are equivalent, not one greater than the other.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4176"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The pH of a 0.25 M solution of Na 2 CO 3, a strong electrolyte, is approximately 11.83.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Na2CO3 dissociates completely in solution to produce carbonate ions (CO3^2-), which react with water to generate hydroxide ions (OH^-), resulting in a basic solution with a pH of approximately 11.83.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4111"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "In a first-order reaction, the mass remaining after 58 s will be equal to half the initial mass of the starting material.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a first-order reaction, the mass remaining after a specific time is determined by the time constant and the rate constant of the reaction, so it does not necessarily equate to half the initial mass after 58 seconds unless that specific time corresponds to the half-life of the substance.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3891"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "When 4.90 g of KCLO_3 is heated, 20% of the original mass decomposes as evidenced by a weight loss of 0.384 g.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the weight loss of 0.384 g represents 20% of the original mass of 4.90 g, confirming that this proportion of potassium chlorate (KClO\u2083) decomposes upon heating.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3687"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_12_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A 0.25 molal solution of NaCl can be achieved by adding 10 kg of water to 293 g of NaCl.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A 0.25 molal solution of NaCl requires 0.25 moles of NaCl per kilogram of solvent, and since 293 g of NaCl corresponds to approximately 2.51 moles, this would result in a solution with a molality much greater than 0.25 molal when dissolved in 10 kg of water.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4661"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_12_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the mass of ice that can be melted at 0^\\circC using the heat released from\ncondensing 100 g of steam at 100^\\circC. Discuss the underlying thermodynamic principles\ninvolved.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the mass of ice that can be melted at 0^\\circC using the heat released from\ncondensing 100 g of steam at 100^\\circC, we start by calculating the heat released during\nthe condensation process. The heat of vaporization of water is approximately 2260 J/g, so\ncondensing 100 g of steam releases 226,000 J. Next, we use the heat of fusion of ice,\nwhich is about 334 J/g, to find out how much ice can be melted. By dividing the total heat\nreleased (226,000 J) by the heat of fusion (334 J/g), we find that approximately 676 g of\nice can be melted at 0^\\circC. Therefore, the mass of ice that can be melted is\napproximately 675 g, demonstrating the principles of energy conservation and phase changes\nin thermodynamics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the principles of heat transfer and phase changes by calculating the heat released from condensing steam to determine the amount of ice that can be melted, using the specific heat values for vaporization and fusion.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4015"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_12_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the calculation of the mass of 1 liter of carbon monoxide (CO) at standard\ntemperature and pressure (STP), considering its molecular weight and the ideal gas law.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the mass of 1 liter of carbon monoxide (CO) at standard temperature and\npressure (STP), we start with the ideal gas law, which states that one mole of an ideal\ngas occupies 22.4 liters at STP. The molecular weight of CO is approximately 28.01 g/mol.\nTherefore, for 1 liter of CO, we can determine the number of moles as 1 L / 22.4 L/mol =\n0.04464 moles. Multiplying this by the molecular weight gives us 0.04464 moles \\times\n28.01 g/mol \\approx 1.25 g. However, considering the density of CO at STP is approximately\n1.25 g/L, the mass of 1 liter of CO is indeed 1.67 g, providing an accurate reflection of\nits properties under standard conditions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the ideal gas law to determine the number of moles of carbon monoxide in 1 liter at STP and then uses the molecular weight to calculate the mass, demonstrating the relationship between gas volume, moles, and mass.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4636"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

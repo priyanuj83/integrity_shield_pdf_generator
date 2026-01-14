@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_21",
+  "document_name": "Cybersecurity - Graduate Level Assessment 21",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_21.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authentication aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication aims to determine who the user is by verifying the identity of individuals attempting to access systems or data, ensuring that only authorized users gain access to sensitive information.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is a popular tool used for network analysis in multiprotocol diverse\nnetwork.",
+      "options": {
+        "A": "Snort",
+        "B": "SuperScan",
+        "C": "Burp Suit",
+        "D": "EtterPeak"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "EtterCap is a widely-used tool in cybersecurity for network analysis and man-in-the-middle attacks in multiprotocol diverse networks due to its ability to intercept and manipulate traffic across various network protocols.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1549"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "___________ is a process of wireless traffic analysis that may be helpful for forensic\ninvestigations or during troubleshooting any wireless issue.",
+      "options": {
+        "A": "Wireless Traffic Sniffing",
+        "B": "WiFi Traffic Sniffing",
+        "C": "Wireless Traffic Checking",
+        "D": "Wireless Transmission Sniffing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless traffic sniffing is the correct answer because it involves monitoring and capturing data packets transmitted over a wireless network, which can provide critical insights for forensic investigations and troubleshooting wireless connectivity issues.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is the central node of 802.11 wireless operations.",
+      "options": {
+        "A": "WPA",
+        "B": "Access Point",
+        "C": "WAP",
+        "D": "Access Port"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless devices and providing connectivity to a wired network, thereby managing data traffic and ensuring network access.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "______________ is a widespread app's coding mistake made by developers which could be\nexploited by an attacker for gaining access or malfunctioning your system.",
+      "options": {
+        "A": "Memory leakage",
+        "B": "Buffer-overrun",
+        "C": "Less processing power",
+        "D": "Inefficient programming"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer-overrun occurs when more data is written to a buffer than it can hold, potentially allowing attackers to overwrite adjacent memory and gain unauthorized access or cause system malfunctions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Nessus is primarily designed for network intrusion detection and real-time traffic analysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Nessus is primarily a vulnerability assessment tool designed for identifying security vulnerabilities in systems and applications, rather than functioning as a network intrusion detection system or performing real-time traffic analysis.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "IP address spoofing can be effectively detected by simply implementing a firewall on the network.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IP address spoofing involves forging the source IP address in packets, which can bypass firewalls that rely only on IP filtering, as they cannot verify the legitimacy of the source address without additional context or methods of validation.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "A digital signature relies on a public-key system for verifying the authenticity and integrity of digital messages.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A digital signature utilizes a public-key cryptography system, where a private key is used to create the signature, and the corresponding public key is employed to verify both the authenticity of the sender and the integrity of the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1507"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Authorization aims to restrict what operations and data a user can access within a system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization is a fundamental security mechanism that defines and enforces user permissions to ensure that individuals can only access resources and perform operations for which they have been granted explicit permission, thereby protecting sensitive data and maintaining system integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "WPA 3 is the most secure wireless security protocol currently available, offering advanced encryption and protection against brute-force attacks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA3 employs advanced encryption techniques, such as Simultaneous Authentication of Equals (SAE), which enhance security against brute-force attacks and provide stronger overall protection for wireless networks compared to its predecessors.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of weak or non-existent authentication mechanisms in the context\nof presentation layer vulnerabilities in cybersecurity.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Weak or non-existent authentication mechanisms significantly exacerbate presentation layer\nvulnerabilities in cybersecurity by allowing unauthorized access to sensitive data and\nsystem functionalities. When authentication is insufficient, attackers can exploit these\nvulnerabilities to impersonate legitimate users, leading to data breaches and compromised\nsystems. Furthermore, the lack of robust authentication protocols can result in the\nexposure of user credentials and personal information, amplifying the risk of phishing and\nother social engineering attacks. Consequently, organizations must prioritize implementing\nstrong authentication measures, such as multi-factor authentication, to mitigate these\nrisks and enhance overall security posture against potential threats at the presentation\nlayer.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights how weak or absent authentication mechanisms enable attackers to exploit presentation layer vulnerabilities, leading to unauthorized access, data breaches, and the potential compromise of sensitive user information.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_21_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how blinding techniques mitigate timing attacks in cryptographic systems,\nemphasizing the relationship between ciphertext randomization and adversarial\nobservations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Blinding techniques play a crucial role in mitigating timing attacks in cryptographic\nsystems by randomizing the ciphertext during decryption. This randomization obscures the\ncorrelation between the adversary's input and the timing variations that may arise during\nthe decryption process. By introducing noise into the timing measurements, adversaries are\nless able to infer information about the plaintext or the decryption key based on observed\nexecution times. Consequently, these techniques enhance the security of cryptographic\noperations by preventing attackers from leveraging timing discrepancies to compromise\nsensitive data. Overall, the relationship between ciphertext randomization and the\nreduction of observable timing differences is fundamental to robust cryptographic defenses\nagainst timing attacks.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how blinding techniques randomize ciphertext to disrupt the relationship between timing variations and adversarial observations, thereby enhancing the security of cryptographic systems against timing attacks.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1492"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_03",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 3",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_03.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Adding more basis functions in a linear model, pick the most probably option:",
+      "options": {
+        "A": "Decreases model bias",
+        "B": "Decreases estimation bias",
+        "C": "Decreases variance",
+        "D": "Doesn't affect bias and variance"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adding more basis functions in a linear model allows for a more flexible representation of the data, which helps reduce model bias by enabling the model to better capture the underlying patterns in the data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6880"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The softmax function is commonly used in mutliclass logistic regression.\nStatement 2| The temperature of a nonuniform softmax distribution affects its entropy.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The softmax function is indeed used in multiclass logistic regression to convert logits into probabilities, and the temperature parameter in a nonuniform softmax distribution modifies the distribution's sharpness, thereby influencing its entropy.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6874"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Suppose your model is overfitting. Which of the following is NOT a valid way to try and\nreduce the overfitting?",
+      "options": {
+        "A": "Increase the amount of training data.",
+        "B": "Improve the optimisation algorithm being used for error minimisation.",
+        "C": "Decrease the model complexity.",
+        "D": "Reduce the noise in the training data."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Improving the optimization algorithm primarily affects the convergence speed and efficiency of training rather than addressing the model complexity or generalization issues that contribute to overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Existential risks posed by AI are most commonly associated with which of the following\nprofessors?",
+      "options": {
+        "A": "Nando de Frietas",
+        "B": "Yann LeCun",
+        "C": "Stuart Russell",
+        "D": "Jitendra Malik"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Stuart Russell is widely recognized for his work on the potential existential risks of artificial intelligence and has extensively addressed the implications of AI safety and alignment in his research and public discussions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6909"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "_ refers to a model that can neither model the training data nor generalize to new data.",
+      "options": {
+        "A": "good fitting",
+        "B": "overfitting",
+        "C": "underfitting",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and new, unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6846"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The numerical output of a sigmoid node in a neural network is unbounded, encompassing all real numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the output of a sigmoid node is bounded between 0 and 1, not encompassing all real numbers.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "One-class detection is synonymous with out-of-distribution detection, focusing solely on normal instances without considering anomalies.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "One-class detection aims to identify instances that differ from a defined normal class, while out-of-distribution detection specifically seeks to identify instances that do not belong to any of the known classes, indicating that they are not synonymous.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6882"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "DenseNets typically require more memory than ResNets due to their dense connectivity pattern.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DenseNets require more memory than ResNets because their architecture involves dense connectivity between layers, leading to a significant increase in the number of feature maps that must be stored and processed at each layer.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6884"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The dimensionality of the null space of the matrix A is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the null space of a matrix is determined by the number of linearly independent solutions to the homogeneous equation Ax = 0, and a dimensionality of 2 indicates that there are two such independent solutions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6897"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The number of test examples needed to achieve statistical significance increases if the error rate is smaller.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As the error rate decreases, a larger sample size is required to detect meaningful differences and achieve statistical significance due to the reduced variability in the results.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14785"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to count the elements in a list until an element is a tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_elim(num): | return count_elim",
+      "gold_confidence": 1.0,
+      "answer_explanation": "incorrect because it does not provide a complete function to count elements in a list until a tuple is encountered, lacking both the necessary logic and structure to fulfill the requirement.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "941"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_03_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to perfom the rear element extraction from list of tuples records.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def rear_extract(test_list): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines a function that presumably processes a list of tuples to extract the last element from each tuple, which is the intended operation described in the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "272"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

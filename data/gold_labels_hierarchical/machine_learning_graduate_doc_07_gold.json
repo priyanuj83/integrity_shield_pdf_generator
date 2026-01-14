@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_07",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As the number of training examples approaches infinity, the model's predictions become more stable and less sensitive to fluctuations in the training data, resulting in lower variance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's cake because it represents the pinnacle of machine learning techniques that effectively addresses complex decision-making and learning from interaction with an environment, thus enhancing the capabilities of AI systems.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14783
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The cost of one gradient descent update is O(D) because updating each parameter involves a simple arithmetic operation based on the gradient vector g, where D represents the number of parameters in the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) estimates can be highly sensitive to small changes in the data, leading to high variance and less reliable predictions, especially in small sample sizes or complex models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is False, True because while it is true that sigmoids are monotonic functions, RELUs can be considered piecewise linear and are not strictly monotonic, and gradient descent does not guarantee convergence to a global optimum in non-convex optimization problems typically encountered in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Highway networks were introduced before ResNets and use learned gating mechanisms rather than max pooling, which distinguishes them from traditional convolutional layers.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The numerical output of a sigmoid node in a neural network is bounded between 0 and 1, not encompassing all real numbers.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Batch Normalization was specifically designed to normalize the inputs of each layer across the mini-batch during training, which was a crucial factor in enhancing the convergence and stability of the original ResNet architecture, whereas Layer Normalization normalizes across the features instead of the batch dimension.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Predicting the amount of rainfall based solely on historical data is a supervised learning problem because it involves using labeled data (historical rainfall amounts) to make predictions about future outcomes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Dropout randomly sets activation values to zero for a subset of neurons during training, preventing them from contributing to the forward pass and thereby promoting robustness and preventing overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The ID 3 algorithm is not optimal for decision tree generation, primarily because it\nutilizes a greedy approach that selects the attribute with the highest information gain at\neach node without considering future implications. This can lead to suboptimal trees that\ndo not generalize well to unseen data. Additionally, the properties of continuous\nprobability distributions are not adequately addressed by ID 3, as it is designed for\ncategorical data, which limits its applicability in scenarios where continuous variables\nare prevalent. Consequently, while ID 3 is a foundational algorithm in decision tree\nlearning, its lack of optimality and inability to handle continuous distributions\nhighlight significant limitations that can affect model performance and accuracy in real-\nworld applications.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes that the ID3 algorithm's greedy selection process can result in suboptimal decision trees that fail to generalize to new data, and it also highlights the algorithm's limitation in handling continuous probability distributions, which restricts its effectiveness in diverse data scenarios.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6878
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_07_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "To modify the EM algorithm for computing Maximum A Posteriori (MAP) estimates in a model\nwith latent variables, one must adjust the E-step and M-step to incorporate prior\ndistributions over the parameters. In the E-step, rather than merely calculating the\nexpected values of the latent variables based on the current parameter estimates, we would\ncompute the posterior distribution of the latent variables given both the observed data\nand the parameter priors. In the M-step, the maximization step would then not only\noptimize the likelihood of the observed data but also include the log-prior of the\nparameters, effectively maximizing the posterior. This adjustment is crucial because MAP\nestimation aims to find the parameter set that maximizes the posterior distribution, which\ninherently requires the inclusion of prior information in the optimization process.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the need to incorporate prior distributions in both the E-step and M-step of the EM algorithm to compute MAP estimates, thereby adjusting the calculations of latent variable expectations and parameter maximization to account for the influence of these priors.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6927
+    }
+  ]
+}

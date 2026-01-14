@@ -1,0 +1,289 @@
+{
+  "docid": "astronomy_graduate_doc_01",
+  "document_name": "Astronomy - Graduate Level Assessment 1",
+  "domain": "astronomy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "astronomy"
+  ],
+  "combination_used": [
+    "mmlu_astronomy_mcq",
+    "mmlu_astronomy_tf",
+    "astronomy_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\astronomy\\graduate\\latex_documents\\astronomy_graduate_doc_01.tex",
+    "pdf_file": "output\\astronomy\\graduate\\pdf_documents\\astronomy_graduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/astronomy_graduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/astronomy_graduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\astronomy\\graduate\\answer_keys\\latex\\astronomy_graduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\astronomy\\graduate\\answer_keys\\pdf\\astronomy_graduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "astronomy_graduate_doc_01_astronomy_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Why are Cepheid stars relevant for astronomers?",
+      "options": {
+        "A": "To measure interstellar mass.",
+        "B": "To measure galactic distances.",
+        "C": "To measure galactic energy-density.",
+        "D": "To measure interstellar density."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cepheid stars are relevant for astronomers because their predictable periodic brightness variations allow for accurate distance measurements within galaxies, serving as a crucial tool for establishing the scale of the universe.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "379"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "astronomy_graduate_doc_01_astronomy_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the Cassini division of Saturn's rings?",
+      "options": {
+        "A": "a dark ring visible from Earth composed of dark dusty particles",
+        "B": "the most opaque ring of Saturn made of highly reflective ice particles",
+        "C": "the widest ring of Saturn located between two large ring gaps",
+        "D": "a large gap visible from Earth produced by an orbital resonance with the moon Mimas"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Cassini division is the prominent gap in Saturn's rings that arises due to gravitational interactions between the particles in the rings and the moon Mimas, resulting in an orbital resonance that clears out a region between the A and B rings.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "256"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "astronomy_graduate_doc_01_astronomy_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The sky is blue because",
+      "options": {
+        "A": "the Sun mainly emits blue light.",
+        "B": "the atmosphere absorbs mostly blue light.",
+        "C": "molecules scatter red light more effectively than blue light.",
+        "D": "molecules scatter blue light more effectively than red light."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on Rayleigh scattering, which demonstrates that shorter wavelengths of light, such as blue, are scattered more by atmospheric molecules than longer wavelengths like red, resulting in the blue appearance of the sky.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "358"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "astronomy_graduate_doc_01_astronomy_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The astronomical unit parsec (pc) plays a crucial role in astronomy. One parsec is equal\nto about 3.26 light-years. How is one parsec defined in astronomy?",
+      "options": {
+        "A": "Distance at which one astronomical unit measures one arcsecond from Earth.",
+        "B": "Orbital distance of the solar system around the center of the Milky Way in one year.",
+        "C": "Effective distance of the solar wind (i.e. the radius of the heliosphere).",
+        "D": "Historical distance to the brightest star Sirius."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "One parsec is defined as the distance at which one astronomical unit subtends an angle of one arcsecond as viewed from Earth, establishing a direct relationship between distance and angular measurement in the context of astronomical observations.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "320"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "astronomy_graduate_doc_01_astronomy_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Approximately how old is the surface of Venus?",
+      "options": {
+        "A": "750 million years.",
+        "B": "2 billion years.",
+        "C": "3 billion years.",
+        "D": "4.5 billion years."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The surface of Venus is approximately 750 million years old, based on geological studies that suggest it has been resurfaced by volcanic activity relatively recently in the planet's history, indicating a younger surface compared to other celestial bodies in the solar system.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "375"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "astronomy_graduate_doc_01_astronomy_tf_1",
+      "question_type": "TF",
+      "stem_text": "Asteroids emit a significant amount of their own radiation, which contributes to their visibility in the night sky.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Asteroids do not emit their own radiation; instead, they reflect sunlight, which is the primary reason for their visibility in the night sky.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "295"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "astronomy_graduate_doc_01_astronomy_tf_2",
+      "question_type": "TF",
+      "stem_text": "Ganymede, being the largest moon in the solar system, is also the closest moon to Jupiter among its four major satellites.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ganymede is the largest moon in the solar system, but it is not the closest to Jupiter; that title belongs to Io, which orbits at a shorter distance from the planet.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "260"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "astronomy_graduate_doc_01_astronomy_tf_3",
+      "question_type": "TF",
+      "stem_text": "On a planet with half the gravity of Earth, a 5 kg sand bag would weigh 50 N, indicating no change in weight despite reduced gravity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because weight is directly proportional to gravitational acceleration, so on a planet with half the gravity of Earth, a 5 kg sand bag would weigh only 25 N, not 50 N.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "304"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "astronomy_graduate_doc_01_astronomy_tf_4",
+      "question_type": "TF",
+      "stem_text": "All fresh impact craters on solid surfaces typically exhibit ejecta and raised rims as common features.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fresh impact craters on solid surfaces typically exhibit ejecta and raised rims due to the explosive nature of the impact, which displaces material outward and upward, creating these distinctive features around the crater.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "253"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "astronomy_graduate_doc_01_astronomy_tf_5",
+      "question_type": "TF",
+      "stem_text": "Dione is not one of the Galilean moons, which include Ganymede, Callisto, Europa, and Io.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Dione is a moon of Saturn, whereas the Galilean moons are specifically the four largest moons of Jupiter: Ganymede, Callisto, Europa, and Io.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "291"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "astronomy_graduate_doc_01_astronomy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of Pluto's orbital period of approximately 250 years on its\nclassification as a dwarf planet and its influence on our understanding of the Kuiper\nBelt.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Pluto's orbital period of approximately 250 years has significant implications for its\nclassification as a dwarf planet and our understanding of the Kuiper Belt. This extended\norbital duration highlights the dynamic and diverse nature of trans-Neptunian objects,\nemphasizing that not all celestial bodies in this region conform to traditional planetary\ncharacteristics. Furthermore, Pluto's elongated and inclined orbit, along with its long\nperiod, reflects the gravitational influences of nearby objects and the complex history of\nthe Kuiper Belt's formation. As a result, Pluto's classification as a dwarf planet\nunderlines the necessity for a nuanced understanding of planetary criteria, particularly\nin light of the diverse array of bodies that populate the Kuiper Belt. Thus, Pluto serves\nas a key case study in the ongoing discourse regarding planetary classification and the\nevolutionary processes of our solar system's outer regions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it connects Pluto's lengthy orbital period to its unique classification as a dwarf planet and emphasizes the complexity of the Kuiper Belt, illustrating how such characteristics challenge traditional definitions of planets.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "371"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "astronomy_graduate_doc_01_astronomy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of asteroids and comets in the context of the Solar Nebular theory,\nfocusing on their origins as leftover planetesimals and their significance in planetary\nformation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Asteroids and comets play a crucial role in the context of the Solar Nebular theory as\nthey represent the remnants of the primordial planetesimals that formed during the early\nstages of the solar system. These bodies, which never coalesced into full-fledged planets,\nprovide valuable insights into the conditions and materials present in the protoplanetary\ndisk from which the planets ultimately emerged. Their composition, often rich in volatile\ncompounds and organic materials, suggests that they could have contributed to the delivery\nof water and potentially life's building blocks to terrestrial planets, particularly\nEarth. Additionally, studying asteroids and comets helps astronomers understand the\nprocesses of accretion and differentiation that shaped planetary bodies, making them not\nonly remnants of the past but also key to unraveling the history of our solar system's\nformation.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes asteroids and comets as remnants of planetesimals from the early solar system, emphasizing their significance in understanding the composition and conditions of the protoplanetary disk that contributed to planetary formation.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "280"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

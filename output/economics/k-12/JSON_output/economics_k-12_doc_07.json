@@ -1,0 +1,290 @@
+{
+  "docid": "economics_k-12_doc_07",
+  "document_name": "Economics - K-12 Level Assessment 7",
+  "domain": "economics",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_macroeconomics",
+    "high_school_microeconomics"
+  ],
+  "combination_used": [
+    "mmlu_economics_mcq",
+    "mmlu_economics_tf",
+    "economics_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\economics\\k-12\\latex_documents\\economics_k-12_doc_07.tex",
+    "pdf_file": "output\\economics\\k-12\\pdf_documents\\economics_k-12_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/economics_k-12_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/economics_k-12_doc_07_gold.json",
+    "answer_key_latex_file": "output\\economics\\k-12\\answer_keys\\latex\\economics_k-12_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\economics\\k-12\\answer_keys\\pdf\\economics_k-12_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "economics_k-12_doc_07_economics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If nominal GDP equals $6000 and the GDP deflator equals 200 then real GDP equals",
+      "options": {
+        "A": "$30",
+        "B": "$3,000",
+        "C": "$12,000",
+        "D": "$1,200"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Real GDP is calculated by dividing nominal GDP by the GDP deflator (in decimal form), so $6000 divided by 2.0 (200/100) equals $3,000.",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "4132"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "economics_k-12_doc_07_economics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Usually, the supply curve of firms operating under conditions of perfect competition in\nproduct market would be identified as",
+      "options": {
+        "A": "perfectly vertical in the long run.",
+        "B": "perfectly horizontal in the short run.",
+        "C": "more elastic in the long run.",
+        "D": "more elastic in the short run."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The supply curve of firms operating under perfect competition is more elastic in the long run because firms can adjust their production levels and enter or exit the market in response to changes in price, leading to greater responsiveness in supply compared to the short run.",
+      "source": {
+        "dataset": "economics_high_school_microeconomics",
+        "source_id": "14549"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "economics_k-12_doc_07_economics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the most likely to be a deterrent to growth in the economy?",
+      "options": {
+        "A": "Spending on education and training",
+        "B": "Increases in capital",
+        "C": "Increases in the interest rate",
+        "D": "Expenditures on research and development"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Increases in the interest rate are likely to deter economic growth because they raise the cost of borrowing, making it more expensive for businesses and consumers to finance investments and spending, which can lead to a decrease in overall economic activity.",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "4050"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "economics_k-12_doc_07_economics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "GDP measures",
+      "options": {
+        "A": "production within a nation's borders.",
+        "B": "production by a nation's citizens wherever they may be.",
+        "C": "income earned by the factors of production plus depreciation and indirect business taxes.",
+        "D": "(A) and (C)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "GDP measures the total economic output of a country, reflecting the sum of all goods and services produced (A), and it serves as an indicator of economic health and performance over time (C).",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "3845"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "economics_k-12_doc_07_economics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "On a bank's balance sheet which of the following is considered a liability?",
+      "options": {
+        "A": "Required reserves",
+        "B": "Excess reserves",
+        "C": "Loans",
+        "D": "Deposits"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Deposits are considered a liability on a bank's balance sheet because they represent the bank's obligation to return the funds to depositors, making it money that the bank owes to its customers.",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "4056"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "economics_k-12_doc_07_economics_tf_1",
+      "question_type": "TF",
+      "stem_text": "A decline in the quality of higher education leads to an increase in a nation's production possibility frontier.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A decline in the quality of higher education reduces the skill level of the workforce, which negatively impacts a nation's productivity and ultimately shifts the production possibility frontier inward, rather than increasing it.",
+      "source": {
+        "dataset": "economics_high_school_microeconomics",
+        "source_id": "14539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "economics_k-12_doc_07_economics_tf_2",
+      "question_type": "TF",
+      "stem_text": "Dumping is a strategy where a corporation sells products in a foreign market at lower prices to gain market share.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Dumping is considered a strategy because it involves a corporation intentionally lowering prices in a foreign market to attract customers and increase its market share, often at the expense of local competitors.",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "3926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "economics_k-12_doc_07_economics_tf_3",
+      "question_type": "TF",
+      "stem_text": "In a centrally planned economic system, government planners decide how best to produce goods and services.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a centrally planned economic system, the government is responsible for making all decisions regarding the production and distribution of goods and services, which confirms the statement as true.",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "3969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "economics_k-12_doc_07_economics_tf_4",
+      "question_type": "TF",
+      "stem_text": "Lowering reserve requirements forces banks to hold more reserves and limits their ability to lend money.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lowering reserve requirements actually allows banks to hold fewer reserves, thereby increasing their ability to lend more money.",
+      "source": {
+        "dataset": "economics_high_school_macroeconomics",
+        "source_id": "4164"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "economics_k-12_doc_07_economics_tf_5",
+      "question_type": "TF",
+      "stem_text": "An oligopolist faces a perfectly horizontal demand curve, indicating that price changes do not affect the quantity demanded.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An oligopolist faces a downward-sloping demand curve, meaning that price changes do affect the quantity demanded, unlike a perfectly competitive firm that faces a horizontal demand curve.",
+      "source": {
+        "dataset": "economics_high_school_microeconomics",
+        "source_id": "4504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "economics_k-12_doc_07_economics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of economic rent and analyze how a superstar basketball player's $50\nmillion earnings exemplify this concept in the context of supply and demand in sports.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Economic rent refers to the extra income earned by a resource or individual beyond what is\nnecessary to keep them in their current role. In the case of a superstar basketball player\nearning $50 million, this amount is significantly higher than what a typical player might\nearn, reflecting their unique talent and the high demand for their skills. The player's\nearnings exemplify economic rent because they are able to command such a high salary due\nto the limited supply of elite athletes and the intense demand from fans, teams, and\nsponsors. This situation illustrates how, in a competitive market, those with exceptional\nabilities can capture a larger share of revenue, leading to earnings that far exceed the\naverage. Thus, the $50 million salary not only highlights the player's exceptional ability\nbut also the dynamics of supply and demand in the sports industry.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it illustrates how the basketball player's extraordinary earnings stem from their unique talent and the scarcity of elite athletes, demonstrating the concept of economic rent as the income exceeding the minimum required to keep them in their position.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4582"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "economics_k-12_doc_07_economics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the impact of inflation in the European Union on the value of the U.S. dollar in\nglobal currency markets, explaining the relationship between inflation rates and currency\nvaluation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Inflation in the European Union can significantly impact the value of the U.S. dollar in\nglobal currency markets. When inflation is high in the EU, the prices of goods and\nservices increase, which can weaken the Euro. If the price level in the United States\nremains stable during this time, the dollar tends to appreciate in value compared to the\nEuro. This happens because investors and traders may prefer holding a more stable\ncurrency, leading to increased demand for the dollar. Therefore, a higher inflation rate\nin the EU typically results in a stronger U.S. dollar in the global market.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it illustrates how higher inflation in the EU can lead to a depreciation of the Euro relative to a stable U.S. dollar, as investors seek safer assets, thus increasing the dollar's value in global currency markets.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3992"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

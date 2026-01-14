@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 24 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Mishandling of undefined, poorly defined variables; B) The Vulnerability that allows "fingerprinting" \& other enumeration of host information; C) Overloading of transport-layer mechanisms; D) Unauthorized network access
+\\ \textit{Note:} Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses inherent to the transport layer protocols, which primarily focus on end-to-end communication and data integrity.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Authentication; B) Integrity; C) Privacy; D) All of the above
+\\ \textit{Note:} The correct answer is integrity because encryption and decryption primarily focus on making data unreadable to unauthorized users, thereby ensuring confidentiality, but they do not inherently verify that the data has not been altered or tampered with, which is the essence of integrity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) IM - Trojans; B) Backdoor Trojans; C) Trojan-Downloader; D) Ransom Trojan
+\\ \textit{Note:} IM-Trojans are specifically designed malware that infiltrate instant messaging applications to capture and transmit users' login credentials and passwords.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Generational; B) Blackbox; C) Whitebox; D) Mutation-based
+\\ \textit{Note:} Whitebox fuzzers analyze the program's internal structure and logic, allowing them to systematically explore all code paths and increase the likelihood of covering every line of code.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Privacy; C) Nonrepudiation; D) Both A \& C
+\\ \textit{Note:} The AH Protocol, or Authentication Header Protocol, is designed to ensure source authentication and data integrity by providing mechanisms to verify the authenticity of the data and its sender, but it does not encrypt the data itself, thereby lacking privacy features.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Reusing a session symmetric key across different sessions increases the risk of key compromise and vulnerability to cryptographic attacks, as it allows attackers to potentially decrypt multiple sessions if they gain access to the key.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because WPA (Wi-Fi Protected Access) supports both AES encryption in WPA 2 and TKIP (Temporal Key Integrity Protocol) in WPA, allowing for the use of TKIP in certain legacy scenarios.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message authentication provides assurance that a message has not been altered during transmission and confirms the identity of the sender, thereby ensuring both the integrity and authenticity of the message.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} CBF, or Cipher Block Feedback, is not an officially recognized operating mode within widely accepted cryptographic standards such as those defined by NIST, thus making the statement true.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer-overflow issues require both comprehensive memory checks and boundary checks to ensure that data does not exceed allocated memory limits, as relying solely on memory checks may not prevent overflows that lead to security vulnerabilities.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The Tor browser serves as a specialized tool for accessing the Tor network, which is designed to facilitate anonymous internet usage by routing traffic through a series of volunteer-operated servers. This anonymity is significant for users who require privacy protection, such as whistleblowers, journalists in oppressive regimes, and individuals seeking to evade surveillance or censorship. The Tor browser employs multiple layers of encryption, allowing users to access both the standard web and hidden services while obscuring their IP addresses. However, while it enhances user privacy, the Tor network also raises cybersecurity concerns, as it can be exploited for illicit activities, making it a double-edged sword in the landscape of online security. Ultimately, the Tor browser exemplifies the ongoing tension between privacy and security in the digital age.
+\\ \textit{Note:} correct because it accurately describes the Tor browser's function as a tool for accessing the Tor network, emphasizing its role in providing anonymity through traffic routing and encryption, which is crucial for users needing privacy in contexts such as journalism and activism.
+\item \textbf{Answer:} Address sanitizer (ASAN) plays a crucial role in enhancing the effectiveness of fuzzing techniques by providing detailed insights into memory errors that may be introduced during program execution. When a program is compiled with ASAN, it instruments the code to detect various memory-related issues such as buffer overflows, use-after-free errors, and memory leaks. This instrumentation not only allows for real-time detection of such errors but also generates comprehensive reports that pinpoint the exact source of the problem. As a result, developers can more easily identify and rectify vulnerabilities, significantly improving the reliability and security of software applications. By integrating ASAN with fuzzing, the process of uncovering and addressing memory errors becomes more efficient and effective, ultimately leading to more robust software.
+\\ \textit{Note:} correct because it accurately describes how ASAN enhances fuzzing by instrumenting code to detect and report memory errors in real time, thereby providing valuable insights that improve the identification of vulnerabilities during program execution.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

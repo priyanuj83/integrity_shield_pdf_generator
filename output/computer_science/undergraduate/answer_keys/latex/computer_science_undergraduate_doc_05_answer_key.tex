@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 4; B) 1; C) 256; D) 16
+\\ \textit{Note:} The correct answer is 4 because in Python, the exponentiation operator '**' has higher precedence than multiplication '*', so the expression is evaluated as 4 * (1 ** 4), which simplifies to 4 * 1, resulting in 4.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) All bit strings whose number of zeros is a multiple of five; B) All bit strings starting with a zero and ending with a one; C) All bit strings with an even number of zeros; D) All bit strings with more ones than zeros
+\\ \textit{Note:} The correct answer is "All bit strings with more ones than zeros" because this language is not regular; it requires a counting mechanism to ensure the number of ones exceeds the number of zeros, which cannot be achieved by finite state machines that define regular expressions.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) /; B) //; C) \%; D) |
+\\ \textit{Note:} The correct answer is "//" because in Python 3, this operator performs floor division by dividing two numbers and rounding down to the nearest whole number.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 4 because the `max()` function in Python returns the largest value from the provided iterable, and in the list l = [1,2,3,4], the largest number is 4.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 53; B) 29; C) 50; D) 100
+\\ \textit{Note:} The correct answer is 100 because when applying the recursive function f(x) for x = 4, it calculates as f(4) = 4 * f(3) + $4^2$, and through subsequent evaluations (f(3) = 3 * f(2) + $3^2$, f(2) = 2 * f(1) + $2^2$, and f(1) = 0), the final result sums to 100.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In a complete K-ary tree of depth N, the total number of nodes is \( \frac{K^{N+1} - 1}{K - 1} \) while the nonterminal nodes are \( K^N \), leading to a ratio of nonterminal nodes to total nodes that approaches \( \frac{1}{K} \) as N increases.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because O(log n) denotes logarithmic growth, which increases without bound as n increases, while O(1) represents constant growth that remains fixed regardless of n, meaning O(log n) is not smaller than O(1) for large values of n.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A$_{3}$-way, set-associative cache can effectively manage multiple processes beyond just three, as it allows for better cache utilization and reduced conflict misses by providing three possible locations for each memory block, regardless of the number of processes running.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The function O(log log N) grows slower than O(log N) because as N increases, the logarithm of a logarithm grows at a much slower rate than a single logarithm, indicating that O(log log N) is indeed one of the slowest growing functions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because a polynomial of degree n can uniquely interpolate n + 1 distinct points, which means the maximum degree of such a polynomial cannot exceed n.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def search\_literal(pattern,text): | return (s, e)
+\\ \textit{Note:} The provided answer correctly outlines a function designed to search for a specified pattern within a larger text string, with the expected return values indicating the start and end positions of the found pattern, thus addressing the requirements of the question.
+\item \textbf{Answer:} def find\_Digits(n): | return 0; | return 1; | return math.floor(x) + 1;
+\\ \textit{Note:} The answer correctly identifies that the number of digits in the factorial of a number can be determined using logarithmic properties, specifically by calculating the floor of the logarithm of the factorial and adding one to it, though it lacks the proper implementation details and the necessary import statement for the math module.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

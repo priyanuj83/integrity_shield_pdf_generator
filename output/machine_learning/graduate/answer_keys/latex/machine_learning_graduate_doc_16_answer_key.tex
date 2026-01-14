@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Partitioning based clustering; B) K-means clustering; C) Grid based clustering; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because spatial clustering algorithms encompass a variety of techniques, such as k-means, DBSCAN, and hierarchical clustering, all of which are designed to group data points based on their spatial proximity and characteristics.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) anomaly detection; B) one-class detection; C) train-test mismatch robustness; D) background detection
+\\ \textit{Note:} Anomaly detection refers to the identification of patterns in data that do not conform to expected behavior, which aligns with the concept of out-of-distribution detection that seeks to recognize data points that fall outside the normal training distribution.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) The use of a non-Gaussian noise model in probabilistic regression.; B) The use of probabilistic modelling for regression.; C) The use of prior distributions on the parameters in a probabilistic model.; D) The use of class priors in Gaussian Discriminant Analysis.
+\\ \textit{Note:} Bayesians advocate for the incorporation of prior distributions to reflect beliefs about parameters before observing data, while frequentists reject this approach, focusing instead on the data collected without incorporating prior information.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y); B) P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y); C) P(X, Y, Z) = P(Z) * P(X|Z) * P(Y|Z); D) P(X, Y, Z) = P(X) * P(Y) * P(Z)
+\\ \textit{Note:} The correct answer reflects the structure of the Bayes net, where Y is a parent of both X and Z, allowing the joint probability distribution to be factored into the product of the marginal probability of Y and the conditional probabilities of X given Y and Z given Y.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) p(y|x, w); B) p(y, x); C) p(w|x, w); D) None of the above
+\\ \textit{Note:} Discriminative approaches focus on modeling the conditional probability of the output variable y given the input variable x and the model parameters w, which allows for a direct estimation of the decision boundary between different classes.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Clustering is an unsupervised learning technique that groups data based on similarity, making it unsuitable for prediction tasks like forecasting rainfall, which typically requires supervised learning methods that can model the relationship between input features and output variables.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the rows of the matrix A are linearly dependent, as they are all identical and thus span a space of dimension 1, resulting in a rank of 1, not 3.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Penn Treebank is primarily designed for syntactic parsing and language modeling tasks, providing annotated corpora that focus on grammatical structures rather than sentiment analysis.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the dimensionality of the null space of a matrix A is determined by the rank-nullity theorem, which relates the rank of the matrix to its nullity, and a null space dimension of 3 would imply specific conditions on the number of columns and the rank that are not universally applicable.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because, in a Bayesian network without any assumptions about independence, the total number of parameters required equals the product of the number of possible outcomes for each variable, leading to a need for 15 independent parameters to fully specify the joint distribution.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def extract\_min\_max(test\_tup, K): | return (res)
+\\ \textit{Note:} correct because it outlines the basic structure of a function that is intended to return the maximum and minimum k elements from a tuple, which is the core requirement of the given question.
+\item \textbf{Answer:} def heap\_assending(nums): | return s\_result
+\\ \textit{Note:} correct because it suggests implementing a function that utilizes the heap queue algorithm, which is designed to efficiently sort elements by maintaining a binary heap structure, ensuring that the smallest element can be accessed and removed in logarithmic time, ultimately leading to a sorted list in ascending order.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

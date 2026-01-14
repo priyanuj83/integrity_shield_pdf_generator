@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_01",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 1",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_01.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is more appropriate to do feature selection?",
+      "options": {
+        "A": "Ridge",
+        "B": "Lasso",
+        "C": "both (a) and (b)",
+        "D": "neither (a) nor (b)"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lasso is more appropriate for feature selection because it applies L1 regularization, which can shrink some coefficients to zero, effectively allowing it to identify and select only the most relevant features in a model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A and B are two events. If P(A, B) decreases while P(A) increases, which of the following\nis true?",
+      "options": {
+        "A": "P(A|B) decreases",
+        "B": "P(B|A) decreases",
+        "C": "P(B) decreases",
+        "D": "All of above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As P(A, B) represents the joint probability of events A and B occurring together, a decrease in P(A, B) coupled with an increase in P(A) indicates that the likelihood of B occurring given A (P(B|A)) must decrease, since P(B|A) is calculated as P(A, B) / P(A).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews.\nStatement 2| The Penn Treebank has been used for language modeling.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"True, True\" because the Stanford Sentiment Treebank specifically focuses on analyzing the sentiment of movie reviews, while the Penn Treebank is widely recognized for its applications in language modeling tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6896"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let us say that we have computed the gradient of our cost function and stored it in a\nvector g. What is the cost of one gradient descent update given the gradient?",
+      "options": {
+        "A": "O(D)",
+        "B": "O(N)",
+        "C": "O(ND)",
+        "D": "O(ND^2)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cost of one gradient descent update is O(D) because updating each parameter in the model requires a constant time operation proportional to the number of dimensions D in the parameter space, as each element of the gradient vector g must be processed individually to adjust the corresponding model parameter.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following are the spatial clustering algorithms?",
+      "options": {
+        "A": "Partitioning based clustering",
+        "B": "K-means clustering",
+        "C": "Grid based clustering",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass various techniques that group data points based on their geographic or spatial proximity, and all listed options are valid examples of such algorithms.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The joint probability distribution P(X, Y, Z) can be expressed as P(Y) * P(X|Y) * P(Z|Y).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it follows the chain rule of probability, which allows the joint distribution of multiple random variables to be expressed as the product of a marginal probability and conditional probabilities, specifically P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y) when Z is conditionally independent of X given Y.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Maximum Likelihood Estimation (MLE) estimates often exhibit high variance, making them less desirable in certain contexts.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maximum Likelihood Estimation (MLE) can lead to high variance in estimates, particularly in small sample sizes or when the model is overly complex, because it tends to fit the noise in the data rather than the underlying distribution, resulting in less reliable predictions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Principal Component Analysis (PCA) is an unsupervised learning technique used for dimensionality reduction.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Principal Component Analysis (PCA) is considered an unsupervised learning technique because it identifies patterns in data without using labeled outcomes, allowing for dimensionality reduction by transforming correlated variables into a smaller set of uncorrelated principal components.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Discriminative approaches model the conditional probability p(y|x, w), focusing on the relationship between input x and output y.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Discriminative approaches directly model the conditional probability of the output given the input, p(y|x), which allows them to focus specifically on the relationship between the features of the input x and the corresponding output y, often incorporating additional parameters w that may represent specific characteristics of the model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The ResNet-50 model contains over 1 billion parameters, making it one of the largest neural networks available.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ResNet-50 model contains approximately 23 million parameters, which is significantly fewer than 1 billion, thus making the statement false.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6907"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether all dictionaries in a list are empty or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def empty_dit(list1): | return empty_dit",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is not correct as it does not define the logic to check if all dictionaries in the list are empty, nor does it return a meaningful result; instead, it simply returns the function name itself, which does not fulfill the requirements of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "115"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_01_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether the given month number contains 28 days or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_monthnum_number(monthnum1): | return True | return False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function is structured to return True or False based on the input month number, correctly identifying that February (month 2) is the only month that consistently contains 28 days in a non-leap year, while all other months have more than 28 days.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "820"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

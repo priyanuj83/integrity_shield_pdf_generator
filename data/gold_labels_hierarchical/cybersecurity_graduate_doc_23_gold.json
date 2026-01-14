@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_23",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer identifies the three primary types of scanning in cybersecurity\u2014network scanning for identifying active devices, vulnerability scanning for detecting security weaknesses, and port scanning for mapping the open ports on a system\u2014each essential for assessing and enhancing network security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Comparing the Time to Live (TTL) values of the actual and spoofed addresses helps detect IP address spoofing, as legitimate packets typically have a TTL that reflects their origin, whereas spoofed packets may exhibit anomalous TTL values inconsistent with their purported source.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1563
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over a wireless network, making it a crucial technique for forensic investigations and troubleshooting wireless issues by allowing investigators to identify security breaches or network malfunctions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14212
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible to standard search queries, which is why it is the correct answer to the question.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15632
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Wireless security refers to the measures and protocols implemented to protect wireless networks from unauthorized access or breaches, making it the appropriate term for the anticipation of such threats to computers and data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1537
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "DaCryptic is not widely recognized as a remote Trojan targeting financial institutions; rather, it is primarily known as a type of ransomware that encrypts files and demands payment for decryption, thus focusing on extortion rather than data theft.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1475
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Message confidentiality ensures that the data is kept secret from unauthorized parties but does not provide any assurance that the data has not been altered during transmission, which is the role of data integrity mechanisms.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "BurpSuite is primarily designed for web application security testing, specifically for identifying vulnerabilities in web applications, rather than for monitoring and analyzing wireless traffic.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Windows 7 is considered to have a higher number of buffer-overflow vulnerabilities compared to older operating systems like UNIX due to its widespread use and the nature of its architecture, which has historically been more susceptible to such exploits.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1534
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because C and C++ do not automatically enforce boundary checks on arrays and strings, allowing programmers to inadvertently write beyond allocated memory, leading to buffer overflow vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def front_and_rear(test_tup): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that, when properly implemented, will return the first and last elements of a tuple, which is essential for data access in cybersecurity applications where tuple records may represent structured information.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 710
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def multiply_num(numbers): | return total/len(numbers)",
+      "marks": 10,
+      "explanation": "correct because it demonstrates the essential computational logic of multiplying all the numbers in a list to obtain a total and then dividing that total by the length of the list to compute the average, which is a fundamental operation in data analysis within the cybersecurity domain.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 98
+    }
+  ]
+}

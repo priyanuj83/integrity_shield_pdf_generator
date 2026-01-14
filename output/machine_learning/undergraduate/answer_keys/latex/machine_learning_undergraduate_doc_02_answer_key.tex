@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 2 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(E, F), P(H), P(E|H), P(F|H); B) P(E, F), P(H), P(E, F|H); C) P(H), P(E|H), P(F|H); D) P(E, F), P(E|H), P(F|H)
+\\ \textit{Note:} The correct answer is based on the application of Bayes' theorem, which requires the joint probability P(E, F), the prior probability P(H), and the conditional probability P(E, F|H) to compute the posterior probability P(H|E, F) without any assumptions of independence.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Linear hard-margin SVM.; B) Linear Logistic Regression.; C) Linear Soft margin SVM.; D) The centroid method.
+\\ \textit{Note:} The linear hard-margin SVM is designed specifically to find a hyperplane that perfectly separates linearly separable data without any misclassifications, making it applicable only in scenarios where such separation is achievable.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Supervised learning; B) Unsupervised learning; C) Clustering; D) None of the above
+\\ \textit{Note:} The correct answer is "supervised learning" because predicting rainfall involves using labeled historical data to train a model that can make accurate forecasts based on observed features or cues.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) linear in K; B) quadratic in K; C) cubic in K; D) exponential in K
+\\ \textit{Note:} K-fold cross-validation is considered linear in K because the model is trained and validated K times, resulting in a computational complexity that increases linearly with the number of folds.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It relates inputs to outputs.; B) It is used for prediction.; C) It may be used for interpretation.; D) It discovers causal relationships
+\\ \textit{Note:} The statement is false because regression analysis identifies relationships between variables and predicts outcomes but does not establish causation, as correlation does not imply causation.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DCGANs primarily utilize convolutional layers and batch normalization rather than self-attention mechanisms to improve image generation quality and training stability.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The classification run time of the nearest neighbors algorithm is O(N) in the worst case because it requires examining all N training data points to find the nearest neighbor, not O(log N) as suggested by the statement.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The use of weak classifiers in bagging helps prevent overfitting because averaging their predictions reduces variance and leads to a more robust model that generalizes better to unseen data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because a Bayesian network with that structure requires specifying the conditional probabilities for each node, which results in 8 independent parameters due to the dependencies and independence constraints defined by the network's structure.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} ImageNet includes millions of images collected from the internet, featuring a wide range of resolutions and aspects, which contributes to its diversity and effectiveness as a dataset for training deep learning models.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def swap\_count(s): | return swap
+\\ \textit{Note:} The answer correctly identifies that the function `swap\_count(s)` is designed to compute the minimum number of swaps needed to balance brackets in the given string, which is a critical task in algorithms related to string manipulation and balance checking.
+\item \textbf{Answer:} def nth\_items(list,n): | return list[::n]
+\\ \textit{Note:} correct because the function uses Python's slicing feature to generate a new list that contains every nth element from the original list, efficiently fulfilling the requirement to select specific items based on their position.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

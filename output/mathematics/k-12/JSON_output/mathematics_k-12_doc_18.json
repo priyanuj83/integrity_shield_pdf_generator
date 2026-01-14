@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_18",
+  "document_name": "Mathematics - K-12 Level Assessment 18",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_18.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_18_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which fraction is greater than 2 over 5?",
+      "options": {
+        "A": "1 over 5",
+        "B": "1 over 10",
+        "C": "4 over 10",
+        "D": "5 over 10"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The fraction 5 over 10 is equivalent to 1 over 2, which is greater than 2 over 5 when both fractions are compared.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2435"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the least perfect square with 3 different prime factors?",
+      "options": {
+        "A": "300",
+        "B": "9",
+        "C": "900",
+        "D": "666"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The least perfect square with 3 different prime factors is 900 because it can be expressed as \\(30^2\\) (where \\(30 = 2 \\times 3 \\times 5\\)), thus incorporating the primes 2, 3, and 5.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4339"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Change 34 L 18 cL to liters.",
+      "options": {
+        "A": "34.18 L",
+        "B": "35.8 L",
+        "C": "34.018 L",
+        "D": "214 L"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 34.18 L because 34 liters and 18 centiliters convert directly to 34 liters plus 0.18 liters, resulting in a total of 34.18 liters.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2181"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the sum of all positive integer values of $n$ such that $n^2$ is a factor of\n$1200$?",
+      "options": {
+        "A": "42",
+        "B": "12",
+        "C": "36",
+        "D": "39"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of all positive integer values of \\( n \\) such that \\( n^2 \\) divides \\( 1200 \\) is 42, as the positive integer factors of \\( 1200 \\) that are perfect squares (i.e., \\( n^2 \\)) include \\( 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 2401, 2500, 2601, 2704, 2809, 2916, 3025, 3136, 3249, 3364, 3481, and 3600\\), and their corresponding \\( n \\) values are summed to yield 42.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4235"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the smallest whole number that has a remainder of 1 when divided by 4, a remainder\nof 1 when divided by 3, and a remainder of 2 when divided by 5?",
+      "options": {
+        "A": "67",
+        "B": "43",
+        "C": "57",
+        "D": "37"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number 37 is the smallest whole number that satisfies the conditions of leaving a remainder of 1 when divided by 4 and 3, and a remainder of 2 when divided by 5, as it can be expressed in terms of these conditions through the system of congruences.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4430"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The expression (2 + 5)^2 - 42 simplifies to 16.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression (2 + 5)^2 simplifies to 49, and when 42 is subtracted from 49, the result is 7, not 16.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2084"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "All octagons are polygons because they have at least 3 sides.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An octagon is a type of polygon characterized by having eight sides, and since all polygons are defined as shapes with three or more sides, it follows that all octagons are indeed polygons.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The average number of square miles per county in Georgia is 274 square miles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the average area of counties in Georgia is significantly larger than 274 square miles, with many counties exceeding this size.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2255"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'When the expression $-2 x^2-20 x-53$ is written in the form $a(x+d)^2+e$, where $a$, $d$, and $e$ are constants, what is the sum $a+d+e$?' is '0'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression can be rewritten in vertex form as $-2(x+5)^2 - 3$, where $a = -2$, $d = 5$, and $e = -3$, resulting in the sum $-2 + 5 - 3 = 0$.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The expression 8 x 80 equals 720.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 8 x 80 equals 640, not 720, because when you multiply 8 by 80, the product is 640.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_18_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze Bob's morning routine of rolling a die and determine the expected number of rolls\nhe will make in a non-leap year. Explain your reasoning and calculations in detail.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze Bob's morning routine of rolling a die, we need to determine how many times he\nwill roll the die in a non-leap year, which consists of 365 days. If Bob rolls the die\neach morning, he will make one roll for each day of the year. Therefore, the total number\nof rolls he makes in a non-leap year is simply 365 rolls. However, if we consider that Bob\ncontinues to roll each time he rolls a 1, the expected number of rolls can be calculated.\nThe probability of rolling a 1 on a standard six-sided die is 1/6, and the expected number\nof rolls can be represented as an infinite geometric series. After calculating, we find\nthat the expected number of rolls he will make in a non-leap year totals approximately 438\nrolls.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the total number of rolls Bob makes based on the number of days in a non-leap year and incorporates the probability of rolling a 1, which affects the expected number of rolls if he continues to roll under that condition.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_18_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the outcomes of flipping a fair coin in two different games: one requiring 45%-55%\nheads and the other needing more than 80% heads. Which number of flips would optimize your\nchances of winning for each game?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To optimize your chances of winning in the first game, which requires flipping a coin to\nachieve 45%-55% heads, you should flip the coin 300 times. This larger number of flips\nallows for a more accurate representation of the expected probability, minimizing the\nchance of random fluctuations affecting the outcome. In contrast, for the second game that\nrequires more than 80% heads, flipping the coin 30 times is optimal. This smaller number\nof flips can still provide a reasonable chance of achieving a high percentage of heads\nwhile being manageable. Overall, the key to success in both games lies in choosing the\nright number of flips to balance accuracy and practicality.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because flipping the coin 300 times for the first game ensures that the results closely align with the expected probability due to the law of large numbers, while flipping it 30 times for the second game offers a practical balance between feasibility and the high probability needed to achieve more than 80% heads.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "5496"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

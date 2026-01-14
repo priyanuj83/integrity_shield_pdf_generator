@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_21",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Python variable names are case-sensitive, meaning that variables named \"Variable\", \"variable\", and \"VARIABLE\" are considered distinct and can hold different values.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Both of the above\" because it indicates that both statements provided in the options accurately reflect key features or characteristics of Python, reinforcing its versatile and user-friendly nature as a programming language.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking systems involved.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In Python, negative indexing allows you to access elements from the end of a list, so ['a', 'Chemistry', 0, 1][-3] retrieves the second element from the beginning, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3279
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Chemistry\" because in Python, lists are indexed starting from 0, so the element at index 1 corresponds to the second item in the list, which is \"Chemistry\".",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The function O(log log N) grows the slowest among common complexity classes because it increases at a much slower rate than other logarithmic, linear, or polynomial functions as N becomes very large.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3231
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the Python expression 'abc'[::-1] is a valid syntax that correctly reverses the string, resulting in 'cba'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The sort() method is not applicable to strings in Python because strings are immutable, and sorting can only be performed on mutable sequences like lists.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the '+' operator concatenates two strings, so combining 'a' and 'ab' results in the string 'aab'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the right shift operation (>>) divides the binary representation of the number by 2 for each shift, and shifting the binary representation of 8 (which is 1000 in binary) to the right by one position results in 4 (which is 0100 in binary).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3227
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "In Python 3, floor division is performed using the double forward slash operator (//).\nThis operation divides two numbers and rounds down the result to the nearest whole number,\nwhich is significant when you need an integer result without any decimal places. For\nexample, 7 // 2 equals 3, since 7 divided by 2 is 3.5, and the floor division rounds it\ndown to 3. In contrast, regular division using a single forward slash (/) would yield a\nfloat, so 7 / 2 results in 3.5. Understanding the difference between these two types of\ndivision is important for programming tasks that require whole numbers or when working\nwith loops and indices.",
+      "marks": 10,
+      "explanation": "correct because it accurately defines floor division in Python 3, explains its significance in providing whole number results, and contrasts it with regular division by demonstrating the different outputs for the same operation using appropriate examples.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_k-12_doc_21_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "Even if a large Java program passes extensive testing without errors, it does not\nguarantee that the program is free of bugs. This is because testing can only cover a\nlimited number of scenarios, and some bugs may only appear under specific conditions that\nwere not tested. Additionally, the complexity of the program can lead to unforeseen\ninteractions between different parts of the code that testing may not reveal. Therefore,\nwhile thorough testing is essential, it is not always sufficient to ensure that a program\nis completely bug-free. Continuous monitoring and updates are necessary to address any\npotential issues that might arise after the program is deployed.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes that exhaustive testing cannot account for all possible scenarios and interactions within a complex program, leaving the possibility for undetected bugs despite the absence of errors during tests.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3216
+    }
+  ]
+}

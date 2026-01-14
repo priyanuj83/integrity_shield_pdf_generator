@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_undergraduate_doc_18",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mmlu_pro_math_mcq",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is Sunday because 10^(10^(10)) days from Wednesday can be simplified by finding the remainder of 10^(10^(10)) when divided by 7 (the number of days in a week), which results in 3, indicating that it will be three days later, landing on Sunday.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1165
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The polynomial 2x^5 + 8x - 7 is continuous and differentiable, and by using the Intermediate Value Theorem and analyzing its derivative, we can determine that it has only one real root since the function changes from negative to positive only once.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1156
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The product (20)(-8) in Z_26 is computed as -160, which is equivalent to 22 modulo 26 since -160 + 6*26 = 22.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 36
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The first statement is false because the set {1, 2, ..., n-1} does not form a group under multiplication modulo n for all n > 1, as it fails to satisfy the group axioms when n is not prime, while the second statement is true because the existence of an integer x such that 63x mod 100 = 1 indicates that 63 and 100 are coprime, allowing for the existence of a multiplicative inverse.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 78
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is (2+a)*-1 because in the group (Z,*), the operation a*b = a+b+1 implies that to find the inverse of an element a, we need to solve the equation a + b + 1 = e, where e is the identity element (1), leading to b = -1 - a, which simplifies to (2 + a)*-1.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 70
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A maximal ideal is a prime ideal only in commutative rings with unity, as in other types of rings, such as non-commutative rings or rings without unity, maximal ideals may not satisfy the prime ideal property where the product of two non-zero elements is non-zero.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 24
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the polynomial x^3 + 1 can be factored as (x + 1)(x^2 - x + 1) in Z_3, indicating that it is reducible and Z_3[x]/(x^3 + 1) is not a field.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 51
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in the case where H is a normal subgroup of G, the left coset aH is equal to the right coset Ha for all elements a in G.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 10
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The condition that any two distinct column vectors of matrix M are linearly independent is not equivalent to other conditions, such as the full rank condition or the linear independence of all columns, because linear independence among pairs of vectors does not guarantee the independence of larger sets of vectors or the overall rank of the matrix.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1182
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The dimension of the intersection of two 4-dimensional subspaces in a 7-dimensional vector space can be 0 if the two subspaces are positioned such that they do not share any common vectors other than the zero vector.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1108
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Since $\\cos{B}=\\frac{3}{5}$, we have $\\cos{B}=\\frac{AB}{BC}=\\frac{9}{BC}=\\frac{3}{5}$.\nThen, we can see that we have $9=BC\\cdot\\frac{3}{5}$, so $BC=9\\cdot\\frac{5}{3}=15$. From\nthe Pythagorean Theorem, we have $AC=\\sqrt{BC^2-AB^2}=\\sqrt{15^2-9^2}=\\sqrt{144}=12$.\nFinally, we can find $\\cos{C}$: $\\cos{C}=\\frac{AC}{BC}=\\frac{12}{15}=\\boxed{\\frac{4}{5}}$.",
+      "marks": 10,
+      "explanation": "correct because it applies the definition of cosine in a right triangle alongside the Pythagorean theorem to determine the lengths of the sides, ultimately allowing for the calculation of $\\cos C$ based on the derived side lengths.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 12175
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_18_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "When $x<1$ or $x>5$, $-x^2+bx-5<0$. That means that $-x^2+bx-5=0$ at $x=1$ and $x=5$. So,\nthe parabola has roots at 1 and 5, giving us $(x-1)(x-5)=0$. However, we also know the\nparabola opens downwards since the coefficient of $x^2$ is negative, so we have to negate\none of the factors. We can now write $-x^2+bx-5=(1-x)(x-5)=-x^2+6 x-5$. Thus,\n$b=\\boxed{6}$.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that the quadratic must have roots at \\(x=1\\) and \\(x=5\\) with a downward opening, leading to the correct formulation of the quadratic equation as \\(-x^2 + 6x - 5\\), thereby determining \\(b\\) to be 6.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 14960
+    }
+  ]
+}

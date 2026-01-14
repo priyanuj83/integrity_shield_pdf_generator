@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WEP (Wired Equivalent Privacy) is considered the least strong security encryption standard due to its outdated algorithms and vulnerabilities that allow for easy exploitation, making it significantly less secure than more modern standards such as WPA and WPA 2.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Freenet; B) ARPANET; C) Stuxnet; D) Internet
+\\ \textit{Note:} Freenet is a decentralized peer-to-peer platform that enables users to share and transfer files anonymously, making it an integral component of the darknet.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) when writing to a pointer that has been freed; B) when copying a buffer from the stack to the heap; C) when a pointer is used to access memory not allocated to it; D) when the program notices a buffer has filled up, and so starts to reject requests
+\\ \textit{Note:} A buffer overflow occurs when a pointer accesses memory outside its allocated boundary, leading to unintended overwriting of adjacent memory locations, which can compromise system integrity and security.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Speed; B) Space; C) Key exchange; D) Key length
+\\ \textit{Note:} Public key encryption allows for secure key exchange over an insecure channel, eliminating the need for both parties to share a secret key beforehand, which is a significant limitation of symmetric key cryptography.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) IM - Trojans; B) Backdoor Trojans; C) SMS Trojan; D) Ransom Trojan
+\\ \textit{Note:} An SMS Trojan is a type of malware that compromises a mobile device to send unauthorized text messages, often leading to financial charges on the user's mobile phone bill.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A MAC with a fixed tag length is inherently vulnerable to certain types of attacks, such as brute force and collision attacks, regardless of the strength of the underlying algorithm or key management, as the limited tag length restricts the number of unique outputs.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA (Wi-Fi Protected Access) employs a variety of encryption methods, including TKIP (Temporal Key Integrity Protocol) in addition to AES (Advanced Encryption Standard), which is why the statement is false.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because EXE does not automatically restart the STP solver or retry indefinitely upon a timeout; instead, it typically has a predefined number of retries or a timeout mechanism that limits attempts to re-solve the constraint query.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Mutation-based fuzzing can be applied to various types of inputs, including network protocol messages, as it involves altering existing data to test how software handles unexpected or malformed inputs, not just file-based inputs.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Whitebox fuzzers analyze the internal structure of a program, enabling them to systematically explore all possible execution paths and achieve comprehensive code coverage.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_tuplex(tuplex,value): | return count
+\\ \textit{Note:} correct because it defines a function intended to count the occurrences of a specified value within a tuple, which aligns with the requirements of the question to count repeated items.
+\item \textbf{Answer:} def remove\_spaces(str 1): | return str 1
+\\ \textit{Note:} incorrect because it does not implement any logic to remove spaces from the string, as it simply returns the original input string unchanged.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

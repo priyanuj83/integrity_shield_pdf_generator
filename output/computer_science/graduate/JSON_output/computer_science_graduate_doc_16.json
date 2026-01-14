@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_16",
+  "document_name": "Computer Science - Graduate Level Assessment 16",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_16.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which among the following is the least strong security encryption standard?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA 2",
+        "D": "WPA 3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WEP (Wired Equivalent Privacy) is considered the least strong security encryption standard because it employs outdated and weak encryption algorithms, making it vulnerable to various attacks and easily compromised compared to more modern standards like WPA and WPA2.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What was the first buffer overflow attack?",
+      "options": {
+        "A": "Love Bug",
+        "B": "SQL Slammer",
+        "C": "Morris Worm",
+        "D": "Code Red"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm, released in 1988, is recognized as the first notable buffer overflow attack because it exploited vulnerabilities in networked systems, leading to widespread disruption and highlighting the security risks associated with buffer overflows in software.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+      "options": {
+        "A": "boundary hacks",
+        "B": "memory checks",
+        "C": "boundary checks",
+        "D": "buffer checks"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer overflows occur when data exceeds the allocated buffer size, and without proper boundary checks to validate input sizes, applications can inadvertently allow this overflow, leading to potential vulnerabilities and bugs.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What tool can be used to perform SNMP enumeration?",
+      "options": {
+        "A": "DNSlookup",
+        "B": "Whois",
+        "C": "Nslookup",
+        "D": "IP Network Browser"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The IP Network Browser is specifically designed to scan and enumerate SNMP-enabled devices on a network, allowing for the retrieval of configuration and status information, which makes it an essential tool for performing SNMP enumeration.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A 3-way, set-associative cache is",
+      "options": {
+        "A": "one in which each main memory word can be stored at any of 3 cache locations",
+        "B": "effective only if 3 or fewer processes are running alternately on the processor",
+        "C": "possible only with write-back",
+        "D": "faster to access than a direct-mapped cache"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A 3-way, set-associative cache allows each memory word to be mapped to one of three possible locations within a specific set, providing flexibility in data storage and retrieval while maintaining a balance between direct-mapped and fully associative caches.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1091"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "A MAC can remain secure even with a fixed tag length if the underlying algorithm is sufficiently complex.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A MAC (Message Authentication Code) cannot remain secure with a fixed tag length because a fixed size increases the risk of collisions and allows for potential forgery attacks, regardless of the algorithm's complexity.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1509"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Identifier length in a programming language is best specified using a context-free grammar.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Identifier length in a programming language is best specified using a context-free grammar is false because context-free grammars can define the structure of identifiers but cannot enforce restrictions on their lengths, which may require additional context-sensitive rules.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1077"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In the event of a timeout, EXE restarts the STP solver and retries the query without any limit on the number of attempts.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, in practice, most systems impose a limit on the number of retries after a timeout to prevent infinite loops or excessive resource consumption.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Applications developed in C and C++ are prone to buffer overflow due to the lack of string boundary checks in predefined functions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because C and C++ allow direct memory manipulation without automatic boundary checking for strings, which can lead to buffer overflows when data exceeds allocated memory limits.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1479"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Public key encryption is faster than symmetric key cryptography due to its simpler algorithms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Public key encryption is slower than symmetric key cryptography because it relies on complex mathematical algorithms for key generation and encryption, while symmetric key cryptography uses simpler, faster operations with shorter keys.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1494"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_16_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to calculate the sum of the positive numbers of a given list of numbers\nusing lambda function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_positivenum(nums): | return sum(sum_positivenum)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "incorrect as it fails to implement a lambda function to filter the positive numbers from the list before calculating their sum and incorrectly references the function itself instead of the filtered list.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "870"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_16_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check if a nested list is a subset of another nested list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_subset_list(list1, list2): | return exist",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that determines if all elements of one nested list exist within another nested list, which is essential for establishing subset relationships in data structures.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "216"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

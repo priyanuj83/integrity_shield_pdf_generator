@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_10",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The coordinates (3/7, 3/14, 9/14) represent the point on the plane 2x + y + 3z = 3 that minimizes the distance to the origin, as it satisfies both the plane's equation and the condition for closest proximity, determined by projecting the origin onto the plane using the method of Lagrange multipliers or minimizing the distance function subject to the plane's constraint.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1127
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true for Statement 1 because homomorphisms can always be defined from any group G to the trivial group, while Statement 2 is false since not all homomorphisms are injective (one-to-one).",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 45
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The units digit of powers of 7 follows a repeating cycle of 7, 9, 3, 1, and since 25 mod 4 equals 1, the units digit of 7^25 is the same as that of 7^1, which is 7.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1140
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The expression (1+i)^10 can be simplified using De Moivre's theorem, converting it to polar form and calculating the power, which results in 32i.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1190
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The map x -> axa^2 is a homomorphism if and only if it preserves the group operation, which requires that for any elements x and y in the group G, the condition a(xy)a^2 = (axa^2)(aya^2) holds, leading to the conclusion that a^3 must equal the identity element e for the operation to be preserved.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1185
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the function f(x) = e^x - cx attains its minimum at x = log(c) by setting its derivative, f'(x) = e^x - c, equal to zero, which results in e^(log(c)) = c, confirming that this critical point corresponds to a minimum for c > 0.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1168
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The norm ||x||_2 corresponds to the Euclidean norm, which can be derived from the inner product \u27e8x, y\u27e9 = x^T y, thus satisfying the properties of an inner product space.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1147
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the order of the product of two permutations can be less than, equal to, or greater than the sum of their individual orders, depending on the specific permutations and their interactions.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 76
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the set of all n x n non-singular matrices with rational entries is infinite, as there are infinitely many rational numbers that can be used to construct such matrices.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 25
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, in the group (Z,*), the operation is multiplication, and the inverse of an element a is actually 1/a, not a-2, and in the context of integers, the only invertible elements are 1 and -1.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 70
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Suppose our polynomial is equal to\\[ax^3+bx^2+cx+d\\]Then we are given\nthat\\[-9=b+d-a-c.\\]If we let $-a=a'-9, -c=c'-9$ then we have\\[9=a'+c'+b+d.\\]This way all\nfour variables are within 0 and 9. The number of solutions to this equation is simply\n$\\binom{12}{3}=\\boxed{220}$ by stars and bars.",
+      "marks": 10,
+      "explanation": "correct because it reformulates the original polynomial equation into a new equation using substitutions that allow for non-negative integer solutions, and then applies the combinatorial stars and bars method to count the number of valid combinations of coefficients constrained by the given conditions.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 15808
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_10_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Converting to degrees, \\[-\\frac{3 \\pi}{4} = \\frac{180^\\circ}{\\pi} \\cdot \\left( -\\frac{3\n\\pi}{4} \\right) = -135^\\circ.\\]Since the tangent function has period $180^\\circ,$ $\\tan\n(-135^\\circ) = \\tan (-135^\\circ + 180^\\circ) = \\tan 45^\\circ = \\boxed{1}.$",
+      "marks": 10,
+      "explanation": "correct because it accurately converts the angle to degrees, utilizes the periodicity of the tangent function to find an equivalent positive angle, and correctly evaluates the tangent of that angle, leading to the final result of 1.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 20636
+    }
+  ]
+}

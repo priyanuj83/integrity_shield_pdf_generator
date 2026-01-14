@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is widely recognized as the first notable example of a buffer overflow attack, exploiting vulnerabilities in UNIX systems to propagate itself and cause significant disruption.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Escape queries; B) Interrupt requests; C) Merge tables; D) All of the above
+\\ \textit{Note:} Escaping queries prevents SQL injection by ensuring that user input is treated as data rather than executable code, thereby mitigating the risk of malicious SQL statements being executed against the database.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Speed; B) Space; C) Key exchange; D) Key length
+\\ \textit{Note:} Public key encryption simplifies the key exchange process by allowing users to share their public keys openly, eliminating the need for a secure channel to exchange secret keys as required in symmetric key cryptography.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Shared key; B) LEAP; C) TKIP; D) AES
+\\ \textit{Note:} WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as its primary encryption method to enhance the security of wireless networks by dynamically generating encryption keys and addressing vulnerabilities present in the earlier WEP protocol.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WEP (Wired Equivalent Privacy) is considered the least strong encryption standard due to its outdated security protocols and vulnerabilities that allow for easy cracking by attackers.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer overflow vulnerabilities in C and C++ primarily arise from improper handling of memory allocation and bounds checking rather than insufficient database checks, as these vulnerabilities exploit flaws in how the programming languages manage memory rather than issues with database interactions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DNSlookup is not typically used for SNMP enumeration because DNS (Domain Name System) is primarily concerned with resolving domain names to IP addresses, while SNMP (Simple Network Management Protocol) enumeration involves gathering information about network devices and their configurations, which is unrelated to DNS functions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA primarily relies on TKIP (Temporal Key Integrity Protocol) for securing wireless communication, while AES encryption is used in the later WPA 2 standard.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Penetration testing is a comprehensive security assessment that evaluates the entire system's defenses, including network infrastructure, applications, and user behavior, rather than focusing solely on individual program components.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A secure pseudorandom permutation can indeed be constructed from a secure pseudorandom generator using the GGM construction, which utilizes the Luby-Rackoff theorem to prove that the output of the construction has pseudorandom properties.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_Rectangles(radius): | return rectangles
+\\ \textit{Note:} correct as it outlines the structure of a Python function named 'count\_Rectangles' that would serve as a foundation for implementing logic to calculate the number of rectangles that can fit within a circle of a given radius, although it lacks the complete implementation details necessary for functionality.
+\item \textbf{Answer:} def number\_ctr(str): | return number\_ctr
+\\ \textit{Note:} incorrect as it does not implement the logic needed to count numeric values in a string; a correct function should iterate through the string, check for numeric characters, and maintain a count of those characters.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

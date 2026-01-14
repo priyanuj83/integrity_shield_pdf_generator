@@ -1,0 +1,290 @@
+{
+  "docid": "chemistry_undergraduate_doc_10",
+  "document_name": "Chemistry - Undergraduate Level Assessment 10",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_10.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the Larmor frequency for a proton in a magnetic field of 1 T.",
+      "options": {
+        "A": "23.56 GHz",
+        "B": "42.58 MHz",
+        "C": "74.34 kHz",
+        "D": "13.93 MHz"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Larmor frequency for a proton in a magnetic field is calculated using the formula f = \u03b3B, where \u03b3 (the gyromagnetic ratio for a proton) is approximately 42.58 MHz/T, thus yielding 42.58 MHz for a magnetic field strength of 1 T.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "915"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the magnetic field responsible for the polarization of 2.5 x 10^-6 for 13 C at\n298 K.",
+      "options": {
+        "A": "0.5 T",
+        "B": "1.2 T",
+        "C": "2.9 T",
+        "D": "100 T"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2.9 T because it is derived from the relationship between the magnetic field strength and the polarization of the material, which can be calculated using the formula that relates magnetic susceptibility, temperature, and the applied magnetic field, confirming that this value aligns with the expected results for the given conditions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "When the following equation is balanced, which of the following is true? __ MnO 4- + __ I-\n+ __ H+ <-> __ Mn 2+ + __ IO 3- + __ H 2 O",
+      "options": {
+        "A": "The I- : IO 3- ratio is 3:1.",
+        "B": "The MnO 4- : I- ratio is 6:5.",
+        "C": "The MnO 4- : Mn 2+ ratio is 3:1.",
+        "D": "The H+ : I- ratio is 2:1."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the balanced redox reaction, the stoichiometry shows that for every 6 moles of MnO4- reduced, 5 moles of I- are oxidized, resulting in a ratio of 6:5 between MnO4- and I-.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The 13 C spectrum of which isomer of C 6 H 14 has lines with three distinct chemical\nshifts?",
+      "options": {
+        "A": "hexane",
+        "B": "2-methylpentane",
+        "C": "3-methylpentane",
+        "D": "2,3-dimethylbutane"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hexane has a linear structure that allows for three distinct types of carbon environments, resulting in three unique chemical shifts in its 13C NMR spectrum.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Of the following ionic substances, which has the greatest lattice enthalpy?",
+      "options": {
+        "A": "MgO",
+        "B": "MgS",
+        "C": "NaF",
+        "D": "NaCl"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "MgO has the greatest lattice enthalpy due to the combination of its high charges (Mg\u00b2\u207a and O\u00b2\u207b) and the small ionic radii of both ions, which results in a stronger electrostatic attraction between the ions compared to other ionic substances.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "955"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "0.050 M AlCl 3 has the highest ionic strength among the given solutions due to its complete dissociation into multiple ions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because AlCl3 dissociates completely in solution into three chloride ions (Cl-) and one aluminum ion (Al3+), resulting in a total ionic strength that is higher than that of other solutions with lower dissociation into ions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "942"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "Halogenated hydrocarbons are commonly considered safe and non-toxic in aquatic environments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Halogenated hydrocarbons are often toxic to aquatic life due to their persistence in the environment and their ability to bioaccumulate, leading to harmful effects on ecosystems.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "The polarization of a proton is 4.126 x 10^-3 at 0.335 T and 2.142 x 10^-6 at 10.5 T at 298 K.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the polarization of a proton depends on the applied magnetic field strength (T), and the given values of polarization at specified magnetic fields and temperature are consistent with the expected behavior of protons in a magnetic field according to the principles of nuclear magnetic resonance.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14143"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "The 55 Mn nuclide has five allowed energy levels for its nuclear states.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the 55 Mn nuclide actually has more than five allowed energy levels for its nuclear states due to the complex interactions and configurations of its nucleons.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "968"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "Argon has a lower boiling point than neon due to its stronger intermolecular forces.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because argon, being a larger noble gas than neon, has weaker London dispersion forces due to its lower polarizability, resulting in a higher boiling point than neon.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "984"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the procedures that minimize the influence of random errors on measured results in\nchemistry, focusing on signal averaging and averaging results from multiple samples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In chemistry, minimizing the influence of random errors on measured results is crucial for\nobtaining reliable data. Two effective procedures include signal averaging and averaging\nresults from multiple samples. Signal averaging involves taking repeated measurements of\nthe same signal and calculating the mean, which helps to smooth out fluctuations caused by\nrandom noise. Additionally, averaging results from multiple samples provides a more\nrepresentative value by reducing the impact of anomalies in individual measurements. Both\nstrategies enhance the precision of the data and ensure that random errors are minimized,\nleading to more accurate experimental outcomes.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how both signal averaging and averaging results from multiple samples effectively reduce random errors in measurements by smoothing out noise and providing a more representative value, respectively.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "980"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the EPR spectrum of a rigid nitronyl nitroxide diradical with J << a, focusing on\nthe factors that result in the appearance of nine lines. What does this indicate about the\nsystem?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The EPR spectrum of a rigid nitronyl nitroxide diradical with a coupling constant J\nsignificantly smaller than the hyperfine interaction constant a (J << a) exhibits nine\ndistinct lines. This pattern arises from the combination of the spin states of the two\nunpaired electrons, which can be described by the interactions between the electron spins\nand the nearby nuclei. The nine lines result from the allowed transitions of the two\nelectron spins, which can each have three orientations in a magnetic field, leading to a\ntotal of three possible transitions for each of the two spins, thus producing a triplet\nfor each configuration. This indicates that the system has a significant degree of spin\ncoupling while still maintaining a notable hyperfine interaction, reflecting a well-\ndefined electronic structure and the presence of unpaired electron spins in the molecular\nframework.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the combination of the spin states of the two unpaired electrons in the diradical, influenced by the hyperfine interaction and the small coupling constant J, leads to the appearance of nine distinct EPR lines, indicating the presence of three spin orientations for each electron.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "901"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

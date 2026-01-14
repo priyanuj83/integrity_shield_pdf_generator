@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 18 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) int(x [,base]); B) long(x [,base] ); C) float(x); D) str(x)
+\\ \textit{Note:} The function int(x [,base]) in Python 3 is specifically designed to convert a string representation of an integer into its corresponding integer value, optionally allowing for a specified base for conversion.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 1 because the min() function in Python 3 returns the smallest element from a list, and in the list l = [1, 2, 3, 4], the smallest value is 1.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) The goal of the attack; B) The number of computers being attacked; C) The number of computers launching the attack; D) The time period in which the attack occurs
+\\ \textit{Note:} A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking machines involved.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) ( 'abcd', 786 , 2.23, 'john', 70.2 ); B) abcd; C) Error; D) None of the above.
+\\ \textit{Note:} The correct answer is "abcd" because in Python, tuples are zero-indexed data structures, meaning that the first element, accessed by index 0, is 'abcd'.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O($N^(1$/2)); B) O($N^(1$/4)); C) O($N^(1$/N)); D) O(N)
+\\ \textit{Note:} The function O($N^(1$/N)) grows the slowest because as N increases, $N^(1$/N) approaches 1, indicating that the growth rate diminishes significantly compared to other common functions such as polynomial or exponential functions.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because in Python 3, the expression 'a' + 'ab' successfully concatenates two strings, resulting in the string 'aab' without any type compatibility issues.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the cmp() function was removed in Python 3, and instead, the max() function is used to find the item with the maximum value in a list.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because while unauthorized login attempts may compromise security, they primarily threaten the integrity and availability of systems rather than directly violating confidentiality, which specifically pertains to protecting sensitive information from unauthorized access.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A device driver is assigned to a device when the device is connected to the computer or operating system, not specifically when it connects to the Internet.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the expression "a[i] == max || !(max != a[i])" is logically equivalent to "a[i] == max," not "a[i] != max."
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def replace\_list(list 1,list 2): | return replace\_list
+\\ \textit{Note:} The answer correctly defines a function intended to replace the last element of a list with another list, but it fails to implement the necessary logic to achieve that goal, as it only defines a function without any operational code.
+\item \textbf{Answer:} def count\_list(input\_list): | return len(input\_list)
+\\ \textit{Note:} correct because the function uses the built-in `len()` function to accurately count and return the number of lists contained within the provided input list.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

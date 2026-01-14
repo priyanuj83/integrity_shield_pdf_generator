@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 7 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Surface web; D) Deep Web
+\\ \textit{Note:} The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible to standard search queries.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Replaced; B) Overview; C) Changed; D) Violated
+\\ \textit{Note:} A hash function produces a fixed-size hash value from input data, allowing for the detection of any alterations to the message, thus ensuring its integrity by confirming that the content has not changed.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Message Condentiality; B) Message Integrity; C) Message Splashing; D) Message Sending
+\\ \textit{Note:} Message integrity ensures that the data received is identical to the data sent, protecting it from unauthorized alterations during transmission.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Application or transport; B) Data link layer; C) Physical Layer; D) Network or transport layer
+\\ \textit{Note:} A packet filter firewall operates by examining packets at the network and transport layers of the OSI model, allowing or blocking traffic based on IP addresses, port numbers, and protocols.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Condentiality; C) Authentication; D) Nonrepudiation
+\\ \textit{Note:} The correct answer is "Confidentiality" because it refers to the principle that information is only accessible to those authorized to have access, ensuring that the sender and receiver can communicate securely without unauthorized interception.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow occurs when a program writes more data to a buffer than it can hold, often leading to memory corruption and security vulnerabilities, rather than actively rejecting requests when the buffer is full.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA 3 includes enhanced security features such as improved encryption methods and protections against brute-force attacks, making it more secure than WPA 2 despite its shorter history.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Unauthorized network access is primarily associated with vulnerabilities at the application or network layers, rather than the transport layer, which is responsible for end-to-end communication and data transfer reliability.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer-overflow attack is true because it specifically involves sending more data to a program's buffer than it can handle, leading to memory corruption that can be exploited to execute unauthorized code.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Metasploit framework provides a user-friendly interface that allows cybersecurity professionals to easily identify, select, and exploit vulnerabilities in systems, thus streamlining the process of penetration testing.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} A compiler cannot determine the absolute address of a local variable due to the nature of stack allocation, where the variable's address is relative to the stack pointer at runtime, which can change with each function call. Since local variables are allocated on the stack, their addresses are dependent on the sequence and frequency of function invocations, leading to different memory layouts each time a function is executed. This dynamic allocation poses significant implications in cybersecurity, particularly with buffer overflow attacks, where an attacker may exploit the unpredictability of local variable addresses to manipulate the stack and execute arbitrary code. Consequently, the inability to ascertain a fixed address reinforces the necessity for robust security measures, such as stack canaries and address space layout randomization (ASLR), to mitigate these vulnerabilities.
+\\ \textit{Note:} correct because it highlights that local variables are allocated on the stack with addresses determined relative to the stack pointer at runtime, which varies with each function call, creating dynamic memory layouts that complicate absolute address determination and have significant cybersecurity implications.
+\item \textbf{Answer:} In cybersecurity, the classic security properties are confidentiality, integrity, and availability, often referred to as the CIA triad. Among these, availability stands out as it focuses on ensuring that systems, services, and data are accessible when needed, which is distinct from the protective nature of confidentiality and integrity. The implications of prioritizing availability can lead to vulnerabilities; for instance, systems may be designed to remain operational at the expense of robust security measures, potentially allowing unauthorized access or data breaches. This trade-off illustrates that while availability is essential for operational effectiveness, it must be carefully balanced with confidentiality and integrity to maintain an overall secure system. Thus, while availability is a critical aspect of security, its emphasis can inadvertently compromise the foundational elements of cybersecurity.
+\\ \textit{Note:} correct because it accurately identifies availability as the distinct property within the CIA triad, emphasizing its focus on system accessibility rather than the protective measures associated with confidentiality and integrity, while also discussing the potential vulnerabilities that may arise from prioritizing availability over security.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

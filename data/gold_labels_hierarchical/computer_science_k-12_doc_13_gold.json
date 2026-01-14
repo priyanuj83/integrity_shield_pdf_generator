@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_13",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The function int(x [,base]) in Python 3 is specifically designed to convert a string representation of a number into its integer form, optionally allowing for a specified base for conversion.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(N^(1/N)) grows the slowest among functions because as N increases, the value of N^(1/N) approaches 1, indicating that the growth rate is significantly slower than polynomial, logarithmic, or exponential functions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 5 because in Python, the modulus operator (%) has a higher precedence than addition (+), so 3 % 2 is evaluated first, resulting in 1, and then 4 + 1 equals 5.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3250
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Chemistry\" because in Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because the expression evaluates the modulus operation first, where 3 % 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Confidentiality is not compromised simply by logging into a system with valid credentials, as this action is expected and authorized, assuming the user is entitled to access the information.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the max() function in Python 3 is specifically designed to evaluate a list of comparable items and return the one with the highest value based on their natural ordering.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The decimal number 231 is equal to E7 in hexadecimal because when you divide 231 by 16, the quotient is 14 (which is E in hex) and the remainder is 7, thus representing the number as E7 in base 16.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because strings in Python are immutable, meaning they cannot be changed in place, so the 'sort()' method cannot be applied to a string.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the '**' operator is specifically designed to calculate the power of a number by raising the base to the exponent, making the statement true.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3219
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def divSum(n): | return sum; | def areEquivalent(num1,num2): | return divSum(num1) == divSum(num2);",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a function to calculate the sum of divisors for a given number and another function to compare the sums of divisors for two numbers, thereby fulfilling the requirement of checking whether the sums are equivalent.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 164
+    },
+    {
+      "question_id": "computer_science_k-12_doc_13_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def set_middle_bits(n): | return (n >> 1) ^ 1 | def toggle_middle_bits(n): | return 1 | return n ^ set_middle_bits(n)",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines two functions, where `set_middle_bits` shifts the input number `n` right by one position and uses the XOR operator to create a mask that toggles the middle bits, while `toggle_middle_bits` applies this mask to `n` to change only the bits between the first and last, effectively achieving the desired bit toggling.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 735
+    }
+  ]
+}

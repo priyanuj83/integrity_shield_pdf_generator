@@ -1,0 +1,294 @@
+{
+  "docid": "engineering_graduate_doc_07",
+  "document_name": "Engineering - Graduate Level Assessment 7",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_07.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Convert the Fourier series f(t) = ^+\\infty\\sum_k=-\\infty {(1) / (1 +jk)}e^jkt to\ntrigonometric form.",
+      "options": {
+        "A": "f(t) = 1 + 2 ^\\infty\\sum_k=1 [{coskt} / {1 + k^2}]",
+        "B": "f(t) = ^\\infty\\sum_k=1 [{coskt+ k sinkt} / {1 + k^2}]",
+        "C": "f(t) = 2 ^\\infty\\sum_k=1 [{coskt+ k sinkt} / {1 + k^2}]",
+        "D": "f(t) = 1 + 2 ^\\infty\\sum_k=1 [{coskt+ k sinkt} / {1 + k^2}]",
+        "E": "f(t) = 2 + 2 ^\\infty\\sum_k=1 [{coskt} / {1 + k^2}]"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - f(t) = 1 + 2 ^\\infty\\sum_k=1 [{coskt+ k sinkt} / {1 + k^2}]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The inductance of linear time-varying inductor is given by L(t) = L_0(t +tanht) and the\ncurrent through it is given by i (t) =cos\\omegat Find the voltage across this inductor.",
+      "options": {
+        "A": "U(t) = L_0 (1 - tanht)cos\\omegat + \\omegaL_0 (t - sech^2 t)sin\\omegat",
+        "B": "U(t) = L_0 (1 + sech^2 t)cos\\omegat+ \\omegaL_0 (t +tanht)sin\\omegat",
+        "C": "U(t) = L_0 (1 + sech^2 t)cos\\omegat- \\omegaL_0 (t +tanht)sin\\omegat",
+        "D": "U(t) = L_0 (1 - sech^2 t)cos\\omegat- \\omegaL_0 (t +tanht)sin\\omegat",
+        "E": "U(t) = -L_0 (1 + sech^2 t)sin\\omegat + \\omegaL_0 (t + tanht)cos\\omegat"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - U(t) = L_0 (1 + sech^2 t)cos\\omegat- \\omegaL_0 (t +tanht)sin\\omegat",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Compute the lowest natural frequency for an automobile enginespring. The spring is made of\nspring steel with 10 activecoils, mean diameter of 3.5 in. and wire diameter of 0.20 in.",
+      "options": {
+        "A": "15 cycles/sec",
+        "B": "33 cycles/sec",
+        "C": "22.5 cycles/sec",
+        "D": "25.8 cycles/sec",
+        "E": "18 cycles/sec"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - 25.8 cycles/sec",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11947"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the heat added when one mole of carbon dioxide is heated at constant volume from\n540 to 3540 F.",
+      "options": {
+        "A": "28,500 Btu",
+        "B": "34,650 Btu",
+        "C": "40,000 Btu",
+        "D": "25,000 Btu",
+        "E": "45,000 Btu"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 34,650 Btu",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12201"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Both the ALU and control section of CPU employ which special purpose storage location?",
+      "options": {
+        "A": "Multiplexers",
+        "B": "Memory Cache",
+        "C": "Registers",
+        "D": "Flip-Flops",
+        "E": "Buffers"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - Multiplexers",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11578"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "A DC machine commonly has both high shunt and armature resistance values to improve efficiency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'high and low'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11741"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Laplace transform of f(t) = sin(kt) is given by L{sin(kt)} = k / (s^2 - k^2) for t > 0.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '[k / (s^2 + k^2)]'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12178"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The time-domain response v_ab(t) for the given transform is -48 e^-3 t - 34 e^-2 t + 16.5 e^-4 t.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11406"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "In the decimal number system, the most significant digit (MSD) is the last digit from left to right.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'First digit from left to right'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11737"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_07_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "All oscillators listed, including the Hartley oscillator, produce sinusoidal waveforms under ideal conditions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'Hartley oscillator'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_07_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate and discuss the diffusion rate of water into dry air at 1 atm and 25^\\circC from\na test tube with a diameter of 12 mm and a length of 16 cm, including relevant equations\nand assumptions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "2.184 \\times 10^-10 kg/sec. Explain why this is the correct answer and provide supporting\nevidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12238"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_07_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of determining the homogeneous solution for the voltage, v_C(t),\nacross a (4/3)F capacitor in a series RLC circuit with given parameters.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "(3/2) (e^-t - e^-3 t)V. Explain why this is the correct answer and provide supporting\nevidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12216"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "geography_undergraduate_doc_11",
+  "document_name": "Geography - Undergraduate Level Assessment 11",
+  "domain": "geography",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "global_facts"
+  ],
+  "combination_used": [
+    "mmlu_geography_mcq",
+    "mmlu_geography_tf",
+    "mmlu_pro_geography_mcq",
+    "geography_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 3,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\geography\\undergraduate\\latex_documents\\geography_undergraduate_doc_11.tex",
+    "pdf_file": "output\\geography\\undergraduate\\pdf_documents\\geography_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/geography_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/geography_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\geography\\undergraduate\\answer_keys\\latex\\geography_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\geography\\undergraduate\\answer_keys\\pdf\\geography_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "geography_undergraduate_doc_11_geography_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In which of the following country did the largest number of children die under the age of\nfive years in 2017?",
+      "options": {
+        "A": "China",
+        "B": "United States",
+        "C": "Indonesia",
+        "D": "Pakistan"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In 2017, Pakistan faced significant challenges related to healthcare access, malnutrition, and infectious diseases, contributing to it having the highest number of under-five mortality rates globally.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "14326"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "geography_undergraduate_doc_11_geography_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "As of 2015, what percentage of the global population over 15 years old was literate?",
+      "options": {
+        "A": "81%",
+        "B": "86%",
+        "C": "91%",
+        "D": "96%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2015, global literacy rates for individuals over 15 years old reached 86%, reflecting significant progress in educational access and the effectiveness of literacy programs worldwide.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2609"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "geography_undergraduate_doc_11_geography_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "As of 2013, which of the following countries had the highest per capita rate of\nhomelessness?",
+      "options": {
+        "A": "US",
+        "B": "Chile",
+        "C": "Ireland",
+        "D": "Spain"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2013, the United States had the highest per capita rate of homelessness due to factors such as economic inequality, lack of affordable housing, and insufficient social support systems compared to other developed countries.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2646"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "geography_undergraduate_doc_11_geography_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following mental disorders is most prevalent in the world?",
+      "options": {
+        "A": "Bipolar disorder",
+        "B": "Schizophrenia",
+        "C": "Alcohol use disorders",
+        "D": "Anxiety disorders"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Anxiety disorders are the most prevalent mental disorders globally, affecting millions of individuals across diverse populations due to their widespread nature and the various forms they can take, such as generalized anxiety disorder, panic disorder, and social anxiety disorder.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2666"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "geography_undergraduate_doc_11_geography_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of Americans agree that the state is run for the benefit\nof all the people?",
+      "options": {
+        "A": "31%",
+        "B": "46%",
+        "C": "61%",
+        "D": "76%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 46% reflects a significant portion of the American populace who perceive the state's governance as inclusive and beneficial to the entire community, indicating a moderate level of trust in governmental representation and effectiveness in meeting diverse needs.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "15659"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_tf_1",
+      "question_type": "TF",
+      "stem_text": "The struggle related to the constitutional movement continued until 1911, when Mohammad Ali Shah was defeated and forced to abdicate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: Mohammad Ali Shah",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57301248b2c2fd14005687ec"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_tf_2",
+      "question_type": "TF",
+      "stem_text": "Following the Protestant Reformation, promoted by local reformer Martin Bucer, the principle of cuius regio, eius religio led to a certain amount of religious diversity in the highlands of northern Alsace. Landowners, who as \"a different answer\" had the right to decide which religion was allowed on their land, were eager to entice populations from the more attractive lowlands to settle and develop their property.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: local lords",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5727a3e23acd2414000de8a7"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_tf_3",
+      "question_type": "TF",
+      "stem_text": "Estonia has had a market economy since the end of the 1990 s and one of the highest per capita income levels in a different answer Europe.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Eastern",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5728c74d2ca10214002da7a4"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_tf_4",
+      "question_type": "TF",
+      "stem_text": "In 1579 the northern seven provinces signed the Union of Utrecht, in which they decided to join forces against Spanish rule. The Union of Utrecht is seen as the beginning of the Dutch Republic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: The Union of Utrecht is seen as the beginning of the Dutch Republic",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5726ced3dd62a815002e90e5"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_tf_5",
+      "question_type": "TF",
+      "stem_text": "This organization developed a scribal bureaucracy (known as \"men of the pen\") as a distinct group, partly highly trained a different answer, which developed into a professional body.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: ulama",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572a4e8e7a1753140016ae8a"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_long_1",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: On 1 February 1908, the king Dom Carlos I of Portugal and his heir apparent, Prince Royal Dom Lu\u00eds Filipe, Duke of Braganza, were murdered in Lisbon. Under his rule, Portugal had twice been declared bankrupt - on 14 June 1892, and again on 10 May 1902 - causing social turmoil, economic disturbances, protests, revolts and criticism of the monarchy. Manuel II of Portugal became the new king, but was eventually overthrown by the 5 October 1910 revolution, which abolished the regime and instated republicanism in Portugal. Political instability and economic weaknesses were fertile ground for chaos and unrest during the Portuguese First Republic. These conditions would lead to the failed Monarchy of the North, 28 May 1926 coup d'\u00e9tat, and the creation of the National Dictatorship (Ditadura Nacio... Question: On what day was King Manuel II overthrown?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "5 October 1910",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: 5 October 1910",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5733b5944776f419006610f4"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "geography_undergraduate_doc_11_geography_squad_long_2",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Think-tanks such as the World Pensions Council have also argued that European legislators have pushed somewhat dogmatically for the adoption of the Basel II recommendations, adopted in 2005, transposed in European Union law through the Capital Requirements Directive (CRD), effective since 2008. In essence, they forced European banks, and, more importantly, the European Central Bank itself e.g. when gauging the solvency of financial institutions, to rely more than ever on standardised assessments of credit risk marketed by two non-European private agencies: Moody's and S&P. Question: When was Basel II adopted?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "2005",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: 2005",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572831873acd2414000df6b2"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

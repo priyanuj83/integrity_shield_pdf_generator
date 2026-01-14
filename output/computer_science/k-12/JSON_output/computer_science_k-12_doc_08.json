@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_08",
+  "document_name": "Computer Science - K-12 Level Assessment 8",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_08.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_08_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Are Python variable names case-sensitive?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "It's machine-dependent",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Python variable names are case-sensitive, meaning that variables such as \"Variable\", \"variable\", and \"VARIABLE\" are considered distinct and separate identifiers.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 1 + 3 % 3?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because the expression evaluates the modulus operation first, where 3 % 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is the output of print tuple[0] if tuple = ( 'abcd', 786 , 2.23, 'john',\n70.2 )?",
+      "options": {
+        "A": "( 'abcd', 786 , 2.23, 'john', 70.2 )",
+        "B": "abcd",
+        "C": "Error",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"abcd\" because in Python, indexing starts at 0, so tuple[0] retrieves the first element of the tuple, which is 'abcd'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3191"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following best explains what happens when a new device is connected to the\nInternet?",
+      "options": {
+        "A": "A device driver is assigned to the device.",
+        "B": "An Internet Protocol (IP) address is assigned to the device.",
+        "C": "A packet number is assigned to the device.",
+        "D": "A Web site is assigned to the device."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When a new device is connected to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and allows for communication with other devices.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3268"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of 4*1**4 in python?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "256",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the seed([x]) function sets the starting value for generating random numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the seed([x]) function initializes the random number generator with a specified starting value, ensuring that the sequence of random numbers can be reproduced if the same seed is used.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The condition a < c is sufficient to ensure the expression evaluates to true for integers a, b, and c.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition a < c guarantees that the value of a is less than c, which makes any comparison involving a and c true in the context of evaluating relational expressions within programming and mathematical logic.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the max function returns the largest value from a list, so max([1, 2, 3, 4]) is 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the max function in Python 3 is designed to evaluate a list of numerical values and return the highest value, which in the case of the list [1, 2, 3, 4], is indeed 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the strip() function removes all leading and trailing whitespace from a string.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The strip() function in Python 3 is designed to remove all types of leading and trailing whitespace characters, including spaces, tabs, and newline characters, from a string.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14386"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression x << 3 results in 16 when x is equal to 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression x << 3 performs a left bitwise shift on the binary representation of x, so when x is 1 (which is 0001 in binary), shifting it left by 3 positions results in 8 (which is 1000 in binary), not 16.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_08_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of a Web server in the Internet ecosystem, explaining how it functions to\ndeliver Web pages to clients and its importance in web communication.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A Web server is a crucial component of the Internet ecosystem, functioning as a computer\nsystem that delivers Web pages to clients, such as users' browsers. When a user types a\nwebsite address, their browser sends a request to the Web server hosting that site. The\nserver processes this request, retrieves the appropriate Web page, and sends it back to\nthe client's browser, allowing the user to view the content. This process is vital for web\ncommunication, as it enables the exchange of information and resources across the\nInternet, connecting people and services worldwide. Without Web servers, accessing and\nsharing information online would not be possible.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the Web server's role in processing user requests and delivering Web pages, emphasizing its essential function in facilitating web communication and information exchange.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "14387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_08_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the selection sort algorithm operates in terms of data movement and\ncomparisons. Why is the number of comparisons not affected by the initial arrangement of\nelements?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The selection sort algorithm operates by repeatedly finding the minimum element from the\nunsorted portion of the array and moving it to the beginning. In each pass, it compares\neach element in the unsorted portion to find the smallest one, resulting in a fixed number\nof comparisons that does not depend on how the elements are arranged initially.\nSpecifically, for an array of size n, selection sort makes n-1 comparisons in the first\npass, n-2 in the second, and so on, totaling to about n(n-1)/2 comparisons overall. This\nmeans that regardless of whether the array is already sorted, reverse sorted, or randomly\nordered, the algorithm will still perform the same number of comparisons. Thus, the number\nof comparisons remains consistent because selection sort always examines every element in\nthe unsorted portion during each pass.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because selection sort consistently performs a predetermined number of comparisons based solely on the array's size, regardless of the initial arrangement of elements, as it systematically scans the entire unsorted segment to locate the minimum value in each iteration.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3276"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

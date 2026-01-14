@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_16",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "WEP (Wired Equivalent Privacy) is considered the least strong security encryption standard because it employs outdated and weak encryption algorithms, making it vulnerable to various attacks and easily compromised compared to more modern standards like WPA and WPA2.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1556
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is recognized as the first notable buffer overflow attack because it exploited vulnerabilities in networked systems, leading to widespread disruption and highlighting the security risks associated with buffer overflows in software.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Buffer overflows occur when data exceeds the allocated buffer size, and without proper boundary checks to validate input sizes, applications can inadvertently allow this overflow, leading to potential vulnerabilities and bugs.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The IP Network Browser is specifically designed to scan and enumerate SNMP-enabled devices on a network, allowing for the retrieval of configuration and status information, which makes it an essential tool for performing SNMP enumeration.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1501
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A 3-way, set-associative cache allows each memory word to be mapped to one of three possible locations within a specific set, providing flexibility in data storage and retrieval while maintaining a balance between direct-mapped and fully associative caches.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1091
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A MAC (Message Authentication Code) cannot remain secure with a fixed tag length because a fixed size increases the risk of collisions and allows for potential forgery attacks, regardless of the algorithm's complexity.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1509
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Identifier length in a programming language is best specified using a context-free grammar is false because context-free grammars can define the structure of identifiers but cannot enforce restrictions on their lengths, which may require additional context-sensitive rules.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1077
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, in practice, most systems impose a limit on the number of retries after a timeout to prevent infinite loops or excessive resource consumption.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because C and C++ allow direct memory manipulation without automatic boundary checking for strings, which can lead to buffer overflows when data exceeds allocated memory limits.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Public key encryption is slower than symmetric key cryptography because it relies on complex mathematical algorithms for key generation and encryption, while symmetric key cryptography uses simpler, faster operations with shorter keys.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1494
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def sum_positivenum(nums): | return sum(sum_positivenum)",
+      "marks": 10,
+      "explanation": "incorrect as it fails to implement a lambda function to filter the positive numbers from the list before calculating their sum and incorrectly references the function itself instead of the filtered list.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 870
+    },
+    {
+      "question_id": "computer_science_graduate_doc_16_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def check_subset_list(list1, list2): | return exist",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that determines if all elements of one nested list exist within another nested list, which is essential for establishing subset relationships in data structures.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 216
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 13 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Consider the Bayesian network given below. How many independent parameters would we need if we made no assumptions about independence or conditional independence H -\textgreater{} U \textless{}- P \textless{}- W?
+\begin{enumerate}[label=(\alph*)]
+    \item 3
+    \item 4
+    \item 7
+    \item 15
+\end{enumerate}
+\item If N is the number of instances in the training dataset, nearest neighbors has a classification run time of
+\begin{enumerate}[label=(\alph*)]
+    \item O(1)
+    \item O( N )
+    \item O(log N )
+    \item O( $N^2$ )
+\end{enumerate}
+\item Which one of the following is the main reason for pruning a Decision Tree?
+\begin{enumerate}[label=(\alph*)]
+    \item To save computing time during testing
+    \item To save space for storing the Decision Tree
+    \item To make the training set error smaller
+    \item To avoid overfitting the training set
+\end{enumerate}
+\item Statement 1| L$_{2}$ regularization of linear models tends to make models more sparse than L$_{1}$ regularization. Statement 2| Residual connections can be found in ResNets and Transformers.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Statement 1| The softmax function is commonly used in mutliclass logistic regression. Statement 2| The temperature of a nonuniform softmax distribution affects its entropy.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The computational complexity of gradient descent is polynomial in the number of features, D.
+\item True or False: Word 2 Vec parameters are not initialized using a Restricted Boltzmann Machine.
+\item True or False: Averaging the output of multiple decision trees helps decrease variance in the model's predictions.
+\item True or False: The softmax function is commonly employed in multiclass logistic regression to convert logits into probabilities.
+\item True or False: The BLEU metric primarily relies on precision, while the ROUGE metric focuses on recall in evaluating generated text.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to find the longest chain which can be formed from the given set of pairs.
+\item Write a function to find maximum possible sum of disjoint pairs for the given array of integers and a number k.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

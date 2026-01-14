@@ -1,0 +1,293 @@
+{
+  "docid": "engineering_graduate_doc_12",
+  "document_name": "Engineering - Graduate Level Assessment 12",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_12.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Use partial fraction expansion to find the inverse z-transform of F (z) = [{2 z^2 - 2 z} /\n{(z - 3) (z - 5)^2}].",
+      "options": {
+        "A": "f [n] = 4 nu[n] + [(5/6)n - 1] 6^n u[n]",
+        "B": "f [n] = 6 nu[n] + [(2/3)n - 1] 3^n u[n]",
+        "C": "f [n] = 3^(n+1)u[n] - 5^n u[n]",
+        "D": "f [n] = 3 nu[n] + [(4/5)n - 1] 5^n u[n]",
+        "E": "f [n] = [(2/3)n + 1] (3/2)^n u[n] - 2^(n-1) u[n]"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - f [n] = 3 nu[n] + [(4/5)n - 1] 5^n u[n]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11317"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A D-flip-flop is said to be transparent when",
+      "options": {
+        "A": "the output is independent of the clock",
+        "B": "the output is constantly changing",
+        "C": "the output is triggered by a rising edge clock",
+        "D": "the output is LOW",
+        "E": "the output follow input"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - the output follow input",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For a short dipole antenna, evaluate the maximum effective apertureA_em.",
+      "options": {
+        "A": "0.119 wavelength",
+        "B": "0.130 wavelength",
+        "C": "0.112 wavelength^2",
+        "D": "0.100 wavelength",
+        "E": "0.123 wavelength^2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 0.119 wavelength",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11562"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A liquid-propellant rocket uses 22 lb of fuel per second and 300 lb of oxidant per\nsecond.The exhaust gases leave the rocketat 2,000 fps. Calculate the rocket thrust.",
+      "options": {
+        "A": "45,000 lb",
+        "B": "18,000 lb",
+        "C": "28,000 lb",
+        "D": "30,000 lb",
+        "E": "15,000 lb"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 45,000 lb",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11987"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The current through an inductor with inductance L = 10^-3 henry is given as i_L (t) = 0.1\nsin 10^6 t. Find the voltage\\nu_L(t) across this inductor.",
+      "options": {
+        "A": "1000 sin 10^6 t",
+        "B": "100 sin 10^6 t",
+        "C": "50 cos 10^6 t",
+        "D": "1000 cos 10^6 t",
+        "E": "0.1 cos 10^6 t"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 1000 sin 10^6 t",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The optimal length of a half-wave dipole antenna for 300 MHz with a velocity factor of 1.0 is 0.6 meters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '0.7 meters, 1 meter'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11726"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Q-factor of an antenna with a bandwidth of 0.8 MHz and a cut-off frequency of 44 MHz is 55.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11354"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The change in stored energy of a parallel plate capacitor after inserting a dielectric slab is typically 0.99 times the original energy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '0.30'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12085"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The probability of rolling either a 2 or a 5 on a single die is 1/2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '1/3'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11550"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_12_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The potentiometer method of DC voltage measurement does not load the circuit, allowing for more accurate voltage readings.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11736"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_12_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of burning hydrogen with air in an adiabatic burner, and calculate the\npercentage of theoretical air required for complete combustion at a flame temperature of\n2000 K, given that both hydrogen and air are supplied at 25^\\circC.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "176%. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11370"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_12_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between an antenna's directivity and its maximum effective\naperture, given a directivity of 50 and a wavelength of 4 meters. Calculate the effective\naperture and explain its significance in antenna design.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "100 meter^2. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11804"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

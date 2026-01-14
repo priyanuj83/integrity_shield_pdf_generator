@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_undergraduate_doc_25",
+  "document_name": "Mathematics - Undergraduate Level Assessment 25",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mmlu_pro_math_mcq",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_25.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let x_1 = 1 and x_(n+1) = sqrt(3+2 x_n) for all positive integers n. If it is assumed that\n{x_n} converges, then lim x_n =",
+      "options": {
+        "A": "3",
+        "B": "e",
+        "C": "sqrt(5)",
+        "D": "0"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 3 because, assuming the sequence {x_n} converges to a limit L, substituting L into the recurrence relation gives L = sqrt(3 + 2L), which simplifies to the equation L^2 - 2L - 3 = 0, yielding L = 3 as the only positive solution.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1115"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If c > 0 and f(x) = e^x - cx for all real numbers x, then the minimum value of f is",
+      "options": {
+        "A": "f(c)",
+        "B": "f(e^c)",
+        "C": "f(1/c)",
+        "D": "f(log c)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The minimum value of the function f(x) = e^x - cx occurs at the critical point found by setting the derivative f'(x) = e^x - c to zero, which leads to the solution x = log(c), thus making f(log c) the minimum value.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1168"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The set of integers Z with the binary operation \"*\" defined as a*b =a +b+ 1 for a, b in Z,\nis a group. The identity element of this group is",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The identity element in the group defined by the operation \\( a * b = a + b + 1 \\) is -1, because for any integer \\( a \\), the equation \\( a * (-1) = a + (-1) + 1 = a \\) holds true, satisfying the identity property.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "40"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let y = f(x) be a solution of the differential equation x dy + (y - xe^x) dx = 0 such that\ny = 0 when x = 1. What is the value of f(2)?",
+      "options": {
+        "A": "1/(2 e)",
+        "B": "1/e",
+        "C": "e^2/2",
+        "D": "2 e"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is e^2/2 because solving the given differential equation using separation of variables leads to the general solution, which, when applied with the initial condition y(1) = 0, yields f(2) = e^2/2.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1170"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Any set of two vectors in R^2 is linearly independent. Statement 2 | If V =\nspan(v 1, ... , vk) and {v 1, ... , vk} are linearly independent, then dim(V) = k.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because in R^2, any two vectors are linearly independent only if they are not scalar multiples of each other, while the second statement is true as it follows from the definition of the dimension of a vector space, which states that the dimension is equal to the number of vectors in a linearly independent set that spans the space.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "22"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "There is only one additive abelian group of order 16 that satisfies the condition x + x + x + x = 0 for all x in the group.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because there are multiple non-isomorphic additive abelian groups of order 16, such as the direct sums of cyclic groups, that satisfy the condition x + x + x + x = 0 for all x in the group, indicating the existence of different structures.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1097"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The maximum possible order for an element of S_6 is 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order for an element of S_6 is 6, which occurs for a 6-cycle, not 12.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "93"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The complex numbers under addition form a group, including the zero element as the identity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, although the complex numbers under addition do include the zero element as the identity, they do not satisfy the closure property when considering the operation of multiplication, which is necessary for forming a group under both addition and multiplication.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1160"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The norm ||x||_p can be expressed as an inner product only for p = 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The norm ||x||_p can only be expressed as an inner product for p = 2 because only in this case does the norm satisfy the properties of an inner product space, specifically the definiteness, linearity, and symmetry conditions.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1147"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The largest order of an element in the group of permutations of 5 objects is 6.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The largest order of an element in the symmetric group S5, which represents the permutations of 5 objects, is 6, corresponding to a permutation that is a product of a 3-cycle and a 2-cycle, as the order of a permutation is determined by the least common multiple of the lengths of its disjoint cycles.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1125"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "On her previous five attempts Sarah had achieved times, in seconds, of 86, 94, 97, 88 and\n96, for swimming 50 meters. After her sixth try she brought her median time down to 92\nseconds. What was her time, in seconds, for her sixth attempt?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Listing her first 5 times in ascending order, we get \\[86,88,94,96,97\\] Because the final\nmedian is 92 and that is between 88 and 94, the final time must also lie in this spot.\nThus, we have \\[86,88,x,94,96,97\\] Because there are an even number of elements, the\nmedian is the mean of the center two. Thus, for the mean to be 92, $x$ must be\n$\\boxed{90}~\\text{seconds}$.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the insertion of Sarah's sixth time (x) into the ordered list of her previous times must maintain a median of 92 seconds, which requires x to be 90 seconds, as it falls between the two central values of the even-numbered list.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "19678"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_25_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Find the distance between the points (0,15) and (8,0).",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "We use the distance formula: $$\\sqrt{(8 - 0)^2 + (0 - 15)^2} = \\sqrt{64 + 225} = \\boxed\n{17}.$$- OR - We note that the points $(0, 15)$, $(8, 0)$, and $(0, 0)$ form a right\ntriangle with legs of length 8 and 15. This is a Pythagorean triple, so the hypotenuse\nmust have length $\\boxed{17}$.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the distance formula to calculate the distance between two points in a Cartesian plane, and it also recognizes the geometric relationship of the points as forming a right triangle, allowing the use of the Pythagorean theorem to confirm the same distance.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "15140"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

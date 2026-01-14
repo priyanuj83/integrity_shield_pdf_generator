@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 9 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 1 because the expression evaluates the modulus operation first, where 3 \% 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Error; B) abc; C) cba; D) c
+\\ \textit{Note:} The output is "cba" because the slicing notation [::-1] reverses the string by stepping backwards through the characters from the end to the beginning.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) A function that averages numeric values in a column or row; B) A function that counts the values in a column or row; C) A function that rounds a numeric value; D) A function that sorts values in a column or row
+\\ \textit{Note:} A function that sorts values in a column or row helps to identify improbable high or low values by organizing the data, making it easier to spot outliers or anomalies that may indicate data entry errors.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Error; B) aab; C) ab; D) a ab
+\\ \textit{Note:} The output is "aab" because in Python 3, the "+" operator concatenates the two strings "a" and "ab" together.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 4; B) 1; C) 256; D) 16
+\\ \textit{Note:} The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression x \textgreater{}\textgreater{} 1 performs a bitwise right shift on the binary representation of 8, which results in 4, not 3.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The isupper() function returns True if all the alphabetic characters in a string are uppercase and there is at least one character, confirming that it checks for the uppercase status of all characters.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The random() function in Python 3 generates a random float between 0.0 and 1.0 and does not set or use an integer starting value for generating random numbers; instead, the seed for random number generation is set using the seed() function.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The condition a \textless{} b does not account for the relationship between a and c, meaning if c is involved in the expression, it can lead to different outcomes depending on its value.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Passing all tests does not guarantee that preconditions are correct, as tests may not cover all possible input scenarios or edge cases, allowing for undetected errors in the preconditions.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The RGB color model represents colors by combining varying intensities of red, green, and blue light. Each color in this model is defined using values that typically range from 0 to 255, which allows for a wide spectrum of possible colors. To accurately represent a color, 24 bits are required; this is because each of the three colors (red, green, and blue) is represented by 8 bits, allowing for 256 possible values per color. When you multiply the 256 values for red, green, and blue together (256 x 256 x 256), you get over 16 million different colors. This extensive range enables the RGB model to create vibrant and diverse colors for digital displays.
+\\ \textit{Note:} correct because the RGB color model defines colors through the combination of red, green, and blue light at varying intensities, requiring 24 bits to represent each color channel with 8 bits, resulting in a total of 256 values for each primary color.
+\item \textbf{Answer:} In Python 3, the exponential operator is represented by the double asterisk symbol (**), and it is used to calculate powers of numbers. For example, the expression `2 ** 3` computes 2 raised to the power of 3, resulting in 8. The syntax is straightforward: the base number comes first, followed by the `**` operator, and then the exponent. This operator is particularly useful in mathematical computations, such as when dealing with exponential growth or in scientific calculations. Unlike other arithmetic operations like addition or multiplication, which combine values, the exponential operator specifically raises one number to the power of another, making it unique in its function.
+\\ \textit{Note:} correct because it accurately describes the syntax and functionality of the exponential operator (`**`) in Python 3 for calculating powers, provides an example, and highlights its applications in mathematical and scientific contexts, while also hinting at its distinction from other arithmetic operations.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

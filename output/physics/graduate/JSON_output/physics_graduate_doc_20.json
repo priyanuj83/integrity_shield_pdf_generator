@@ -1,0 +1,292 @@
+{
+  "docid": "physics_graduate_doc_20",
+  "document_name": "Physics - Graduate Level Assessment 20",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "physics_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_20.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The half-life of radon is 3.80 days. After how many days will only one-sixteenth of a\nradon sample remain?",
+      "options": {
+        "A": "26.6 days",
+        "B": "19.0 days",
+        "C": "3.80 days",
+        "D": "5.7 days",
+        "E": "22.8 days"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 26.6 days because it takes four half-lives (3.80 days each) for a sample to reduce to one-sixteenth of its original amount, and 4 half-lives multiplied by 3.80 days equals 15.2 days.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9400"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the intensity of the electric field 10 cm from a negative point charge of 500\nstat-coulombs in air?",
+      "options": {
+        "A": "5 dyne/stat-coul",
+        "B": "8 dyne/stat-coul",
+        "C": "0.5 dyne/stat-coul",
+        "D": "100 dyne/stat-coul",
+        "E": "10 dyne/stat-coul"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The intensity of the electric field \\( E \\) at a distance \\( r \\) from a point charge \\( q \\) is given by the formula \\( E = \\frac{k \\cdot |q|}{r^2} \\), where \\( k \\) is Coulomb's constant (in statcoulombs, \\( k = 1 \\) dyne cm\u00b2/stat-coul\u00b2) and substituting \\( q = 500 \\) stat-coulombs and \\( r = 10 \\) cm yields \\( E = \\frac{1 \\cdot 500}{10^2} = 5 \\) dyne/stat-coul.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the mean ionic activity of a $0.0350 \\mathrm{~m} \\mathrm{Na}_3 \\mathrm{PO}_4$\nsolution for which the mean activity coefficient is 0.685 .",
+      "options": {
+        "A": "0.0612",
+        "B": "0.0426",
+        "C": "0.0753",
+        "D": "0.0905",
+        "E": "0.0294"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is obtained by multiplying the concentration of the sodium phosphate solution (0.0350 mol/kg) by the mean activity coefficient (0.685), which accounts for non-ideal behavior in the solution, resulting in a mean ionic activity of 0.0612.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "determine the ratio of the radius of a uranium-238 nucleus to the radius of a helium-4\nnucleus.",
+      "options": {
+        "A": "4.8",
+        "B": "7.1",
+        "C": "5.5",
+        "D": "1.8",
+        "E": "4.2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ratio of the radius of a uranium-238 nucleus to that of a helium-4 nucleus is approximately 4.8 due to the relationship between nuclear radius and mass number, where the radius is proportional to the cube root of the mass number, leading to the calculation of 4.8 based on their respective mass numbers (238 for uranium and 4 for helium).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9740"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The Pleiades is an open star cluster that plays a role in many ancient stories and is\nwell-known for containing ... bright stars.",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 7 because the Pleiades star cluster, also known as the Seven Sisters, is traditionally recognized for its seven brightest stars, which have been significant in various mythologies and cultures throughout history.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9358"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'What equal positive charges would have to be placed on Earth and on the Moon to neutralize their gravitational attraction?' is '$4.2$$10^{13} \\mathrm{C}$'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the amount of positive charge required to neutralize the gravitational attraction between the Earth and the Moon would need to be vastly greater than $4.2 \\times 10^{13} \\mathrm{C}$, as gravitational forces are much weaker than electrostatic forces, requiring an enormous charge to achieve equilibrium.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9174"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The presence of precious metals does not necessarily indicate that a rock is a meteorite.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The presence of precious metals in a rock can occur through various geological processes on Earth, and is not exclusive to meteorites, which may also contain different elemental compositions depending on their origin and history.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9678"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The potential energy of a compressed spring and a charged object depends on the work done on them during their respective processes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The potential energy of a compressed spring and a charged object is contingent upon the work done to either compress the spring or separate the charges, as this work is stored as potential energy in both systems.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10253"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A completely submerged object displaces a pressure equal to the weight of the fluid above it, affecting its buoyancy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a completely submerged object displaces a volume of fluid equal to its own volume, and the buoyant force acting on it is equal to the weight of the displaced fluid, not the weight of the fluid above it.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_20_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A voltage of 6 volts will produce a current of 2 amperes in a circuit with a resistance of 3 ohms, according to Ohm's law.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to Ohm's law, which states that voltage (V) equals current (I) multiplied by resistance (R), the relationship can be expressed as V = I \u00d7 R; substituting the given values, 6 volts = 2 amperes \u00d7 3 ohms, confirms that the statement is true.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_20_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the net electric flux through a Gaussian cube with an edge length of 55 cm,\ncentered around a particle with a charge of 1.8 \u03bcC. Discuss the principles involved in\nyour solution.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the net electric flux through a Gaussian cube with an edge length of 55 cm\ncentered around a charge of 1.8 \u03bcC, we apply Gauss's Law, which states that the electric\nflux \u03a6 through a closed surface is equal to the enclosed charge Q divided by the\npermittivity of free space \u03b5\u2080. The formula can be expressed as \u03a6 = Q/\u03b5\u2080. Given that Q =\n1.8 \u03bcC = 1.8 \\times 10\u207b\u2076 C and \u03b5\u2080 \\approx 8.85 \\times 10\u207b\u00b9^2 C^2/(N\u00b7m^2), we calculate the\nflux as \u03a6 = (1.8 \\times 10\u207b\u2076 C) / (8.85 \\times 10\u207b\u00b9^2 C^2/(N\u00b7m^2)) = 2.2 \\times 10\u2075\nN\u00b7m^2/C. This result indicates the total electric field lines emanating from the charge\nwithin the defined Gaussian surface, aligning with the principles of electrostatics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies Gauss's Law, which relates the net electric flux through a closed surface to the total enclosed charge divided by the permittivity of free space, allowing for the calculation of electric flux based on the given charge.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9147"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_20_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "A block of mass 2 kg slides with an initial speed of 4 m/s and compresses a spring with a\nspring constant of 6 N/m. Analyze the energy transfer and determine the maximum\ncompression of the spring.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the energy transfer in this system, we start by applying the principle of\nconservation of mechanical energy. The initial kinetic energy (KE) of the block is given\nby \\( KE = \\frac{1}{2}mv^2 = \\frac{1}{2}(2\\, \\text{kg})(4\\, \\text{m/s})^2 = 16\\, \\text{J}\n\\). As the block compresses the spring, this kinetic energy is converted into potential\nenergy (PE) stored in the spring, which is expressed as \\( PE = \\frac{1}{2}kx^2 \\), where\n\\( k = 6\\, \\text{N/m} \\) is the spring constant and \\( x \\) is the maximum compression.\nSetting the initial kinetic energy equal to the potential energy at maximum compression,\nwe have \\( 16\\, \\text{J} = \\frac{1}{2}(6\\, \\text{N/m})x^2 \\). Solving for \\( x \\), we find\n\\( x^2 = \\frac{32}{6} \\) and thus \\( x \\approx 3.5\\, \\text{m} \\). Therefore, the maximum\ncompression of the spring is 3.5 meters.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the conservation of mechanical energy principle, equating the initial kinetic energy of the block to the potential energy stored in the spring at maximum compression, allowing for the determination of the maximum compression of the spring based on the given parameters.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9647"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

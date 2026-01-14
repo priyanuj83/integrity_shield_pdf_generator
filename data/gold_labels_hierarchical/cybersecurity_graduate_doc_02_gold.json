@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_02",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Freenet is specifically designed to facilitate the anonymous sharing and transfer of files, making it a prominent component of the darknet ecosystem.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1478
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dark web refers to a part of the internet that is intentionally hidden and requires specific software, configurations, or authorization to access, differentiating it from the surface web and other segments of the Deep Web.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1496
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "IM Trojans specifically target instant messaging applications to capture and transmit users' login credentials and passwords without their consent, making them a distinct type of malware designed for this purpose.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1523
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the principle that when a solver cannot determine the satisfiability of a constraint within a given time frame, it conservatively assumes the constraints may not be satisfiable, thereby preventing unnecessary computations and potential security risks associated with executing uncertain paths.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless devices and the wired network, enabling data transmission and connectivity within a local area network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1486
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A session symmetric key is designed to be used only for a single session to prevent key compromise and enhance security by ensuring that any potential interception of the key does not compromise past or future communications.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the four primary security principles related to messages are typically identified as Confidentiality, Integrity, Availability, and Authenticity, rather than including Access Control and Non-repudiation.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1567
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A ping sweep involves sending ICMP echo requests to multiple IP addresses in a network to determine which addresses respond, thereby identifying active or live systems.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A MAC that consistently produces a 5-bit tag can generate only 32 unique tags (from 00000 to 11111), making it feasible for an attacker to exhaustively search through all possible tags to find a valid one, thereby exposing it to brute-force attacks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1509
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wi-Fi Protected Setup (WPS) was designed to streamline the process of connecting devices to secure wireless networks by allowing users to establish a connection with minimal manual input, often using a PIN or a physical button, thus simplifying the setup process.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1554
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "Encryption standards play a crucial role in cybersecurity, each possessing unique\nstrengths and weaknesses. Among them, Wired Equivalent Privacy (WEP) is widely regarded as\nthe least secure option due to its fundamental design flaws and vulnerabilities. WEP\nemploys a static key for encryption, which can be easily compromised through methods like\npacket sniffing and replay attacks, rendering the encryption ineffective against modern\nthreats. Additionally, the use of weak initialization vectors (IVs) allows attackers to\nexploit predictable patterns, leading to rapid key recovery. In contrast, more advanced\nstandards like WPA 2 and WPA 3 offer robust security features, such as dynamic key\nmanagement and stronger encryption algorithms, making them significantly more resilient\nagainst attacks.",
+      "marks": 10,
+      "explanation": "correct because it identifies WEP's reliance on a static key and weak initialization vectors as critical vulnerabilities that make it easily exploitable, thus illustrating its inadequacy compared to other encryption standards in the context of modern cybersecurity threats.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1556
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "Buffer-overrun vulnerabilities occur when a software application writes more data to a\nbuffer than it can hold, leading to data corruption, crashes, or the execution of\narbitrary code. These vulnerabilities are typically caused by inadequate input validation,\nimproper memory management, and the use of unsafe programming languages that do not\nenforce boundary checks. The potential impacts include unauthorized access to sensitive\ninformation, system compromise, and the propagation of malware. To mitigate buffer-overrun\nvulnerabilities, developers can adopt secure coding practices, utilize modern programming\nlanguages with built-in safety features, and implement runtime protections such as stack\ncanaries and Address Space Layout Randomization (ASLR). By addressing these\nvulnerabilities proactively, organizations can significantly enhance their cybersecurity\nposture and reduce the risk of exploitation.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies buffer-overrun vulnerabilities as a result of inadequate input validation and improper memory management, outlines their potential impacts on security, and suggests the need for mitigation strategies in software development practices.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1476
+    }
+  ]
+}

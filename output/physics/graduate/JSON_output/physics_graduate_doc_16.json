@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_16",
+  "document_name": "Physics - Graduate Level Assessment 16",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_16.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Ultraviolet light of 300 nm wavelength strikes the surface of a material which has a work\nfunction of 2.0 eV. What is the velocity of the electrons emitted from the surface?",
+      "options": {
+        "A": "0.87 \\times 10^6 m/sec",
+        "B": "0.72 \\times 10^6 m/sec",
+        "C": "0.55 \\times 10^6 m/sec",
+        "D": "0.40 \\times 10^6 m/sec",
+        "E": "1.2 \\times 10^6 m/sec"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is obtained by applying the photoelectric equation, which states that the kinetic energy of the emitted electrons equals the energy of the incident photons minus the work function of the material, leading to a calculated velocity of 0.87 x 10^6 m/sec after determining the photon energy from the wavelength.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following lasers utilizes transitions that involve the energy levels of free\natoms?",
+      "options": {
+        "A": "Dye laser",
+        "B": "Semiconductor laser",
+        "C": "Gas laser",
+        "D": "Chemical laser",
+        "E": "Fiber laser"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Gas lasers operate by utilizing the electronic transitions of free atoms in a gas state, allowing them to emit coherent light based on the energy levels of these atoms.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9371"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In either a fission event or a fusion event, a quantity that remains unchanged is the",
+      "options": {
+        "A": "kinetic energy",
+        "B": "number of electrons",
+        "C": "potential energy",
+        "D": "temperature of the nucleus",
+        "E": "mass"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In both fission and fusion events, while mass and energy may convert and transform, the principle of conservation of energy ensures that the total kinetic energy of the system remains unchanged before and after the reaction, as the energy released or absorbed is accounted for in the kinetic energy of the resultant particles.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10257"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "An ideal battery of constant voltage V supplies current to a circuit that has total\nresistance R. If R is doubled, what will happen to the total power dissipated by the\ncircuit?",
+      "options": {
+        "A": "It will quadruple.",
+        "B": "It will increase by a factor of 2.",
+        "C": "It will become zero.",
+        "D": "It will be halved.",
+        "E": "It will double."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When the resistance R is doubled in a circuit powered by a constant voltage V, the power dissipated is given by the formula P = V^2 / R, so doubling R results in halving the power P.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10157"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the resistance of a piece ofnichromewire 225 centimeters long with a cross-\nsectional area of 0.015 square centimeter?",
+      "options": {
+        "A": "15 ohms",
+        "B": "1.5 ohms",
+        "C": "2.25 ohms",
+        "D": "50 ohms",
+        "E": "0.15 ohms"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resistance of the nichrome wire is calculated using the formula R = \u03c1(L/A), where \u03c1 is the resistivity of nichrome (approximately 1.10 x 10^-6 ohm-meters), L is the length of the wire in meters (2.25 m), and A is the cross-sectional area in square meters (1.5 x 10^-6 m\u00b2), resulting in a resistance of 1.5 ohms.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "When the speed of a moving body increases such that its kinetic energy doubles, its momentum quadruples.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is true because kinetic energy is proportional to the square of the velocity (KE = 1/2 mv^2), so if the kinetic energy doubles, the velocity must increase by a factor of \u221a2, and since momentum is directly proportional to velocity (p = mv), it increases by a factor of 2, resulting in momentum quadrupling when considering the relationship between kinetic energy and momentum.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9424"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The discrete orbits of electrons can be accurately modeled by neutrons, which are not involved in atomic electron behavior.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because neutrons, which are neutral particles found in the nucleus, do not influence the behavior of electrons, which are negatively charged and governed by electromagnetic forces in their discrete orbits around the nucleus.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9121"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Removing two protons and two neutrons from neon-20 results in the nucleus of magnesium-18.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Removing two protons and two neutrons from neon-20, which has an atomic number of 10 and a mass number of 20, results in a nucleus with an atomic number of 12 and a mass number of 18, corresponding to magnesium-18.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Big brother and little sister can balance on a seesaw due to the equilibrium of forces, torques, and masses acting on the system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the seesaw achieves equilibrium when the torques produced by the weights of big brother and little sister, which depend on their respective masses and distances from the pivot point, are equal, allowing them to balance effectively.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9826"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_16_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The least radiation frequency capable of positron-electron pair production is 7.00 x 10^20 Hz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the minimum frequency required for positron-electron pair production is actually 1.022 MeV in energy, which corresponds to a frequency of approximately 2.45 x 10^20 Hz, thus exceeding the value given in the statement.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9904"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_16_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the phenomenon of color mixing in the context of additive color theory,\nspecifically explaining how the overlap of red and blue light results in the color\nmagenta.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In the context of additive color theory, color mixing occurs when different wavelengths of\nlight are combined, producing new colors perceived by the human eye. Specifically, when\nred light, which has a longer wavelength, overlaps with blue light, which has a shorter\nwavelength, the resultant mixture creates magenta. This is because the additive process\ninvolves the combination of the three primary colors of light: red, green, and blue. In\nthis scenario, the absence of green light allows the combination of red and blue\nwavelengths to stimulate the corresponding cone cells in the retina, leading to the\nperception of magenta. Thus, magenta can be understood as the visual result of red and\nblue light overlapping without the presence of green, demonstrating the principles of\nadditive color mixing.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes additive color theory, illustrating how the combination of red and blue light, without green, results in the perception of magenta due to the additive mixing of the primary colors of light.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10333"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_16_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the horsepower developed by a jet aircraft engine producing a thrust of 3000 lb\nat a velocity of 600 mi/hr. Discuss the implications of your findings in the context of\njet propulsion efficiency.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the horsepower developed by a jet aircraft engine producing a thrust of 3000\nlb at a velocity of 600 mi/hr, we can use the formula: horsepower (hp) = (thrust (lb)\n\\times velocity (mi/hr)) / 550. Substituting the given values, we find hp = (3000 lb\n\\times 600 mi/hr) / 550, which results in approximately 6000 hp. This calculation\nillustrates the significant power output required for jet propulsion, highlighting the\nengine's efficiency in converting fuel energy into thrust. The high horsepower indicates\nthe necessity for advanced engineering to optimize performance and fuel consumption in jet\nengines, crucial for improving the overall efficiency of air travel.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the horsepower formula, demonstrating the relationship between thrust, velocity, and power output, while also emphasizing the engine's efficiency in converting fuel energy into thrust at a high operational power level.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9183"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

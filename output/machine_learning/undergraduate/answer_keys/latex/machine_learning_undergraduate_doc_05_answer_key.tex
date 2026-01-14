@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The dimensionality of the null space of the matrix A, which consists of three identical rows, is 2 because the rank of the matrix is 1, leading to a nullity of 3 - 1 = 2 according to the rank-nullity theorem.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are true because ResNets are indeed feedforward networks that utilize skip connections but do not employ self-attention mechanisms, while Transformers are also feedforward networks that specifically leverage self-attention for processing input data.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Optimize a convex objective function; B) Can only be trained with stochastic gradient descent; C) Can use a mix of different activation functions; D) None of the above
+\\ \textit{Note:} Neural networks can employ various activation functions across different layers to optimize learning and capture non-linear relationships in data, enhancing their performance and versatility.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The rank of the matrix A is 1 because all rows are linearly dependent and can be expressed as scalar multiples of each other, indicating that there is only one linearly independent row.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The correct answer is false for Statement 1 because while ReLU (Rectified Linear Unit) functions are indeed monotonic (increasing), sigmoid functions are also monotonic, and true for Statement 2 because neural networks trained with gradient descent do not guarantee convergence to the global optimum due to the presence of local minima and saddle points in non-convex loss landscapes.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} As the number of training examples increases, the model gains more information about the underlying data distribution, which reduces the impact of noise and leads to lower variance in predictions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Bayesians advocate for the use of prior distributions in statistical models to incorporate prior knowledge, while frequentists typically do not use prior distributions and rely on data alone for inference.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because Naive Bayes assumes that the presence or absence of a particular attribute is independent of the presence or absence of any other attribute when the class value is known, which simplifies the computation of probabilities in the model.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a Bayesian network with four nodes (H, U, P, W) requires more than 7 independent parameters due to the need to account for the conditional dependencies and relationships among these nodes, which typically exceed that number.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} High entropy in classification indicates a high level of disorder or uncertainty in the data, meaning that the partitions contain a mixture of class labels rather than being pure and consisting of a single class label.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def is\_decimal(num): | return bool(result)
+\\ \textit{Note:} correct because it outlines the creation of a function that utilizes regular expressions (regex) to validate whether a given decimal number conforms to the specified precision of two decimal places, effectively returning a boolean result indicating the validity of the input.
+\item \textbf{Answer:} def count\_Rectangles(radius): | return rectangles
+\\ \textit{Note:} correct as it suggests a function structure that can be further developed to calculate the number of rectangles that can fit within a circle of a given radius by utilizing geometric principles and properties of shapes.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 22 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Which of the following best describes what discriminative approaches try to model? (w are the parameters in the model)
+\begin{enumerate}[label=(\alph*)]
+    \item p(y|x, w)
+    \item p(y, x)
+    \item p(w|x, w)
+    \item None of the above
+\end{enumerate}
+\item Which one of the following is equal to P(A, B, C) given Boolean random variables A, B and C, and no independence or conditional independence assumptions between any of them?
+\begin{enumerate}[label=(\alph*)]
+    \item P(A | B) * P(B | C) * P(C | A)
+    \item P(C | A, B) * P(A) * P(B)
+    \item P(A, B | C) * P(C)
+    \item P(A | B, C) * P(B | A, C) * P(C | A, B)
+\end{enumerate}
+\item Averaging the output of multiple decision trees helps \_.
+\begin{enumerate}[label=(\alph*)]
+    \item Increase bias
+    \item Decrease bias
+    \item Increase variance
+    \item Decrease variance
+\end{enumerate}
+\item After applying a regularization penalty in linear regression, you find that some of the coefficients of w are zeroed out. Which of the following penalties might have been used?
+\begin{enumerate}[label=(\alph*)]
+    \item L$_{0}$ norm
+    \item L$_{1}$ norm
+    \item L$_{2}$ norm
+    \item either (a) or (b)
+\end{enumerate}
+\item If N is the number of instances in the training dataset, nearest neighbors has a classification run time of
+\begin{enumerate}[label=(\alph*)]
+    \item O(1)
+    \item O( N )
+    \item O(log N )
+    \item O( $N^2$ )
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The model obtained through best-subset selection will always match the model derived from forward stepwise selection.
+\item True or False: Lasso is more effective than Ridge for feature selection due to its ability to shrink some coefficients to zero.
+\item True or False: The convergence of a neural network is influenced by the learning rate, affecting how quickly it learns from data.
+\item True or False: Clustering is the best approach for predicting the amount of rainfall based on various environmental cues.
+\item True or False: The BLEU metric evaluates translation quality using precision, while the ROGUE metric focuses on recall in summarization tasks.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to find the demlo number for the given number.
+\item Write a python function to find the sum of even factors of a number.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

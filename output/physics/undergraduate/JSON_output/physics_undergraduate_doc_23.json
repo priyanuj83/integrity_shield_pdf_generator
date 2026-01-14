@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_23",
+  "document_name": "Physics - Undergraduate Level Assessment 23",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_23.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_23.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_23_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_23_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_23_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_23_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which\nof the following properties?",
+      "options": {
+        "A": "Magnetic susceptibility",
+        "B": "Hall coefficient",
+        "C": "Electrical resistivity",
+        "D": "Thermal conductivity"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Hall coefficient indicates the type of charge carriers in a doped semiconductor (positive or negative) based on the direction of the induced electric field when a magnetic field is applied perpendicular to the current flow.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm,\nrespectively. Which of the following gives the resolving power of the spectrometer?",
+      "options": {
+        "A": "2",
+        "B": "250",
+        "C": "5,000",
+        "D": "10,000"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a grating spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, the minimum difference is 2 nm (502 nm - 500 nm), leading to a resolving power of 500 nm / 2 nm = 250.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1419"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following ions CANNOT be used as a dopant in germanium to make an n-type\nsemiconductor?",
+      "options": {
+        "A": "As",
+        "B": "P",
+        "C": "Sb",
+        "D": "B"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is B because n-type semiconductors require dopants that have more valence electrons than germanium, and the ion represented by option B does not meet this criterion.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1394"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature\nreservoir at temperature T. The average total energy of the oscillator is",
+      "options": {
+        "A": "(1/2) k T",
+        "B": "kT",
+        "C": "(3/2) k T",
+        "D": "3 kT"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The average total energy of a three-dimensional harmonic oscillator in thermal equilibrium is given by the equipartition theorem, which states that each degree of freedom contributes an average energy of (1/2)kT, leading to a total of 3kT for the three spatial dimensions.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1403"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_23_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "An organ pipe, closed at one end and open at the other, is designed to have a fundamental\nfrequency of C (131 Hz). What is the frequency of the next higher harmonic for this pipe?",
+      "options": {
+        "A": "44 Hz",
+        "B": "196 Hz",
+        "C": "262 Hz",
+        "D": "393 Hz"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 393 Hz because in a pipe closed at one end, the harmonics are odd multiples of the fundamental frequency, so the first harmonic is 131 Hz and the next higher harmonic, which is the third harmonic, is 3 times the fundamental frequency: 3 x 131 Hz = 393 Hz.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_23_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "A particle moving at v=0.60 c in the lab frame will travel 450 m before decaying.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, in the lab frame, the particle's relativistic decay length can be calculated using its speed and lifetime, and at v = 0.60 c, it can indeed travel 450 m before decaying.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1416"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_23_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The eigenvalues of a Hermitian operator can be imaginary in certain cases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The eigenvalues of a Hermitian operator are always real numbers, as Hermitian operators represent observable quantities in quantum mechanics, which must yield real measurement results.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1421"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_23_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The resolving power of the spectrometer for the given wavelengths is 250.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a spectrometer is defined as the ability to distinguish between two closely spaced wavelengths, and a resolving power of 250 indicates that the spectrometer can effectively separate spectral lines that are close together within the given wavelength range.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_23_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The energy required to ionize helium by removing one electron is 39.5 eV.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ionization energy of helium for removing one electron is approximately 24.6 eV, not 39.5 eV, making the statement false.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1436"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_23_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is approximately 1.0 GeV/c^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The rest mass of a particle can be determined using the energy-momentum relation, E^2 = (pc)^2 + (m_0c^2)^2, and substituting the given total energy and momentum values shows that the calculated rest mass is approximately 1.0 GeV/c^2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_23_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "A student measures the disintegration of a radioactive isotope over 10 one-second\nintervals, obtaining values of 3, 0, 2, 1, 2, 4, 0, 1, 2, and 5. Analyze how long the\nstudent should count to achieve a measurement uncertainty of 1 percent, and explain the\nfactors influencing this determination.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To achieve a measurement uncertainty of 1 percent for the disintegration of the\nradioactive isotope, the student should count for 5,000 seconds. This conclusion is based\non the statistical nature of radioactive decay, where the uncertainty is inversely\nproportional to the square root of the number of counts observed. Given the initial data\ncollected, the average disintegration count per second was relatively low, leading to\nsignificant relative uncertainty. By extending the counting time to 5,000 seconds, the\nstudent can increase the number of decay events measured, thus reducing the relative\nuncertainty to the desired level. Additionally, factors such as the decay rate of the\nisotope and the intrinsic variability of radioactive decay highlight the importance of a\nlonger counting period for precise measurements.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because to achieve a measurement uncertainty of 1 percent in radioactive decay, the student must increase the counting time to 5,000 seconds, which reduces relative uncertainty by increasing the total number of observed decay events, aligning with the principle that uncertainty is inversely proportional to the square root of the count.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1404"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_23_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the advantages of using a dye laser for spectroscopy over a range of visible\nwavelengths, and analyze its effectiveness compared to other laser types.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Dye lasers offer significant advantages for spectroscopy in the visible wavelength range\ndue to their tunability and broad emission spectrum. Unlike solid-state or gas lasers, dye\nlasers can be easily adjusted to emit light across a wide range of wavelengths by changing\nthe dye solution or the cavity configuration, making them ideal for studying various\nchemical species and their interactions. Additionally, dye lasers can provide high peak\npowers and relatively narrow linewidths, which enhance their sensitivity in detecting\nsubtle spectral features. In comparison to other laser types, such as semiconductor\nlasers, dye lasers excel in providing the versatility required for complex spectroscopic\nexperiments, making them a preferred choice in many analytical applications. Overall, the\nunique properties of dye lasers facilitate advanced spectroscopic techniques, allowing for\na more comprehensive analysis of materials.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes the tunability and broad emission spectrum of dye lasers, which allow for precise and versatile applications in spectroscopy, surpassing the capabilities of other laser types like solid-state and gas lasers.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1372"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

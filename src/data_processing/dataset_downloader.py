@@ -104,7 +104,9 @@ class DatasetDownloader:
             "mmlu_all": ("cais/mmlu", "all"),
             "mmlu_anatomy": ("cais/mmlu", "anatomy"),
             "mmlu_pro": ("TIGER-Lab/MMLU-Pro", "default"),
-            "ai2_arc": ("allenai/ai2_arc", "ARC-Challenge")
+            "ai2_arc": ("allenai/ai2_arc", "ARC-Challenge"),
+            "pubmedqa": ("qiaojin/PubMedQA", "pqa_labeled"),
+            "squad": ("rajpurkar/squad", "plain_text")
         }
         
         if dataset_name not in dataset_configs:
@@ -126,6 +128,10 @@ class DatasetDownloader:
                 return self._process_mmlu_dataset(dataset)
         elif dataset_name == "ai2_arc":
             return self._process_ai2_arc_dataset(dataset)
+        elif dataset_name == "pubmedqa":
+            return self._process_pubmedqa_dataset(dataset)
+        elif dataset_name == "squad":
+            return self._process_squad_dataset(dataset)
         else:
             raise ValueError(f"Unknown dataset type: {dataset_name}")
     
@@ -237,6 +243,80 @@ class DatasetDownloader:
         
         return processed
     
+    def _process_pubmedqa_dataset(self, dataset) -> Dict[str, Any]:
+        """Process PubMedQA dataset from Hugging Face (PQA-L labeled subset)."""
+        processed = {
+            "type": "biology",
+            "total_items": 0,
+            "items": []
+        }
+        
+        # Process all splits
+        for split_name, split_data in dataset.items():
+            for item in split_data:
+                # Extract final_decision (yes/no/maybe)
+                final_decision = item.get("final_decision", "").lower()
+                
+                # Filter out "maybe" answers - only use "yes" and "no"
+                if final_decision not in ["yes", "no"]:
+                    continue
+                
+                processed_item = {
+                    "id": item.get("pubid", len(processed["items"])),
+                    "question": item.get("question", ""),
+                    "context": item.get("context", ""),
+                    "final_decision": final_decision,
+                    "long_answer": item.get("long_answer", ""),
+                    "split": split_name
+                }
+                processed["items"].append(processed_item)
+                processed["total_items"] += 1
+        
+        self.logger.info(f"Processed {processed['total_items']} PubMedQA items (filtered out 'maybe' answers)")
+        return processed
+    
+    def _process_squad_dataset(self, dataset) -> Dict[str, Any]:
+        """Process SQuAD dataset from Hugging Face (v1.0)."""
+        processed = {
+            "type": "reading_comprehension",
+            "total_items": 0,
+            "items": []
+        }
+        
+        # Process all splits (train, validation)
+        for split_name, split_data in dataset.items():
+            for item in split_data:
+                # Extract answers - SQuAD 1.0 always has answers
+                answers = item.get("answers", {})
+                answer_texts = answers.get("text", [])
+                answer_starts = answers.get("answer_start", [])
+                
+                # Skip items with empty context, question, or answers
+                context = item.get("context", "").strip()
+                question = item.get("question", "").strip()
+                
+                if not context or not question or not answer_texts:
+                    continue
+                
+                # Get the first answer (primary answer)
+                answer_text = answer_texts[0] if answer_texts else ""
+                answer_start = answer_starts[0] if answer_starts else 0
+                
+                processed_item = {
+                    "id": item.get("id", len(processed["items"])),
+                    "title": item.get("title", ""),
+                    "context": context,
+                    "question": question,
+                    "answer_text": answer_text,
+                    "answer_start": answer_start,
+                    "split": split_name
+                }
+                processed["items"].append(processed_item)
+                processed["total_items"] += 1
+        
+        self.logger.info(f"Processed {processed['total_items']} SQuAD items")
+        return processed
+    
     def _process_coding_data(self, data: List[Dict]) -> Dict[str, Any]:
         """Process coding/MBPP+ data."""
         processed = {
@@ -329,7 +409,9 @@ class DatasetDownloader:
                 "mmlu_all",  # Hugging Face
                 "mmlu_anatomy",  # Hugging Face
                 "mmlu_pro",  # Hugging Face - MMLU-Pro
-                "ai2_arc"  # Hugging Face - AI2-ARC
+                "ai2_arc",  # Hugging Face - AI2-ARC
+                "pubmedqa",  # Hugging Face - PubMedQA
+                "squad"  # Hugging Face - SQuAD
             ]
             
             results = {}

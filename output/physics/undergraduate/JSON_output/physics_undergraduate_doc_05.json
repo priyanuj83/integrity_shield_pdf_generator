@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_05",
+  "document_name": "Physics - Undergraduate Level Assessment 5",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_05.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm,\nrespectively. Which of the following gives the resolving power of the spectrometer?",
+      "options": {
+        "A": "2",
+        "B": "250",
+        "C": "5,000",
+        "D": "10,000"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, with wavelengths of 500 nm and 502 nm, the resolving power is calculated as 500 nm divided by 2 nm, resulting in a value of 250.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical\nto that of a hydrogen atom in which all the wavelengths are",
+      "options": {
+        "A": "decreased by a factor of 9",
+        "B": "decreased by a factor of 49",
+        "C": "decreased by a factor of 81",
+        "D": "increased by a factor of 9"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The emission spectrum of Li++ is identical to that of hydrogen because both have one electron, but the wavelengths are decreased by a factor of 9 due to the difference in nuclear charge, with the energy levels being inversely proportional to the square of the atomic number (Z^2), and for Li++, Z=3, thus (1/3^2) = 1/9.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1458"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "De Broglie hypothesized that the linear momentum and wavelength of a free massive particle\nare related by which of the following constants?",
+      "options": {
+        "A": "Planck's constant",
+        "B": "Boltzmann's constant",
+        "C": "The Rydberg constant",
+        "D": "The speed of light"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "De Broglie's hypothesis establishes that the wavelength of a particle is inversely proportional to its momentum, with the relationship defined by the equation \u03bb = h/p, where h represents Planck's constant.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The best type of laser with which to do spectroscopy over a range of visible wavelengths\nis",
+      "options": {
+        "A": "a dye laser",
+        "B": "a helium-neon laser",
+        "C": "an excimer laser",
+        "D": "a ruby laser"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A dye laser is the correct answer because it can be tuned to emit a wide range of wavelengths across the visible spectrum, making it ideal for versatile spectroscopy applications.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1372"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_05_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following gives the total spin quantum number of the electrons in the ground\nstate of neutral nitrogen (Z = 7)?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "3/2",
+        "D": "5/2"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total spin quantum number of the electrons in the ground state of neutral nitrogen is 3/2 because nitrogen has three unpaired electrons in its 2p subshell, each contributing a spin of 1/2, leading to a total spin of 3/2 when considering their alignment.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1374"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_05_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The resolving power of the grating spectrometer for wavelengths of 500 nm and 502 nm is 250.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolving power of a grating spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and since a resolving power of 250 indicates that it can distinguish between wavelengths that differ by 2 nm (from 500 nm to 502 nm), the statement is true.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14194"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_05_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The magnetic susceptibility of a doped semiconductor can determine the sign of its charge carriers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The magnetic susceptibility of a doped semiconductor is influenced by the density of states and the effective mass of charge carriers, but it does not directly indicate their sign (positive or negative), which is determined by the type of dopant used (donor or acceptor).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_05_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "An electron in the n = 4, l = 1 state can transition to the n = 3, l = 2 state because it increases the angular momentum quantum number.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a transition from n = 4, l = 1 to n = 3, l = 2 is not allowed since the change in the angular momentum quantum number (\u0394l = 1) does not comply with the selection rules for allowed transitions, which only permit changes in the angular momentum quantum number of \u0394l = \u00b11.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1450"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_05_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "In a single-electron atom with l = 2, there are 5 allowed values for the magnetic quantum number m_l: -2, -1, 0, 1, and 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the magnetic quantum number m_l can take on integer values ranging from -l to +l, and for l = 2, this results in the values -2, -1, 0, 1, and 2, giving a total of 5 allowed values.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1451"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_05_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "In a reversible thermodynamic process, the entropy of the system and its environment remains unchanged.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a reversible thermodynamic process, the system and its surroundings undergo changes that can be reversed without any net change, thereby maintaining constant entropy throughout the entire process.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1371"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_05_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the total radiation force exerted on a completely reflecting surface of 3 m^2 at\nEarth's surface with a solar flux of 1,000 W/m^2. Discuss the underlying principles\ninvolved.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the total radiation force exerted on a completely reflecting surface of 3 m^2\nat the Earth's surface with a solar flux of 1,000 W/m^2, we can use the formula for\nradiation pressure. The radiation pressure P exerted by light is given by P = I/c, where I\nis the intensity (solar flux) and c is the speed of light (approximately 3 x 10^8 m/s).\nFor a perfectly reflecting surface, the force F can be calculated as F = P \\times A, where\nA is the area. Thus, P = 1,000 W/m^2 / (3 x 10^8 m/s) results in a pressure of\napproximately 3.33 x 10^-6 N/m^2. Multiplying this by the area of 3 m^2 gives a total\nforce of around 2 x 10^-5 N. This illustrates the principles of radiation pressure and\nmomentum transfer from light to surfaces.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies the principles of radiation pressure and the conservation of momentum for light, using the formula for radiation pressure to calculate the force exerted on a reflecting surface based on the solar flux and the area of the surface.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1392"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_05_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the effects of doubling the frequency of laser light on the separation of bright\nfringes observed in a double-slit experiment with a slit separation of 0.5 micrometers.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Doubling the frequency of laser light in a double-slit experiment affects the separation\nof bright fringes observed on a screen. The fringe separation, or fringe spacing, is\ndetermined by the equation \\( y = \\frac{\\lambda L}{d} \\), where \\( y \\) is the fringe\nseparation, \\( \\lambda \\) is the wavelength of the light, \\( L \\) is the distance to the\nscreen, and \\( d \\) is the slit separation. When the frequency is doubled, the wavelength\n\\( \\lambda \\) decreases, since the speed of light is constant (\\( c = \\lambda f \\)).\nConsequently, with a constant slit separation of 0.5 micrometers, the new fringe\nseparation will be halved. Therefore, the separation of the bright fringes will become 0.5\nmm, illustrating the direct relationship between wavelength and fringe spacing in\ndiffraction patterns.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the frequency of the laser light reduces the wavelength, leading to a narrower fringe separation according to the relationship between wavelength, slit separation, and fringe spacing in the double-slit experiment.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1391"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

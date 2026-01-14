@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_24",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Message authentication ensures that a message has not been altered and verifies the identity of the sender, which is a distinct service that goes beyond simply confirming message integrity, which only checks that the message remains unchanged without verifying the sender's authenticity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1513
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A buffer overflow on the stack allows an attacker to overwrite the return address of a function, redirecting execution to malicious code that has been injected into the stack memory.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1531
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Freenet is designed specifically to enable users to share files and communicate anonymously over the internet, making it a key component of the darknet for secure file transfer.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1478
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A ping sweep is used to identify live systems because it sends ICMP echo requests to multiple IP addresses in a network to determine which devices are active and responsive.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses within the transport layer protocols themselves, which primarily focus on data transmission and error handling.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Message confidentiality refers to the protection of data from unauthorized access or disclosure, but it does not guarantee that the data will remain hidden during transmission if the transmission medium itself is compromised or if there are vulnerabilities in the encryption methods used.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1542
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Wireless access is not used to secure wired connections; instead, wired connections typically rely on encryption protocols and security measures such as firewalls and intrusion detection systems to protect against unauthorized data breaches.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1537
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Nmap identifies port states as open, closed, or filtered, rather than active, inactive, or standby.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1555
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Message integrity refers to the assurance that a message has not been altered in transit, while confidentiality pertains to keeping the content of the message secret from unauthorized access; therefore, message integrity does not guarantee confidentiality.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1527
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The stack is primarily used for storing local variables because it operates on a last-in, first-out (LIFO) principle, allowing functions to maintain their execution context by pushing and popping local variables as they are called and returned.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1558
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def rectangle_perimeter(l,b): | return perimeter",
+      "marks": 10,
+      "explanation": "correct because it outlines the creation of a function that takes the length and breadth of a rectangle as inputs and is intended to return the calculated perimeter, which is essential for understanding basic geometric principles in programming.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 654
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_24_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def insert_element(list,element): | return list",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a function that takes a list and an element as inputs, although it lacks the implementation details necessary to actually insert the specified element before each element of the list.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 251
+    }
+  ]
+}

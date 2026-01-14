@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_25",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Authentication is a fundamental process in cybersecurity used to verify the identity of users and is not considered a security exploit, which typically refers to vulnerabilities or attacks that compromise system security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1485
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Access Point serves as the central hub in 802.11 wireless networks by facilitating communication between wireless devices and providing access to the wired network, thereby managing data traffic and connectivity within the network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1486
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the property of the one-time pad (OTP) encryption, where the key can be derived by performing a bitwise XOR operation between the plaintext message (m) and the ciphertext (c), resulting in the key (k = m xor c).",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1540
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is widely recognized as the first significant buffer overflow attack, as it exploited vulnerabilities in Unix systems to propagate itself, thereby highlighting the dangers of such security flaws in software.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is the Session layer because it is responsible for establishing, managing, and terminating sessions between applications, making it the layer where authentication and credential verification take place, which are vulnerable to brute-force attacks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1504
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A digest created by a hash function is called a Modification Detection Code (MDC) because it serves to verify the integrity of data by providing a unique output that changes if the input data is altered.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, while the .NET framework includes security features to help developers build secure applications, it is also a target for vulnerability exploitation, highlighting the need for ongoing security practices and awareness in software development.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because EXE does not assume the query is satisfiable after a timeout; instead, it indicates that the STP solver was unable to resolve the query within the given time, leading to a lack of definitive conclusions about satisfiability.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "WPA2 employs stronger encryption methods and more robust security protocols than WEP, making it significantly more secure for protecting wireless networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1556
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Encapsulating Security Payload (ESP) is indeed a component of the Internet Protocol Security (IPsec) suite, which is designed to provide confidentiality, integrity, and authentication for IP packets transmitted over a network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "Mutation-based fuzzing is a crucial process in cybersecurity that enhances software\ntesting by generating new test inputs through the modification of existing ones. This\nmethod involves systematically altering various components of a valid input, such as\nchanging data values, appending random bytes, or altering the structure of the input. The\nsignificance of this approach lies in its ability to uncover vulnerabilities that may not\nbe detected through traditional testing methods, as it simulates unexpected or malformed\ninputs that software might encounter in real-world scenarios. By leveraging the principle\nof modifying prior inputs, mutation-based fuzzing can effectively identify security flaws,\nleading to more robust and secure software systems. This iterative process not only aids\nin detecting bugs but also improves overall software reliability and resilience against\npotential attacks.",
+      "marks": 10,
+      "explanation": "The answer correctly highlights that mutation-based fuzzing enhances software testing by systematically altering valid inputs to generate new test cases, which helps identify vulnerabilities that traditional testing may overlook, thereby emphasizing its significance in cybersecurity.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1525
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_25_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "In cybersecurity, the classic security properties are often summarized as confidentiality,\nintegrity, and availability, collectively known as the CIA triad. While confidentiality\nand integrity are traditionally regarded as core properties essential for protecting\ninformation from unauthorized access and alteration, availability is frequently viewed as\na secondary concern. This distinction implies that many security frameworks prioritize the\nfirst two properties, potentially neglecting availability, which is crucial for ensuring\nthat systems and data are accessible when needed. The implications of this oversight can\nlead to vulnerabilities where services may be disrupted, affecting business continuity and\nuser trust. Thus, a balanced approach that equally emphasizes all three properties is\nessential for a comprehensive security posture.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies confidentiality and integrity as core properties of the CIA triad in cybersecurity, while positioning availability as a secondary concern, thereby highlighting the potential oversight in security frameworks that may prioritize the former two properties at the expense of ensuring system availability.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1570
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Graduate Level Assessment 18 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item If N is the number of instances in the training dataset, nearest neighbors has a classification run time of
+\begin{enumerate}[label=(\alph*)]
+    \item O(1)
+    \item O( N )
+    \item O(log N )
+    \item O( $N^2$ )
+\end{enumerate}
+\item After applying a regularization penalty in linear regression, you find that some of the coefficients of w are zeroed out. Which of the following penalties might have been used?
+\begin{enumerate}[label=(\alph*)]
+    \item L$_{0}$ norm
+    \item L$_{1}$ norm
+    \item L$_{2}$ norm
+    \item either (a) or (b)
+\end{enumerate}
+\item As the number of training examples goes to infinity, your model trained on that data will have:
+\begin{enumerate}[label=(\alph*)]
+    \item Lower variance
+    \item Higher variance
+    \item Same variance
+    \item None of the above
+\end{enumerate}
+\item Which image data augmentation is most common for natural images?
+\begin{enumerate}[label=(\alph*)]
+    \item random crop and horizontal flip
+    \item random crop and vertical flip
+    \item posterization
+    \item dithering
+\end{enumerate}
+\item Which of the following is more appropriate to do feature selection?
+\begin{enumerate}[label=(\alph*)]
+    \item Ridge
+    \item Lasso
+    \item both (a) and (b)
+    \item neither (a) nor (b)
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Regression does not discover causal relationships; it primarily identifies correlations between variables.
+\item True or False: To calculate P(H|E, F), the sufficient numbers are P(E, F), P(H), and P(E, F|H).
+\item True or False: Batch Normalization was introduced in the original ResNet paper, while Layer Normalization was not used.
+\item True or False: Clustering is an effective technique for detecting fraudulent credit card transactions by grouping similar behavior patterns.
+\item True or False: Overfitting is more likely when the set of training data is small, as the model may learn noise instead of general patterns.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to find the index of the first occurrence of a given number in a sorted array.
+\item Write a function to find minimum of two numbers.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

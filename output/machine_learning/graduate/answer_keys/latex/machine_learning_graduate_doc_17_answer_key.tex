@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) reinforcement learning; B) self-supervised learning; C) unsupervised learning; D) supervised learning
+\\ \textit{Note:} Reinforcement learning is considered the "cherry on top" in Yann LeCun's cake of machine learning because it represents an advanced paradigm that combines elements of supervised and unsupervised learning to enable agents to learn optimal behaviors through trial and error in dynamic environments.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) To save computing time during testing; B) To save space for storing the Decision Tree; C) To make the training set error smaller; D) To avoid overfitting the training set
+\\ \textit{Note:} Pruning a Decision Tree is essential to reduce its complexity and prevent it from fitting noise and outliers in the training data, which leads to overfitting and poor generalization to unseen data.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) pure; B) not pure; C) useful; D) useless
+\\ \textit{Note:} High entropy in classification indicates a high level of disorder or uncertainty within the partitions, meaning that the data points in those partitions are mixed and not predominantly from a single class, which results in impure classifications.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The softmax function is indeed used in multiclass logistic regression to convert raw scores into probabilities, and the temperature parameter in a nonuniform softmax distribution adjusts the distribution's sharpness or flatness, thereby influencing its entropy, which measures uncertainty.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(A | B) * P(B | C) * P(C | A); B) P(C | A, B) * P(A) * P(B); C) P(A, B | C) * P(C); D) P(A | B, C) * P(B | A, C) * P(C | A, B)
+\\ \textit{Note:} The correct answer is based on the chain rule of probability, which states that the joint probability of multiple events can be expressed as the product of the conditional probability of one event given another and the probability of that other event, thus P(A, B, C) = P(A, B | C) * P(C).
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Residual connections facilitate the flow of gradients during backpropagation, enabling deeper architectures like ResNets and improving the training dynamics of Transformers, which ultimately enhances model performance and stability.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The softmax function transforms the raw output scores of a multiclass logistic regression model into a probability distribution across multiple classes, ensuring that the probabilities sum to one, which is essential for modeling categorical outcomes.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Averaging the output of multiple decision trees reduces variance by mitigating the effects of individual trees' overfitting, as their errors tend to cancel each other out when combined.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Grid search evaluates every possible combination of hyperparameters, leading to a significant increase in computational time, especially as the number of parameters and their possible values increases, which makes it run slowly for multiple linear regression.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The degree of a polynomial in polynomial regression directly influences the model's complexity, with lower degrees risking underfitting by failing to capture the underlying data patterns, while higher degrees can lead to overfitting by modeling noise in the data, thus establishing a critical trade-off between the two.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} To derive the gradient of the objective function \( f(w) = \frac{1}{2} \|Xw - y\|_2^2 + \frac{1}{2}\lambda \|w\|_2^2 \) with respect to \( w \), we begin by applying the chain rule and properties of matrix derivatives. The first term can be expanded as \( \frac{1}{2} (Xw - y)^\top (Xw - y) \). The gradient of this term is given by \( X^\top (Xw - y) \). The second term, which is a regularization term, has a gradient of \( \lambda w \). Combining these results, we obtain the overall gradient: \( \nabla_w f(w) = X^\top X w - X^\top y + \lambda w \). This expression reflects how changes in \( w \) affect the objective function, balancing the fit to the data with the regularization imposed by \( \lambda \).
+\\ \textit{Note:} correct because it accurately applies the chain rule and matrix derivative properties to derive the gradient of the objective function, correctly calculating the gradient of the loss term and the regularization term, and then combining them to obtain the overall gradient with respect to \( w \).
+\item \textbf{Answer:} To derive P(A | B), we can utilize Bayes' theorem, which states that P(A | B) = P(B | A) * P(A) / P(B). This formula allows us to compute the conditional probability of A given B by knowing the likelihood of B given A, along with the prior probabilities of A and B. In a machine learning context, understanding these probabilities is crucial for models that rely on probabilistic reasoning, such as Bayesian networks, where the relationships between variables inform decision-making processes. Analyzing the implications of these probabilities helps in refining models and improving predictions by capturing the dependencies between features in the data. Thus, accurately calculating P(A | B) can significantly enhance the performance and interpretability of machine learning algorithms.
+\\ \textit{Note:} correct because it accurately applies Bayes' theorem to derive the conditional probability P(A | B) using the relevant probabilities and highlights the significance of these concepts in the context of probabilistic models in machine learning.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) By overwriting the return address to point to the location of that code; B) By writing directly to the instruction pointer register the address of the code; C) By writing directly to \%eax the address of the code; D) By changing the name of the running executable, stored on the stack
+\\ \textit{Note:} A buffer overflow on the stack allows an attacker to overwrite the return address of a function, redirecting execution to attacker-injected code, thereby facilitating the execution of malicious instructions.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Silk Road; B) Cotton Road; C) Dark Road; D) Drug Road
+\\ \textit{Note:} The Silk Road was a notorious Dark Web marketplace that operated primarily between 2011 and 2013, facilitating the anonymous sale of illegal drugs and various illicit goods using cryptocurrency, making it emblematic of cybercrime in that domain.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authentication aims to determine who the user is by verifying the identity of individuals attempting to access a system or network, ensuring that only authorized users can gain entry.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Mishandling of undefined, poorly defined variables; B) The Vulnerability that allows "fingerprinting" \& other enumeration of host information; C) Overloading of transport-layer mechanisms; D) Unauthorized network access
+\\ \textit{Note:} Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses in the protocols and mechanisms that operate at the transport layer, such as TCP or UDP, which focus on end-to-end communication and data flow control.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Port, network, and services; B) Network, vulnerability, and port; C) Passive, active, and interactive; D) Server, client, and network
+\\ \textit{Note:} The correct answer encompasses the primary categories of scanning used in cybersecurity, where network scanning identifies active devices, vulnerability scanning assesses potential security flaws, and port scanning checks open ports and services, collectively forming a comprehensive approach to assessing security posture.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} UNIX and NT-based systems are susceptible to buffer overflow vulnerabilities because they often allow programs to write more data to a buffer than it can hold, leading to memory corruption and the potential for attackers to execute arbitrary code.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer-overflow issues require both memory and boundary checks because adequate memory checks alone cannot prevent data from being written outside the allocated buffer, which is essential for maintaining data integrity and system security.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Public key encryption enables secure key exchange without the need to share a secret key over potentially insecure channels, as it uses a pair of keys (public and private) to encrypt and decrypt messages, thereby eliminating the key distribution problem inherent in symmetric key cryptography.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A packet filter firewall inspects packets based on their header information, which operates at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model, thereby validating or blocking traffic based on IP addresses and port numbers.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A digital signature utilizes a public-key cryptography system, where the sender signs a message with their private key, allowing the recipient to verify authenticity and integrity using the sender's public key, thus ensuring secure digital communications.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def diff\_consecutivenums(nums): | return result
+\\ \textit{Note:} correct as it outlines the definition of a function that is intended to compute the difference between each pair of consecutive numbers in a list, which is a fundamental programming task that can be applied in various cybersecurity algorithms for data analysis or anomaly detection.
+\item \textbf{Answer:} def smallest\_Divisor(n): | return 2; | return i; | return n;
+\\ \textit{Note:} The answer correctly identifies that the smallest prime divisor of any integer greater than 1 is 2, and it suggests a structure for the function that could be expanded to include logic for checking other potential divisors if necessary.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

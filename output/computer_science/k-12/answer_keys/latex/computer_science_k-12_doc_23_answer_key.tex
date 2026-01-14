@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 23 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 6; C) 4; D) 5
+\\ \textit{Note:} The correct answer is 5 because the expression evaluates the modulus operation first, where 3 \% 2 equals 1, and then adds that result to 4, resulting in 4 + 1 = 5.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) ( 'abcd', 786 , 2.23, 'john', 70.2 ); B) abcd; C) Error; D) None of the above.
+\\ \textit{Note:} The correct answer is "abcd" because in Python, tuples are zero-indexed, meaning that the first element of the tuple, which is at index 0, is 'abcd'.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) int(x [,base]); B) long(x [,base] ); C) float(x); D) str(x)
+\\ \textit{Note:} The function int(x [,base]) in Python 3 is specifically designed to convert a string representation of an integer into its corresponding integer value, optionally allowing for a specified base for conversion.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 17\_\{16\}; B) E$_{4}$\_\{16\}; C) E$_{7}$\_\{16\}; D) F$_{4}$\_\{16\}
+\\ \textit{Note:} The correct answer is E$_{7}$\_\{16\} because when converting the decimal number 231 to hexadecimal, it equals 14*$16^1$ + 7*$16^0$, which corresponds to the hexadecimal representation E$_{7}$.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O($N^(1$/2)); B) O($N^(1$/4)); C) O($N^(1$/N)); D) O(N)
+\\ \textit{Note:} O($N^(1$/N)) grows the slowest among functions because as N increases, the growth rate approaches 1, making it effectively constant for large values of N, compared to other polynomial and exponential functions that grow much faster.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the function max(list) evaluates all the elements in the list and returns the one with the highest value based on the default comparison rules for the data types contained within the list.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Cookies can track users' online behavior and store personal information, which can lead to privacy breaches if accessed by unauthorized parties.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression 3 \% 3 evaluates to 0, so 1 + 0 equals 1, making the statement true.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The isupper() function in Python 3 returns True if all the alphabetic characters in the string are uppercase and there is at least one alphabetic character, which confirms the statement as true.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the '**' operator is specifically designated for exponentiation, allowing users to raise a number to the power of another number.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def arc\_length(d,a): | return None | return arclength
+\\ \textit{Note:} correct as it outlines the structure of a function named `arc\_length` that is intended to calculate the arc length based on the parameters for diameter and angle, although it requires further implementation to actually compute and return the arc length value.
+\item \textbf{Answer:} def left\_rotate(s,d): | return tmp
+\\ \textit{Note:} correct because it defines a Python function that is intended to perform a left rotation on a string by shifting its characters to the left by a specified number of positions, represented by the variable 'd'.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

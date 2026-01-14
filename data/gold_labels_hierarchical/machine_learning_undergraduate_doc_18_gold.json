@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_18",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which tends to regularize the estimate and reduce its uncertainty compared to the MLE that relies solely on the observed data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14786
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the structure of the Bayesian Network, where the joint probability can be expressed as the product of the marginal probability of H, the marginal probability of W, the conditional probability of P given W, and the conditional probability of U given both H and P, following the rules of conditional independence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Predicting the amount of rainfall based on various cues is a supervised learning problem because it involves training a model on labeled data, where the inputs are the cues and the outputs are the corresponding rainfall amounts.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "RELU (Rectified Linear Unit) activation functions are indeed non-monotonic due to their piecewise linear nature, while sigmoid functions are monotonic; additionally, neural networks trained with gradient descent do not guarantee convergence to the global optimum due to the presence of local minima in non-convex loss landscapes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 15 because, in a Bayesian network with four nodes (H, U, P, and W), each node can have a varying number of parents that require parameters for their conditional probability distributions, leading to a total of 15 independent parameters when no assumptions about independence or conditional independence are made.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6881
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the rank of matrix A, which has all identical rows, is 1, as it can be reduced to a single non-zero row, indicating that there is only one linearly independent row.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to capture the complexities and patterns in the training data, resulting in poor performance on both the training set and unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the expression P(A, B | C) * P(C) correctly utilizes the chain rule of probability, which allows for the calculation of joint probabilities without any assumptions of independence among the variables A, B, and C.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Neural networks can incorporate a variety of activation functions in different layers, allowing them to capture complex patterns and relationships in data, which enhances learning and increases model complexity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Lasso regression applies L1 regularization, which can shrink some feature coefficients to exactly zero, effectively performing feature selection, while Ridge regression uses L2 regularization and typically retains all features by only shrinking coefficients.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def multi_list(rownum,colnum): | return multi_list",
+      "marks": 10,
+      "explanation": "correct because it defines a function named `multi_list` that takes two parameters, `rownum` and `colnum`, which are essential for generating a two-dimensional array, although it lacks the actual implementation to create and return the array.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 380
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_18_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def frequency_lists(list1): | return dic_data",
+      "marks": 10,
+      "explanation": "correct as it implies the creation of a function that processes a list of lists and returns a dictionary containing the frequency count of each unique element, which is essential for analyzing data patterns in machine learning.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 97
+    }
+  ]
+}

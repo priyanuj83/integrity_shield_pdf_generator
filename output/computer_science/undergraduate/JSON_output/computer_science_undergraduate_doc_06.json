@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_undergraduate_doc_06",
+  "document_name": "Computer Science - Undergraduate Level Assessment 6",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_06.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_06.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_06_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_06_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_06_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_06_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let x = 1. What is x << 3 in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "8",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, the operator '<<' performs a left bitwise shift, so shifting the binary representation of the number 1 (which is '0001') three places to the left results in '1000', which is equal to 8 in decimal.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which is the largest asymptotically?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(n^2) is the largest asymptotic notation among the options because it grows at a faster rate than linear or logarithmic functions as the input size n increases, indicating that its time complexity will be higher in comparison to those functions for large n.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3213"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements about a remote procedure call is true?",
+      "options": {
+        "A": "It is used to call procedures with addresses that are farther than 2^16 bytes away.",
+        "B": "It cannot return a value.",
+        "C": "It cannot pass parameters by reference.",
+        "D": "It cannot call procedures implemented in a different language."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a remote procedure call (RPC), parameters are typically serialized and sent over the network, which means they are passed by value rather than by reference, as the remote procedure cannot directly access the caller's memory space.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1031"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of \"abc\"[::-1] in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "abc",
+        "C": "cba",
+        "D": "c"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression \"abc\"[::-1] in Python 3 uses slicing with a step of -1, which reverses the string, resulting in \"cba\".",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "15675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is the output of ['Hi!'] * 4?",
+      "options": {
+        "A": "['Hi!', 'Hi!', 'Hi!', 'Hi!']",
+        "B": "['Hi!'] * 4",
+        "C": "Error",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression ['Hi!'] * 4 creates a new list that repeats the single element 'Hi!' four times, resulting in the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3262"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, converting a list with duplicate elements to a set results in a collection of unique elements.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, a set is defined as an unordered collection of unique elements, so when a list containing duplicate elements is converted to a set, all duplicates are automatically removed, resulting in a collection of only unique elements.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Identifier length is best defined using a context-free grammar in programming language specifications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Identifier length in programming languages is typically defined by context-sensitive rules, such as those considering scope and naming conflicts, which cannot be captured by context-free grammars.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1077"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Choosing to busy-wait on an asynchronous event is unreasonable in a time-sharing system due to potential resource wastage.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Choosing to busy-wait on an asynchronous event in a time-sharing system is unreasonable because it consumes CPU cycles unnecessarily, preventing the system from efficiently allocating resources to other processes that could make better use of the available processing power.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1012"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the join() function checks if all characters in a string are uppercase.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The join() function in Python 3 is used to concatenate elements of an iterable into a string using a specified separator, and it does not perform any checks on the case of characters within strings.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the operator '//' is used to perform exponential (power) calculations on operands.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The operator '//' in Python 3 is used for floor division, not for performing exponential (power) calculations, which are done using the '**' operator.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function that gives profit amount if the given amount has profit else return none.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def profit_amount(actual_cost,sale_amount): | return amount | return None",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly checks if the sale amount exceeds the actual cost to determine profit, returning the profit amount if applicable, or None if there is no profit.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "954"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_06_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the maximum sum possible by using the given equation f(n) = max(\n(f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_max_sum (n): | return res[n]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it suggests using a memoization technique (implied by returning `res[n]`) to efficiently compute and store the maximum sum derived from the recursive function, ensuring optimal performance by avoiding redundant calculations.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "392"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

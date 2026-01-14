@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_graduate_doc_16",
+  "document_name": "Machine Learning - Graduate Level Assessment 16",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_16.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following are the spatial clustering algorithms?",
+      "options": {
+        "A": "Partitioning based clustering",
+        "B": "K-means clustering",
+        "C": "Grid based clustering",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of techniques, such as k-means, DBSCAN, and hierarchical clustering, all of which are designed to group data points based on their spatial proximity and characteristics.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Another term for out-of-distribution detection is?",
+      "options": {
+        "A": "anomaly detection",
+        "B": "one-class detection",
+        "C": "train-test mismatch robustness",
+        "D": "background detection"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Anomaly detection refers to the identification of patterns in data that do not conform to expected behavior, which aligns with the concept of out-of-distribution detection that seeks to recognize data points that fall outside the normal training distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6882"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following points would Bayesians and frequentists disagree on?",
+      "options": {
+        "A": "The use of a non-Gaussian noise model in probabilistic regression.",
+        "B": "The use of probabilistic modelling for regression.",
+        "C": "The use of prior distributions on the parameters in a probabilistic model.",
+        "D": "The use of class priors in Gaussian Discriminant Analysis."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bayesians advocate for the incorporation of prior distributions to reflect beliefs about parameters before observing data, while frequentists reject this approach, focusing instead on the data collected without incorporating prior information.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following best describes the joint probability distribution P(X, Y, Z) for\nthe given Bayes net. X <- Y -> Z?",
+      "options": {
+        "A": "P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y)",
+        "B": "P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y)",
+        "C": "P(X, Y, Z) = P(Z) * P(X|Z) * P(Y|Z)",
+        "D": "P(X, Y, Z) = P(X) * P(Y) * P(Z)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer reflects the structure of the Bayes net, where Y is a parent of both X and Z, allowing the joint probability distribution to be factored into the product of the marginal probability of Y and the conditional probabilities of X given Y and Z given Y.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following best describes what discriminative approaches try to model? (w are\nthe parameters in the model)",
+      "options": {
+        "A": "p(y|x, w)",
+        "B": "p(y, x)",
+        "C": "p(w|x, w)",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Discriminative approaches focus on modeling the conditional probability of the output variable y given the input variable x and the model parameters w, which allows for a direct estimation of the decision boundary between different classes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Clustering is the best approach for predicting the amount of rainfall based on various cues in meteorological data.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Clustering is an unsupervised learning technique that groups data based on similarity, making it unsuitable for prediction tasks like forecasting rainfall, which typically requires supervised learning methods that can model the relationship between input features and output variables.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The rank of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 3 because all rows are linearly independent.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the rows of the matrix A are linearly dependent, as they are all identical and thus span a space of dimension 1, resulting in a rank of 1, not 3.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6857"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Penn Treebank is primarily designed for sentiment analysis rather than language modeling tasks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Penn Treebank is primarily designed for syntactic parsing and language modeling tasks, providing annotated corpora that focus on grammatical structures rather than sentiment analysis.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6896"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The dimensionality of the null space of the matrix A is 3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the dimensionality of the null space of a matrix A is determined by the rank-nullity theorem, which relates the rank of the matrix to its nullity, and a null space dimension of 3 would imply specific conditions on the number of columns and the rank that are not universally applicable.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6897"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "In the given Bayesian network, a total of 15 independent parameters are required if no assumptions about independence are made.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, in a Bayesian network without any assumptions about independence, the total number of parameters required equals the product of the number of possible outcomes for each variable, leading to a need for 15 independent parameters to fully specify the joint distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6881"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to extract maximum and minimum k elements in the given tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def extract_min_max(test_tup, K): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the basic structure of a function that is intended to return the maximum and minimum k elements from a tuple, which is the core requirement of the given question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sort a given list of elements in ascending order using heap queue\nalgorithm.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def heap_assending(nums): | return s_result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it suggests implementing a function that utilizes the heap queue algorithm, which is designed to efficiently sort elements by maintaining a binary heap structure, ensuring that the smallest element can be accessed and removed in logarithmic time, ultimately leading to a sorted list in ascending order.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "372"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

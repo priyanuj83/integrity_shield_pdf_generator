@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_13",
+  "document_name": "Cybersecurity - Graduate Level Assessment 13",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_13.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is an authentication method?",
+      "options": {
+        "A": "Secret question",
+        "B": "Biometric",
+        "C": "SMS code",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because authentication methods encompass a variety of techniques, including passwords, biometrics, and multi-factor authentication, all of which are designed to verify the identity of users in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A hash function guarantees the integrity of a message. It guarantees that the message has\nnot be",
+      "options": {
+        "A": "Replaced",
+        "B": "Overview",
+        "C": "Changed",
+        "D": "Violated"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function produces a fixed-size output from variable-size input data, allowing any changes to the original message to result in a different hash value, thus ensuring the integrity of the message by detecting alterations.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14209"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The AH Protocol provides source authentication and data integrity, but not",
+      "options": {
+        "A": "Integrity",
+        "B": "Privacy",
+        "C": "Nonrepudiation",
+        "D": "Both A & C"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol, which stands for Authentication Header, is designed to ensure data integrity and authenticity of messages in IPsec but does not encrypt the payload, thereby lacking privacy for the transmitted data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let I = (S,V)I=(S,V) be a MAC. Suppose S(k,m)S(k,m) is always 5 bits long. Can this MAC be\nsecure?",
+      "options": {
+        "A": "No, an attacker can simply guess the tag for messages",
+        "B": "It depends on the details of the MAC",
+        "C": "Yes, the attacker cannot generate a valid tag for any message",
+        "D": "Yes, the PRG is pseudorandom"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The MAC is not secure because with a fixed length of only 5 bits, there are only 32 possible tag values, allowing an attacker to easily guess the correct tag through brute force, undermining the integrity and authenticity of the messages.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1509"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is the central node of 802.11 wireless operations.",
+      "options": {
+        "A": "WPA",
+        "B": "Access Point",
+        "C": "WAP",
+        "D": "Access Port"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Access Point serves as the central node in 802.11 wireless operations because it facilitates communication between wireless devices and the wired network, managing data traffic and connectivity within the wireless network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key can be reused multiple times between the same parties for different sessions without compromising security.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reusing a session symmetric key across different sessions increases the risk of key compromise and potential cryptographic attacks, as it allows adversaries to analyze multiple encrypted messages and potentially derive the key.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "A buffer overflow occurs when the program detects a buffer is full and begins to reject additional data requests.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, leading to potential overwriting of adjacent memory, rather than the program detecting fullness and rejecting additional data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1506"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Weak or non-existent authentication mechanisms are not considered issues associated with the presentation layer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Weak or non-existent authentication mechanisms are primarily associated with the application layer, as they pertain to user identity verification and access control, rather than the presentation layer, which focuses on data formatting and presentation.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The message must be encrypted and decrypted at the sender site to maintain data integrity during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because data integrity can be maintained through various means, such as checksums and hashes, which do not necessarily require encryption and decryption at the sender site.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "A proxy firewall primarily filters traffic at the physical layer, managing connections and data transmission directly over the network.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A proxy firewall primarily operates at the application layer of the OSI model, inspecting and filtering traffic based on application-level data rather than managing connections at the physical layer.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1528"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of message integrity in cybersecurity, including its significance,\nmethods for ensuring it, and the potential consequences of its compromise.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Message integrity in cybersecurity refers to the assurance that data has not been altered\nor tampered with during transmission or storage. It is significant because any compromise\nin integrity can lead to misinformation, unauthorized access, and potentially severe\nsecurity breaches. Methods to ensure message integrity include cryptographic hash\nfunctions, digital signatures, and message authentication codes (MACs), which help in\nverifying the authenticity and integrity of the data. When message integrity is\ncompromised, it can result in data corruption, loss of trust in systems, and financial or\nreputational damage to organizations. Thus, maintaining message integrity is essential for\nthe reliable operation of cybersecurity frameworks.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately defines message integrity in cybersecurity, highlights its importance in preventing security breaches, and describes effective methods such as cryptographic hash functions and digital signatures to ensure data authenticity and integrity.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1542"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_13_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of the session layer in the OSI model and analyze how it can be exploited\nin brute-force attacks on access credentials.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The session layer, which is the fifth layer of the OSI model, is responsible for\nestablishing, managing, and terminating sessions between applications. It facilitates\ncommunication by handling the opening and closing of connections, ensuring that data is\nproperly synchronized and organized. In the context of brute-force attacks on access\ncredentials, vulnerabilities at the session layer can be exploited if session management\nis inadequately secured. For instance, if session tokens are predictable or if session\ntimeouts are poorly configured, attackers can optimize their brute-force attempts by\nkeeping sessions alive longer than intended, thus increasing their chances of success.\nTherefore, robust session management practices are crucial to mitigate such risks and\nprotect sensitive access credentials.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the function of the session layer in managing communication sessions and highlights how weaknesses in session management can be targeted during brute-force attacks, particularly through predictable session tokens.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1504"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

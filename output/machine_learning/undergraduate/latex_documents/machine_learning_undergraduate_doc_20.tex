@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 20 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item What is the dimensionality of the null space of the following matrix? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+\begin{enumerate}[label=(\alph*)]
+    \item 0
+    \item 1
+    \item 2
+    \item 3
+\end{enumerate}
+\item As the number of training examples goes to infinity, your model trained on that data will have:
+\begin{enumerate}[label=(\alph*)]
+    \item Lower variance
+    \item Higher variance
+    \item Same variance
+    \item None of the above
+\end{enumerate}
+\item The disadvantage of Grid search is
+\begin{enumerate}[label=(\alph*)]
+    \item It can not be applied to non-differentiable functions.
+    \item It can not be applied to non-continuous functions.
+    \item It is hard to implement.
+    \item It runs reasonably slow for multiple linear regression.
+\end{enumerate}
+\item The number of test examples needed to get statistically significant results should be \_
+\begin{enumerate}[label=(\alph*)]
+    \item Larger if the error rate is larger.
+    \item Larger if the error rate is smaller.
+    \item Smaller if the error rate is smaller.
+    \item It does not matter.
+\end{enumerate}
+\item Statement 1| ImageNet has images of various resolutions. Statement 2| Caltech-101 has more images than ImageNet.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Underfitting occurs when a model fails to capture the underlying patterns in the training data and cannot generalize to new data.
+\item True or False: Linear hard-margin SVM can only be used when the training data are linearly separable.
+\item True or False: DCGANs utilize self-attention mechanisms to enhance the stability of their training process.
+\item True or False: Sampling with replacement in bagging eliminates the risk of overfitting completely for all classifiers used.
+\item True or False: Calculating P(H|E, F) requires knowledge of P(E|H) and P(F|H) alone.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to count the number of inversions in the given array.
+\item Write a python function to check whether the sum of divisors are same or not.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_11",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Freenet is specifically designed to facilitate anonymous file sharing and communication, making it an integral part of the darknet ecosystem focused on preserving user privacy.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1478
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer highlights that many predefined functions in C and C++ do not automatically check the boundaries of strings, allowing for the possibility of writing beyond allocated memory, which can lead to buffer overflow vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A stream cipher cannot achieve perfect secrecy because its key length is typically shorter than the message length, which leads to potential key reuse and allows for statistical analysis of the ciphertext.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1559
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "SHA-1 produces a fixed output size of 160 bits for its message digest, which is a fundamental characteristic of the algorithm.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15628
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is confidentiality because it refers to the assurance that information shared between the sender and receiver remains private and protected from unauthorized access, which is a fundamental principle in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Encapsulating Security Payload (ESP) is indeed a component of the Internet Protocol Security (IPsec) suite, which provides both encryption for confidentiality and authentication for data integrity in IP communications.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer is indeed a sequential segment of memory used to temporarily hold data, making it essential for managing data such as character strings or arrays of integers in various programming contexts, including cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "WPA (Wi-Fi Protected Access) employs TKIP (Temporal Key Integrity Protocol) as a security protocol to provide improved data encryption and integrity compared to its predecessor WEP, thereby enhancing the overall security of wireless networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "SQL queries that incorporate user input without proper validation or sanitization allow attackers to manipulate the query structure, leading to injection attacks that can compromise database security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1514
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because while ECB (Electronic Codebook) and CBC (Cipher Block Chaining) are valid block cipher operating modes, CFB (Cipher Feedback) is not categorized as a block cipher mode but rather as a stream cipher mode.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1518
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_average(number): | return (total,average)",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that computes both the total sum and the average of the first n natural numbers, which are fundamental operations in programming and mathematics.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 599
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_11_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def consecutive_duplicates(nums): | return [key for key, group in groupby(nums)]",
+      "marks": 10,
+      "explanation": "correct because it utilizes the `groupby` function from the `itertools` module to efficiently group consecutive duplicate elements in the list, returning a new list that contains only unique elements in their original order.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 730
+    }
+  ]
+}

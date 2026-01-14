@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 13 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Secret question; B) Biometric; C) SMS code; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because authentication methods encompass a variety of techniques, including passwords, biometrics, and multi-factor authentication, all of which are designed to verify the identity of users in cybersecurity.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Replaced; B) Overview; C) Changed; D) Violated
+\\ \textit{Note:} A hash function produces a fixed-size output from variable-size input data, allowing any changes to the original message to result in a different hash value, thus ensuring the integrity of the message by detecting alterations.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Privacy; C) Nonrepudiation; D) Both A \& C
+\\ \textit{Note:} The AH Protocol, which stands for Authentication Header, is designed to ensure data integrity and authenticity of messages in IPsec but does not encrypt the payload, thereby lacking privacy for the transmitted data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) No, an attacker can simply guess the tag for messages; B) It depends on the details of the MAC; C) Yes, the attacker cannot generate a valid tag for any message; D) Yes, the PRG is pseudorandom
+\\ \textit{Note:} The MAC is not secure because with a fixed length of only 5 bits, there are only 32 possible tag values, allowing an attacker to easily guess the correct tag through brute force, undermining the integrity and authenticity of the messages.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central node in 802.11 wireless operations because it facilitates communication between wireless devices and the wired network, managing data traffic and connectivity within the wireless network.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Reusing a session symmetric key across different sessions increases the risk of key compromise and potential cryptographic attacks, as it allows adversaries to analyze multiple encrypted messages and potentially derive the key.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow occurs when a program writes more data to a buffer than it can hold, leading to potential overwriting of adjacent memory, rather than the program detecting fullness and rejecting additional data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Weak or non-existent authentication mechanisms are primarily associated with the application layer, as they pertain to user identity verification and access control, rather than the presentation layer, which focuses on data formatting and presentation.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because data integrity can be maintained through various means, such as checksums and hashes, which do not necessarily require encryption and decryption at the sender site.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A proxy firewall primarily operates at the application layer of the OSI model, inspecting and filtering traffic based on application-level data rather than managing connections at the physical layer.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Message integrity in cybersecurity refers to the assurance that data has not been altered or tampered with during transmission or storage. It is significant because any compromise in integrity can lead to misinformation, unauthorized access, and potentially severe security breaches. Methods to ensure message integrity include cryptographic hash functions, digital signatures, and message authentication codes (MACs), which help in verifying the authenticity and integrity of the data. When message integrity is compromised, it can result in data corruption, loss of trust in systems, and financial or reputational damage to organizations. Thus, maintaining message integrity is essential for the reliable operation of cybersecurity frameworks.
+\\ \textit{Note:} correct because it accurately defines message integrity in cybersecurity, highlights its importance in preventing security breaches, and describes effective methods such as cryptographic hash functions and digital signatures to ensure data authenticity and integrity.
+\item \textbf{Answer:} The session layer, which is the fifth layer of the OSI model, is responsible for establishing, managing, and terminating sessions between applications. It facilitates communication by handling the opening and closing of connections, ensuring that data is properly synchronized and organized. In the context of brute-force attacks on access credentials, vulnerabilities at the session layer can be exploited if session management is inadequately secured. For instance, if session tokens are predictable or if session timeouts are poorly configured, attackers can optimize their brute-force attempts by keeping sessions alive longer than intended, thus increasing their chances of success. Therefore, robust session management practices are crucial to mitigate such risks and protect sensitive access credentials.
+\\ \textit{Note:} correct because it accurately describes the function of the session layer in managing communication sessions and highlights how weaknesses in session management can be targeted during brute-force attacks, particularly through predictable session tokens.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

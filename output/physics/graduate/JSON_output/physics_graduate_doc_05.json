@@ -1,0 +1,293 @@
+{
+  "docid": "physics_graduate_doc_05",
+  "document_name": "Physics - Graduate Level Assessment 5",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "physics_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_05.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A particle moves with $v=$ const. along the curve $r=k(1+\\cos \\theta)$ (a cardioid). Find\n$\\ddot{\\mathbf{r}} \\cdot \\mathbf{e}_r=\\mathbf{a} \\cdot \\mathbf{e}_r$.",
+      "options": {
+        "A": "$-\\frac{v^2}{k}$",
+        "B": "$-\\frac{3}{4}$ $\\frac{v^2}{k}$",
+        "C": "$-\\frac{7}{4}$ $\\frac{v^2}{k}$",
+        "D": "$\\frac{1}{4}$ $\\frac{v^2}{k}$",
+        "E": "$-\\frac{1}{4}$ $\\frac{v^2}{k}$"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the centripetal and tangential components of acceleration for a particle moving with constant speed along a curved path, where the radial acceleration is calculated using the curvature of the cardioid and results in the expression $-\\frac{3}{4} \\frac{v^2}{k}$.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9746"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the ratio of the focal lengths of a glass lens in water and in air. The refractive\nindices of the glass and water are 1.5 and 1.33 respectively.",
+      "options": {
+        "A": "2.50",
+        "B": "0.89",
+        "C": "2.23",
+        "D": "2.75",
+        "E": "4.5"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ratio of the focal lengths of the glass lens in water and in air is determined by the lensmaker's equation, which shows that the focal length is inversely proportional to the difference in refractive indices; thus, with the refractive indices of glass (1.5) and water (1.33), the focal length in air is 2.5 times that in water.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9661"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find the dimension of the parallelepiped of maximum volume circumscribed by a sphere of\nradius $R$.",
+      "options": {
+        "A": "$\\frac{2}{\\sqrt{2}}R$",
+        "B": "$\\frac{3}{\\sqrt{2}}R$",
+        "C": "$R$",
+        "D": "$\\sqrt{2}R$",
+        "E": "$\\frac{1}{\\sqrt{3}}R$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is $\\frac{2}{\\sqrt{2}}R$ because the maximum volume of a parallelepiped inscribed in a sphere occurs when it is a cube, and the side length of that cube, in relation to the sphere's radius, is given by the formula for the relationship between a cube's diagonal and its side length.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9650"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A uniformly charged conducting sphere of $1.2 \\mathrm{~m}$ diameter has surface charge\ndensity $8.1 \\mu \\mathrm{C} / \\mathrm{m}^2$. Find the net charge on the sphere.",
+      "options": {
+        "A": "$97 \\mu \\mathrm{C}$",
+        "B": "$37$$\\mu \\mathrm{C}$",
+        "C": "$77 \\mu \\mathrm{C}$",
+        "D": "$87 \\mu \\mathrm{C}$",
+        "E": "$17 \\mu \\mathrm{C}$"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The net charge on the uniformly charged conducting sphere can be calculated using the formula \\( Q = \\sigma \\times A \\), where \\( A \\) is the surface area of the sphere, given by \\( A = 4\\pi r^2 \\), and the radius \\( r \\) can be determined from the diameter of \\( 1.2 \\, \\mathrm{m} \\) (giving \\( r = 0.6 \\, \\mathrm{m} \\)), resulting in \\( Q = 8.1 \\, \\mu \\mathrm{C/m}^2 \\times 4\\pi (0.6 \\, \\mathrm{m})^2 \\approx 37 \\, \\mu \\mathrm{C} \\).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9455"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h\ncrosswind (at right angles) has a groundspeed of",
+      "options": {
+        "A": "40 km/h",
+        "B": "60 km/h",
+        "C": "50 km/h",
+        "D": "10 km/h",
+        "E": "90 km/h"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 50 km/h because the groundspeed is calculated using the Pythagorean theorem, where the airspeed (40 km/h) and the crosswind (30 km/h) form a right triangle, resulting in a resultant speed of \u221a(40\u00b2 + 30\u00b2) = 50 km/h.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9541"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "A planet that shrinks to one-tenth its original diameter would cause a person on its surface to weigh 1/10 as much.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because weight is proportional to mass and gravitational force, which depends on the square of the radius, so if a planet shrinks to one-tenth its diameter, its weight would actually be reduced to one-hundredth of its original weight, not one-tenth.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9939"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "In a series circuit, adding more lamps will cause the current from the power source to increase due to higher voltage availability.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a series circuit, adding more lamps increases the total resistance, which causes the overall current to decrease due to the constant voltage supplied by the power source, according to Ohm's law.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9736"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The distance between the object and its image in a plane mirror is 200 cm when the object is 100 cm from the mirror.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a plane mirror, the distance from the object to the mirror is equal to the distance from the mirror to the image, so if the object is 100 cm from the mirror, the image is also 100 cm away from the mirror, resulting in a total distance of 200 cm between the object and its image.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9104"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Satellites are propelled by constant rocket thrust to maintain their orbits around Earth.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Satellites maintain their orbits around Earth due to the balance between gravitational force and their inertial motion, not through constant rocket thrust, which is used mainly during launch and orbital insertion.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_05_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "During an isothermal expansion, 150 J of heat is added to the gas to compensate for the work done on the surroundings.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "During an isothermal expansion, the internal energy of the gas remains constant, so the heat added equals the work done by the gas on the surroundings, which in this case is 150 J to maintain thermal equilibrium.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9107"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_05_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the intensity ratio of the primary maximum to the first\nsecondary maximum in a diffraction grating with 100 lines, and derive the relevant\nexpressions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The intensity ratio of the primary maximum to the first secondary maximum in a diffraction\ngrating with 100 lines is influenced by factors such as the grating spacing, the\nwavelength of light, and the coherence of the light source. The intensity of maxima in a\ndiffraction pattern can be described by the expression \\( I = I_0 \\sin^2(N\\frac{\\pi d\n\\sin\\theta}{\\lambda})/\\sin^2(\\frac{\\pi d \\sin\\theta}{\\lambda}) \\), where \\( N \\) is the\nnumber of slits, \\( d \\) is the slit separation, \\( \\theta \\) is the angle of diffraction,\nand \\( \\lambda \\) is the wavelength. For the primary maximum at \\( \\theta = 0 \\), the\nintensity is maximized, while the first secondary maximum occurs at a specific angle\ndetermined by the grating equation. Evaluating these expressions for a grating with 100\nlines gives an intensity ratio of approximately 0.045, highlighting how the distribution\nof intensity across the diffraction pattern is dependent on the grating's parameters and\nthe nature of the incident light.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the key factors affecting the intensity ratio of the primary maximum to the first secondary maximum in a diffraction grating, and it derives the relevant mathematical expression that incorporates the number of slits, grating spacing, and wavelength, which are crucial for understanding the diffraction pattern's intensity distribution.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9468"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_05_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the work done in joules when lifting a 5-kilogram mass to a height of 2 meters,\nand discuss the underlying principles of work and energy involved in this process.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The work done in lifting a 5-kilogram mass to a height of 2 meters can be calculated using\nthe formula for gravitational potential energy, \\( W = mgh \\), where \\( m \\) is mass, \\( g\n\\) is the acceleration due to gravity (approximately \\( 9.81 \\, \\text{m/s}^2 \\)), and \\( h\n\\) is the height. Substituting the values, we find \\( W = 5 \\, \\text{kg} \\times 9.81 \\,\n\\text{m/s}^2 \\times 2 \\, \\text{m} = 98.1 \\, \\text{joules} \\). However, rounding to two\nsignificant figures, the work done is approximately 100 joules. This calculation\nillustrates the principle that work, in the context of energy transfer, is directly\nrelated to the force exerted against gravity and the distance over which that force is\napplied, highlighting the fundamental relationship between work and energy in mechanical\nsystems.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the formula for gravitational potential energy, which relates mass, gravitational acceleration, and height to calculate the work done in lifting the mass, demonstrating the principles of work and energy conservation in physics.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9077"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_04",
+  "document_name": "Health Sciences - K-12 Level Assessment 4",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_04.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_04_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the prevalence of alcoholic myopathy in alcoholics",
+      "options": {
+        "A": "30 to 50%",
+        "B": "40 to 60%",
+        "C": "20 to 40%",
+        "D": "10 to 30%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 40 to 60% reflects the significant occurrence of alcoholic myopathy among individuals with alcohol use disorder, indicating that a substantial proportion of this population is affected by muscle weakness and damage linked to chronic alcohol consumption.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9623"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the body mass index (BMI) for a patient whose height is 1.75 m and whose weight\nis 99 kg.",
+      "options": {
+        "A": "29",
+        "B": "32",
+        "C": "39",
+        "D": "43"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 32 because the body mass index (BMI) is calculated using the formula BMI = weight (kg) / (height (m))^2, which in this case is 99 kg / (1.75 m)^2, resulting in a BMI of approximately 32.16, rounded to 32.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9681"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Deficiency of vitamin A in children causes:",
+      "options": {
+        "A": "Goitre",
+        "B": "Poor cognitive development",
+        "C": "Poor bone growth",
+        "D": "Increased risk of mortality"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Deficiency of vitamin A in children increases the risk of mortality because it compromises their immune system, making them more susceptible to infections and diseases that can lead to serious health complications.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9673"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the primary lipoprotein secreted from the liver that is at least partially\ncomposed of dietary derived lipids?",
+      "options": {
+        "A": "Chylomicrons",
+        "B": "HDL",
+        "C": "VLDL",
+        "D": "LDL"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "VLDL, or very low-density lipoprotein, is the primary lipoprotein secreted by the liver that transports dietary-derived lipids, particularly triglycerides, from the liver to various tissues in the body.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9649"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following vitamins provides the cofactor for hydroxylation reactions in\ncollagen synthesis?",
+      "options": {
+        "A": "Biotin",
+        "B": "Niacin",
+        "C": "Riboflavin",
+        "D": "Vitamin C"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Vitamin C is essential for collagen synthesis because it acts as a cofactor for the enzymes that catalyze hydroxylation reactions, which are necessary for the stabilization and proper formation of collagen fibers.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "All tissue proteins are broken down at the same rate regardless of their function.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because different tissue proteins serve various functions and are regulated by distinct metabolic pathways, leading to varied rates of breakdown based on their specific roles in the body.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9641"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "C 18 and C 22 polyunsaturated fatty acids are the main precursors for eicosanoids in the body.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "C 18 and C 22 polyunsaturated fatty acids are not the main precursors for eicosanoids; instead, it is the C 20 polyunsaturated fatty acid, arachidonic acid, that primarily serves as the precursor for this group of signaling molecules.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9601"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Crohn's disease always affects the colon and cannot involve other parts of the digestive system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Crohn's disease can affect any part of the gastrointestinal tract, from the mouth to the anus, not just the colon.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9424"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "The fear of becoming fat in patients with anorexia nervosa is best described as a paranoid delusion.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The fear of becoming fat in patients with anorexia nervosa is not classified as a paranoid delusion because it is a distorted perception of body image and weight rather than a fixed false belief disconnected from reality.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15075"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Starch cannot be metabolized by oral bacteria, as it is too complex for them to break down efficiently.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Starch is a polysaccharide made up of long chains of glucose molecules, which oral bacteria lack the necessary enzymes to efficiently break down into simpler sugars for metabolism.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15073"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how deficiencies in specific nutrients can lead to anemia, highlighting the roles\nof copper and iron in maintaining healthy blood function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Deficiencies in specific nutrients, particularly iron and copper, can lead to anemia, a\ncondition where the body lacks enough healthy red blood cells to carry adequate oxygen.\nIron is crucial for the production of hemoglobin, the protein in red blood cells that\nbinds to oxygen; without enough iron, the body cannot produce sufficient hemoglobin,\nleading to fatigue and weakness. Copper plays a supportive role by helping to absorb iron\nand facilitating the formation of red blood cells. A lack of copper can hinder the body's\nability to utilize iron effectively, further exacerbating anemia. Therefore, both iron and\ncopper are essential for maintaining healthy blood function and preventing anemia.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly highlights that iron deficiency directly impairs hemoglobin production, essential for oxygen transport, while copper is necessary for iron absorption and red blood cell formation, demonstrating how both nutrients are vital in preventing anemia.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9657"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_04_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of nitrogen balance in the body, explaining what it means to be in a\npositive nitrogen balance and its implications for growth and health.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Nitrogen balance is an important concept in understanding how our bodies use protein. When\na person is in a positive nitrogen balance, it means that the amount of nitrogen taken in\nfrom dietary proteins is greater than the amount excreted as waste. This state is crucial\nfor growth, especially in children and adolescents, as it supports the development of new\ntissues, muscles, and overall health. Being in a positive nitrogen balance can also\nbenefit recovering patients or athletes who need to rebuild their bodies after illness or\nintense training. Therefore, maintaining a positive nitrogen balance is essential for\npromoting growth and supporting overall health.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately defines positive nitrogen balance as a state where nitrogen intake exceeds nitrogen excretion, highlighting its significance for growth, tissue development, and recovery in individuals.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9672"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 18 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) O(1); B) O( N ); C) O(log N ); D) O( $N^2$ )
+\\ \textit{Note:} The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to all N instances in the training dataset to determine the closest neighbors for classification, resulting in a linear run time relative to the number of training instances.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) L$_{0}$ norm; B) L$_{1}$ norm; C) L$_{2}$ norm; D) either (a) or (b)
+\\ \textit{Note:} The correct answer is justified because both Lasso (L$_{1}$) regularization and Elastic Net regularization can lead to some coefficients being exactly zero, as Lasso encourages sparsity in the model by penalizing the absolute size of the coefficients.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Lower variance; B) Higher variance; C) Same variance; D) None of the above
+\\ \textit{Note:} As the number of training examples increases towards infinity, the model's predictions become more consistent and stable, leading to lower variance because it can better capture the underlying data distribution without being overly sensitive to fluctuations in the training data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) random crop and horizontal flip; B) random crop and vertical flip; C) posterization; D) dithering
+\\ \textit{Note:} Random cropping and horizontal flipping are widely used in natural image data augmentation because they effectively enhance model robustness by introducing variability in spatial composition and orientation while maintaining the essential content of the images.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Ridge; B) Lasso; C) both (a) and (b); D) neither (a) nor (b)
+\\ \textit{Note:} Lasso is more appropriate for feature selection because its L$_{1}$ regularization property can shrink some coefficients to zero, effectively eliminating irrelevant features from the model.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Regression analysis quantifies the strength and direction of relationships between variables, but it does not inherently establish causation, as correlation does not imply causation without further investigation or experimental design.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because P(H|E, F) can be calculated using Bayes' theorem, which requires the joint probability P(E, F), the prior probability P(H), and the conditional probability P(E, F|H) to properly derive the posterior probability of H given E and F.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the original ResNet paper introduced Batch Normalization as a technique to stabilize and accelerate training, while it did not utilize Layer Normalization, which is more commonly associated with recurrent neural networks and tasks involving sequential data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Clustering is effective for detecting fraudulent credit card transactions because it identifies patterns of normal behavior among users, allowing for the detection of anomalies that may indicate fraudulent activity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Overfitting occurs when a model becomes too complex relative to the amount of training data available, leading it to capture noise and outliers rather than the underlying distribution of the data, which is more pronounced when the training dataset is small.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_first\_occurrence(A, x): | return result
+\\ \textit{Note:} correct because it outlines the definition of a function, `find\_first\_occurrence`, which is intended to locate the index of the first occurrence of a specified number `x` within a sorted array `A`, a crucial operation in search algorithms relevant to machine learning contexts.
+\item \textbf{Answer:} def min\_of\_two( x, y ): | return x | return y
+\\ \textit{Note:} The provided answer correctly defines a function intended to find the minimum of two numbers, but it contains a logical error as it does not implement the necessary comparison between x and y to determine which value is smaller.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

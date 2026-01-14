@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_07",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"4-way handshake\" because it refers to the four-step process used in Wi-Fi security protocols, such as WPA and WPA2, to securely establish a session key between a wireless user and an access point (AP) for encrypted communication.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1512
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Heartbleed bug allows attackers to exploit a vulnerability in the OpenSSL implementation of the TLS/SSL protocols, enabling them to read more data than intended from the server's memory, thus facilitating a read outside bounds of a buffer.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15631
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A hash function produces a unique fixed-size output for a given input, allowing any alteration of the original message to be detected by comparing the hash values, thereby ensuring the integrity of the message by indicating whether it has been changed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14209
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is widely recognized as the first significant instance of a buffer overflow attack, as it exploited vulnerabilities in networked systems to propagate itself and caused substantial disruptions, thereby highlighting the dangers of such exploits in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible through standard search queries.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15632
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a front-door typically refers to a legitimate access point to a system, while security enhancement is often achieved through back-door management and other protective measures that restrict unauthorized access.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1517
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "CBF, or Cipher Block Feedforward, is not a widely accepted or standardized block cipher operating mode in cryptography, making the statement true.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1518
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over wireless networks, which can provide critical information for forensic investigations into security incidents.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14212
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "While encryption provides confidentiality by making data unreadable to unauthorized users, it does not inherently ensure integrity, which requires additional mechanisms like hashing or digital signatures to verify that data has not been altered.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1522
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A packet filter firewall primarily operates at the network and transport layers, analyzing packet headers rather than inspecting payload data, which is characteristic of application layer firewalls.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def access_key(ditionary,key): | return list(ditionary)[key]",
+      "marks": 10,
+      "explanation": "correct because it converts the dictionary's keys into a list, allowing for indexed access to a specific key based on the provided index, which is essential for retrieving elements in a dictionary by their position.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 679
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def distance_lat_long(slat,slon,elat,elon): | return dist",
+      "marks": 10,
+      "explanation": "correct as it outlines a function that takes the latitude and longitude of two points as inputs, essential for calculating the geographical distance between them, which is a fundamental concept in cybersecurity for location-based data analysis.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 180
+    }
+  ]
+}

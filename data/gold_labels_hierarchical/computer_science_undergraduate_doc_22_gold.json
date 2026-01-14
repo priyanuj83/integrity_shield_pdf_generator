@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_undergraduate_doc_22",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 100 because evaluating the recursive function f(4) involves calculating f(3), f(2), and f(1) based on the defined conditions, leading to the final computation of f(4) = 4 * (f(3) + 4) = 100 after performing the necessary recursive calculations.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14150
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer highlights that local caching can lead to temporary inconsistencies because when multiple machines cache a file, they may not immediately reflect updates made by others, resulting in different views of the same file at the same time.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1085
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "O(1) represents constant time complexity, meaning it does not grow with the size of the input, making it the smallest asymptotic notation compared to other complexities that increase with input size.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Recursive procedures require stack-based storage allocation because each recursive call needs its own separate instance of local variables and return addresses, which the stack can dynamically manage as calls are made and unwound.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1059
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A 3-way set-associative cache allows each main memory word to be stored in any of three different cache locations within the same set, providing greater flexibility and efficiency in data retrieval compared to direct-mapped caches.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1091
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because an upper bound of O(N log N) indicates that the function grows at a rate that is at least N log N, which may not necessarily be larger than the actual growth rate of the function if it is, for example, linear or sub-linear.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1080
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A device driver is not assigned when a device connects to the Internet; instead, it is a software component that allows the operating system to communicate with hardware devices and is typically installed prior to the device being used.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the max() function in Python 3 returns the largest element in the list, which in this case is 4, not the smallest element.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Bitmap graphics are composed of individual pixels, which can only approximate curves and angles, resulting in certain line segments appearing jagged or not entirely straight due to the grid-like arrangement of pixels.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1025
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in Python, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is indeed 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def is_Two_Alter(s): | return False | return False | return True",
+      "marks": 10,
+      "explanation": "correct because it provides a function that checks if the input string consists solely of two distinct characters that alternate, returning True if they do and False otherwise, although the implementation is incomplete and lacks the necessary logic to correctly evaluate the string.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 914
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_22_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def move_num(test_str): | return (res)",
+      "marks": 10,
+      "explanation": "correct as it outlines the beginning of a function that aims to manipulate a string by moving all numerical characters within it, although it lacks the complete implementation details necessary for full functionality.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 619
+    }
+  ]
+}

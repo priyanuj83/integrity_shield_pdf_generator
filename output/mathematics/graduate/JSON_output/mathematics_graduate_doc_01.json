@@ -1,0 +1,293 @@
+{
+  "docid": "mathematics_graduate_doc_01",
+  "document_name": "Mathematics - Graduate Level Assessment 1",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_01.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If f(z) is an analytic function that maps the entire finite complex plane into the real\naxis, then the imaginary axis must be mapped onto",
+      "options": {
+        "A": "a circle",
+        "B": "an infinite interval",
+        "C": "the negative real axis",
+        "D": "the positive real axis",
+        "E": "a ray"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is a circle because if an analytic function maps the entire complex plane into the real axis, it must be constant by Liouville's theorem, and thus the imaginary axis, which corresponds to pure imaginary inputs, can only map to a single point, which can be viewed as a degenerate circle.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The original price of a new bicycle is $138.00. If the bicycle is marked down 15%, what is\nthe new price?",
+      "options": {
+        "A": "$125.00",
+        "B": "$20.70",
+        "C": "$130.00",
+        "D": "$133.00",
+        "E": "$115.00"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is $125.00 because a 15% markdown on the original price of $138.00 results in a subtraction of $20.70, leading to a new price of $117.30.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8793"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Consider the initial value problem $$ y^{\\prime}+\\frac{1}{4} y=3+2 \\cos 2 t, \\quad y(0)=0\n$$ Determine the value of $t$ for which the solution first intersects the line $y=12$.",
+      "options": {
+        "A": "11.234567",
+        "B": "10.065778",
+        "C": "6.789012",
+        "D": "7.654321",
+        "E": "9.876543"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10.065778 because, upon solving the initial value problem using an integrating factor and applying the initial condition, the resulting solution for y(t) reaches the value of 12 at this specific time.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8639"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Write the ratio of 96 runners to 216 swimmers in simplest form.",
+      "options": {
+        "A": "16 over 36",
+        "B": "9 over 4",
+        "C": "8 over 18",
+        "D": "48 over 108",
+        "E": "24 over 54"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 16 over 36 because when simplifying the ratio of 96 runners to 216 swimmers by dividing both numbers by their greatest common divisor, which is 6, the resulting simplest form is 16:36.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8260"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In the group G = {2, 4, 6, 8) under multiplication modulo 10, the identity element is",
+      "options": {
+        "A": "9",
+        "B": "7",
+        "C": "8",
+        "D": "1",
+        "E": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the group G = {2, 4, 6, 8} under multiplication modulo 10, the identity element is 1 because it is the unique element that, when multiplied by any element of the group, yields that element itself in the context of modular arithmetic, and since the question erroneously states 9, it suggests a misinterpretation of the identity element.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8330"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "To ensure at least two people share a birth month, a minimum of 24 individuals must be included in the group.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because with 12 months in a year, the pigeonhole principle dictates that to guarantee at least two people share a birth month, you need at least 13 individuals, thus making the minimum of 24 individuals unnecessary for this condition.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8411"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The cumulative distribution function of the standard Gaussian distribution is not log-concave and is instead linear.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cumulative distribution function of the standard Gaussian distribution is indeed log-concave because it is a non-decreasing, continuous function that is the integral of a concave probability density function, thus contradicting the claim that it is linear.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7962"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The double integral of the function f(x,y)=x*y^3 exp^{x^2+y^2} over I=[0,1]\\times[0,1] evaluates to approximately 0.4295.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the double integral of f(x,y) over the specified domain is computed using numerical integration techniques, which yield an approximate value of 0.4295, demonstrating that the function's contributions in the given range result in this specific evaluation.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7964"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A customer can order a pizza with 3 toppings from 8 available options in 36 different ways.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the correct number of combinations for selecting 3 toppings from 8 options is calculated using the combination formula C(8,3), which equals 56, not 36.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8313"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "If a number is 12, then eighty-five more than its square equals the square of the quantity that is 17 less than the number.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because substituting the number 12 into the equation yields 12^2 + 85 = 144 + 85 = 229, which does not equal (12 - 17)^2 = (-5)^2 = 25.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_01_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "For a certain natural number $n$, $n^2$ gives a remainder of 4 when divided by 5, and\n$n^3$ gives a remainder of 2 when divided by 5. What remainder does $n$ give when divided\nby 5?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To solve the equation \\( |x-4| - 10 = 2 \\), we first isolate the absolute value, yielding\n\\( |x-4| = 12 \\). This leads to two cases: \\( x-4 = 12 \\) and \\( x-4 = -12 \\). Solving\nthese, we find \\( x = 16 \\) and \\( x = -8 \\) as the solutions. The product of all possible\nvalues of \\( x \\) is \\( 16 \\times (-8) = -128 \\). Therefore, while the individual\nsolutions provide critical points for analysis, the product of these solutions highlights\nthe interaction between positive and negative values in the context of absolute equations.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately solves the absolute value equation by isolating the absolute value, examining both possible cases, and calculating the product of the solutions, which reflects the mathematical relationship between the positive and negative values obtained.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8591"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_01_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given the equation $|x-4| -10 = 2$, analyze the solutions for $x$ and discuss the\nimplications of these solutions by calculating the product of all possible values of $x$.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To solve the equation \\( |x-4| - 10 = 2 \\), we first isolate the absolute value, yielding\n\\( |x-4| = 12 \\). This leads to two cases: \\( x-4 = 12 \\) and \\( x-4 = -12 \\). Solving\nthese, we find \\( x = 16 \\) and \\( x = -8 \\) as the solutions. The product of all possible\nvalues of \\( x \\) is \\( 16 \\times (-8) = -128 \\). Therefore, while the individual\nsolutions provide critical points for analysis, the product of these solutions highlights\nthe interaction between positive and negative values in the context of absolute equations.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately solves the absolute value equation by isolating the absolute value, examining both possible cases, and calculating the product of the solutions, which reflects the mathematical relationship between the positive and negative values obtained.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8591"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

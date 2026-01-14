@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_13",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true for Statement 1 because every integral domain allows the construction of a field of quotients that includes all fractions formed from its elements, while Statement 2 is false because a polynomial of degree n can have fewer than n zeros or infinitely many zeros if it is not a polynomial over a field (for instance, in the ring of integers).",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 14051
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are correct because a homomorphism preserves the group structure, ensuring that the image of a cyclic group remains cyclic and the image of an Abelian group retains the commutative property.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 29
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The value of n is 4 because there are exactly two abelian groups of order 4, which are the cyclic group of order 4 (Z/4Z) and the direct product of two cyclic groups of order 2 (Z/2Z \u00d7 Z/2Z), according to the Fundamental Theorem of Finite Abelian Groups.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1150
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function f(x, y) = x^3 + y^3 + 3xy exhibits a local maximum at point P and a saddle point at point Q due to the critical points found through setting the gradient to zero, which reveals distinct characteristics of the Hessian matrix's eigenvalues at these points.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1180
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The maximum possible order of an element in the symmetric group S_n is equal to the least common multiple of the sizes of the cycles in its disjoint cycle decomposition, and for n = 6, the maximum occurs with a 6-cycle, which has an order of 6.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 93
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The polynomial 4x - 2 is irreducible over the field of rational numbers Q because it is a linear polynomial with no rational roots, making it unable to be factored further into polynomials of lower degree with rational coefficients.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 56
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the degree of the product of two polynomials f(x) and g(x) is equal to the sum of their degrees, not the maximum of their degrees, specifically when both polynomials are non-zero.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 48
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The area of an equilateral triangle can be calculated using the formula A = r * s, where r is the radius of the inscribed circle and s is the semi-perimeter, and for a triangle with an inscribed circle of radius 2, the area is actually 12, not 16.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1149
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "There are only two homomorphisms from Z to Z_2, corresponding to the images of 0 and 1 in Z_2, since any homomorphism must map 1 in Z to an element in Z_2, and the only elements in Z_2 are 0 and 1, leading to a finite number of distinct homomorphisms.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 64
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the integers 3, 5, 7, and 11 are the only prime numbers, and for each prime number n, there exists exactly one group of order n, which is the cyclic group of order n, making them unique up to isomorphism.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1128
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "The statement \"Every solution is a scalar multiple of (-5, 1, 1, 0)\" is true if the given\nsystem of linear equations has a solution space that is one-dimensional and spanned by the\nvector (-5, 1, 1, 0). This occurs when the system is consistent and has infinitely many\nsolutions, specifically if the equations are dependent. In such cases, all solutions can\nbe expressed as scalar multiples of a single vector, indicating that the solution set\nforms a line through the origin in the direction of (-5, 1, 1, 0). Thus, if the analysis\nof the system confirms that it is indeed structured in this way, the statement holds true.",
+      "marks": 10,
+      "explanation": "correct because if the system of linear equations is consistent and dependent, it results in a one-dimensional solution space spanned by the vector (-5, 1, 1, 0), meaning all solutions can be expressed as scalar multiples of that vector.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1167
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "When two n x n invertible matrices A and B are similar, it implies that there exists an\ninvertible matrix P such that B = P^(-1)AP. This similarity has several implications: 1.\nThe matrix A - 2 I is similar to B - 2 I, which means they share the same eigenvalues, and\nthus their spectral properties are preserved. 2. The trace of A, defined as the sum of its\neigenvalues, is equal to the trace of B, reflecting that similar matrices have the same\ntrace regardless of their specific entries. 3. The inverses A^(-1) and B^(-1) are also\nsimilar, as B^(-1) = P^(-1)A^(-1)P, demonstrating that the relationship extends to their\ninverses as well. Thus, the similarity of A and B fundamentally influences not only their\ndirect properties but also those of derived matrices like A - 2 I, their traces, and their\ninverses.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the similarity of two invertible matrices A and B ensures that their transformations, spectral properties, traces, and inverses are related in a consistent manner, demonstrating that similar matrices maintain key characteristics such as eigenvalues and trace.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1130
+    }
+  ]
+}

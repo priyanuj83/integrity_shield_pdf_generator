@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_11",
+  "document_name": "Computer Science - Graduate Level Assessment 11",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_11.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A starvation-free job-scheduling policy guarantees that no job waits indefinitely for\nservice. Which of the following job-scheduling policies is starvation-free?",
+      "options": {
+        "A": "Round-robin",
+        "B": "Priority queuing",
+        "C": "Shortest job first",
+        "D": "Youngest job first"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The round-robin scheduling policy is starvation-free because it allocates a fixed time slice to each job in a cyclic order, ensuring that every job gets regular access to the CPU without allowing any job to wait indefinitely.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1079"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following decimal numbers has an exact representation in binary notation?",
+      "options": {
+        "A": "0.1",
+        "B": "0.2",
+        "C": "0.3",
+        "D": "0.5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The decimal number 0.5 has an exact representation in binary notation as it can be expressed as 1/2, which is equivalent to 0.1 in binary format.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1042"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT a property of bitmap graphics?",
+      "options": {
+        "A": "Fast hardware exists to move blocks of pixels efficiently.",
+        "B": "Realistic lighting and shading can be done.",
+        "C": "All line segments can be displayed as straight.",
+        "D": "Polygons can be filled with solid colors and textures."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is that all line segments can be displayed as straight because bitmap graphics are composed of pixels, which can only approximate curves and diagonal lines, leading to a blocky representation rather than smooth straight lines.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1025"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is usually NOT represented in a subroutine's activation record\nframe for a stack-based programming language?",
+      "options": {
+        "A": "Values of local variables",
+        "B": "A heap area",
+        "C": "The return address",
+        "D": "Stack pointer for the calling activation record"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A heap area is typically managed separately from the stack where activation records are stored, as it is used for dynamic memory allocation rather than for tracking function call information.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1030"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following are most vulnerable to injection attacks?",
+      "options": {
+        "A": "Session IDs",
+        "B": "Registry keys",
+        "C": "Network communications",
+        "D": "SQL queries based on user input"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "SQL queries based on user input are most vulnerable to injection attacks because they can be manipulated by attackers to execute arbitrary SQL code, compromising the security of the database.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1514"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Mutation-based fuzzing works by making small mutations to the target program to induce faults.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutation-based fuzzing primarily involves generating test cases by altering existing inputs rather than making mutations to the target program itself.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The AH Protocol provides source authentication and data integrity, but it does not ensure privacy for the transmitted data.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol (Authentication Header) is designed to provide authentication and integrity for the data packets being transmitted, but it does not encrypt the data, thus failing to ensure privacy.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Message integrity ensures that data arrives at the receiver exactly as it was sent, without alterations during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message integrity is achieved through various techniques, such as checksums and hash functions, which verify that the data has not been altered during transmission, thus ensuring that it arrives at the receiver exactly as it was sent.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1542"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "When the STP solver times out on a constraint query, EXE assumes the query is not satisfiable and stops executing the path.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When the STP solver times out on a constraint query, it defaults to concluding that the constraints cannot be satisfied, leading EXE to terminate the execution path based on this assumption.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Using busy-waiting for an asynchronous event is unreasonable in a time-sharing system due to potential CPU resource wastage.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Busy-waiting consumes CPU cycles while waiting for an event to occur, which is inefficient in a time-sharing system where CPU resources should be allocated to active processes to maximize overall system responsiveness and utilization.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1012"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_11_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the slope of a line.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def slope(x1,y1,x2,y2): | return (float)(y2-y1)/(x2-x1)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly calculates the slope of a line using the formula (y2 - y1) / (x2 - x1), ensuring that the division is performed as a floating-point operation to handle cases where the result is not an integer.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "835"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_11_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to convert snake case string to camel case string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def snake_to_camel(word): | return ''.join(x.capitalize() or '_' for x in word.split('_'))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly converts a snake case string to camel case by splitting the input string at underscores, capitalizing the first letter of each resulting segment, and then joining them back together while ignoring empty segments.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "102"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

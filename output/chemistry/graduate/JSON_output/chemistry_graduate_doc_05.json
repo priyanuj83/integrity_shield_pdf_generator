@@ -1,0 +1,293 @@
+{
+  "docid": "chemistry_graduate_doc_05",
+  "document_name": "Chemistry - Graduate Level Assessment 5",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_05.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How many gallons of a liquid that is 74 percent alcohol must be combined with 5 gallons of\none that is 90 percent alcohol in order to obtain a mixture that is 84 percent alcohol?",
+      "options": {
+        "A": "3 gallons",
+        "B": "5 gallons",
+        "C": "8 gallons",
+        "D": "2 gallons",
+        "E": "1 gallon"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 3 gallons because, by setting up an equation based on the concentrations and total volumes of alcohol in the mixtures, it can be demonstrated that combining 3 gallons of the 74 percent alcohol liquid with 5 gallons of the 90 percent alcohol liquid yields a final mixture that is 84 percent alcohol.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4579"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Determine themolarityof a 40.0% solution ofHClwhich has a density of 1.20 g/ml.",
+      "options": {
+        "A": "14.15 M",
+        "B": "16.20 M",
+        "C": "15.00 M",
+        "D": "12.75 M",
+        "E": "9.95 M"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 14.15 M is derived from calculating the molarity by first determining the mass of HCl in a given volume of solution using its percentage concentration and density, then converting that mass to moles by dividing by the molar mass of HCl.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4317"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the ionization constant, Ka, for a weak monoprotic acid if a 0.060 molar solution\nhas a pH of 2.0?",
+      "options": {
+        "A": "3.0 \\times 10^-3",
+        "B": "2.0 \\times 10^-3",
+        "C": "1.7 \\times 10^-1",
+        "D": "1.5 \\times 10^-2",
+        "E": "2.0 \\times 10^-1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ionization constant, Ka, for the weak monoprotic acid is calculated using the formula Ka = [H^+][A^-]/[HA], where [H^+] can be derived from the pH (which is 10^-2 for a pH of 2.0), leading to a Ka value of 2.0 \u00d7 10^-3 when considering the acid concentration and degree of ionization in the solution.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4335"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A gas at $250 \\mathrm{~K}$ and $15 \\mathrm{~atm}$ has a molar volume 12 per cent smaller\nthan that calculated from the perfect gas law. Calculate the molar volume of the gas.",
+      "options": {
+        "A": "1.2$\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$",
+        "B": "1.35$\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$",
+        "C": "2.0$\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$",
+        "D": "0.8$\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$",
+        "E": "1.8$\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1.2 dm\u00b3 mol\u207b\u00b9 because the molar volume calculated from the ideal gas law at 250 K and 15 atm is approximately 1.36 dm\u00b3 mol\u207b\u00b9, and since the actual molar volume is 12% smaller, it results in a value of about 1.2 dm\u00b3 mol\u207b\u00b9.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4448"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "2.3 g of ethanol (C_2 H_5 OH, molecular weight = 46 g/mole) is added to 500 g of water.\nDetermine the molality of the resulting solution.",
+      "options": {
+        "A": "0.12 molal",
+        "B": "0.05 molal",
+        "C": "0.4 molal",
+        "D": "0.2 molal",
+        "E": "0.1 molal"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0.1 molal because molality is calculated as the number of moles of solute (ethanol) divided by the mass of the solvent (water) in kilograms; with 2.3 g of ethanol corresponding to 0.05 moles and 500 g of water being 0.5 kg, the molality is 0.05 moles / 0.5 kg = 0.1 molal.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3758"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The root mean square speed of oxygen (O_2) at the same temperature as hydrogen (H_2) is 400 m/sec.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The root mean square speed of a gas is inversely proportional to the square root of its molar mass, and since the molar mass of hydrogen is significantly lower than that of oxygen, the root mean square speed of oxygen can indeed be calculated to be around 400 m/sec at the same temperature as hydrogen.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4020"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The reaction of sulfuric acid with metallic calcium produces 33.6 liters of hydrogen gas at standard temperature and pressure (STP).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the reaction of sulfuric acid with metallic calcium produces hydrogen gas in a stoichiometric ratio that does not yield 33.6 liters at STP, as the amount of gas produced depends on the specific quantities of reactants used, and 33.6 liters corresponds to the reaction of 1 mole of hydrogen gas, which cannot be achieved with the given reactants under these conditions.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4627"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The pKa of the weak monoprotic acid can be determined directly as equal to its pH of 4.26.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The pKa of a weak monoprotic acid is not equal to its pH unless the acid is at its half-equivalence point in a titration, as the pH of 4.26 does not indicate the specific concentration of the acid and its dissociation equilibrium.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4162"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "An alcohol contains no oxygen atoms in its functional group, making it a hydrocarbon.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because an alcohol contains a hydroxyl (-OH) functional group, which includes an oxygen atom, thus disqualifying it from being classified purely as a hydrocarbon.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_05_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "In terms of reducing ability, the order is H_2 > Ni > Co > Al > Na > Ag.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it reflects the decreasing order of reducing ability based on the standard reduction potentials of the elements, where hydrogen has the highest reducing ability followed by nickel, cobalt, aluminum, sodium, and silver.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4638"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_05_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Given a household cleaning solution with a hydronium ion concentration of 10^-11 M,\nexplain how to calculate its pH and discuss whether the solution is acidic, basic, or\nneutral.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the pH of a solution with a hydronium ion concentration of 10^-11 M, we use\nthe formula pH = -log[H 3 O+]. Substituting the given concentration, we find pH =\n-log(10^-11) = 11. Since the pH scale ranges from 0 to 14, a pH of 11 indicates that the\nsolution is basic. Additionally, a neutral solution typically has a pH of 7 at 25^\\circC,\nso a pH of 11 signifies that the solution is not neutral but rather basic. This analysis\nconfirms that the solution is basic due to its higher pH value compared to the neutral\nbenchmark.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly calculates the pH using the formula pH = -log[H3O+] for a hydronium ion concentration of 10^-11 M, resulting in a pH of 11, which indicates the solution is basic since it is above the neutral pH of 7.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3666"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_05_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the cell potential for the reaction Ni + Sn^2+ \u2192 Ni^2+ + Sn, given the\nconcentrations of Ni^2+ and Sn^2+. Discuss the implications for the spontaneity of the\nreaction.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the cell potential for the reaction Ni + Sn^2+ \u2192 Ni^2+ + Sn, we can use the\nNernst equation, which incorporates the standard electrode potentials and the\nconcentrations of the reactants and products. The standard reduction potential for Sn^2+ +\n2 e- \u2192 Sn is +0.14 volts, and for Ni^2+ + 2 e- \u2192 Ni, it is -0.23 volts. Therefore, the\nstandard cell potential (E^\\circ) can be calculated as E^\\circ = E^\\circ(cathode) -\nE^\\circ(anode) = 0.14 - (-0.23) = 0.37 volts. However, given the specific concentrations\nof Ni^2+ and Sn^2+, the Nernst equation yields a final cell potential of 0.15 volts. This\npositive value indicates that the reaction is spontaneous under the specified conditions,\nas a positive cell potential signifies a favorable free energy change.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the Nernst equation to calculate the standard cell potential by determining the standard reduction potentials for both half-reactions and correctly identifying the cathode and anode, which ultimately allows for assessing the spontaneity of the electrochemical reaction based on its positive cell potential.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4145"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

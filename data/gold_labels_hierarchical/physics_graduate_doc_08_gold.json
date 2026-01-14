@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_graduate_doc_08",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The speed of sound in a medium is independent of frequency, so a sound wave with frequency 4f will still travel at speed v in air, not v^2.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9305
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is obtained by calculating the power consumed by the lamp using the formula P = V\u00b2/R, which gives 96 watts, and then multiplying this power by the time in seconds (180 seconds) to find the energy used, resulting in 1.72 \u00d7 10^4 Joules.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9089
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The current in the power source remains the same when lamps are connected in parallel because each lamp provides an independent pathway for the current, allowing the total current to be the sum of the currents through each branch without affecting the overall current supplied by the source.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9213
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "When two charged spheres come into contact, charge redistributes between them, and since the total charge is conserved, the final charges must sum to the initial total charge of -1 e, allowing for a combination of +3 e and -4 e.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9419
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"flying faster than sound\" because a sonic boom occurs when an aircraft exceeds the speed of sound, creating shock waves that manifest as a loud noise.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9638
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the color of light most intense in the solar radiation curve is actually in the visible spectrum around 500 nm, which corresponds to blue-green light, rather than green, and peak photosynthetic activity occurs mainly in the blue and red wavelengths, not green.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10255
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the power output required to lift a 6 kg mass at a constant speed of 0.3 m/s exceeds the power input available from the motor's specified voltage and current, even considering the motor's efficiency.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9536
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The act of eating affects the big fish's speed because the ingestion of food increases its mass and energy expenditure, which can alter its velocity and swimming dynamics according to the principles of momentum and energy conservation in physics.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9313
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The resultant force is calculated using Newton's second law, F = ma, which gives a force of 288 lb (48 lb \u00d7 6 ft/sec\u00b2), not 24 lb.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9404
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The minimum escape speed from Earth at an altitude of 200 km is approximately 6.12 km/s, not 6.42 km/s, as escape velocity decreases with altitude due to the reduced gravitational pull.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9335
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_long_1",
+      "type": "long",
+      "correct_answer": "The emission spectra of the doubly ionized lithium atom (Li++) and hydrogen exhibit\nsimilarities primarily due to their hydrogen-like nature, characterized by a single\nelectron orbiting a positively charged nucleus. Both systems follow the Rydberg formula,\nwhich predicts the wavelengths of emitted light based on the energy transitions of\nelectrons. However, the spectral lines of Li++ are shifted to shorter wavelengths compared\nto hydrogen, a phenomenon attributed to the increased nuclear charge of lithium, which is\n3 compared to hydrogen's 1. This greater nuclear charge leads to a stronger Coulombic\nattraction, resulting in energy levels that are deeper and closer together, effectively\nincreasing the energy of emitted photons by a factor of 16 when compared to hydrogen.\nConsequently, this shift in wavelength has significant implications for understanding\natomic structure and electron transitions in multi-electron systems.",
+      "marks": 10,
+      "explanation": "correct because both Li++ and hydrogen have a single electron and follow the Rydberg formula, but the presence of a greater nuclear charge in Li++ causes its emission lines to shift to shorter wavelengths.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 9056
+    },
+    {
+      "question_id": "physics_graduate_doc_08_physics_long_2",
+      "type": "long",
+      "correct_answer": "According to Ohm's Law, the relationship between voltage (V), current (I), and resistance\n(R) in a resistor is expressed by the equation V = I \\times R. To determine the current\nwhen the voltage is increased from 120 volts to 180 volts, we first need to know the\nresistance. Assuming the resistance remains constant, we can use the initial condition to\ncalculate the current at 120 volts. If we denote the current at 120 volts as I 1 and the\nresistance as R, then I 1 = 120/R. Similarly, at 180 volts, the current I 2 = 180/R. Since\nthe ratio of the voltages is 180/120 = 1.5, the current will also increase by the same\nfactor, giving I 2 = 1.5 \\times I 1. If we assume I 1 was 8.0 amps at 120 volts, then I 2\nwould be 12.0 amps at 180 volts, demonstrating the direct relationship between voltage and\ncurrent in a resistor.",
+      "marks": 10,
+      "explanation": "The answer correctly applies Ohm's Law, V = I \u00d7 R, to establish a direct relationship between voltage and current, demonstrating that with a constant resistance, an increase in voltage from 120 volts to 180 volts results in a proportional increase in current.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 10016
+    }
+  ]
+}

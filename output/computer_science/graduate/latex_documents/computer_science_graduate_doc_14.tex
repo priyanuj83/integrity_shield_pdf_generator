@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - Graduate Level Assessment 14 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Which of the following is NOT a reasonable justification for choosing to busy-wait on an asynchronous event?
+\begin{enumerate}[label=(\alph*)]
+    \item The wait is expected to be short.
+    \item A busy-wait loop is easier to code than an interrupt handler.
+    \item There is no other work for the processor to do.
+    \item The program executes on a time-sharing system.
+\end{enumerate}
+\item Which of the following sets of bit strings CANNOT be described with a regular expression?
+\begin{enumerate}[label=(\alph*)]
+    \item All bit strings whose number of zeros is a multiple of five
+    \item All bit strings starting with a zero and ending with a one
+    \item All bit strings with an even number of zeros
+    \item All bit strings with more ones than zeros
+\end{enumerate}
+\item Which of the following are most vulnerable to injection attacks?
+\begin{enumerate}[label=(\alph*)]
+    \item Session IDs
+    \item Registry keys
+    \item Network communications
+    \item SQL queries based on user input
+\end{enumerate}
+\item You are given a message (m) and its OTP encryption (c). Can you compute the OTP key from m and c ?
+\begin{enumerate}[label=(\alph*)]
+    \item No, I cannot compute the key.
+    \item Yes, the key is k = m xor c.
+    \item I can only compute half the bits of the key.
+    \item Yes, the key is k = m xor m.
+\end{enumerate}
+\item A \_\_\_\_\_\_\_\_\_\_\_ is a method in which a computer security mechanism is bypassed untraceable for accessing the computer or its information.
+\begin{enumerate}[label=(\alph*)]
+    \item front-door
+    \item backdoor
+    \item clickjacking
+    \item key-logging
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Mutation-based fuzzing generates each different input by modifying a prior input to discover vulnerabilities.
+\item True or False: The decimal number 0.2 has an exact representation in binary notation as 0.001100110011.
+\item True or False: WPS is a feature that simplifies the process of connecting new devices to wireless access points.
+\item True or False: Encryption and decryption ensure both confidentiality and integrity of data during transmission.
+\item True or False: A packet filter firewall operates primarily at the network or transport layer of the OSI model.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a python function to check whether the given number is a perfect square or not.
+\item Write a python function to find the minimum operations required to make two numbers equal.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

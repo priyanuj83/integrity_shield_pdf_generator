@@ -1,0 +1,289 @@
+{
+  "docid": "chemistry_undergraduate_doc_03",
+  "document_name": "Chemistry - Undergraduate Level Assessment 3",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_03.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following lists the hydrides of group-14 elements in order of thermal\nstability, from lowest to highest?",
+      "options": {
+        "A": "PbH 4 < SnH 4 < GeH 4 < SiH 4 < CH 4",
+        "B": "PbH 4 < SnH 4 < CH 4 < GeH 4 < SiH 4",
+        "C": "CH 4 < SiH 4 < GeH 4 < SnH 4 < PbH 4",
+        "D": "CH 4 < PbH 4 < GeH 4 < SnH 4 < SiH 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The thermal stability of hydrides of group-14 elements increases with decreasing atomic size and increasing bond strength, making CH4 the most stable and PbH4 the least stable due to the weakening of the M-H bond as the size of the central atom increases.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15607"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the limiting high-temperature molar heat capacity at constant volume (C_V) of a\ngas-phase diatomic molecule?",
+      "options": {
+        "A": "1.5 R",
+        "B": "2 R",
+        "C": "2.5 R",
+        "D": "3.5 R"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The limiting high-temperature molar heat capacity at constant volume (C_V) of a gas-phase diatomic molecule is 3.5 R because, at high temperatures, the molecule can access three translational and two rotational degrees of freedom, contributing 5/2 R from translational motion and 2/2 R from rotational motion, resulting in a total of 3.5 R.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "965"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The T 2 of an NMR line is 15 ms. Ignoring other sources of linebroadening, calculate its\nlinewidth.",
+      "options": {
+        "A": "0.0471 Hz",
+        "B": "21.2 Hz",
+        "C": "42.4 Hz",
+        "D": "66.7 Hz"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The linewidth can be calculated using the formula \u0394\u03bd = 1/(2\u03c0T2), and substituting T2 = 15 ms yields a linewidth of approximately 21.2 Hz.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The normal modes of a carbon dioxide molecule that are infrared-active include which of\nthe following? I. Bending II. Symmetric stretching III. Asymmetric stretching",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "III only",
+        "D": "I and III only"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The normal modes of a carbon dioxide molecule that are infrared-active are those that result in a change in the dipole moment, which occurs in the bending mode and the asymmetric stretching mode, but not in the symmetric stretching mode, as it does not produce a net dipole change.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "912"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Considering 0.1 M aqueous solutions of each of the following, which solution has the\nlowest pH?",
+      "options": {
+        "A": "Na 2 CO 3",
+        "B": "Na 3 PO 4",
+        "C": "Na 2 S",
+        "D": "NaCl"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is NaCl because it is a neutral salt formed from a strong acid (HCl) and a strong base (NaOH), resulting in a solution that does not significantly affect the pH, while other options may have acidic or basic properties that could lower or raise the pH.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "947"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "Protons in a molecule with a rotational correlation time of 1 ns have the fastest spin-lattice relaxation at a magnetic field of 3.74 T.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Protons in a molecule with a rotational correlation time of 1 ns experience optimal conditions for spin-lattice relaxation at a magnetic field of 3.74 T due to the balance between the molecular motion and the magnetic environment, which enhances energy transfer processes.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "954"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The nuclide 19 F has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the NMR frequency of 19F in a 20.0 T magnetic field is approximately 79.1 MHz, not 115.5 MHz.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "AgCl has a lower melting point than HCl because it is an ionic compound with strong ionic bonds.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because AgCl, being an ionic compound, actually has a higher melting point than HCl, which is a molecular compound with weaker van der Waals forces.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "Most organic compounds do not contain silicon atoms, making tetramethylsilane an ideal reference for 1 H NMR spectroscopy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Most organic compounds are primarily composed of carbon, hydrogen, oxygen, and nitrogen, which means that the presence of silicon is rare, making tetramethylsilane, which contains no hydrogen atoms on adjacent carbons and serves as a non-polar solvent, an ideal reference for 1H NMR spectroscopy.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "The molecular geometry of thionyl chloride, SOCl 2, is tetrahedral because it has four bonding pairs of electrons.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because thionyl chloride, SOCl2, has three bonding pairs of electrons and one lone pair, resulting in a trigonal pyramidal molecular geometry rather than a tetrahedral shape.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "979"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the strength of a 13 C 90^\\circ pulse of duration 1 \u03bcs,\nand calculate its value, providing a detailed explanation of your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The strength of a 13 C 90^\\circ pulse with a duration of 1 \u03bcs is influenced by several\nfactors, including the gyromagnetic ratio of 13 C, the pulse duration, and the desired\nflip angle. For 13 C, the gyromagnetic ratio is approximately 67.28 MHz/T. To achieve a\n90^\\circ flip angle, the pulse strength (B 1) can be calculated using the formula B 1 =\n(\u03c0/2) / (\u03b3 \\times \u03c4), where \u03c4 is the duration of the pulse. Substituting the values, we\nfind B 1 \\approx 5.18 mT. This value ensures that the magnetic field strength is\nsufficient to induce the desired nuclear spin transition in 13 C nuclei during the\nspecified pulse duration.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the strength of a 13C 90\u00b0 pulse is determined by the gyromagnetic ratio and pulse duration, using the appropriate formula to calculate the required magnetic field strength to achieve the desired flip angle.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "943"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_03_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of dissociation energy in the context of the hydrogen-bromine bond,\nspecifically analyzing the enthalpy change associated with the reaction HBr(g) \u2192 H(g) +\nBr(g).",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Dissociation energy is the energy required to break a bond in a molecule, resulting in the\nformation of individual atoms. In the case of the reaction HBr(g) \u2192 H(g) + Br(g), the\ndissociation energy corresponds to the enthalpy change associated with breaking the H-Br\nbond in hydrogen bromide. This process is endothermic, meaning it requires an input of\nenergy to overcome the attractive forces between the hydrogen and bromine atoms. The\ndissociation energy for the H-Br bond is approximately 366 kJ/mol, which reflects the\nstability of the HBr molecule and the energy needed to separate it into its constituent\natoms. Understanding this concept is crucial for evaluating reaction mechanisms and the\nenergy profiles of chemical processes.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies dissociation energy as the energy needed to break the H-Br bond in hydrogen bromide, characterizing the process as endothermic and providing the specific value of approximately 366 kJ for the dissociation energy, which exemplifies the concept in the context of the reaction.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "962"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

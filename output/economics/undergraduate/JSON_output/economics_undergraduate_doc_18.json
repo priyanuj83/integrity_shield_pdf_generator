@@ -1,0 +1,296 @@
+{
+  "docid": "economics_undergraduate_doc_18",
+  "document_name": "Economics - Undergraduate Level Assessment 18",
+  "domain": "economics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "econometrics",
+    "economics"
+  ],
+  "combination_used": [
+    "mmlu_economics_mcq",
+    "mmlu_economics_tf",
+    "mmlu_pro_economics_mcq",
+    "economics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\economics\\undergraduate\\latex_documents\\economics_undergraduate_doc_18.tex",
+    "pdf_file": "output\\economics\\undergraduate\\pdf_documents\\economics_undergraduate_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/economics_undergraduate_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/economics_undergraduate_doc_18_gold.json",
+    "answer_key_latex_file": "output\\economics\\undergraduate\\answer_keys\\latex\\economics_undergraduate_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\economics\\undergraduate\\answer_keys\\pdf\\economics_undergraduate_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "When a good is taxed, the tax burden falls mainly on the consumer if",
+      "options": {
+        "A": "both demand and supply are perfectly elastic",
+        "B": "the demand is elastic and the supply is inelastic",
+        "C": "the demand is elastic and the supply is elastic",
+        "D": "the demand is perfectly elastic and the supply is inelastic",
+        "E": "the demand is unitary elastic and the supply is elastic"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The tax burden falls mainly on the consumer when both demand and supply are perfectly elastic because consumers are highly responsive to price changes, meaning that any increase in price due to the tax will lead to a significant decrease in the quantity demanded, allowing producers to pass the entire tax burden onto consumers without losing sales.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7300"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What are the effects an increase in the money supply on output on prices in the short run\nand in the long run?",
+      "options": {
+        "A": "Short run: increase in output, Long run: increase in general price level",
+        "B": "Short run: decrease in output, Long run: no change in general price level",
+        "C": "Short run: decrease in output, Long run: increase in general price level",
+        "D": "Short run: increase in general price level, Long run: decrease in output",
+        "E": "Short run: no change in output, Long run: increase in general price level"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increase in the money supply leads to lower interest rates, stimulating investment and consumption in the short run, which boosts output, while in the long run, the economy adjusts, resulting in higher prices as demand outpaces supply.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7328"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Does the principle of comparative advantage apply only to international trade?",
+      "options": {
+        "A": "No, it is a principle that applies only to consumer choice in the market.",
+        "B": "No, it is only applicable to the exchange of services, not goods.",
+        "C": "Yes, it specifically applies to trade agreements between neighboring countries.",
+        "D": "No, it applies wherever productive units have different relative efficiencies.",
+        "E": "Yes, it only applies to international trade."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The principle of comparative advantage applies not only to international trade but also to any situation where different producers or entities can benefit from specializing in the production of goods or services for which they have the lowest opportunity cost, thereby increasing overall efficiency and output.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7411"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "How many parameters will be required to be estimated in total for all equations of a\nstandard form, unrestricted, tri-variate VAR(4), ignoring the intercepts?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "16",
+        "D": "12",
+        "E": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a tri-variate VAR(4) model, each of the three variables has four lags, resulting in 12 total lagged terms, and since each variable can be influenced by all three variables (including itself), the total number of parameters to estimate is 3 variables x 4 lags = 12 coefficients, divided by the number of unique pairs (3 variables choose 2) gives 6.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7658"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which component of a nation's balance of payments recognizes the purchase and sale of real\nand financial assets between nations?",
+      "options": {
+        "A": "The trade deficit account",
+        "B": "The goods and services account",
+        "C": "The official reserves account",
+        "D": "The surplus account",
+        "E": "The fiscal deficit account"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The trade deficit account reflects the net difference between the value of a nation's exports and imports of goods and services, along with transactions that involve the purchase and sale of real and financial assets, thereby recognizing cross-border economic exchanges.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7289"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The acceleration principle ensures a constant rate of economic expansion by stabilizing investment levels during economic cycles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The acceleration principle suggests that investment levels are influenced by changes in economic output rather than stabilizing them, leading to fluctuations in investment during economic cycles instead of ensuring a constant rate of expansion.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7018"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Consider the following equation and determine the class of model that it best represents $y_{it} = \\alpha + \\beta_{it} + \\mu_i + \\nu_{it}$' is 'A random effects model'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the equation represents a fixed effects model due to the inclusion of the individual-specific effect $\\mu_i$, which captures unobserved heterogeneity that is constant over time.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7375"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Disposable income is the amount of personal income that remains after taxes have been paid.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Disposable income is defined as the portion of an individual\u2019s income that is available for spending and saving after accounting for income taxes, making the statement true.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7002"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Production possibilities frontiers are concave to the origin because of the existence of fixed resources.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because production possibilities frontiers are typically concave to the origin due to increasing opportunity costs as resources are reallocated, not because of fixed resources.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7302"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "economics_undergraduate_doc_18_economics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Monetarists stabilize economic fluctuations by stabilizing the growth rate of the money supply.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Monetarists believe that by controlling the growth rate of the money supply, they can influence inflation and stabilize the economy, thus mitigating economic fluctuations.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7014"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "economics_undergraduate_doc_18_economics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of self-interest in promoting efficiency within large corporations today,\nconsidering Adam Smith's original theories. Do you believe self-interest still guarantees\nefficiency in modern economies?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Self-interest plays a crucial role in promoting efficiency within large corporations\ntoday, aligning closely with Adam Smith's original theories that posit individuals\npursuing their self-interest inadvertently contribute to economic efficiency. In a\ncompetitive market, corporations driven by self-interest are incentivized to innovate,\nreduce costs, and improve service quality to attract consumers and maximize profits. This\ndynamic fosters an environment where resources are allocated effectively, as businesses\nstrive to meet consumer demands while minimizing waste. However, while self-interest can\nlead to efficiency, it does not always guarantee it in modern economies, as factors such\nas market monopolies, externalities, and information asymmetries can hinder optimal\noutcomes. Therefore, while self-interest is a powerful motivator for efficiency, its\neffectiveness can be contingent upon the broader market structure and regulatory\nenvironment.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately reflects Adam Smith's theory that individuals' self-interest leads to innovation and efficient resource allocation in competitive markets, which is essential for the success of large corporations today.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7397"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "economics_undergraduate_doc_18_economics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between national income and employment, analyzing why an increase\nin national income does not necessarily lead to an increase in employment levels.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The relationship between national income and employment is complex, as an increase in\nnational income does not necessarily lead to a corresponding rise in employment levels.\nThis phenomenon can be attributed to several factors, including technological advancements\nthat allow for greater productivity without the need for additional labor, and the nature\nof economic growth which may favor capital-intensive industries over labor-intensive ones.\nAdditionally, if the growth in national income results from increased efficiency or\nautomation, it could lead to job displacement rather than job creation. Therefore, while\nnational income is an important indicator of economic health, it does not guarantee\nimprovements in employment, highlighting the need for policies that specifically target\njob creation alongside overall economic growth.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights how technological advancements and the capital-intensive nature of certain economic growth can lead to increased national income without a corresponding rise in employment levels.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7677"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

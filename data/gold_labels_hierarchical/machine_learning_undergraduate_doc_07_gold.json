@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_07",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Overfitting is more likely with a small training dataset because the model can memorize the limited examples rather than generalizing, while a small hypothesis space restricts the model's complexity, reducing the risk of overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the chain rule of probability, which states that the joint probability P(A, B, C) can be expressed as the product of the conditional probability P(A, B | C) and the marginal probability P(C).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Pruning a Decision Tree is essential to avoid overfitting the training set by removing branches that capture noise or irrelevant patterns, thereby enhancing the model's generalization to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) can produce estimates with high variance, particularly in small sample sizes or complex models, leading to less reliable predictions and instability in the estimated parameters.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual model errors, leading to a more stable and robust overall prediction.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6863
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Yann LeCun's machine learning cake emphasizes the importance of unsupervised learning and other techniques, highlighting that supervised learning is just one component rather than the most innovative.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14783
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The dimensionality of the null space of matrix A being 2 indicates that there are two linearly independent solutions to the homogeneous equation Ax = 0, which implies that the rank of A is reduced by two dimensions compared to its maximum possible rank.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Increasing the number of training examples generally leads to lower variance in the model's predictions, as more data provides a better representation of the underlying distribution and helps the model generalize more effectively.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "This statement is true because supervised learning involves using labeled data, where past rainfall amounts serve as the output labels corresponding to various input features or cues, allowing the model to learn the relationship between them for future predictions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because both ReLU and sigmoid activation functions are monotonic; ReLU is non-decreasing, and the sigmoid function is also monotonic as it consistently increases between 0 and 1.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def find_lists(Input): | return 1 | return len(Input)",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that the function should return the count of lists within the tuple by first checking for the presence of lists and then using the `len()` function to count them accurately.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 143
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def find_max_val(n, x, y): | return (ans if (ans >= 0 and",
+      "marks": 10,
+      "explanation": "The function correctly calculates the largest integer k by ensuring it satisfies the condition k % x = y while also being non-negative, which is achieved by adjusting n to the nearest multiple of x that maintains the specified remainder y.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 663
+    }
+  ]
+}

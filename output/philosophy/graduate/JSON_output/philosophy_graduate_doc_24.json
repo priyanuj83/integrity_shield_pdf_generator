@@ -1,0 +1,293 @@
+{
+  "docid": "philosophy_graduate_doc_24",
+  "document_name": "Philosophy - Graduate Level Assessment 24",
+  "domain": "philosophy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "philosophy"
+  ],
+  "combination_used": [
+    "mmlu_pro_philosophy_mcq",
+    "mmlu_pro_philosophy_tf",
+    "philosophy_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\philosophy\\graduate\\latex_documents\\philosophy_graduate_doc_24.tex",
+    "pdf_file": "output\\philosophy\\graduate\\pdf_documents\\philosophy_graduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/philosophy_graduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/philosophy_graduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\philosophy\\graduate\\answer_keys\\latex\\philosophy_graduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\philosophy\\graduate\\answer_keys\\pdf\\philosophy_graduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Select the best translation into predicate logic. Leo is taller than Cathy. (c: Cathy; l:\nLeo; Txy: x is taller than y)",
+      "options": {
+        "A": "TlcL",
+        "B": "cTL",
+        "C": "lTc",
+        "D": "Tll",
+        "E": "cTl"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer TlcL accurately represents the relationship \"Leo is taller than Cathy\" by using the predicate logic notation where Txy denotes that x is taller than y, with l assigned to Leo and c assigned to Cathy.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10986"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Hare claims that all moral arguments are:",
+      "options": {
+        "A": "useless.",
+        "B": "valid.",
+        "C": "ad hominem.",
+        "D": "sound."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hare's assertion that all moral arguments are ad hominem suggests that they inherently rely on the character or motives of the individual rather than the objective merits of the argument itself, highlighting the subjective nature of moral reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10808"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Descartes believed that interaction between body and mind took place in _____.",
+      "options": {
+        "A": "ectoplasm",
+        "B": "the amygdala",
+        "C": "the hypothalamus",
+        "D": "the nervous system",
+        "E": "the brain stem"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is ectoplasm because Descartes proposed that the interaction between the immaterial mind and the physical body occurred at the pineal gland, which he referred to using the term ectoplasm to describe the substance facilitating this dualistic interaction.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11160"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "According to Moore's \"ideal utilitarianism,\" the right action is the one that brings about\nthe greatest amount of:",
+      "options": {
+        "A": "wealth.",
+        "B": "virtue.",
+        "C": "fairness.",
+        "D": "pleasure.",
+        "E": "peace."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Moore's \"ideal utilitarianism\" posits that the right action is determined by the promotion of intrinsic goods, such as wealth, which he considers a fundamental aspect of well-being and happiness.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "48"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Since we who live in wealthy countries have directly caused harm, Pogge argues that we\nhave very stringent",
+      "options": {
+        "A": "libertarian duties towards the global poor",
+        "B": "positive duties towards the global poor",
+        "C": "duty-free towards the global poor",
+        "D": "liberal duties towards the global poor",
+        "E": "consequentialist duties towards the global poor"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Pogge contends that affluent individuals in wealthy nations bear libertarian duties to address the harms caused by global injustices, emphasizing the moral obligation to rectify the inequalities that their actions perpetuate.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11132"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Hare describes individuals who endorse ideals without concern for others' interests as fanatics.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hare characterizes fanatics as individuals who prioritize their own ideals to the extent that they disregard the welfare and perspectives of others, which aligns with the assertion in the statement.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11283"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "According to Cicero, immorality is repugnant to Nature, while expediency is in accord with Nature.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cicero argues that immorality contradicts the natural order and rationality inherent in human nature, while actions that align with expedience reflect the virtues of justice and the common good as prescribed by nature.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10943"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Mani identified God primarily as the Grand Architect, focusing on creation rather than divine essence.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mani's teachings emphasize the duality of divine essence and the material world, portraying God not merely as the Grand Architect of creation but as an integral, transcendent force that embodies both the spiritual and physical realms.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10832"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Epicurus believed that true wealth could only be attained through the constant labor and accumulation of material possessions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Epicurus believed that true wealth is found in the pursuit of simple pleasures and the cultivation of friendships, rather than in the relentless accumulation of material possessions.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10810"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "philosophy_graduate_doc_24_philosophy_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Tanakh refers to the rabbinical commentaries produced after the Mishnah, which provide interpretations of the Hebrew Bible.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Tanakh is the canonical collection of Jewish texts, which includes the Torah, Prophets, and Writings, while rabbinical commentaries produced after the Mishnah, such as the Talmud, are interpretations and discussions that expand on the texts of the Tanakh rather than being part of it.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11244"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "philosophy_graduate_doc_24_philosophy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of Dershowitz's argument that critical decisions, such as\nauthorizing the shooting down of hijacked planes, should be made by a single individual\nfor accountability.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Dershowitz's argument that critical decisions, such as authorizing the shooting down of\nhijacked planes, should be made by a single individual underscores the importance of\naccountability in moral and legal frameworks. By assigning this weighty responsibility to\none person, the decision-making process is streamlined, allowing for clearer lines of\nresponsibility and ethical accountability. This approach can mitigate the diffusion of\nresponsibility that often occurs in group decision-making, where individual moral\nculpability can become obscured. Moreover, it emphasizes the need for decisive leadership\nin high-stakes situations, where the consequences of inaction or miscalculation can have\ncatastrophic outcomes. Ultimately, the concentration of decision-making authority in a\nsingle individual may enhance the moral clarity and urgency required in such grave\ncircumstances.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly emphasizes that assigning critical decision-making to a single individual enhances accountability and clarity in moral and legal responsibilities, reducing the risk of diluted responsibility that can arise in collective decision-making.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "philosophy_graduate_doc_24_philosophy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss Dershowitz's perspective on how deontological ethics can be applied to justify\nterrorism in extreme cases, analyzing the implications for moral philosophy.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Dershowitz's perspective on deontological ethics suggests that in extreme cases, one might\njustify acts of terrorism if they are seen as fulfilling a moral duty or obligation that\nsupersedes immediate consequences. He argues that certain deontological frameworks\nprioritize the adherence to moral rules over the outcomes of actions, positing that if the\nintention behind the act aligns with a higher moral law-such as the defense of a community\nor the pursuit of justice-then terrorism could be rationalized. This application raises\nsignificant implications for moral philosophy, challenging the traditional view that\ndeontological ethics strictly condemns all forms of violence. It invites a critical\nexamination of how ethical frameworks can be manipulated to support harmful actions under\nthe guise of moral imperatives, thereby highlighting the complexity and potential dangers\nof rigidly adhering to deontological principles in real-world scenarios.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately captures Dershowitz's argument that deontological ethics can permit acts of terrorism in extreme situations when such actions are framed as fulfilling a higher moral duty, thereby emphasizing the primacy of intention and moral obligation in ethical decision-making.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10825"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

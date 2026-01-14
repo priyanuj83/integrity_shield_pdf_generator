@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 6 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) random crop and horizontal flip; B) random crop and vertical flip; C) posterization; D) dithering
+\\ \textit{Note:} Random crop and horizontal flip are commonly used data augmentation techniques for natural images because they effectively increase the diversity of the training dataset, helping to improve model robustness and generalization by simulating variations in viewpoint and scale.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) convolutional networks; B) graph networks; C) fully connected networks; D) RBF networks
+\\ \textit{Note:} Convolutional networks are specifically designed to process and analyze visual data by leveraging their ability to capture spatial hierarchies and local patterns, making them highly effective for classifying high-resolution images.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Increase bias; B) Decrease bias; C) Increase variance; D) Decrease variance
+\\ \textit{Note:} Averaging the output of multiple decision trees reduces variance by smoothing out the fluctuations caused by individual trees, leading to more stable and reliable predictions.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) reinforcement learning; B) self-supervised learning; C) unsupervised learning; D) supervised learning
+\\ \textit{Note:} Reinforcement learning is considered the "cherry on top" in Yann LeCun's framework because it represents the culmination of advancements in machine learning that enable systems to learn optimal behaviors through interactions with their environment, thus enhancing the overall effectiveness of AI models.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The correct answer is true for both statements because the learning rate is a crucial hyperparameter that influences how quickly a neural network converges during training, and dropout is a regularization technique that randomly sets a portion of the activation values to zero to prevent overfitting.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because it follows the chain rule of probability, which allows the joint probability of multiple variables to be expressed as the product of the marginal and conditional probabilities of those variables.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The method used to learn weights, whether matrix inversion or gradient descent, primarily influences the efficiency and convergence of the learning process, but it does not inherently determine the model's capacity to underfit or overfit, which is more related to the model complexity and the amount of training data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} As of 2020, advancements in deep learning techniques, such as convolutional neural networks, have enabled models to reach and even exceed 98\% accuracy on the CIFAR-10 dataset, demonstrating significant improvements in image classification tasks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The variance of the MAP estimate incorporates prior information about the parameters, while the MLE estimate is solely based on the observed data, leading to different variances for the two estimates.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An excessively large step size can cause the model to overshoot the optimal parameters during updates, leading to divergence and an increase in training loss over time.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def move\_first(test\_list): | return test\_list
+\\ \textit{Note:} The provided answer correctly identifies the need to create a Python function, but it fails to implement the logic necessary to shift the last element of the list to the first position, as it simply returns the original list without any modifications.
+\item \textbf{Answer:} def max\_sum(arr, n): | return max\_sum
+\\ \textit{Note:} correct because it succinctly identifies the need for a function to compute the maximum sum of a bi-tonic subsequence, which involves both increasing and then decreasing sequences, though it lacks the actual implementation details necessary to achieve this.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

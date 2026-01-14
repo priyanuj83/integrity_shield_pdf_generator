@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Freenet; B) ARPANET; C) Stuxnet; D) Internet
+\\ \textit{Note:} Freenet is specifically designed to facilitate anonymous file sharing and communication, making it an integral part of the darknet ecosystem focused on preserving user privacy.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) No string boundary checks in predefined functions; B) No storage check in the external memory; C) No processing power check; D) No database check
+\\ \textit{Note:} The correct answer highlights that many predefined functions in C and C++ do not automatically check the boundaries of strings, allowing for the possibility of writing beyond allocated memory, which can lead to buffer overflow vulnerabilities.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Yes, if the PRG is really "secure"; B) No, there are no ciphers with perfect secrecy; C) Yes, every cipher has perfect secrecy; D) No, since the key is shorter than the message
+\\ \textit{Note:} A stream cipher cannot achieve perfect secrecy because its key length is typically shorter than the message length, which leads to potential key reuse and allows for statistical analysis of the ciphertext.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 160 bits; B) 512 bits; C) 628 bits; D) 820 bits
+\\ \textit{Note:} SHA-1 produces a fixed output size of 160 bits for its message digest, which is a fundamental characteristic of the algorithm.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Condentiality; C) Authentication; D) Nonrepudiation
+\\ \textit{Note:} The correct answer is confidentiality because it refers to the assurance that information shared between the sender and receiver remains private and protected from unauthorized access, which is a fundamental principle in cybersecurity.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is indeed a component of the Internet Protocol Security (IPsec) suite, which provides both encryption for confidentiality and authentication for data integrity in IP communications.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer is indeed a sequential segment of memory used to temporarily hold data, making it essential for managing data such as character strings or arrays of integers in various programming contexts, including cybersecurity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA (Wi-Fi Protected Access) employs TKIP (Temporal Key Integrity Protocol) as a security protocol to provide improved data encryption and integrity compared to its predecessor WEP, thereby enhancing the overall security of wireless networks.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} SQL queries that incorporate user input without proper validation or sanitization allow attackers to manipulate the query structure, leading to injection attacks that can compromise database security.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because while ECB (Electronic Codebook) and CBC (Cipher Block Chaining) are valid block cipher operating modes, CFB (Cipher Feedback) is not categorized as a block cipher mode but rather as a stream cipher mode.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_average(number): | return (total,average)
+\\ \textit{Note:} correct because it outlines a function that computes both the total sum and the average of the first n natural numbers, which are fundamental operations in programming and mathematics.
+\item \textbf{Answer:} def consecutive\_duplicates(nums): | return [key for key, group in groupby(nums)]
+\\ \textit{Note:} correct because it utilizes the `groupby` function from the `itertools` module to efficiently group consecutive duplicate elements in the list, returning a new list that contains only unique elements in their original order.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

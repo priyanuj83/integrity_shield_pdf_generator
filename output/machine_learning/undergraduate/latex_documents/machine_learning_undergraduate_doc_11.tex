@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 11 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item High entropy means that the partitions in classification are
+\begin{enumerate}[label=(\alph*)]
+    \item pure
+    \item not pure
+    \item useful
+    \item useless
+\end{enumerate}
+\item Which of the following statements about Naive Bayes is incorrect?
+\begin{enumerate}[label=(\alph*)]
+    \item Attributes are equally important.
+    \item Attributes are statistically dependent of one another given the class value.
+    \item Attributes are statistically independent of one another given the class value.
+    \item Attributes can be nominal or numeric
+\end{enumerate}
+\item Statement 1| RoBERTa pretrains on a corpus that is approximate 10 x larger than the corpus BERT pretrained on. Statement 2| ResNeXts in 2018 usually used tanh activation functions.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Which of the following is the joint probability of H, U, P, and W described by the given Bayesian Network H -\textgreater{} U \textless{}- P \textless{}- W? [note: as the product of the conditional probabilities]
+\begin{enumerate}[label=(\alph*)]
+    \item P(H, U, P, W) = P(H) * P(W) * P(P) * P(U)
+    \item P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P)
+    \item P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P)
+    \item None of the above
+\end{enumerate}
+\item Which of the following best describes what discriminative approaches try to model? (w are the parameters in the model)
+\begin{enumerate}[label=(\alph*)]
+    \item p(y|x, w)
+    \item p(y, x)
+    \item p(w|x, w)
+    \item None of the above
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: DCGANs utilize self-attention mechanisms to enhance training stability.
+\item True or False: Highway networks were introduced prior to ResNets and utilize max pooling instead of convolutions.
+\item True or False: Dropout randomly removes entire neurons from the network instead of scaling activation values to zero.
+\item True or False: The cost of one gradient descent update given the gradient is O(ND), where N is the number of data points and D is the number of features.
+\item True or False: Regression is primarily used for prediction and relates inputs to outputs in a quantitative manner.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to extract all the adjacent coordinates of the given coordinate tuple.
+\item Write a function to find number of odd elements in the given list using lambda function.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

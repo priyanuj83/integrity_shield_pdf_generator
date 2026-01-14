@@ -1,0 +1,289 @@
+{
+  "docid": "astronomy_graduate_doc_16",
+  "document_name": "Astronomy - Graduate Level Assessment 16",
+  "domain": "astronomy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "astronomy"
+  ],
+  "combination_used": [
+    "mmlu_astronomy_mcq",
+    "mmlu_astronomy_tf",
+    "astronomy_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\astronomy\\graduate\\latex_documents\\astronomy_graduate_doc_16.tex",
+    "pdf_file": "output\\astronomy\\graduate\\pdf_documents\\astronomy_graduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/astronomy_graduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/astronomy_graduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\astronomy\\graduate\\answer_keys\\latex\\astronomy_graduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\astronomy\\graduate\\answer_keys\\pdf\\astronomy_graduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "astronomy_graduate_doc_16_astronomy_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture\nof 50 cm. How much more light can the telescope gather than your eye?",
+      "options": {
+        "A": "10000 times more",
+        "B": "100 times more",
+        "C": "1000 times more",
+        "D": "10 times more"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The telescope can gather light more effectively than the eye because the amount of light collected is proportional to the area of the aperture, and since the area of the telescope's aperture (\u03c0 * (25 cm)\u00b2) is 10,000 times greater than the area of the pupil (\u03c0 * (2.5 mm)\u00b2), it can gather 10,000 times more light.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "15585"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "astronomy_graduate_doc_16_astronomy_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is true about the rotation of a solid disk?",
+      "options": {
+        "A": "The velocity is the same on every point on the disk",
+        "B": "The part closer to the axis has a longer period",
+        "C": "The period of rotation is the same on every point on the disk",
+        "D": "The part closer to the axis has a shorter period"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The period of rotation is uniform across all points on a solid disk because every point on the disk completes one full rotation in the same amount of time, regardless of its distance from the center, due to the rigid body nature of the disk.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "333"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "astronomy_graduate_doc_16_astronomy_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The resolution of a telescope is a measure of its:",
+      "options": {
+        "A": "Ability to magnify distant objects",
+        "B": "Ability to measure the angular separation of objects",
+        "C": "Ability to measure the distance between objects",
+        "D": "Light-collecting efficiency"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The resolution of a telescope refers to its capability to distinguish between closely spaced objects in the sky, which is quantified by its ability to measure the angular separation between them.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "345"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "astronomy_graduate_doc_16_astronomy_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A comet of mass m impacts the earth (mass M radius R) at the minimum impact speed. What is\nthe expression for the total energy released in the impact?",
+      "options": {
+        "A": "m*v",
+        "B": "0.5*m/(R^3)",
+        "C": "0.5*m*(2 GM/R)",
+        "D": "0.6*G(M^2)/R"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the gravitational potential energy of the comet as it falls towards the Earth, where the total energy released upon impact is equal to the change in gravitational potential energy, given by the expression 0.5*m*(2 GM/R), reflecting the conversion of this potential energy into kinetic energy at the moment of impact.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "240"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "astronomy_graduate_doc_16_astronomy_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the best approximation for the surface temperature of the Sun:",
+      "options": {
+        "A": "6000 K",
+        "B": "7000 K",
+        "C": "9000 K",
+        "D": "13000 K"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The surface temperature of the Sun is approximately 6000 K, which is derived from its black body radiation characteristics and is consistent with the spectral distribution of sunlight and measurements taken by astrophysical observations.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "astronomy_graduate_doc_16_astronomy_tf_1",
+      "question_type": "TF",
+      "stem_text": "The atmosphere of Mars is mostly nitrogen, which is suitable for human breathing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the atmosphere of Mars is primarily composed of carbon dioxide (about 95%), with only trace amounts of nitrogen, making it unsuitable for human breathing.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "372"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "astronomy_graduate_doc_16_astronomy_tf_2",
+      "question_type": "TF",
+      "stem_text": "The blue color of the sky results from the preferential scattering of shorter wavelengths of light by atmospheric molecules.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Rayleigh scattering causes shorter wavelengths of light, such as blue, to scatter more efficiently than longer wavelengths, resulting in the blue color observed in the sky.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "astronomy_graduate_doc_16_astronomy_tf_3",
+      "question_type": "TF",
+      "stem_text": "Mars has more carbon dioxide in its atmosphere than Earth, which contributes significantly to its seasonal variations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mars does have a higher percentage of carbon dioxide in its atmosphere compared to Earth's, but the total atmospheric pressure on Mars is much lower, meaning the overall amount of carbon dioxide is less significant in contributing to seasonal variations compared to Earth.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "astronomy_graduate_doc_16_astronomy_tf_4",
+      "question_type": "TF",
+      "stem_text": "The ecliptic is the apparent path of the Sun across the sky as observed from Earth throughout the year.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the ecliptic represents the plane of Earth's orbit around the Sun, which causes the Sun to appear to move along a specific path in the sky as observed from Earth over the course of a year.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "271"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "astronomy_graduate_doc_16_astronomy_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Cassini division is a significant gap in Saturn's rings, created by orbital resonance with the moon Mimas.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Cassini division is indeed a significant gap in Saturn's rings caused by the gravitational influence of the moon Mimas, which creates an orbital resonance that clears material from that region of the rings.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "256"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "astronomy_graduate_doc_16_astronomy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the various surface processes that shape Venus, analyzing their implications for\nunderstanding the planet's geology and atmospheric dynamics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Venus's surface is shaped by a variety of processes, primarily including volcanism,\ntectonics, and erosion, which have significant implications for understanding its geology\nand atmospheric dynamics. A prominent feature is the extensive volcanic activity,\nevidenced by numerous large shield volcanoes and lava plains, indicating a history of\nsubstantial magma flow and potentially active geologic processes. B, the planet's unique\ntectonic features, such as large rift systems and folding, suggest that it may experience\ntectonic activity, although it lacks the plate tectonics seen on Earth. C, atmospheric\ndynamics play a crucial role, as the thick, sulfuric-acid-laden atmosphere interacts with\nsurface features, influencing weathering processes and contributing to the planet's\noverall geological evolution. Collectively, these surface processes reveal the\ncomplexities of Venus's geology and the interplay between its surface and atmosphere,\nchallenging our understanding of terrestrial planet evolution.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies and explains the key surface processes on Venus\u2014volcanism, tectonics, and erosion\u2014and discusses their implications for the planet's geological history and atmospheric dynamics, providing a comprehensive analysis relevant to understanding Venus's unique characteristics.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "267"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "astronomy_graduate_doc_16_astronomy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of Mars' orbital period in relation to Earth years, particularly\nfocusing on how this difference affects potential future colonization and exploration\nefforts.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Mars has an orbital period of approximately 687 Earth days, which translates to about 1.88\nEarth years. This significant difference in orbital periods has profound implications for\nfuture colonization and exploration efforts, particularly in mission planning and resource\nmanagement. For instance, the extended Martian year affects the timing of surface\nmissions, as seasonal changes on Mars are much slower, impacting factors such as\ntemperature variations and dust storms. Additionally, the longer Martian year means that\nany human settlement will need to account for these cycles when planning agricultural\nactivities and energy production. Understanding these orbital dynamics is crucial for\ndeveloping sustainable habitats and strategies for long-term human presence on Mars.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively highlights how Mars' longer orbital period of approximately 1.88 Earth years influences mission planning, resource management, and the timing of surface activities due to its slower seasonal changes, which are critical for successful colonization and exploration efforts.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "314"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

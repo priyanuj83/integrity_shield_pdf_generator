@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_10",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A buffer overflow on the stack allows an attacker to overwrite the return address of a function so that when the function exits, control is redirected to the attacker-injected code, enabling the execution of malicious instructions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1531
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Mutation-based fuzzing involves taking existing inputs and altering them to create new test cases, which helps in discovering vulnerabilities by evaluating how the system responds to these modified inputs.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1525
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the Luby-Rackoff theorem, which demonstrates that a secure pseudorandom generator (PRG) can be transformed into a secure pseudorandom permutation (PRP) by using the GGM construction, thus establishing a secure connection between the two cryptographic primitives.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14208
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Tor browser is specifically designed to facilitate anonymous browsing and access to the Tor network, enabling users to utilize various Tor services securely.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1530
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A stream cipher cannot achieve perfect secrecy because, by definition, perfect secrecy requires the key to be at least as long as the message, ensuring that each possible plaintext is equally likely for every key used.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1559
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Weak or non-existent authentication mechanisms are classified as issues related to the application layer rather than the presentation layer, as they directly pertain to the validation of user identities and access control rather than the formatting or presentation of data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1564
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Backdoor Trojans not only steal personal data but can also facilitate unauthorized financial transactions or access to systems, thereby incurring financial costs for victims.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1569
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because EXE does not indefinitely retry the STP solver; instead, it employs a finite number of attempts to find a satisfiable result before terminating the query process.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because message confidentiality emphasizes that the content of the message should remain unreadable to unauthorized parties, meaning it does not need to be clear to the translator if the translation occurs within a secure context.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The one-time pad key must be a truly random and independent sequence of bits that is as long as the plaintext message, and the formula k = m xor m would always yield a key of all zeroes, which is not secure for encryption.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1540
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def find_demlo(s): | return res",
+      "marks": 10,
+      "explanation": "correct as it defines a function that presumably calculates the demlo number, aligning with the requirement to process an input number and return a result, essential in programming and cybersecurity contexts.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 321
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_10_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def find_adverb_position(text): | return (m.start(), m.end(), m.group(0))",
+      "marks": 10,
+      "explanation": "The answer correctly identifies a method to locate adverbs in a sentence by utilizing regular expressions to find their positions, returning the start and end indices along with the adverb itself.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 440
+    }
+  ]
+}

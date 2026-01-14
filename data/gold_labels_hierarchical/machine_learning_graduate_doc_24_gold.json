@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_24",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Stuart Russell is a leading figure in AI safety and ethics, known for his work on existential risks associated with artificial intelligence, which directly aligns with the question regarding the prominent academic associated with this issue.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the chain rule of probability, which states that the joint probability of multiple events can be expressed as the product of the conditional probability of one event given another and the marginal probability of the remaining event.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are correct; Word2Vec uses a different approach for parameter initialization than a Restricted Boltzmann Machine, and the tanh function is indeed a nonlinear activation function commonly used in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6899
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 8 because the Bayesian network has four variables (H, U, P, and W) where H is a parent of U, P is a parent of U and W, and each node requires a number of parameters equal to the number of its parents plus one for its own probabilities, resulting in a total of 8 independent parameters.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The null space of matrix A, which has rank 1 due to the rows being linearly dependent, has a dimensionality of 2, as the dimension of the null space is given by the formula: nullity = number of columns - rank.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The original ResNet architecture utilizes residual connections and convolutional layers rather than self-attention mechanisms, which are characteristic of Transformer models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Predicting the amount of rainfall in a region is an example of supervised learning because it involves using labeled data (historical rainfall measurements) to train a model to make predictions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because it applies the chain rule of probability, which allows the joint probability of multiple variables to be expressed as the product of the marginal probability of one variable and the conditional probabilities of the others given the preceding variables in the sequence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "While random crop and vertical flip are popular data augmentation techniques, they are not the most widely used methods, as techniques like rotation, horizontal flipping, and color jittering often prove to be more effective for enhancing the diversity and robustness of natural image datasets.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Increasing the amount of training data is effective in reducing overfitting because it provides the model with a more diverse set of examples, which helps it generalize better to unseen data rather than memorizing the training set.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def removezero_ip(ip): | return string",
+      "marks": 10,
+      "explanation": "correct because it defines a function named `removezero_ip` that is intended to process an IP address by returning a modified string that excludes leading zeroes, which is a common requirement for standardizing IP address formats.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 593
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_24_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def remove_elements(list1, list2): | return result",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that aims to filter out elements from the first list that are found in the second list, which is a common operation in data manipulation relevant to machine learning tasks.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 161
+    }
+  ]
+}

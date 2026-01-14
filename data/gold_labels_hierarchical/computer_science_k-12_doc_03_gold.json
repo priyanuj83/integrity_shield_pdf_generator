@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_03",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Chemistry\" because the expression ['a', 'Chemistry', 0, 1] is a list in Python, and the index [1] accesses the second element of the list, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The output is [786, 2.23] because the slice list[1:3] retrieves the elements from index 1 to index 2 (the end index is exclusive) of the original list, which are the second and third elements, 786 and 2.23 respectively.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3223
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The operator ** in Python 3 is specifically designated for performing exponential calculations, raising the left operand to the power of the right operand.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3219
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The condition \"a < c\" is sufficient to guarantee that the entire expression evaluates to true because if this condition is met, the first part of the logical OR (||) is satisfied, making the overall expression true regardless of the other conditions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3269
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it is equivalent to 14 times 16 (which is E) plus 7, resulting in E7.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the function long(x [,base]) does not exist in Python 3, as integer conversion is done using the int() function instead.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression x >> 1 for x = 8 evaluates to 4, not 3, as a right bitwise shift divides the number by 2 for each shift.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3227
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the expression ['Hi!'] * 4 creates a list that repeats the single element 'Hi!' four times, resulting in ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Python can be integrated with languages like C or Java through various methods such as the use of extension modules, foreign function interfaces, or interoperability frameworks like Jython and CPython.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Python variable names are case-sensitive, meaning that variables such as \"myVar\" and \"myvar\" are considered distinct and cannot be used interchangeably.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "When comparing linear search and binary search for finding a target value in a sorted\nlist, there are distinct advantages and disadvantages to each method, especially as the\nlist size grows. Linear search examines each element one by one until it finds the target,\nmaking it simple and straightforward but inefficient for large lists, as its time\ncomplexity is O(n). On the other hand, binary search takes advantage of the sorted nature\nof the list, repeatedly dividing the search interval in half, which significantly reduces\nthe number of comparisons needed, leading to a time complexity of O(log n). As the size of\nthe list increases, the advantages of binary search become more pronounced, making it the\npreferred method for large datasets due to its efficiency. Thus, while linear search may\nbe easier to implement for small lists, binary search is generally more effective for\nlarger ones.",
+      "marks": 10,
+      "explanation": "correct because it accurately outlines that linear search is straightforward but inefficient for large lists with a time complexity of O(n), while binary search is more efficient due to its logarithmic time complexity by leveraging the sorted nature of the list.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3230
+    },
+    {
+      "question_id": "computer_science_k-12_doc_03_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "In the given code segment, the variables r, s, and t undergo specific changes through a\nseries of operations. Initially, let's assume r is assigned a value of 2. In the next\nstep, s is set to r + 1, which means s becomes 3. Finally, t could be assigned the value\nof s, but since the question focuses on r and s, the final values of these variables are r\n= 2 and s = 3. Thus, the program will display the final output of 2 for r and 3 for s.\nThis step-by-step analysis highlights how the variables were manipulated and their final\nstates.",
+      "marks": 10,
+      "explanation": "The answer correctly outlines the step-by-step operations performed on the variables r and s, demonstrating how their values are derived and concluding with the accurate final output displayed by the program.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3277
+    }
+  ]
+}

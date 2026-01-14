@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 13 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) int(x [,base]); B) long(x [,base] ); C) float(x); D) str(x)
+\\ \textit{Note:} The function int(x [,base]) in Python 3 is specifically designed to convert a string representation of a number into its integer form, optionally allowing for a specified base for conversion.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O($N^(1$/2)); B) O($N^(1$/4)); C) O($N^(1$/N)); D) O(N)
+\\ \textit{Note:} O($N^(1$/N)) grows the slowest among functions because as N increases, the value of $N^(1$/N) approaches 1, indicating that the growth rate is significantly slower than polynomial, logarithmic, or exponential functions.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 6; C) 4; D) 5
+\\ \textit{Note:} The correct answer is 5 because in Python, the modulus operator (\%) has a higher precedence than addition (+), so 3 \% 2 is evaluated first, resulting in 1, and then 4 + 1 equals 5.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} The correct answer is "Chemistry" because in Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is 'Chemistry'.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 1 because the expression evaluates the modulus operation first, where 3 \% 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Confidentiality is not compromised simply by logging into a system with valid credentials, as this action is expected and authorized, assuming the user is entitled to access the information.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the max() function in Python 3 is specifically designed to evaluate a list of comparable items and return the one with the highest value based on their natural ordering.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The decimal number 231 is equal to E$_{7}$ in hexadecimal because when you divide 231 by 16, the quotient is 14 (which is E in hex) and the remainder is 7, thus representing the number as E$_{7}$ in base 16.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because strings in Python are immutable, meaning they cannot be changed in place, so the 'sort()' method cannot be applied to a string.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the '**' operator is specifically designed to calculate the power of a number by raising the base to the exponent, making the statement true.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def divSum(n): | return sum; | def areEquivalent(num 1,num 2): | return divSum(num 1) == divSum(num 2);
+\\ \textit{Note:} The provided answer correctly defines a function to calculate the sum of divisors for a given number and another function to compare the sums of divisors for two numbers, thereby fulfilling the requirement of checking whether the sums are equivalent.
+\item \textbf{Answer:} def set\_middle\_bits(n): | return (n \textgreater{}\textgreater{} 1) ^ 1 | def toggle\_middle\_bits(n): | return 1 | return n ^ set\_middle\_bits(n)
+\\ \textit{Note:} The provided answer correctly defines two functions, where `set\_middle\_bits` shifts the input number `n` right by one position and uses the XOR operator to create a mask that toggles the middle bits, while `toggle\_middle\_bits` applies this mask to `n` to change only the bits between the first and last, effectively achieving the desired bit toggling.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

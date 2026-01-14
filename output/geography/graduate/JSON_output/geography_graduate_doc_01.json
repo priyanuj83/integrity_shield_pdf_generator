@@ -1,0 +1,288 @@
+{
+  "docid": "geography_graduate_doc_01",
+  "document_name": "Geography - Graduate Level Assessment 1",
+  "domain": "geography",
+  "academic_level": "Graduate",
+  "subjects": [
+    "global_facts"
+  ],
+  "combination_used": [
+    "mmlu_pro_geography_mcq",
+    "mmlu_pro_geography_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 3,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\geography\\graduate\\latex_documents\\geography_graduate_doc_01.tex",
+    "pdf_file": "output\\geography\\graduate\\pdf_documents\\geography_graduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/geography_graduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/geography_graduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\geography\\graduate\\answer_keys\\latex\\geography_graduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\geography\\graduate\\answer_keys\\pdf\\geography_graduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "geography_graduate_doc_01_geography_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The percentage of children in Vietnam (age 8) who reported physical punishment by teachers\nin the past week in 2009 was about what?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "80%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 20% reflects empirical data from research studies conducted in Vietnam in 2009, indicating that approximately one in five children experienced physical punishment by teachers, highlighting the prevalence of corporal punishment in educational settings within that cultural context.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2631"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "geography_graduate_doc_01_geography_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "As of 2020, about what percentage of the world population practices open defecation?",
+      "options": {
+        "A": "2%",
+        "B": "4%",
+        "C": "9%",
+        "D": "18%"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 9% because this figure reflects the estimated proportion of the global population that lacks access to improved sanitation facilities, leading to the practice of open defecation, as reported by organizations such as the World Health Organization and UNICEF in their Joint Monitoring Programme for Water Supply, Sanitation, and Hygiene.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2581"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "geography_graduate_doc_01_geography_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "As of 2015, about what percentage of the world's land area is forested?",
+      "options": {
+        "A": "15%",
+        "B": "30%",
+        "C": "45%",
+        "D": "60%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 30% because, according to the Food and Agriculture Organization, this figure represents the proportion of the Earth's land area that is covered by forests, highlighting the significant role forests play in global ecology and climate regulation.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2648"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "geography_graduate_doc_01_geography_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following countries emitted the most CO 2 per capita in 2017?",
+      "options": {
+        "A": "Japan",
+        "B": "Canada",
+        "C": "Russia",
+        "D": "Iran"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Canada had the highest per capita CO2 emissions in 2017 due to its large fossil fuel extraction industry, significant reliance on oil and gas for energy, and low population density, which results in higher emissions per individual.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2636"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "geography_graduate_doc_01_geography_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "As of 2016, about what percentage of adults aged 18 years or older were overweight?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "80%"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 40% reflects the significant global health trend observed by the World Health Organization, indicating that approximately 40% of adults aged 18 years or older were classified as overweight as of 2016, highlighting the growing prevalence of obesity and related health issues.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "geography_graduate_doc_01_geography_squad_tf_1",
+      "question_type": "TF",
+      "stem_text": "The Free Movement of Workers Regulation a different answer set out the main provisions on equal treatment of workers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: articles 1 to 7",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5726bc1add62a815002e8ea6"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "geography_graduate_doc_01_geography_squad_tf_2",
+      "question_type": "TF",
+      "stem_text": "The three towers proposed will stand 23 storeys high and will be surrounded by smaller apartment blocks, office blocks and shops. There are also plans for a 15-storey hotel at the a different answer marina, and a 21-storey hotel on the north eastern corner of the city centre, as part of a \u00a3100 m development.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Ocean Village",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56f8b1c99e9bad19000a0343"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "geography_graduate_doc_01_geography_squad_tf_3",
+      "question_type": "TF",
+      "stem_text": "West was reportedly paid US$3 million for his performance. West had previously participated in cultural boycotts, joining Shakira and Rage Against The Machine in refusing to perform in a different answer after the 2010 implementation of stop and search laws directed against potential illegal aliens.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Arizona",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56d4662d2ccc5a1400d83142"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "geography_graduate_doc_01_geography_squad_tf_4",
+      "question_type": "TF",
+      "stem_text": "Of the remaining land area, the state of Alaska owns a different answer, its entitlement under the Alaska Statehood Act.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: 101 million acres (41 million hectares)",
+      "source": {
+        "dataset": "squad",
+        "source_id": "572861923acd2414000df980"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "geography_graduate_doc_01_geography_squad_tf_5",
+      "question_type": "TF",
+      "stem_text": "After the U.S. won, Spain relinquished claim of sovereignty over territories, including Cuba. The U.S. administered Cuba as a protectorate until 1902. Several decades later in 1959, the corrupt Cuban government of U.S.-backed Fulgencio Batista was overthrown by Fidel Castro. Castro installed a Marxist-Leninist government allied with the Soviet Union, which has been in power ever since.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: Marxist-Leninist government",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57307554069b5314008320fe"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "geography_graduate_doc_01_geography_squad_long_1",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Incandescent bulbs are much less efficient than most other types of electric lighting; incandescent bulbs convert less than 5% of the energy they use into visible light, with standard light bulbs averaging about 2.2%. The remaining energy is converted into heat. The luminous efficacy of a typical incandescent bulb is 16 lumens per watt, compared with 60 lm/W for a compact fluorescent bulb or 150 lm/W for some white LED lamps. Some applications of the incandescent bulb deliberately use the heat generated by the filament. Such applications include incubators, brooding boxes for poultry, heat lights for reptile tanks, infrared heating for industrial heating and drying processes, lava lamps, and the Easy-Bake Oven toy. Incandescent bulbs typically have short lifetimes compared with other types... Question: What happens to the energy that an incandescent bulb does not convert into light?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The remaining energy is converted into heat.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: The remaining energy is converted into heat.",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5725c812ec44d21400f3d557"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "geography_graduate_doc_01_geography_squad_long_2",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Other legal factors that have been implemented to end and reduce child labour includes the global response that came into force in 1979 by the declaration of the International Year of the Child. Along with the Human Rights Committee of the United Nations, these two declarations worked on many levels to eliminate child labour. Although many actions have been taken to end this epidemic, child labour in Africa is still an issue today due to the unclear definition of adolescence and how much time is needed for children to engage in activities that are crucial for their development. Another issue that often comes into play is the link between what constitutes as child labour within the household due to the cultural acceptance of children helping run the family business. In the end, there is a c... Question: What is an issue in Africa with child labour definitions?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "unclear definition of adolescence",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: unclear definition of adolescence",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57277fbedd62a815002e9ed1"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

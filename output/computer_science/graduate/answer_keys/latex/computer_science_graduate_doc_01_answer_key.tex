@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 1 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central hub in 802.11 wireless networks, facilitating communication between wireless clients and the wired network, thus playing a crucial role in managing network traffic and connectivity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) By overwriting the return address to point to the location of that code; B) By writing directly to the instruction pointer register the address of the code; C) By writing directly to \%eax the address of the code; D) By changing the name of the running executable, stored on the stack
+\\ \textit{Note:} A buffer overflow allows an attacker to overwrite the return address on the stack, enabling the execution of malicious code located at the specified address when the function returns.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Generational; B) Blackbox; C) Whitebox; D) Mutation-based
+\\ \textit{Note:} Whitebox fuzzers have access to the internal structure and logic of the program, allowing them to systematically explore and test all possible execution paths, thereby increasing the likelihood of covering every line of code.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Temporary inconsistencies among views of a file by different machines can result; B) The file system is likely to be corrupted when a computer crashes; C) A much higher amount of network traffic results; D) Caching makes file migration impossible
+\\ \textit{Note:} Local caching can lead to temporary inconsistencies because different machines may access stale data from their caches instead of the most recent version stored on the network, resulting in divergent views of the same file.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Private-key system; B) Shared-key system; C) Public-key system; D) All of them
+\\ \textit{Note:} A digital signature relies on a public-key system because it uses asymmetric cryptography, where a private key is used to create the signature and a corresponding public key is used to verify its authenticity, ensuring both security and non-repudiation.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encryption and decryption primarily focus on ensuring confidentiality by converting data into a secure format and then back into its original form, but they do not inherently verify whether the data has been altered during transmission, which is the role of integrity measures such as hashing or checksums.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The addition of the two's-complement numbers 10000001 (which is -127 in decimal) and 10101010 (which is -86 in decimal) results in -213, but since the result exceeds the representable range of an 8-bit two's-complement number (-128 to 127), it causes overflow.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a virus is not a hidden part of a program that masquerades as a legitimate application; rather, it is a standalone malicious code that replicates itself and infects other programs or files, while the description provided more accurately characterizes a type of malware known as a trojan horse.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the language of bit strings with more ones than zeros cannot be recognized by a finite automaton, thus making it non-regular and unable to be described by a regular expression.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The recurrence f(2 N + 1) = f(2 N) = f(N) + log N suggests a logarithmic growth rather than O(N log N) because the additional log N term does not dominate the overall growth rate, leading to a solution that is more accurately characterized as O(N) instead.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_Nth\_Digit(p,q,N) : | return res;
+\\ \textit{Note:} correct because it outlines the structure of a Python function that takes two integers, p and q, representing the numerator and denominator of a fraction, along with an integer N, to determine the Nth digit in the decimal representation of the fraction p/q.
+\item \textbf{Answer:} def group\_element(test\_list): | return (res)
+\\ \textit{Note:} correct as it outlines the structure of a function intended to categorize or group the first elements of tuples based on their corresponding second elements, indicating an understanding of data manipulation and organization in Python.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

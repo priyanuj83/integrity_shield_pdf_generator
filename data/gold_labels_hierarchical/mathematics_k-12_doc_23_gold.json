@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_23",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 17, 21 because the pattern increases by 4 with each successive term, and continuing this pattern from 13 results in 17 and then 21.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2109
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression 2000 - 150x correctly represents the total amount of money the Sojourn family has left after spending $150 each day for x days, starting with an initial amount of $2000.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2105
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 5k because simplifying the expression involves combining like terms, where the fractions are converted to a common denominator and then combined, leading to a final result of 5k.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4313
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "To isolate the variable a in the equation 6a = 72, you must perform the inverse operation of multiplication by dividing both sides of the equation by 6.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2119
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "By rounding each rainfall measurement to the nearest whole number (8 inches, 4 inches, and 0 inches), the estimated total rainfall becomes 12 inches.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2300
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression 9(9 m + 3 t) simplifies to 81 m + 27 t, not 18 m + 12 t, because when distributing 9, each term inside the parentheses must be multiplied by 9.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2406
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the cost per stamp is $8.28 \u00f7 18 = $0.46, and therefore, for 12 stamps, the total cost is 12 \u00d7 $0.46 = $5.52.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2416
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The ratio 12 over 27 simplifies to 4 over 9, while 8 over 18 simplifies to 4 over 9 as well, so they are equivalent ratios, making the statement true, not false.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2265
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The value of 'a' is -4 because for two lines to be perpendicular, the product of their slopes must equal -1, and the slope of one line is the negative reciprocal of the other, which is satisfied by this value.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4436
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The total cost of 934 puzzles at $6 each is actually $5,604, calculated by multiplying 934 by 6, which makes the statement false.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2161
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Let $s$ be the side length of the square. Then the dimensions of each rectangle are\n$s\\times\\frac{s}{5}$. The perimeter of one of the rectangles is\n$s+\\frac{s}{5}+s+\\frac{s}{5}=\\frac{12}{5}s$. Setting $\\frac{12}{5}s=36$ inches, we find\n$s=15$ inches. The perimeter of the square is $4 s=4(15\\text{ in.})=\\boxed{60}$ inches.",
+      "marks": 10,
+      "explanation": "correct because it accurately derives the side length of the square from the given perimeter of the rectangles, leading to the correct calculation of the square's perimeter.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 19357
+    },
+    {
+      "question_id": "mathematics_k-12_doc_23_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To find the 8 th number, we start by calculating the total of the first 7 numbers. Since\ntheir mean is 15, the total is 7 times 15, which equals 105. When we add the 8 th number,\nthe new mean becomes 12 for all 8 numbers. Therefore, the total for these 8 numbers is 8\ntimes 12, which equals 96. To find the 8 th number, we subtract the total of the first 7\nnumbers from the total of all 8 numbers: 96 - 105 = -9. Thus, the 8 th number is -9.",
+      "marks": 10,
+      "explanation": "correct because it accurately calculates the total of the first 7 numbers using the mean, determines the total for all 8 numbers based on the new mean, and then finds the 8th number by subtracting the total of the first 7 from the total of all 8, resulting in -9.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4293
+    }
+  ]
+}

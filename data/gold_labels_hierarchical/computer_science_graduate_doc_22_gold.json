@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_22",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The statement is correct because bitmap graphics represent images as a grid of individual pixels, making it impossible to represent curved lines or diagonal segments without them appearing jagged or pixelated, thus all line segments cannot be displayed as perfectly straight.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1025
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Reference counting cannot effectively reclaim cyclic structures because the presence of mutual references between objects prevents their reference counts from ever reaching zero, leading to memory leaks.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14152
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Wireshark is a widely-used network protocol analyzer that allows users to capture and examine the data packets flowing through a network, making it a powerful tool for wireless traffic sniffing.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The presence of several different classes of registers can enhance instruction-level parallelism and reduce dependency hazards, thereby facilitating rather than obstructing aggressive pipelining in an integer unit.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1053
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A hash function produces a unique fixed-size output (hash value) for a given input, allowing any alterations to the original message to result in a different hash, thereby ensuring the integrity of the message by detecting changes.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14209
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because network, vulnerability, and port scanning are critical techniques used in security assessments to identify potential security weaknesses and vulnerabilities in systems and networks.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is False because the maximum degree of the minimal-degree interpolating polynomial for n + 1 distinct points is n, not n + 1, as a polynomial of degree n can uniquely interpolate n + 1 points if they are not all on the same polynomial of degree less than n.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1007
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the number of distinct functions from a set A with m elements to a set B with n elements is actually n^m, not n!/(n - m)!, as each element in A can be independently mapped to any of the n elements in B.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1072
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A digital signature relies on asymmetric cryptography, which requires a public-private key pair, making it incompatible with a shared-key system that uses symmetric cryptography.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1507
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Troya is considered a remote Trojan because it is designed to allow attackers to gain unauthorized access to a user's system remotely, enabling them to control and manipulate the infected device.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1475
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def specified_element(nums, N): | return result",
+      "marks": 10,
+      "explanation": "correct because it defines a function named `specified_element` that is intended to iterate over a two-dimensional list and return a list of elements that match the specified index `N`, thereby fulfilling the requirement to extract specified elements from the input data structure.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 49
+    },
+    {
+      "question_id": "computer_science_graduate_doc_22_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def count_Set_Bits(n) : | return cnt;",
+      "marks": 10,
+      "explanation": "correct as it identifies the need for a function that iteratively or recursively calculates the total number of set bits (1s) in the binary representations of all integers from 1 to n, although it lacks the complete implementation needed to perform the count.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 707
+    }
+  ]
+}

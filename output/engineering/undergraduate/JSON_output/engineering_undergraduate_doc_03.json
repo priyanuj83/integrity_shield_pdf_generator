@@ -1,0 +1,295 @@
+{
+  "docid": "engineering_undergraduate_doc_03",
+  "document_name": "Engineering - Undergraduate Level Assessment 3",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_03.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The coil of a moving coil meter has 100 turns, is 40 mm long and 30 mm wide. The control\ntorque is 240*10-6 N-m on full scale. If magnetic flux density is 1 Wb/m 2 range of meter\nis",
+      "options": {
+        "A": "2 mA.",
+        "B": "5 mA.",
+        "C": "1.5 mA.",
+        "D": "0.5 mA.",
+        "E": "6 mA."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 2 mA.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "41"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A sinusoidal signal is analog signal, because",
+      "options": {
+        "A": "it is a square wave signal",
+        "B": "it has a constant frequency",
+        "C": "it is positive for one half cycle",
+        "D": "it can only have a single value at a time",
+        "E": "it has a sinusoidal waveform"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - it is a square wave signal",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the name of the fluorescent material that gives red colour fluorescence?",
+      "options": {
+        "A": "Zinc silicate.",
+        "B": "Calcium sulphide.",
+        "C": "Zinc oxide.",
+        "D": "Zinc sulphide.",
+        "E": "Calcium silicate."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - Zinc silicate.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12047"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the Laplace transform L{g(t)}, where g(t)= 0,t < 4 and= (t - 4)^2,t \\geq 4",
+      "options": {
+        "A": "[(2 e^-4 s) / s^3]",
+        "B": "2 / s^3",
+        "C": "(2 / s^2) * e^-4 s",
+        "D": "4 / s^3",
+        "E": "[(2 e^-4 s) / s^4]"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - [(2 e^-4 s) / s^3]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11482"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Given a lossless medium with\\epsilon_r= 10 and \\mu_r = 5 find its impedance.",
+      "options": {
+        "A": "132 ohms",
+        "B": "377 ohms",
+        "C": "150 ohms",
+        "D": "300 ohms",
+        "E": "266 ohms"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - 266 ohms",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11941"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The lowest natural frequency of the automobile engine spring is 25.8 cycles per second.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11947"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Laplace transform of f(t) = t^2 is equal to 1 / s^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '(2 / s^3)'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12027"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The one cycle surge current rating of an SCR with a half cycle surge current of 3000 A at 50 Hz is approximately 2121.32 A.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11577"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The capacitance of a parallel plate capacitor is incorrectly given by C = (\u03b5S/d^2), which suggests area is inversely related to capacitance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'C= (\\epsilonS/ d)'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11322"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_03_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "A spring rate of 1300 lb./in. would effectively reduce the engine's unbalanced force by 15%.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '1484.4 lb./in.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12104"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_03_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the isothermal compression of a liquid in a quasistatic process, deriving the\nexpression for the total work done based on the relationship In(V/V\u2080) = -A(p - p\u2080).",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "W = (AV_0) (1 / p_2 - 1 / p_1). Explain why this is the correct answer and provide\nsupporting evidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12196"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_03_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between a time-varying magnetic field, described by B = B_0\ne^bta_z, and the corresponding induced electric field. Derive the expression for the\nelectric field produced by this magnetic field and analyze its significance in engineering\napplications.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "E = - (1/2)bB_0 e^btra_ extphi. Explain why this is the correct answer and provide\nsupporting evidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11775"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

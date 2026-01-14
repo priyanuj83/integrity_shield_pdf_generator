@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_12",
+  "document_name": "Physics - Graduate Level Assessment 12",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_12.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the binding energy of the lithium nucleus?",
+      "options": {
+        "A": "42.1 MeV",
+        "B": "34.8 MeV",
+        "C": "39.2 Mev",
+        "D": "40.5 Mev",
+        "E": "38.7 Mev"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The binding energy of the lithium nucleus is 39.2 MeV because this value represents the energy required to disassemble the nucleus into its constituent protons and neutrons, reflecting the strong nuclear force that holds them together.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9405"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What Mars mission will be landing on May 25 2008 and will dig a trench into (hopefully)\nice-rich soil?",
+      "options": {
+        "A": "Mars Science Laboratory",
+        "B": "Mars Odyssey",
+        "C": "Mars Atmosphere and Volatile Evolution (MAVEN)",
+        "D": "Phoenix Mars Lander",
+        "E": "Mars Reconnaissance Orbiter"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Phoenix Mars Lander is designed specifically to explore the Martian polar region and is equipped with a robotic arm to dig into the soil, enabling it to analyze and confirm the presence of ice-rich soil, making it the mission that aligns with the date and objectives stated in the question.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9355"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Determine the focal length f of a glass lens of index 1.5 surrounded by air for which r_1\n= + 10, r_2 = + 9 a) when the lens thickness is zero, b) when the thickness is + 1.",
+      "options": {
+        "A": "a) 180 units, b) 270 units",
+        "B": "a) -360 units, b) -240 units",
+        "C": "a) 270 units, b) 180 units",
+        "D": "a) -180 units, b) 180 units",
+        "E": "a) -270 units, b) -180 units"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the lensmaker's equation, which calculates the focal length of a lens based on its radii of curvature and the refractive index, showing that a thin lens (zero thickness) has a focal length of 180 units, while the additional thickness increases the focal length to 270 units due to the modified geometry affecting the light path.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10200"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "By definition, the electric displacement current through a surface S is proportional to\nthe",
+      "options": {
+        "A": "rate of change of the magnetic flux through S",
+        "B": "electric flux through S",
+        "C": "rate of change of the electric current through S",
+        "D": "time integral of the magnetic flux through S",
+        "E": "rate of change of the electric flux through S"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The electric displacement current is defined by Maxwell's equations as being proportional to the rate of change of electric flux through a surface, which accounts for changing electric fields in situations where there is no actual current flow.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10215"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the wavelength of a 10-eV electron?",
+      "options": {
+        "A": "2.5 \\AA",
+        "B": "3.86 \\AA",
+        "C": "4.5 \\AA",
+        "D": "1.5 \\AA",
+        "E": "1.24 \\AA"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The wavelength of a 10-eV electron is calculated using the de Broglie wavelength formula, \u03bb = h/p, where the momentum p is derived from the electron's energy, resulting in a wavelength of approximately 3.86 \u00c5.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9621"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "In a fusion reaction, the majority of energy released is in the kinetic energy of the alpha particle and neutron equally.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because in a fusion reaction, the majority of energy released is primarily carried away by the kinetic energy of the resulting helium nucleus (alpha particle) rather than being equally distributed with the neutron.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9318"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The phenomenon of beats is primarily caused by the refraction of sound waves in different media.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The phenomenon of beats is primarily caused by the interference of two sound waves with slightly different frequencies, not by the refraction of sound waves in different media.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9547"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The focal length of a thin lens remains unchanged when it is immersed in a medium with a lower refractive index than air.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The focal length of a thin lens changes when immersed in a medium with a lower refractive index than air because the lens's refractive power is affected by the surrounding medium, altering the effective focal length according to the lensmaker's equation.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10277"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The distance from Earth to the star Altair is approximately 9.3 x 10^10 meters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Altair is located approximately 16.7 light-years away from Earth, which converts to about 9.3 x 10^10 meters.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10102"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_12_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The gravitational acceleration experienced by the Space Shuttle at 300 km altitude is approximately 0 m/s^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because at an altitude of 300 km, the gravitational acceleration is not zero but significantly reduced to approximately 0.9 m/s\u00b2, and while this is not 0 m/s\u00b2, the context of the statement likely refers to the effective weightlessness experienced by the Space Shuttle due to its orbital motion, which creates a condition of free fall.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10248"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_12_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the gravitational force acting on a 70 kg person in an accelerating automobile\nat 4 m/s^2. Discuss the implications of this force in the context of Newton's laws of\nmotion.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the gravitational force acting on a 70 kg person, we use the formula \\( F =\nmg \\), where \\( m \\) is the mass and \\( g \\) is the acceleration due to gravity\n(approximately 9.81 m/s^2). Thus, the gravitational force is \\( F = 70 \\, \\text{kg} \\times\n9.81 \\, \\text{m/s}^2 = 686.7 \\, \\text{N} \\) or approximately \\( 6.86 \\times 10^2 \\,\n\\text{N} \\). In the context of Newton's laws of motion, particularly the second law, the\nforce experienced by the person in an accelerating automobile at 4 m/s^2 contributes to\ntheir overall inertia, as they will feel an additional force due to the acceleration. This\nscenario illustrates how net forces act on objects in non-inertial frames, impacting\nperceived weight and stability, which is significant for understanding motion dynamics in\nvehicles.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the gravitational force using the formula \\( F = mg \\), while also highlighting the relevance of Newton's second law, which describes how the net force acting on an object influences its motion, thus contextualizing the gravitational force within the scenario of an accelerating automobile.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9288"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_12_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "A dragster completes a quarter-mile race, reaching a speed of 80 m/s. Calculate the\nacceleration and time taken for the run, and discuss the implications of these values in\nthe context of drag racing physics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the acceleration of the dragster, we can use the formula \\( a = \\frac{v_f -\nv_i}{t} \\), where \\( v_f \\) is the final velocity (80 m/s), \\( v_i \\) is the initial\nvelocity (0 m/s), and \\( t \\) is the time taken. The distance covered is a quarter-mile,\nwhich is approximately 402.34 meters. Rearranging the equations of motion, we can derive\n\\( a \\) as \\( a = \\frac{2 d}{t^2} \\) and substitute the known values to find that the\nacceleration is approximately 7.96 m/s^2. Subsequently, using the relationship \\( v_f = a\n\\cdot t \\), we can compute the time taken for the run to be 10.1 seconds. These values\nillustrate the intense forces at play in drag racing, highlighting the significance of\nrapid acceleration and speed in achieving competitive performance on the track.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it appropriately applies the equations of motion to relate the final velocity, distance, and time, allowing for the accurate calculation of acceleration and providing insight into the dynamics of drag racing.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9100"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

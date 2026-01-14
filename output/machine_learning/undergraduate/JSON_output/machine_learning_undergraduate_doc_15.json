@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_15",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 15",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_15.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following are the spatial clustering algorithms?",
+      "options": {
+        "A": "Partitioning based clustering",
+        "B": "K-means clustering",
+        "C": "Grid based clustering",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of techniques used to group spatial data points based on their proximity, and all listed options fall within this category.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Overfitting is more likely when the set of training data is small. Statement\n2| Overfitting is more likely when the hypothesis space is small.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Overfitting is more likely with a small training dataset because the model can learn noise instead of general patterns, while a small hypothesis space limits the model's complexity and capacity to overfit.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| RoBERTa pretrains on a corpus that is approximate 10 x larger than the corpus\nBERT pretrained on. Statement 2| ResNeXts in 2018 usually used tanh activation functions.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "RoBERTa does indeed pretrain on a corpus that is approximately 10 times larger than that used for BERT, making Statement 1 true, while ResNeXT typically employs ReLU activation functions rather than tanh, rendering Statement 2 false.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "K-fold cross-validation is",
+      "options": {
+        "A": "linear in K",
+        "B": "quadratic in K",
+        "C": "cubic in K",
+        "D": "exponential in K"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "K-fold cross-validation is considered linear in K because the computational cost of training the model increases proportionally with the number of folds, as each fold requires an independent training and validation process.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6906"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The numerical output of a sigmoid node in a neural network:",
+      "options": {
+        "A": "Is unbounded, encompassing all real numbers.",
+        "B": "Is unbounded, encompassing all integers.",
+        "C": "Is bounded between 0 and 1.",
+        "D": "Is bounded between -1 and 1."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sigmoid function maps any real-valued number into a range between 0 and 1, making the output of a sigmoid node in a neural network always bounded within these limits.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The polynomial degree significantly impacts the trade-off between underfitting and overfitting in polynomial regression.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The degree of a polynomial in polynomial regression determines the model's complexity, with higher degrees increasing the risk of overfitting by capturing noise in the training data, while lower degrees may lead to underfitting by failing to capture the underlying trends, thus significantly impacting the trade-off between these two issues.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The cost of one gradient descent update, given the gradient, is O(D), where D is the number of dimensions in the parameter space.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cost of one gradient descent update is O(D) because the algorithm computes the gradient for each of the D dimensions in the parameter space, requiring a linear amount of computation relative to the number of dimensions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Applying an L 2 norm regularization penalty will lead to some coefficients being exactly zero in linear regression.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "L2 norm regularization, also known as Ridge regression, shrinks the coefficients towards zero but does not set any coefficients exactly to zero, unlike L1 norm regularization which can lead to sparse solutions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Bayesians advocate for the use of prior distributions on parameters in probabilistic models, while frequentists do not.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bayesians incorporate prior distributions to express beliefs about parameters before observing data, while frequentists rely solely on the data at hand, eschewing prior beliefs in their statistical inference.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "High entropy indicates that the partitions in classification are not pure, reflecting a mix of different classes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "High entropy signifies a higher degree of disorder or uncertainty in a dataset, indicating that the instances within the partitions belong to multiple classes rather than being predominantly from a single class, thus reflecting a lack of purity in classification.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6849"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sort a list of tuples using lambda.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def subject_marks(subjectmarks): | return subjectmarks",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly returns the input list of tuples, but it lacks the implementation of sorting using a lambda function, which is essential to fulfill the requirement of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "64"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to search some literals strings in a string by using regex.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_literals(text, patterns): | return ('Matched!') | return ('Not Matched!')",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly identifies the basic structure of a function that uses regex to search for literal strings in a given text, although it lacks the actual implementation details needed to perform the search and return the appropriate match results.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "186"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

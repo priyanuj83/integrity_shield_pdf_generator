@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_09",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "An SMS Trojan is a type of malware that secretly sends costly text messages from a user's mobile phone without their consent, leading to unexpected charges on their phone bill.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1569
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A stream cipher cannot achieve perfect secrecy because if the key is shorter than the message, it can be reused, allowing for patterns to emerge that compromise the confidentiality of the encrypted data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1559
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer, (a + b)*c + (a + b)*d, is equivalent to the original expression (a* + b)*(c + d) because it captures all strings formed by any combination of 'a' and 'b' followed by either 'c' or 'd', reflecting the union of sequences that end with 'c' or 'd' after any number of 'a's or 'b's.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 15608
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer identifies network scanning, vulnerability scanning, and port scanning as essential methods used in cybersecurity to assess and identify potential weaknesses and active services within a computer network.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Troya is classified as a remote Trojan because it is designed to allow an attacker to remotely control the infected system, facilitating unauthorized access and manipulation of data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1475
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over a wireless network, making it a valuable tool for forensic investigations and troubleshooting network issues.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14212
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Freenet is designed to allow users to share files anonymously and operates on a decentralized network, making it a key component of the darknet.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1478
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Message Confidentiality, the focus is on ensuring that the content of the message remains secret and unintelligible to unauthorized parties, meaning it does not need to be understandable to any translator or intermediary involved in its transmission.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wireshark is an open-source network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network, making it an essential tool for analyzing both wired and wireless network traffic.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Buffer overflow errors are primarily associated with low-level languages like C and C++ that allow direct memory manipulation, whereas Ruby and Python, being higher-level languages with automatic memory management and dynamic typing, typically prevent such errors.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1521
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def position_min(list1): | return min_result",
+      "marks": 10,
+      "explanation": "correct because it defines a function that aims to identify the index positions of the minimum values in a list, which is essential for solving the problem as stated.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 322
+    },
+    {
+      "question_id": "computer_science_graduate_doc_09_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def find(n,m): | return (q)",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function to compute the quotient of two numbers, although it lacks the implementation details necessary to perform the division operation and assign the result to the variable 'q'.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 292
+    }
+  ]
+}

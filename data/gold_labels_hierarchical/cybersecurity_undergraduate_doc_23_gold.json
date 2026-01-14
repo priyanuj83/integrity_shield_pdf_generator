@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_23",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dark web is specifically designed to be hidden and requires specialized software, such as Tor, to access, making it an unknown segment of the Deep Web that standard web browsers cannot reach.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1496
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "WPA3 offers enhanced security features such as stronger encryption methods and improved protection against brute-force attacks compared to its predecessors, making it the most secure wireless protocol available.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1502
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "UNIX systems have historically been susceptible to buffer-overflow attacks due to their reliance on low-level memory management and lack of built-in safeguards against such vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1534
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A buffer-overflow attack occurs when an attacker exploits a vulnerability in a program to overwrite the memory buffer, allowing them to execute malicious instructions and gain unauthorized access to the system.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1548
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Metasploit framework is widely recognized for its user-friendly interface that allows cybersecurity professionals to easily identify and exploit vulnerabilities in systems, resembling a point-and-click experience.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Public key encryption allows secure key exchange over an insecure channel by using a pair of keys (public and private), which eliminates the need for the sender and recipient to share a secret key beforehand, making it more secure than symmetric key cryptography that requires a secure method for key distribution.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1494
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Encryption and decryption primarily provide confidentiality and privacy of data rather than integrity, which is ensured through mechanisms like hashing and digital signatures.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1522
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The TCP connect scan actually establishes a full TCP connection by completing the three-way handshake, making it more detectable than stealthier scanning techniques like SYN scans that do not complete the connection.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1546
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because programming languages like Python and Ruby are designed with built-in memory management and safety features that significantly reduce the risk of buffer-overflow errors, which are more commonly associated with lower-level languages like C and C++.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1521
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Tor browser is specifically designed to route internet traffic through the Tor network, enabling users to access services and websites anonymously while masking their IP addresses.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1530
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_Pairs(arr,n): | return sum",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to compute the sum of absolute differences for all pairs in the given array by defining a function, but it lacks the implementation details required to achieve this calculation, highlighting an incomplete understanding of the problem.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 144
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_23_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def count_digs(tup): | return sum([len(str(ele)) for ele in tup ]) | def sort_list(test_list): | return (str(test_list))",
+      "marks": 10,
+      "explanation": "The provided answer correctly addresses the question by defining a function to count the total number of digits in each tuple and utilizes that count to sort the list of tuples based on their digit total.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 949
+    }
+  ]
+}

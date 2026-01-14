@@ -1,0 +1,290 @@
+{
+  "docid": "chemistry_undergraduate_doc_08",
+  "document_name": "Chemistry - Undergraduate Level Assessment 8",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_08.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the maximum number of phases that can be at equilibrium with each other in a three\ncomponent mixture?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum number of phases that can be in equilibrium in a three-component mixture is determined by the Gibbs phase rule, which states that F = C - P + 2, where F is the degrees of freedom, C is the number of components, and P is the number of phases; thus, for three components (C = 3), the maximum number of phases (P) is five when the system is constrained to a constant temperature and pressure.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "898"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is an n-type semiconductor?",
+      "options": {
+        "A": "Silicon",
+        "B": "Diamond",
+        "C": "Silicon carbide",
+        "D": "Arsenic-doped silicon"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Arsenic-doped silicon is an n-type semiconductor because arsenic, which has five valence electrons, donates extra electrons to the silicon lattice, increasing the number of free charge carriers and enhancing electrical conductivity.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "916"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Considering 0.1 M aqueous solutions of each of the following, which solution has the\nlowest pH?",
+      "options": {
+        "A": "Na 2 CO 3",
+        "B": "Na 3 PO 4",
+        "C": "Na 2 S",
+        "D": "NaCl"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "NaCl is a neutral salt that does not hydrolyze in water, resulting in a solution with a pH of 7, which is higher than the pH of solutions of weak acids or bases that would be present at 0.1 M concentration, thus it does not have the lowest pH among the options provided.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "947"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The fact that the infrared absorption frequency of deuterium chloride (DCl) is shifted\nfrom that of hydrogen chloride (HCl) is due to the differences in their",
+      "options": {
+        "A": "electron distribution",
+        "B": "dipole moment",
+        "C": "force constant",
+        "D": "reduced mass"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reduced mass affects the vibrational frequency of a diatomic molecule, and since deuterium (D) is heavier than hydrogen (H), the reduced mass of DCl is greater than that of HCl, leading to a shift in their infrared absorption frequencies.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "967"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the NMR frequency of 31 P in a 20.0 T magnetic field?",
+      "options": {
+        "A": "54.91 MHz",
+        "B": "239.2 MHz",
+        "C": "345.0 MHz",
+        "D": "2167 MHz"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The NMR frequency of 31P in a magnetic field can be calculated using the Larmor equation, which states that the frequency is directly proportional to the strength of the magnetic field and the gyromagnetic ratio of the nucleus, and for 31P, this results in a frequency of 345.0 MHz at a 20.0 T field.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "993"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "Each hybrid sp^3 orbital can hold a maximum of two electrons, not four.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because each hybrid sp^3 orbital can accommodate a maximum of two electrons with opposite spins according to the Pauli exclusion principle, and while four sp^3 orbitals can exist in a single atom, each orbital itself can only hold two electrons.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14146"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The reduction of D-xylose with NaBH 4 produces a racemic mixture of enantiomers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reduction of D-xylose with NaBH4 produces only the corresponding alditol, D-xylitol, which is a single compound and does not result in a racemic mixture of enantiomers.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14142"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Calcium (Ca) has the lowest electron affinity among the elements listed due to its larger atomic size and lower effective nuclear charge.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Calcium has a lower electron affinity compared to other elements because its larger atomic size results in a greater distance between the nucleus and the added electron, and its lower effective nuclear charge reduces the attraction between the nucleus and the incoming electron, making it less energetically favorable to gain an electron.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "991"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "The thermal stability of group-14 hydrides increases in the order: CH 4 < SiH 4 < GeH 4 < SnH 4 < PbH 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The thermal stability of group-14 hydrides actually decreases in the order: CH4 > SiH4 > GeH4 > SnH4 > PbH4, as the bond strength of the central atom-hydrogen bond weakens with increasing atomic size, leading to lower stability in heavier hydrides.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15607"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "The polarization of a proton is 1.148 x 10^-6 at 0.335 T and 3.598 x 10^-5 at 10.5 T.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the polarization of a proton should increase with an increase in the magnetic field strength, but the given values show a decrease instead.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14143"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the Heisenberg uncertainty principle applies to a quantum mechanical particle\nin the lowest energy level of a one-dimensional box, focusing on the implications for\nposition and momentum.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The Heisenberg uncertainty principle asserts that it is impossible to simultaneously know\nboth the exact position and momentum of a quantum mechanical particle, such as an electron\nin the lowest energy level of a one-dimensional box. In this state, the particle is\nconfined to a specific region, leading to a relatively well-defined position; however,\nthis confinement results in an inherently uncertain momentum. The principle highlights the\ntrade-off between these two properties: as the position becomes more certain due to the\nparticle's confinement, the uncertainty in its momentum increases. Consequently, while we\ncan describe the particle's energy level and spatial distribution, we cannot pinpoint its\nexact momentum, embodying the fundamental limits imposed by quantum mechanics on our\nability to measure and predict the behavior of particles.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly describes the Heisenberg uncertainty principle by illustrating the inverse relationship between the precision of a particle's position and momentum in the context of a quantum mechanical particle confined to a one-dimensional box, emphasizing that confinement leads to a well-defined position but increased uncertainty in momentum.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "961"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_08_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the decay of a radioactive isotope used in diagnostic imaging with a half-life of\n6.0 hours. Calculate the remaining activity 24 hours post-delivery from an initial\nactivity of 150 mCi, and explain the underlying principles of radioactive decay in your\nanalysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The remaining activity of a radioactive isotope with a half-life of 6.0 hours can be\ncalculated using the formula for radioactive decay: A = A 0 \\times (1/2)^(t/T), where A 0\nis the initial activity, t is the elapsed time, and T is the half-life. In this case, the\ninitial activity (A 0) is 150 mCi, the elapsed time (t) is 24 hours, and the half-life (T)\nis 6 hours. Since 24 hours corresponds to 4 half-lives (24/6), the calculation becomes A =\n150 mCi \\times (1/2)^4, which results in A = 150 mCi \\times 1/16 = 9.375 mCi. Therefore,\nthe remaining activity after 24 hours is approximately 9.4 mCi. This process illustrates\nthe exponential nature of radioactive decay, where the quantity of the isotope reduces by\nhalf with each passing half-life.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the radioactive decay formula, correctly identifies the number of half-lives that have elapsed, and calculates the remaining activity based on the initial activity, demonstrating an understanding of the principles of radioactive decay.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "945"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

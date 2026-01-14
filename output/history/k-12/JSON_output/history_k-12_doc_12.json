@@ -1,0 +1,292 @@
+{
+  "docid": "history_k-12_doc_12",
+  "document_name": "History - K-12 Level Assessment 12",
+  "domain": "history",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_european_history",
+    "high_school_us_history",
+    "high_school_world_history",
+    "prehistory"
+  ],
+  "combination_used": [
+    "mmlu_history_mcq",
+    "mmlu_history_tf",
+    "history_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\history\\k-12\\latex_documents\\history_k-12_doc_12.tex",
+    "pdf_file": "output\\history\\k-12\\pdf_documents\\history_k-12_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/history_k-12_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/history_k-12_doc_12_gold.json",
+    "answer_key_latex_file": "output\\history\\k-12\\answer_keys\\latex\\history_k-12_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\history\\k-12\\answer_keys\\pdf\\history_k-12_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "history_k-12_doc_12_history_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The 30 upright stones at Stonehenge are called _______; the horizontal stones are\n_________.",
+      "options": {
+        "A": "legumes, sarsens",
+        "B": "lintels, stelae",
+        "C": "sarsens, lintels",
+        "D": "trilithon, tholoi"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"sarsens\" for the upright stones and \"lintels\" for the horizontal stones because sarsens are the large sandstone blocks that make up the vertical elements of Stonehenge, while lintels are the horizontal stones that connect them at the top.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10032"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "history_k-12_doc_12_history_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A proposed explanation for some phenomenon that may be derived initially from empirical\nobservation through a process called induction is a:",
+      "options": {
+        "A": "deduction.",
+        "B": "theory.",
+        "C": "hypothesis.",
+        "D": "scientific method."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hypothesis is a proposed explanation for an observed phenomenon that is formulated based on inductive reasoning, which involves generalizing from specific empirical observations.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10328"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "history_k-12_doc_12_history_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Upon exploring Rhode Island, the Italian navigator Giovanni de Verrazzano noted that the\nnative people resembled:",
+      "options": {
+        "A": "Italians.",
+        "B": "Asians.",
+        "C": "Australians.",
+        "D": "Melanesians."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Giovanni de Verrazzano described the native people of Rhode Island as resembling Asians due to their physical features, which he observed during his exploration of the region in the 16th century.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10173"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "history_k-12_doc_12_history_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In primates, the location of which of the following determines if it is a quadruped or\nbiped?",
+      "options": {
+        "A": "the feet",
+        "B": "the skull",
+        "C": "the foramen magnum",
+        "D": "the ulna"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The foramen magnum is the opening at the base of the skull where the spinal cord connects to the brain, and its position determines the alignment of the head and spine, which influences whether a primate walks on all fours (quadruped) or stands upright on two legs (biped).",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "history_k-12_doc_12_history_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What was the Chinese technique of stamped or pounded earth that was used in construction\nof house walls and defensive structures?",
+      "options": {
+        "A": "Hang-t'u",
+        "B": "Scapulimancy",
+        "C": "Lung-shan",
+        "D": "Qin manufacture"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hang-t'u refers specifically to the ancient Chinese technique of using stamped or pounded earth for constructing durable house walls and defensive structures, making it the correct answer.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10168"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "history_k-12_doc_12_history_tf_1",
+      "question_type": "TF",
+      "stem_text": "Researchers can determine if an individual ate mostly grains or mostly nuts and fruits by analyzing the levels of 13 C in bones.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the ratio of carbon isotopes, specifically 13C, in bones can indicate the type of plants consumed, as different plants have distinct carbon isotopic signatures related to their photosynthetic pathways.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10303"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "history_k-12_doc_12_history_tf_2",
+      "question_type": "TF",
+      "stem_text": "The sagittal crest is a bony ridge located above the upper jaw, providing support for strong jaw muscles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sagittal crest is actually a bony ridge located on the top of the skull, not above the upper jaw, and it serves as an attachment point for strong jaw muscles in some species.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10048"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "history_k-12_doc_12_history_tf_3",
+      "question_type": "TF",
+      "stem_text": "Neandertals had larger brains and smaller noses than modern Homo sapiens.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Neandertals actually had larger noses compared to modern Homo sapiens, which were likely adaptations for cold climates, while their brain sizes were comparable, but not necessarily larger, than those of contemporary humans.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10252"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "history_k-12_doc_12_history_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Kwakiutl culture was centered in the Ohio River valley around 2,800 years ago.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Kwakiutl culture was primarily located along the Pacific Northwest coast of North America, particularly in present-day British Columbia, rather than the Ohio River valley.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10324"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "history_k-12_doc_12_history_tf_5",
+      "question_type": "TF",
+      "stem_text": "Diffusionism is the belief that characteristics of civilization spread from one central location to other areas.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Diffusionism is a theoretical framework in history that posits that cultural traits, innovations, and societal characteristics originate from a central point and then spread to other regions, making the statement true.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10062"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "history_k-12_doc_12_history_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of the waterlogged soil at the Sch\u00f6ningen site in Germany and how\nit contributed to the preservation of ancient wooden spears from 300,000 years ago.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The significance of the waterlogged soil at the Sch\u00f6ningen site in Germany lies in its\nability to preserve ancient wooden spears that date back 300,000 years. The waterlogged\nconditions create an environment that prevents the decay of organic materials, allowing\nthese wooden artifacts to survive for thousands of years. Without such unique soil\nconditions, these historical objects would likely have rotted away and been lost to time.\nThis preservation offers valuable insights into the lives and hunting practices of early\nhumans, making Sch\u00f6ningen an essential site for understanding human history and\ndevelopment.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes how the waterlogged soil at the Sch\u00f6ningen site creates an anaerobic environment that inhibits the decay of organic materials, thereby allowing the ancient wooden spears to be preserved for study and understanding of early human life.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "10257"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "history_k-12_doc_12_history_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the origins of Minoan civilization, focusing on the role of Crete's local\ndevelopment and the influence of its diverse populations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The Minoan civilization, which flourished on the island of Crete around 2000 BCE, emerged\nprimarily as a local development influenced by the island's unique geography and\nresources. Although Crete was populated by various groups, including early Greeks and\nother Mediterranean peoples, it was the distinct adaptation of local conditions that\nfostered the growth of Minoan culture. The island's access to the sea facilitated trade\nand the exchange of ideas, while its agricultural potential supported a prosperous\nsociety. As a result, the Minoans developed advanced architecture, art, and governance\nsystems that reflected their local innovations rather than solely external influences.\nOverall, the origins of Minoan civilization highlight the importance of Crete's\ngeographical and cultural context in shaping a unique and influential culture in ancient\nhistory.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes the significance of Crete's unique geography and resources in fostering the local development of Minoan civilization, while also acknowledging the role of diverse populations in shaping its cultural evolution through trade and agricultural practices.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "10308"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

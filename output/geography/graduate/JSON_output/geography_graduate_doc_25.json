@@ -1,0 +1,289 @@
+{
+  "docid": "geography_graduate_doc_25",
+  "document_name": "Geography - Graduate Level Assessment 25",
+  "domain": "geography",
+  "academic_level": "Graduate",
+  "subjects": [
+    "global_facts"
+  ],
+  "combination_used": [
+    "mmlu_pro_geography_mcq",
+    "mmlu_pro_geography_tf",
+    "geography_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 3,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\geography\\graduate\\latex_documents\\geography_graduate_doc_25.tex",
+    "pdf_file": "output\\geography\\graduate\\pdf_documents\\geography_graduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/geography_graduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/geography_graduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\geography\\graduate\\answer_keys\\latex\\geography_graduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\geography\\graduate\\answer_keys\\pdf\\geography_graduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "geography_graduate_doc_25_geography_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In 2018, about how many chickens were killed for meat production?",
+      "options": {
+        "A": "690 million",
+        "B": "6.9 billion",
+        "C": "69 billion",
+        "D": "690 billion"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The figure of 69 billion chickens killed for meat production in 2018 reflects the significant global demand for poultry as a primary source of protein, highlighting the scale of industrial agriculture and its impact on food systems.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2599"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "geography_graduate_doc_25_geography_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the percentage of children aged 13-15 in the United States who reported being\nbullied at least once in the past couple of months as of 2015?",
+      "options": {
+        "A": "26%",
+        "B": "46%",
+        "C": "66%",
+        "D": "86%"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 26% reflects data from national surveys conducted in 2015, which documented the prevalence of bullying among adolescents aged 13-15 in the United States, highlighting a significant social issue impacting this demographic.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2615"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "geography_graduate_doc_25_geography_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "As of 2019, about what percentage of the world population lives in extreme poverty (less\nthan $1.90 a day)?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "25%"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2019, approximately 10% of the world population lives in extreme poverty, defined by the World Bank as those surviving on less than $1.90 a day, reflecting ongoing global disparities in wealth and economic development.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2580"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "geography_graduate_doc_25_geography_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "As of 2015, agriculture made up about what percentage of total US GDP?",
+      "options": {
+        "A": "1%",
+        "B": "3%",
+        "C": "9%",
+        "D": "20%"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2015, agriculture constituted approximately 1% of the total US GDP, reflecting the sector's relative decline in economic importance compared to industrial and service sectors in a highly developed economy.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "2651"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "geography_graduate_doc_25_geography_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In 1948 how many Americans believed the Kinsey Report on Sexuality in the Male to be a bad\nthing?",
+      "options": {
+        "A": "92%",
+        "B": "64%",
+        "C": "27%",
+        "D": "11%"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is supported by historical data indicating that only 11% of Americans in 1948 viewed the Kinsey Report on Sexuality in the Male negatively, reflecting a broader societal openness to discussions about sexuality during that era.",
+      "source": {
+        "dataset": "geography_global_facts",
+        "source_id": "14330"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "geography_graduate_doc_25_geography_squad_tf_1",
+      "question_type": "TF",
+      "stem_text": "The surveys identified 66 species that had not previously been recorded in Tuvalu, which brings the total number of identified species to 648.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: 607",
+      "source": {
+        "dataset": "squad",
+        "source_id": "57312b6205b4da19006bce25"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "geography_graduate_doc_25_geography_squad_tf_2",
+      "question_type": "TF",
+      "stem_text": "By 1353, the three original cantons had joined with the cantons of Glarus and Zug and the Lucerne, Z\u00fcrich and Bern city states to form the \"Old Confederacy\" of eight states that existed until the end of the 15 th century.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: By 1353",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5727766cf1498d1400e8f8cc"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "geography_graduate_doc_25_geography_squad_tf_3",
+      "question_type": "TF",
+      "stem_text": "For the next 20 years, many could find only low-paid work with the island government, and the only available employment outside Saint Helena was on the Falkland Islands and Ascension Island. The Development and Economic Planning Department, which still operates, was formed in 2167 to contribute to raising the living standards of the people of Saint Helena.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: 1988",
+      "source": {
+        "dataset": "squad",
+        "source_id": "56e063ea231d4119001ac080"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "geography_graduate_doc_25_geography_squad_tf_4",
+      "question_type": "TF",
+      "stem_text": "Afro-Spaniards are a different answer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is: Spanish nationals of West/Central African descent",
+      "source": {
+        "dataset": "squad",
+        "source_id": "5706c0ba2eaba6190074ace6"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "geography_graduate_doc_25_geography_squad_tf_5",
+      "question_type": "TF",
+      "stem_text": "Groups affiliated with churches in the South Bronx erected the Nehemiah Homes with about 1,000 units. The grass roots organization Nos Quedamos' endeavor known as Melrose Commons began to rebuild areas in the South Bronx.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the passage: Nos Quedamos",
+      "source": {
+        "dataset": "squad",
+        "source_id": "573253910fdd8d15006c69ac"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "geography_graduate_doc_25_geography_squad_long_1",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: Europe's expansion into territorial imperialism was largely focused on economic growth by collecting resources from colonies, in combination with assuming political control by military and political means. The colonization of India in the mid-18 th century offers an example of this focus: there, the \"British exploited the political weakness of the Mughal state, and, while military activity was important at various times, the economic and administrative incorporation of local elites was also of crucial significance\" for the establishment of control over the subcontinent's resources, markets, and manpower. Although a substantial number of colonies had been designed to provide economic profit and to ship resources to home ports in the seventeenth and eighteenth centuries, Fieldhouse suggests ... Question: Who did Britain exploit in India?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "the Mughal state",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: the Mughal state",
+      "source": {
+        "dataset": "squad",
+        "source_id": "573098f38ab72b1400f9c5d5"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "geography_graduate_doc_25_geography_squad_long_2",
+      "question_type": "LONG",
+      "stem_text": "Read the following passage and answer the question: In 1997, the Bronx was designated an All America City by the National Civic League, acknowledging its comeback from the decline of the mid-century. In 2006, The New York Times reported that \"construction cranes have become the borough's new visual metaphor, replacing the window decals of the 1980 s in which pictures of potted plants and drawn curtains were placed in the windows of abandoned buildings.\" The borough has experienced substantial new building construction since 2002. Between 2002 and June 2007, 33,687 new units of housing were built or were under way and $4.8 billion has been invested in new housing. In the first six months of 2007 alone total investment in new residential development was $965 million and 5,187 residential units were scheduled to be completed. Much of the new d... Question: What award did the Bronx receive in 1997?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "All America City",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Expected answer: All America City",
+      "source": {
+        "dataset": "squad",
+        "source_id": "573253fa0fdd8d15006c69b3"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

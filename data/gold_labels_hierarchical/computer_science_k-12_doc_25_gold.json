@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_25",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A group of cookies stored by the user's Web browser can track and store detailed information about a user's online behavior, preferences, and identity, which can significantly compromise personal privacy.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3267
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 4 because the max() function in Python returns the largest value from a list, and in the list [1,2,3,4], the highest number is 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 6 because the lambda function r takes an input q and returns double its value, so r(3) computes as 3 * 2, which equals 6.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14389
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is // because in Python 3, the double forward slash operator is specifically defined to perform floor division, which divides two numbers and rounds down to the nearest whole number.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "O(1) is the smallest asymptotic notation because it represents constant time complexity, indicating that the algorithm's runtime does not change with the size of the input, making it the least growth rate compared to other complexities.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the multiplication operator (*) when applied to a list repeats the elements of the list the specified number of times, resulting in the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, accessing the first element of the tuple ( 'abcd', 786 , 2.23, 'john', 70.2 ) does not result in an error because tuples are indexed starting from zero, and the first element can be accessed using the index 0.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression a[i] == max || !(max != a[i]) actually simplifies to a[i] == max, not a[i] != max.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Even with extensive testing, a large Java program may still contain undetected bugs due to the complexity of the code, the limitations of testing methods, and the possibility of untested edge cases or scenarios.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, variable names are case-sensitive, which means that 'Variable' and 'variable' are treated as distinct identifiers, allowing for different variables to be defined with similar names differing only in their letter case.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def find_first_duplicate(nums): | return nums[i] | return no_duplicate",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to traverse the array and check for previously seen elements to find the first duplicate, although it lacks proper implementation details and syntax for a complete function.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 22
+    },
+    {
+      "question_id": "computer_science_k-12_doc_25_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def find_closet(A, B, C, p, q, r): | return A[res_i],B[res_j],C[res_k]",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to access specific indices from three sorted arrays A, B, and C to find the closest elements, demonstrating an understanding of how to retrieve values from multiple sorted data sets based on their indices.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 938
+    }
+  ]
+}

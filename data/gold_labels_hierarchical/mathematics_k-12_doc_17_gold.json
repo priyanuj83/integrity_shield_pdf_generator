@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_17",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "When simplifying $(x\\sqrt{x^3})^4$, we first rewrite $\\sqrt{x^3}$ as $x^{3/2}$, resulting in $(x \\cdot x^{3/2})^4 = (x^{1 + 3/2})^4 = (x^{5/2})^4$, which simplifies to $x^{10}$.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4351
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The expression simplifies to 2 when \\( a = 42 \\), and since \\( a^{2+1-3} = a^0 = 1 \\), adding these gives \\( 2 + 1 = 3 \\).",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4462
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer, 98770, is obtained by using the formula for combinations, specifically $\\dbinom{n}{k} = \\frac{n!}{k!(n-k)!}$, where $\\dbinom{85}{82}$ simplifies to $\\dbinom{85}{3}$, which calculates to 98770.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4264
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \\(\\frac{5}{54}\\) because there are 3 prime numbers (2, 3, 5) and 3 composite numbers (4, 6) on a 6-sided die, and the probability of rolling exactly three primes and three composites can be calculated using combinations and the probabilities of each outcome.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4413
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The number 559 cannot be the original number before rounding because it rounds to 600, while numbers between 450 and 549 round to 500.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2330
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The number 179,912 in word form is correctly written as one hundred seventy-nine thousand nine hundred twelve, not one hundred seventy-nine thousand twelve.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2346
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the correct number that makes the equation 2/9 equal to 14/? is 63, not 15, as determined by cross-multiplying to find the unknown denominator.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2368
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression simplifies to $(3 \\cdot 2^{20} + 2^{21}) \\div 2^{17}$, which equals $10$, but the calculation is incorrect because it does not take into account proper simplification and evaluation of powers of 2.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4394
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression -\\dfrac{1}{-3}\\cdot\\cfrac{1}{~\\frac{1}{-3}~} simplifies to -3, not 1, because multiplying a negative fraction by the reciprocal of that fraction results in a negative value.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4320
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because if 1 inch on the map represents 25 miles, then 5 inches would represent 5 times 25 miles, which equals 125 miles.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2083
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Note that the numbers increase by 3 each time. Hence we increase by 3 a total of $\\frac{32\n- (-4)}{3} = 12$ times. But then there must be $12 + 1 = \\boxed{13}$ numbers, since we\nneed to also include the first number on the list.",
+      "marks": 10,
+      "explanation": "correct because it determines the total number of terms in the arithmetic sequence by calculating the number of increments of 3 from the starting value of -4 to the endpoint of 32, and then adding one to account for the initial term.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 19732
+    },
+    {
+      "question_id": "mathematics_k-12_doc_17_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The concept of vertical axis of symmetry in vowels refers to the idea that certain vowel\nshapes can be divided into two mirror-image halves along a vertical line. Most vowels,\nsuch as A, O, and U, exhibit this symmetry because they look the same on both sides of the\nvertical line. However, the vowel E lacks this vertical axis of symmetry, as its shape is\nnot identical when split down the middle. For instance, if you draw a vertical line\nthrough the center of E, the left and right sides do not match, demonstrating the absence\nof symmetry. Therefore, E is the only vowel that does not possess this characteristic.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the vertical axis of symmetry in vowels, demonstrates that vowels like A, O, and U possess this symmetry, and clearly explains that the vowel E does not have this symmetry due to its asymmetrical shape when divided vertically.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4443
+    }
+  ]
+}

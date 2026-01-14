@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_21",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The linear hard-margin SVM is specifically designed to find a hyperplane that perfectly separates linearly separable data without allowing any misclassifications, making it applicable only in such cases.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has approximately 25 million parameters, not over 1 billion.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As of 2020, advancements in deep learning architectures enabled certain models to achieve over 98% accuracy on the CIFAR-10 dataset, while the original ResNet models were trained using stochastic gradient descent rather than the Adam optimizer, confirming both statements as true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6854
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of techniques, such as DBSCAN, K-means, and hierarchical clustering, that are all designed to identify and group spatially related data points based on their proximity in a multidimensional space.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The computational complexity of gradient descent is polynomial in D because the algorithm requires a number of operations that scales with the dimensionality of the input space, specifically involving matrix-vector multiplications and updates that are linear with respect to D in each iteration.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6862
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Stuart Russell is a leading researcher in artificial intelligence who has extensively addressed the potential existential risks associated with AI development, particularly through his co-authored book \"Artificial Intelligence: A Modern Approach\" and his advocacy for safe AI practices.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Predicting the amount of rainfall is an example of regression in machine learning, not clustering, as it involves estimating a continuous value rather than grouping data points based on similarity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Out-of-distribution detection involves identifying data points that deviate from the expected distribution, which aligns with the principles of anomaly detection that focus on recognizing unusual patterns or outliers in datasets.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "While sampling with replacement in bagging helps reduce variance by creating diverse subsets of data, the primary method that prevents overfitting in ensemble models is the combination of multiple weak learners, which collectively improves generalization rather than just relying on the sampling technique.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "RoBERTa pretrains on a dataset of 160GB of text, significantly larger than the 16GB corpus used for BERT, which allows it to learn more comprehensive language representations.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6836
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The rank of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 1. This is because all\nrows (and columns) of the matrix are linearly dependent, meaning they can be expressed as\nscalar multiples of one another. In the context of machine learning, the rank of a matrix\nis significant as it relates to the dimensionality of the data being analyzed; a low rank\nindicates that the data may lie in a lower-dimensional subspace. This can impact model\nperformance and interpretability, as well as influence techniques such as dimensionality\nreduction and feature extraction, which are crucial for improving model efficiency and\neffectiveness. Understanding the rank helps in assessing the capacity of models to\ngeneralize from the training data to unseen examples.",
+      "marks": 10,
+      "explanation": "correct because the matrix A has all rows and columns as linearly dependent vectors, resulting in a rank of 1, which signifies that the data it represents exists in a lower-dimensional space, a crucial aspect in machine learning that affects analysis, model performance, and interpretability.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_21_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "Principal Component Analysis (PCA) and spectral clustering both utilize\neigendecomposition, but they do so for different purposes and in distinct contexts. PCA\nfocuses on reducing dimensionality by identifying the directions (principal components)\nthat maximize variance in the data, typically computed from the covariance matrix. In\ncontrast, spectral clustering employs eigendecomposition of the Laplacian matrix derived\nfrom a similarity graph, aiming to identify clusters by analyzing the eigenvalues and\neigenvectors that capture the data's structure. Regarding logistic regression, it is\ninaccurate to categorize it as a special case of linear regression; while both methods\nmodel relationships between variables, logistic regression is specifically designed for\nbinary outcomes and utilizes a logistic function to ensure predictions are limited to the\n(0,1) range, distinguishing it fundamentally from the linear model's continuous outcome\nframework.",
+      "marks": 10,
+      "explanation": "The answer correctly highlights that PCA and spectral clustering both involve eigendecomposition but serve different objectives\u2014PCA for dimensionality reduction through variance maximization and spectral clustering for identifying clusters via the Laplacian matrix of a similarity graph.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6895
+    }
+  ]
+}

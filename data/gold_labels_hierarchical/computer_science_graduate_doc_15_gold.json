@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_15",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Metasploit is a widely used penetration testing framework that simplifies the process of exploiting vulnerabilities through its user-friendly interface, enabling users to execute attacks with minimal complexity.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dark web is a specific part of the deep web that requires special software to access, making it intentionally hidden and inaccessible through standard web browsers.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1496
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 100 because when evaluated recursively, f(4) computes as f(4) = 4 * f(3) + 4^2, and following the same logic down to f(1), we find f(3) = 3 * f(2) + 9, f(2) = 2 * f(1) + 4, and ultimately f(1) = 0, leading to the final calculation of f(4) = 100.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14150
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"Receiver\" because message confidentiality ensures that only the intended recipient can interpret the transmitted information, thereby protecting it from unauthorized access and maintaining its secrecy.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The 4-way handshake is the established process in Wi-Fi security protocols, particularly WPA/WPA2, that facilitates mutual authentication and key generation between a wireless user and an access point (AP), ensuring secure communication.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1512
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because each round of DES actually utilizes a subkey length of 48 bits, derived from the original 56-bit key, rather than 64 bits.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1524
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Interrupts are mechanisms that alert the CPU to handle events or conditions requiring attention, whereas data channels are dedicated hardware paths that facilitate direct memory access (DMA), allowing peripheral devices to transfer data to and from memory without continuous CPU intervention.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1026
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The MD5 hashing algorithm consistently produces a message digest that is 128 bits in length, regardless of the size of the input data.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1487
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The digest produced by a hash function serves as a Modification Detection Code (MDC) because it provides a unique representation of data that changes if the data itself is altered, thus enabling the detection of modifications.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The round-robin job-scheduling policy allocates a fixed time quantum to each job in a cyclic manner, ensuring that every job receives regular access to the CPU and eliminating the possibility of any job being starved or waiting indefinitely for service.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1079
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def split_lowerstring(text): | return (re.findall('[a-z][^a-z]*', text))",
+      "marks": 10,
+      "explanation": "The provided function uses a regular expression to identify and split the input string at every occurrence of a lowercase letter followed by any non-lowercase characters, effectively achieving the desired string segmentation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 15
+    },
+    {
+      "question_id": "computer_science_graduate_doc_15_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def find_Element(arr,ranges,rotations,index) : | return arr[index]",
+      "marks": 10,
+      "explanation": "correct because it directly retrieves the element at the specified index of the array without accounting for the effect of rotations, which is a crucial oversight in solving the problem as intended.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 304
+    }
+  ]
+}

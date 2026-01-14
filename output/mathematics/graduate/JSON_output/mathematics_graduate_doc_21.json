@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_21",
+  "document_name": "Mathematics - Graduate Level Assessment 21",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_21.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If x - 3 = 6, what is the value of x?",
+      "options": {
+        "A": "0",
+        "B": "4",
+        "C": "3",
+        "D": "2",
+        "E": "9"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 9 because solving the equation x - 3 = 6 involves adding 3 to both sides, resulting in x = 6 + 3, which simplifies to x = 9.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8359"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let f(x,y) = x^2 - 2 xy + y^3 for all real x and y. Which of the following is true?",
+      "options": {
+        "A": "f has all of its relative extrema on the line y = x^2.",
+        "B": "f has all of its relative extrema on the line x = y.",
+        "C": "f has all of its relative extrema on the line x = 2 y.",
+        "D": "f has a relative maximum at (0, 0).",
+        "E": "f has an absolute maximum at (2/3, 2/3)."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is justified because the partial derivatives of the function f(x,y) indicate that the critical points occur where the line x = y intersects the gradient of f, leading to all relative extrema being located along this line.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8574"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For the regression line, which of the following statements about residuals is true?",
+      "options": {
+        "A": "The sum of the residuals is always one.",
+        "B": "If the correlation is 0, there will be a distinct pattern in the residual plot.",
+        "C": "The larger the residuals, the better the linear model.",
+        "D": "The residuals are always negative.",
+        "E": "If the correlation is 1, there will be a distinct pattern in the residual plot."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is incorrect; the correct fact is that the sum of the residuals in a linear regression model is always zero, not one, as this reflects the property that the regression line minimizes the sum of the squared differences between observed and predicted values.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8555"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The polynomial $x^3 - Ax + 15$ has three real roots. Two of these roots sum to 5. What is\n|A|?",
+      "options": {
+        "A": "19.0",
+        "B": "17.0",
+        "C": "25.0",
+        "D": "23.0",
+        "E": "18.0"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 19.0 because, using Vieta's formulas, if two roots sum to 5, the third root can be expressed as \\( r_3 = 5 - r_1 \\), leading to the equation \\( -A = r_1 r_2 + r_3 r_1 + r_3 r_2 \\) which simplifies to \\( A = 19 \\) when the product of the roots is set to 15, thus giving |A| = 19.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8952"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find 13 over 14 + 7 over 14.",
+      "options": {
+        "A": "20 over 28",
+        "B": "2 and 3 over 14",
+        "C": "1 and 3 over 7",
+        "D": "2 and 1 over 14",
+        "E": "3 and 2 over 7"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 and 3 over 7 because when you add the fractions 13/14 and 7/14, you get 20/14, which simplifies to 1 and 3/14 after dividing both the numerator and denominator by 14.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8995"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The opposite of the number -7 is 7.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The opposite of a number is defined as its additive inverse, and since adding -7 and 7 results in zero, it follows that the opposite of -7 is indeed 7.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7818"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "In a set of 20 positive integers, there are at least 15 pairs of numbers whose differences are multiples of 10.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, given the Pigeonhole Principle, with only 10 possible remainders when positive integers are divided by 10, it is possible to have a set of 20 integers that contains at most 10 pairs of integers whose differences are multiples of 10, not necessarily 15.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8083"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Morse code, a total of 30 distinct symbols can be represented using sequences of 1, 2, 3, or 4 dots and dashes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the total number of distinct symbols that can be formed using sequences of 1, 2, 3, or 4 dots and dashes in Morse code is calculated as 2^1 + 2^2 + 2^3 + 2^4, which equals 2 + 4 + 8 + 16 = 30.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A correlation of 0.6 explains four times the percentage of variation in y compared to a correlation of 0.3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the percentage of variation explained by a correlation coefficient is given by the square of the correlation value; therefore, a correlation of 0.6 explains 36% of the variation (0.6\u00b2), while a correlation of 0.3 explains only 9% of the variation (0.3\u00b2), and 36% is four times 9%.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7915"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_21_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The set {6, 7, 8} contains all values that satisfy the inequality 2 x - 1 < 10.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the inequality 2x - 1 < 10 simplifies to x < 5.5, meaning the set {6, 7, 8} does not contain any values that satisfy this inequality.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8248"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_21_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "The graph of $xy = 1$ is a hyperbola. Find the distance between the foci of this\nhyperbola.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "From the graph of $xy = 1,$ we can tell that the foci will be at the points $(t,t)$ and\n$(-t,-t)$ for some positive real number $t.$ [asy] unitsize(1 cm); real func(real x) {\nreturn(1/x); } pair P; pair[] F; P = (1/2,2); F[1] = (sqrt(2),sqrt(2)); F[2] =\n(-sqrt(2),-sqrt(2)); draw(graph(func,1/3,3),red); draw(graph(func,-3,-1/3),red);\ndraw((-3,0)--(3,0)); draw((0,-3)--(0,3)); draw(F[1]--P--F[2]); dot(\"$F_1$\", F[1], SE);\ndot(\"$F_2$\", F[2], SW); dot(\"$P$\", P, NE); [/asy] Thus, if $P = (x,y)$ is a point on the\nhyperbola, then one branch of the hyperbola is defined by \\[\\sqrt{(x + t)^2 + (y + t)^2} -\n\\sqrt{(x - t)^2 + (y - t)^2} = d\\]for some positive real number $d.$ Then \\[\\sqrt{(x +\nt)^2 + (y + t)^2} = \\sqrt{(x - t)^2 + (y - t)^2} + d.\\]Squaring both sides, we get \\[(x +\nt)^2 + (y + t)^2 = (x - t)^2 + (y - t)^2 + 2 d \\sqrt{(x - t)^2 + (y - t)^2} + d^2.\\]This\nsimplifies to \\[4 tx + 4 ty - d^2 = 2 d \\sqrt{(x - t)^2 + (y - t)^2}.\\]Squaring both\nsides, we get \\begin{align*} &16 t^2 x^2 + 16 t^2 y^2 + d^4 + 32 t^2 xy - 8 d^2 tx - 8 d^2\nty \\\\ &= 4 d^2 x^2 - 8 d^2 tx + 4 d^2 y^2 - 8 d^2 ty + 8 d^2 t^2. \\end{align*}We can\ncancel some terms, to get \\[16 t^2 x^2 + 16 t^2 y^2 + d^4 + 32 t^2 xy = 4 d^2 x^2 + 4 d^2\ny^2 + 8 d^2 t^2.\\]We want this equation to simplify to $xy = 1.$ For this to occur, the\ncoefficients of $x^2$ and $y^2$ on both sides must be equal, so \\[16 t^2 = 4 d^2.\\]Then\n$d^2 = 4 t^2,$ so $d = 2 t.$ The equation above becomes \\[16 t^4 + 32 t^2 xy = 32\nt^4.\\]Then $32 t^2 xy = 16 t^4,$ so $xy = \\frac{t^2}{2}.$ Thus, $t = \\sqrt{2},$ so the\ndistance between the foci $(\\sqrt{2},\\sqrt{2})$ and $(-\\sqrt{2},-\\sqrt{2})$ is\n$\\boxed{4}.$",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the foci of the hyperbola defined by the equation \\(xy = 1\\) as being located at the points \\((t, t)\\) and \\((-t, -t)\\), where \\(t\\) is determined by the relationship between the coordinates of the points on the hyperbola, and indicates that the distance between these foci is derived from their coordinates.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "17936"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_21_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the determinant of the matrix A = [[1, 0, 0, 0, 0, 0], [2, 7, 0, 0, 0, 0], [3,\n8, 6, 0, 0, 0], [4, 9, 5, 2, 1, 4], [5, 8, 4, 0, 2, 5], [6, 7, 3, 0, 3, 6]] and discuss\nthe methods used to derive your result.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the determinant of the matrix A = [[1, 0, 0, 0, 0, 0], [2, 7, 0, 0, 0, 0],\n[3, 8, 6, 0, 0, 0], [4, 9, 5, 2, 1, 4], [5, 8, 4, 0, 2, 5], [6, 7, 3, 0, 3, 6]], we can\nutilize the properties of triangular matrices and the cofactor expansion method. The\nmatrix is lower triangular, which allows us to find the determinant by multiplying the\ndiagonal elements. The determinant is calculated as 1 * 7 * 6 * 2 * 2 * 6 = 84. Thus, the\ndeterminant of the matrix A is 84, confirming the efficiency of using triangular forms in\ndeterminant calculation.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the matrix A is lower triangular, allowing the determinant to be computed simply by multiplying its diagonal elements together, resulting in a determinant of 84.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7857"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

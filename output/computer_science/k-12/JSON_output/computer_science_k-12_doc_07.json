@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_k-12_doc_07",
+  "document_name": "Computer Science - K-12 Level Assessment 7",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_07.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_07_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_07_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is sum(l) in Python 3?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "10",
+        "D": "8"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10 because the `sum()` function in Python calculates the total of all the elements in the list, which in this case is 1 + 2 + 3 + 4 = 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_07_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following operator in python performs exponential (power)\ncalculation on operands?",
+      "options": {
+        "A": "**",
+        "B": "//",
+        "C": "is",
+        "D": "not in"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The operator ** in Python 3 is specifically designated for performing exponential (power) calculations, raising the left operand to the power of the right operand.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_07_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is ['a', 'Chemistry', 0, 1][-3]?",
+      "options": {
+        "A": "a",
+        "B": "Chemistry",
+        "C": "0",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Chemistry\" because in Python, negative indexing allows you to access elements from the end of a list, and the index -3 corresponds to the third element from the end, which is \"Chemistry\".",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3279"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_07_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is min(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because the `min()` function in Python returns the smallest value from a list, and in the list [1, 2, 3, 4], the smallest value is 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_07_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following spreadsheet functions would be most useful for detecting improbably\nhigh or low values that have become part of a data set as a result of data entry errors?",
+      "options": {
+        "A": "A function that averages numeric values in a column or row",
+        "B": "A function that counts the values in a column or row",
+        "C": "A function that rounds a numeric value",
+        "D": "A function that sorts values in a column or row"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sorting values in a column or row allows users to easily identify outliers or discrepancies in the data set, which may indicate data entry errors.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3221"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_07_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression ['a', 'Chemistry', 0, 1][1] evaluates to 0.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression evaluates to 'Chemistry' because it accesses the element at index 1 of the list, which is the second item, not 0.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_07_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function max(list) returns the item with the highest value from the given list.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the max() function in Python 3 is specifically designed to evaluate a list of comparable items and return the one with the highest value based on their natural ordering.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3233"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_07_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The function O(log log N) grows slower than O(log N) and O(N).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function O(log log N) grows slower than O(log N) and O(N) because as N increases, the logarithmic function grows at a much slower rate, and taking the logarithm of a logarithm results in an even slower growth rate.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_07_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The value of the Python expression 4 + 3 % 2 is 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression evaluates to 4 + (3 % 2), which simplifies to 4 + 1, resulting in the final value of 5.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_07_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "\"a\" + \"ab\" in Python 3 produces an error due to incompatible data types.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because in Python 3, the \"+\" operator can concatenate two strings, so \"a\" + \"ab\" results in the string \"aab\" without producing an error.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3203"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_07_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to generate all sublists of a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sub_lists(my_list): | return subs",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly identifies the need for a function that generates sublists by implying the use of a variable to hold the results, although it lacks implementation details to actually compute the sublists.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "859"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_07_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove a specified column from a given nested list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_column(list1, n): | return list1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function named `remove_column` that takes two parameters, a nested list and a column index, but it currently lacks the implementation to actually remove the specified column from the nested list.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "353"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

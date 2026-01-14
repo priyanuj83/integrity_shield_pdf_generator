@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_16",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Metasploit is a widely-used penetration testing framework that simplifies the exploitation of vulnerabilities through its user-friendly interface and extensive library of pre-built exploits, allowing users to perform attacks with minimal technical expertise.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "UNIX operating systems have historically been prone to buffer-overflow vulnerabilities due to their use of C programming, which lacks built-in bounds checking, making it easier for attackers to exploit memory management flaws.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1534
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Weak or non-existent authentication mechanisms are primarily related to security measures at the application and network layers rather than the presentation layer, which focuses on data formatting and representation.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1564
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Buffer-overflow vulnerabilities occur when data exceeds a program's allocated memory boundaries, and without proper boundary checks, these overflows can lead to unintended behavior or security breaches in applications.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A backdoor is a method of bypassing normal authentication or encryption in a system, allowing unauthorized access and control, often disguised as legitimate software or embedded in firmware, making it a hidden threat in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1562
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Merging tables does not inherently prevent SQL injection vulnerabilities; rather, proper input validation and parameterized queries are essential practices for safeguarding against such attacks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1489
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A session symmetric key is designed to provide temporary encryption for a single communication session, enhancing security by ensuring that even if the key is compromised, only that specific session's data is at risk, thereby adhering to the principle of key uniqueness and minimizing potential exposure.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message confidentiality is achieved through encryption techniques that protect the content of communications from unauthorized access, ensuring that only the intended sender and receiver can read the information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "WEP is considered the least secure encryption standard among wireless security protocols due to its weak cryptographic mechanisms, which are vulnerable to multiple attack vectors, allowing unauthorized access and data breaches.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1556
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the dark web consists of encrypted networks that require specific software, configurations, or authorization to access, making it deliberately obscured from standard web browsers and search engines.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1496
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "The SYN stealth scan, also known as half-open scanning, is a technique utilized by Nmap\nthat enables the identification of open ports on a target system without completing the\nTCP handshake. This method operates by sending a SYN packet to the target port; if the\nport is open, the target responds with a SYN-ACK packet, which Nmap can then interpret as\nan indication of an open port. If the port is closed, the target will respond with a RST\npacket. By not completing the handshake, SYN scans evade some intrusion detection systems\nand logging mechanisms, thereby reducing the likelihood of detection during network\nsecurity assessments. This stealthy approach allows penetration testers and security\nanalysts to map out potential vulnerabilities more discreetly, highlighting the importance\nof employing such techniques in thorough vulnerability assessments and the necessity for\nrobust defensive measures against these scanning methods.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the SYN stealth scan's methodology of sending SYN packets to probe ports without completing the TCP handshake, thereby allowing for the detection of open ports while minimizing the chances of detection by intrusion detection systems.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1546
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "The 4-way handshake is a crucial authentication process in wireless networking,\nspecifically within the IEEE 802.11 standard, designed to establish a secure connection\nbetween a client and an access point (AP). This process involves four distinct steps: the\nAP sends a nonce (a random number) to the client, the client responds with its nonce and a\nmessage integrity check (MIC), the AP then validates the client's response, and finally,\nboth parties generate session keys based on the exchanged nonces. The significance of the\n4-way handshake lies in its ability to authenticate devices and establish encryption keys\nthat protect data during transmission, thereby mitigating risks such as unauthorized\naccess and eavesdropping. By ensuring that both the client and AP possess the shared\nsecret (the pre-shared key), the 4-way handshake enhances the overall security of wireless\ncommunications, making it a foundational component of secure wireless networking.",
+      "marks": 10,
+      "explanation": "The answer correctly outlines the 4-way handshake process by detailing each of the four steps involved in establishing a secure connection and emphasizes its significance in ensuring secure communication through the generation of session keys and message integrity checks.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1512
+    }
+  ]
+}

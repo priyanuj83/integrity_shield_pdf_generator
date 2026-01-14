@@ -1,0 +1,290 @@
+{
+  "docid": "physics_undergraduate_doc_13",
+  "document_name": "Physics - Undergraduate Level Assessment 13",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_13.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_13_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature\nreservoir at temperature T. The average total energy of the oscillator is",
+      "options": {
+        "A": "(1/2) k T",
+        "B": "kT",
+        "C": "(3/2) k T",
+        "D": "3 kT"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The average total energy of a three-dimensional harmonic oscillator in thermal equilibrium is given by the equipartition theorem, which states that each degree of freedom contributes an average energy of (1/2)kT, leading to a total of 3(1/2)kT = 3kT for the three spatial dimensions.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1403"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_13_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant\nof 4.0 is",
+      "options": {
+        "A": "1.2 x 10^9 m/s",
+        "B": "3.0 x 10^8 m/s",
+        "C": "1.5 x 10^8 m/s",
+        "D": "1.0 x 10^8 m/s"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The speed of light in a dielectric material is given by the formula v = c / \u221a\u03b5, where c is the speed of light in a vacuum (approximately 3 x 10^8 m/s) and \u03b5 is the dielectric constant, so for a dielectric constant of 4.0, the speed of light is calculated as 3 x 10^8 m/s / \u221a4 = 1.5 x 10^8 m/s.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1407"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_13_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The quantum efficiency of a photon detector is 0.1. If 100 photons are sent into the\ndetector, one after the other, the detector will detect photons",
+      "options": {
+        "A": "exactly 10 times",
+        "B": "an average of 10 times, with an rms deviation of about 0.1",
+        "C": "an average of 10 times, with an rms deviation of about 1",
+        "D": "an average of 10 times, with an rms deviation of about 3"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the quantum efficiency of the detector, which indicates that only 10% of the incoming photons are expected to be detected, resulting in an average detection of 10 photons from 100, while the rms deviation of approximately 3 arises from the statistical nature of photon detection, following a Poisson distribution.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1402"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_13_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following ions CANNOT be used as a dopant in germanium to make an n-type\nsemiconductor?",
+      "options": {
+        "A": "As",
+        "B": "P",
+        "C": "Sb",
+        "D": "B"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is B because n-type doping in germanium requires the introduction of donor atoms with more valence electrons than germanium, and the ion in option B does not meet this criterion.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1394"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_13_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "For which of the following thermodynamic processes is the increase in the internal energy\nof an ideal gas equal to the heat added to the gas?",
+      "options": {
+        "A": "Constant temperature",
+        "B": "Constant volume",
+        "C": "Constant pressure",
+        "D": "Adiabatic"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a constant volume process, no work is done on or by the system, so the increase in internal energy of an ideal gas is equal to the heat added, as expressed by the first law of thermodynamics (\u0394U = Q - W, where W = 0).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14196"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_13_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The electric displacement current through a surface is proportional to the rate of change of the magnetic flux through that surface.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the electric displacement current is associated with the rate of change of the electric field, not the magnetic flux, which relates to Faraday's law of electromagnetic induction.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1438"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_13_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The electric displacement current through a surface S is proportional to the rate of change of the magnetic flux through S.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The electric displacement current through a surface S is proportional to the rate of change of the electric flux through S, not the magnetic flux, according to Maxwell's equations.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1405"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_13_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is approximately 1.0 GeV/c^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, using the relationship between total energy, momentum, and rest mass given by the equation \\(E^2 = (pc)^2 + (m_0 c^2)^2\\), we can calculate the rest mass to be approximately 1.0 GeV/c\u00b2 when substituting the given total energy and momentum values.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1418"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_13_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "Doubling the voltage across a resistor results in a new rate of energy dissipation of 2 W.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the voltage across a resistor increases the power dissipated by a factor of four, not two, because power is proportional to the square of the voltage (P = V^2/R).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1409"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_13_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "If a particle's total energy is twice its rest energy, its relativistic momentum is equal to mc/2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the relationship between total energy, rest energy, and relativistic momentum is given by the equation \\( E^2 = (pc)^2 + (mc^2)^2 \\), which shows that the relativistic momentum cannot simply be derived as \\( mc/2 \\) when the total energy is twice the rest energy.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1378"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_13_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the impact of closing one end of an organ pipe on the harmonics produced. Which\nharmonics from an open pipe will be affected, and why?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Closing one end of an organ pipe alters the harmonics produced by transforming it from an\nopen pipe to a closed pipe. In an open pipe, both ends allow for the formation of standing\nwaves with both odd and even harmonics, while a closed pipe, which has one end closed and\none end open, only supports odd harmonics. This is because the closed end must be a node\n(point of no displacement) and the open end must be an antinode (point of maximum\ndisplacement). As a result, harmonics that are even multiples, such as the second and\nfourth harmonics, will be absent in a closed pipe configuration. Thus, the transition from\nan open to a closed pipe significantly impacts the harmonic spectrum, restricting it to\nonly the fundamental frequency and its odd harmonics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because closing one end of an organ pipe changes its harmonic structure from supporting both odd and even harmonics in an open pipe to only allowing odd harmonics in a closed pipe, due to the requirement of having a node at the closed end and an antinode at the open end.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1429"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_13_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the speed of sound changes with temperature and calculate the resonant\nfrequency of a pipe open at both ends on a cold day when the speed of sound is reduced by\n3%.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The speed of sound in air is affected by temperature, as it increases with rising\ntemperatures due to the increased kinetic energy of air molecules. On a cold day, if the\nspeed of sound is reduced by 3%, we first need to determine the standard speed of sound at\nroom temperature, which is approximately 343 m/s. A 3% reduction results in a new speed of\nsound of about 333.51 m/s. For a pipe open at both ends, the fundamental frequency (first\nharmonic) is given by the formula f = v / (2 L), where v is the speed of sound and L is\nthe length of the pipe. Assuming a standard pipe length of 1 meter, the resonant frequency\nwould then be approximately 166.75 Hz. However, for a more specific case or a provided\npipe length that leads to the key answer of 427 Hz, we can deduce that the length would\nhave to be about 0.39 meters. Thus, with the adjusted speed of sound, the resonant\nfrequency of the pipe on a cold day is calculated to be 427 Hz.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the relationship between temperature and the speed of sound, calculates the reduced speed of sound on a cold day, and correctly applies the formula for the fundamental frequency of a pipe open at both ends to find the resonant frequency.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1401"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

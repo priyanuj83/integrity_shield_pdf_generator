@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(1); B) O(n); C) O($n^2$); D) O(log n)
+\\ \textit{Note:} O($n^2$) is the largest asymptotic notation among the choices because it represents a quadratic growth rate, which increases faster than linear (O(n)) or logarithmic (O(log n)) growth rates as the input size n becomes very large.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) ['Hi!', 'Hi!', 'Hi!', 'Hi!']; B) ['Hi!'] * 4; C) Error; D) None of the above.
+\\ \textit{Note:} The correct answer is ['Hi!', 'Hi!', 'Hi!', 'Hi!'] because the expression ['Hi!'] * 4 in Python creates a new list containing four copies of the original list element.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) sort('ab'); B) sorted('ab'); C) "ab".sort(); D) 1/0
+\\ \textit{Note:} The expression `sorted('ab')` is valid in Python 3.5 because it uses the built-in `sorted()` function to return a list of the characters in the string 'ab' in ascending order.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(log $e^N$); B) O(log N); C) O(log log N); D) O(N)
+\\ \textit{Note:} O(log log N) represents a growth rate that increases very slowly compared to other common functions such as polynomial or exponential functions, making it the slowest-growing type of function among the options provided.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} The correct answer is 4 because the max() function in Python returns the largest element from the list, and in the list [1, 2, 3, 4], the largest number is 4.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the function `cmp()` does not exist; instead, the correct function to determine the count of items in a list is `len()`.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An Internet Protocol (IP) address is assigned to a device to uniquely identify it on a network, enabling communication and data exchange when it connects to the Internet.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the expression "a[i] == max || !(max != a[i])" is logically equivalent to "a[i] == max" rather than simplifying to "a[i] != max."
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The strip() function in Python 3 removes all leading and trailing whitespace characters from a string by default, which confirms that the statement is true.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Negative indexing in Python 3 allows access to characters in a string by counting from the end, so it does not always result in an error.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def tn\_ap(a,n,d): | return tn
+\\ \textit{Note:} The function correctly calculates the t-nth term of an arithmetic progression by utilizing the formula tn = a + (n - 1) * d, where 'a' is the first term, 'n' is the term number, and 'd' is the common difference.
+\item \textbf{Answer:} def adjac(ele, sub = []): | def get\_coordinates(test\_tup): | return (res)
+\\ \textit{Note:} The answer correctly defines a function that utilizes a helper function to generate and return all coordinates that are adjacent to a specified coordinate tuple, demonstrating an understanding of coordinate manipulation in programming.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

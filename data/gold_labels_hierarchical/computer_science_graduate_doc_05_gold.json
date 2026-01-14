@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_05",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The message must be encrypted at the sender site and decrypted at the receiver site to ensure that the data remains secure during transmission and only the intended recipient can access the original message.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1561
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is n^m because each of the m elements in set A can be independently mapped to any of the n elements in set B, resulting in n choices for each of the m elements.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1072
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Encapsulating Security Payload (ESP) is a component of the Internet Protocol Security (IPsec) suite, which is designed to secure Internet Protocol (IP) communications by providing confidentiality, integrity, and authentication.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 100 because the recursive function defines f(x) such that f(4) = 4 * f(3) + 16, and by calculating f(3) through the same process, we find that it ultimately evaluates to 100 after solving the series of recursive calls.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14150
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The access matrix approach can become unwieldy because it requires a potentially large amount of storage to represent all possible combinations of subjects and objects in a system, leading to inefficiencies in management and scalability.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 996
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because MD5 (Message-Digest Algorithm 5) is designed to produce a fixed-length output of 128 bits, regardless of the length of the input message.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1487
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Poor handling of unexpected input is primarily categorized as a business logic or application logic issue rather than a presentation layer issue, as it pertains to how the application processes and responds to user input rather than how that input is displayed.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1564
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The IP Network Browser is an effective tool for performing SNMP enumeration in network management because it provides a user-friendly interface for discovering and managing SNMP-enabled devices on a network, allowing for efficient data collection and analysis.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1501
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A TCP connect scan is considered a full connection scan because it completes the TCP three-way handshake, making it more detectable compared to stealthier scanning techniques such as SYN scans, which do not complete the handshake.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1546
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Windows 7, while it includes various security enhancements, does not completely eliminate buffer-overflow vulnerabilities, as such vulnerabilities can still be exploited by attackers due to inherent limitations in its security architecture.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1534
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def max_sum(arr, n): | return max_sum",
+      "marks": 10,
+      "explanation": "The provided answer is correct because it defines a function that aims to compute the maximum sum of a bi-tonic subsequence in an array, which involves identifying the longest subsequence that first increases and then decreases, leveraging dynamic programming principles to optimize the calculation of the sum.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 245
+    },
+    {
+      "question_id": "computer_science_graduate_doc_05_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def join_tuples(test_list): | return (res)",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to create a function that processes tuples with similar initial elements, implying that the function will aggregate or concatenate these tuples, leading to the return statement indicating the result of this operation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 969
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_13",
+  "document_name": "Mathematics - Undergraduate Level Assessment 13",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_13.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Every integral domain has a field of quotients. Statement 2 | A polynomial\nof degree n over a ring can have at most n zeros counting multiplicity.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is true for Statement 1 because every integral domain allows the construction of a field of quotients that includes all fractions formed from its elements, while Statement 2 is false because a polynomial of degree n can have fewer than n zeros or infinitely many zeros if it is not a polynomial over a field (for instance, in the ring of integers).",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14051"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | The homomorphic image of a cyclic group is cyclic. Statement 2 | The\nhomomorphic image of an Abelian group is Abelian.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are correct because a homomorphism preserves the group structure, ensuring that the image of a cyclic group remains cyclic and the image of an Abelian group retains the commutative property.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "29"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For which value of n are there exactly two abelian groups of order n up to isomorphism?",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of n is 4 because there are exactly two abelian groups of order 4, which are the cyclic group of order 4 (Z/4Z) and the direct product of two cyclic groups of order 2 (Z/2Z \u00d7 Z/2Z), according to the Fundamental Theorem of Finite Abelian Groups.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let f(x, y) = x^3 + y^3 + 3 xy for all real x and y. Then there exist distinct points P\nand Q such that f has a",
+      "options": {
+        "A": "local maximum at P and at Q",
+        "B": "saddle point at P and at Q",
+        "C": "local maximum at P and a saddle point at Q",
+        "D": "local minimum at P and a saddle point at Q"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function f(x, y) = x^3 + y^3 + 3xy exhibits a local maximum at point P and a saddle point at point Q due to the critical points found through setting the gradient to zero, which reveals distinct characteristics of the Hessian matrix's eigenvalues at these points.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1180"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the maximum possible order for an element of S_n for n = 6.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "30",
+        "D": "105"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order of an element in the symmetric group S_n is equal to the least common multiple of the sizes of the cycles in its disjoint cycle decomposition, and for n = 6, the maximum occurs with a 6-cycle, which has an order of 6.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "93"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The polynomial 4 x - 2 is irreducible over the field of rational numbers Q.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial 4x - 2 is irreducible over the field of rational numbers Q because it is a linear polynomial with no rational roots, making it unable to be factored further into polynomials of lower degree with rational coefficients.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "56"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "For any polynomials f(x) and g(x) in R[x], the degree of their product is equal to the maximum of their degrees.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the degree of the product of two polynomials f(x) and g(x) is equal to the sum of their degrees, not the maximum of their degrees, specifically when both polynomials are non-zero.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "48"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The area of an equilateral triangle with an inscribed circle of radius 2 is 16.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The area of an equilateral triangle can be calculated using the formula A = r * s, where r is the radius of the inscribed circle and s is the semi-perimeter, and for a triangle with an inscribed circle of radius 2, the area is actually 12, not 16.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "There are infinitely many homomorphisms from Z into Z_2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "There are only two homomorphisms from Z to Z_2, corresponding to the images of 0 and 1 in Z_2, since any homomorphism must map 1 in Z to an element in Z_2, and the only elements in Z_2 are 0 and 1, leading to a finite number of distinct homomorphisms.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "64"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The integers n that have only one group of order n (up to isomorphism) are 3, 5, 7, and 11.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the integers 3, 5, 7, and 11 are the only prime numbers, and for each prime number n, there exists exactly one group of order n, which is the cyclic group of order n, making them unique up to isomorphism.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1128"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the given system of linear equations and determine whether the statement \"Every\nsolution is a scalar multiple of (-5, 1, 1, 0)\" is true or false. Justify your answer with\ndetailed reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The statement \"Every solution is a scalar multiple of (-5, 1, 1, 0)\" is true if the given\nsystem of linear equations has a solution space that is one-dimensional and spanned by the\nvector (-5, 1, 1, 0). This occurs when the system is consistent and has infinitely many\nsolutions, specifically if the equations are dependent. In such cases, all solutions can\nbe expressed as scalar multiples of a single vector, indicating that the solution set\nforms a line through the origin in the direction of (-5, 1, 1, 0). Thus, if the analysis\nof the system confirms that it is indeed structured in this way, the statement holds true.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because if the system of linear equations is consistent and dependent, it results in a one-dimensional solution space spanned by the vector (-5, 1, 1, 0), meaning all solutions can be expressed as scalar multiples of that vector.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1167"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_13_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of two similar n x n invertible matrices A and B. Analyze how\ntheir similarity affects the matrices A - 2 I, the trace, and the inverses A^-1 and B^-1.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When two n x n invertible matrices A and B are similar, it implies that there exists an\ninvertible matrix P such that B = P^(-1)AP. This similarity has several implications: 1.\nThe matrix A - 2 I is similar to B - 2 I, which means they share the same eigenvalues, and\nthus their spectral properties are preserved. 2. The trace of A, defined as the sum of its\neigenvalues, is equal to the trace of B, reflecting that similar matrices have the same\ntrace regardless of their specific entries. 3. The inverses A^(-1) and B^(-1) are also\nsimilar, as B^(-1) = P^(-1)A^(-1)P, demonstrating that the relationship extends to their\ninverses as well. Thus, the similarity of A and B fundamentally influences not only their\ndirect properties but also those of derived matrices like A - 2 I, their traces, and their\ninverses.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the similarity of two invertible matrices A and B ensures that their transformations, spectral properties, traces, and inverses are related in a consistent manner, demonstrating that similar matrices maintain key characteristics such as eigenvalues and trace.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1130"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

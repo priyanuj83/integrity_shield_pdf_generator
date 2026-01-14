@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_11",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "C and C++ are both low-level programming languages that allow direct memory manipulation, making them particularly susceptible to buffer-overflow vulnerabilities due to inadequate bounds checking.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1521
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Authenticated\" because without proper authentication, a man-in-the-middle attacker can intercept and alter the key exchange process of the Diffie-Hellman method, compromising the confidentiality and integrity of the communication.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1480
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Wireless security refers to the measures and protocols implemented to protect wireless networks from unauthorized access or breaches, making it the correct answer as it directly addresses the anticipation of threats to computers and data transmitted over these networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1537
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Buffer-overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, leading to potential security exploits, which can be prevented by implementing thorough boundary checks to ensure data is properly validated before being processed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The Silk Road was a notorious online marketplace on the Dark Web that became widely known for facilitating the sale of illegal drugs, narcotics, and various other illicit goods.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1495
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The AH Protocol provides data integrity through hashing but does not offer encryption, which means it does not guarantee privacy for the transmitted information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1484
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Buffer overflow vulnerabilities are primarily caused by programming errors, such as improper handling of memory allocation and bounds checking, rather than insufficient processing power.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the TLS/DTLS heartbeat extension, allowing attackers to read more data than intended from the memory of affected servers, thus revealing sensitive information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15631
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, which can cause adjacent memory locations to be overwritten, allowing for unauthorized access to memory not allocated to the pointer.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1506
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Encapsulating Security Payload (ESP) is indeed a protocol within the Internet Protocol Security (IPsec) suite because it provides confidentiality, integrity, and authentication for data packets transmitted over IP networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def no_of_subsequences(arr, k): | return dp[k][n]",
+      "marks": 10,
+      "explanation": "correct because it leverages dynamic programming to efficiently count the subsequences of the given non-negative array whose product is less than the specified threshold k, ultimately storing and retrieving results from a table (dp) that tracks the number of valid subsequences for various products.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 510
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def remove_empty(tuple1): #L = [(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')] | return tuple1",
+      "marks": 10,
+      "explanation": "correct because it defines a function that takes a list of tuples as input and returns only those tuples that are not empty, thereby effectively removing any empty tuples from the list.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 966
+    }
+  ]
+}

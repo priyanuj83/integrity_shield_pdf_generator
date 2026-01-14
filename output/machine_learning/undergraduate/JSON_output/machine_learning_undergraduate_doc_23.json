@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_undergraduate_doc_23",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 23",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_23.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_23.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_23_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_23_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_23_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_23_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the joint probability of H, U, P, and W described by the given\nBayesian Network H -> U <- P <- W? [note: as the product of the conditional probabilities]",
+      "options": {
+        "A": "P(H, U, P, W) = P(H) * P(W) * P(P) * P(U)",
+        "B": "P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P)",
+        "C": "P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P)",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the structure of the Bayesian Network, where the joint probability can be expressed as the product of the marginal probability of H, the marginal probability of W, the conditional probability of P given W, and the conditional probability of U given H and P, reflecting the dependencies and independencies defined by the network.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6876"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The numerical output of a sigmoid node in a neural network:",
+      "options": {
+        "A": "Is unbounded, encompassing all real numbers.",
+        "B": "Is unbounded, encompassing all integers.",
+        "C": "Is bounded between 0 and 1.",
+        "D": "Is bounded between -1 and 1."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sigmoid function, which is used in a sigmoid node, transforms any real-valued input into a value between 0 and 1, thereby bounding its output within this range.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Adding more basis functions in a linear model, pick the most probably option:",
+      "options": {
+        "A": "Decreases model bias",
+        "B": "Decreases estimation bias",
+        "C": "Decreases variance",
+        "D": "Doesn't affect bias and variance"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adding more basis functions in a linear model allows for greater flexibility in capturing the underlying patterns in the data, which reduces the model bias by enabling it to fit the training data more closely.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6880"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sentence is FALSE regarding regression?",
+      "options": {
+        "A": "It relates inputs to outputs.",
+        "B": "It is used for prediction.",
+        "C": "It may be used for interpretation.",
+        "D": "It discovers causal relationships"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because regression analysis identifies relationships between variables but does not establish causation, as correlation does not imply causation.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6870"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which image data augmentation is most common for natural images?",
+      "options": {
+        "A": "random crop and horizontal flip",
+        "B": "random crop and vertical flip",
+        "C": "posterization",
+        "D": "dithering"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Random crop and horizontal flip are commonly used data augmentation techniques in natural images because they effectively increase dataset diversity by allowing models to learn from variations in object positioning and orientation, thus improving generalization.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "15759"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "RoBERTa is pretrained on a corpus that is approximately 10 times larger than the corpus used for BERT's pretraining.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "RoBERTa is pretrained on a dataset that includes over 160GB of text data, significantly more than the 16GB used for BERT's pretraining, which enhances its performance on various natural language processing tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The sigmoid function is the only nonlinear activation function used in deep learning models.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because there are several other nonlinear activation functions used in deep learning models, such as ReLU (Rectified Linear Unit), Tanh, and Leaky ReLU, among others.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Fully connected networks are the preferred architecture for classifying high-resolution images as of 2020.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fully connected networks are generally less efficient for classifying high-resolution images compared to convolutional neural networks (CNNs), which are specifically designed to capture spatial hierarchies and features in images while reducing the number of parameters needed.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "RELU activation functions are monotonic, while sigmoid activation functions are not monotonic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because both RELU (Rectified Linear Unit) and sigmoid activation functions are monotonic; RELU is monotonically increasing, while the sigmoid function is also monotonic but has a bounded range.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Stuart Russell is a prominent professor associated with discussions on existential risks posed by AI.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and raised awareness about the potential existential risks that advanced AI systems may pose to humanity.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6909"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function that matches a string that has an a followed by one or more b's.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def text_match_one(text): | return 'Found a match!'",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is correct because it indicates a successful match for the specified pattern, even though the actual function implementation for matching the string is not included, demonstrating an understanding of the expected output when the condition of having an 'a' followed by one or more 'b's is met.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "434"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to count the number of elements in a list which are within a specific\nrange.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_range_in_list(li, min, max): | return ctr",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the fundamental requirement of defining a function that takes a list and two numerical boundaries, then effectively counts how many elements in the list lie within that specified range.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "700"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

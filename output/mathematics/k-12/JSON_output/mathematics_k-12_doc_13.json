@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_13",
+  "document_name": "Mathematics - K-12 Level Assessment 13",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_13.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_13_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_13_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The polynomial which results from the expansion of $(x^2+5 x+6)^2+(px+q)(x^3+7 x^2+3 x)$\nhas degree $2$. Find $p+q$.",
+      "options": {
+        "A": "-2",
+        "B": "-4",
+        "C": "-1",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial has degree 2 only if the cubic and quadratic terms from the expansion cancel each other out, which occurs when \\( p = -4 \\) and \\( q = 0 \\), leading to \\( p + q = -4 \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4245"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_13_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "How many numbers are in the list $25, 26, 27, \\ldots, 99, 100 ?$",
+      "options": {
+        "A": "75",
+        "B": "76",
+        "C": "22",
+        "D": "23"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 76 because the list includes all integers from 25 to 100, and to find the total count, we can subtract the smallest number from the largest and then add one, resulting in 100 - 25 + 1 = 76.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4308"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_13_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The length of a rectangle is twice its width. Given the length of the diagonal is\n$5\\sqrt{5}$, find the area of the rectangle.",
+      "options": {
+        "A": "2500",
+        "B": "2",
+        "C": "50",
+        "D": "25"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The area of the rectangle is 50 because if the width is $w$, then the length is $2w$, and using the Pythagorean theorem with the diagonal $5\\sqrt{5}$ leads to the equation $(2w)^2 + w^2 = (5\\sqrt{5})^2$, which simplifies to $5w^2 = 125$, giving $w^2 = 25$, and thus the area is $2w \\cdot w = 50$.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_13_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the remainder when 25^1059 is divided by 23.",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "8",
+        "D": "5"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 8 because by applying Fermat's Little Theorem, which states that if p is a prime and a is an integer not divisible by p, then \\( a^{p-1} \\equiv 1 \\mod p \\), we find that \\( 25 \\equiv 2 \\mod 23 \\) and thus \\( 2^{22} \\equiv 1 \\mod 23 \\), allowing us to calculate \\( 25^{1059} \\mod 23 \\) as \\( 2^{1059 \\mod 22} = 2^{17} \\equiv 8 \\mod 23 \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4310"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_13_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The sum $1^2 + 2^2 + 3^2 + 4^2 + \\cdots + n^2 = n(n+1)(2 n+1) \\div 6$. What is the value\nof $21^2 + 22^2 + \\cdots + 40^2$?",
+      "options": {
+        "A": "41",
+        "B": "22140",
+        "C": "19270",
+        "D": "2870"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 19270 because it utilizes the formula for the sum of squares, specifically calculating the sum from 1 to 40 and subtracting the sum from 1 to 20, which yields the total for the squares from 21 to 40.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4412"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_13_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The total number of liters of water in 8 fish tanks, each with 40 liters, is 280 liters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total number of liters of water in 8 fish tanks, each with 40 liters, is actually 320 liters, not 280 liters, since 8 multiplied by 40 equals 320.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_13_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation -2 k = -34.8 is k = -17.4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The solution to the equation -2k = -34.8 is k = 17.4, not k = -17.4, because dividing both sides of the equation by -2 gives a positive result.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "14286"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_13_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The area of a square with sides equal to the radius of a circle with a circumference of 12\u03c0 units is 12 square units.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The area of the square is 36 square units, as the radius of the circle is 6 units (derived from the circumference of 12\u03c0), resulting in a square area of 6\u00b2 = 36.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4452"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_13_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "There are 49 students on the dance team who take tap lessons, which is 4 over 9 of the total 72 students.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because 4 over 9 of 72 students is actually 32 students, not 49.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2439"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_13_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "Sapphire can make 25 bouquets if she uses 7 balloons in each bouquet from her 179 balloons.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sapphire can make 25 bouquets using 7 balloons each because 25 multiplied by 7 equals 175, which is less than her total of 179 balloons.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2418"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_13_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Marshall has 550 words left to type for his English paper, and he has 25 minutes before\nclass starts. Discuss how you would calculate the minimum typing speed needed to complete\nhis task on time.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the minimum typing speed needed for Marshall to complete his English paper on\ntime, we need to determine how many words he must type per minute. He has 550 words to\ntype and 25 minutes available. By dividing the total number of words (550) by the total\ntime in minutes (25), we find that he needs to type at least 22 words per minute. This\nmeans if Marshall types at this speed or faster, he will complete his paper before class\nstarts.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formula for calculating typing speed by dividing the total number of words by the total time available, resulting in a minimum requirement of 22 words per minute to ensure completion on time.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2327"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_13_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of angles in relation to a circle. Specifically, explain how you\ndetermine the measure of an angle that represents 1/360 of a full circle.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In mathematics, an angle in relation to a circle is a measure of how much the circle is\nturned around its center point. A full circle consists of 360 degrees, which means that\neach degree represents 1/360 of the entire circle. To determine the measure of an angle\nthat represents 1/360 of a full circle, we simply recognize that this angle is equal to 1\ndegree. This division of the circle into 360 equal parts allows us to describe angles in a\nstandardized way, making it easier to work with geometric concepts. Thus, an angle\nmeasuring 1/360 of a full circle is precisely 1 degree.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately defines the relationship between angles and circles by stating that a full circle is divided into 360 degrees, thereby establishing that an angle representing 1/360 of a circle is equal to 1 degree.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2162"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

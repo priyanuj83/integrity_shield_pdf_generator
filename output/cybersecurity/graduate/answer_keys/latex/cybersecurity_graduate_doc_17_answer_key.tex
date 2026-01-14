@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Phishing; B) MiTM; C) Buffer-overflow; D) Clickjacking
+\\ \textit{Note:} A buffer overflow attack occurs when a cyber-criminal exploits a vulnerability in a program's memory management by overrunning a buffer's boundary, allowing them to inject malicious instructions that can compromise the system's integrity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) To identify live systems; B) To locate live systems; C) To identify open ports; D) To locate firewalls
+\\ \textit{Note:} A ping sweep is used to identify live systems by sending ICMP echo requests to a range of IP addresses to determine which hosts are responsive and active on a network.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Active, inactive, standby; B) Open, half-open, closed; C) Open, filtered, unfiltered; D) Active, closed, unused
+\\ \textit{Note:} The correct answer is "Open, filtered, unfiltered" because these terms represent the three primary states that Nmap assigns to ports based on its scanning results, indicating whether a port is accepting connections, being blocked by a firewall, or is accessible without filtering, respectively.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) C, Ruby; B) Python, Ruby; C) C, C++; D) Tcl, C\#
+\\ \textit{Note:} C and C++ are low-level programming languages that allow direct memory manipulation without built-in bounds checking, making them susceptible to buffer-overflow errors.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Yes, if the PRG is really "secure"; B) No, there are no ciphers with perfect secrecy; C) Yes, every cipher has perfect secrecy; D) No, since the key is shorter than the message
+\\ \textit{Note:} A stream cipher cannot achieve perfect secrecy because perfect secrecy requires the key to be at least as long as the message and completely random, which is not the case when the key is shorter than the message.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a stack operates on a last-in, first-out (LIFO) principle, which does not allow for random access like a buffer does, as data can only be accessed in the order it was added.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the four primary security principles related to messages are confidentiality, integrity, availability, and non-repudiation, with access control being a separate concept that supports these principles.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because wireless access specifically pertains to connecting devices to a network without physical cables, while the description provided refers to wired network connections.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authorization is primarily concerned with determining what actions or resources a user is permitted to access after their identity has been established through authentication, rather than focusing on identifying the user as an attacker.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because C and C++ do not automatically perform boundary checks on arrays and buffers, allowing developers to inadvertently write data beyond the allocated memory, which can lead to buffer overflow vulnerabilities.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def occurance\_substring(text,pattern): | return (text[s:e], s, e)
+\\ \textit{Note:} The answer correctly defines a function that identifies the starting (s) and ending (e) indices of a substring (pattern) within a larger string (text) and returns both the substring and its positions, which is essential for substring searching techniques relevant in cybersecurity applications.
+\item \textbf{Answer:} def parabola\_directrix(a, b, c): | return directrix
+\\ \textit{Note:} The provided answer is correct because it outlines the creation of a function named `parabola\_directrix` that is intended to calculate and return the directrix of a parabola based on its coefficients, aligning with the mathematical principles governing parabolas in the context of quadratic equations.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

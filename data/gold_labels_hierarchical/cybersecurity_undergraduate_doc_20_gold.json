@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_20",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "An SMS Trojan is a type of malware that exploits vulnerabilities in mobile phones to send unauthorized text messages, often leading to unexpected charges on the user's phone bill.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1569
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Escaping queries is essential in preventing SQL injection because it ensures that user input is treated as data rather than executable code, thus mitigating the risk of unauthorized SQL commands being executed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1489
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"Receiver\" because message confidentiality ensures that only the intended recipient can understand the transmitted information, thereby protecting it from unauthorized access or interception.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Wireshark is a widely used network protocol analyzer that captures and displays packet data in real-time, making it an essential tool for wireless traffic sniffing in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Receiver site\" because encryption ensures that only the intended recipient, who possesses the decryption key, can access the original message, thereby maintaining confidentiality and data integrity during transmission.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1561
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A hash function does not guarantee that a message has not been replaced with an identical message during transmission, as it is possible for two different messages to produce the same hash value, a phenomenon known as a hash collision.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14209
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Authentication is primarily concerned with verifying a user's identity through credentials such as passwords or biometric data, rather than restricting access based on user behavior and actions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14206
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over wireless networks, which is essential for identifying security vulnerabilities, monitoring network performance, and conducting forensic investigations.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14212
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "All of the listed authentication methods\u2014secret questions, biometrics, and SMS codes\u2014are recognized as valid techniques for verifying user identity in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1505
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Cotton Road was not primarily focused on counterfeit clothing but rather facilitated the illegal trade of a variety of goods, including drugs and hacking services, on the Dark Web.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1495
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def count_X(tup, x): | return count",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that takes a tuple and an element as parameters and implies the use of a counting mechanism to determine the occurrences of the specified element within the tuple, which is essential for data analysis in cybersecurity contexts.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 250
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def max_sum_subseq(A): | return A[0] | return look_up[n - 1]",
+      "marks": 10,
+      "explanation": "correct because it identifies the need to consider non-adjacent elements in the array by implementing a dynamic programming approach, where the maximum sum is calculated based on previous maximum sums while ensuring that adjacent elements are not included in the sum.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 895
+    }
+  ]
+}

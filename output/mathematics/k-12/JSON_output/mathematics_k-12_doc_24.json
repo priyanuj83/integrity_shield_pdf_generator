@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_24",
+  "document_name": "Mathematics - K-12 Level Assessment 24",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_24.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_24_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How many distinct diagonals of a convex hexagon can be drawn?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "36"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 9 because a convex hexagon has 6 vertices, and the formula for calculating the number of diagonals in a polygon is n(n-3)/2, where n is the number of vertices, so for a hexagon, it is 6(6-3)/2 = 9.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4383"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the value of the expression 14 + (-71).",
+      "options": {
+        "A": "-85",
+        "B": "57",
+        "C": "85",
+        "D": "-57"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 57 because adding a positive number (14) to a negative number (-71) effectively subtracts the absolute value of the negative number from the positive number, resulting in 14 - 71 = -57, which indicates a misunderstanding of the expression, as the correct addition of the absolute values should lead to a total of 57, when interpreted as 14 + 71.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2331"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The original price of a new bicycle is $138.00. If the bicycle is marked down 15%, what is\nthe new price?",
+      "options": {
+        "A": "$20.70",
+        "B": "$117.30",
+        "C": "$123.00",
+        "D": "$153.00"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The new price of the bicycle is calculated by subtracting 15% of the original price ($138.00), which is $20.70, resulting in a final price of $117.30.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2339"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Suppose $a$, $b,$ and $c$ are positive numbers satisfying $a^2/b = 1, b^2/c = 2, c^2/a =\n3$. Find $a$.",
+      "options": {
+        "A": "12^(1/7)",
+        "B": "7^(1/12)",
+        "C": "1",
+        "D": "6"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer \\( a = 12^{1/7} \\) is correct because solving the system of equations derived from \\( \\frac{a^2}{b} = 1 \\), \\( \\frac{b^2}{c} = 2 \\), and \\( \\frac{c^2}{a} = 3 \\) leads to the conclusion that \\( a^7 = 12 \\) when substituting and manipulating the variables accordingly.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4341"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_24_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Roya paid $48 for 12 cartons of orange juice. What is the unit rate per carton of orange\njuice that Roya paid?",
+      "options": {
+        "A": "$3",
+        "B": "$4",
+        "C": "$6",
+        "D": "$12"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The unit rate per carton of orange juice is calculated by dividing the total cost of $48 by the number of cartons, which is 12, resulting in a cost of $4 per carton.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2373"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The number 336 is a powerful number, as it has prime factors that do not need to meet the square factor condition.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a powerful number requires that for every prime factor in its factorization, the exponent must be at least 2, which is not the case for 336.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4230"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The maximum value of the function f(x) = xe^{-x} is e.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum value of the function f(x) = xe^{-x} occurs at x = 1, where f(1) = 1/e, which is less than e.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4467"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The quotient of the expression 2,314 divided by 4 is 578 with a remainder of 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When 2,314 is divided by 4, the quotient is indeed 578, and the remainder is 2, since 4 times 578 equals 2,312, leaving a remainder of 2 when subtracted from 2,314.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2092"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation -47 = g + 24 is g = -23.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when you isolate g in the equation -47 = g + 24 by subtracting 24 from both sides, you find that g equals -23.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2293"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_24_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The value of the expression 28 x 42 is 1,176.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of the expression 28 x 42 is 1,176 because when you multiply 28 by 42, the product equals 1,176.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_24_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of finding all arithmetic sequences of consecutive odd integers that\nsum to 240. How many such sequences exist, and what methods did you use to determine this?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find all arithmetic sequences of consecutive odd integers that sum to 240, we start by\nletting the first term of the sequence be represented as \\( a \\) and the number of terms\nas \\( n \\). The sum of the sequence can be expressed as \\( S = \\frac{n}{2} \\times (2 a +\n(n-1) \\times 2) = n(a + n - 1) \\). Setting this equal to 240 gives us the equation \\( n(2\na + n - 1) = 240 \\). By analyzing the factors of 240, we find possible values for \\( n \\)\nand subsequently determine the corresponding values for \\( a \\). After testing these\ncombinations, we find that there are 12 valid sequences of consecutive odd integers that\nsum to 240. Thus, the final answer is that there are 12 such sequences.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it systematically uses the formula for the sum of an arithmetic sequence to relate the number of terms and the first term to the target sum, allowing for the exploration of factors of 240 to find all valid sequences of consecutive odd integers.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_24_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate how many unique committees of 5 can be formed from a group of 15 people. Explain\nyour reasoning and the mathematical principles involved in your solution.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the number of unique committees of 5 that can be formed from a group of 15\npeople, we use the concept of combinations, since the order of selection does not matter.\nThe formula for combinations is given by C(n, r) = n! / (r!(n - r)!), where n is the total\nnumber of items to choose from, r is the number of items to choose, and \"!\" denotes\nfactorial. Here, n is 15 and r is 5, so we calculate C(15, 5) = 15! / (5!(15 - 5)!) = 15!\n/ (5!10!) = 3,003. Therefore, there are 3,003 unique committees of 5 that can be formed\nfrom the group of 15 people.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formula for combinations to determine the number of ways to select a group of 5 people from a total of 15, recognizing that the order of selection is irrelevant.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4390"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

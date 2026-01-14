@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_11",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 11",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_11.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The term \"cohort\" refers to",
+      "options": {
+        "A": "An individual's chronological age",
+        "B": "A generation of people who lived through major events",
+        "C": "A person's gender",
+        "D": "A group of people living in the same culture"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The term \"cohort\" correctly refers to a generation of people who lived through major events because it is often used in health sciences and social sciences to analyze the shared experiences and outcomes of specific groups defined by their time of birth or life events.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6177"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Macrostomia results from failure of fusion of",
+      "options": {
+        "A": "maxillary and mandibular processes.",
+        "B": "left and right mandibular processes.",
+        "C": "maxillary and frontonasal processes.",
+        "D": "mandibular and hyoid arches."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Macrostomia occurs when there is a failure of fusion between the maxillary and mandibular processes during embryonic development, leading to an abnormally wide mouth.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "198"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Centenarians are people who",
+      "options": {
+        "A": "Were born before the centennial",
+        "B": "Study old age and older adults",
+        "C": "Are 100 or more years old",
+        "D": "Have not yet reached old age"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the definition of centenarians, which specifically refers to individuals who have reached the age of 100 years or older.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6139"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Female sterilization inhibits _________ production.",
+      "options": {
+        "A": "egg",
+        "B": "estrogen",
+        "C": "progesterone",
+        "D": "none of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Female sterilization is a surgical procedure that prevents pregnancy by blocking the fallopian tubes, which does not directly affect the production of hormones or gametes, thus making \"none of the above\" the correct answer.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6427"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The current testing policy of the Centers for Disease Control and the World Health\nOrganization is:",
+      "options": {
+        "A": "\"Opt-in\"",
+        "B": "\"Opt-out\"",
+        "C": "Mandatory testing of prisoners",
+        "D": "Mandatory testing of high-risk groups"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The \"opt-out\" testing policy allows individuals to be tested for certain diseases unless they explicitly decline, reflecting a proactive public health strategy endorsed by the Centers for Disease Control and the World Health Organization to increase early detection and control of diseases.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13814"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Omega-3 fatty acids have been shown to significantly reduce the risk of some cancers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Current research does not provide sufficient evidence to conclusively support that omega-3 fatty acids significantly reduce the risk of certain cancers, as the results of various studies have been inconsistent.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "It is not necessary for participants to provide consent if they are honest about their information.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Participants must provide informed consent regardless of their honesty, as ethical guidelines in health sciences require that individuals understand and agree to the use of their information before participating in research.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The frequency of AABBCC individuals from a mating of two AaBbCc individuals is 1.0/64.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the probability of producing AABBCC individuals from AaBbCc parents involves calculating the individual probabilities for each allele combination, leading to a combined probability of 1/64 when considering the independent assortment of alleles during gamete formation.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7300"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Breastfeeding alone does not affect the risk of perinatal transmission of HIV-1 infection regardless of feeding practices.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Breastfeeding can significantly affect the risk of perinatal transmission of HIV-1 infection, as the virus can be present in breast milk, thus increasing the likelihood of transmission when breastfeeding is practiced without any additional interventions.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13761"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Astroviruses are primarily recognized as significant enteric viruses due to their ability to infect a wide range of domestic animals.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Astroviruses are primarily recognized as significant enteric viruses in humans rather than in a wide range of domestic animals, as their primary impact is associated with causing gastroenteritis in humans, particularly in children.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13726"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the perspectives of First Nations populations towards gay men, lesbians, and\nindividuals in cross-gender roles prior to European contact, emphasizing the cultural\nsignificance of respect and admiration.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Prior to European contact, many First Nations populations held diverse and nuanced\nperspectives towards gay men, lesbians, and individuals in cross-gender roles, often\ncharacterized by respect and admiration. These societies frequently recognized the\nfluidity of gender and sexual identity, valuing individuals who embodied both masculine\nand feminine traits as possessing unique spiritual insights and roles within the\ncommunity. For instance, Two-Spirit individuals were celebrated for their dual\nperspectives and were often entrusted with important cultural and ceremonial\nresponsibilities. This cultural significance fostered an environment where diversity in\ngender and sexual orientation was not only accepted but revered, contrasting sharply with\nthe later colonial attitudes that sought to suppress such expressions of identity.\nUltimately, the respect and admiration for these individuals enriched the social fabric\nand spiritual life of First Nations communities.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately highlights the cultural recognition of gender and sexual diversity among First Nations populations, particularly the respect afforded to Two-Spirit individuals, indicating their valued spiritual and social roles within these communities prior to European contact.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "14727"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_11_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the morphological characteristics of filoviruses, emphasizing their structural\ncomposition and the implications for their pathogenicity in health sciences.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Filoviruses, which include notable pathogens such as Ebola and Marburg viruses, exhibit\ndistinct morphological characteristics that are crucial to their pathogenicity. These\nviruses are enveloped and have a filamentous shape, but they can also display an\nicosahedral virion structure at times. The envelope is composed of a lipid bilayer derived\nfrom the host cell membrane, embedded with glycoproteins that play a significant role in\nviral entry and immune evasion. The filamentous form increases the surface area for\ninteraction with host cells, enhancing infectivity and virulence. Understanding these\nstructural components is vital in health sciences as it informs vaccine development and\ntherapeutic strategies against filoviral infections.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the unique filamentous morphology and structural composition of filoviruses, including their lipid envelope and glycoproteins, which are critical for understanding their mechanisms of pathogenicity and interaction with host immune systems.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "13786"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

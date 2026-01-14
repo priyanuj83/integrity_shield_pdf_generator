@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_09",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 9",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_09.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the rank of the following matrix? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The rank of the matrix A is 1 because all of its rows are identical, indicating that they span only a single dimension in the vector space.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6857"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "_ refers to a model that can neither model the training data nor generalize to new data.",
+      "options": {
+        "A": "good fitting",
+        "B": "overfitting",
+        "C": "underfitting",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6846"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the\nMaximum A Posteriori (MAP) estimate is ________",
+      "options": {
+        "A": "higher",
+        "B": "same",
+        "C": "lower",
+        "D": "it could be any of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because MAP incorporates prior information, which regularizes the estimation and reduces uncertainty in the parameter estimates.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14786"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Existential risks posed by AI are most commonly associated with which of the following\nprofessors?",
+      "options": {
+        "A": "Nando de Frietas",
+        "B": "Yann LeCun",
+        "C": "Stuart Russell",
+        "D": "Jitendra Malik"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and written about the potential existential risks associated with advanced AI systems, making him a prominent authority on the subject.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6909"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The numerical output of a sigmoid node in a neural network:",
+      "options": {
+        "A": "Is unbounded, encompassing all real numbers.",
+        "B": "Is unbounded, encompassing all integers.",
+        "C": "Is bounded between 0 and 1.",
+        "D": "Is bounded between -1 and 1."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sigmoid function, defined as \\( \\sigma(x) = \\frac{1}{1 + e^{-x}} \\), transforms any real-valued input into a value strictly between 0 and 1, making its output bounded within this range.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "To calculate P(H|E, F), the sufficient numbers are P(E, F), P(H), and P(E, F|H).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because P(H|E, F) can be calculated using Bayes' theorem, which requires P(E, F), P(H), and P(E, F|H) to derive the conditional probability of H given E and F.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6893"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Bayesian network H -> U <- P <- W requires only 4 independent parameters to fully specify its conditional probabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the Bayesian network H -> U <- P <- W involves three nodes with dependencies that require more than four independent parameters to fully specify the conditional probabilities, as each node's distribution depends on its parents\u2019 states.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6843"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The ResNet-50 model contains over 1 billion parameters, making it one of the largest neural networks available.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ResNet-50 model contains approximately 23 million parameters, which is significantly fewer than 1 billion, thus categorizing it as a relatively smaller neural network compared to others in the field.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6907"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Ridge regression is preferred for feature selection as it can identify and eliminate less important features from the model.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ridge regression does not perform feature selection by eliminating less important features; instead, it shrinks the coefficients of all features towards zero but retains all of them in the model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6926"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The models obtained from best-subset selection and forward stepwise selection are always identical to each other.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because best-subset selection evaluates all possible combinations of predictors to find the best model, while forward stepwise selection only adds predictors incrementally based on their individual contributions, which can lead to different models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6864"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether all the bits are unset in the given range or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def all_Bits_Set_In_The_Given_Range(n,l,r): | return True | return False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is incorrect because it lacks the necessary logic to actually check if all bits are unset in the given range and simply returns True and False without evaluating the conditions based on the input parameters.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check if the given expression is balanced or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_expression(exp): | return False | return False | return False | return not stack",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function that checks for balanced expressions by utilizing a stack data structure, ensuring that for every opening symbol there is a corresponding closing symbol, and returns a boolean indicating whether the expression is balanced.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "771"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

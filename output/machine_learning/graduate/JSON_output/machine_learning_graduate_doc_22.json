@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_graduate_doc_22",
+  "document_name": "Machine Learning - Graduate Level Assessment 22",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_22.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If your training loss increases with number of epochs, which of the following could be a\npossible issue with the learning process?",
+      "options": {
+        "A": "Regularization is too low and model is overfitting",
+        "B": "Regularization is too high and model is underfitting",
+        "C": "Step size is too large",
+        "D": "Step size is too small"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A large step size can cause the model to overshoot the optimal solution during training, leading to increased training loss as the model fails to converge effectively.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6900"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The BLEU metric uses precision, while the ROGUE metric uses recall. Statement\n2| Hidden markov models were frequently used to model English sentences.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the BLEU metric indeed relies on precision to evaluate machine translation quality, the ROGUE metric focuses on recall for summarization tasks, and Hidden Markov Models have historically been applied to model the sequential nature of English sentences in various natural language processing applications.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6924"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the dimensionality of the null space of the following matrix? A = [[3, 2, -9],\n[-6, -4, 18], [12, 8, -36]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimensionality of the null space of matrix A is 2 because the rank of the matrix is 1, leading to a nullity of 2 as determined by the Rank-Nullity Theorem.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6897"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Highway networks were introduced after ResNets and eschew max pooling in\nfavor of convolutions. Statement 2| DenseNets usually cost more memory than ResNets.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Highway networks are indeed introduced before ResNets and utilize learned gating mechanisms instead of max pooling, making Statement 1 false, while DenseNets typically require more memory due to their dense connectivity patterns, making Statement 2 true.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6884"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the joint probability of H, U, P, and W described by the given\nBayesian Network H -> U <- P <- W? [note: as the product of the conditional probabilities]",
+      "options": {
+        "A": "P(H, U, P, W) = P(H) * P(W) * P(P) * P(U)",
+        "B": "P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P)",
+        "C": "P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P)",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the structure of the Bayesian Network, where the joint probability is calculated by multiplying the prior probability of each root node and the conditional probabilities of each child node given its parents, which in this case leads to P(H) * P(W) * P(P | W) * P(U | H, P).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6876"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The convergence of a neural network is significantly influenced by the learning rate chosen during training.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The learning rate determines the size of the steps taken during optimization, which directly affects how quickly and effectively a neural network converges to a minimum in the loss function, making it a critical factor in successful training.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Only 7 independent parameters are needed for the Bayesian network if independence assumptions are ignored.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Bayesian networks can require more than seven independent parameters, as the complexity and number of variables in the network can lead to an exponential increase in the number of parameters needed to accurately represent the joint distribution, even when independence assumptions are disregarded.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6881"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "High entropy indicates that the partitions in classification are not pure, reflecting greater uncertainty in the data distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "High entropy signifies a high level of disorder or uncertainty in a dataset, indicating that the data points are distributed across multiple classes rather than being concentrated in a single class, which results in impure partitions in classification tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6849"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The original ResNet employs self-attention mechanisms similar to those found in Transformers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The original ResNet architecture is based on convolutional neural networks and employs residual connections, while self-attention mechanisms, which are characteristic of Transformers, are not utilized in ResNet's design.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The joint probability P(A, B, C) can be expressed as P(A | B) * P(B | C) * P(C | A) without any independence assumptions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the joint probability P(A, B, C) is defined as P(A | B, C) * P(B | C) * P(C), and the proposed expression does not account for the necessary dependencies between the variables.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function that matches a word at the beginning of a string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def text_match_string(text): | return 'Found a match!' | return 'Not matched!'",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly identifies whether a specified word appears at the beginning of the input string by utilizing conditional logic to return a corresponding match status message.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "44"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to locate the left insertion point for a specified value in sorted order.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def left_insertion(a, x): | return i",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function designed to find the index at which a specified value can be inserted into a sorted array without disrupting the order, which is essential for maintaining the properties of sorted data structures in machine learning algorithms.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "736"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

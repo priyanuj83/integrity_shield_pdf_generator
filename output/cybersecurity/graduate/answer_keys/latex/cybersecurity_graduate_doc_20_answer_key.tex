@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 20 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Message Condentiality; B) Message Integrity; C) Message Splashing; D) Message Sending
+\\ \textit{Note:} Message authentication ensures that a message has not only been delivered without alteration but also verifies the identity of the sender, making it a service that encompasses and extends beyond the concept of message integrity, which only confirms that the message content is unmodified.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Freenet; B) ARPANET; C) Stuxnet; D) Internet
+\\ \textit{Note:} Freenet is designed specifically to facilitate anonymous file sharing and communication, making it a key component of the darknet focused on privacy and security.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Authentication; B) Integrity; C) Privacy; D) All of the above
+\\ \textit{Note:} Integrity refers to the accuracy and completeness of data, which encryption and decryption do not inherently provide, as they primarily focus on protecting data from unauthorized access rather than ensuring that the data remains unaltered.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Secure Socket Layer Protocol; B) Secure IP Protocol; C) Secure Http Protocol; D) Transport Layer Security Protocol
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is part of the Internet Protocol Security (IPsec) suite, which provides confidentiality, authentication, and integrity for IP packets, thereby categorizing it under the Secure IP Protocol.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Replaced; B) Overview; C) Changed; D) Violated
+\\ \textit{Note:} A hash function produces a unique fixed-size string from input data, allowing for the verification of integrity by detecting any alterations in the original message, thus ensuring it has not been changed.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow occurs when a program writes more data to a block of memory, or buffer, than it was allocated, allowing a pointer to access adjacent memory locations, which can corrupt data and create vulnerabilities that can be exploited by attackers.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} This statement is false because secure forms of authentication in modern cybersecurity practices also include password-based methods, token-based systems, and multi-factor authentication, all of which can be effective in ensuring security beyond just biometric methods.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Correctness is not typically classified as a fundamental security property in cybersecurity; the primary properties are confidentiality, integrity, and availability, often referred to as the CIA triad.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The AH Protocol provides data integrity through authentication but does not ensure privacy since it does not encrypt the data packets, leaving their content exposed during transmission.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A packet filter firewall operates at the network layer, evaluating data packets based on IP addresses and port numbers rather than specific application protocols at the application or transport layer.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def round\_and\_sum(list 1): | return round\_and\_sum
+\\ \textit{Note:} The answer correctly identifies the need for a function that processes a list by rounding each number, but fails to provide the complete implementation needed to achieve the summation and multiplication by the list's length.
+\item \textbf{Answer:} def is\_lower(string): | return (string.lower())
+\\ \textit{Note:} correct because the function utilizes Python's built-in `lower()` method to convert all characters in the provided string to their lowercase equivalents, effectively achieving the goal of the question.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

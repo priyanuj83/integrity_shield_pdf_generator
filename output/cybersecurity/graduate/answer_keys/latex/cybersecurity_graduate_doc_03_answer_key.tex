@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 3 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Shared key; B) LEAP; C) TKIP; D) AES
+\\ \textit{Note:} WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as its encryption method to enhance the security of wireless networks by dynamically generating a new key for each data packet, addressing vulnerabilities present in the earlier WEP (Wired Equivalent Privacy) protocol.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Escape queries; B) Interrupt requests; C) Merge tables; D) All of the above
+\\ \textit{Note:} Escaping queries is essential in preventing SQL injection because it ensures that user inputs are treated as data rather than executable code, thereby thwarting potential malicious SQL commands from being executed in the database.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a method that allows unauthorized access to a computer system by circumventing security measures, often remaining untraceable to the system's legitimate users.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) crypter; B) virus; C) backdoor; D) key-logger
+\\ \textit{Note:} A backdoor is a method of bypassing normal authentication or security measures in a computer system, allowing unauthorized access to the system while often remaining unnoticed, which aligns with the description of being a hidden or disguised part of a program.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authentication aims to determine who the user is by verifying their identity through various methods, ensuring that access to systems and data is granted only to legitimate users.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because common types of scanning in cybersecurity are typically categorized into vulnerability scanning, port scanning, and network mapping, rather than specifically distinguishing between server scanning, client scanning, and network scanning.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} MD 5 generates a message digest that is 128 bits long, not 160 bits.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow on the stack typically allows for the modification of local variables or return addresses but does not inherently enable direct modification of the instruction pointer register to execute arbitrary code without additional vulnerabilities or conditions being exploited.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The IP Network Browser is indeed a tool used in network security assessments for performing SNMP enumeration, as it allows security professionals to discover devices and gather information about their configurations and services through the Simple Network Management Protocol (SNMP).
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because in a one-time pad encryption scheme, the key k can be derived from the original message m and the ciphertext c through the operation k = m xor c, which allows for the retrieval of the key used in the encryption process.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def longest\_common\_subsequence(X, Y, m, n): | return 0 | return 1 + longest\_common\_subsequence(X, Y, m-1, n-1) | return max(longest\_common\_subsequence(X, Y, m, n-1), longest\_common\_subsequence(X, Y, m-1, n))
+\\ \textit{Note:} The provided function correctly implements a recursive approach to find the longest common subsequence by considering three cases: when the last characters of both sequences match, when the last character of the first sequence does not match, and when the last character of the second sequence does not match, ensuring all possible subsequences are evaluated.
+\item \textbf{Answer:} def count\_unset\_bits(n): | return count
+\\ \textit{Note:} correct because it outlines a function that will iterate through the binary representation of the number 'n' to count and return the total number of unset (zero) bits, which is a fundamental operation in binary manipulation relevant to cybersecurity.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_undergraduate_doc_11",
+  "document_name": "Computer Science - Undergraduate Level Assessment 11",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_11.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which types of functions grow the slowest?",
+      "options": {
+        "A": "O(log e^N)",
+        "B": "O(log N)",
+        "C": "O(log log N)",
+        "D": "O(N)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function O(log log N) represents an extremely slow growth rate compared to other common functions such as polynomial, exponential, and even logarithmic functions, making it the slowest growing type among the options typically considered in algorithm complexity analysis.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Church's thesis equates the concept of \"computable function\" with those functions\ncomputable by, for example, Turing machines. Which of the following is true of Church's\nthesis?",
+      "options": {
+        "A": "It was first proven by Alan Turing.",
+        "B": "It has not yet been proven, but finding a proof is a subject of active research.",
+        "C": "It can never be proven.",
+        "D": "It is now in doubt because of the advent of parallel computers."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Church's thesis, also known as the Church-Turing thesis, asserts that any function that can be intuitively considered computable can be computed by a Turing machine, but it cannot be proven as it is a statement about the nature of computability rather than a theorem that can be formally verified.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14151"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is",
+      "options": {
+        "A": "53",
+        "B": "29",
+        "C": "50",
+        "D": "100"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of f(4) is 100 because the recursive function evaluates as f(4) = 4 * f(3) + 16, f(3) = 3 * f(2) + 9, f(2) = 2 * f(1) + 4, and f(1) = 0, leading to the final calculation f(4) = 4 * (3 * (2 * 0 + 4) + 9) + 16 = 100.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of \"abc\"[::-1] in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "abc",
+        "C": "cba",
+        "D": "c"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The output of \"abc\"[::-1] in Python 3 is \"cba\" because the slicing notation with a step of -1 reverses the string by starting from the end and moving to the beginning.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "15675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The boolean expression a[i] == max || !(max != a[i]) can be simplified to",
+      "options": {
+        "A": "a[i] == max",
+        "B": "a[i] != max",
+        "C": "a[i] < max || a[i] > max",
+        "D": "FALSE"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression !(max != a[i]) is logically equivalent to a[i] == max, making the entire boolean expression reducible to just a[i] == max.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the element at index 1 of the list ['a', 'Chemistry', 0, 1] is 'Chemistry'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is indeed 'Chemistry'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Confidentiality is compromised when someone logs into a system using a stolen login and password.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because confidentiality is not compromised solely by the act of logging in with stolen credentials; it is the unauthorized access and subsequent exposure of sensitive information that constitutes a breach of confidentiality.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Reference counting is not effective for reclaiming cyclic structures due to its inability to detect circular references.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reference counting cannot reclaim cyclic structures because it only tracks the number of references to an object, failing to recognize when objects are mutually referencing each other, thus preventing their reference counts from ever reaching zero.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14152"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The method 'ab'.sort() can be used to sort the characters in the string 'ab' in place.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The method 'ab'.sort() is false because strings in Python are immutable, meaning they cannot be modified in place, and thus do not have a sort() method.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Static allocation is sufficient for managing the memory of recursive procedures without any issues.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Static allocation does not accommodate the dynamic nature of recursive calls, which can lead to issues such as stack overflow and insufficient memory management for variable storage during multiple recursive invocations.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1059"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether a sequence of numbers has an increasing trend or\nnot.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def increasing_trend(nums): | return True | return False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to evaluate a sequence of numbers for an increasing trend, but it lacks the necessary logic to compare the elements of the sequence and determine if each subsequent number is greater than the previous one, which is essential for accurately implementing the function.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "680"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check if the given tuple has any none value or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_none(test_tup): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that is expected to evaluate the elements of a tuple for the presence of any `None` values, although the implementation details are incomplete and need to be filled in to provide the actual logic for checking.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "744"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

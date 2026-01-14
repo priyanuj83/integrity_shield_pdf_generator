@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_11",
+  "document_name": "Physics - Undergraduate Level Assessment 11",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_11.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_11_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which\nof the following properties?",
+      "options": {
+        "A": "Magnetic susceptibility",
+        "B": "Hall coefficient",
+        "C": "Electrical resistivity",
+        "D": "Thermal conductivity"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Hall coefficient indicates the nature of charge carriers in a doped semiconductor by determining whether they are positive (holes) or negative (electrons) based on the direction of the induced voltage in a magnetic field.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_11_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A single-electron atom has the electron in the l = 2 state. The number of allowed values\nof the quantum number m_l is",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The quantum number m_l can take on values ranging from -l to +l, inclusive, so for l = 2, the possible values of m_l are -2, -1, 0, +1, and +2, resulting in a total of 5 allowed values.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1451"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_11_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A rod measures 1.00 m in its rest system. How fast must an observer move parallel to the\nrod to measure its length to be 0.80 m?",
+      "options": {
+        "A": "0.50 c",
+        "B": "0.60 c",
+        "C": "0.70 c",
+        "D": "0.80 c"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0.60 c because, according to the principles of special relativity, length contraction occurs for an object moving relative to an observer, and the relationship between the proper length (1.00 m) and the contracted length (0.80 m) can be calculated using the formula L = L0\u221a(1 - v\u00b2/c\u00b2), which yields v = 0.60 c.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1396"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_11_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "De Broglie hypothesized that the linear momentum and wavelength of a free massive particle\nare related by which of the following constants?",
+      "options": {
+        "A": "Planck's constant",
+        "B": "Boltzmann's constant",
+        "C": "The Rydberg constant",
+        "D": "The speed of light"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "De Broglie's hypothesis states that a particle's wavelength is inversely proportional to its momentum, with Planck's constant serving as the proportionality factor, establishing the fundamental relationship between wave and particle properties in quantum mechanics.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_11_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A refracting telescope consists of two converging lenses separated by 100 cm. The eye-\npiece lens has a focal length of 20 cm. The angular magnification of the telescope is",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "20"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a refracting telescope is given by the formula M = -f_o / f_e, where f_o is the focal length of the objective lens and f_e is the focal length of the eyepiece; with the eyepiece lens having a focal length of 20 cm and the objective lens having a focal length of 80 cm (derived from the total separation of 100 cm), the magnification calculates to 4.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15623"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_11_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Fermions have antisymmetric wave functions and obey the Pauli exclusion principle.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fermions are particles that have half-integer spin and, according to the principles of quantum mechanics, their wave functions must be antisymmetric under the exchange of two identical fermions, which leads to the Pauli exclusion principle that states no two fermions can occupy the same quantum state simultaneously.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1384"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_11_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "A particle moving at v=0.60 c will travel 288 m before decaying in the lab frame.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, according to special relativity, a particle traveling at 0.60 c will experience time dilation, meaning it will decay after traveling a shorter distance than 288 m in the lab frame due to its relativistic effects.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1416"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_11_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The angular magnification of the refracting telescope is 4, given the eye-piece lens has a focal length of 20 cm.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a refracting telescope is calculated as the ratio of the focal lengths of the objective lens to the eyepiece lens, and if the focal length of the eyepiece is 20 cm, the objective lens must have a focal length of 80 cm to achieve an angular magnification of 4.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15626"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_11_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The mean kinetic energy of conduction electrons in metals is high due to their many degrees of freedom compared to atoms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mean kinetic energy of conduction electrons in metals is not necessarily high because, while they are free to move, their kinetic energy is primarily influenced by temperature and the effective mass of the electrons rather than the number of degrees of freedom.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1444"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_11_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "If the absolute temperature of a blackbody is increased by a factor of 3, the energy radiated per second per unit area increases by a factor of 81.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, according to the Stefan-Boltzmann Law, the power radiated per unit area of a blackbody is proportional to the fourth power of its absolute temperature (P \u221d T^4), so increasing the temperature by a factor of 3 results in an increase in energy radiated by a factor of 3^4, which equals 81.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1426"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_11_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the total spin quantum number of the electrons in the ground state of neutral\nnitrogen (Z = 7), explaining how you arrive at your conclusion and its significance in\natomic structure.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In the ground state of neutral nitrogen (Z = 7), the total spin quantum number of the\nelectrons can be calculated by examining its electron configuration, which is 1 s^2 2 s^2\n2 p^3. The two electrons in the 1 s and 2 s subshells are paired and contribute no net\nspin, while the three electrons in the 2 p subshell each have a spin of \u00bd. According to\nHund's rule, these three 2 p electrons will occupy separate orbitals with parallel spins,\nresulting in a total spin of \u00bd + \u00bd + \u00bd = 3/2. This total spin quantum number is\nsignificant as it influences the magnetic properties of the atom and plays a crucial role\nin determining the atom's behavior in chemical bonding and interactions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the total spin quantum number of nitrogen's electrons by analyzing its electron configuration, noting that paired electrons contribute zero net spin while unpaired electrons in the 2p subshell follow Hund's rule to maximize total spin, resulting in a total spin of 3/2.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1374"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_11_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the electron configuration of an atom with filled n = 1 and n = 2 energy levels,\nand analyze how this configuration determines the total number of electrons in the atom.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "An atom with filled n = 1 and n = 2 energy levels has an electron configuration of 1 s^2 2\ns^2 2 p\u2076. The n = 1 level can hold a maximum of 2 electrons in the 1 s subshell, while the\nn = 2 level can hold a maximum of 8 electrons, distributed among the 2 s and 2 p subshells\n(2 in 2 s and 6 in 2 p). Therefore, the total number of electrons in the atom is 2 (from n\n= 1) + 8 (from n = 2), resulting in 10 electrons overall. This filled configuration\ncontributes to the atom's stability and can determine its chemical properties, as the\nfilled outer shells typically indicate that the atom is a noble gas, which is chemically\ninert.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the maximum electron capacity of the filled n = 1 and n = 2 energy levels, leading to a total of 10 electrons, which reflects the atom's stable electron configuration.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1390"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

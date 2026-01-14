@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_15",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A buffer is defined as a temporary storage area in memory that holds data being transferred between two locations, making it the correct term for a sequential segment allocated for storing data such as character strings or arrays of integers.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "UNIX systems, like many older operating systems, have a history of vulnerabilities, including buffer overflow attacks, due to their use of low-level memory management and lack of built-in security features that protect against such exploits.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1534
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "SQL queries based on user input are most vulnerable to injection attacks because attackers can manipulate the input to execute arbitrary SQL code, potentially compromising the database and sensitive information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1514
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A buffer-overflow attack exploits vulnerabilities in a program by overflowing a buffer with extra data that can overwrite adjacent memory, allowing cyber-criminals to inject malicious instructions and potentially gain control of the system.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1548
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A backdoor is a hidden method that allows unauthorized access to a computer system or its data without detection, making it a key concept in cybersecurity related to security vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1517
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Integrity is considered a fundamental security property in cybersecurity, but it is typically classified alongside confidentiality and availability as part of the triad known as the CIA triad, rather than being regarded as a separate primary property.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1570
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A proxy firewall operates at the application layer by intercepting and analyzing data packets, allowing it to filter traffic based on the content and context of the transmitted information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1528
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Troya is considered a remote Trojan because it enables an attacker to gain unauthorized access and control over a victim's system from a remote location, often without the user's knowledge.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1475
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Message confidentiality ensures that the data is kept secret from unauthorized parties during transmission, but it does not guarantee that the data remains unchanged, as integrity checks are required to verify data integrity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1542
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Authentication is a fundamental security measure designed to confirm the identity of users, thereby protecting systems from unauthorized access rather than being an exploit that undermines security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1485
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def count_Divisors(n) : | return (\"Even\") | return (\"Odd\")",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that is intended to determine if the number of divisors of a given integer is even or odd, although it lacks the necessary logic to count the actual divisors before returning the results.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 781
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_15_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def No_of_Triangle(N,K): | return -1; | return Tri_up + Tri_down;",
+      "marks": 10,
+      "explanation": "correct as it outlines a function that calculates the total number of smaller equilateral triangles (Tri_up and Tri_down) that can be formed within a larger equilateral triangle, based on its dimensions (N and K).",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 236
+    }
+  ]
+}

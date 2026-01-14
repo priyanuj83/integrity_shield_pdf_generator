@@ -1,0 +1,290 @@
+{
+  "docid": "physics_undergraduate_doc_25",
+  "document_name": "Physics - Undergraduate Level Assessment 25",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_25.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If the total energy of a particle of mass m is equal to twice its rest energy, then the\nmagnitude of the particle's relativistic momentum is",
+      "options": {
+        "A": "mc/2",
+        "B": "mc/(2^(1/2))",
+        "C": "mc",
+        "D": "(3^(1/2))mc"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the relationship between total energy, rest energy, and relativistic momentum in special relativity, where if the total energy \\(E\\) is twice the rest energy \\(E_0 = mc^2\\), the momentum \\(p\\) can be calculated using the equation \\(E^2 = (pc)^2 + (m c^2)^2\\), leading to \\(p = \\sqrt{E^2 - (m c^2)^2}/c\\), which simplifies to \\(p = \\sqrt{3}mc\\) when \\(E = 2E_0\\).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1378"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "De Broglie hypothesized that the linear momentum and wavelength of a free massive particle\nare related by which of the following constants?",
+      "options": {
+        "A": "Planck's constant",
+        "B": "Boltzmann's constant",
+        "C": "The Rydberg constant",
+        "D": "The speed of light"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "De Broglie's hypothesis states that the wavelength of a particle is inversely proportional to its momentum, and this relationship is expressed mathematically using Planck's constant as the proportionality factor.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A satellite of mass m orbits a planet of mass M in a circular orbit of radius R. The time\nrequired for one revolution is",
+      "options": {
+        "A": "independent of M",
+        "B": "proportional to m^(1/2)",
+        "C": "linear in R",
+        "D": "proportional to R^(3/2)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on Kepler's Third Law of planetary motion, which states that the square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit, leading to the conclusion that the time required for one revolution is proportional to R^(3/2).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1470"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A refracting telescope consists of two converging lenses separated by 100 cm. The eye-\npiece lens has a focal length of 20 cm. The angular magnification of the telescope is",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "20"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a refracting telescope is given by the ratio of the focal lengths of the objective lens to the eyepiece lens, and with the objective lens having a focal length of 80 cm (derived from the separation of the lenses minus the eyepiece focal length), the magnification is 80 cm / 20 cm = 4.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15623"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A resistor in a circuit dissipates energy at a rate of 1 W. If the voltage across the\nresistor is doubled, what will be the new rate of energy dissipation?",
+      "options": {
+        "A": "0.25 W",
+        "B": "0.5 W",
+        "C": "1 W",
+        "D": "4 W"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the voltage across a resistor increases the current through it by a factor of two, and since power dissipation (P) is given by the formula P = V^2/R, the new power will be four times the original (P = (2V)^2/R = 4V^2/R), resulting in a new rate of energy dissipation of 4 W.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1409"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_25_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "In a reversible thermodynamic process, the internal energy of the system changes significantly.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a reversible thermodynamic process, the system remains in equilibrium at all stages, leading to infinitesimally small changes in internal energy, which means it does not change significantly.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_25_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "Electromagnetic radiation emitted from a nucleus is often in the form of visible light.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Electromagnetic radiation emitted from a nucleus is primarily in the form of gamma rays rather than visible light, as gamma radiation has much higher energy and shorter wavelengths than visible light.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1430"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_25_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The speed of light in a nonmagnetic dielectric material with a dielectric constant of 4.0 is 1.5 x 10^8 m/s.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The speed of light in a medium is given by the equation \\( v = \\frac{c}{\\sqrt{\\epsilon_r}} \\), where \\( c \\) is the speed of light in a vacuum and \\( \\epsilon_r \\) is the dielectric constant; for a dielectric constant of 4.0, this results in a speed of \\( v = \\frac{3.0 \\times 10^8 \\text{ m/s}}{\\sqrt{4}} = 1.5 \\times 10^8 \\text{ m/s} \\).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1407"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_25_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Hall coefficient can be used to determine the sign of the charge carriers in a doped semiconductor.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Hall coefficient is directly related to the type of charge carriers in a material, with a positive value indicating the presence of holes (positive charge carriers) and a negative value indicating electrons (negative charge carriers) in a doped semiconductor.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1381"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_25_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The negative muon, mu^-, has properties that are most similar to those of the electron.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The negative muon, mu^-, is a charged lepton like the electron and shares similar properties such as charge and spin, although it has a greater mass.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1406"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_25_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the similarities between the emission spectra of the doubly ionized lithium atom\nLi++ and hydrogen, and analyze how the wavelengths of Li++ are affected by its atomic\nstructure.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The emission spectra of the doubly ionized lithium atom (Li++) and hydrogen exhibit\nsimilarities due to their reliance on the same fundamental principles of quantum\nmechanics, specifically the energy levels governed by the Rydberg formula. Both systems\nare hydrogen-like, meaning they have a single electron orbiting a nucleus, which leads to\ndiscrete emission lines corresponding to electronic transitions. However, the wavelengths\nof the emission lines for Li++ are decreased by a factor of 9 compared to those of\nhydrogen. This reduction is fundamentally attributed to the difference in nuclear charge;\nLi++ has a nuclear charge of +3, leading to stronger Coulombic attraction between the\nnucleus and the electron. Consequently, the higher effective nuclear charge results in\nmore tightly bound electron states, thus shortening the wavelengths of emitted photons in\nthe spectrum.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because both Li++ and hydrogen have a single electron in a hydrogen-like system, leading to similar emission spectra based on the Rydberg formula, but the wavelengths for Li++ are shorter due to its greater nuclear charge, resulting in increased energy level spacing.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1453"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_25_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "A tube of water is moving at 1/2 c relative to a lab frame. Analyze the behavior of a\nlight beam entering the tube and calculate its speed relative to the lab frame,\nconsidering the index of refraction.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When a light beam enters a tube of water moving at 1/2 c (where c is the speed of light)\nrelative to the lab frame, the speed of light inside the water can be affected by the\nindex of refraction. The index of refraction for water is approximately 1.33, which means\nthat the speed of light in water is c/n, or about 0.75 c. However, to find the speed of\nthe light beam relative to the lab frame, we must use the relativistic velocity addition\nformula. Applying this formula, we find that the speed of the light beam relative to the\nlab frame is approximately 10/11 c. This result illustrates the fascinating interplay\nbetween the speed of light, the motion of the medium, and relativistic effects.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it recognizes that the speed of light in the moving tube is modified by the index of refraction and requires the application of the relativistic velocity addition formula to determine the light beam's speed relative to the lab frame.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1417"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

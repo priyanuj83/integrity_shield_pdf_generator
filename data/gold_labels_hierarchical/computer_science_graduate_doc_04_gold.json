@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_04",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "SHA-1 produces a fixed-size message digest of 160 bits, which is a fundamental characteristic of the algorithm.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 15628
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Tor browser is specifically designed to enable users to access the Tor network securely and anonymously, making it essential for navigating and utilizing various services within that network.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1530
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Authentication aims to determine who the user is by verifying their identity through various methods, ensuring that access to systems and data is granted only to authorized individuals.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14206
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is accurate because penetration testing involves a comprehensive evaluation of an entire system's security to identify vulnerabilities and weaknesses that could be exploited by malicious actors.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14202
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Metasploit is a widely used penetration testing framework that simplifies the exploitation of vulnerabilities through its user-friendly interface, enabling users to perform attacks with minimal technical expertise.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A Base Transceiver Station (BTS) facilitates wireless communication for mobile operators by connecting mobile devices to the network, analogous to how an Access Point connects Wi-Fi devices to a local area network.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1550
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, leading to unintended memory corruption, rather than rejecting requests when a buffer is full.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1506
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The one-time pad is considered perfectly secure because it uses a key that is as long as the message, is truly random, and is used only once, ensuring that the ciphertext does not reveal any information about the plaintext without knowledge of the key.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1016
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A fixed-length MAC tag of 5 bits is too short to provide sufficient security, as it only allows for 32 possible unique tags, making it vulnerable to brute-force and collision attacks.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1509
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In the Data Encryption Standard (DES), the key schedule algorithm processes a 56-bit key to produce a series of 48-bit subkeys used in each of the 16 rounds of encryption.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1524
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def get_item(tup1,index): | return item",
+      "marks": 10,
+      "explanation": "correct as it demonstrates the ability to define a function that retrieves an element from a tuple at a specified index, which is fundamental in understanding tuple indexing in Python.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 948
+    },
+    {
+      "question_id": "computer_science_graduate_doc_04_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def max_profit(price, k): | return final_profit[k][n-1]",
+      "marks": 10,
+      "explanation": "correct because it succinctly encapsulates the final outcome of the dynamic programming approach used to calculate the maximum profit from at most k stock transactions, where 'final_profit[k][n-1]' represents the maximum profit attainable with k transactions at the last day of trading.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 469
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_12",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 12",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_12.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "As of 2020, which architecture is best for classifying high-resolution images?",
+      "options": {
+        "A": "convolutional networks",
+        "B": "graph networks",
+        "C": "fully connected networks",
+        "D": "RBF networks"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Convolutional networks are specifically designed to process and classify image data by leveraging their hierarchical architecture, which effectively captures spatial hierarchies and patterns in high-resolution images.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following tasks can be best solved using Clustering.",
+      "options": {
+        "A": "Predicting the amount of rainfall based on various cues",
+        "B": "Detecting fraudulent credit card transactions",
+        "C": "Training a robot to solve a maze",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Clustering is effective for detecting fraudulent credit card transactions because it groups similar transaction patterns together, allowing anomalies that deviate from typical behaviors to be identified as potential fraud.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is equal to P(A, B, C) given Boolean random variables A, B and\nC, and no independence or conditional independence assumptions between any of them?",
+      "options": {
+        "A": "P(A | B) * P(B | C) * P(C | A)",
+        "B": "P(C | A, B) * P(A) * P(B)",
+        "C": "P(A, B | C) * P(C)",
+        "D": "P(A | B, C) * P(B | A, C) * P(C | A, B)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the chain rule of probability, which states that the joint probability P(A, B, C) can be expressed as the product of the conditional probability P(A, B | C) and the marginal probability P(C).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A and B are two events. If P(A, B) decreases while P(A) increases, which of the following\nis true?",
+      "options": {
+        "A": "P(A|B) decreases",
+        "B": "P(B|A) decreases",
+        "C": "P(B) decreases",
+        "D": "All of above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "P(B|A) decreases because an increase in P(A) with a decrease in P(A, B) indicates that the probability of event B occurring given that event A has occurred is diminishing, as P(B|A) is calculated as P(A, B) divided by P(A).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following are the spatial clustering algorithms?",
+      "options": {
+        "A": "Partitioning based clustering",
+        "B": "K-means clustering",
+        "C": "Grid based clustering",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms such as K-means, DBSCAN, and Hierarchical clustering are all designed to group data points based on their spatial proximity, making them integral to the field of machine learning for analyzing spatial data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "K-fold cross-validation has a computational complexity that is quadratic in K, leading to significantly higher computation times as K increases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because K-fold cross-validation has a computational complexity that is linear in K, as the model is trained K times on different subsets of the data, rather than requiring a quadratic number of computations.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6906"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "To achieve the same projection as SVD in PCA, the data must be transformed to have a zero mean.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In PCA, centering the data to have a zero mean is essential because it ensures that the principal components capture the directions of maximum variance from the mean rather than from the origin, which aligns with the SVD projection methodology.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Out-of-distribution detection is commonly referred to as anomaly detection in machine learning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Out-of-distribution detection is considered a type of anomaly detection because both concepts involve identifying data points that deviate significantly from the expected distribution of the training data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6882"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The dimensionality of the null space of the matrix A is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimensionality of the null space of the matrix A is 2, indicating that there are two linearly independent vectors that span the null space, which corresponds to the fact that the rank of the matrix is less than the number of its columns by exactly 2.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Applying an L 1 norm or L 0 norm penalty in linear regression can result in some coefficients being zeroed out.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Applying an L1 norm penalty in linear regression, known as Lasso regression, encourages sparsity in the model by effectively shrinking some coefficients to zero, while the L0 norm penalty directly counts non-zero coefficients, leading to a model that can exclude certain features entirely.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove characters from the first string which are present in the\nsecond string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def str_to_list(string): | return temp | def lst_to_string(List): | return ''.join(List) | def get_char_count_array(string): | return count | def remove_dirty_chars(string, second_string): | return lst_to_string(str_list[0:res_ind])",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a process that converts the first string into a list, counts the characters, and constructs a new string by excluding characters found in the second string, effectively achieving the goal of removing unwanted characters.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "18"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_12_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to divide two lists using map and lambda function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def div_list(nums1,nums2): | return list(result)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it demonstrates the use of a lambda function within the map function to apply the division operation element-wise between two lists, effectively creating a new list of results.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "618"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

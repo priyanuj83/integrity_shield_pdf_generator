@@ -51,6 +51,13 @@ datasets:
     format: "dataset"
     academic_level: "K-12"
   
+  squad:
+    source: "huggingface"
+    repo: "rajpurkar/squad"
+    config: "plain_text"
+    type: "reading_comprehension"
+    format: "dataset"
+  
   # Hierarchical subject mappings (combining MMLU + MMLU-Pro)
   
   # Mathematics Hierarchical Mappings
@@ -100,7 +107,7 @@ datasets:
   
   # Biology Hierarchical Mappings
   mmlu_biology_undergrad:
-    subjects: ["college_biology"]
+    subjects: ["college_biology", "biology"]  # "college_biology" for MMLU, "biology" for MMLU-Pro
     type: "stem"
     domain: "Biology"
     academic_level: "Undergraduate"
@@ -126,28 +133,15 @@ datasets:
     academic_level: "K-12"
   
   mmlu_cs_undergrad:
-    subjects: ["college_computer_science", "computer science"]
+    subjects: ["college_computer_science", "high_school_computer_science"]
     type: "stem"
     domain: "Computer Science"
     academic_level: "Undergraduate"
   
   mmlu_cs_grad:
-    subjects: ["computer science"]
+    subjects: ["college_computer_science", "computer_security"]
     type: "stem"
     domain: "Computer Science"
-    academic_level: "Graduate"
-  
-  # Engineering Hierarchical Mappings
-  mmlu_engineering_undergrad:
-    subjects: ["electrical_engineering", "engineering"]
-    type: "stem"
-    domain: "Engineering"
-    academic_level: "Undergraduate"
-  
-  mmlu_engineering_grad:
-    subjects: ["engineering"]
-    type: "stem"
-    domain: "Engineering"
     academic_level: "Graduate"
   
   # Economics Hierarchical Mappings
@@ -192,13 +186,13 @@ datasets:
   mmlu_law_undergrad:
     subjects: ["international_law", "jurisprudence"]
     type: "legal"
-    domain: "Law"
+    domain: "Constitutional Law"
     academic_level: "Undergraduate"
   
   mmlu_law_grad:
     subjects: ["professional_law", "law"]
     type: "legal"
-    domain: "Law"
+    domain: "Constitutional Law"
     academic_level: "Graduate"
   
   # Philosophy Hierarchical Mappings
@@ -218,32 +212,32 @@ datasets:
   mmlu_health_k12:
     subjects: ["nutrition"]
     type: "medical"
-    domain: "Health"
+    domain: "Health Sciences"
     academic_level: "K-12"
   
   mmlu_health_undergrad:
     subjects: ["anatomy", "human_aging", "human_sexuality", "medical_genetics", "virology"]
     type: "medical"
-    domain: "Health"
+    domain: "Health Sciences"
     academic_level: "Undergraduate"
   
   mmlu_health_grad:
     subjects: ["clinical_knowledge", "college_medicine", "professional_medicine", "health"]
     type: "medical"
-    domain: "Health"
+    domain: "Health Sciences"
     academic_level: "Graduate"
   
   # Business Hierarchical Mappings
   mmlu_business_undergrad:
     subjects: ["business_ethics", "management", "marketing", "public_relations"]
     type: "business"
-    domain: "Business"
+    domain: "Business Administration"
     academic_level: "Undergraduate"
   
   mmlu_business_grad:
     subjects: ["professional_accounting", "business"]
     type: "business"
-    domain: "Business"
+    domain: "Business Administration"
     academic_level: "Graduate"
   
   # History Hierarchical Mappings
@@ -325,7 +319,7 @@ datasets:
   mmlu_health_k12:
     subjects: ["nutrition"]
     type: "medical"
-    domain: "Health"
+    domain: "Health Sciences"
     academic_level: "K-12"
   
   # Missing Graduate Mappings
@@ -392,22 +386,23 @@ document_generation:
     domains_to_generate: [
       "science", "mathematics", "physics", "chemistry", "biology",
       "computer_science", "engineering", "economics", "psychology", 
-      "philosophy", "health", "business", "history", "geography",
+      "philosophy", "health_sciences", "business_administration", "history", "geography",
       "sociology", "political_science", "religious_studies", 
-      "machine_learning", "cybersecurity", "astronomy"
+      "machine_learning", "cybersecurity", "astronomy", "constitutional_law"
     ]
     academic_levels: ["K-12", "Undergraduate", "Graduate"]
     
     # Realistic academic level mappings for each domain
     domain_academic_levels:
-      # K-12 Science (general science concepts)
+      # Domains with K-12 only
       science: ["K-12"]
+      religious_studies: ["K-12"]
       
       # Domains with K-12, Undergraduate, Graduate
       mathematics: ["K-12", "Undergraduate", "Graduate"]
       computer_science: ["K-12", "Undergraduate", "Graduate"]
       economics: ["K-12", "Undergraduate", "Graduate"]
-      health: ["K-12", "Undergraduate", "Graduate"]
+      health_sciences: ["K-12", "Undergraduate", "Graduate"]
       history: ["K-12", "Undergraduate", "Graduate"]
       geography: ["K-12", "Undergraduate", "Graduate"]
       
@@ -418,16 +413,82 @@ document_generation:
       engineering: ["Undergraduate", "Graduate"]
       psychology: ["Undergraduate", "Graduate"]
       philosophy: ["Undergraduate", "Graduate"]
-      business: ["Undergraduate", "Graduate"]
+      business_administration: ["Undergraduate", "Graduate"]
+      constitutional_law: ["Undergraduate", "Graduate"]
       sociology: ["Undergraduate", "Graduate"]
       political_science: ["Undergraduate", "Graduate"]
-      religious_studies: ["K-12"]
       machine_learning: ["Undergraduate", "Graduate"]
       cybersecurity: ["Undergraduate", "Graduate"]
       
       # Domains with Graduate only (advanced subjects)
       astronomy: ["Graduate"]
-    papers_per_domain_level: 1  # Generate 1 paper per domain-level combination
+
+    # SQuAD Domain Keyword Mappings
+    squad_history:
+      title_keywords: ["history", "battle", "war", "revolution", "empire", "dynasty", "civilization", "ancient", "medieval", "century", "historical"]
+      context_keywords: ["historical", "ancient", "medieval", "century", "battle", "war"]
+      type: "reading_comprehension"
+      domain: "History"
+      academic_level: ["K-12", "Undergraduate", "Graduate"]
+    
+    squad_geography:
+      title_keywords: ["geography", "country", "city", "river", "mountain", "continent", "region", "capital", "population", "climate", "ocean", "sea", "lake", "desert", "forest", "island", "peninsula", "valley", "plateau", "coast", "border", "territory", "nation", "state", "province", "location", "africa", "asia", "europe", "america", "australia", "antarctica", "atlantic", "pacific", "indian", "arctic", "mediterranean", "nile", "amazon", "mississippi", "yangtze", "ganges", "himalayas", "alps", "andes", "rockies", "sahara", "arctic", "tropic", "equator", "latitude", "longitude", "hemisphere", "timezone", "urban", "rural", "metropolitan", "migration", "settlement", "colony", "empire", "kingdom", "republic", "democracy", "federation", "union"]
+      context_keywords: ["geographical", "population", "climate", "region", "country", "location", "territory", "border", "coast", "coastal", "inland", "northern", "southern", "eastern", "western", "central", "tropical", "temperate", "arctic", "equatorial", "urban", "rural", "metropolitan", "settlement", "migration", "demographics", "census", "area", "land", "water", "elevation", "altitude", "latitude", "longitude", "hemisphere", "timezone", "geographic", "geopolitical", "territorial", "national", "international", "continental", "regional", "local", "global"]
+      type: "reading_comprehension"
+      domain: "Geography"
+      academic_level: ["K-12", "Undergraduate", "Graduate"]
+    
+    squad_political_science:
+      title_keywords: ["government", "politics", "election", "democracy", "republic", "political", "parliament", "constitution", "policy", "legislative"]
+      context_keywords: ["political", "government", "democracy", "election", "policy", "constitution"]
+      type: "reading_comprehension"
+      domain: "Political Science"
+      academic_level: ["Undergraduate", "Graduate"]
+    
+    squad_sociology:
+      title_keywords: ["society", "social", "culture", "demographics", "sociology", "community", "institution", "social_movement", "societal"]
+      context_keywords: ["social", "society", "cultural", "demographics", "community"]
+      type: "reading_comprehension"
+      domain: "Sociology"
+      academic_level: ["Undergraduate", "Graduate"]
+    
+    squad_economics:
+      title_keywords: ["economics", "economy", "market", "trade", "finance", "economic", "GDP", "inflation", "currency", "banking"]
+      context_keywords: ["economic", "economy", "market", "trade", "financial"]
+      type: "reading_comprehension"
+      domain: "Economics"
+      academic_level: ["K-12", "Undergraduate", "Graduate"]
+    
+    squad_health:
+      title_keywords: ["health", "medicine", "medical", "disease", "treatment", "healthcare", "public_health", "nutrition"]
+      context_keywords: ["health", "medical", "disease", "treatment", "healthcare"]
+      type: "reading_comprehension"
+      domain: "Health Sciences"
+      academic_level: ["K-12", "Undergraduate", "Graduate"]
+    
+    squad_business:
+      title_keywords: ["business", "company", "corporation", "management", "marketing", "finance", "entrepreneurship", "commerce"]
+      context_keywords: ["business", "company", "management", "commercial", "corporate"]
+      type: "reading_comprehension"
+      domain: "Business Administration"
+      academic_level: ["Undergraduate", "Graduate"]
+    
+    squad_philosophy:
+      title_keywords: ["philosophy", "philosophical", "ethics", "logic", "metaphysics", "philosopher", "philosophical_theory"]
+      context_keywords: ["philosophical", "philosophy", "ethical", "logical", "metaphysical"]
+      type: "reading_comprehension"
+      domain: "Philosophy"
+      academic_level: ["Undergraduate", "Graduate"]
+    
+    squad_religious_studies:
+      title_keywords: ["religion", "religious", "theology", "faith", "spiritual", "worship", "sacred", "religious_text"]
+      context_keywords: ["religious", "religion", "theological", "spiritual", "faith"]
+      type: "reading_comprehension"
+      domain: "Religious Studies"
+      academic_level: ["K-12"]
+
+      
+    papers_per_domain_level: 25  # Generate 25 papers per domain-level combination
     use_legacy_combinations: false  # Use hierarchical combinations instead
   
   # Hierarchical domain combinations (combining MMLU, MMLU-Pro, GSM8K, MBPP+)
@@ -487,6 +548,7 @@ document_generation:
       - ["mmlu_pro_biology_mcq", "mmlu_pro_biology_tf", "mmlu_pro_biology_research"]     # MMLU-Pro research
       - ["mmlu_pro_biology_mcq", "mmlu_pro_biology_tf", "biology_long"]                 # MMLU-Pro + problems
       - ["mmlu_pro_biology_mcq", "biology_research"]                                     # Research focused
+      # Note: TF questions use PubMedQA (see dataset_overrides section)
     
     # Undergraduate Level Computer Science
     computer_science_undergraduate:
@@ -506,8 +568,13 @@ document_generation:
     
     # Graduate Level Engineering
     engineering_graduate:
-      - ["mmlu_pro_engineering_mcq", "mmlu_pro_engineering_tf", "engineering_research"]                 # MMLU-Pro + research
-      - ["engineering_research", "engineering_design"]                                                 # Research focused
+      - ["mmlu_pro_engineering_mcq", "mmlu_pro_engineering_tf", "engineering_long"]                 # MMLU-Pro + problems
+      - ["mmlu_pro_engineering_mcq", "mmlu_pro_engineering_tf"]                                     # MMLU-Pro only
+    
+    # K-12 Level Economics
+    economics_k12:
+      - ["mmlu_economics_mcq", "mmlu_economics_tf"]                                             # MMLU economics basics
+      - ["mmlu_economics_mcq", "mmlu_economics_tf", "economics_basic_long"]                    # MMLU + basics
     
     # Undergraduate Level Economics
     economics_undergraduate:
@@ -516,8 +583,8 @@ document_generation:
     
     # Graduate Level Economics
     economics_graduate:
-      - ["mmlu_pro_economics_mcq", "mmlu_pro_economics_tf", "economics_research"]               # MMLU-Pro + research
-      - ["economics_research", "economics_analysis"]                                             # Research focused
+      - ["mmlu_pro_economics_mcq", "mmlu_pro_economics_tf", "economics_long"]               # MMLU-Pro + problems
+      - ["mmlu_pro_economics_mcq", "mmlu_pro_economics_tf"]                                   # MMLU-Pro only
     
     # Undergraduate Level Psychology
     psychology_undergraduate:
@@ -526,41 +593,46 @@ document_generation:
     
     # Graduate Level Psychology
     psychology_graduate:
-      - ["mmlu_pro_psychology_mcq", "mmlu_pro_psychology_tf", "psychology_research"]             # MMLU-Pro + research
-      - ["psychology_research", "psychology_analysis"]                                           # Research focused
+      - ["mmlu_pro_psychology_mcq", "mmlu_pro_psychology_tf", "psychology_long"]             # MMLU-Pro + problems
+      - ["mmlu_pro_psychology_mcq", "mmlu_pro_psychology_tf"]                                 # MMLU-Pro only
     
-    # Graduate Level Law
-    law_graduate:
+    # Graduate Level Constitutional Law
+    constitutional_law_graduate:
       - ["mmlu_pro_law_mcq", "mmlu_pro_law_tf", "law_research"]                                  # MMLU-Pro + research
       - ["law_research", "law_case_analysis"]                                                   # Research focused
     
+    # Undergraduate Level Constitutional Law
+    constitutional_law_undergraduate:
+      - ["mmlu_law_mcq", "mmlu_law_tf", "mmlu_pro_law_mcq", "law_long"]  # All datasets
+      - ["mmlu_pro_law_mcq", "mmlu_pro_law_tf", "law_long"]                 # MMLU-Pro + problems
+    
     # Graduate Level Philosophy
     philosophy_graduate:
-      - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf", "philosophy_research"]            # MMLU-Pro + research
-      - ["philosophy_research", "philosophy_analysis"]                                           # Research focused
+      - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf", "philosophy_long"]            # MMLU-Pro + problems
+      - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf"]                                # MMLU-Pro only
     
-    # Graduate Level Health
-    health_graduate:
-      - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf", "health_research"]                         # MMLU-Pro + research
-      - ["health_research", "health_case_analysis"]                                              # Research focused
+    # Graduate Level Health Sciences
+    health_sciences_graduate:
+      - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf", "health_long"]                         # MMLU-Pro + problems
+      - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf"]                                       # MMLU-Pro only
     
-    # Graduate Level Business
-    business_graduate:
-      - ["mmlu_pro_business_mcq", "mmlu_pro_business_tf", "business_research"]                   # MMLU-Pro + research
-      - ["business_research", "business_case_analysis"]                                          # Research focused
+    # Graduate Level Business Administration
+    business_administration_graduate:
+      - ["mmlu_pro_business_mcq", "mmlu_pro_business_tf", "business_long"]                   # MMLU-Pro + problems
+      - ["mmlu_pro_business_mcq", "mmlu_pro_business_tf"]                                     # MMLU-Pro only
     
     # Graduate Level Astronomy (graduate only - realistic for advanced study)
     astronomy_graduate:
-      - ["mmlu_astronomy_mcq", "mmlu_astronomy_tf", "astronomy_research"]                      # MMLU + research
-      - ["astronomy_research", "astronomy_analysis"]                                             # Research focused
+      - ["mmlu_astronomy_mcq", "mmlu_astronomy_tf", "astronomy_long"]                      # MMLU + problems
+      - ["mmlu_astronomy_mcq", "mmlu_astronomy_tf"]                                        # MMLU only
     
     # K-12 Level Computer Science (basic programming concepts)
     computer_science_k12:
       - ["mmlu_cs_mcq", "mmlu_cs_tf"]                           # MMLU CS basics
       - ["mmlu_cs_mcq", "mmlu_cs_tf", "cs_basic_long"]          # MMLU + basics
     
-    # K-12 Level Health (basic health/nutrition)
-    health_k12:
+    # K-12 Level Health Sciences (basic health/nutrition)
+    health_sciences_k12:
       - ["mmlu_health_mcq", "mmlu_health_tf"]                    # MMLU health basics
       - ["mmlu_health_mcq", "mmlu_health_tf", "health_basic_long"]  # MMLU + basics
     
@@ -569,13 +641,13 @@ document_generation:
       - ["mmlu_philosophy_mcq", "mmlu_philosophy_tf", "mmlu_pro_philosophy_mcq", "philosophy_long"]  # All datasets
       - ["mmlu_pro_philosophy_mcq", "mmlu_pro_philosophy_tf", "philosophy_long"]                     # MMLU-Pro + problems
     
-    # Undergraduate Level Health
-    health_undergraduate:
+    # Undergraduate Level Health Sciences
+    health_sciences_undergraduate:
       - ["mmlu_health_mcq", "mmlu_health_tf", "mmlu_pro_health_mcq", "health_long"]  # All datasets
       - ["mmlu_pro_health_mcq", "mmlu_pro_health_tf", "health_long"]                 # MMLU-Pro + problems
     
-    # Undergraduate Level Business
-    business_undergraduate:
+    # Undergraduate Level Business Administration
+    business_administration_undergraduate:
       - ["mmlu_business_mcq", "mmlu_business_tf", "mmlu_pro_business_mcq", "business_long"]  # All datasets
       - ["mmlu_pro_business_mcq", "mmlu_pro_business_tf", "business_long"]                     # MMLU-Pro + problems
     
@@ -591,8 +663,8 @@ document_generation:
     
     # Graduate Level History
     history_graduate:
-      - ["mmlu_pro_history_mcq", "mmlu_pro_history_tf", "history_research"]           # MMLU-Pro + research
-      - ["history_research", "history_analysis"]                                       # Research focused
+      - ["mmlu_pro_history_mcq", "mmlu_pro_history_tf", "history_long"]           # MMLU-Pro + problems
+      - ["mmlu_pro_history_mcq", "mmlu_pro_history_tf"]                           # MMLU-Pro only
     
     # K-12 Level Geography
     geography_k12:
@@ -606,8 +678,8 @@ document_generation:
     
     # Graduate Level Geography
     geography_graduate:
-      - ["mmlu_pro_geography_mcq", "mmlu_pro_geography_tf", "geography_research"]     # MMLU-Pro + research
-      - ["geography_research", "geography_analysis"]                                    # Research focused
+      - ["mmlu_pro_geography_mcq", "mmlu_pro_geography_tf", "geography_long"]     # MMLU-Pro + problems
+      - ["mmlu_pro_geography_mcq", "mmlu_pro_geography_tf"]                       # MMLU-Pro only
     
     # Undergraduate Level Sociology
     sociology_undergraduate:
@@ -616,8 +688,8 @@ document_generation:
     
     # Graduate Level Sociology
     sociology_graduate:
-      - ["mmlu_pro_sociology_mcq", "mmlu_pro_sociology_tf", "sociology_research"]     # MMLU-Pro + research
-      - ["sociology_research", "sociology_analysis"]                                    # Research focused
+      - ["mmlu_pro_sociology_mcq", "mmlu_pro_sociology_tf", "sociology_long"]     # MMLU-Pro + problems
+      - ["mmlu_pro_sociology_mcq", "mmlu_pro_sociology_tf"]                      # MMLU-Pro only
     
     # Undergraduate Level Political Science
     political_science_undergraduate:
@@ -627,7 +699,7 @@ document_generation:
     # Graduate Level Political Science
     political_science_graduate:
       - ["mmlu_pro_political_science_mcq", "mmlu_pro_political_science_tf", "political_science_research"]  # MMLU-Pro + research
-      - ["political_science_research", "political_science_analysis"]                                       # Research focused
+      - ["mmlu_pro_political_science_mcq", "mmlu_pro_political_science_tf", "political_science_long"]       # MMLU-Pro + problems
     
     # K-12 Level Religious Studies
     religious_studies_k12:
@@ -640,8 +712,8 @@ document_generation:
     
     # Graduate Level Machine Learning
     machine_learning_graduate:
-      - ["mmlu_pro_machine_learning_mcq", "mmlu_pro_machine_learning_tf", "machine_learning_research"]  # MMLU-Pro + research
-      - ["machine_learning_research", "machine_learning_analysis"]                                       # Research focused
+      - ["mmlu_pro_machine_learning_mcq", "mmlu_pro_machine_learning_tf", "machine_learning_long"]  # MMLU-Pro + problems
+      - ["mmlu_pro_machine_learning_mcq", "mmlu_pro_machine_learning_tf"]                          # MMLU-Pro only
     
     # Undergraduate Level Cybersecurity
     cybersecurity_undergraduate:
@@ -650,23 +722,26 @@ document_generation:
     
     # Graduate Level Cybersecurity
     cybersecurity_graduate:
-      - ["mmlu_pro_cybersecurity_mcq", "mmlu_pro_cybersecurity_tf", "cybersecurity_research"]  # MMLU-Pro + research
-      - ["cybersecurity_research", "cybersecurity_analysis"]                                 # Research focused
+      - ["mmlu_pro_cybersecurity_mcq", "mmlu_pro_cybersecurity_tf", "cybersecurity_long"]      # MMLU-Pro + problems
+      - ["mmlu_pro_cybersecurity_mcq", "mmlu_pro_cybersecurity_tf"]                            # MMLU-Pro only
     
-    # Graduate Level Geography
-    geography_graduate:
-      - ["mmlu_geography_mcq", "mmlu_geography_tf", "geography_research"]                    # MMLU + research
-      - ["geography_research", "geography_analysis"]                                         # Research focused
-    
-    # Graduate Level Sociology
-    sociology_graduate:
-      - ["mmlu_sociology_mcq", "mmlu_sociology_tf", "sociology_research"]                   # MMLU + research
-      - ["sociology_research", "sociology_analysis"]                                         # Research focused
-    
-    # Graduate Level Machine Learning
-    machine_learning_graduate:
-      - ["mmlu_machine_learning_mcq", "mmlu_machine_learning_tf", "machine_learning_research"]  # MMLU + research
-      - ["machine_learning_research", "machine_learning_analysis"]                             # Research focused
+  # Dataset source overrides for specific question types
+  # This allows overriding the default combination-based selection
+  # Format: domain_level_questiontype: dataset_name
+  # Example: biology_graduate_tf: "pubmedqa" means use PubMedQA for biology graduate TF questions
+  dataset_overrides:
+    biology_graduate_tf: "pubmedqa"  # Use PubMedQA for biology graduate TF questions
+    # SQuAD overrides for history domain
+    history_undergraduate_tf: "squad"
+    history_graduate_tf: "squad"
+    history_undergraduate_long: "squad"
+    history_graduate_long: "squad"
+    # SQuAD overrides for geography domain
+    geography_undergraduate_tf: "squad"
+    geography_graduate_tf: "squad"
+    geography_undergraduate_long: "squad"
+    geography_graduate_long: "squad"
+    # Add more domain-level-questiontype combinations as needed
 
 
 # LaTeX template settings
@@ -705,6 +780,17 @@ pdf_generation:
   validation_enabled: true
   cleanup_auxiliary_files: true
   max_retries: 3
+
+# LLM configuration for MCQ to long-form conversion
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 350
+  enable_caching: true
+  cache_file: "data/cache/llm_conversions.json"
+  max_retries: 3
+  timeout: 30
 
 # Logging configuration
 logging:

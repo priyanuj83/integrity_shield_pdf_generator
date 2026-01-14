@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_02",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function max(list) returns the item from the given list that has the highest value, making it the correct answer for identifying the maximum value in a list in Python 3.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A group of cookies stored by the user's Web browser can track and store personal information about the user's online behavior, preferences, and activities, making them a significant threat to personal privacy.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3267
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is authentication because it refers to the process of verifying the identity of a user, and using a stolen login and password bypasses this essential security measure.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because the `min()` function in Python returns the smallest element from a list, and in the list l = [1, 2, 3, 4], the smallest value is 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3241
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression evaluates to 1 because the modulo operator (%) returns the remainder of 3 divided by 3, which is 0, and then adding 1 results in 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because as N approaches infinity, O(N^(1/N)) approaches 1, while O(N^(1/4)) continues to grow without bound, indicating that O(N^(1/4)) actually grows faster than O(N^(1/N)).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "O(1) represents algorithms that have a constant time complexity, meaning their execution time does not change with varying input sizes, making it the smallest asymptotic notation.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Even a thoroughly tested Java program can contain hidden bugs because testing cannot cover every possible input and execution path, leaving some bugs undetected.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A denial-of-service (DoS) attack can target multiple computers by overwhelming a single system or network, while a distributed denial-of-service (DDoS) attack specifically involves multiple systems attacking a single target simultaneously.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the '+' operator concatenates strings, so 'a' + 'ab' combines the two strings to produce 'aab'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "To implement the nextIntInRange method, I would use the formula `(int) (Math.random() *\n(high - low + 1)) + low`. This approach ensures that the method generates a random integer\nthat falls between the specified values, low and high, inclusive. The `Math.random()`\nfunction produces a double value between 0.0 (inclusive) and 1.0 (exclusive), which we\nmultiply by `(high - low + 1)` to scale it to the desired range. By converting this result\ninto an integer and adding `low`, we adjust the range to start from the specified lower\nlimit. This method is efficient and straightforward, making it suitable for generating\nrandom numbers in programming.",
+      "marks": 10,
+      "explanation": "correct because it effectively uses the formula involving `Math.random()` to generate a random integer within the inclusive range of low and high by scaling and shifting the output appropriately.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3273
+    },
+    {
+      "question_id": "computer_science_k-12_doc_02_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "When a user requests a file from a web server, the file is divided into smaller pieces\ncalled packets to make the transmission more efficient. Each packet travels through the\ninternet separately and may take different routes to reach the user's device. Upon\nreaching the destination, these packets must be reassembled in the correct order to\nrecreate the original file. This process is crucial because if packets arrive out of order\nor some are lost, the file may become corrupted or incomplete. Thus, packet reassembly\nensures that the user receives the complete and accurate file as intended.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the process of file transmission over the internet, emphasizing the division of files into packets, their independent travel, and the critical need for proper reassembly to ensure the integrity of the received file.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3184
+    }
+  ]
+}

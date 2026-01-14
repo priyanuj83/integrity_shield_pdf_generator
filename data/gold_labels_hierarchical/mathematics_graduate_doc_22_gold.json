@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_22",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 21 birds because if Keiko counted x birds in the afternoon, then she counted x + 34 birds in the morning, leading to the equation x + (x + 34) = 76, which simplifies to 2x + 34 = 76, and solving for x gives 21.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8892
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 120 miles because the distance traveled can be calculated using the formula distance = speed \u00d7 time, which in this case is 20 miles per hour multiplied by 6 hours.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8455
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The equation 4t = 112 is correct because it represents the total cost of four tickets, where t is the cost of one ticket, and solving for t yields $28, the unit price.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8124
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The value of the integral \\(\\int_a^b \\frac{dx}{\\sqrt{(x-a)(b-x)}}\\) evaluates to \\(\\pi/2\\) when transformed appropriately, and when evaluated over the interval from \\(a\\) to \\(b\\), it results in the natural logarithm of 2, which is approximately 0.6931471 when rounded to the thousandths decimal.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8850
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The order of the element 5 in the group U_8, which consists of the integers less than 8 that are coprime to 8, is 3 because 5 raised to the power of 3 is congruent to 1 modulo 8, indicating that it takes three multiplications of 5 to return to the identity element in that group.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8512
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The sum of the roots of the equation x^3 - 2x + 2 = 0 is given by Vieta's formulas as the negative coefficient of x^2, which is 0 for this equation, not 3.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7873
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The value of the digit 6 in 612,045 is 60,000, while the value of the digit 6 in 186,425 is 6,000, making the value of the digit 6 in the first number not exactly 10 times greater than in the second.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8984
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The sum of the roots of a polynomial can be determined using Vieta's formulas, which state that for a cubic equation of the form ax^3 + bx^2 + cx + d = 0, the sum of the roots is given by -b/a; in this case, with a = 1 and b = 3, the sum is -3/1 = -3, making the statement false.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8733
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because substituting x = 1 into the equation x^3 - 11 x^2 + 32 x - 22 results in zero, confirming that 1 is indeed a root of the polynomial.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8744
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the value of A cannot be determined solely from the condition kl = mn without additional context or constraints on the variables involved in the polynomial.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8951
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "We have \\begin{align*} &\\sqrt[3]{12}\\times \\sqrt[3]{20}\\times \\sqrt[3]{15}\\times\n\\sqrt[3]{60}\\\\ &\\qquad=\\sqrt[3]{2^2\\cdot 3^1}\\times \\sqrt[3]{2^2\\cdot 5^1}\\times\n\\sqrt[3]{3^1\\cdot 5^1}\\times \\sqrt[3]{2^2\\cdot 3^1\\cdot 5^1}\\\\ &\\qquad=\\sqrt[3]{(2^2\\cdot\n3^1)(2^2\\cdot 5^1)(3^1\\cdot 5^1)(2^2\\cdot 3^1\\cdot 5^1)}\\\\ &\\qquad=\\sqrt[3]{(2^2\\cdot\n2^2\\cdot 2^2)(3^1\\cdot 3^1\\cdot 3^1)(5^1\\cdot 5^1\\cdot 5^1)}\\\\\n&\\qquad=\\sqrt[3]{(2^6)(3^3)(5^3)}\\\\ &\\qquad=\\sqrt[3]{2^6}\\times\\sqrt[3]{3^3}\\times\n\\sqrt[3]{5^3}\\\\ &\\qquad=(2^2)(3)(5) = \\boxed{60}. \\end{align*}",
+      "marks": 10,
+      "explanation": "The answer correctly evaluates the product of the cube roots by expressing each term as a product of prime factors, combining them under a single cube root, and then simplifying using the properties of exponents and roots.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 13236
+    },
+    {
+      "question_id": "mathematics_graduate_doc_22_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The product of two matrices A (2 \\times 7) and B (7 \\times 5) results in a new matrix AB\nwith dimensions determined by the number of rows in the first matrix and the number of\ncolumns in the second matrix. Specifically, the resulting matrix AB will have dimensions 2\n\\times 5. This follows from the rule of matrix multiplication, where the inner dimensions\n(the columns of A and the rows of B) must match, while the outer dimensions define the\nsize of the resulting matrix. Understanding this dimensionality is crucial in linear\nalgebra as it informs us about the compatibility of matrices for multiplication and the\nstructure of the resultant matrix, which is key in applications such as systems of linear\nequations and transformations.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes that the dimensions of the resulting matrix from the multiplication of matrices A and B are determined by the number of rows in A and the number of columns in B, resulting in a 2 \u00d7 5 matrix, while also emphasizing the importance of matching inner dimensions for valid matrix multiplication.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8285
+    }
+  ]
+}

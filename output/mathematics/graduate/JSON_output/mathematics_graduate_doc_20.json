@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_20",
+  "document_name": "Mathematics - Graduate Level Assessment 20",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_20.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If $m$ and $n$ are odd integers, how many terms in the expansion of $(m+n)^6$ are odd?",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "All the terms are odd",
+        "D": "4",
+        "E": "1"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because in the binomial expansion of $(m+n)^6$, the terms are determined by the coefficients given by the binomial theorem, and since both $m$ and $n$ are odd integers, the terms corresponding to odd powers of the binomial will yield odd results, specifically for the combinations where the exponent of either $m$ or $n$ is odd, resulting in 4 such terms.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8721"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If f is a linear function with nonzero slope, and c < d, which of the following must be\nFALSE?",
+      "options": {
+        "A": "f (d) > f (c)",
+        "B": "f (c) < f (d)",
+        "C": "f (d) \\neq f (c)",
+        "D": "f (c) = f (d)",
+        "E": "f (d) < f (c)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement f(c) = f(d) must be false because a linear function with a nonzero slope produces different output values for distinct input values, meaning that if c < d, then f(c) cannot equal f(d).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7851"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Every solvable group is of prime-power order. Statement 2 | Every group of\nprime-power order is solvable.",
+      "options": {
+        "A": "Statement 1 is always true, Statement 2 is false only for certain groups",
+        "B": "True, True",
+        "C": "Statement 1 is always false, Statement 2 is true only for certain groups",
+        "D": "True, False",
+        "E": "Statement 1 is true only for certain groups, Statement 2 is always true"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Statement 1 is correct because every solvable group has a composition series whose factors are abelian, and by the classification of finite groups, every finite solvable group has a prime-power order; however, Statement 2 is false for groups of prime power order that contain non-abelian simple groups, such as the alternating group A4, which is of order 12 (a prime power) but not solvable.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8004"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Solve the equation -6 x = -36. Check your answer.",
+      "options": {
+        "A": "42",
+        "B": "30",
+        "C": "-42",
+        "D": "-36",
+        "E": "1 over 216"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer to the equation -6 x = -36 is 6, as dividing both sides of the equation by -6 yields x = 6, and checking by substituting back into the original equation confirms that -6 times 6 equals -36.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8137"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the order of group Z_{18}?",
+      "options": {
+        "A": "30",
+        "B": "15",
+        "C": "12",
+        "D": "6",
+        "E": "24"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The order of the group Z_{18}, which consists of the integers modulo 18 under addition, is 18, not 30, indicating a possible error in the given correct answer, as the order of a finite cyclic group is equal to the modulus.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8619"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Calculating 60% of 30 yields the result of 18, which is a common mistake in percentage calculations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because 60% of 30 is calculated as 0.6 \u00d7 30, which equals 18, indicating that the result of 18 is indeed the correct outcome for this percentage calculation, thus highlighting a common misconception about interpreting percentages in mathematical contexts.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8689"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The element c = 2 in Z_3 ensures that Z_3[x]/(x^3 + x^2 + c) is a field.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the polynomial x^3 + x^2 + 2 is irreducible over the field Z_3, allowing Z_3[x]/(x^3 + x^2 + 2) to satisfy the criteria for being a field.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7691"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The polynomial 8 x^3 + 6 x^2 - 9 x + 24 is irreducible over Z but does not satisfy the Eisenstein criterion.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the polynomial 8x^3 + 6x^2 - 9x + 24 is reducible over Z, as it can be factored into the product of polynomials with integer coefficients, contradicting the claim of irreducibility.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The covariance function C_N(2, 4) for a Poisson process with rate \u03bb = 4 is 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The covariance function C_N(2, 4) for a Poisson process is equal to the minimum of the two time points multiplied by the rate \u03bb, which in this case is C_N(2, 4) = \u03bb * min(2, 4) = 4 * 2 = 8, not 12.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation v - 26 = 68 is v = 94.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because solving the equation v - 26 = 68 involves adding 26 to both sides, resulting in v = 94.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8259"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_20_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Find the roots of \\[6 x^4 - 35 x^3 + 62 x^2 - 35 x + 6 = 0.\\]Enter the roots, separated by\ncommas.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The amount of $20.08 can be expressed as a fraction by recognizing that it represents 20\ndollars and 8 cents. In fractional form, this is written as \\( \\frac{2008}{100} \\), which\nsimplifies to \\( \\frac{502}{25} \\) upon dividing both the numerator and denominator by 4.\nThis representation highlights the relationship between currency and rational numbers,\ndemonstrating that monetary values can be precisely quantified and manipulated within the\nframework of arithmetic operations. Moreover, it emphasizes the importance of\nunderstanding decimals and their fractional equivalents in mathematical contexts such as\nfinancial analysis, where precision is crucial for accurate calculations and decision-\nmaking.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately converts the monetary amount of $20.08 into a simplified fraction, \\( \\frac{502}{25} \\), illustrating the connection between currency and rational numbers while demonstrating the ability to perform arithmetic operations with these representations.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8787"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_20_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the amount of $20.08 can be represented as a fraction, and analyze the\nimplications of this representation in mathematical contexts.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The amount of $20.08 can be expressed as a fraction by recognizing that it represents 20\ndollars and 8 cents. In fractional form, this is written as \\( \\frac{2008}{100} \\), which\nsimplifies to \\( \\frac{502}{25} \\) upon dividing both the numerator and denominator by 4.\nThis representation highlights the relationship between currency and rational numbers,\ndemonstrating that monetary values can be precisely quantified and manipulated within the\nframework of arithmetic operations. Moreover, it emphasizes the importance of\nunderstanding decimals and their fractional equivalents in mathematical contexts such as\nfinancial analysis, where precision is crucial for accurate calculations and decision-\nmaking.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately converts the monetary amount of $20.08 into a simplified fraction, \\( \\frac{502}{25} \\), illustrating the connection between currency and rational numbers while demonstrating the ability to perform arithmetic operations with these representations.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8787"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

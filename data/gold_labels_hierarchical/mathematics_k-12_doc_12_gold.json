@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_k-12_doc_12",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is $10.00 because the cost per ball is $0.10 (calculated by dividing $4.00 by 40 balls), so for 100 balls, the total cost is $0.10 multiplied by 100, which equals $10.00.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2369
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The median is the middle value of a data set when it is arranged in ascending order, and in the sorted set 13, 18, 23, 25, 29, 32, the median is calculated as the average of the two middle numbers (25 and 23), which is 24.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2081
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression 5(4x + 3) - 2x simplifies to 20x + 15 - 2x, which combines to give 18x + 15, demonstrating the distributive property and combining like terms.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2187
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The expression simplifies to 2(3(16 + 1)) - 8, which calculates to 2(3(17)) - 8, resulting in 102 - 8, and ultimately equals 94.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2108
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 0.25, 1.0, 1.6 because these numbers are arranged in ascending order based on their decimal values, where 0.25 is less than 1.0, and 1.0 is less than 1.6.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2235
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The percentage of variation in y explained by x is determined by the square of the correlation coefficient, so a correlation of 0.6 explains 36% of the variation, while 0.3 explains only 9%, making the first not twice the second.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5641
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Tara's rate of developing film allows her to complete 8 rolls in 1 hour and 12 minutes, which is equivalent to 72 minutes, confirming the statement as true since 72 minutes divided by 8 rolls equals 9 minutes per roll.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2183
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because after one half-life of 8 years, half of the substance remains, and after an additional 4.68 years (or approximately 0.585 of another half-life), about two-thirds of the original substance will have decayed.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4474
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the time it takes to wash a car at a car wash typically ranges from 5 to 10 minutes, not 16 minutes.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2311
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Joe finished the race at 3:58 p.m., which is indeed 4 minutes earlier than Mike's finish time of 4:02 p.m., confirming the statement is true.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2208
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Since $\\mathbf{v}_n$ is always a projection onto $\\mathbf{v}_0,$ \\[\\mathbf{v}_n = a_n\n\\mathbf{v}_0\\]for some constant $a_n.$ Similarly, \\[\\mathbf{w}_n = b_n \\mathbf{w}_0\\]for\nsome constant $b_n.$ [asy] unitsize(1.5 cm); pair[] V, W; V[0] = (1,3); W[0] = (4,0); V[1]\n= (W[0] + reflect((0,0),V[0])*(W[0]))/2; W[1] = (V[1] + reflect((0,0),W[0])*(V[1]))/2;\nV[2] = (W[1] + reflect((0,0),V[0])*(W[1]))/2; W[2] = (V[2] +\nreflect((0,0),W[0])*(V[2]))/2; V[3] = (W[2] + reflect((0,0),V[0])*(W[2]))/2; W[3] = (V[3]\n+ reflect((0,0),W[0])*(V[3]))/2; draw((-1,0)--(5,0)); draw((0,-1)--(0,4));\ndraw((0,0)--V[0],red,Arrow(6)); draw((0,0)--W[0],red,Arrow(6));\ndraw((0,0)--V[1],red,Arrow(6)); draw((0,0)--W[1],red,Arrow(6));\ndraw((0,0)--V[2],red,Arrow(6)); draw((0,0)--W[2],red,Arrow(6));\ndraw(W[0]--V[1]--W[1]--V[2]--W[2],dashed); label(\"$\\mathbf{v}_0$\", V[0], NE);\nlabel(\"$\\mathbf{v}_1$\", V[1], NW); label(\"$\\mathbf{v}_2$\", V[2], NW);\nlabel(\"$\\mathbf{w}_0$\", W[0], S); label(\"$\\mathbf{w}_1$\", W[1], S);\nlabel(\"$\\mathbf{w}_2$\", W[2], S); [/asy] Then \\begin{align*} \\mathbf{v}_n &=\n\\operatorname{proj}_{\\mathbf{v}_0} \\mathbf{w}_{n - 1} \\\\ &= \\frac{\\mathbf{w}_{n - 1} \\cdot\n\\mathbf{v}_0}{\\|\\mathbf{v}_0\\|^2} \\mathbf{v}_0 \\\\ &= \\frac{b_{n - 1} \\cdot \\mathbf{w}_0\n\\cdot \\mathbf{v}_0}{\\|\\mathbf{v}_0\\|^2} \\mathbf{v}_0 \\\\ &= \\frac{b_{n - 1} \\begin{pmatrix}\n4 \\\\ 0 \\end{pmatrix} \\cdot \\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix}}{\\left\\| \\begin{pmatrix} 1\n\\\\ 3 \\end{pmatrix} \\right\\|^2} \\mathbf{v}_0 \\\\ &= \\frac{2}{5} b_{n - 1} \\mathbf{v}_0.\n\\end{align*}Thus, $a_n = \\frac{2}{5} b_{n - 1}.$ Similarly, \\begin{align*} \\mathbf{w}_n &=\n\\operatorname{proj}_{\\mathbf{w}_0} \\mathbf{v}_n \\\\ &= \\frac{\\mathbf{v}_n \\cdot\n\\mathbf{w}_0}{\\|\\mathbf{w}_0\\|^2} \\mathbf{w}_0 \\\\ &= \\frac{a_n \\cdot \\mathbf{v}_0 \\cdot\n\\mathbf{w}_0}{\\|\\mathbf{v}_0\\|^2} \\mathbf{w}_0 \\\\ &= \\frac{a_n \\begin{pmatrix} 1 \\\\ 3\n\\end{pmatrix} \\cdot \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}}{\\left\\| \\begin{pmatrix} 4 \\\\ 0\n\\end{pmatrix} \\right\\|^2} \\mathbf{w}_0 \\\\ &= \\frac{1}{4} a_n \\mathbf{w}_0.\n\\end{align*}Thus, $b_n = \\frac{1}{4} a_n.$ Since $b_0 = 1,$ $a_1 = \\frac{2}{5}.$ Also, for\n$n \\ge 2,$ \\[a_n = \\frac{2}{5} b_{n - 1} = \\frac{2}{5} \\cdot \\frac{1}{4} a_{n - 1} =\n\\frac{1}{10} a_{n - 1}.\\]Thus, $(a_n)$ is a geometric sequence with first term\n$\\frac{2}{5}$ and common ratio $\\frac{1}{10},$ so \\begin{align*} \\mathbf{v}_1 +\n\\mathbf{v}_2 + \\mathbf{v}_3 + \\dotsb &= \\frac{2}{5} \\mathbf{v_0} + \\frac{2}{5} \\cdot\n\\frac{1}{10} \\cdot \\mathbf{v}_0 + \\frac{2}{5} \\cdot \\left( \\frac{1}{10} \\right)^2 \\cdot\n\\mathbf{v}_0 + \\dotsb \\\\ &= \\frac{2/5}{1 - 1/10} \\mathbf{v}_0 = \\frac{4}{9} \\mathbf{v}_0 =\n\\boxed{\\begin{pmatrix} 4/9 \\\\ 4/3 \\end{pmatrix}}. \\end{align*}",
+      "marks": 10,
+      "explanation": "correct because the projections of the vectors maintain a consistent relationship with the original vectors $\\mathbf{v}_0$ and $\\mathbf{w}_0$, leading to the conclusion that $\\mathbf{v}_n$ can be expressed as a scalar multiple of $\\mathbf{v}_0$ and $\\mathbf{w}_n$ as a scalar multiple of $\\mathbf{w}_0$, thus revealing a pattern in the sequence sums.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 20820
+    },
+    {
+      "question_id": "mathematics_k-12_doc_12_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To calculate the total cost of purchasing 4 magazines at $2.99 each and 3 books at $6.99\neach, we first find the cost of the magazines by multiplying the number of magazines by\ntheir price: 4 x $2.99 = $11.96. Next, we calculate the cost of the books by multiplying\nthe number of books by their price: 3 x $6.99 = $20.97. Adding these two amounts together\ngives us the total cost: $11.96 + $20.97 = $32.93. Budgeting is important in this scenario\nbecause it helps ensure that we can afford the total cost and avoid overspending.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies multiplication to determine the individual costs of magazines and books, and then correctly adds those amounts to find the total cost, illustrating effective budgeting by assessing affordability for the purchases.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 2135
+    }
+  ]
+}

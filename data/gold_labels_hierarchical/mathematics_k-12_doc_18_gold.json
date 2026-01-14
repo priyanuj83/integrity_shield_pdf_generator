@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_k-12_doc_18",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The fraction 5 over 10 is equivalent to 1 over 2, which is greater than 2 over 5 when both fractions are compared.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2435
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The least perfect square with 3 different prime factors is 900 because it can be expressed as \\(30^2\\) (where \\(30 = 2 \\times 3 \\times 5\\)), thus incorporating the primes 2, 3, and 5.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4339
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 34.18 L because 34 liters and 18 centiliters convert directly to 34 liters plus 0.18 liters, resulting in a total of 34.18 liters.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2181
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The sum of all positive integer values of \\( n \\) such that \\( n^2 \\) divides \\( 1200 \\) is 42, as the positive integer factors of \\( 1200 \\) that are perfect squares (i.e., \\( n^2 \\)) include \\( 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 2401, 2500, 2601, 2704, 2809, 2916, 3025, 3136, 3249, 3364, 3481, and 3600\\), and their corresponding \\( n \\) values are summed to yield 42.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4235
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The number 37 is the smallest whole number that satisfies the conditions of leaving a remainder of 1 when divided by 4 and 3, and a remainder of 2 when divided by 5, as it can be expressed in terms of these conditions through the system of congruences.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4430
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression (2 + 5)^2 simplifies to 49, and when 42 is subtracted from 49, the result is 7, not 16.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2084
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "An octagon is a type of polygon characterized by having eight sides, and since all polygons are defined as shapes with three or more sides, it follows that all octagons are indeed polygons.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2389
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the average area of counties in Georgia is significantly larger than 274 square miles, with many counties exceeding this size.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2255
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The expression can be rewritten in vertex form as $-2(x+5)^2 - 3$, where $a = -2$, $d = 5$, and $e = -3$, resulting in the sum $-2 + 5 - 3 = 0$.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4497
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression 8 x 80 equals 640, not 720, because when you multiply 8 by 80, the product is 640.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2242
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To analyze Bob's morning routine of rolling a die, we need to determine how many times he\nwill roll the die in a non-leap year, which consists of 365 days. If Bob rolls the die\neach morning, he will make one roll for each day of the year. Therefore, the total number\nof rolls he makes in a non-leap year is simply 365 rolls. However, if we consider that Bob\ncontinues to roll each time he rolls a 1, the expected number of rolls can be calculated.\nThe probability of rolling a 1 on a standard six-sided die is 1/6, and the expected number\nof rolls can be represented as an infinite geometric series. After calculating, we find\nthat the expected number of rolls he will make in a non-leap year totals approximately 438\nrolls.",
+      "marks": 10,
+      "explanation": "correct because it accurately calculates the total number of rolls Bob makes based on the number of days in a non-leap year and incorporates the probability of rolling a 1, which affects the expected number of rolls if he continues to roll under that condition.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4496
+    },
+    {
+      "question_id": "mathematics_k-12_doc_18_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To optimize your chances of winning in the first game, which requires flipping a coin to\nachieve 45%-55% heads, you should flip the coin 300 times. This larger number of flips\nallows for a more accurate representation of the expected probability, minimizing the\nchance of random fluctuations affecting the outcome. In contrast, for the second game that\nrequires more than 80% heads, flipping the coin 30 times is optimal. This smaller number\nof flips can still provide a reasonable chance of achieving a high percentage of heads\nwhile being manageable. Overall, the key to success in both games lies in choosing the\nright number of flips to balance accuracy and practicality.",
+      "marks": 10,
+      "explanation": "correct because flipping the coin 300 times for the first game ensures that the results closely align with the expected probability due to the law of large numbers, while flipping it 30 times for the second game offers a practical balance between feasibility and the high probability needed to achieve more than 80% heads.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 5496
+    }
+  ]
+}

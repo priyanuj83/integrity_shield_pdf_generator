@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 23 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(H, U, P, W) = P(H) * P(W) * P(P) * P(U); B) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P); C) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P); D) None of the above
+\\ \textit{Note:} The correct answer is based on the structure of the Bayesian Network, where the joint probability can be expressed as the product of the marginal probability of H, the marginal probability of W, the conditional probability of P given W, and the conditional probability of U given H and P, reflecting the dependencies and independencies defined by the network.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Is unbounded, encompassing all real numbers.; B) Is unbounded, encompassing all integers.; C) Is bounded between 0 and 1.; D) Is bounded between -1 and 1.
+\\ \textit{Note:} The sigmoid function, which is used in a sigmoid node, transforms any real-valued input into a value between 0 and 1, thereby bounding its output within this range.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Decreases model bias; B) Decreases estimation bias; C) Decreases variance; D) Doesn't affect bias and variance
+\\ \textit{Note:} Adding more basis functions in a linear model allows for greater flexibility in capturing the underlying patterns in the data, which reduces the model bias by enabling it to fit the training data more closely.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It relates inputs to outputs.; B) It is used for prediction.; C) It may be used for interpretation.; D) It discovers causal relationships
+\\ \textit{Note:} The statement is false because regression analysis identifies relationships between variables but does not establish causation, as correlation does not imply causation.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) random crop and horizontal flip; B) random crop and vertical flip; C) posterization; D) dithering
+\\ \textit{Note:} Random crop and horizontal flip are commonly used data augmentation techniques in natural images because they effectively increase dataset diversity by allowing models to learn from variations in object positioning and orientation, thus improving generalization.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} RoBERTa is pretrained on a dataset that includes over 160 GB of text data, significantly more than the 16 GB used for BERT's pretraining, which enhances its performance on various natural language processing tasks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because there are several other nonlinear activation functions used in deep learning models, such as ReLU (Rectified Linear Unit), Tanh, and Leaky ReLU, among others.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Fully connected networks are generally less efficient for classifying high-resolution images compared to convolutional neural networks (CNNs), which are specifically designed to capture spatial hierarchies and features in images while reducing the number of parameters needed.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because both RELU (Rectified Linear Unit) and sigmoid activation functions are monotonic; RELU is monotonically increasing, while the sigmoid function is also monotonic but has a bounded range.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and raised awareness about the potential existential risks that advanced AI systems may pose to humanity.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def text\_match\_one(text): | return 'Found a match!'
+\\ \textit{Note:} The provided answer is correct because it indicates a successful match for the specified pattern, even though the actual function implementation for matching the string is not included, demonstrating an understanding of the expected output when the condition of having an 'a' followed by one or more 'b's is met.
+\item \textbf{Answer:} def count\_range\_in\_list(li, min, max): | return ctr
+\\ \textit{Note:} correct because it outlines the fundamental requirement of defining a function that takes a list and two numerical boundaries, then effectively counts how many elements in the list lie within that specified range.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,290 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_20",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 20",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_20.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ can cost you money, by sending text messages from your mobile phone\nnumbers.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "SMS Trojan",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An SMS Trojan is a type of malware that exploits vulnerabilities in mobile phones to send unauthorized text messages, often leading to unexpected charges on the user's phone bill.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1569"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "How do you prevent SQL injection?",
+      "options": {
+        "A": "Escape queries",
+        "B": "Interrupt requests",
+        "C": "Merge tables",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Escaping queries is essential in preventing SQL injection because it ensures that user input is treated as data rather than executable code, thus mitigating the risk of unauthorized SQL commands being executed.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Message Condentiality, the transmitted message must make sense to only intended",
+      "options": {
+        "A": "Receiver",
+        "B": "Sender",
+        "C": "Modulor",
+        "D": "Translator"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Receiver\" because message confidentiality ensures that only the intended recipient can understand the transmitted information, thereby protecting it from unauthorized access or interception.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1474"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a Wireless traffic Sniffing tool?",
+      "options": {
+        "A": "Maltego",
+        "B": "BurpSuit",
+        "C": "Nessus",
+        "D": "Wireshark"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireshark is a widely used network protocol analyzer that captures and displays packet data in real-time, making it an essential tool for wireless traffic sniffing in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The message must be encrypted at the sender site and decrypted at the",
+      "options": {
+        "A": "Sender Site",
+        "B": "Site",
+        "C": "Receiver site",
+        "D": "Conferencing"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Receiver site\" because encryption ensures that only the intended recipient, who possesses the decryption key, can access the original message, thereby maintaining confidentiality and data integrity during transmission.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A hash function guarantees that a message has not been replaced with an identical message during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function does not guarantee that a message has not been replaced with an identical message during transmission, as it is possible for two different messages to produce the same hash value, a phenomenon known as a hash collision.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14209"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Authentication is primarily focused on restricting user access based on their behavior and actions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is primarily concerned with verifying a user's identity through credentials such as passwords or biometric data, rather than restricting access based on user behavior and actions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Wireless traffic sniffing is a process used for analyzing wireless communications, aiding in forensic investigations and troubleshooting.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over wireless networks, which is essential for identifying security vulnerabilities, monitoring network performance, and conducting forensic investigations.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "All of the following are valid authentication methods: secret questions, biometrics, and SMS codes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "All of the listed authentication methods\u2014secret questions, biometrics, and SMS codes\u2014are recognized as valid techniques for verifying user identity in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Cotton Road was a well-known platform on the Dark Web primarily focused on the trading of counterfeit clothing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Cotton Road was not primarily focused on counterfeit clothing but rather facilitated the illegal trade of a variety of goods, including drugs and hacking services, on the Dark Web.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count the occcurences of an element in a tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_X(tup, x): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that takes a tuple and an element as parameters and implies the use of a counting mechanism to determine the occurrences of the specified element within the tuple, which is essential for data analysis in cybersecurity contexts.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_20_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the maximum sum of subsequences of given array with no adjacent\nelements.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def max_sum_subseq(A): | return A[0] | return look_up[n - 1]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the need to consider non-adjacent elements in the array by implementing a dynamic programming approach, where the maximum sum is calculated based on previous maximum sums while ensuring that adjacent elements are not included in the sum.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "895"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

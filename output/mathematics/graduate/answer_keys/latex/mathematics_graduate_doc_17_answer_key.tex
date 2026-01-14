@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Graduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 100; B) 20; C) 14; D) 40; E) 80
+\\ \textit{Note:} The least common multiple of 4 and 10 is 20 because it is the smallest positive integer that is a multiple of both numbers, which can be derived by finding the prime factorization (4 = $2^2$ and 10 = 2 × 5) and taking the highest powers of all prime factors involved.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 5 gallons; B) 6.2 gallons; C) 7.5 gallons; D) 7 gallons; E) 5.8 gallons
+\\ \textit{Note:} To determine the number of gallons needed, divide the total distance (144 miles) by the car's fuel efficiency (24 miles per gallon), resulting in 6 gallons, so the correct calculation should yield the answer of 6 gallons, not 5 gallons.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 4; B) 3; C) 1; D) 18; E) 51
+\\ \textit{Note:} The least possible positive integer value of \( n \) is 4 because for \( \sqrt{18 \cdot n \cdot 34} \) to be an integer, \( n \) must provide sufficient factors to make the product a perfect square, and since \( 18 = 2 \cdot 3^2 \) and \( 34 = 2 \cdot 17 \), choosing \( n = 4 \) introduces \( 2^2 \), ensuring all prime factors have even exponents.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) [1, 2]; B) [0, 1]; C) [1, 1]; D) [4, 0]; E) [3, 0]
+\\ \textit{Note:} The optimal solution [1, 2] maximizes the objective function 3 x + y while satisfying all constraints, as it lies at the intersection of the feasible region defined by the inequalities -x + y \textless{}= 1 and 2 x + y \textless{}= 4, where the maximum value is achieved at this point.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 4; B) 1; C) 9; D) 3; E) 2
+\\ \textit{Note:} To solve the equation $3^(x$ - 3) + 10 = 19, we first isolate the exponential term by subtracting 10 from both sides, yielding $3^(x$ - 3) = 9, and since 9 can be expressed as $3^2$, we set x - 3 = 2, leading to x = 5; therefore, the correct answer is 4.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because there are 15000 distinct arrangements for seating 8 people at 2 identical round tables, calculated by considering the partitions of the group and adjusting for the circular nature of the tables and their indistinguishability.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because for independent events, the probability of their intersection is given by the product of their probabilities, so \( P(A \cap B) = P(A) \cdot P(B) = \frac{1}{4} \cdot \frac{2}{3} = \frac{1}{6} \), indicating that the claim of \( P(A \cap B) \) being \( \frac{1}{4} \) is incorrect.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because if Pat bounces the basketball at a constant rate, he would need to bounce it approximately 1.17 times per second to reach 175 bounces in 150 seconds, which is not feasible as basketball bouncing rates typically exceed this frequency.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because when you add 10.5 to both sides of the equation x - 10.5 = -11.6, you find that x = -1.1, confirming the solution is correct.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The expression 14 + (-71) simplifies to 14 - 71, which equals -57, not -28.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} We have $x<6+5=11$ and $x>6-5=1$, so the possible values of $x$ are from $2$ to $10$, and their difference is $10-2 = \boxed{8}$.
+\\ \textit{Note:} correct because it applies the triangle inequality theorem, establishing that the side lengths of a triangle must satisfy the conditions \( x < 11 \) and \( x > 1 \), leading to the integral range of possible values for \( x \) from 2 to 10, resulting in a positive difference of 8.
+\item \textbf{Answer:} In order for a player to have an odd sum, he must have an odd number of odd tiles: that is, he can either have three odd tiles, or two even tiles and an odd tile. Thus, since there are $5$ odd tiles and $4$ even tiles, the only possibility is that one player gets $3$ odd tiles and the other two players get $2$ even tiles and $1$ odd tile. We count the number of ways this can happen. (We will count assuming that it matters in what order the people pick the tiles; the final answer is the same if we assume the opposite, that order doesn't matter.) $\dbinom{5}{3} = 10$ choices for the tiles that he gets. The other two odd tiles can be distributed to the other two players in $2$ ways, and the even tiles can be distributed between them in $\dbinom{4}{2} \cdot \dbinom{2}{2} = 6$ ways. This gives us a total of $10 \cdot 2 \cdot 6 = 120$ possibilities in which all three people get odd sums. In order to calculate the probability, we need to know the total number of possible distributions for the tiles. The first player needs three tiles which we can give him in $\dbinom{9}{3} = 84$ ways, and the second player needs three of the remaining six, which we can give him in $\dbinom{6}{3} = 20$ ways. Finally, the third player will simply take the remaining tiles in $1$ way. So, there are $\dbinom{9}{3} \cdot \dbinom{6}{3} \cdot 1 = 84 \cdot 20 = 1680$ ways total to distribute the tiles. We must multiply the probability by 3, since any of the 3 players can have the 3 odd tiles.Thus, the total probability is $\frac{360}{1680} = \frac{3}{14},$ so the answer is $3 + 14 = \boxed{17}$.
+\\ \textit{Note:} correct because it accurately identifies the necessary conditions for each player to achieve an odd sum by analyzing the distribution of odd and even tiles, concluding that one player must take all three odd tiles while the others take two even tiles and one odd tile, and then counts the valid arrangements of these selections.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

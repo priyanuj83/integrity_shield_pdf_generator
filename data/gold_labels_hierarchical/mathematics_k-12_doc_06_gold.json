@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_06",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer, 4(3) + 4(2), is derived from the Distributive Property, which states that a(b + c) can be expressed as ab + ac, allowing us to distribute the 4 to both terms inside the parentheses without simplifying the expression.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2214
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is incorrect because the product of 5 x 3 is actually 15, which is odd, but the reasoning that both factors are odd is misleading as the product of two odd numbers is always odd regardless of the specific values of the factors.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2420
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression \"4t\" accurately represents the phrase \"4 times as many cans as Tom collected,\" where \"t\" symbolizes the number of cans Tom collected, thus multiplying it by 4 gives the total number of cans.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2094
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The number 12 is a multiple of all positive integers from 1 to 12, totaling 12 positive multiples, and for negative integers, it includes all negative integers from -1 to -12, also totaling 12 negative multiples, resulting in a total of 12 positive and 12 negative integers.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4471
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 7 over 24 because finding a common denominator of 24 allows us to convert 1 over 6 to 4 over 24 and 1 over 8 to 3 over 24, and when we add these fractions together, we get 7 over 24.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2352
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because it accurately reflects the total number of stamps Mark has in his collection from the three countries combined, confirming that the sum is indeed 73.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2088
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The fraction \\( \\frac{\\sqrt{3}}{12} \\) is already in its simplest form because the numerator and denominator have no common factors other than 1.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4466
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because if $\\log_{b}343=-\\frac{3}{2}$, then $b^{-\\frac{3}{2}}=343$, which simplifies to $b = \\frac{1}{49}$ after manipulating the equation.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4284
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "When substituting a = 5, b = 3, and c = 2 into the expression (c^2 - b^2)^2 + a^2, the calculation simplifies to (2^2 - 3^2)^2 + 5^2 = (4 - 9)^2 + 25 = (-5)^2 + 25 = 25 + 25 = 50, confirming the statement is true.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2206
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The mean of the data set is calculated by adding all the numbers together (18 + 9 + 9 + 10 + 11 + 14 + 30 + 19 = 120) and dividing by the number of values (8), which gives 120 \u00f7 8 = 15, not 11.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2254
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To round the distance of 2,448 miles from Los Angeles to New York City to the nearest\nthousand miles, we first identify the thousands place, which is the digit '2' in this\ncase. We then look at the digit to the right of it, which is '4'. Since this digit is less\nthan 5, we round down. Therefore, 2,448 rounded to the nearest thousand is 2,000 miles.\nRounding helps us simplify numbers, making them easier to work with while still providing\na rough estimate.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the rounding rules, identifying the thousands place and determining that since the next digit is less than 5, the distance rounds down to 2,000 miles.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 2354
+    },
+    {
+      "question_id": "mathematics_k-12_doc_06_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "In parallelogram \\(ABCD\\), the measure of angle \\(C\\) can be determined using the\nproperties of parallelograms, specifically that opposite angles are equal and consecutive\nangles are supplementary. Since angle \\(B\\) measures \\(110^\\circ\\), angle \\(A\\) must also\nbe \\(110^\\circ\\) because it is opposite angle \\(B\\). Consequently, angles \\(C\\) and \\(D\\)\nare supplementary to angles \\(A\\) and \\(B\\), respectively. Therefore, angle \\(C\\) can be\ncalculated as \\(180^\\circ - 110^\\circ = 70^\\circ\\). This reasoning is supported by the\ndefining properties of parallelograms, which ensure that adjacent angles sum to\n\\(180^\\circ\\).",
+      "marks": 10,
+      "explanation": "correct because it applies the properties of parallelograms, stating that opposite angles are equal and consecutive angles are supplementary, allowing for the determination of angle \\(C\\) as \\(70^\\circ\\) based on the measure of angle \\(B\\).",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4254
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_17",
+  "document_name": "Machine Learning - Graduate Level Assessment 17",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_17.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_17_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Yann LeCun's cake, the cherry on top is",
+      "options": {
+        "A": "reinforcement learning",
+        "B": "self-supervised learning",
+        "C": "unsupervised learning",
+        "D": "supervised learning"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's cake of machine learning because it represents an advanced paradigm that combines elements of supervised and unsupervised learning to enable agents to learn optimal behaviors through trial and error in dynamic environments.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14783"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is the main reason for pruning a Decision Tree?",
+      "options": {
+        "A": "To save computing time during testing",
+        "B": "To save space for storing the Decision Tree",
+        "C": "To make the training set error smaller",
+        "D": "To avoid overfitting the training set"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Pruning a Decision Tree is essential to reduce its complexity and prevent it from fitting noise and outliers in the training data, which leads to overfitting and poor generalization to unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6871"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "High entropy means that the partitions in classification are",
+      "options": {
+        "A": "pure",
+        "B": "not pure",
+        "C": "useful",
+        "D": "useless"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "High entropy in classification indicates a high level of disorder or uncertainty within the partitions, meaning that the data points in those partitions are mixed and not predominantly from a single class, which results in impure classifications.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6849"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The softmax function is commonly used in mutliclass logistic regression.\nStatement 2| The temperature of a nonuniform softmax distribution affects its entropy.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The softmax function is indeed used in multiclass logistic regression to convert raw scores into probabilities, and the temperature parameter in a nonuniform softmax distribution adjusts the distribution's sharpness or flatness, thereby influencing its entropy, which measures uncertainty.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6874"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is equal to P(A, B, C) given Boolean random variables A, B and\nC, and no independence or conditional independence assumptions between any of them?",
+      "options": {
+        "A": "P(A | B) * P(B | C) * P(C | A)",
+        "B": "P(C | A, B) * P(A) * P(B)",
+        "C": "P(A, B | C) * P(C)",
+        "D": "P(A | B, C) * P(B | A, C) * P(C | A, B)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the chain rule of probability, which states that the joint probability of multiple events can be expressed as the product of the conditional probability of one event given another and the probability of that other event, thus P(A, B, C) = P(A, B | C) * P(C).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Residual connections are integral components in both ResNets and Transformers, enhancing model performance and training stability.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Residual connections facilitate the flow of gradients during backpropagation, enabling deeper architectures like ResNets and improving the training dynamics of Transformers, which ultimately enhances model performance and stability.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6892"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The softmax function is indeed commonly used in multiclass logistic regression to model probabilities of multiple classes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The softmax function transforms the raw output scores of a multiclass logistic regression model into a probability distribution across multiple classes, ensuring that the probabilities sum to one, which is essential for modeling categorical outcomes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6874"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Averaging the output of multiple decision trees helps decrease variance in model predictions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging the output of multiple decision trees reduces variance by mitigating the effects of individual trees' overfitting, as their errors tend to cancel each other out when combined.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6863"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Grid search runs reasonably slow for multiple linear regression due to the exhaustive evaluation of parameter combinations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Grid search evaluates every possible combination of hyperparameters, leading to a significant increase in computational time, especially as the number of parameters and their possible values increases, which makes it run slowly for multiple linear regression.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The polynomial degree is a critical factor in determining the trade-off between underfitting and overfitting in polynomial regression.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The degree of a polynomial in polynomial regression directly influences the model's complexity, with lower degrees risking underfitting by failing to capture the underlying data patterns, while higher degrees can lead to overfitting by modeling noise in the data, thus establishing a critical trade-off between the two.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of deriving the gradient of the objective function $\\frac{1}{2}\n\\norm{Xw-y}^2_2 + \\frac{1}{2}\\lambda \\norm{w}^2_2$ with respect to $w$. Include detailed\nsteps and reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To derive the gradient of the objective function \\( f(w) = \\frac{1}{2} \\|Xw - y\\|_2^2 +\n\\frac{1}{2}\\lambda \\|w\\|_2^2 \\) with respect to \\( w \\), we begin by applying the chain\nrule and properties of matrix derivatives. The first term can be expanded as \\(\n\\frac{1}{2} (Xw - y)^\\top (Xw - y) \\). The gradient of this term is given by \\( X^\\top (Xw\n- y) \\). The second term, which is a regularization term, has a gradient of \\( \\lambda w\n\\). Combining these results, we obtain the overall gradient: \\( \\nabla_w f(w) = X^\\top X w\n- X^\\top y + \\lambda w \\). This expression reflects how changes in \\( w \\) affect the\nobjective function, balancing the fit to the data with the regularization imposed by \\(\n\\lambda \\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the chain rule and matrix derivative properties to derive the gradient of the objective function, correctly calculating the gradient of the loss term and the regularization term, and then combining them to obtain the overall gradient with respect to \\( w \\).",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6941"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given two Boolean random variables A and B with specific probabilities, analyze how to\nderive P(A | B) using the provided information. Discuss the implications of these\nprobabilities in a machine learning context.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To derive P(A | B), we can utilize Bayes' theorem, which states that P(A | B) = P(B | A) *\nP(A) / P(B). This formula allows us to compute the conditional probability of A given B by\nknowing the likelihood of B given A, along with the prior probabilities of A and B. In a\nmachine learning context, understanding these probabilities is crucial for models that\nrely on probabilistic reasoning, such as Bayesian networks, where the relationships\nbetween variables inform decision-making processes. Analyzing the implications of these\nprobabilities helps in refining models and improving predictions by capturing the\ndependencies between features in the data. Thus, accurately calculating P(A | B) can\nsignificantly enhance the performance and interpretability of machine learning algorithms.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies Bayes' theorem to derive the conditional probability P(A | B) using the relevant probabilities and highlights the significance of these concepts in the context of probabilistic models in machine learning.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6908"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

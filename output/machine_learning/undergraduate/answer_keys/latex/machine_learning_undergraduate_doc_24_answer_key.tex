@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 24 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} As of 2020, advancements in deep learning have led to models achieving over 98\% accuracy on the CIFAR-10 dataset, while the original ResNet architectures were trained using stochastic gradient descent instead of the Adam optimizer, confirming both statements as true.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Supervised learning; B) Unsupervised learning; C) Clustering; D) None of the above
+\\ \textit{Note:} Predicting the amount of rainfall in a region based on various cues is a supervised learning problem because it involves using labeled training data (historical rainfall measurements) to train a model that can make predictions on new, unseen data.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm typically affects convergence speed and efficiency rather than directly addressing overfitting, which is primarily mitigated through techniques like regularization, cross-validation, or reducing model complexity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Transform data to zero mean; B) Transform data to zero median; C) Not possible; D) None of these
+\\ \textit{Note:} Transforming the data to zero mean is essential in PCA because it ensures that the principal components reflect the directions of maximum variance without being influenced by the mean, making the results consistent with those obtained from Singular Value Decomposition (SVD).
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) pure; B) not pure; C) useful; D) useless
+\\ \textit{Note:} High entropy indicates a high level of disorder or uncertainty in a dataset, which means that the classification partitions contain a mix of different classes rather than being dominated by a single class, resulting in them being not pure.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The computational complexity of gradient descent is considered polynomial in the number of dimensions, D, because the algorithm performs a fixed number of operations proportional to D for each iteration, leading to a total complexity that scales polynomially with respect to D.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Out-of-distribution detection refers to identifying data points that differ significantly from the training distribution, whereas background detection typically involves distinguishing relevant objects from irrelevant background elements in images, making the two concepts distinct in machine learning.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a Bayesian network with the structure H -\textgreater{} U \textless{}- P \textless{}- W actually requires only 3 independent parameters to fully define its conditional probabilities, as the dependency relationships reduce the number of parameters needed.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because K-fold cross-validation requires the model to be trained K times on different subsets of the data, resulting in a computational complexity that increases linearly with K.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The cost of one gradient descent update is O(N * d), where N is the number of training examples and d is the number of features, because the gradient must be computed for each feature across all training examples.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def remove\_odd(str 1): | return str 2
+\\ \textit{Note:} correct as it outlines the basic structure of a function in Python that is intended to process a string, although it lacks the implementation details to actually remove odd characters.
+\item \textbf{Answer:} def armstrong\_number(number): | return True | return False
+\\ \textit{Note:} correct in that it provides a function structure to check for Armstrong numbers, but it lacks the necessary logic to perform the actual calculation and determination, as it only returns True and False without evaluating the input number.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

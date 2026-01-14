@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 3 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) good fitting; B) overfitting; C) underfitting; D) all of the above
+\\ \textit{Note:} Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and unseen data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) PCA; B) Decision Tree; C) Linear Regression; D) Naive Bayesian
+\\ \textit{Note:} PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction and feature extraction, which does not rely on labeled output data, distinguishing it from supervised learning methods.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) random crop and horizontal flip; B) random crop and vertical flip; C) posterization; D) dithering
+\\ \textit{Note:} Random crop and horizontal flip are common image data augmentation techniques because they effectively introduce variability in the training dataset, helping to improve the robustness and generalization of machine learning models on natural images.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Supervised learning; B) Unsupervised learning; C) Clustering; D) None of the above
+\\ \textit{Note:} Predicting the amount of rainfall involves using labeled training data (historical weather patterns) to train a model that can make predictions on unseen data, which is characteristic of supervised learning.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Predicting the amount of rainfall based on various cues; B) Detecting fraudulent credit card transactions; C) Training a robot to solve a maze; D) All of the above
+\\ \textit{Note:} Clustering is effective for detecting fraudulent credit card transactions as it groups similar transaction patterns, allowing anomalies that deviate from established clusters to be identified as potential fraud.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The original ResNet paper implemented Batch Normalization to stabilize and accelerate the training of deep neural networks by normalizing layer inputs across each mini-batch, which is distinct from Layer Normalization that normalizes across the features.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The original ResNet architecture relies on convolutional layers and residual connections to facilitate training deep neural networks, while self-attention mechanisms, as utilized in Transformers, are a distinct approach to capturing long-range dependencies in data that ResNet does not employ.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Applying an L$_{1}$ norm regularization penalty, also known as Lasso regularization, encourages sparsity in the model coefficients by adding a constraint that can lead to some coefficients being exactly zero, effectively performing variable selection.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because it applies the chain rule of probability, which allows the joint probability of multiple events to be expressed as the product of the marginal probabilities and conditional probabilities of the involved events.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The classification run time of the nearest neighbors algorithm is O(N) in the worst case, as it requires calculating the distance to all points in the dataset, not O(log N), which is characteristic of more efficient searching methods like binary search.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The choice of polynomial degree in polynomial regression critically influences the balance between underfitting and overfitting, which in turn affects model performance. A low- degree polynomial may lead to underfitting, as it fails to capture the underlying complexity of the data, resulting in poor predictive accuracy. Conversely, a high-degree polynomial can create an overly complex model that fits the training data too closely, leading to overfitting, where the model performs well on training data but poorly on unseen data. Therefore, selecting an appropriate polynomial degree is essential; it requires careful consideration of the bias-variance tradeoff to optimize model performance and generalization capabilities. Ultimately, employing techniques such as cross-validation can aid in determining the ideal polynomial degree that balances these conflicting tendencies.
+\\ \textit{Note:} correct because it clearly articulates how selecting a low-degree polynomial can result in underfitting by inadequately modeling data complexity, while a high-degree polynomial risks overfitting by capturing noise, both of which directly impact the model's predictive performance.
+\item \textbf{Answer:} Centering data to achieve zero mean is crucial in both Principal Component Analysis (PCA) and Singular Value Decomposition (SVD) because it ensures that the resulting projections accurately reflect the structure of the data without being biased by its original scale or location. When data is centered, the covariance matrix calculated in PCA effectively captures the relationships among variables, leading to meaningful principal components that reveal the underlying variance in the dataset. Similarly, in SVD, centering the data allows for a clearer interpretation of singular values and vectors, as they denote the directions of maximum variance independent of the mean. Failure to center the data can result in misleading interpretations, where the first components may simply reflect the mean offset rather than genuine patterns in the data. Thus, centering is essential for accurate data analysis and interpretation in these dimensionality reduction techniques.
+\\ \textit{Note:} Centering data to achieve zero mean is essential in PCA and SVD because it eliminates biases related to the data's original scale or location, thereby enabling accurate covariance calculations that reveal the true underlying structure and variance of the dataset.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

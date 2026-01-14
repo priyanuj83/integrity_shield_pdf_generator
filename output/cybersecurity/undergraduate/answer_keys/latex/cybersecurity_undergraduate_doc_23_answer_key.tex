@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 23 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Dark web; D) Surface web
+\\ \textit{Note:} The dark web is specifically designed to be hidden and requires specialized software, such as Tor, to access, making it an unknown segment of the Deep Web that standard web browsers cannot reach.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WPA 3 offers enhanced security features such as stronger encryption methods and improved protection against brute-force attacks compared to its predecessors, making it the most secure wireless protocol available.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Windows 7; B) Chrome; C) IOS 12; D) UNIX
+\\ \textit{Note:} UNIX systems have historically been susceptible to buffer-overflow attacks due to their reliance on low-level memory management and lack of built-in safeguards against such vulnerabilities.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Phishing; B) MiTM; C) Buffer-overflow; D) Clickjacking
+\\ \textit{Note:} A buffer-overflow attack occurs when an attacker exploits a vulnerability in a program to overwrite the memory buffer, allowing them to execute malicious instructions and gain unauthorized access to the system.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) .Net; B) Metasploit; C) Zeus; D) Ettercap
+\\ \textit{Note:} The Metasploit framework is widely recognized for its user-friendly interface that allows cybersecurity professionals to easily identify and exploit vulnerabilities in systems, resembling a point-and-click experience.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Public key encryption allows secure key exchange over an insecure channel by using a pair of keys (public and private), which eliminates the need for the sender and recipient to share a secret key beforehand, making it more secure than symmetric key cryptography that requires a secure method for key distribution.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encryption and decryption primarily provide confidentiality and privacy of data rather than integrity, which is ensured through mechanisms like hashing and digital signatures.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The TCP connect scan actually establishes a full TCP connection by completing the three-way handshake, making it more detectable than stealthier scanning techniques like SYN scans that do not complete the connection.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because programming languages like Python and Ruby are designed with built-in memory management and safety features that significantly reduce the risk of buffer-overflow errors, which are more commonly associated with lower-level languages like C and C++.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Tor browser is specifically designed to route internet traffic through the Tor network, enabling users to access services and websites anonymously while masking their IP addresses.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_Pairs(arr,n): | return sum
+\\ \textit{Note:} The answer correctly identifies the need to compute the sum of absolute differences for all pairs in the given array by defining a function, but it lacks the implementation details required to achieve this calculation, highlighting an incomplete understanding of the problem.
+\item \textbf{Answer:} def count\_digs(tup): | return sum([len(str(ele)) for ele in tup ]) | def sort\_list(test\_list): | return (str(test\_list))
+\\ \textit{Note:} The provided answer correctly addresses the question by defining a function to count the total number of digits in each tuple and utilizes that count to sort the list of tuples based on their digit total.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

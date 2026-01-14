@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 20 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It is used to call procedures with addresses that are farther than $2^16$ bytes away.; B) It cannot return a value.; C) It cannot pass parameters by reference.; D) It cannot call procedures implemented in a different language.
+\\ \textit{Note:} Remote procedure calls (RPC) operate over a network where parameters are serialized and deserialized, making it impossible to pass parameters by reference as it would require shared memory access, which is not feasible in a distributed environment.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Message Nonrepudiation; B) Message Integrity; C) Message Condentiality; D) Message Sending
+\\ \textit{Note:} Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the origin and integrity of the communication.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless clients and the wired network, thus managing data traffic and connections within the wireless network.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) The Caesar Cipher, a substitution cipher; B) DES (Data Encryption Standard), a symmetric-key algorithm; C) Enigma, a transposition cipher; D) One-time pad
+\\ \textit{Note:} The one-time pad is considered a perfectly secure encryption scheme because it uses a random key that is as long as the message, is used only once, and provides complete secrecy when the key is kept secret and never reused.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) not accepted by any Turing machine; B) accepted by some Turing machine, but by no pushdown automaton; C) accepted by some pushdown automaton, but not context-free; D) context-free, but not regular
+\\ \textit{Note:} The language \{ww | w in (0 + 1)*\} is context-sensitive and requires the ability to compare two halves of a string, which is beyond the capabilities of a pushdown automaton that can only recognize context-free languages, while a Turing machine can handle such comparisons due to its greater computational power.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authorization is the process of determining and enforcing what actions a user is permitted to perform and what resources they can access within a system, thereby restricting operations and data access based on predefined permissions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because Confidentiality, Integrity, Non-repudiation, and Authentication are foundational principles of information security that ensure the protection and trustworthiness of data in communication systems.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer is indeed a sequential segment of memory used for temporarily storing data, including character strings and arrays of integers, which allows for efficient data manipulation and communication between processes.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message confidentiality is achieved through cryptographic techniques that encrypt the data, ensuring that only authorized parties with the correct decryption keys can access the content, thereby protecting it from unauthorized access.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Bubble sort has average-case and worst-case running times of O($n^2$), which makes it inefficient for large datasets compared to algorithms with O(n log n) performance.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def min\_product\_tuple(list 1): | return result\_min
+\\ \textit{Note:} correct as it outlines the need for a function that computes the minimum product from pairs of tuples in a list, indicating a focus on algorithmic implementation in Python that adheres to the problem's requirements.
+\item \textbf{Answer:} def count\_list(input\_list): | return len(input\_list)
+\\ \textit{Note:} The provided answer correctly defines a Python function that utilizes the built-in `len()` function to count and return the number of elements in the input list, effectively determining the number of lists contained within it.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

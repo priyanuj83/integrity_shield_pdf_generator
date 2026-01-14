@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_graduate_doc_20",
+  "document_name": "Computer Science - Graduate Level Assessment 20",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_20.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements about a remote procedure call is true?",
+      "options": {
+        "A": "It is used to call procedures with addresses that are farther than 2^16 bytes away.",
+        "B": "It cannot return a value.",
+        "C": "It cannot pass parameters by reference.",
+        "D": "It cannot call procedures implemented in a different language."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Remote procedure calls (RPC) operate over a network where parameters are serialized and deserialized, making it impossible to pass parameters by reference as it would require shared memory access, which is not feasible in a distributed environment.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1031"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A sender must not be able to deny sending a message that was sent, is known as",
+      "options": {
+        "A": "Message Nonrepudiation",
+        "B": "Message Integrity",
+        "C": "Message Condentiality",
+        "D": "Message Sending"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the origin and integrity of the communication.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is the central node of 802.11 wireless operations.",
+      "options": {
+        "A": "WPA",
+        "B": "Access Point",
+        "C": "WAP",
+        "D": "Access Port"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless clients and the wired network, thus managing data traffic and connections within the wireless network.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following comes closest to being a perfectly secure encryption scheme?",
+      "options": {
+        "A": "The Caesar Cipher, a substitution cipher",
+        "B": "DES (Data Encryption Standard), a symmetric-key algorithm",
+        "C": "Enigma, a transposition cipher",
+        "D": "One-time pad"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The one-time pad is considered a perfectly secure encryption scheme because it uses a random key that is as long as the message, is used only once, and provides complete secrecy when the key is kept secret and never reused.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1016"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The language {ww | w in (0 + 1)*} is",
+      "options": {
+        "A": "not accepted by any Turing machine",
+        "B": "accepted by some Turing machine, but by no pushdown automaton",
+        "C": "accepted by some pushdown automaton, but not context-free",
+        "D": "context-free, but not regular"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The language {ww | w in (0 + 1)*} is context-sensitive and requires the ability to compare two halves of a string, which is beyond the capabilities of a pushdown automaton that can only recognize context-free languages, while a Turing machine can handle such comparisons due to its greater computational power.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1013"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Authorization aims to restrict what operations and data a user can access within a system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization is the process of determining and enforcing what actions a user is permitted to perform and what resources they can access within a system, thereby restricting operations and data access based on predefined permissions.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The four primary security principles related to messages are Confidentiality, Integrity, Non-repudiation, and Authentication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Confidentiality, Integrity, Non-repudiation, and Authentication are foundational principles of information security that ensure the protection and trustworthiness of data in communication systems.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1567"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "A buffer is a sequential segment of memory allocated for storing data such as character strings or arrays of integers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer is indeed a sequential segment of memory used for temporarily storing data, including character strings and arrays of integers, which allows for efficient data manipulation and communication between processes.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1551"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Message confidentiality ensures that only the intended sender and receiver can access the content of the communication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message confidentiality is achieved through cryptographic techniques that encrypt the data, ensuring that only authorized parties with the correct decryption keys can access the content, thereby protecting it from unauthorized access.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1511"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Bubble sort has average-case and worst-case running times of O(n log n), which makes it suitable for large datasets.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bubble sort has average-case and worst-case running times of O(n^2), which makes it inefficient for large datasets compared to algorithms with O(n log n) performance.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_20_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the minimum product from the pairs of tuples within a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def min_product_tuple(list1): | return result_min",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines the need for a function that computes the minimum product from pairs of tuples in a list, indicating a focus on algorithmic implementation in Python that adheres to the problem's requirements.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "409"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_20_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count the number of lists in a given number of lists.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_list(input_list): | return len(input_list)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly defines a Python function that utilizes the built-in `len()` function to count and return the number of elements in the input list, effectively determining the number of lists contained within it.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "792"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

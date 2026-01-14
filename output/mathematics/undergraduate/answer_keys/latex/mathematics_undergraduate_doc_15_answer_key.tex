@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 15 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) (x - 2)(x + 2)(x - 1)(x + 1); B) (x+$1)^4$; C) (x-1)(x+$1)^3$; D) (x-$1)^3(x$+1)
+\\ \textit{Note:} The polynomial $x^4$ + 4 can be factored into the linear factors (x - 2)(x + 2)(x - 1)(x + 1) in Z\_5[x] because, when evaluated in the finite field Z\_5, the roots are found to be 2, -2 (which is 3 in Z\_5), 1, and -1 (which is 4 in Z\_5), allowing the polynomial to be expressed as a product of its linear factors corresponding to these roots.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 4; B) 6; C) 8; D) 9
+\\ \textit{Note:} The correct answer is 6 because the number of structurally distinct Abelian groups of a given order can be determined by the partitions of the exponents in the prime factorization of that order, and for the order 72, which factors as \(2^3 \times 3^2\), there are 6 distinct partitions corresponding to the number of different Abelian group structures.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} There are exactly three nonisomorphic trees with 5 vertices, which can be classified based on their structure: one linear tree (a path), one tree with one vertex connected to three others (a star), and one tree with two vertices connected to two others in a more branched configuration.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 1/2; B) 7/12; C) 5/8; D) 2/3
+\\ \textit{Note:} The probability that x \textless{} y can be calculated by determining the area of the region where x is less than y within the rectangle formed by the intervals [0, 3] for x and [0, 4] for y, resulting in an area of 5/8 of the total area of the rectangle, which is 12.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) (0, 0, 1); B) (3/7, 3/14, 9/14); C) (7/15, 8/15, 1/15); D) (5/6, 1/3, 1/3)
+\\ \textit{Note:} The coordinates (3/7, 3/14, 9/14) represent the point on the plane 2 x + y + 3 z = 3 that minimizes the distance to the origin, which can be determined using the method of Lagrange multipliers or by substituting the plane equation into the distance formula and optimizing it.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because, by definition of a normal subgroup, for any element \( a \) in \( G \), the left coset \( aH \) is equal to the right coset \( Ha \), as normal subgroups satisfy the condition \( aH = Ha \) for all \( a \in G \).
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In an abelian group, the operation is commutative, allowing us to rearrange the terms in the expression (g o $h)^2$ = g o h o g o h to equal $g^2$ o $h^2$.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the subgroup 4 Z consists of all multiples of 4, and in the group 2 Z, the cosets of 4 Z are precisely 4 Z and 2 + 4 Z, representing the equivalence classes of integers modulo 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, when calculating f(8) using the recursion f(2 n) = $n^2$ + f[2(n - 1)], the derived value does not equal 36, but instead yields a different result based on the function's defined relationships.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the two abelian groups of order 4, which are the cyclic group of order 4 (Z\_4) and the direct product of two cyclic groups of order 2 (Z\_2 × Z\_2), are the only distinct groups that can be formed under the classification of finite abelian groups, as determined by the Fundamental Theorem of Finitely Generated Abelian Groups.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The triangle is shown below: [asy] pair A,B,C; A = (0,0); B = (5,0); C = (5,10); draw(A--B --C--A); draw(rightanglemark(C,B,A,16)); label("$A$",A,SW); label("$B$",B,SE); label("$C$",C,N); [/asy] We have $\sin A = \frac{BC}{AC}$ and $\cos A = \frac{AB}{AC}$, so $\sin A = 2\cos A$ gives us $\frac{BC}{AC} = 2\cdot\frac{AB}{AC}$. Multiplying both sides by $AC$ gives $BC = 2 AB$, so $\frac{BC}{AB} = 2$. Finally, we have $\tan A = \frac{BC}{AB} = \boxed{2}$. We also could have noted that $\tan A = \frac{\sin A}{\cos A} = \frac{2\cos A}{\cos A } =\boxed{2}$.
+\\ \textit{Note:} correct because it correctly uses the definitions of sine and cosine in a right triangle to establish a relationship between the sides, leading to the conclusion that the tangent of angle A, defined as the ratio of the opposite side to the adjacent side, equals 2.
+\item \textbf{Answer:} An eigenvector \( v \) of an invertible matrix \( A \) satisfies the equation \( A v = \lambda v \), where \( \lambda \) is the corresponding eigenvalue. This property extends to the matrices \( 2 A \), \( A^2 \), and \( A^{-1} \). For \( 2 A \), we have \( 2 Av = 2\lambda v \), so \( v \) is an eigenvector with eigenvalue \( 2\lambda \). For \( A^2 \), applying \( A \) again gives \( A^2 v = A(\lambda v) = \lambda(Av) = \lambda^2 v \), indicating \( v \) is an eigenvector with eigenvalue \( \lambda^2 \). For the inverse \( A^{-1} \), since \( A \) is invertible, we can rearrange the eigenvector equation to \( A^{-1}(\lambda v) = v \), leading to \( A^{-1}v = \frac{1}{\lambda}v \), confirming that \( v \) is an eigenvector of \( A^{-1} \) with eigenvalue \( \frac{1}{\lambda} \). Thus, \( v \) remains an eigenvector across these transformations.
+\\ \textit{Note:} correct because it demonstrates that an eigenvector \( v \) of an invertible matrix \( A \) maintains its eigenvector status under scalar multiplication and composition with itself, as well as with its inverse, using the defining eigenvalue equation.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

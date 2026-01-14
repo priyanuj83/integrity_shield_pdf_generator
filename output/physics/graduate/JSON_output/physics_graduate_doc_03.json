@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_03",
+  "document_name": "Physics - Graduate Level Assessment 3",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_03.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Among these colors, the one that has the most energy per photon is",
+      "options": {
+        "A": "violet",
+        "B": "turquoise",
+        "C": "green",
+        "D": "blue",
+        "E": "red"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Violet light has the shortest wavelength within the visible spectrum, which corresponds to the highest energy per photon according to the relation E = hc/\u03bb, where E is energy, h is Planck's constant, c is the speed of light, and \u03bb is the wavelength.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9114"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The red glow in the neon tube of an advertising sign is a result of",
+      "options": {
+        "A": "fluorescence.",
+        "B": "absorption.",
+        "C": "resonance.",
+        "D": "de-excitation.",
+        "E": "refraction."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The red glow in the neon tube of an advertising sign is a result of de-excitation because the neon gas atoms emit light when their electrons fall from an excited state back to a lower energy state, releasing energy in the form of visible light.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9120"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A heavy rock and a light rock in free fall (zero air resistance) have the same\nacceleration. The heavy rock doesn't have a greater acceleration because the",
+      "options": {
+        "A": "air resistance is always zero in free fall.",
+        "B": "volume of both rocks is the same.",
+        "C": "force due to gravity is the same on each.",
+        "D": "gravitational constant is the same for both rocks.",
+        "E": "force due to gravity is zero in free fall."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In free fall, the only force acting on both the heavy and light rock is gravity, which causes them to accelerate at the same rate of approximately 9.81 m/s\u00b2, regardless of their mass, because air resistance is absent.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9117"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "When small pieces of material are assembled into a larger piece, the combined surface area",
+      "options": {
+        "A": "greatly increases",
+        "B": "slightly increases",
+        "C": "is halved",
+        "D": "becomes zero",
+        "E": "greatly decreases"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When small pieces of material are assembled into a larger piece, the combined surface area greatly increases because the total surface area is a function of the number of smaller pieces, each contributing its own surface area to the overall structure.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9738"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A corrective lens of refractive power - 10.00 diopters corrects a myopic eye. What would\nbe the effective power of this lens if it were 12 mm. from the eye?",
+      "options": {
+        "A": "-11.00 diopters",
+        "B": "-9.50 diopters",
+        "C": "-10.50 diopters",
+        "D": "-9.00 diopters",
+        "E": "-7.93 diopters"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The effective power of the lens increases in magnitude when it is moved away from the eye, and the formula for effective power, P' = P/(1 - dP), where P is the original power and d is the distance in meters (0.012 m), leads to an effective power of approximately -11.00 diopters.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9662"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The minimum kinetic energy of an electron localized within a nuclear radius of 6 x 10^-15 m is approximately 15.9 MeV.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, according to the uncertainty principle, confining an electron to a region the size of a nucleus (approximately 6 x 10^-15 m) results in a minimum kinetic energy of about 15.9 MeV due to the high momentum uncertainty associated with such a small position uncertainty.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9837"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The total collisional frequency for CO 2 at 1 atm and 298 K is approximately 6.28 x 10^34 m^-3 s^-1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because at standard conditions of 1 atm and 298 K, the collisional frequency of CO2 molecules can be calculated using kinetic molecular theory, which predicts that the number of collisions per unit volume per unit time is approximately 6.28 x 10^34 m^-3 s^-1 based on the gas's properties.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9379"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "An electron can be effectively accelerated by a magnetic field in a straight line without any additional forces.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An electron cannot be accelerated in a straight line by a magnetic field alone because magnetic fields exert a force that is always perpendicular to the velocity of the charged particle, resulting in circular or helical motion rather than linear acceleration.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9323"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "When relatively slow-moving molecules condense from the air, the temperature of the remaining air tends to decrease.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the process of condensation releases latent heat into the environment, which leads to a decrease in the thermal energy of the remaining air, resulting in a lower temperature.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10256"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_03_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The complementary color of blue is cyan, which is often confused with its neighboring color on the spectrum.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The complementary color of blue is actually orange, not cyan, as complementary colors are determined by their positions on the color wheel, where blue and orange are opposites.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9829"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_03_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the principles of lens magnification by analyzing a scenario where a 40 cm focal\nlength lens projects a 4 cm object onto a screen 20 m away. Calculate the size of the\nresulting image and explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the size of the image produced by a lens with a focal length of 40 cm when a\n4 cm object is placed 20 m (2000 cm) away, we can use the lens formula and the\nmagnification equation. The lens formula is given by 1/f = 1/d_o + 1/d_i, where f is the\nfocal length, d_o is the object distance, and d_i is the image distance. Rearranging this,\nwe find d_i = 1/(1/f - 1/d_o). Substituting f = 40 cm and d_o = 2000 cm yields d_i = 40.4\ncm. The magnification (M) is given by M = -d_i/d_o, leading to M = -40.4/2000 = -0.0202.\nThe height of the image is then calculated as h_i = M * h_o, resulting in h_i = -0.0202 *\n4 cm = -0.0808 cm. Since magnification is often expressed as a positive value, the\nresulting image size is approximately 240 cm, indicating that the image is significantly\nlarger than the object.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the lens formula to find the image distance and then uses the magnification equation to determine the size of the image, demonstrating an understanding of the principles of lens magnification through appropriate mathematical relationships.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9660"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_03_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the energy transformations that occur during the fission of a uranium nucleus,\nfocusing on the primary forms of energy released and their implications for nuclear\nphysics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "During the fission of a uranium nucleus, the primary energy transformations involve the\nrelease of kinetic energy from the fission fragments, as well as the emission of neutrons\nand gamma radiation. When a uranium nucleus undergoes fission, it splits into two smaller\nnuclei, generating significant kinetic energy due to the repulsion between the positively\ncharged fragments. Additionally, the fission process produces alpha particles, which carry\nsubstantial energy that contributes to the overall energy output. This release of energy\nnot only demonstrates the principles of mass-energy equivalence, as described by\nEinstein's equation E=mc^2, but also has profound implications for nuclear physics,\nincluding the development of nuclear reactors and weapons, where controlled energy release\nor rapid chain reactions can be harnessed. Understanding these energy transformations is\ncrucial for further advancements in nuclear technology and safety.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the key energy transformations during uranium fission, namely the release of kinetic energy from fission fragments, the emission of neutrons, and gamma radiation, all of which are fundamental to understanding the energy dynamics and implications of nuclear physics.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9316"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

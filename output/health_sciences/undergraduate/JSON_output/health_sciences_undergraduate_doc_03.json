@@ -1,0 +1,294 @@
+{
+  "docid": "health_sciences_undergraduate_doc_03",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 3",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "mmlu_pro_health_mcq",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_03.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "PreP is an effective strategy for reducing the incidence of HIV in:",
+      "options": {
+        "A": "Women",
+        "B": "Drug users",
+        "C": "Pregnant women",
+        "D": "a. and b. above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Pre-exposure prophylaxis (PrEP) is an effective strategy for reducing the incidence of HIV among drug users because it provides a preventive measure that significantly lowers the risk of HIV transmission, especially for individuals who may engage in high-risk behaviors associated with drug use.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13733"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Laryngeal oedema is usually confined to the larynx above the vocal folds because",
+      "options": {
+        "A": "there are numerous mucous glands in the vestibular folds.",
+        "B": "the mucosa covering the vocal folds is tightly attached to underlying tissues.",
+        "C": "fluid will drain rapidly into the thorax below the vocal folds.",
+        "D": "the mucosa above the vocal folds is more vascular than that below the vocal folds."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the fact that the tight attachment of the mucosa over the vocal folds to the underlying tissues limits the spread of laryngeal oedema to areas above the vocal folds, preventing it from affecting the vocal fold region itself.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "192"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Deep nucleotide sequencing (NGS) is now cheap enough for general application. What will\nthe technique mainly be useful for?",
+      "options": {
+        "A": "Speedy vaccine development",
+        "B": "Identifying genetic variation",
+        "C": "Giving details on virus excretion in symptomless carriers",
+        "D": "Quickly identifying new viruses"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Deep nucleotide sequencing (NGS) enables rapid and comprehensive analysis of genetic material, making it particularly effective for quickly identifying new viruses by detecting their unique genetic sequences.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13737"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "All other things being equal, which of the following persons is more likely to show\nosteoporosis?",
+      "options": {
+        "A": "An older Hispanic American woman",
+        "B": "An older African American woman",
+        "C": "An older Asian American woman",
+        "D": "An older Native American woman"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Older women, particularly those of Asian descent, are at a higher risk for osteoporosis due to factors such as lower bone density, hormonal changes after menopause, and genetic predisposition.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "15737"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Asp 235 Phe in a molecular report indicates that:",
+      "options": {
+        "A": "asparagine has been replaced by phenylalanine.",
+        "B": "phenylalanine has been replaced by asparagine.",
+        "C": "aspartic acid has been replaced by phenylalanine.",
+        "D": "phenylalanine has been replaced by aspartic acid."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The notation \"Asp 235 Phe\" indicates that at position 235 of a protein sequence, aspartic acid (Asp) has been substituted with phenylalanine (Phe), reflecting a specific amino acid replacement in the molecular structure.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7291"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Proprioceptive nerve endings in synovial joints are located in the articular cartilage and synovial membrane.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Proprioceptive nerve endings in synovial joints are primarily located in the joint capsule and ligaments, not in the articular cartilage or synovial membrane.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "207"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "A CVA in the left internal capsule can lead to spastic paralysis of the right leg due to disrupted motor neuron pathways.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A cerebrovascular accident (CVA) in the left internal capsule disrupts the descending motor pathways that control voluntary movement on the opposite side of the body, leading to spastic paralysis of the right leg.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "176"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The original rabies vaccine was made from air-dried spinal cords of infected rabbits, which served as a killed vaccine.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The original rabies vaccine, developed by Louis Pasteur in the late 19th century, was indeed created from the air-dried spinal cords of infected rabbits, which effectively inactivated the virus and served as a killed vaccine to stimulate an immune response.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13831"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "The risk of abnormality in the child of a mother with untreated phenylketonuria is almost 100%.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Untreated phenylketonuria (PKU) in a mother leads to elevated levels of phenylalanine during pregnancy, which can cause significant neurological damage and developmental abnormalities in the fetus, resulting in a nearly 100% risk of abnormality.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7292"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Around 20% of adolescent males have homosexual experiences during their teenage years.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because research indicates that a higher percentage of adolescent males report homosexual experiences during their teenage years, often estimated to be between 30% to 50%.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6430"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the advantages and limitations of using a quasi-experimental approach in health\nsciences research when comparing differences between two or more groups.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Quasi-experimental approaches in health sciences research provide several advantages,\nincluding the ability to study interventions in real-world settings where randomization is\nimpractical or unethical. This design allows researchers to observe the effects of\ntreatments or interventions on different groups, facilitating the comparison of outcomes\nin a more naturalistic environment. However, the limitations of quasi-experimental designs\ninclude potential biases due to the lack of random assignment, which can lead to\nconfounding variables influencing the results. Additionally, the findings may have reduced\ngeneralizability due to the specific contexts in which the studies are conducted. Overall,\nwhile quasi-experimental designs are valuable for exploring health interventions,\nresearchers must carefully consider their limitations when interpreting the results.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that quasi-experimental designs allow for real-world observation of interventions, which is beneficial when randomization is not feasible, while also acknowledging the inherent biases that arise from the absence of random assignment.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6184"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_03_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the replication process of picornaviruses as positive strand RNA viruses, focusing\non the role of virion RNA as mRNA and its implications for viral protein synthesis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Picornaviruses, classified as positive strand RNA viruses, utilize their virion RNA as\nmRNA, which is crucial for initiating viral replication and protein synthesis. Upon entry\ninto a host cell, the viral RNA is directly translated by the host's ribosomes into viral\nproteins, bypassing the need for transcription into mRNA. This process allows for rapid\nproduction of viral components, facilitating efficient replication. Additionally, the\nviral RNA serves as a template for synthesizing new genomic RNA, ensuring the propagation\nof the virus within the host. Thus, the dual role of virion RNA as mRNA significantly\nenhances the efficiency of the viral lifecycle and contributes to the pathogenicity of\npicornaviruses.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how picornaviruses use their positive strand RNA as mRNA for direct translation into viral proteins, enabling rapid replication and facilitating the production of new viral genomes.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "13725"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

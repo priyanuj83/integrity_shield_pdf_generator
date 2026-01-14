@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 21 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Private-key system; B) Shared-key system; C) Public-key system; D) All of them
+\\ \textit{Note:} A digital signature requires a public-key system because it relies on asymmetric encryption, where a private key is used to create the signature and a corresponding public key is used to verify its authenticity, ensuring secure communication and integrity of the signed data.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) overwriting cryptographic keys in memory; B) a kind of code injection; C) a read outside bounds of a buffer; D) a format string attack
+\\ \textit{Note:} The Heartbleed bug allows an attacker to exploit a vulnerability in the OpenSSL implementation of the TLS/DTLS protocols, enabling them to read sensitive memory outside the bounds of a buffer, thereby accessing data that should not be available.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Physical layer; B) Data-link Layer; C) Session layer; D) Presentation layer
+\\ \textit{Note:} The correct answer is the Session layer because it is responsible for managing and controlling the sessions between computers, where failed sessions can be exploited by attackers to perform brute-force attempts on access credentials.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 160 bits; B) 512 bits; C) 628 bits; D) 820 bits
+\\ \textit{Note:} SHA-1 produces a message digest that is exactly 160 bits long, making it a widely recognized cryptographic hash function in cybersecurity.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Installing and configuring a IDS that can read the IP header; B) Comparing the TTL values of the actual and spoofed addresses; C) Implementing a firewall to the network; D) Identify all TCP sessions that are initiated but does not complete successfully
+\\ \textit{Note:} Comparing the Time to Live (TTL) values of actual and spoofed IP addresses helps detect spoofing because legitimate packets typically have a predictable TTL that decreases with each hop, while spoofed packets often exhibit anomalies in their TTL values.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authentication is a fundamental security process designed to ensure that users are who they claim to be, distinguishing it from security exploits, which involve malicious activities aimed at compromising system integrity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A MAC with a fixed output length is vulnerable to collision attacks and brute force, making it insecure regardless of the strength of the underlying cryptographic functions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The length of the message digest in MD 5 is actually 128 bits, not 160 bits.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A session symmetric key is designed for temporary use to encrypt data exchanged during a specific communication session, ensuring that even if the key is compromised later, it cannot be reused to decrypt past communications, thus enhancing security.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A crypter is not a type of malware itself; rather, it is a tool used to obfuscate malware, making it harder for antivirus software to detect the actual malicious code.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_Element(arr,ranges,rotations,index) : | return arr[index]
+\\ \textit{Note:} The provided answer correctly identifies the element at the specified index of the array without accounting for the rotations, which implies that the question may be misleading or the given answer is overly simplistic, as it should also consider how the array is affected by the number of rotations before accessing the index.
+\item \textbf{Answer:} def count\_list(input\_list): | return len(input\_list)
+\\ \textit{Note:} The provided answer is correct because it defines a function that accurately counts and returns the total number of lists contained within the given input list, utilizing the built-in `len()` function to achieve this.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_04",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is -4 because the equation 7m + 12n = 22 can be rewritten to express m in terms of n, allowing us to find integer pairs (m, n) that satisfy the equation, and among the possible sums m + n, the maximum negative sum occurs when m = -4 and n = 0, resulting in m + n = -4.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 15617
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The number of trailing zeros in k! is determined by the formula \u230ak/5\u230b + \u230ak/25\u230b + \u230ak/125\u230b, and for k! to end in exactly 99 zeros, this formula yields five specific values of k, specifically for k = 400, 401, 402, 403, and 404.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1117
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The maximum possible order of an element in the direct product of groups is the least common multiple of the orders of the individual groups, so for Z_8 (order 8), Z_10 (order 10), and Z_24 (order 24), the LCM is 120.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 49
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The number 2 is a generator for the finite field Z_11 because it generates all non-zero elements of the field when raised to the powers of integers from 0 to 9, demonstrating that it is a primitive root modulo 11.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 57
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is correct because the subset S = {0, 2, 4, 6, 8} lacks a multiplicative identity element under multiplication modulo 10, as none of its elements can multiply with every other element in S to yield an element of S itself that serves as the multiplicative identity (which would be 1 in a ring).",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1101
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the three nonisomorphic trees with 5 vertices are characterized by their distinct structures: one with a star configuration (1 central vertex connected to 4 leaves), one with a linear configuration (a path of 5 vertices), and one with a more branched configuration (a vertex connected to two others, which each have one additional leaf).",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1129
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the subgroup 4Z has multiple cosets in 2Z, specifically 4Z and 2Z \\ 4Z, which includes elements like 2 and 6.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 91
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The product of 20 and -8 in the ring Z_26 is calculated as (20 * -8) mod 26, which equals -160 mod 26, resulting in 22.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 36
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The largest order of an element in the symmetric group S5, which represents the permutations of 5 objects, is actually 60, corresponding to the permutation with the cycle structure of a 5-cycle.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1125
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the correct probability that 0 will not be chosen when selecting k digits is (9/10)^k, as there are 9 other digits (1 through 9) that can be chosen for each selection.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 14162
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Given a real 2 x 2 matrix A such that A = A^(-1) and I \\neq A \\neq -I, we can derive\nimplications for the trace of A. Since A is its own inverse, it must satisfy A^2 = I,\nmeaning the eigenvalues of A are either 1 or -1. However, since A is neither the identity\nmatrix (I) nor the negative identity matrix (-I), it must have one eigenvalue of 1 and one\nof -1. The trace of a matrix is the sum of its eigenvalues, so in this case, the trace of\nA is 1 + (-1) = 0. Thus, our analysis reveals that the trace of matrix A is 0.",
+      "marks": 10,
+      "explanation": "correct because it logically deduces that since the matrix A is its own inverse, its eigenvalues must be 1 and -1, leading to a trace of 0, while also adhering to the given conditions that A is neither the identity nor the negative identity matrix.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1173
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To determine the minimum value of the expression x + 4 z under the constraint x^2 + y^2 +\nz^2 \\leq 2, we can utilize the method of Lagrange multipliers or analyze the geometry of\nthe constraint. Since the constraint describes a sphere of radius \\sqrt 2, we can\nparametrically express x and z in terms of spherical coordinates. By substituting z = (2 -\nx^2 - y^2)^(1/2) into the expression and optimizing, we find that the minimum occurs when\nx and z take on specific values. After calculations, we find that the minimum value of the\nexpression x + 4 z is -\\sqrt 34, which is achieved when x = -1 and z = -\\sqrt 2. This\nsolution illustrates the relationship between optimization and geometric constraints in\nmultivariable calculus.",
+      "marks": 10,
+      "explanation": "correct because it employs the method of Lagrange multipliers or geometric analysis to optimize the expression x + 4z within the given spherical constraint, leading to specific values for x and z that yield the minimum.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1162
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_01",
+  "document_name": "Health Sciences - K-12 Level Assessment 1",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_01.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_01_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Acute binge drinking is associated with?",
+      "options": {
+        "A": "Happy heart syndrome",
+        "B": "Home heart syndrome",
+        "C": "Beach heart syndrome",
+        "D": "Holiday heart syndrome"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Acute binge drinking can lead to holiday heart syndrome, a condition characterized by irregular heart rhythms, particularly in individuals who consume excessive amounts of alcohol over a short period, often during festive occasions.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9427"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which life-style factors do not confound the interpretation of the health of vegetarians\ncompared with meat-eaters?",
+      "options": {
+        "A": "Smoking habit",
+        "B": "Social class/position",
+        "C": "Physical activity",
+        "D": "Age"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Age is a demographic factor that is not influenced by dietary choices and therefore does not introduce bias when comparing the health outcomes of vegetarians and meat-eaters.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9595"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The two most common causes of foodborne illness in the United States and Europe are:",
+      "options": {
+        "A": "Salmonella and Campylobacter",
+        "B": "Listeria and Salmonella",
+        "C": "Shigella and Staphlococcus",
+        "D": "E. coli STECs and non-STEC subtypes"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Salmonella and Campylobacter are the two most common causes of foodborne illness in the United States and Europe due to their prevalence in contaminated food products, particularly poultry, eggs, and unpasteurized dairy, leading to significant public health concerns.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which drug(s) is/are approved for the treatment of obesity in Europe?",
+      "options": {
+        "A": "Orlistat",
+        "B": "Phentermine/Topiramate",
+        "C": "Lorcaserin",
+        "D": "Naltrexone/Bupropion"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Orlistat is the only drug approved for the treatment of obesity in Europe, as it works by inhibiting fat absorption in the intestines, making it a recognized therapeutic option for weight management.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What are the main causes of the obesity epidemic?",
+      "options": {
+        "A": "Increased energy quantity/density and a more sedentary life-style",
+        "B": "Decreased leisure time activity",
+        "C": "Changes in genetic profiles",
+        "D": "None of the options given is correct"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that the obesity epidemic is primarily driven by the excess consumption of high-calorie foods combined with a significant reduction in physical activity, leading to an imbalance between energy intake and expenditure.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9411"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Severe acute malnutrition in young children can be identified by a height-for-age Z score less than -3 or weight-for-height Z score less than -3 or the prese...",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Severe acute malnutrition in young children is diagnosed when a child's height-for-age Z score is less than -3 or weight-for-height Z score is less than -3, indicating a critical deficiency in nutritional status that poses serious health risks.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9706"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Consuming red meat has no effect on the risk of postmenopausal breast cancer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Research has shown that high consumption of red meat, particularly processed red meat, is associated with an increased risk of postmenopausal breast cancer due to factors such as saturated fats and potential carcinogens formed during cooking.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9674"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The plasma activity of alkaline phosphatase increases in response to vitamin D deficiency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Vitamin D deficiency leads to impaired calcium absorption, which stimulates the liver to produce more alkaline phosphatase as a compensatory response to enhance bone mineralization.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Isoleucine can provide a substrate for gluconeogenesis and contribute to glucose production.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Isoleucine is classified as a ketogenic amino acid, meaning it primarily contributes to ketone body production rather than gluconeogenesis and glucose production.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "The World Health Organization recommends zinc supplements for all children in low income areas with high prevalence of stunting.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The World Health Organization recommends zinc supplements specifically for children with confirmed zinc deficiency or those at high risk, rather than universally for all children in low-income areas with high prevalence of stunting.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9637"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of Vitamin D in the body, specifically focusing on its importance for\ncalcium absorption in the small intestine and the implications of deficiency.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Vitamin D plays a crucial role in the body by helping to absorb calcium in the small\nintestine. Calcium is essential for building and maintaining strong bones and teeth,\nmaking Vitamin D vital for overall bone health. Without adequate Vitamin D, the body\ncannot effectively absorb calcium, which can lead to weakened bones and conditions such as\nrickets in children or osteomalacia in adults. Therefore, a deficiency in Vitamin D can\nhave serious implications for bone strength and overall health, highlighting the\nimportance of maintaining sufficient levels of this vitamin through sunlight exposure,\ndiet, or supplements.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes Vitamin D's essential role in facilitating calcium absorption in the small intestine and highlights the serious health consequences, such as weakened bones and conditions like rickets and osteomalacia, that can result from Vitamin D deficiency.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9415"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_01_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the effects of exercise on individuals with diabetes, highlighting the potential\nrisks and explaining why hypoglycemia is not considered a beneficial effect.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Exercise has numerous positive effects on individuals with diabetes, including improved\nblood sugar control, enhanced insulin sensitivity, and better overall physical health.\nHowever, it also carries potential risks, particularly the occurrence of hypoglycemia,\nwhich is a condition characterized by dangerously low blood sugar levels. Hypoglycemia can\nlead to symptoms such as dizziness, confusion, and fainting, making it a serious concern\nfor people with diabetes who engage in physical activity. While some may view hypoglycemia\nas a temporary benefit due to reduced blood sugar, it is not beneficial overall because it\ncan lead to severe health complications and should be avoided. Therefore, it is essential\nfor individuals with diabetes to manage their exercise routines carefully and monitor\ntheir blood glucose levels.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately addresses the positive effects of exercise on diabetes management while clearly identifying hypoglycemia as a significant risk that negates any potential benefits associated with low blood sugar levels during physical activity.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9570"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

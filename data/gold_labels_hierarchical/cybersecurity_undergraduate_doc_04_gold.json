@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_04",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "C and C++ are prone to buffer-overflow errors because they allow direct manipulation of memory through pointers and do not automatically enforce bounds checking on arrays, leading to vulnerabilities in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1521
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A digital signature relies on a public-key system because it uses a pair of keys\u2014one public and one private\u2014to ensure authenticity and integrity of a message, allowing the sender to sign with their private key while anyone can verify the signature using the corresponding public key.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1507
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The Silk Road was a notorious online marketplace on the Dark Web known for facilitating the sale of illegal drugs and a variety of other illicit goods, making it emblematic of such activities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1495
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Metasploit framework is designed to simplify the exploitation of security vulnerabilities through its user-friendly interface and extensive library of pre-built exploits, making it accessible for users to perform penetration testing with minimal technical complexity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "WPA3 provides enhanced security features such as stronger encryption, improved protection against brute-force attacks, and mandatory use of advanced security protocols, making it the most secure wireless security standard available.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1502
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "All three methods\u2014secret question, biometric authentication, and SMS code\u2014are valid authentication methods because they each employ distinct mechanisms to verify a user's identity, enhancing security in various contexts.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1505
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The haunted web refers to websites that are no longer maintained or abandoned, but they are typically not easily accessible through regular browsers as they often require specific knowledge or tools to access, distinguishing them from the regular web.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1496
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The length of the message digest produced by MD5 is actually 128 bits, not 160 bits.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1487
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A hash function generates a fixed-size digest from variable input data, which serves as a Modification Detection Code (MDC) by allowing the verification of data integrity through comparison of the hash values.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because secure communication can be achieved by encrypting the message at the sender site and decrypting it at the receiver site, which is the standard practice in cryptography.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1561
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def remove_whitespaces(text1): | return (re.sub(r'\\s+', '',text1))",
+      "marks": 10,
+      "explanation": "correct because it utilizes the `re.sub()` function from the `re` module to replace all whitespace characters in the input string `text1` with an empty string, effectively removing them.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 451
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def is_sublist(l, s): | return sub_set",
+      "marks": 10,
+      "explanation": "correct because it defines a function that presumably checks for the presence of a sublist within a larger list, which is a fundamental operation in data manipulation relevant to cybersecurity tasks such as pattern recognition and anomaly detection.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 69
+    }
+  ]
+}

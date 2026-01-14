@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - Undergraduate Level Assessment 14 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Which of the following sorting algorithms has average-case and worst-case running times of O(n log n)?
+\begin{enumerate}[label=(\alph*)]
+    \item Bubble sort
+    \item Insertion sort
+    \item Merge sort
+    \item Quicksort
+\end{enumerate}
+\item Of the following, which gives the best upper bound for the value of f(N) where f is a solution to the recurrence f(2 N + 1) = f(2 N) = f(N) + log N for N \textgreater{}= 1, with f(1) = 0?
+\begin{enumerate}[label=(\alph*)]
+    \item O(log N)
+    \item O(N log N)
+    \item O(log N) + 0(1)
+    \item O((log $N)^2$)
+\end{enumerate}
+\item Let x = 8. What is x\textgreater{}\textgreater{}1 in Python 3?
+\begin{enumerate}[label=(\alph*)]
+    \item 3
+    \item 4
+    \item 2
+    \item 8
+\end{enumerate}
+\item In the Internet Protocol (IP) suite of protocols, which of the following best describes the purpose of the Address Resolution Protocol?
+\begin{enumerate}[label=(\alph*)]
+    \item To translate Web addresses to host names
+    \item To determine the IP address of a given host name
+    \item To determine the hardware address of a given host name
+    \item To determine the hardware address of a given IP address
+\end{enumerate}
+\item Of the following page-replacement policies, which is guaranteed to incur the minimum number of page faults?
+\begin{enumerate}[label=(\alph*)]
+    \item Replace the page whose next reference will be the longest time in the future.
+    \item Replace the page whose next reference will be the shortest time in the future.
+    \item Replace the page whose most recent reference was the shortest time in the past.
+    \item Replace the page whose most recent reference was the longest time in the past.
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: O(1) is the smallest asymptotic notation, indicating constant time complexity regardless of input size.
+\item True or False: Even after extensive testing, a program may still contain undetected bugs.
+\item True or False: The condition a \textless{} c is sufficient to ensure that the expression a \textless{} c || a \textless{} b \&\& !(a == c) evaluates to true.
+\item True or False: In Python 3, converting a list with duplicates to a set results in a collection of unique elements, such as \{1, 2, 3, 4\}.
+\item True or False: The decimal number 0.5 has an exact representation in binary notation as 0.1.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to find the number which occurs for odd number of times in the given array.
+\item Write a function to sort each sublist of strings in a given list of lists using lambda function.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

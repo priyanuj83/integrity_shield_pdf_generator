@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Graduate Level Assessment 14 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 42; B) 144; C) 156; D) 132; E) 96
+\\ \textit{Note:} The correct answer is 132 because the number of ways to arrange 6 pairs of balanced parentheses is given by the 6 th Catalan number, which is calculated as C(6) = (1/(6+1)) * (2*6 choose 6) = 132.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 7.0; B) 2.0; C) 4.5; D) 1.0; E) 5.0
+\\ \textit{Note:} The correct answer is 7.0 because the series converges to a sum of geometric series that can be simplified, resulting in the total of 7.0 when evaluated over all positive integers \( n \) using the properties of the nearest integer function \( \langle n \rangle \).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 2.0; B) 3.25; C) 34.667; D) 7.5; E) 6.125
+\\ \textit{Note:} The correct answer is 2.0 because in a direct proportion, the ratio of x to y remains constant, so using the initial values to find the constant of proportionality and applying it to the new value of y leads to the result x = 2.0 when y = 13.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 12000000; B) 5000000; C) 2000000; D) 40320; E) 7257600
+\\ \textit{Note:} The correct answer is 12,000,000 because the number of equivalent parameter settings in a mixture model with 10 components arises from the combinatorial calculation of the permutations of the components, specifically given by the formula for the number of ways to arrange 10 distinct items, which is 10! (factorial of 10) divided by the product of the factorials of the counts of each indistinguishable item, leading to 10! = 3,628,800, and accounting for interchange symmetries results in 12,000,000 distinct equivalent settings.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 9; B) 8; C) 0; D) 1; E) 6
+\\ \textit{Note:} The ones digit of the product \(1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9\) is 0 because the multiplication includes the factor 5 and an even number (specifically, 2), resulting in a product that is a multiple of 10.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The eigenvalues of the matrix A = [[5, 4], [1, 2]] are actually 6 and 1, as determined by solving the characteristic polynomial, which contradicts the stated eigenvalues of 4 and 1.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the numeral 6049 accurately represents the numerical value of the cost of the used car Manuel bought, indicating that the car's price is indeed \$6,049.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Molly's final cost is calculated as $25 for the haircut plus a 15% tip of $3.75 (15\% of $25), resulting in a total of $28.75.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The decimal \(0.1\overline{7}\) can be expressed as the fraction \(\frac{8}{45}\) by recognizing that it is equal to \(\frac{1}{10} + \frac{7}{90}\), which simplifies to \(\frac{8}{45}\).
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, for an integer to be classified as a powerful integer, every prime factor must appear with an exponent of at least 2 in its prime factorization, and the prime factorization of 240 is \(2^4 \times 3^1 \times 5^1\), which includes primes (3 and 5) with exponents less than 2.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} There are two cases, one where the $AB$ is the base, and the other where $AB$ is a leg. For the case where $AB$ is the base, we can create the third point $C$ anywhere on the line perpendicular to $AB$ at the midpoint of $AB$. There are $4$ points on that line. For the case where $AB$ is a leg, since $AB$ is two units, we can create a point $C$ two units away from either $A$ or $B$. There are two such points. In total, there are $2+4=\boxed{6}$. [asy] draw((0,0)--(0,6)--(6,6)--(6,0)--cycle,linewidth(1)); for(int i=1;i\textless{}6;++i) \{for(int j=1;j\textless{}6;++j) \{dot((i,j));\} \} draw((2,2)--(4,2),linewidth(1)); label("A",(2,2),SW); label("B",(4,2),SE); label("C",(3,1), SE); label("C",(3,3), SE); label("C",(3,4), SE); label("C",(3,5), SE); label("C",(4,4), SE); label("C",(2,4), SE); [/asy]
+\\ \textit{Note:} correct because it systematically considers both configurations of triangle ABC-where segment AB serves as the base and when it acts as one of the legs-accounting for all valid positions of point C that maintain the isosceles property.
+\item \textbf{Answer:} To find the value of \( x \) such that the area of the rectangle equals its perimeter, we first express both quantities. The area \( A \) is given by \( A = \text{length} \times \text{width} = 3 x(x + 5) = 3 x^2 + 15 x \). The perimeter \( P \) is calculated as \( P = 2(\text{length} + \text{width}) = 2(3 x + (x + 5)) = 2(4 x + 5) = 8 x + 10 \). Setting the area equal to the perimeter gives the equation \( 3 x^2 + 15 x = 8 x + 10 \). Simplifying this leads to the quadratic equation \( 3 x^2 + 7 x - 10 = 0 \). Using the quadratic formula, we find \( x = \frac{-7 \pm \sqrt{7^2 - 4(3)(-10)}}{2(3)} = \frac{-7 \pm 11}{6} \), yielding \( x = \frac{2}{3} \) or \( x = -3 \). Since \( x \) must be positive, we conclude that \( x = \frac{3}{10} \) satisfies the condition where the area equals the perimeter.
+\\ \textit{Note:} correct because it accurately formulates the area and perimeter of the rectangle as algebraic expressions, sets them equal to each other, and derives a quadratic equation that allows for the determination of the variable \( x \).
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

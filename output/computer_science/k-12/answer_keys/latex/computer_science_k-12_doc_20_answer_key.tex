@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 20 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) A group of cookies stored by the user's Web browser; B) The Internet Protocol (IP) address of the user's computer; C) The user's e-mail address; D) The user's public key used for encryption
+\\ \textit{Note:} A group of cookies stored by the user's Web browser can track and store extensive personal data about user behavior and preferences, making them a significant threat to personal privacy.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 2; B) 6; C) 3; D) 1
+\\ \textit{Note:} The correct answer is 6 because the lambda function r takes an input q and returns the value of q multiplied by 2, so r(3) computes to 3 * 2, which equals 6.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Yes; B) No; C) It's machine-dependent; D) None of the above
+\\ \textit{Note:} Python variable names are case-sensitive, meaning that variables named "Variable" and "variable" would be treated as two distinct identifiers.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [ 'abcd', 786 , 2.23, 'john', 70.2 ]; B) abcd; C) [786, 2.23]; D) None of the above.
+\\ \textit{Note:} The correct answer is [786, 2.23] because in Python, the slice notation list[1:3] retrieves elements starting from index 1 up to but not including index 3, which corresponds to the values at those indices in the given list.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 3; B) 4; C) 2; D) 8
+\\ \textit{Note:} The expression x \textgreater{}\textgreater{} 1 in Python 3 performs a right bitwise shift on the binary representation of 8, which effectively divides the number by 2, resulting in the value 4.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, the expression evaluates to 4 because the exponentiation operator (**), which has higher precedence than multiplication (*), calculates 1 ** 4 first, resulting in 1, and then multiplying that by 4 gives 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the condition a \textless{} b alone does not guarantee that the expression will evaluate to true; other factors or conditions in the expression may affect the outcome.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Python includes an automatic garbage collection mechanism that periodically reclaims memory by identifying and disposing of objects that are no longer in use, thereby managing memory efficiently.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, accessing 'abc'[-1] does not result in an error because negative indexing allows access to elements from the end of the string, with -1 representing the last character, which is 'c'.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the slicing operation b[::2] selects every second element from the list b, which in this case results in the elements at indices 0, 2, and 4, yielding the list [11, 15, 19].
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The selection sort algorithm operates by repeatedly finding the smallest (or largest) element from the unsorted portion of the list and swapping it with the first unsorted element. This process continues until the entire list is sorted. An important aspect of selection sort is that the number of comparisons it makes does not depend on the initial arrangement of the elements in the list; it always performs the same number of comparisons regardless of whether the list is already sorted or in reverse order. Specifically, for each element, it compares it to every other unsorted element, leading to a fixed number of comparisons based on the list's length. This characteristic makes selection sort straightforward but also less efficient than some other sorting algorithms, especially for larger lists.
+\\ \textit{Note:} correct because it accurately describes the selection sort algorithm's mechanism of finding the minimum element in the unsorted portion of the list and emphasizes that the total number of comparisons remains constant, independent of the initial arrangement of elements.
+\item \textbf{Answer:} Phishing attacks are deceptive attempts to obtain sensitive information by posing as a trustworthy entity, often through emails that urge recipients to click on links or provide personal data. One key characteristic of these attacks is that they typically include urgent language or threats, prompting immediate action from the recipient. An email from your bank asking you to call the number on your card is less likely to be a phishing attempt because it directs you to a known, legitimate source rather than asking you to click on a potentially dangerous link. This method allows you to verify the transaction with your bank without exposing your information to uncertain channels. Overall, the clear instruction to use an established contact number reduces the risk associated with phishing.
+\\ \textit{Note:} correct because it highlights that phishing attacks often use urgent language to manipulate recipients, while a legitimate email from a bank directing customers to call a known number does not employ such tactics, indicating a lower risk of being a phishing attempt.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

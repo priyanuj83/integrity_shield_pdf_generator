@@ -1,0 +1,295 @@
+{
+  "docid": "engineering_undergraduate_doc_05",
+  "document_name": "Engineering - Undergraduate Level Assessment 5",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_05.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find the Laplace transform of f(t) = t, for t > 0.",
+      "options": {
+        "A": "L{t} = (2 / s^3)",
+        "B": "L{t} = (1 / s^3)",
+        "C": "L{t} = s^2",
+        "D": "L{t} = (1 / (2 s^2))",
+        "E": "L{t} = (1 / s^2)"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - L{t} = (1 / s^2)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A combinational PLD with a fixed AND array and a programmable OR array is called a",
+      "options": {
+        "A": "ROM",
+        "B": "FPGA",
+        "C": "PLA",
+        "D": "PLD",
+        "E": "EEPROM"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - ROM",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11966"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find the energy stored in a nonlinear capacitor with characteristics given by g(t) = 0.5\n\\nu^2(t) and\\nu(t) = 1 + 0.5 sin t from t = 0 to t = 1 sec.",
+      "options": {
+        "A": "0.785 J",
+        "B": "0.211 J",
+        "C": "0.125 J",
+        "D": "0.623 J",
+        "E": "0.956 J"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - 0.623 J",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12087"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "An electromagnetic wave of 40 KHzis radiated by an antenna . Find the time taken by this\nwave to reach a point 60 km away.",
+      "options": {
+        "A": "0.3 msec",
+        "B": "0.8 msec",
+        "C": "0.6 msec",
+        "D": "0.25 msec",
+        "E": "0.1 msec"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 0.3 msec",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11339"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Compute the impact stress in a steel rod which is hit by a block weighing 45 lbs. The\nspeed of the block is 40 in./sec. The rod is 18 in. long and has a diameter of 1(1 / 4)\nin.",
+      "options": {
+        "A": "8,762.3 psi",
+        "B": "4,321.0 psi",
+        "C": "25,678.9 psi",
+        "D": "6.25 lbs",
+        "E": "30,000 psi"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 8,762.3 psi",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11414"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The roots of the polynomial s^4 + 3 s^3 + 2 s^2 + 2 s + 1 = 0 include -0.6008, -2.4486, and 0.0247 + j 0.824, and 0.0247 + j 0.824.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '-0.6008, -2.4486, 0.0247 + j 0.824, 0.0247 - j 0.824'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11474"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "In an SR latch built from NOR gates, the condition S=1 and R=1 is not allowed as it leads to an undefined state.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "42"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The probability of obtaining either a 2 or a 5 in a single throw of a die is 1/3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11550"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The short circuit level at the busbar for four identical alternators rated 20 MVA each is 600 MVA.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '500 MVA'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11740"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_05_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The inverse Laplace transform of F(s) = (2 s^2 + 13 s + 17) / {(s + 1)(s + 3)} yields f(t) = 2\u03b4(t) + (3 e^-t + 2 e^-3 t)u(t).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12096"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_05_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the calculation of the ratio of normalized power between the second and first\nharmonics of a periodic signal, using the provided formula for total normalized power.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "0.125. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11949"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_05_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the energy stored in an inductor from t = 0 to t = 1, given its \u03c6-characteristic\n\u03c6(t) = (1/3)i^3(t) and the current i(t) = 2 sin(t). Discuss your methodology and results.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "1.00 J. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11843"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

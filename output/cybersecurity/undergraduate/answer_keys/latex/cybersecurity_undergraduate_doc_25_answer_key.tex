@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 25 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Poor handling of unexpected input can lead to the execution of arbitrary instructions; B) Unintentional or ill-directed use of superficially supplied input; C) Cryptographic flaws in the system may get exploited to evade privacy; D) Weak or non-existent authentication mechanisms
+\\ \textit{Note:} Weak or non-existent authentication mechanisms are primarily related to security measures and user access controls rather than the presentation layer, which focuses on the format and representation of data for user interfaces.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central node of 802.11 wireless operations because it facilitates communication between wireless devices and the wired network, acting as a bridge that manages data traffic and connectivity within the wireless network.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) ECB; B) CFB; C) CBF; D) CBC
+\\ \textit{Note:} CBF is not a recognized block cipher operating mode, whereas other options typically include established modes such as ECB, CBC, and CFB.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) AP-handshaking; B) 4-way handshake; C) 4-way connection; D) wireless handshaking
+\\ \textit{Note:} The 4-way handshake is the established protocol used in wireless networks to securely authenticate a user and an access point (AP) by confirming the shared key and generating session keys, ensuring both parties are synchronized before establishing a secure connection.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a method that allows unauthorized access to a computer system or its data without detection, enabling attackers to bypass standard security measures.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A proxy firewall operates at the application layer, not the physical layer, as it intercepts and manages network traffic based on application-level protocols rather than physical data transmission.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Public key encryption is generally slower than symmetric key cryptography due to the complex mathematical operations involved, which makes symmetric key cryptography the preferred choice for encrypting large volumes of data efficiently.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A Base Transceiver Station (BTS) functions similarly to an Access Point by providing wireless connectivity and signal coverage for mobile devices, allowing them to communicate with the mobile network.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A packet filter firewall operates at the network and transport layers of the OSI model, examining packet headers for source and destination addresses and port numbers, rather than inspecting the actual data payload for specific applications.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Escaping queries effectively neutralizes potentially harmful input by converting special characters into a format that prevents them from being interpreted as executable code, thereby protecting against SQL injection attacks.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_no\_of\_ways(n, k): | return dp[n]
+\\ \textit{Note:} correct because it implies that a dynamic programming approach is used to compute the number of valid ways to paint the fence while adhering to the constraint of having at most two adjacent posts of the same color, with the final result stored in the dp array for n posts.
+\item \textbf{Answer:} def remove\_nested(test\_tup): | return (res)
+\\ \textit{Note:} correct because it outlines the creation of a function that processes a tuple and returns a modified version without nested records, aligning with the requirements of the task.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

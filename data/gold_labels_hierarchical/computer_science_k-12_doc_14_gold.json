@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_14",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3272
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A group of cookies stored by the user's Web browser can track and store personal information about browsing habits, preferences, and login details, thereby significantly compromising a user's personal privacy.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3267
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 6 because the lambda function r takes an input q and returns it multiplied by 2, so r(3) computes 3 * 2, which equals 6.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14389
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Both of the above\" because it acknowledges that multiple statements about Python, such as its versatility and ease of learning, are true, reflecting its wide applicability in various programming contexts.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The conclusion that \"the program may have bugs\" is correct because the absence of errors during testing does not guarantee that the program is free of all defects, as some bugs may remain undetected due to limitations in the testing process or coverage.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because O(log N) actually grows faster than O(log log N) as N increases, since the logarithmic function increases faster than the logarithm of the logarithmic function.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3231
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The isupper() function in Python 3 returns True if all the characters in the string are uppercase letters and there is at least one character, confirming that the statement is accurate.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Python variable names are case-sensitive, meaning that 'Variable' and 'variable' are considered two distinct identifiers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The expression x << 3 shifts the binary representation of 1 (which is 0001 in binary) three places to the left, resulting in 1000 in binary, which is equal to 8 in decimal.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the slicing operation `list[1:3]` retrieves the elements at index 1 and 2 from the list `['abcd', 786, 2.23, 'john', 70.2']`, which are 786 and 2.23, resulting in the output `[786, 2.23]`.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3223
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def grouping_dictionary(l): | return d",
+      "marks": 10,
+      "explanation": "correct because it indicates the use of a function that will ultimately create a dictionary where each key maps to a list of values, utilizing the collections module to facilitate this grouping process.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 653
+    },
+    {
+      "question_id": "computer_science_k-12_doc_14_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def get_item(tup1,index): | return item",
+      "marks": 10,
+      "explanation": "correct because it defines a function that takes a tuple and an index as parameters, allowing the retrieval of the specified item from the tuple based on the provided index.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 948
+    }
+  ]
+}

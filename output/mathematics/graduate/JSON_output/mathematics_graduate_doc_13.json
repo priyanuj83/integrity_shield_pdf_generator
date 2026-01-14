@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_13",
+  "document_name": "Mathematics - Graduate Level Assessment 13",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_13.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | For n > 1, the set {1,2, ..., n-1} is a group under multiplication modulo n.\nStatement 2 | There is an integer x such that 63 x mod 100 = 1.",
+      "options": {
+        "A": "False, True",
+        "B": "False, False and x is less than 100",
+        "C": "False, True and x is an odd number",
+        "D": "True, True and x is greater than 100",
+        "E": "False, True and x is a prime number"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Statement 1 is false because the set {1, 2, ..., n-1} forms a group under multiplication modulo n only if n is prime, while Statement 2 is true as the integer x exists (specifically x = 63) such that 63x \u2261 1 (mod 100), indicating that 63 has a multiplicative inverse modulo 100.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Both A, B are n-by-n matrices with rank(A)=n, rank(A*B)=0. What is rank(B)?",
+      "options": {
+        "A": "0.0",
+        "B": "Undefined",
+        "C": "2",
+        "D": "n-1",
+        "E": "n+1"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Since the rank of the product of two matrices cannot exceed the rank of either matrix, and given that rank(A) = n and rank(A*B) = 0, it follows that rank(B) must be 0, indicating that B maps all vectors to the zero vector.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8079"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A relative maximum value of the function y = (ln x)/x is",
+      "options": {
+        "A": "e/2",
+        "B": "1",
+        "C": "e^2",
+        "D": "2/e",
+        "E": "1/2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is e/2 because the function y = (ln x)/x reaches its maximum value at x = e, and substituting this value into the function yields a maximum of (ln e)/e = 1/e, which leads to the overall maximum value of e/2 when considering the transformation of the function.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Is there exist a holomorphic function $f$ on the unit disk $B(0,1)$ (boundary excluded)\nsuch that $f(B(0,1))=C$? Here C is the complex space. Return 1 for yes and 0 for no.",
+      "options": {
+        "A": "2.5",
+        "B": "-2.0",
+        "C": "3.0",
+        "D": "2.0",
+        "E": "1.5"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0, as it is impossible for a holomorphic function defined on the open unit disk to achieve every complex value in C due to the open mapping theorem, which states that a non-constant holomorphic function maps open sets to open sets, and thus cannot cover the entire complex plane.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7852"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is (6^83 + 8^83) mod 49?",
+      "options": {
+        "A": "42",
+        "B": "14",
+        "C": "35",
+        "D": "21",
+        "E": "49"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 35 because applying Fermat's Little Theorem allows us to simplify the calculation of \\(6^{83} \\mod 49\\) and \\(8^{83} \\mod 49\\) to \\(6^{83} \\equiv 6^{35} \\mod 49\\) and \\(8^{83} \\equiv 8^{35} \\mod 49\\), leading to the final result \\(35\\) when summed and taken modulo \\(49\\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8308"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sequence 17,400, 116,633, 161,455, 167,213 is correctly ordered from least to greatest.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sequence 17,400, 116,633, 161,455, 167,213 is correctly ordered from least to greatest because each subsequent number is greater than the previous one, maintaining an increasing order.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7722"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The number of positive integers that are factors of both 120 and 40 is 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the greatest common divisor (GCD) of 120 and 40 is 40, which has 8 positive factors (1, 2, 4, 5, 8, 10, 20, and 40).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7848"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The improper fraction representation of 4 and 4 over 5 is 26 over 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The improper fraction representation of a mixed number is found by multiplying the whole number by the denominator and adding the numerator, so for 4 and 4/5, this results in (4 * 5) + 4 = 20 + 4 = 24, which when expressed as an improper fraction is 24/5, thus the statement is false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7812"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The total cost of a 6-lb bag of cat food at $.47/lb is $6.47.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total cost of a 6-lb bag of cat food at $.47/lb is $2.82, which is calculated by multiplying the weight (6 lbs) by the price per pound ($0.47), therefore the statement is false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_13_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The numbers 1,449 and 1,549 both round to 1,500 when rounded to the nearest hundred.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number 1,449 rounds down to 1,400 and does not round to 1,500, while 1,549 rounds up to 1,600, making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8258"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_13_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the domain of the function \\( f(x) = \\frac{x+6}{\\sqrt{x^2-3 x-4}} \\). Analyze the\nconstraints imposed by the denominator and determine the valid intervals for \\( x \\).",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the domain of the function \\( f(x) = \\frac{x+6}{\\sqrt{x^2-3 x-4}} \\), we must\nanalyze the constraints imposed by the denominator, specifically the square root. The\nexpression under the square root, \\( x^2 - 3 x - 4 \\), must be positive to ensure that \\(\nf(x) \\) is defined. We factor this quadratic to find its roots: \\( (x-4)(x+1) = 0 \\),\nleading to roots at \\( x = -1 \\) and \\( x = 4 \\). The intervals where the quadratic is\npositive are found by testing the sign of the expression in the intervals determined by\nthese roots: \\( (-\\infty, -4) \\) and \\( (4, \\infty) \\). Thus, the domain of \\( f(x) \\) is\n\\( (-\\infty, -4) \\cup (4, \\infty) \\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that the square root in the denominator must be positive, leading to the analysis of the quadratic expression \\( x^2 - 3x - 4 \\) and determining the intervals where the function is defined by finding the roots and testing the sign of the resulting factors.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8712"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_13_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given that it takes 2 J of work to stretch a spring from its natural length of 30 cm to 42\ncm, determine how far a 30 N force will stretch the spring beyond its natural length.\nProvide a detailed analysis of your calculations and reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine how far a 30 N force will stretch the spring beyond its natural length, we\nstart by using Hooke's Law, which states that the force exerted by a spring is\nproportional to its extension. Given that it takes 2 J of work to stretch the spring from\n30 cm to 42 cm (a stretch of 12 cm), we can calculate the spring constant \\( k \\) using\nthe work done formula \\( W = \\frac{1}{2} k x^2 \\), where \\( x \\) is the extension. Here,\n\\( W = 2 \\, \\text{J} \\) and \\( x = 0.12 \\, \\text{m} \\), leading to \\( k = \\frac{2}{0.5\n\\times 0.12^2} = 277.78 \\, \\text{N/m} \\). Now, applying Hooke's Law \\( F = kx \\) for a\nforce of 30 N, we find \\( x = \\frac{F}{k} = \\frac{30}{277.78} \\approx 0.108 \\, \\text{m} \\)\nor 10.8 cm. Therefore, the total stretch from the natural length is approximately 13.5 cm,\nconsidering the initial extension.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies Hooke's Law and the work done on a spring to determine the spring constant, which allows for the calculation of how far a specific force will stretch the spring beyond its natural length.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7877"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

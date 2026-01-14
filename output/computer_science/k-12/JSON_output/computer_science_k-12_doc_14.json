@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_k-12_doc_14",
+  "document_name": "Computer Science - K-12 Level Assessment 14",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_14.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_14_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of 4*1**4 in python?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "256",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following has the greatest potential for compromising a user's personal\nprivacy?",
+      "options": {
+        "A": "A group of cookies stored by the user's Web browser",
+        "B": "The Internet Protocol (IP) address of the user's computer",
+        "C": "The user's e-mail address",
+        "D": "The user's public key used for encryption"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A group of cookies stored by the user's Web browser can track and store personal information about browsing habits, preferences, and login details, thereby significantly compromising a user's personal privacy.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3267"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, let r = lambda q: q * 2. What is r(3)?",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "3",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6 because the lambda function r takes an input q and returns it multiplied by 2, so r(3) computes 3 * 2, which equals 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is correct about Python?",
+      "options": {
+        "A": "It supports automatic garbage collection.",
+        "B": "It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.",
+        "C": "Both of the above.",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Both of the above\" because it acknowledges that multiple statements about Python, such as its versatility and ease of learning, are true, reflecting its wide applicability in various programming contexts.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3226"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_14_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A large Java program was tested extensively, and no errors were found. What can be\nconcluded?",
+      "options": {
+        "A": "All of the preconditions in the program are correct.",
+        "B": "All of the postconditions in the program are correct.",
+        "C": "The program may have bugs.",
+        "D": "Every method in the program may safely be used in other programs."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The conclusion that \"the program may have bugs\" is correct because the absence of errors during testing does not guarantee that the program is free of all defects, as some bugs may remain undetected due to limitations in the testing process or coverage.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The function O(log N) grows slower than O(log log N).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because O(log N) actually grows faster than O(log log N) as N increases, since the logarithmic function increases faster than the logarithm of the logarithmic function.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The isupper() function in Python 3 checks if all characters in a string are uppercase.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The isupper() function in Python 3 returns True if all the characters in the string are uppercase letters and there is at least one character, confirming that the statement is accurate.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Python variable names are not case-sensitive, so 'Variable' and 'variable' refer to the same identifier.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Python variable names are case-sensitive, meaning that 'Variable' and 'variable' are considered two distinct identifiers.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression x << 3 with x = 1 evaluates to 8, which is the result of left shifting the binary representation of 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression x << 3 shifts the binary representation of 1 (which is 0001 in binary) three places to the left, resulting in 1000 in binary, which is equal to 8 in decimal.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_14_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python, the output of print(list[1:3]) will be [786, 2.23] when list is initialized as ['abcd', 786, 2.23, 'john', 70.2].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the slicing operation `list[1:3]` retrieves the elements at index 1 and 2 from the list `['abcd', 786, 2.23, 'john', 70.2']`, which are 786 and 2.23, resulting in the output `[786, 2.23]`.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_14_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to group a sequence of key-value pairs into a dictionary of lists using\ncollections module.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def grouping_dictionary(l): | return d",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it indicates the use of a function that will ultimately create a dictionary where each key maps to a list of values, utilizing the collections module to facilitate this grouping process.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "653"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_14_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to get an item of a tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_item(tup1,index): | return item",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that takes a tuple and an index as parameters, allowing the retrieval of the specified item from the tuple based on the provided index.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "948"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

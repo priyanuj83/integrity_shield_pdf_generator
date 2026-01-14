@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) C, Ruby; B) Python, Ruby; C) C, C++; D) Tcl, C\#
+\\ \textit{Note:} C and C++ are both low-level programming languages that allow direct memory manipulation, making them particularly susceptible to buffer-overflow vulnerabilities due to inadequate bounds checking.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Joined; B) Authenticated; C) Submitted; D) Shared
+\\ \textit{Note:} The correct answer is "Authenticated" because without proper authentication, a man-in-the-middle attacker can intercept and alter the key exchange process of the Diffie-Hellman method, compromising the confidentiality and integrity of the communication.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Wireless access; B) Wireless security; C) Wired Security; D) Wired device apps
+\\ \textit{Note:} Wireless security refers to the measures and protocols implemented to protect wireless networks from unauthorized access or breaches, making it the correct answer as it directly addresses the anticipation of threats to computers and data transmitted over these networks.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) boundary hacks; B) memory checks; C) boundary checks; D) buffer checks
+\\ \textit{Note:} Buffer-overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, leading to potential security exploits, which can be prevented by implementing thorough boundary checks to ensure data is properly validated before being processed.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Silk Road; B) Cotton Road; C) Dark Road; D) Drug Road
+\\ \textit{Note:} The Silk Road was a notorious online marketplace on the Dark Web that became widely known for facilitating the sale of illegal drugs, narcotics, and various other illicit goods.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The AH Protocol provides data integrity through hashing but does not offer encryption, which means it does not guarantee privacy for the transmitted information.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer overflow vulnerabilities are primarily caused by programming errors, such as improper handling of memory allocation and bounds checking, rather than insufficient processing power.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the TLS/DTLS heartbeat extension, allowing attackers to read more data than intended from the memory of affected servers, thus revealing sensitive information.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow occurs when a program writes more data to a buffer than it can hold, which can cause adjacent memory locations to be overwritten, allowing for unauthorized access to memory not allocated to the pointer.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is indeed a protocol within the Internet Protocol Security (IPsec) suite because it provides confidentiality, integrity, and authentication for data packets transmitted over IP networks.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def no\_of\_subsequences(arr, k): | return dp[k][n]
+\\ \textit{Note:} correct because it leverages dynamic programming to efficiently count the subsequences of the given non-negative array whose product is less than the specified threshold k, ultimately storing and retrieving results from a table (dp) that tracks the number of valid subsequences for various products.
+\item \textbf{Answer:} def remove\_empty(tuple 1): \#L = [(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')] | return tuple 1
+\\ \textit{Note:} correct because it defines a function that takes a list of tuples as input and returns only those tuples that are not empty, thereby effectively removing any empty tuples from the list.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

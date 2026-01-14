@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_undergraduate_doc_19",
+  "document_name": "Computer Science - Undergraduate Level Assessment 19",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_19.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The boolean expression a[i] == max || !(max != a[i]) can be simplified to",
+      "options": {
+        "A": "a[i] == max",
+        "B": "a[i] != max",
+        "C": "a[i] < max || a[i] > max",
+        "D": "FALSE"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression !(max != a[i]) is logically equivalent to a[i] == max, making the entire expression redundant and thus simplifying to just a[i] == max.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, let r = lambda q: q * 2. What is r(3)?",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "3",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6 because the lambda function r takes an input q and returns its value multiplied by 2, so r(3) computes as 3 * 2, resulting in 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In python 3, which of the following is floor division?",
+      "options": {
+        "A": "/",
+        "B": "//",
+        "C": "%",
+        "D": "|"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the operator \"//\" is specifically designated for floor division, which divides two numbers and rounds down to the nearest integer.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT a reasonable justification for choosing to busy-wait on an\nasynchronous event?",
+      "options": {
+        "A": "The wait is expected to be short.",
+        "B": "A busy-wait loop is easier to code than an interrupt handler.",
+        "C": "There is no other work for the processor to do.",
+        "D": "The program executes on a time-sharing system."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Busy-waiting on an asynchronous event is inefficient on a time-sharing system because it consumes CPU resources that could be better allocated to other processes, leading to decreased overall system performance.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1012"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If a, b, and c are integers, which of the following conditions is sufficient to guarantee\nthat the expression a < c || a < b && !(a == c) evaluates to true?",
+      "options": {
+        "A": "a < c",
+        "B": "a < b",
+        "C": "a > b",
+        "D": "a == b"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition a < c is sufficient to guarantee that the expression evaluates to true because if a is less than c, the entire expression a < c || (a < b && !(a == c)) will be true regardless of the values of b and c.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Python variable names are not case-sensitive, making 'Variable' and 'variable' interchangeable in the code.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Python treats variable names as case-sensitive, meaning 'Variable' and 'variable' are considered distinct and separate identifiers.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "A function that counts the values in a column or row is the best method for detecting data entry errors.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A function that counts values can identify discrepancies in quantity but may not detect specific data entry errors such as incorrect values or formatting issues, making it insufficient on its own for comprehensive error detection.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3221"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The regular expression a*(c + d)* + b(c + d)* describes the same set of strings as (a* + b)*(c + d).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the first regular expression allows for strings that consist solely of 'a's followed by any combination of 'c's and 'd's or strings that begin with 'b', while the second expression allows for any combination of 'a's or 'b's followed by at least one 'c' or 'd', thereby generating different sets of strings.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "15608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, using a negative index such as 'abc'[-1] results in an error due to invalid indexing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, using a negative index like 'abc'[-1] correctly accesses the last character of the string, which is 'c', rather than resulting in an error.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3247"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the sum of the list l = [1, 2, 3, 4] is equal to 10.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the built-in function `sum()` computes the total of all elements in the list l = [1, 2, 3, 4], which equals 1 + 2 + 3 + 4 = 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove the duplicates from the given tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_tuple(test_tup): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to define a function that processes a tuple to eliminate duplicate elements, although it lacks the implementation details required to achieve this.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to left rotate the string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def left_rotate(s,d): | return tmp",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function definition in Python that is intended to perform a left rotation of a string by a specified number of positions, although it lacks the complete implementation details necessary for the function to work as intended.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "973"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

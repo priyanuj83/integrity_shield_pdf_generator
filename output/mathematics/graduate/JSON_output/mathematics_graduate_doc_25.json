@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_25",
+  "document_name": "Mathematics - Graduate Level Assessment 25",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_25.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If z = arctan(e^{1 + (1 + x)^2}), what's the derivative of $\\frac{\\partial z}{\\partial x}$\nat x = 0.",
+      "options": {
+        "A": "0.4752",
+        "B": "0.6210",
+        "C": "0.4123",
+        "D": "0.5678",
+        "E": "0.5439"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 0.4752 for the derivative $\\frac{\\partial z}{\\partial x}$ at x = 0 arises from applying the chain rule and implicit differentiation to the function $z = arctan(e^{1 + (1 + x)^2})$, where evaluating at x = 0 yields a specific numerical value after substituting into the derivative expression.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8944"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which statementis true?",
+      "options": {
+        "A": "The product of 7 x 5 is odd because both of the factors are even.",
+        "B": "The product of 3 x 3 is odd because one of the factors is odd.",
+        "C": "The product of 5 x 2 is even because both of the factors are even.",
+        "D": "The product of 6 x 2 is odd because one of the factors is odd.",
+        "E": "The product of 2 x 2 is odd because both of the factors are even."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is incorrect; the product of 7 x 5 is odd because one factor (7) is odd and the other factor (5) is also odd, not because both are even.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7828"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "5.5-1. Let $X_1, X_2, \\ldots, X_{16}$ be a random sample from a normal distribution\n$N(77,25)$. Compute (a) $P(77<\\bar{X}<79.5)$.",
+      "options": {
+        "A": "$0.3524$",
+        "B": "$0.2123$",
+        "C": "$0.5948$",
+        "D": "$0.3187$",
+        "E": "$0.4298$"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 0.3524 is derived from calculating the probability that the sample mean $\\bar{X}$ falls between 77 and 79.5 for a normal distribution with a mean of 77 and a standard deviation of 5 (the standard deviation of the sample mean for a sample size of 16), utilizing the properties of the normal distribution and the standard normal transformation.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7994"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the median in the set of data 23, 13, 18, 29, 32, 25.",
+      "options": {
+        "A": "25",
+        "B": "22",
+        "C": "30",
+        "D": "27",
+        "E": "29"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The median is found by first ordering the data set from least to greatest, resulting in 13, 18, 23, 25, 29, 32, and since there is an even number of values, the median is the average of the two middle numbers (23 and 25), which equals 24, but given the context, the correct median value is taken as the lower of the two middle values, which is 25, providing a clearer representation of the central tendency in this specific data set.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8453"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "compute the integral \\int_{\\Gamma} \\frac{x*dy-y*dx}{x^2+y^2}, where $\\Gamma$ is any\npiecewise smooth, closed curve that encloses the origin but does not pass through it.",
+      "options": {
+        "A": "3.1415926",
+        "B": "4.6692016",
+        "C": "1.5707963",
+        "D": "0",
+        "E": "2.7182818"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The integral evaluates to \\( 2\\pi \\) due to the residue theorem or the application of Green's theorem, confirming that the integral of the differential form \\( \\frac{x\\,dy - y\\,dx}{x^2 + y^2} \\) around a closed curve enclosing the origin is equal to the winding number times \\( 2\\pi \\), which results in approximately \\( 3.1415926 \\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8184"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The perimeter of polygon ABCDE is 30 units, as it is similar to polygon PQRST with proportional side lengths.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because similar polygons have proportional side lengths, which means that if the ratio of the sides between the two polygons is constant, the perimeters will also be proportional, allowing for the conclusion that the perimeter of polygon ABCDE can indeed be 30 units based on its similarity to polygon PQRST.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "There are 720 ways to divide a group of 6 people into 2 ordered teams.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the number of ways to divide 6 people into 2 ordered teams is calculated using the formula 6!/(3!3!), which equals 720, accounting for the arrangement of each team.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8419"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Let h(x) = 1/(\\sqrt{x} + 1). What is h''(x) when x = 1?' is '0.75'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the second derivative h''(x) at x = 1 is not equal to 0.75; instead, it can be calculated to yield a different value based on the differentiation of the function h(x).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8071"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The number 270,240 can be expressed in expanded form as 200,000 + 70,000 + 200 + 400.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct expanded form of 270,240 is 200,000 + 70,000 + 2,000 + 240, not 200,000 + 70,000 + 200 + 400.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8126"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_25_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The norm ||x||_p can be expressed as an inner product if and only if p equals 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The norm ||x||_p can be expressed as an inner product if and only if p equals 2 because only in the case of p=2 does the norm satisfy the properties of an inner product space, specifically the parallelogram law, which is essential for inner products.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8038"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_25_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Circle $O$ is located on the coordinate plane with center at $(2,3)$. One endpoint of a\ndiameter is at $(-1,-1)$. What are the coordinates of the other endpoint of this diameter?\nExpress your answer as an ordered pair.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the duration for which the cannonball remains above 6 meters, we start by\nsetting the height function \\( h(t) = -4.9 t^2 + 14 t - 0.4 \\) greater than 6 meters: \\[\n-4.9 t^2 + 14 t - 0.4 > 6. \\] Rearranging this yields the quadratic inequality: \\[ -4.9\nt^2 + 14 t - 6.4 > 0. \\] Next, we solve the corresponding quadratic equation \\( -4.9 t^2 +\n14 t - 6.4 = 0 \\) using the quadratic formula \\( t = \\frac{-b \\pm \\sqrt{b^2 - 4 ac}}{2 a}\n\\) where \\( a = -4.9 \\), \\( b = 14 \\), and \\( c = -6.4 \\). This results in two critical\npoints. Analyzing the intervals determined by these roots, we find the cannonball stays\nabove 6 meters for the interval \\( t \\in \\left( \\frac{12}{7}, \\infty \\right) \\), leading\nus to conclude that the time duration for which the cannonball remains above 6 meters is\n\\( \\frac{12}{7} \\) seconds.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it properly sets up and rearranges the inequality to find the intervals where the quadratic function representing the height of the cannonball exceeds 6 meters, then applies the quadratic formula to determine the specific time values where this occurs.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_25_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the trajectory of a cannonball described by the function \\( h(t) = -4.9 t^2 + 14 t\n- 0.4 \\). Determine the time duration for which the cannonball remains above 6 meters,\nproviding a detailed explanation of your method and reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the duration for which the cannonball remains above 6 meters, we start by\nsetting the height function \\( h(t) = -4.9 t^2 + 14 t - 0.4 \\) greater than 6 meters: \\[\n-4.9 t^2 + 14 t - 0.4 > 6. \\] Rearranging this yields the quadratic inequality: \\[ -4.9\nt^2 + 14 t - 6.4 > 0. \\] Next, we solve the corresponding quadratic equation \\( -4.9 t^2 +\n14 t - 6.4 = 0 \\) using the quadratic formula \\( t = \\frac{-b \\pm \\sqrt{b^2 - 4 ac}}{2 a}\n\\) where \\( a = -4.9 \\), \\( b = 14 \\), and \\( c = -6.4 \\). This results in two critical\npoints. Analyzing the intervals determined by these roots, we find the cannonball stays\nabove 6 meters for the interval \\( t \\in \\left( \\frac{12}{7}, \\infty \\right) \\), leading\nus to conclude that the time duration for which the cannonball remains above 6 meters is\n\\( \\frac{12}{7} \\) seconds.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it properly sets up and rearranges the inequality to find the intervals where the quadratic function representing the height of the cannonball exceeds 6 meters, then applies the quadratic formula to determine the specific time values where this occurs.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7844"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

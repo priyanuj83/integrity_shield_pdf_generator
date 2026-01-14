@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_23",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the structure of the Bayesian Network, where the joint probability can be expressed as the product of the marginal probability of H, the marginal probability of W, the conditional probability of P given W, and the conditional probability of U given H and P, reflecting the dependencies and independencies defined by the network.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The sigmoid function, which is used in a sigmoid node, transforms any real-valued input into a value between 0 and 1, thereby bounding its output within this range.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Adding more basis functions in a linear model allows for greater flexibility in capturing the underlying patterns in the data, which reduces the model bias by enabling it to fit the training data more closely.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6880
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is false because regression analysis identifies relationships between variables but does not establish causation, as correlation does not imply causation.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Random crop and horizontal flip are commonly used data augmentation techniques in natural images because they effectively increase dataset diversity by allowing models to learn from variations in object positioning and orientation, thus improving generalization.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "RoBERTa is pretrained on a dataset that includes over 160GB of text data, significantly more than the 16GB used for BERT's pretraining, which enhances its performance on various natural language processing tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6836
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because there are several other nonlinear activation functions used in deep learning models, such as ReLU (Rectified Linear Unit), Tanh, and Leaky ReLU, among others.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6899
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Fully connected networks are generally less efficient for classifying high-resolution images compared to convolutional neural networks (CNNs), which are specifically designed to capture spatial hierarchies and features in images while reducing the number of parameters needed.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6839
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because both RELU (Rectified Linear Unit) and sigmoid activation functions are monotonic; RELU is monotonically increasing, while the sigmoid function is also monotonic but has a bounded range.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and raised awareness about the potential existential risks that advanced AI systems may pose to humanity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def text_match_one(text): | return 'Found a match!'",
+      "marks": 10,
+      "explanation": "The provided answer is correct because it indicates a successful match for the specified pattern, even though the actual function implementation for matching the string is not included, demonstrating an understanding of the expected output when the condition of having an 'a' followed by one or more 'b's is met.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 434
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_23_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def count_range_in_list(li, min, max): | return ctr",
+      "marks": 10,
+      "explanation": "correct because it outlines the fundamental requirement of defining a function that takes a list and two numerical boundaries, then effectively counts how many elements in the list lie within that specified range.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 700
+    }
+  ]
+}

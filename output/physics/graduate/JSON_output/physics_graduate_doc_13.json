@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_13",
+  "document_name": "Physics - Graduate Level Assessment 13",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_13.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "By what factor would the heat transfer by radiation between the walls of a thermos bottle\nbe increased if the reflectance of each wall were reduced from 0.9 to 0.3?",
+      "options": {
+        "A": "11.3",
+        "B": "7.0",
+        "C": "13.7",
+        "D": "6.5",
+        "E": "12.5"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 11.3 because the heat transfer by radiation is inversely proportional to the reflectance, and reducing the reflectance from 0.9 to 0.3 increases the effective emissivity, leading to approximately an 11.3-fold increase in heat transfer according to the Stefan-Boltzmann law.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Compared with the sound you hear from the siren of a stationary fire engine the sound you\nhear when it approaches you has an increased",
+      "options": {
+        "A": "volume",
+        "B": "timbre",
+        "C": "speed",
+        "D": "duration",
+        "E": "wavelength"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is volume because as the fire engine approaches, the sound waves compress due to the Doppler effect, resulting in an increase in amplitude and perceived loudness.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10166"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "How many calories are developed in 1.0 min in an electric heater which draws 5.0 amp when\nconnected to a 110-volt line?",
+      "options": {
+        "A": "5.0 \\times 10^3 cal",
+        "B": "15.3 \\times 10^3 cal",
+        "C": "10.5 \\times 10^3 cal",
+        "D": "12.7 \\times 10^3 cal",
+        "E": "7.9 \\times 10^3 cal"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 7.9 \u00d7 10^3 cal is derived from the calculation of electrical power using the formula P = VI, where the power (P) in watts is 550 watts (5.0 A \u00d7 110 V), which when converted to calories results in approximately 7.9 \u00d7 10^3 cal for 1 minute, since 1 watt is equivalent to about 0.239 calories per second.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9905"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the mass of the electron by combining the results of Millikan's determination of\nthe electron charge q and J.J. Thomson's measurement of q/m.",
+      "options": {
+        "A": "6.7 \\times 10^-17 kg",
+        "B": "2.2 \\times 10^-22 kg",
+        "C": "3.0 \\times 10^-32 kg",
+        "D": "5.5 \\times 10^-31 kg",
+        "E": "1.76 \\times 10^11 kg"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 6.7 \u00d7 10^-17 kg for the mass of the electron is derived by dividing Millikan's measured charge of the electron by Thomson's measured charge-to-mass ratio (q/m), accurately combining these fundamental constants to yield the electron's mass.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9083"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "When an element ejects an alpha particle, the mass number of the resulting element",
+      "options": {
+        "A": "remains the same",
+        "B": "increases by 4",
+        "C": "reduces by 3",
+        "D": "increases by 3",
+        "E": "increases by 1"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is that the mass number of the resulting element remains the same because the ejection of an alpha particle, which consists of 2 protons and 2 neutrons, effectively results in the loss of 4 nucleons, but the element undergoing the decay is transformed into a different element with a new atomic number, maintaining the overall mass number in the context of nuclear reactions.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10173"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The magnitude of the force on the particle is 5.0 N, as it relates to the rate of change of kinetic energy.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because according to the work-energy theorem, the work done on a particle is equal to the change in its kinetic energy, and since force is defined as the rate of change of momentum, a constant force of 5.0 N will result in a corresponding rate of change in kinetic energy over time.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9823"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "If a capacitor loses half its remaining charge every second and has charge q after five seconds, its initial charge was 16 q.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if a capacitor loses half of its charge every second, after five seconds it retains 1/32 of its initial charge, meaning if it has charge q after five seconds, its initial charge must have been 16q (since q = (1/2)^5 * initial charge).",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The magnification of the image of the filling in the tooth is 4 times the size of the object.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the magnification of an image in optics is defined as the ratio of the height of the image to the height of the object, and a magnification of 4 indicates that the image is indeed four times larger than the actual object.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9967"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A force of 0.20 newton acting on a mass of 100 grams results in an acceleration of 5.0 m/sec^2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, according to Newton's second law (F=ma), a force of 0.20 newton acting on a mass of 0.1 kg (100 grams) would result in an acceleration of 2.0 m/sec\u00b2, not 5.0 m/sec\u00b2.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_13_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Huygens' principle for light is primarily described by the behavior of particles, suggesting that light travels as discrete particles only.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Huygens' principle describes light as a wave phenomenon, illustrating how each point on a wavefront serves as a source of secondary wavelets, thereby demonstrating that light travels as waves rather than discrete particles.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9430"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_13_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the trajectory of a ballistic rocket launched from the equator at a 60^\\circ angle\nwith an initial speed of 6 km/sec. Calculate the great circle distance it covers around\nthe Earth and explain the underlying physics principles involved.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When a ballistic rocket is launched from the equator at a 60^\\circ angle with an initial\nspeed of 6 km/sec, it follows a parabolic trajectory influenced by gravitational forces\nand the curvature of the Earth. The great circle distance it covers can be calculated\nusing the initial speed, launch angle, and the radius of the Earth. The horizontal\ncomponent of the velocity can be determined using the cosine of the launch angle,\nresulting in a distance covered of approximately 8.660 \\times 10^6 m. This distance\nreflects the interplay between kinetic energy, gravitational potential energy, and the\ncircular geometry of the Earth, demonstrating fundamental principles of projectile motion\nand orbital dynamics in a rotating reference frame.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the principles of projectile motion and gravitational forces to determine the horizontal distance traveled by the rocket, factoring in the launch angle and the Earth's curvature, which is essential for calculating the great circle distance.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9691"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_13_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the dynamics of a head-on collision between a particle of mass $m$ moving with\nvelocity $u_1$ and a stationary particle of mass $2 m$. How does the coefficient of\nrestitution affect the final velocity $v_1$ of the first particle, particularly in\nmaximizing kinetic energy loss? Include relevant equations and principles in your\nanalysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In a head-on collision between a particle of mass \\( m \\) moving with velocity \\( u_1 \\)\nand a stationary particle of mass \\( 2 m \\), the dynamics can be analyzed using the\nprinciples of conservation of momentum and the coefficient of restitution. The\nconservation of momentum gives us the equation \\( mu_1 = mv_1 + 2 mv_2 \\), where \\( v_1 \\)\nand \\( v_2 \\) are the final velocities of the first and second particles, respectively.\nThe coefficient of restitution \\( e \\) relates the relative velocities before and after\nthe collision as \\( e = \\frac{v_2 - v_1}{u_1 - 0} \\). To maximize the kinetic energy loss,\nwe can set \\( e \\) to its lowest value, which is zero for a perfectly inelastic collision,\nleading to a significant change in velocity. Ultimately, for a perfectly elastic\ncollision, we find that the final velocity \\( v_1 \\) of the first particle can be\nexpressed as \\( v_1 = \\frac{1}{3}u_1 \\), indicating that a higher coefficient of\nrestitution results in greater retention of kinetic energy in the system.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively applies the conservation of momentum and the definition of the coefficient of restitution to analyze the dynamics of the collision, demonstrating how these principles influence the final velocities and the kinetic energy loss during the interaction.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9450"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

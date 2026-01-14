@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The first statement is false because a subgroup H is not necessarily normal in G, which means that aH does not equal Ha for all elements a in G, while the second statement is false because it fails to recognize that the condition of normality requires a specific relationship between elements of G and the subgroup H, rather than simply asserting that ah = ha for all h in H.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 0; B) 1; C) 4; D) 6
+\\ \textit{Note:} The correct answer is 0 because in the ring Z\_24, the product of 12 and 16, which is 192, is congruent to 0 modulo 24, as 192 is a multiple of 24.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) -19; B) -10; C) 19; D) 10
+\\ \textit{Note:} The correct answer is -19 because T is a linear transformation, and applying the linearity property, we have T(-3, 2) = -3 T(1, 0) + 2 T(0, 1) = -3(3) + 2(-5) = -9 - 10 = -19.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 3; C) 12; D) 30
+\\ \textit{Note:} The characteristic of the ring Z\_3 x Z\_3 is 3 because it is the smallest positive integer n such that n times any element in the ring equals the additive identity, which holds true since both components of the ring Z\_3 have characteristic 3.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The first statement is false because two vectors in $R^2$ can be linearly dependent if they are scalar multiples of each other, while the second statement is true because the dimension of a vector space spanned by k linearly independent vectors is indeed k.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The element 2 is not a generator of the multiplicative group of nonzero elements in Z\_7 because it does not produce all the elements of the group through its powers, specifically failing to generate the element 3.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the divisibility of 3 x + 7 y by 11 does not guarantee that the linear combination 9 x + 4 y will also be divisible by 11, as their coefficients are not directly related in a way that ensures the same divisibility condition holds.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The identity element in a group under multiplication modulo 10 is the element that, when multiplied by any other element in the group, returns that element; in this case, since 6 multiplied by any element in \{2, 4, 6, 8\} modulo 10 equals that element, 6 is indeed the identity element.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A nontrivial homomorphism from a finite group to an infinite group cannot exist because the image of the finite group under the homomorphism must also be finite, contradicting the infinite nature of the target group.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because in an Abelian group, if elements a and b have finite orders m and n that are coprime, then the order of the product ab is indeed the least common multiple of the orders of a and b, which is lcm(m, n) = mn.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Let $C$ be the intersection of the horizontal line through $A$ and the vertical line through $B.$ In right triangle $ABC,$ we have $BC=3$ and $AB=5,$ so $AC=4.$ Let $x$ be the radius of the third circle, and $D$ be the center. Let $E$ and $F$ be the points of intersection of the horizontal line through $D$ with the vertical lines through $B$ and $A,$ respectively, as shown. [asy] unitsize(0.7 cm); draw((-3,0)--(7.5,0)); draw(Circle((-1,1),1),linewidth(0.7)); draw(Circle((3,4),4),linewidth(0.7)); draw(Circle((0.33,0.44),0.44),linewidth(0.7)); dot((-1,1)); dot((3,4)); draw((-1,1)--(-2,1)); draw((3,4)--(7,4)); label("\{\ensuremath{\tiny} A\}",(-1,1),N); label("\{\ensuremath{\tiny} B\}",(3,4),N); label("\{\ensuremath{\tiny} 1\}",(-1.5,1),N); label("\{\ensuremath{\tiny} 4\}",(5,4),N); draw((3,4)--(-1,1)--(3,1)--cycle); draw((3,0.44)--(-1,0.44)); draw((-1,1)--(-1,0)); draw((3,1)--(3,0)); draw((-1,1)--(0.33,0.44)); draw((0.33,0.44)--(3,4),dashed); dot((3,1)); dot((3,0.44)); dot((-1,0.44)); dot((0.33,0.44)); label("\{\ensuremath{\tiny} C\}",(3,1),E); label("\{\ensuremath{\tiny} E\}",(3,0.44),E); label("\{\ensuremath{\tiny} D\}",(0.33,0.44),S); label("\{\ensuremath{\tiny} F\}",(-1,0.44),W); [/asy] In $\triangle BED$ we have $BD = 4+x$ and $BE = 4-x,$ so $DE^2 = (4+x)^2 - (4-x)^2 = 16 x,$$and $DE = 4\ensuremath{\sqrt{x}}.$ In $\ensuremath{\triangle} ADF$ we have $AD = 1+x$ and $AF=1-x,$ so $$FD^2 = (1+x)^2 - (1-x)^2 = 4 x,$$and $FD = 2\ensuremath{\sqrt{x}}.$ Hence, $$4=AC=FD+DE=2\sqrt{x}+4\sqrt{x}=6\sqrt{x}$$and $\ensuremath{\sqrt{x}}=\ensuremath{\frac{2}{3}},$ which implies $x=\ensuremath{\boxed}\{\ensuremath{\frac{4}{9}}\}.\$
+\\ \textit{Note:} correct because it utilizes the geometric relationship between the centers of the circles and the properties of right triangles to establish the distances involved, allowing for the determination of the radius of the third circle using the tangential relationships with the first two circles.
+\item \textbf{Answer:} The maximum area of a triangular region with one vertex at the center of a circle of radius 1 and the other two vertices on the circumference occurs when the two vertices are positioned opposite each other, forming a diameter of the circle. In this configuration, the triangle becomes an isosceles triangle with its base along the diameter and height equal to the radius of the circle. The area can be calculated using the formula for the area of a triangle, A = 1/2 * base * height. Here, the base is 2 (the diameter) and the height is 1 (the radius), resulting in an area of A = 1/2 * 2 * 1 = 1. Thus, the maximum area of the triangle is 1 square unit, achieved under these specific conditions.
+\\ \textit{Note:} correct because the area of the triangle is maximized when the base is the diameter of the circle, allowing the height to equal the radius, which results in the largest possible area for the given configuration.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

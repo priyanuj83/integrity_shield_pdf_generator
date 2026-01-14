@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) To translate Web addresses to host names; B) To determine the IP address of a given host name; C) To determine the hardware address of a given host name; D) To determine the hardware address of a given IP address
+\\ \textit{Note:} The Address Resolution Protocol (ARP) is specifically designed to map an IP address to its corresponding hardware (MAC) address within a local area network, enabling effective communication between devices.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WPA 3 offers enhanced security features such as improved encryption methods and protection against brute-force attacks, making it the most robust wireless security protocol available compared to its predecessors.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Reference counting is well suited for reclaiming cyclic structures.; B) Reference counting incurs additional space overhead for each memory cell.; C) Reference counting is an alternative to mark-and-sweep garbage collection.; D) Reference counting need not keep track of which cells point to other cells.
+\\ \textit{Note:} Reference counting fails to reclaim cyclic structures because the reference counts of objects in a cycle never reach zero, preventing their memory from being deallocated.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Only once; B) Twice; C) Multiple times; D) Conditions dependant
+\\ \textit{Note:} A session symmetric key is designed for a single session to ensure confidentiality and security, preventing potential vulnerabilities that could arise from reusing the same key across multiple sessions.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) one in which each main memory word can be stored at any of 3 cache locations; B) effective only if 3 or fewer processes are running alternately on the processor; C) possible only with write-back; D) faster to access than a direct-mapped cache
+\\ \textit{Note:} A$_{3}$-way, set-associative cache allows each main memory word to be mapped to any of three specific locations within a set in the cache, providing flexibility in data storage and retrieval while maintaining a balance between direct-mapped and fully associative caches.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} EtterPeak is considered a valuable tool for network analysis because it effectively supports the analysis and monitoring of various protocols within complex multiprotocol networking environments, making it widely applicable and utilized in the field.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A man-in-the-middle attack can compromise the security of the Diffie-Hellman method because without authentication, an attacker can intercept and alter the key exchange process, allowing them to establish separate keys with both parties and decrypt their communications.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because C and C++ do not automatically enforce boundary checks on arrays and strings in their standard library functions, which can lead to unintentional writing of data beyond allocated memory limits, resulting in buffer overflow vulnerabilities.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authorization is primarily concerned with granting or denying access to resources based on the permissions associated with a user's identity, rather than determining the user's identity itself, which is the function of authentication.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer overflow vulnerabilities can persist in applications because inadequate boundary checks allow excess data to overwrite adjacent memory, potentially leading to unauthorized access or execution of malicious code.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def re\_order(A): | return A
+\\ \textit{Note:} correct because it simply returns the input array without modifying it, which means that if the array contains zeroes, they remain in their original positions while effectively leaving the task of moving them to the end unaddressed.
+\item \textbf{Answer:} def count\_char(string,char): | return count
+\\ \textit{Note:} correct because it presents a function definition that captures the essential elements needed to count the occurrences of a specified character in a given string, although the implementation details are incomplete.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_undergraduate_doc_07",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 7",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_07.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Overfitting is more likely when the set of training data is small. Statement\n2| Overfitting is more likely when the hypothesis space is small.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Overfitting is more likely with a small training dataset because the model can memorize the limited examples rather than generalizing, while a small hypothesis space restricts the model's complexity, reducing the risk of overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is equal to P(A, B, C) given Boolean random variables A, B and\nC, and no independence or conditional independence assumptions between any of them?",
+      "options": {
+        "A": "P(A | B) * P(B | C) * P(C | A)",
+        "B": "P(C | A, B) * P(A) * P(B)",
+        "C": "P(A, B | C) * P(C)",
+        "D": "P(A | B, C) * P(B | A, C) * P(C | A, B)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the chain rule of probability, which states that the joint probability P(A, B, C) can be expressed as the product of the conditional probability P(A, B | C) and the marginal probability P(C).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is the main reason for pruning a Decision Tree?",
+      "options": {
+        "A": "To save computing time during testing",
+        "B": "To save space for storing the Decision Tree",
+        "C": "To make the training set error smaller",
+        "D": "To avoid overfitting the training set"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Pruning a Decision Tree is essential to avoid overfitting the training set by removing branches that capture noise or irrelevant patterns, thereby enhancing the model's generalization to unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6871"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "MLE estimates are often undesirable because",
+      "options": {
+        "A": "they are biased",
+        "B": "they have high variance",
+        "C": "they are not consistent estimators",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maximum Likelihood Estimation (MLE) can produce estimates with high variance, particularly in small sample sizes or complex models, leading to less reliable predictions and instability in the estimated parameters.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Averaging the output of multiple decision trees helps _.",
+      "options": {
+        "A": "Increase bias",
+        "B": "Decrease bias",
+        "C": "Increase variance",
+        "D": "Decrease variance"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual model errors, leading to a more stable and robust overall prediction.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6863"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Supervised learning is regarded as the most innovative technique in Yann LeCun's machine learning cake.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Yann LeCun's machine learning cake emphasizes the importance of unsupervised learning and other techniques, highlighting that supervised learning is just one component rather than the most innovative.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14783"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The dimensionality of the null space of the matrix A is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimensionality of the null space of matrix A being 2 indicates that there are two linearly independent solutions to the homogeneous equation Ax = 0, which implies that the rank of A is reduced by two dimensions compared to its maximum possible rank.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6897"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Increasing the number of training examples indefinitely leads to higher variance in the model's predictions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Increasing the number of training examples generally leads to lower variance in the model's predictions, as more data provides a better representation of the underlying distribution and helps the model generalize more effectively.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Predicting the amount of rainfall in a region based on various cues is a supervised learning problem.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is true because supervised learning involves using labeled data, where past rainfall amounts serve as the output labels corresponding to various input features or cues, allowing the model to learn the relationship between them for future predictions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6869"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "RELU activation functions are monotonic, while sigmoid activation functions are not monotonic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because both ReLU and sigmoid activation functions are monotonic; ReLU is non-decreasing, and the sigmoid function is also monotonic as it consistently increases between 0 and 1.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find number of lists present in the given tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_lists(Input): | return 1 | return len(Input)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the function should return the count of lists within the tuple by first checking for the presence of lists and then using the `len()` function to count them accurately.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "143"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_07_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the largest possible value of k such that k modulo x is y.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_max_val(n, x, y): | return (ans if (ans >= 0 and",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function correctly calculates the largest integer k by ensuring it satisfies the condition k % x = y while also being non-negative, which is achieved by adjusting n to the nearest multiple of x that maintains the specified remainder y.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "663"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

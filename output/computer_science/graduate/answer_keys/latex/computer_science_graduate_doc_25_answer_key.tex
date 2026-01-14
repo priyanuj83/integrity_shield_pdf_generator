@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 25 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a hidden method of bypassing normal authentication or security mechanisms in a computer system, allowing unauthorized access to the system and its information without detection.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) The wait is expected to be short.; B) A busy-wait loop is easier to code than an interrupt handler.; C) There is no other work for the processor to do.; D) The program executes on a time-sharing system.
+\\ \textit{Note:} Choosing to busy-wait on an asynchronous event is not reasonable on a time-sharing system because it can waste CPU cycles and degrade overall system performance by preventing other processes from executing.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) a*(c + d)+ b(c + d); B) a*(c + d)* + b(c + d)*; C) a*(c + d)+ b*(c + d); D) (a + b)*c +(a + b)*d
+\\ \textit{Note:} The correct answer, (a + b)*c + (a + b)*d, accurately captures the structure of the original expression (a* + b)*(c + d) by expressing that any combination of 'a's and 'b's can precede either 'c' or 'd', reflecting the union and concatenation operations inherent in the original regular expression.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is considered the first buffer overflow attack as it exploited a vulnerability in the Unix sendmail program to propagate itself, demonstrating the severe consequences of such security flaws in software.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Condentiality; C) Authentication; D) Nonrepudiation
+\\ \textit{Note:} The correct answer is "Confidentiality" because it refers to the assurance that information is accessible only to those authorized to have access, ensuring that both the sender and receiver can communicate without unauthorized interception or disclosure.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Interrupts are mechanisms that allow the CPU to respond to events or signals from hardware devices, enhancing the efficiency of input and output operations, rather than replacing data channels which are crucial for data transmission.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Burp Suite is primarily designed for web application security testing and not for analyzing wireless traffic, which is the primary function of Wireshark.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Operator precedence can be effectively specified using a context-free grammar because context-free grammars can define the hierarchical structure of expressions, allowing for the correct interpretation of operator precedence and associativity in programming languages.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because WPA (Wi-Fi Protected Access) is not the central node of 802.11 wireless operations; rather, it is a security protocol used to provide encryption and secure communication within those networks, while the central node typically refers to the access point or router that manages wireless connections.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In stack-based programming languages, local variables are typically stored in the activation record of a subroutine's stack frame, but they are not necessarily stored in the activation record frame itself, as they can also be held in registers or allocated on the heap depending on the language's implementation and optimization strategies.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def tuple\_to\_int(nums): | return result
+\\ \textit{Note:} correct because it outlines the basic structure of a function that will take a tuple of positive integers as input and aims to convert those integers into a single integer, emphasizing the importance of defining a function and the expected output format.
+\item \textbf{Answer:} def check\_min\_heap(arr, i): | return True | return left\_child and right\_child
+\\ \textit{Note:} correct because it outlines a function that checks the properties of a min heap by ensuring that each parent node is less than or equal to its children, which is essential for validating the min heap structure.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

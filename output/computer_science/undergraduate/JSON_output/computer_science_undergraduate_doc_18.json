@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_undergraduate_doc_18",
+  "document_name": "Computer Science - Undergraduate Level Assessment 18",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_18.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_18_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Of the following problems concerning a given undirected graph G, which is currently known\nto be solvable in polynomial time?",
+      "options": {
+        "A": "Finding a longest simple cycle in G",
+        "B": "Finding a shortest cycle in G",
+        "C": "Finding ALL spanning trees of G",
+        "D": "Finding a largest clique in G"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Finding a shortest cycle in an undirected graph can be solved in polynomial time using algorithms like breadth-first search (BFS) to efficiently explore all possible cycles and determine the shortest one.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1017"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following function convert a string to an int in python?",
+      "options": {
+        "A": "int(x [,base])",
+        "B": "long(x [,base] )",
+        "C": "float(x)",
+        "D": "str(x)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function `int(x [,base])` is designed to convert a given string `x` into an integer, optionally using a specified base, making it the correct choice for converting strings to integers in Python 3.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3183"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of the statement \"a\" + \"ab\" in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "aab",
+        "C": "ab",
+        "D": "a ab"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"aab\" because in Python 3, the '+' operator concatenates strings, combining \"a\" and \"ab\" to form the single string \"aab\".",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3203"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of \"abc\"[::-1] in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "abc",
+        "C": "cba",
+        "D": "c"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The output of \"abc\"[::-1] is \"cba\" because the slicing syntax with a step of -1 reverses the string by iterating over it from the end to the beginning.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "15675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, b = [11,13,15,17,19,21]; print(b[::2]) outputs what?",
+      "options": {
+        "A": "[19,21]",
+        "B": "[11,15]",
+        "C": "[11,15,19]",
+        "D": "[13,17,21]"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is [11,15,19] because the slicing operation b[::2] retrieves every second element from the list b, starting from index 0, which includes the elements at indices 0, 2, and 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3274"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Even after extensive testing, the program may still contain undetected bugs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because extensive testing cannot guarantee the identification of all bugs due to factors such as incomplete test coverage, the complexity of the program, and the possibility of unforeseen interactions between components.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The value of the Python expression 4 + 3 % 2 is 6, since 3 % 2 equals 1 and is added to 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the correct evaluation of the expression 4 + 3 % 2 is 4 + 1, which equals 5, not 6.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "O(n^2) is the largest asymptotic notation among O(1), O(n), O(n^2), and O(log n).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because O(n^2) represents a growth rate that is greater than O(1), O(n), and O(log n), making it the largest among the given asymptotic notations in terms of time complexity as the input size approaches infinity.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3213"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The access matrix approach can accurately express complex protection requirements without limitations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The access matrix approach can be limited in expressing complex protection requirements due to its inability to efficiently manage dynamic access control and the challenges of representing relationships among multiple subjects and objects in large, complex systems.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "996"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Python supports automatic garbage collection and can be integrated with languages like C, C++, and Java.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Python's automatic garbage collection manages memory by automatically reclaiming unused objects, and its ability to interface with languages like C, C++, and Java through various libraries and APIs enhances its functionality and interoperability.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3226"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to extract all the pairs which are symmetric in the given tuple list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def extract_symmetric(test_list): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it demonstrates the initiation of a function that is intended to process a list of tuples to identify and return all symmetric pairs, highlighting the function's purpose in addressing the problem statement.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "490"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to zip the two given tuples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def zip_tuples(test_tup1, test_tup2): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly defines a function named `zip_tuples` that is intended to combine two given tuples into a single tuple, though it lacks the actual implementation of zipping the tuples together before returning the result.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "81"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

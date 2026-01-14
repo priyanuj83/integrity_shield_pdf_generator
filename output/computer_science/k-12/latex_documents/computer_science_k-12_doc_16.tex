@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Computer Science - K-12 Level Assessment 16 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item If a, b, and c are integers, which of the following conditions is sufficient to guarantee that the expression a \textless{} c || a \textless{} b \&\& !(a == c) evaluates to true?
+\begin{enumerate}[label=(\alph*)]
+    \item a \textless{} c
+    \item a \textless{} b
+    \item a \textgreater{} b
+    \item a == b
+\end{enumerate}
+\item Let l = [1,2,3,4]. What is sum(l) in Python 3?
+\begin{enumerate}[label=(\alph*)]
+    \item 4
+    \item 1
+    \item 10
+    \item 8
+\end{enumerate}
+\item Let l = [1,2,3,4]. What is max(l) in Python 3?
+\begin{enumerate}[label=(\alph*)]
+    \item 1
+    \item 2
+    \item 3
+    \item 4
+\end{enumerate}
+\item The boolean expression a[i] == max || !(max != a[i]) can be simplified to
+\begin{enumerate}[label=(\alph*)]
+    \item a[i] == max
+    \item a[i] != max
+    \item a[i] \textless{} max || a[i] \textgreater{} max
+    \item FALSE
+\end{enumerate}
+\item In Python 3, what is ['a', 'Chemistry', 0, 1][-3]?
+\begin{enumerate}[label=(\alph*)]
+    \item a
+    \item Chemistry
+    \item 0
+    \item 1
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: In Python 3, using b[::2] on the list [11,13,15,17,19,21] returns [11,15,19].
+\item True or False: In Python 3, the function min([1, 2, 3, 4]) returns the second smallest value in the list, which is 2.
+\item True or False: In Python 3, the function choice(seq) sets the integer starting value used in generating random numbers.
+\item True or False: In Python 3, the expression 'a' + 'ab' results in the string 'aab'.
+\item True or False: In Python 3, accessing the first element of the tuple ( 'abcd', 786, 2.23, 'john', 70.2 ) will output 'abcd'.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Discuss the implications of failing to check for a zero value in the denominator when calculating the average of N numbers in an algorithm. When would this error become apparent?
+\item Given the list l = [1,2,2,3,4], explain how the Python 3 set function processes this list to produce its output. Discuss the significance of using sets in programming.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

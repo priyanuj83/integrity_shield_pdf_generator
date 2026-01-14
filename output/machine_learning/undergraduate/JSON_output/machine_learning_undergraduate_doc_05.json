@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_05",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 5",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_05.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the dimensionality of the null space of the following matrix? A = [[1, 1, 1], [1,\n1, 1], [1, 1, 1]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimensionality of the null space of the matrix A, which consists of three identical rows, is 2 because the rank of the matrix is 1, leading to a nullity of 3 - 1 = 2 according to the rank-nullity theorem.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The original ResNets and Transformers are feedforward neural networks.\nStatement 2| The original Transformers use self-attention, but the original ResNet does\nnot.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are true because ResNets are indeed feedforward networks that utilize skip connections but do not employ self-attention mechanisms, while Transformers are also feedforward networks that specifically leverage self-attention for processing input data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Neural networks:",
+      "options": {
+        "A": "Optimize a convex objective function",
+        "B": "Can only be trained with stochastic gradient descent",
+        "C": "Can use a mix of different activation functions",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Neural networks can employ various activation functions across different layers to optimize learning and capture non-linear relationships in data, enhancing their performance and versatility.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6865"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the rank of the following matrix? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The rank of the matrix A is 1 because all rows are linearly dependent and can be expressed as scalar multiples of each other, indicating that there is only one linearly independent row.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6857"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural\nnetworks trained with gradient descent with high probability converge to the global\noptimum.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is false for Statement 1 because while ReLU (Rectified Linear Unit) functions are indeed monotonic (increasing), sigmoid functions are also monotonic, and true for Statement 2 because neural networks trained with gradient descent do not guarantee convergence to the global optimum due to the presence of local minima and saddle points in non-convex loss landscapes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "As the number of training examples approaches infinity, the model's variance decreases, leading to more stable predictions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As the number of training examples increases, the model gains more information about the underlying data distribution, which reduces the impact of noise and leads to lower variance in predictions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Both Bayesians and frequentists agree on the necessity of using prior distributions in all statistical models.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bayesians advocate for the use of prior distributions in statistical models to incorporate prior knowledge, while frequentists typically do not use prior distributions and rely on data alone for inference.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Naive Bayes, attributes are statistically independent of one another given the class value.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Naive Bayes assumes that the presence or absence of a particular attribute is independent of the presence or absence of any other attribute when the class value is known, which simplifies the computation of probabilities in the model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14780"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "A Bayesian network with nodes H, U, P, and W requires only 7 independent parameters when no assumptions are made.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a Bayesian network with four nodes (H, U, P, W) requires more than 7 independent parameters due to the need to account for the conditional dependencies and relationships among these nodes, which typically exceed that number.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6881"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "High entropy in classification suggests that the partitions are pure and consist of a single class label.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "High entropy in classification indicates a high level of disorder or uncertainty in the data, meaning that the partitions contain a mixture of class labels rather than being pure and consisting of a single class label.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6849"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check the given decimal with a precision of 2 by using regex.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_decimal(num): | return bool(result)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the creation of a function that utilizes regular expressions (regex) to validate whether a given decimal number conforms to the specified precision of two decimal places, effectively returning a boolean result indicating the validity of the input.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "208"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count the number of rectangles in a circle of radius r.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_Rectangles(radius): | return rectangles",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it suggests a function structure that can be further developed to calculate the number of rectangles that can fit within a circle of a given radius by utilizing geometric principles and properties of shapes.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "355"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "docid": "business_administration_graduate_doc_18",
+  "document_name": "Business Administration - Graduate Level Assessment 18",
+  "domain": "business_administration",
+  "academic_level": "Graduate",
+  "subjects": [
+    "professional_accounting",
+    "business"
+  ],
+  "combination_used": [
+    "mmlu_pro_business_mcq",
+    "mmlu_pro_business_tf",
+    "business_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\business_administration\\graduate\\latex_documents\\business_administration_graduate_doc_18.tex",
+    "pdf_file": "output\\business_administration\\graduate\\pdf_documents\\business_administration_graduate_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/business_administration_graduate_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/business_administration_graduate_doc_18_gold.json",
+    "answer_key_latex_file": "output\\business_administration\\graduate\\answer_keys\\latex\\business_administration_graduate_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\business_administration\\graduate\\answer_keys\\pdf\\business_administration_graduate_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "For the 3 payments of $1000 each end-of-year, with 7% rate of return, what is the present\nvalue if the first payment is made at the end of fifth year?",
+      "options": {
+        "A": "1800.0000",
+        "B": "2500.0000",
+        "C": "2200.5678",
+        "D": "2300.4567",
+        "E": "2600.8910"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The present value of the three end-of-year payments of $1000 each, starting from the end of the fifth year at a 7% rate of return, is calculated using the present value formula, which discounts future cash flows back to the present, resulting in a total present value of $1800.00.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "446"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Mr. Josephson put $200 in a savings account which receives 4% interest compounded\nsemiannually. Find the present valueof his account after 2 years.",
+      "options": {
+        "A": "$212.36",
+        "B": "$220.50",
+        "C": "$210.00",
+        "D": "$222.22",
+        "E": "$216.49"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of $216.49 is derived from applying the formula for compound interest, which accounts for the principal amount of $200, an interest rate of 4% compounded semiannually over 2 years, resulting in a future value calculation of $200 * (1 + 0.04/2)^(2*2).",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "377"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "George sells vacuum cleaners for $75 each. He receives a 30% commission on each cleaner.\nLast week he sold 13 machines. What were his total earnings?",
+      "options": {
+        "A": "$325.50",
+        "B": "$650",
+        "C": "$585",
+        "D": "$405",
+        "E": "$975"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is $325.50 because George earns a commission of $22.50 per vacuum cleaner (30% of $75), and with 13 sales, his total earnings amount to $22.50 multiplied by 13, which equals $292.50, plus the base salary of $33, resulting in $325.50.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "397"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What does situational theory of leadership emphasise?",
+      "options": {
+        "A": "Individual skills",
+        "B": "Cultural influences",
+        "C": "Economic conditions",
+        "D": "Political situation",
+        "E": "Personality traits"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The situational theory of leadership emphasizes the importance of adapting one's leadership style based on the individual skills and readiness of team members to effectively guide and support them in various contexts.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Providing free samples of perfumes (scent) in magazines is an example of which of the\nfollowing?",
+      "options": {
+        "A": "Operant conditioning.",
+        "B": "Social learning.",
+        "C": "Insight learning.",
+        "D": "Observational learning.",
+        "E": "Cognitive learning."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Providing free samples of perfumes in magazines exemplifies operant conditioning because it uses positive reinforcement by rewarding potential customers with a free product to encourage future purchases.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "755"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Investing $1,000 to save $150 annually for 10 years yields a rate of return of 10%.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because investing $1,000 to receive $150 annually for 10 years results in a return of 15% per year, not 10%, as the total cash inflow over the period exceeds the initial investment when calculated using the present value of annuities.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "742"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The book value per share for ABC Corporation is $50, assuming total assets are correctly stated at $75,000.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the book value per share is calculated by dividing total equity by the number of outstanding shares, and without knowing the total equity or the number of shares, we cannot determine the book value per share accurately.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "146"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Egoism and Utilitarianism are both deontological theories that focus on moral duties rather than outcomes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because egoism and utilitarianism are both consequentialist theories that evaluate the morality of actions based on their outcomes rather than adhering to fixed moral duties.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "309"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The annual percentage rate for an invoice of $10,000 marked (6/10), (n/30) is 24.49%.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the terms (6/10), (n/30) indicate a 6% discount available if paid within 10 days, and when calculated for the entire year, this translates to an effective annual percentage rate of approximately 24.49%.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "644"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "business_administration_graduate_doc_18_business_administration_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Mr. Scaccioborrows pays a total of $120.00 to his credit union, which includes principal and interest over the repayment period.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it accurately reflects that the total payment made by Mr. Scaccioborrows encompasses both the principal amount borrowed and the interest accrued over the repayment period, which is a standard practice in loan agreements.",
+      "source": {
+        "dataset": "mmlu_pro_business_administration_business",
+        "source_id": "791"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "business_administration_graduate_doc_18_business_administration_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the theoretical forward price of gold, given a current\nprice of $412 per ounce, storage costs, and a 9% interest rate compounded quarterly for a\n9-month period.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The theoretical forward price of gold can be calculated by considering the current price,\nstorage costs, and the opportunity cost represented by the interest rate. Given a current\nprice of $412 per ounce, an interest rate of 9% compounded quarterly for 9 months, and\nassuming storage costs are negligible for this calculation, the forward price can be\nderived using the formula: Forward Price = Spot Price * (1 + r/n)^(nt), where r is the\ninterest rate, n is the number of compounding periods per year, and t is the time in\nyears. Substituting the values, we find that the forward price is approximately $442.02\nper ounce. This price reflects the cost of carrying the gold over the specified period,\naccounting for the time value of money. Thus, the theoretical forward price is influenced\nby both the current market conditions and the cost of financing the purchase of gold.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively applies the formula for calculating the theoretical forward price of gold by incorporating the current spot price, the compounded interest rate over the specified period, and implicitly assumes negligible storage costs, which are critical in determining the future price in a forward contract.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "449"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "business_administration_graduate_doc_18_business_administration_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the impact of sequential discounts on the final pricing of a product. Using a\nSpeedway Racing Set priced at $84 with a 20% and then 10% discount, calculate and analyze\nthe net price.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Sequential discounts can significantly impact the final pricing of a product, as they are\napplied successively rather than cumulatively. For a Speedway Racing Set priced at $84,\nthe first discount of 20% reduces the price to $67.20. Applying the subsequent 10%\ndiscount to this new amount further lowers the price to $60.48. This approach demonstrates\nthat the final price is not merely the sum of the two discounts but rather reflects a\ncompounding effect where each discount is applied to the remaining balance. Understanding\nthis pricing strategy is crucial for businesses to effectively manage profit margins and\nconsumer perceptions of value.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it illustrates how sequential discounts reduce the price stepwise, showing that each discount is applied to the already reduced amount rather than cumulatively, resulting in a net price that reflects the compounding effect of the discounts.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "516"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

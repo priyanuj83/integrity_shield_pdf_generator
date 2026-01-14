@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_18",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression 6 x 2 accurately represents the total distance Rocco hiked by multiplying the number of miles he hiked each day (6) by the number of days he hiked (2), resulting in a total of 12 miles.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8469
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "E",
+      "marks": 2,
+      "explanation": "The correct answer is 1.8 because it lies within the interval (1.5, 2) where the function changes sign, indicating the presence of a root, and is confirmed as the smallest positive root through the bisection method iterative calculations.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8508
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The number 1 is a generator of the finite field Z_7 because it can produce every element of the field through repeated addition, and in a field of prime order, any non-zero element can serve as a generator.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8777
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The company\u2019s production ratio of blue to white cars is 5:3, so if 15 white cars are produced, then the number of blue cars made is calculated by multiplying the number of white cars by the ratio fraction (15 white cars * 5/3 = 25 blue cars).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8683
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The worker produces parts at a rate of 3.14 parts per hour (22 parts/7 hours), so in 35 hours, she can produce approximately 110 parts (35 hours \u00d7 3.14 parts/hour).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8890
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the sum $\\sum_{n=1}^{\\infty} \\frac{2}{n^2 + 4 n + 3}$ converges to a value that is not equal to 1.6333, as the series can be simplified and computed to yield a different numerical result.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8935
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, in general group theory, the equation (ab)^{-2} equals b^{-2}a^{-2} only holds in abelian groups, and (ab)^n equals a^n b^n only holds for n=0 or in abelian groups, thus both equations are false in non-abelian groups.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8226
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The estimated sum of 153 and 44, which is approximately 200, falls within the range of 100 to 299.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8135
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the integral evaluates to a value that does not equal 1.5, as the integrand's behavior and the limits of integration lead to a different result.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8511
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The integral $\\int_{|z| = 1} z^2 \\sin(1/z) dz$ evaluates to zero due to the residue theorem, as the integrand is an entire function with no poles inside the contour, making the statement that the answer is '0.5' false.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8204
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "The tens digit cannot be 2, 5, or 8 because otherwise, the sum of the digits, and thus the\nnumber itself, is divisible by 3. The remaining possibilities are 17, 37, 47, 67, 77, and\n97. Only $77=7\\cdot 11$ is composite, so there are $\\boxed{5}$ two-digit prime numbers\nthat have a units digit of 7.",
+      "marks": 10,
+      "explanation": "correct because it identifies the two-digit prime numbers with a units digit of 7, eliminates the composite candidate 77 based on its factors, and confirms that the remaining numbers\u201417, 37, 47, 67, and 97\u2014are indeed prime, resulting in a total of five.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 19894
+    },
+    {
+      "question_id": "mathematics_graduate_doc_18_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "There are 5 steps to the right, and 2 steps up. These 7 steps can be made in any order, so\nthe answer is $\\dbinom{7}{2} = \\dfrac{7 \\times 6}{2 \\times 1} = \\boxed{21}$.",
+      "marks": 10,
+      "explanation": "correct because the problem can be modeled as a combinatorial selection of steps, where the total number of steps (7) consists of distinct choices of right (5) and up (2) movements, and the number of unique paths is given by the binomial coefficient \\(\\binom{7}{2}\\), representing the number of ways to choose 2 upward steps from a total of 7 steps.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 8812
+    }
+  ]
+}

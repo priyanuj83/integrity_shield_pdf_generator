@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_10",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 10",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_10.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The original ResNets and Transformers are feedforward neural networks.\nStatement 2| The original Transformers use self-attention, but the original ResNet does\nnot.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are correct because ResNets are a type of feedforward neural network that utilizes skip connections to improve training, while Transformers employ self-attention mechanisms to process sequential data, distinguishing their architectures and functionalities.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| ImageNet has images of various resolutions. Statement 2| Caltech-101 has more\nimages than ImageNet.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "ImageNet indeed contains images of various resolutions due to its diverse dataset, while Caltech-101, which has a total of 9,146 images, has fewer images than ImageNet, which has over 14 million images.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Overfitting is more likely when the set of training data is small. Statement\n2| Overfitting is more likely when the hypothesis space is small.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Overfitting is more likely with a small training dataset because the model can learn noise instead of the underlying pattern, while a small hypothesis space restricts the model's complexity and reduces the risk of overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following points would Bayesians and frequentists disagree on?",
+      "options": {
+        "A": "The use of a non-Gaussian noise model in probabilistic regression.",
+        "B": "The use of probabilistic modelling for regression.",
+        "C": "The use of prior distributions on the parameters in a probabilistic model.",
+        "D": "The use of class priors in Gaussian Discriminant Analysis."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bayesians incorporate prior distributions to quantify their beliefs about parameters before observing data, while frequentists reject the use of priors, focusing solely on the data at hand to make inferences.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Neural networks:",
+      "options": {
+        "A": "Optimize a convex objective function",
+        "B": "Can only be trained with stochastic gradient descent",
+        "C": "Can use a mix of different activation functions",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Neural networks can incorporate a variety of activation functions, such as ReLU, sigmoid, and tanh, to optimize performance for different layers and tasks, allowing for greater flexibility and improved learning capabilities.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6865"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "If the training loss increases with the number of epochs, it may indicate that the step size is too large.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increasing training loss with the number of epochs suggests that the model is diverging rather than converging, which can happen if the learning rate (step size) is too large, causing the optimization process to overshoot the minimum of the loss function.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6900"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Stanford Sentiment Treebank contains movie reviews, which are used for sentiment analysis in natural language processing.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Stanford Sentiment Treebank is a dataset specifically designed for sentiment analysis that includes a collection of movie reviews annotated with sentiment labels, making the statement true.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6896"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Principal Component Analysis (PCA) is not a supervised learning technique; it is an unsupervised method used for dimensionality reduction.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Principal Component Analysis (PCA) is considered an unsupervised learning technique because it analyzes the structure of the data without utilizing labeled output, focusing solely on finding patterns and reducing dimensionality based on the input features.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Using strong classifiers in bagging effectively reduces the risk of overfitting during model training.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Using strong classifiers in bagging can actually increase the risk of overfitting because these classifiers may capture noise in the training data, reducing the overall generalization performance of the ensemble model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6894"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Linear hard-margin SVM can only be used when the training data is linearly separable.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Linear hard-margin SVM requires that the data can be perfectly separated by a hyperplane without any misclassifications, which is only possible when the training data is linearly separable.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def replace_max_specialchar(text,n): | return (re.sub(\"[ ,.]\", \":\", text, n))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly implements a function that utilizes regular expressions to substitute up to 'n' occurrences of spaces, commas, or dots in the input text with a colon, demonstrating an understanding of string manipulation and the use of the 're' library in Python.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_10_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to perform the exponentiation of the given two tuples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_exponentio(test_tup1, test_tup2): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines the creation of a function that takes two tuples as input and suggests returning a result, which implies performing exponentiation operations on corresponding elements of the tuples.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "197"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

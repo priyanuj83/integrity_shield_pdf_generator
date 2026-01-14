@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 6 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) IM - Trojans; B) Backdoor Trojans; C) SMS Trojan; D) Ransom Trojan
+\\ \textit{Note:} An SMS Trojan is a type of malicious software that exploits vulnerabilities in mobile devices to send unauthorized text messages, often leading to unexpected charges on the user's phone bill.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, it cannot be done; B) Yes, just plug the GGM PRF into the Luby-Rackoff theorem; C) It depends on the underlying PRG; D) Option text
+\\ \textit{Note:} The correct answer is justified because the Luby-Rackoff theorem demonstrates that a secure pseudorandom generator (PRG) can be used to construct a secure pseudorandom permutation (PRP) by employing the GGM pseudorandom function (PRF) as a building block in the construction.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Session IDs; B) Registry keys; C) Network communications; D) SQL queries based on user input
+\\ \textit{Note:} SQL queries based on user input are most vulnerable to injection attacks because attackers can manipulate unvalidated input to execute arbitrary SQL commands, potentially compromising the database's integrity and security.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) No string boundary checks in predefined functions; B) No storage check in the external memory; C) No processing power check; D) No database check
+\\ \textit{Note:} The correct answer is based on the fact that languages like C and C++ do not inherently perform automatic boundary checks on string operations, allowing developers to unintentionally write data beyond the allocated memory limit, leading to buffer-overflow vulnerabilities.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) ECB; B) CFB; C) CBF; D) CBC
+\\ \textit{Note:} CBF is not a recognized block cipher operating mode, as the standard modes include ECB, CBC, CFB, OFB, and CTR, while CBF does not correspond to any established mode in cryptographic literature.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer is indeed a sequential segment of memory specifically designed to temporarily hold data, which can include character strings or arrays of integers, making the statement true.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Blackbox fuzzers do not analyze source code; instead, they test the program's behavior through its inputs, which limits their ability to ensure complete coverage of every line of code.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer-overflow issues cannot be effectively mitigated solely through comprehensive memory checks because boundary checks are essential to ensure that data written to memory does not exceed allocated limits, preventing unauthorized access and corruption of adjacent memory.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is indeed a component of the Secure IP Protocol, specifically designed to provide confidentiality, integrity, and authenticity for data transmitted over IP networks, thus making the statement true.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Nmap identifies port states as open, closed, or filtered, rather than active, inactive, and standby, which are not standard terminologies used in network security assessments.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} In cybersecurity, the classic security properties are confidentiality, integrity, and availability, often referred to as the CIA triad. Confidentiality ensures that sensitive information is accessible only to authorized individuals, while integrity guarantees that data remains unaltered and trustworthy. Availability, however, is distinct from these properties as it emphasizes the accessibility of information and systems when needed, rather than the protection of data from unauthorized access or changes. This distinction arises because availability is often more related to system performance and reliability, which requires different strategies, such as redundancy and failover mechanisms, compared to the protective measures focused on confidentiality and integrity. Consequently, while all three properties are crucial for a robust security posture, availability's operational focus sets it apart within the cybersecurity framework.
+\\ \textit{Note:} correct because it accurately identifies the classic security properties of confidentiality, integrity, and availability, while also highlighting that availability is distinct as it focuses on the accessibility of information rather than its protection from unauthorized access or alteration.
+\item \textbf{Answer:} Authorization plays a critical role in cybersecurity by establishing permissions that govern user access to operations and data within an information system. By defining what specific actions a user can perform and which data they can access, authorization effectively restricts unauthorized interactions, thereby minimizing the risk of data breaches and ensuring that sensitive information is only handled by those with the appropriate clearance. This selective access is vital for maintaining the integrity, confidentiality, and availability of data, as it prevents malicious actors from exploiting vulnerabilities or misusing information. Ultimately, a robust authorization framework not only safeguards sensitive information but also enhances overall organizational trust and compliance with regulatory standards.
+\\ \textit{Note:} correct because it emphasizes that authorization establishes specific permissions for user access, which is crucial for preventing unauthorized interactions and protecting sensitive information within an information system.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

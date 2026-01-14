@@ -1,0 +1,289 @@
+{
+  "docid": "astronomy_graduate_doc_15",
+  "document_name": "Astronomy - Graduate Level Assessment 15",
+  "domain": "astronomy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "astronomy"
+  ],
+  "combination_used": [
+    "mmlu_astronomy_mcq",
+    "mmlu_astronomy_tf",
+    "astronomy_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\astronomy\\graduate\\latex_documents\\astronomy_graduate_doc_15.tex",
+    "pdf_file": "output\\astronomy\\graduate\\pdf_documents\\astronomy_graduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/astronomy_graduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/astronomy_graduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\astronomy\\graduate\\answer_keys\\latex\\astronomy_graduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\astronomy\\graduate\\answer_keys\\pdf\\astronomy_graduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "astronomy_graduate_doc_15_astronomy_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Suppose you live on the Moon. How long is a day (i.e. from sunrise to sunrise)?",
+      "options": {
+        "A": "about 18 years",
+        "B": "24 hours",
+        "C": "29 Earth days",
+        "D": "a year"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A day on the Moon lasts approximately 29 Earth days because it takes the Moon about 27.3 days to complete one rotation on its axis, which, due to its synchronous orbit with Earth, results in a cycle of lunar phases and a solar day that is about 29.5 Earth days.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "337"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "astronomy_graduate_doc_15_astronomy_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "20000 years from now ...",
+      "options": {
+        "A": "The Moon will be closer to the Earth and the Earth's day will be longer.",
+        "B": "The Moon will be closer to the Earth and the Earth's day will be shorter.",
+        "C": "The Moon will be further from the Earth and the Earth's day will be longer.",
+        "D": "The Moon will be further from the Earth and the Earth's day will be shorter."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the principle of tidal interactions, which cause the Moon to gradually move away from the Earth at an average rate of about 3.8 centimeters per year, while also leading to an increase in the length of Earth's day due to the transfer of angular momentum.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "339"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "astronomy_graduate_doc_15_astronomy_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Approximately how old is the surface of Venus?",
+      "options": {
+        "A": "750 million years.",
+        "B": "2 billion years.",
+        "C": "3 billion years.",
+        "D": "4.5 billion years."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The surface of Venus is approximately 750 million years old due to geological evidence indicating that it underwent a significant resurfacing event around this time, suggesting a relatively young geological age compared to other bodies in the solar system.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "375"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "astronomy_graduate_doc_15_astronomy_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is/are true?",
+      "options": {
+        "A": "Titan is the only outer solar system moon with a thick atmosphere",
+        "B": "Titan is the only outer solar system moon with evidence for recent geologic activity",
+        "C": "Titan's atmosphere is composed mostly of hydrocarbons",
+        "D": "A and D"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A is correct because it accurately reflects a fundamental principle in astronomy, while D is true due to its alignment with established astronomical theories or observations, demonstrating a comprehensive understanding of the subject.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "239"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "astronomy_graduate_doc_15_astronomy_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "You've made a scientific theory that there is an attractive force between all objects.\nWhen will your theory be proven to be correct?",
+      "options": {
+        "A": "The first time you drop a bowling ball and it falls to the ground proving your hypothesis.",
+        "B": "After you've repeated your experiment many times.",
+        "C": "You can never prove your theory to be correct only \"yet to be proven wrong\".",
+        "D": "When you and many others have tested the hypothesis."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer reflects the scientific principle that theories can only be supported by evidence and never definitively proven, as new evidence could always emerge that contradicts the theory, underscoring the provisional nature of scientific knowledge.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "238"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "astronomy_graduate_doc_15_astronomy_tf_1",
+      "question_type": "TF",
+      "stem_text": "Barnard's Star is the second closest star system to Earth after Proxima Centauri.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Barnard's Star is indeed the second closest star system to Earth, located about 5.96 light-years away, just after Proxima Centauri, which is approximately 4.24 light-years away.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "383"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "astronomy_graduate_doc_15_astronomy_tf_2",
+      "question_type": "TF",
+      "stem_text": "Water-ice is distributed evenly across Mercury's surface, not limited to the polar regions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Water-ice on Mercury is primarily found in permanently shadowed craters near the poles, as the planet's extreme temperatures and lack of atmosphere prevent the stable presence of ice across its surface.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "248"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "astronomy_graduate_doc_15_astronomy_tf_3",
+      "question_type": "TF",
+      "stem_text": "In order to observe a total solar eclipse, the Moon's umbra must intersect the location of the observer on Earth.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because a total solar eclipse occurs only when the Moon's umbra, or shadow, falls on the Earth's surface, allowing observers within that shadow to experience the complete obscuration of the Sun.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "306"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "astronomy_graduate_doc_15_astronomy_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Schwarzschild radius is primarily used to describe the characteristics of pulsars in astrophysics.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Schwarzschild radius is used to describe the characteristics of black holes, not pulsars, which are rapidly rotating neutron stars that emit beams of radiation.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "321"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "astronomy_graduate_doc_15_astronomy_tf_5",
+      "question_type": "TF",
+      "stem_text": "Pluto takes approximately 250 years to complete one orbit around the Sun.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Pluto's orbital period around the Sun is approximately 248 Earth years, making the statement true.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "371"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "astronomy_graduate_doc_15_astronomy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications for solar and lunar eclipses if the Moon's orbital plane aligned\nprecisely with the ecliptic plane, analyzing the effects on their frequency and\nvisibility.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "If the Moon's orbital plane were to align precisely with the ecliptic plane, the\nimplications for solar and lunar eclipses would be significant, particularly in terms of\ntheir frequency. Solar eclipses would occur much more frequently, as the conditions\nrequired for an eclipse-where the Moon passes directly between the Earth and the Sun-would\nbe met during each new moon phase. This alignment would also lead to an increase in the\nnumber of total solar eclipses, as the Moon's shadow would consistently fall along the\nEarth's surface. Conversely, while lunar eclipses would also become more frequent due to\nthe alignment, they would still occur during the full moon phase and would depend on the\nEarth's shadow covering the Moon. Overall, the precise alignment would create a more\npredictable and regular occurrence of eclipses, enhancing their visibility and\naccessibility to observers on Earth.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because a precise alignment of the Moon's orbital plane with the ecliptic plane would result in solar eclipses occurring at every new moon and an increase in total solar eclipses, thus significantly raising their frequency and visibility.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "307"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "astronomy_graduate_doc_15_astronomy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of temperature measurement in astronomy, specifically comparing\nthe Celsius and Kelvin scales, and calculate the equivalent of 25^\\circC in Kelvin.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Temperature measurement is crucial in astronomy as it allows astronomers to understand the\nthermal properties of celestial bodies and the universe's evolution. The Celsius scale,\nwhile commonly used on Earth, is less applicable in astrophysics because it has arbitrary\nzero points not aligned with absolute temperature. In contrast, the Kelvin scale begins at\nabsolute zero, making it more suitable for scientific calculations involving thermal\nphenomena. To convert 25^\\circC to Kelvin, one adds 273.15, resulting in an equivalent\ntemperature of approximately 298.15 K, often rounded to 300 K for simplicity in\nastronomical contexts. This conversion is significant as it facilitates a standardized\napproach to comparing temperatures across various astronomical observations and\ntheoretical models.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes the importance of temperature measurement in understanding celestial phenomena, highlights the superiority of the Kelvin scale for scientific purposes due to its absolute zero reference, and accurately provides the conversion from Celsius to Kelvin, demonstrating the practical application of these concepts in astronomy.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "259"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

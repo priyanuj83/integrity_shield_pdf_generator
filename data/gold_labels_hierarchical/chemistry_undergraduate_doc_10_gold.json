@@ -1,0 +1,125 @@
+{
+  "document_id": "chemistry_undergraduate_doc_10",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "answers": [
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Larmor frequency for a proton in a magnetic field is calculated using the formula f = \u03b3B, where \u03b3 (the gyromagnetic ratio for a proton) is approximately 42.58 MHz/T, thus yielding 42.58 MHz for a magnetic field strength of 1 T.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 915
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 2.9 T because it is derived from the relationship between the magnetic field strength and the polarization of the material, which can be calculated using the formula that relates magnetic susceptibility, temperature, and the applied magnetic field, confirming that this value aligns with the expected results for the given conditions.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 932
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In the balanced redox reaction, the stoichiometry shows that for every 6 moles of MnO4- reduced, 5 moles of I- are oxidized, resulting in a ratio of 6:5 between MnO4- and I-.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 899
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Hexane has a linear structure that allows for three distinct types of carbon environments, resulting in three unique chemical shifts in its 13C NMR spectrum.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 14140
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "MgO has the greatest lattice enthalpy due to the combination of its high charges (Mg\u00b2\u207a and O\u00b2\u207b) and the small ionic radii of both ions, which results in a stronger electrostatic attraction between the ions compared to other ionic substances.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 955
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because AlCl3 dissociates completely in solution into three chloride ions (Cl-) and one aluminum ion (Al3+), resulting in a total ionic strength that is higher than that of other solutions with lower dissociation into ions.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 942
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Halogenated hydrocarbons are often toxic to aquatic life due to their persistence in the environment and their ability to bioaccumulate, leading to harmful effects on ecosystems.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 969
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the polarization of a proton depends on the applied magnetic field strength (T), and the given values of polarization at specified magnetic fields and temperature are consistent with the expected behavior of protons in a magnetic field according to the principles of nuclear magnetic resonance.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 14143
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the 55 Mn nuclide actually has more than five allowed energy levels for its nuclear states due to the complex interactions and configurations of its nucleons.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 968
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because argon, being a larger noble gas than neon, has weaker London dispersion forces due to its lower polarizability, resulting in a higher boiling point than neon.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 984
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_long_1",
+      "type": "long",
+      "correct_answer": "In chemistry, minimizing the influence of random errors on measured results is crucial for\nobtaining reliable data. Two effective procedures include signal averaging and averaging\nresults from multiple samples. Signal averaging involves taking repeated measurements of\nthe same signal and calculating the mean, which helps to smooth out fluctuations caused by\nrandom noise. Additionally, averaging results from multiple samples provides a more\nrepresentative value by reducing the impact of anomalies in individual measurements. Both\nstrategies enhance the precision of the data and ensure that random errors are minimized,\nleading to more accurate experimental outcomes.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how both signal averaging and averaging results from multiple samples effectively reduce random errors in measurements by smoothing out noise and providing a more representative value, respectively.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 980
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_10_chemistry_long_2",
+      "type": "long",
+      "correct_answer": "The EPR spectrum of a rigid nitronyl nitroxide diradical with a coupling constant J\nsignificantly smaller than the hyperfine interaction constant a (J << a) exhibits nine\ndistinct lines. This pattern arises from the combination of the spin states of the two\nunpaired electrons, which can be described by the interactions between the electron spins\nand the nearby nuclei. The nine lines result from the allowed transitions of the two\nelectron spins, which can each have three orientations in a magnetic field, leading to a\ntotal of three possible transitions for each of the two spins, thus producing a triplet\nfor each configuration. This indicates that the system has a significant degree of spin\ncoupling while still maintaining a notable hyperfine interaction, reflecting a well-\ndefined electronic structure and the presence of unpaired electron spins in the molecular\nframework.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the combination of the spin states of the two unpaired electrons in the diradical, influenced by the hyperfine interaction and the small coupling constant J, leads to the appearance of nine distinct EPR lines, indicating the presence of three spin orientations for each electron.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 901
+    }
+  ]
+}

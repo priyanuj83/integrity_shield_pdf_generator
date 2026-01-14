@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_undergraduate_doc_19",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression !(max != a[i]) is logically equivalent to a[i] == max, making the entire expression redundant and thus simplifying to just a[i] == max.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 6 because the lambda function r takes an input q and returns its value multiplied by 2, so r(3) computes as 3 * 2, resulting in 6.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14389
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In Python 3, the operator \"//\" is specifically designated for floor division, which divides two numbers and rounds down to the nearest integer.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Busy-waiting on an asynchronous event is inefficient on a time-sharing system because it consumes CPU resources that could be better allocated to other processes, leading to decreased overall system performance.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1012
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The condition a < c is sufficient to guarantee that the expression evaluates to true because if a is less than c, the entire expression a < c || (a < b && !(a == c)) will be true regardless of the values of b and c.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3269
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Python treats variable names as case-sensitive, meaning 'Variable' and 'variable' are considered distinct and separate identifiers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A function that counts values can identify discrepancies in quantity but may not detect specific data entry errors such as incorrect values or formatting issues, making it insufficient on its own for comprehensive error detection.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3221
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the first regular expression allows for strings that consist solely of 'a's followed by any combination of 'c's and 'd's or strings that begin with 'b', while the second expression allows for any combination of 'a's or 'b's followed by at least one 'c' or 'd', thereby generating different sets of strings.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 15608
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, using a negative index like 'abc'[-1] correctly accesses the last character of the string, which is 'c', rather than resulting in an error.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3247
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the built-in function `sum()` computes the total of all elements in the list l = [1, 2, 3, 4], which equals 1 + 2 + 3 + 4 = 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def remove_tuple(test_tup): | return (res)",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to define a function that processes a tuple to eliminate duplicate elements, although it lacks the implementation details required to achieve this.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 193
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_19_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def left_rotate(s,d): | return tmp",
+      "marks": 10,
+      "explanation": "correct because it outlines a function definition in Python that is intended to perform a left rotation of a string by a specified number of positions, although it lacks the complete implementation details necessary for the function to work as intended.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 973
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_19",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Convolutional networks are specifically designed to process and classify image data by leveraging spatial hierarchies and local patterns, making them particularly effective for high-resolution image classification tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6839
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) can produce estimates with high variance, particularly in small sample sizes or complex models, leading to instability and sensitivity to fluctuations in the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "K-fold cross-validation is linear in K because the model is trained and validated K times, leading to a computational complexity that scales directly with the number of folds.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6906
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The main reason for pruning a Decision Tree is to avoid overfitting the training set, as pruning reduces the model's complexity by removing branches that capture noise rather than the underlying data distribution, leading to better generalization on unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction, as it does not rely on labeled output data to learn patterns, unlike supervised learning methods.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A smaller error rate indicates that the model's performance is closer to optimal, which requires a larger sample size to confidently detect statistically significant differences from chance due to the increased variability in the results.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14785
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Transforming the data to have a zero median does not account for the variance in the data, which is essential for obtaining the correct principal components in PCA, as PCA relies on the covariance structure of the data rather than just its central tendency.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "ImageNet's extensive collection of images includes a wide range of resolutions, which enhances the diversity of the dataset and allows deep learning models to generalize better across different visual inputs.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The null space of the matrix A, which consists of linear combinations of its rows that yield the zero vector, has a dimension of 2 because the rank of A is 1 (it has only one linearly independent row), and thus the nullity, calculated as the number of columns minus the rank, is 3 - 1 = 2.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Bayesians advocate for the use of prior distributions in probabilistic regression models to incorporate prior knowledge, while frequentists typically reject the notion of prior distributions, relying instead on the data alone to make inferences.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def nth_items(list,n): | return list[::n]",
+      "marks": 10,
+      "explanation": "The provided function correctly utilizes Python's slicing feature to return every nth item from the list by specifying a step value of n in the slice notation, effectively achieving the desired selection of items.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 536
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def divisible_by_digits(startnum, endnum): | return [n for n in range(startnum, endnum+1) \\",
+      "marks": 10,
+      "explanation": "The answer correctly utilizes a list comprehension to iterate through the specified range, checking each number for divisibility by all of its digits, thereby effectively identifying numbers that meet the given criteria.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 745
+    }
+  ]
+}

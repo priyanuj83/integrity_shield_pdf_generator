@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_23",
+  "document_name": "Cybersecurity - Graduate Level Assessment 23",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_23.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_23.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_23_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_23_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_23_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_23_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What are the types of scanning?",
+      "options": {
+        "A": "Port, network, and services",
+        "B": "Network, vulnerability, and port",
+        "C": "Passive, active, and interactive",
+        "D": "Server, client, and network"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer identifies the three primary types of scanning in cybersecurity\u2014network scanning for identifying active devices, vulnerability scanning for detecting security weaknesses, and port scanning for mapping the open ports on a system\u2014each essential for assessing and enhancing network security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "How is IP address spoofing detected?",
+      "options": {
+        "A": "Installing and configuring a IDS that can read the IP header",
+        "B": "Comparing the TTL values of the actual and spoofed addresses",
+        "C": "Implementing a firewall to the network",
+        "D": "Identify all TCP sessions that are initiated but does not complete successfully"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Comparing the Time to Live (TTL) values of the actual and spoofed addresses helps detect IP address spoofing, as legitimate packets typically have a TTL that reflects their origin, whereas spoofed packets may exhibit anomalous TTL values inconsistent with their purported source.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "___________ is a process of wireless traffic analysis that may be helpful for forensic\ninvestigations or during troubleshooting any wireless issue.",
+      "options": {
+        "A": "Wireless Traffic Sniffing",
+        "B": "WiFi Traffic Sniffing",
+        "C": "Wireless Traffic Checking",
+        "D": "Wireless Transmission Sniffing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over a wireless network, making it a crucial technique for forensic investigations and troubleshooting wireless issues by allowing investigators to identify security breaches or network malfunctions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The ____________ is anything which your search engine cannot search.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Surface web",
+        "D": "Deep Web"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible to standard search queries, which is why it is the correct answer to the question.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "____________________ is the anticipation of unauthorized access or break to computers or\ndata by means of wireless networks.",
+      "options": {
+        "A": "Wireless access",
+        "B": "Wireless security",
+        "C": "Wired Security",
+        "D": "Wired device apps"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless security refers to the measures and protocols implemented to protect wireless networks from unauthorized access or breaches, making it the appropriate term for the anticipation of such threats to computers and data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "DaCryptic is widely recognized as a remote Trojan, primarily targeting financial institutions for data theft.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DaCryptic is not widely recognized as a remote Trojan targeting financial institutions; rather, it is primarily known as a type of ransomware that encrypts files and demands payment for decryption, thus focusing on extortion rather than data theft.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Message confidentiality guarantees the integrity of the data being transmitted between the sender and receiver.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message confidentiality ensures that the data is kept secret from unauthorized parties but does not provide any assurance that the data has not been altered during transmission, which is the role of data integrity mechanisms.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1511"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "BurpSuite is primarily designed for monitoring and analyzing wireless traffic in cybersecurity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "BurpSuite is primarily designed for web application security testing, specifically for identifying vulnerabilities in web applications, rather than for monitoring and analyzing wireless traffic.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Windows 7 is recognized for having fewer buffer-overflow vulnerabilities compared to older operating systems like UNIX.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Windows 7 is considered to have a higher number of buffer-overflow vulnerabilities compared to older operating systems like UNIX due to its widespread use and the nature of its architecture, which has historically been more susceptible to such exploits.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Applications developed in C and C++ are prone to buffer overflows due to the lack of string boundary checks in predefined functions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because C and C++ do not automatically enforce boundary checks on arrays and strings, allowing programmers to inadvertently write beyond allocated memory, leading to buffer overflow vulnerabilities.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1479"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to access the initial and last data of the given tuple record.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def front_and_rear(test_tup): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function that, when properly implemented, will return the first and last elements of a tuple, which is essential for data access in cybersecurity applications where tuple records may represent structured information.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "710"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_23_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to multiply all the numbers in a list and divide with the length of the\nlist.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def multiply_num(numbers): | return total/len(numbers)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it demonstrates the essential computational logic of multiplying all the numbers in a list to obtain a total and then dividing that total by the length of the list to compute the average, which is a fundamental operation in data analysis within the cybersecurity domain.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "98"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_10",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 9 because solving the equation 14 = w + 23 involves isolating w by subtracting 23 from both sides, resulting in w = 14 - 23, which simplifies to w = -9.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7719
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression $-2x^2 - 20x - 53$ can be rewritten in vertex form as $-2(x + 5)^2 - 3$, where $a = -2$, $d = 5$, and $e = -3$, leading to the sum $a + d + e = -2 + 5 - 3 = 0$.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8183
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 8 because dividing both sides of the equation 8y = 56 by 8 yields y = 56/8, which simplifies to y = 7.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8701
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expected value of the sum of two random variables is the sum of their expected values (E(X + Y) = E(X) + E(Y)), and the variance of the sum of independent random variables is the sum of their variances (var(X + Y) = var(X) + var(Y)), leading to E(X + Y) = 312 + 307 = 619 and var(X + Y) = 6 + 8 = 14, which indicates the need to carefully check the provided values and assumptions in the question.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7914
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Since the days of the week cycle every 7 days, calculating \\(10^{10^{10}} \\mod 7\\) yields a remainder of 0, indicating that 10^(10^(10)) days from Wednesday is 0 days forward in the weekly cycle, landing on Sunday.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8041
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because an integral domain can have prime characteristic and still be finite, as exemplified by finite fields which are integral domains with a prime characteristic.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7789
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The determinant of the matrix A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] is 0, not 6, because the rows of the matrix are linearly dependent, which leads to a zero determinant.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8757
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the critical value of 16.30 for the F-distribution with 8 and 4 degrees of freedom corresponds to the 99th percentile, which indicates the threshold for the upper 1% of the distribution.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7781
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the sum of all possible values of x that satisfy the equation can vary depending on the specific equation and does not necessarily equal 3.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8276
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the problem can be solved using the \"stars and bars\" combinatorial method, where we first place one ball in each box to ensure none are empty (using 4 balls), leaving us with 9 balls to distribute freely among the 4 boxes, calculated as C(9+4-1, 4-1) = C(12, 3) = 220.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8408
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To analyze the initial value problem \\( 2 y^{\\prime \\prime} + 3 y^{\\prime} - 2 y = 0 \\)\nwith conditions \\( y(0) = 1 \\) and \\( y^{\\prime}(0) = -\\beta \\) where \\( \\beta > 0 \\), we\nstart by determining the characteristic equation associated with the differential\nequation, which is \\( 2 r^2 + 3 r - 2 = 0 \\). Solving this yields the roots \\( r =\n\\frac{1}{2} \\) and \\( r = -2 \\), leading to the general solution \\( y(t) = C_1\ne^{\\frac{1}{2}t} + C_2 e^{-2 t} \\). Applying the initial conditions, we find \\( C_1 + C_2\n= 1 \\) and \\( \\frac{1}{2}C_1 - 2 C_2 = -\\beta \\). To ensure the solution lacks a minimum\npoint, we analyze the critical points by setting \\( y' = 0 \\). This leads to a condition\non \\( \\beta \\); specifically, the smallest value of \\( \\beta \\) that prevents any critical\npoints occurs when \\( \\beta = 2 \\), as this corresponds to a scenario where the derivative\ndoes not change sign, confirming the absence of a minimum point. Thus, the smallest value\nof \\( \\beta \\) such that the solution lacks a minimum point is \\( \\beta = 2 \\).",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the method of solving linear differential equations with constant coefficients, determines the general solution, and utilizes the initial conditions to express the constants, ultimately leading to an analysis of the conditions under which the solution lacks a minimum point based on the behavior of the roots and the initial derivative condition.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8957
+    },
+    {
+      "question_id": "mathematics_graduate_doc_10_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "In analyzing the placement of a circle with a diameter of \\(\\frac{\\sqrt{2}}{3}\\) within a\nunit square containing 19 arbitrarily placed points, we apply the pigeonhole principle.\nThe area of the circle is given by \\(\\frac{\\pi}{4} \\left(\\frac{\\sqrt{2}}{3}\\right)^2 =\n\\frac{\\pi}{4} \\cdot \\frac{2}{9} = \\frac{\\pi}{18}\\). The area of the unit square is 1, so\nthe ratio of the area of the circle to the area of the square is \\(\\frac{\\pi}{18}\\). To\nensure coverage, we can divide the unit square into smaller regions. Since the maximum\nnumber of points that can fit into the area of the circle is determined by how many such\ncircles can be placed in the square, we find that at least 3 points must be covered by the\ncircle. Thus, regardless of the arrangement, we can guarantee that at least 3 of the 19\npoints will fall within the circle's area.",
+      "marks": 10,
+      "explanation": "correct because it utilizes the pigeonhole principle to demonstrate that the ratio of the circle's area to the square's area indicates that at least one of the sections created by dividing the square must contain multiple points, ensuring a minimum number of points covered by the circle.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8060
+    }
+  ]
+}

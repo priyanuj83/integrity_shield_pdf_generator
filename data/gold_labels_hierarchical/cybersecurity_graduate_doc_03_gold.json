@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_03",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as its encryption method to enhance the security of wireless networks by dynamically generating a new key for each data packet, addressing vulnerabilities present in the earlier WEP (Wired Equivalent Privacy) protocol.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Escaping queries is essential in preventing SQL injection because it ensures that user inputs are treated as data rather than executable code, thereby thwarting potential malicious SQL commands from being executed in the database.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1489
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A backdoor is a method that allows unauthorized access to a computer system by circumventing security measures, often remaining untraceable to the system's legitimate users.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1517
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A backdoor is a method of bypassing normal authentication or security measures in a computer system, allowing unauthorized access to the system while often remaining unnoticed, which aligns with the description of being a hidden or disguised part of a program.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1562
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Authentication aims to determine who the user is by verifying their identity through various methods, ensuring that access to systems and data is granted only to legitimate users.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14206
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because common types of scanning in cybersecurity are typically categorized into vulnerability scanning, port scanning, and network mapping, rather than specifically distinguishing between server scanning, client scanning, and network scanning.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "MD5 generates a message digest that is 128 bits long, not 160 bits.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1487
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A buffer overflow on the stack typically allows for the modification of local variables or return addresses but does not inherently enable direct modification of the instruction pointer register to execute arbitrary code without additional vulnerabilities or conditions being exploited.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1531
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The IP Network Browser is indeed a tool used in network security assessments for performing SNMP enumeration, as it allows security professionals to discover devices and gather information about their configurations and services through the Simple Network Management Protocol (SNMP).",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1501
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in a one-time pad encryption scheme, the key k can be derived from the original message m and the ciphertext c through the operation k = m xor c, which allows for the retrieval of the key used in the encryption process.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1540
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def longest_common_subsequence(X, Y, m, n): | return 0 | return 1 + longest_common_subsequence(X, Y, m-1, n-1) | return max(longest_common_subsequence(X, Y, m, n-1), longest_common_subsequence(X, Y, m-1, n))",
+      "marks": 10,
+      "explanation": "The provided function correctly implements a recursive approach to find the longest common subsequence by considering three cases: when the last characters of both sequences match, when the last character of the first sequence does not match, and when the last character of the second sequence does not match, ensuring all possible subsequences are evaluated.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 187
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def count_unset_bits(n): | return count",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that will iterate through the binary representation of the number 'n' to count and return the total number of unset (zero) bits, which is a fundamental operation in binary manipulation relevant to cybersecurity.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 331
+    }
+  ]
+}

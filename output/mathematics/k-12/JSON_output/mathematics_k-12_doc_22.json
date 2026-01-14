@@ -1,0 +1,289 @@
+{
+  "docid": "mathematics_k-12_doc_22",
+  "document_name": "Mathematics - K-12 Level Assessment 22",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_22.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_22_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_22_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the most reasonable estimate of the length of a city's swimming pool?",
+      "options": {
+        "A": "1 meter",
+        "B": "25 meters",
+        "C": "1 kilometer",
+        "D": "25 kilometers"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The most reasonable estimate of the length of a city's swimming pool is 25 meters because standard competitive swimming pools are typically 25 meters in length, making this a common size for municipal facilities.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_22_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The hypotenuse of a right triangle measures 10 inches and one angle is $45^{\\circ}$. What\nis the number of square inches in the area of the triangle?",
+      "options": {
+        "A": "10",
+        "B": "45",
+        "C": "125",
+        "D": "25"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The area of a right triangle can be calculated using the formula \\( \\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} \\), and since the triangle is isosceles with a 45-degree angle, the base and height both equal \\( 5 \\) inches (half of the hypotenuse), resulting in an area of \\( \\frac{1}{2} \\times 5 \\times 5 = 25 \\) square inches.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4331"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_22_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For the equation: 3 x - 4(x - 2) + 6 x - 8 = 0, find the value of x.",
+      "options": {
+        "A": "-4",
+        "B": "0",
+        "C": "2",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0 because, when simplified, the equation 3x - 4(x - 2) + 6x - 8 = 0 reduces to 0 = 0, which indicates that x must equal 0 for the equation to hold true.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4392"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_22_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In how many ways can 5 students be selected from a group of 6 students?",
+      "options": {
+        "A": "12",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 6 because selecting 5 students from a group of 6 is equivalent to choosing 1 student to leave out, which can be done in 6 different ways.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4442"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_22_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the domain of the function $f(x)=\\frac{x+6}{\\sqrt{x^2-3 x-4}}$?",
+      "options": {
+        "A": "(-4,4)",
+        "B": "[0,4]",
+        "C": "(-inf, -1) U (4, inf)",
+        "D": "(-inf, -1) U (-1, 4) U (4, inf)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The domain of the function \\( f(x) = \\frac{x+6}{\\sqrt{x^2-3x-4}} \\) is restricted to values of \\( x \\) that make the denominator positive, which occurs for \\( x < -1 \\) and \\( x > 4 \\), thus the domain is \\( (-\\infty, -1) \\cup (4, \\infty) \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4256"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_22_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The greatest common factor of 42 and 84 is 21.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The greatest common factor of 42 and 84 is 42, as it is the largest number that divides both evenly.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2159"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_22_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The smallest positive integer n such that 1/n is a terminating decimal and contains the digit 9 is 256.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the smallest positive integer n such that 1/n is a terminating decimal and contains the digit 9 is actually 90, not 256.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4456"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_22_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The value of y that satisfies the equation y + 2.9 = 11 is 9.1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of y that satisfies the equation y + 2.9 = 11 is actually 8.1, not 9.1, because when you subtract 2.9 from 11, you get 8.1.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2151"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_22_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The value of N that satisfies the equation is 36.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of N is 36 because it is the solution to the equation when all terms are correctly evaluated and balanced.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4326"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_22_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "There are 4 times as many days in February as there are in one week.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "There are 28 days in February (in a common year), and since there are 7 days in a week, 28 divided by 7 equals 4, making the statement true.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "14285"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_22_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Find the ordered pair $(a,b)$ of real numbers for which \\[(ax + b)(x^5 + 1) - (5 x +\n1)\\]is divisible by $x^2 + 1.$",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Jimmy and Kima are planning a three-day road trip with specific mileages of 200 miles, 450\nmiles, and 200 miles for each day. To estimate the total distance they will travel, we can\nsimply add these mileages together: 200 + 450 + 200. This calculation gives us a total\ndistance of 850 miles. This estimation method is straightforward because it involves basic\naddition, which is a fundamental skill in mathematics, allowing us to easily determine the\noverall distance for the trip.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately sums the daily mileages of 200, 450, and 200 miles using basic addition, resulting in a total distance of 850 miles for the three-day road trip.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2075"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_22_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Jimmy and Kima are planning a three-day road trip with specific mileages for each day.\nEstimate the total distance they will travel and explain your reasoning for your chosen\nestimation method.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Jimmy and Kima are planning a three-day road trip with specific mileages of 200 miles, 450\nmiles, and 200 miles for each day. To estimate the total distance they will travel, we can\nsimply add these mileages together: 200 + 450 + 200. This calculation gives us a total\ndistance of 850 miles. This estimation method is straightforward because it involves basic\naddition, which is a fundamental skill in mathematics, allowing us to easily determine the\noverall distance for the trip.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately sums the daily mileages of 200, 450, and 200 miles using basic addition, resulting in a total distance of 850 miles for the three-day road trip.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2075"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

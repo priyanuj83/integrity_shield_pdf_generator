@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 160; B) 128; C) 64; D) 54
+\\ \textit{Note:} The correct answer is 128 because MD 5 (Message-Digest Algorithm 5) produces a fixed-length output of 128 bits, which corresponds to 32 hexadecimal characters.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Authentication; B) Integrity; C) Privacy; D) All of the above
+\\ \textit{Note:} Encryption and decryption primarily focus on transforming data to prevent unauthorized access, thereby ensuring confidentiality, but they do not inherently verify whether the data has been altered, which is the essence of integrity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) To identify live systems; B) To locate live systems; C) To identify open ports; D) To locate firewalls
+\\ \textit{Note:} A ping sweep is used to identify live systems by sending ICMP echo requests to multiple IP addresses to determine which ones respond, indicating that they are active and reachable on the network.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) John the Ripper; B) L$_{0}$ phtCrack; C) Snort; D) Nessus
+\\ \textit{Note:} Snort is an open-source network intrusion detection and prevention system specifically designed for real-time traffic analysis and packet logging, making it the correct choice for the question.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Installing and configuring a IDS that can read the IP header; B) Comparing the TTL values of the actual and spoofed addresses; C) Implementing a firewall to the network; D) Identify all TCP sessions that are initiated but does not complete successfully
+\\ \textit{Note:} Comparing the TTL (Time to Live) values of the actual and spoofed IP addresses can help detect spoofing because legitimate packets typically have a consistent TTL value that decreases with each hop, while spoofed packets may have unusual or inconsistent TTL values indicating they did not originate from the expected source.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because effective forms of authentication also include passwords, two-factor authentication, and security tokens, in addition to biometric methods.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WEP is considered the least secure encryption standard among wireless security protocols because it employs weak encryption algorithms and has significant vulnerabilities that can be easily exploited, making it susceptible to unauthorized access.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} SHA-1 generates a message digest that is 160 bits long, not 512 bits.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A crypter is primarily used to obfuscate or encrypt malware to evade detection by security software, but it is not exclusively for creating malicious software itself.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because ECB (Electronic Codebook) and CBC (Cipher Block Chaining) are valid block cipher modes, while CFB (Cipher Feedback) is not categorized as a block cipher mode but rather as a stream cipher mode.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_rotation\_count(A): | return left | return mid | return -1
+\\ \textit{Note:} The answer correctly outlines the essential steps for implementing a function to find the number of rotations in a circularly sorted array by indicating the use of binary search principles to efficiently locate the pivot point where the rotation occurs.
+\item \textbf{Answer:} def nCr\_mod\_p(n, r, p): | return C[r]
+\\ \textit{Note:} correct because it efficiently computes the binomial coefficient nCr under modulo p using precomputed factorial values and modular inverses, which is essential in cybersecurity applications for algorithms that require combinatorial calculations.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

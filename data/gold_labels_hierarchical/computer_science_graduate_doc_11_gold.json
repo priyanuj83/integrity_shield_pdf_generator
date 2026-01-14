@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_11",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The round-robin scheduling policy is starvation-free because it allocates a fixed time slice to each job in a cyclic order, ensuring that every job gets regular access to the CPU without allowing any job to wait indefinitely.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1079
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The decimal number 0.5 has an exact representation in binary notation as it can be expressed as 1/2, which is equivalent to 0.1 in binary format.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1042
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is that all line segments can be displayed as straight because bitmap graphics are composed of pixels, which can only approximate curves and diagonal lines, leading to a blocky representation rather than smooth straight lines.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1025
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A heap area is typically managed separately from the stack where activation records are stored, as it is used for dynamic memory allocation rather than for tracking function call information.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1030
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "SQL queries based on user input are most vulnerable to injection attacks because they can be manipulated by attackers to execute arbitrary SQL code, compromising the security of the database.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1514
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Mutation-based fuzzing primarily involves generating test cases by altering existing inputs rather than making mutations to the target program itself.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1525
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The AH Protocol (Authentication Header) is designed to provide authentication and integrity for the data packets being transmitted, but it does not encrypt the data, thus failing to ensure privacy.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1484
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message integrity is achieved through various techniques, such as checksums and hash functions, which verify that the data has not been altered during transmission, thus ensuring that it arrives at the receiver exactly as it was sent.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1542
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "When the STP solver times out on a constraint query, it defaults to concluding that the constraints cannot be satisfied, leading EXE to terminate the execution path based on this assumption.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1497
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Busy-waiting consumes CPU cycles while waiting for an event to occur, which is inefficient in a time-sharing system where CPU resources should be allocated to active processes to maximize overall system responsiveness and utilization.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1012
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def slope(x1,y1,x2,y2): | return (float)(y2-y1)/(x2-x1)",
+      "marks": 10,
+      "explanation": "The provided function correctly calculates the slope of a line using the formula (y2 - y1) / (x2 - x1), ensuring that the division is performed as a floating-point operation to handle cases where the result is not an integer.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 835
+    },
+    {
+      "question_id": "computer_science_graduate_doc_11_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def snake_to_camel(word): | return ''.join(x.capitalize() or '_' for x in word.split('_'))",
+      "marks": 10,
+      "explanation": "The provided function correctly converts a snake case string to camel case by splitting the input string at underscores, capitalizing the first letter of each resulting segment, and then joining them back together while ignoring empty segments.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 102
+    }
+  ]
+}

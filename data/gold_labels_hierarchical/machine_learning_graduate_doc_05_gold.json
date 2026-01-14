@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_05",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Improving the optimization algorithm primarily affects convergence speed and efficiency rather than addressing the model's complexity or regularization, which are central to reducing overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer highlights that Grid search evaluates every combination of hyperparameters exhaustively, which can lead to significant computational time and inefficiency, particularly in the context of multiple linear regression where the parameter space can be large.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6868
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement that regression discovers causal relationships is false because regression analysis identifies correlations between variables rather than establishing direct causation, as correlation does not imply causation.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As of 2020, various advanced models achieved over 98% accuracy on the CIFAR-10 dataset, while the original ResNet architecture was primarily trained using stochastic gradient descent (SGD) rather than the Adam optimizer, validating both statements as true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6854
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The use of weak classifiers in bagging helps prevent overfitting by averaging the predictions of multiple models, which reduces variance and enhances generalization to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Pruning a Decision Tree primarily aims to reduce overfitting and improve generalization to unseen data by simplifying the model, rather than increasing its complexity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The convergence of a neural network is influenced by the choice of learning rate because a learning rate that is too high can cause the model to overshoot the optimal solution, while a learning rate that is too low can result in slow convergence or getting stuck in local minima.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a Bayesian network requires independent parameters for each conditional probability distribution, and in the given structure, the dependencies among the variables necessitate more than four parameters to fully specify the network.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Frequentists do not use prior distributions on parameters, as they rely on the long-run frequency properties of estimators rather than incorporating prior beliefs, which is a fundamental aspect of Bayesian analysis.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Naive Bayes assumes that the attributes are conditionally independent of one another given the class value, which simplifies the computation of the joint probability of the attributes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14780
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def __init__(self, data): | def max_height(node): | return 0 ; | return left_height+1 | return right_height+1",
+      "marks": 10,
+      "explanation": "The answer correctly outlines the initialization of a binary tree node and the recursive function to compute the height by returning the maximum height between the left and right subtrees, plus one for the current node.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 927
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_05_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def count_elim(num): | return count_elim",
+      "marks": 10,
+      "explanation": "The function correctly identifies the requirement to count elements in a list, but it fails to implement the logic for counting and stopping at a tuple, indicating an incomplete understanding of the task rather than a correct solution.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 941
+    }
+  ]
+}

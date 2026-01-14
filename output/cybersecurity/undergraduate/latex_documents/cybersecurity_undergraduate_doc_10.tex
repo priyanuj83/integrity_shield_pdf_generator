@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Cybersecurity - Undergraduate Level Assessment 10 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item How does a buffer overflow on the stack facilitate running attacker-injected code?
+\begin{enumerate}[label=(\alph*)]
+    \item By overwriting the return address to point to the location of that code
+    \item By writing directly to the instruction pointer register the address of the code
+    \item By writing directly to \%eax the address of the code
+    \item By changing the name of the running executable, stored on the stack
+\end{enumerate}
+\item Which of the following is true of mutation-based fuzzing?
+\begin{enumerate}[label=(\alph*)]
+    \item It generates each different input by modifying a prior input
+    \item It works by making small mutations to the target program to induce faults
+    \item Each input is mutation that follows a given grammar
+    \item It only makes sense for file-based fuzzing, not network-based fuzzing
+\end{enumerate}
+\item Can we build a secure PRP from a secure PRG?
+\begin{enumerate}[label=(\alph*)]
+    \item No, it cannot be done
+    \item Yes, just plug the GGM PRF into the Luby-Rackoff theorem
+    \item It depends on the underlying PRG
+    \item Option text
+\end{enumerate}
+\item A special tool is necessary for entering the network which is \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ that helps the anonymous internet users to access into the Tor's network and use various Tor services.
+\begin{enumerate}[label=(\alph*)]
+    \item Opera browser
+    \item Firefox
+    \item Chrome
+    \item Tor browser
+\end{enumerate}
+\item Can a stream cipher have perfect secrecy?
+\begin{enumerate}[label=(\alph*)]
+    \item Yes, if the PRG is really "secure"
+    \item No, there are no ciphers with perfect secrecy
+    \item Yes, every cipher has perfect secrecy
+    \item No, since the key is shorter than the message
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Weak or non-existent authentication mechanisms are not considered presentation layer issues in cybersecurity.
+\item True or False: Backdoor Trojans primarily focus on stealing personal data without incurring any financial costs.
+\item True or False: EXE restarts the STP solver and retries the constraint query indefinitely until it finds a satisfiable result.
+\item True or False: In message confidentiality, the transmitted message must be clear to both the sender and the translator.
+\item True or False: The one-time pad key can be computed by using the formula k = m xor m.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to find the demlo number for the given number.
+\item Write a function to find all adverbs and their positions in a given sentence.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

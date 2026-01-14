@@ -1,0 +1,123 @@
+{
+  "document_id": "mathematics_graduate_doc_16",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because, by the inverse function theorem, the derivative of the inverse function g at a point is the reciprocal of the derivative of the original function f at the corresponding point, and since f'(x) = 1 - sin(x), at the point where f(x) = 1, we find that f'(0) = 1, thus g'(1) = 1/f'(0) = 1.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8842
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The degree of the field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q is 3 because the minimal polynomial of sqrt(2) over Q has degree 2, introducing a quadratic extension, and the minimal polynomial of sqrt(3) over Q(sqrt(2)) also has degree 2, but since sqrt(3) is not expressible in terms of Q(sqrt(2)), we have a total extension of degree 2 * 1.5, yielding an overall degree of 3 when considering the linearity of sqrt(18).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8653
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The mean will remain the same because increasing only the largest score does not change the total number of scores or the sum of the other scores, thus maintaining the overall average when recalculated.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8121
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The second number in the row of Pascal's triangle that has 43 numbers corresponds to the binomial coefficient C(42, 1), which equals 42, as each row in Pascal's triangle represents the coefficients of the expanded form of (a + b)^n, where n is the row number starting from 0.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8164
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Lagrange error for the Taylor polynomial approximation is given by the formula \\( E(x) = \\frac{f^{(n+1)}(c)}{(n+1)!} (x - a)^{n+1} \\) for some \\( c \\) in the interval between \\( a \\) and \\( x \\), and since the fifth derivative of \\( f(x) = \\sin(x) \\) is bounded by 1, the error when approximating \\( \\sin(1) \\) using the fifth-degree polynomial is calculated to be approximately 0.000198.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8427
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Rob uses approximately 6 boxes of cat food in a month because there are about 30 days in a month, and if he consumes 1 box every 5 days, he would consume 6 boxes in 30 days (30 days \u00f7 5 days per box = 6 boxes).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8457
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the number of valid paths from (0,0) to (10,10) that do not cross the diagonal line y = x is given by the Catalan number C_10, which equals 1,000,000, not 25,000.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7768
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because 640 divided by 4 equals 160 with a remainder of 0, indicating that the division is exact and should be classified as true.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8910
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The determinant of matrix A is calculated using the formula for 3x3 matrices, which yields a value of -30, not 30, making the statement false.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8193
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The expressions 4n + 2o and 8no are equivalent because for any positive values of n and o, the expression 4n + 2o can be factored and rewritten as 2(2n + o), which can equal 8no when n and o are chosen appropriately, thus demonstrating equivalence through specific variable relationships.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8906
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Rounding in mathematical contexts can significantly alter data interpretation,\nparticularly in cases where precision is crucial, such as in performance metrics for\nrunners. A value that rounds to 400 could range from 395 to 404, meaning that actual\nperformances could vary widely while still being reported as 400. For instance, a runner\nwith a time of 411 would not be rounded to 400, but rather to 410, indicating that\nrounding can obscure the nuances of actual performance. This highlights the importance of\nunderstanding the underlying data and the potential for misrepresentation when relying\nsolely on rounded figures. Consequently, while rounding simplifies data presentation, it\ncan lead to misinterpretations that affect analyses in competitive or statistical\ncontexts.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that rounding can mask significant variations in actual values, as multiple performance outcomes can be reported as the same rounded figure, thereby affecting the precision and interpretation of data in mathematical contexts.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8454
+    },
+    {
+      "question_id": "mathematics_graduate_doc_16_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The symmetric group S_5, which consists of all permutations of five elements, has a rich\nstructure that reflects the various ways to arrange these elements. The largest order of\nan element in S_5 can be found by examining the cycle structure of its permutations. The\nmaximum order occurs with a permutation that is a product of disjoint cycles, specifically\na 5-cycle, which has an order of 5, and a 3-cycle combined with a 2-cycle, which yields an\norder of 6. Thus, the largest order of an element within S_5 is 6, reflecting the\ncombination of cycles that can occur in permutations. This finding not only highlights the\ndiversity of element orders in symmetric groups but also illustrates the foundational\nprinciples of group theory regarding cycle types and their contributions to the overall\nstructure.",
+      "marks": 10,
+      "explanation": "correct because it identifies that the largest order of an element in the symmetric group S_5 can be determined by analyzing the cycle structures of permutations, specifically noting that a 5-cycle has an order of 5 and the combination of a 3-cycle with a 2-cycle has an order of 6, indicating that 6 is the largest order achievable within this group.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8153
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_undergraduate_doc_12",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function `max(list)` in Python 3 returns the item from the list that has the highest value, making it the correct choice for identifying the maximum element in a list.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is [11,15,19] because the slice notation b[::2] extracts every second element from the list b, starting from the first element at index 0.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The operator '**' in Python 3 is specifically designed to perform exponentiation, allowing users to raise a number to the power of another number.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3219
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it equals 14*16^1 + 7*16^0, which corresponds to the hexadecimal digits E (for 14) and 7.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function O(N^(1/N)) grows the slowest among common complexity classes because as N increases, N^(1/N) approaches 1, indicating that it increases at a rate that diminishes significantly compared to polynomial or exponential functions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The addition of the two's-complement numbers 10000001 (which represents -127) and 10101010 (which represents -86) results in a sum of 10101011 (which represents -53), but since the signs of the operands were both negative and the result is positive, it indicates an overflow occurred.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1068
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, the multiplication operator (*) when applied to a list creates a new list that contains the original list's elements repeated the specified number of times, so ['Hi!'] * 4 produces a list with four instances of 'Hi!'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the left bitwise shift operator '<<' shifts the bits of the number 1 three positions to the left, resulting in the binary representation of 8 (which is 1000 in binary).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, tuples are zero-indexed, meaning that the first element can be accessed using index 0, which in this case is 'abcd'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Caesar Cipher is not perfectly secure because it relies on a simple substitution method that can be easily broken through frequency analysis and brute force attacks, as there are only a limited number of possible keys (25).",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1016
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def most_common_elem(s,a): | return most_common_elem",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to define a function that processes a given text string to determine the frequency of each element, ultimately returning the most common elements along with their counts, which is a fundamental requirement of the problem.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 946
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_12_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def remove_words(list1, charlist): | return new_list",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that takes a list of strings and a character or string to filter out, implying that it will create a new list without the specified words, though the implementation details are incomplete.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 570
+    }
+  ]
+}

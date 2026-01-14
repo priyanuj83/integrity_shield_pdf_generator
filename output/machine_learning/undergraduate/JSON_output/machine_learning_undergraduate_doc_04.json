@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_undergraduate_doc_04",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 4",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_04.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| RoBERTa pretrains on a corpus that is approximate 10 x larger than the corpus\nBERT pretrained on. Statement 2| ResNeXts in 2018 usually used tanh activation functions.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "RoBERTa indeed pretrains on a corpus approximately 10 times larger than that of BERT, making Statement 1 true, while Statement 2 is false because ResNeXt models typically use ReLU activation functions rather than tanh.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following tasks can be best solved using Clustering.",
+      "options": {
+        "A": "Predicting the amount of rainfall based on various cues",
+        "B": "Detecting fraudulent credit card transactions",
+        "C": "Training a robot to solve a maze",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Clustering is effective for detecting fraudulent credit card transactions because it can identify unusual patterns or groupings in transaction data that deviate from typical customer behavior, allowing for the detection of anomalies that may indicate fraud.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Word 2 Vec parameters were not initialized using a Restricted Boltzman\nMachine. Statement 2| The tanh function is a nonlinear activation function.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are true because Word2Vec uses neural networks with standard initialization methods rather than Restricted Boltzmann Machines, and the tanh function is indeed a commonly used nonlinear activation function in neural networks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The BLEU metric uses precision, while the ROGUE metric uses recall. Statement\n2| Hidden markov models were frequently used to model English sentences.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The BLEU metric indeed focuses on precision in evaluating machine translation by comparing n-grams between the generated and reference texts, while the ROGUE metric emphasizes recall by assessing the overlap of n-grams, and Hidden Markov Models have historically been employed to represent and analyze the structure of English sentences.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6924"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The disadvantage of Grid search is",
+      "options": {
+        "A": "It can not be applied to non-differentiable functions.",
+        "B": "It can not be applied to non-continuous functions.",
+        "C": "It is hard to implement.",
+        "D": "It runs reasonably slow for multiple linear regression."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that Grid search evaluates every combination of hyperparameters systematically, leading to slower performance, especially in complex models like multiple linear regression that may have numerous parameters to tune.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The computational complexity of Gradient Descent is polynomial in the number of features, D.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The computational complexity of Gradient Descent is polynomial in the number of features, D, because each iteration of the algorithm requires computing the gradient with respect to all D features, leading to a complexity of O(D) per iteration, and the number of iterations is typically bounded, resulting in a total complexity that is polynomial in D.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6862"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Applying an L 1 norm regularization penalty in linear regression can lead to some coefficients being zeroed out.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Applying an L1 norm regularization penalty, also known as Lasso regression, encourages sparsity in the model by adding a constraint that can shrink some coefficients to exactly zero, effectively performing variable selection.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Residual connections are utilized in both ResNets and Transformers to improve learning efficiency and model performance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Residual connections help mitigate the vanishing gradient problem and enable more effective information flow in deep networks, which enhances learning efficiency and overall model performance in both ResNets and Transformers.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6892"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The model obtained through forward stage wise selection may differ from the final model after identifying the subset of features.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The model obtained through forward stagewise selection may differ from the final model because forward selection increments features one at a time based on their individual contribution, while the final model may involve a combination of features chosen based on their collective interaction and performance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6864"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "To achieve the same projection in PCA as SVD, it is essential to transform the data to have a zero mean.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Transforming the data to have a zero mean is essential in PCA because it ensures that the principal components accurately represent the directions of maximum variance, which aligns with the singular value decomposition (SVD) process that also centers the data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the area of a rombus.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def rombus_area(p,q): | return area",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the function's purpose by using parameters for the lengths of the diagonals (p and q) to calculate the area of a rhombus, which is given by the formula area = (p * q) / 2.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "814"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_04_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to convert all possible convertible elements in the list to float.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def list_to_float(test_list): | return (str(res))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is incorrect because it does not define a function that converts elements in the list to floats; instead, it returns a string representation of a variable 'res' without any logic for conversion.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "117"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

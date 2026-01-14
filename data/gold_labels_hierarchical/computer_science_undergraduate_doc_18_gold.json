@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_undergraduate_doc_18",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Finding a shortest cycle in an undirected graph can be solved in polynomial time using algorithms like breadth-first search (BFS) to efficiently explore all possible cycles and determine the shortest one.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1017
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The function `int(x [,base])` is designed to convert a given string `x` into an integer, optionally using a specified base, making it the correct choice for converting strings to integers in Python 3.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"aab\" because in Python 3, the '+' operator concatenates strings, combining \"a\" and \"ab\" to form the single string \"aab\".",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The output of \"abc\"[::-1] is \"cba\" because the slicing syntax with a step of -1 reverses the string by iterating over it from the end to the beginning.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is [11,15,19] because the slicing operation b[::2] retrieves every second element from the list b, starting from index 0, which includes the elements at indices 0, 2, and 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because extensive testing cannot guarantee the identification of all bugs due to factors such as incomplete test coverage, the complexity of the program, and the possibility of unforeseen interactions between components.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the correct evaluation of the expression 4 + 3 % 2 is 4 + 1, which equals 5, not 6.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3250
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because O(n^2) represents a growth rate that is greater than O(1), O(n), and O(log n), making it the largest among the given asymptotic notations in terms of time complexity as the input size approaches infinity.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The access matrix approach can be limited in expressing complex protection requirements due to its inability to efficiently manage dynamic access control and the challenges of representing relationships among multiple subjects and objects in large, complex systems.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 996
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Python's automatic garbage collection manages memory by automatically reclaiming unused objects, and its ability to interface with languages like C, C++, and Java through various libraries and APIs enhances its functionality and interoperability.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def extract_symmetric(test_list): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it demonstrates the initiation of a function that is intended to process a list of tuples to identify and return all symmetric pairs, highlighting the function's purpose in addressing the problem statement.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 490
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_18_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def zip_tuples(test_tup1, test_tup2): | return (res)",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a function named `zip_tuples` that is intended to combine two given tuples into a single tuple, though it lacks the actual implementation of zipping the tuples together before returning the result.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 81
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_02",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the application of Bayes' theorem, which requires the joint probability P(E, F), the prior probability P(H), and the conditional probability P(E, F|H) to compute the posterior probability P(H|E, F) without any assumptions of independence.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6893
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The linear hard-margin SVM is designed specifically to find a hyperplane that perfectly separates linearly separable data without any misclassifications, making it applicable only in scenarios where such separation is achievable.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"supervised learning\" because predicting rainfall involves using labeled historical data to train a model that can make accurate forecasts based on observed features or cues.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "K-fold cross-validation is considered linear in K because the model is trained and validated K times, resulting in a computational complexity that increases linearly with the number of folds.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6906
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is false because regression analysis identifies relationships between variables and predicts outcomes but does not establish causation, as correlation does not imply causation.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "DCGANs primarily utilize convolutional layers and batch normalization rather than self-attention mechanisms to improve image generation quality and training stability.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The classification run time of the nearest neighbors algorithm is O(N) in the worst case because it requires examining all N training data points to find the nearest neighbor, not O(log N) as suggested by the statement.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6885
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The use of weak classifiers in bagging helps prevent overfitting because averaging their predictions reduces variance and leads to a more robust model that generalizes better to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because a Bayesian network with that structure requires specifying the conditional probabilities for each node, which results in 8 independent parameters due to the dependencies and independence constraints defined by the network's structure.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "ImageNet includes millions of images collected from the internet, featuring a wide range of resolutions and aspects, which contributes to its diversity and effectiveness as a dataset for training deep learning models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def swap_count(s): | return swap",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that the function `swap_count(s)` is designed to compute the minimum number of swaps needed to balance brackets in the given string, which is a critical task in algorithms related to string manipulation and balance checking.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 386
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def nth_items(list,n): | return list[::n]",
+      "marks": 10,
+      "explanation": "correct because the function uses Python's slicing feature to generate a new list that contains every nth element from the original list, efficiently fulfilling the requirement to select specific items based on their position.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 536
+    }
+  ]
+}

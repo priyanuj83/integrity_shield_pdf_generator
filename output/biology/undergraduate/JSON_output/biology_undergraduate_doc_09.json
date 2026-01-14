@@ -1,0 +1,296 @@
+{
+  "docid": "biology_undergraduate_doc_09",
+  "document_name": "Biology - Undergraduate Level Assessment 9",
+  "domain": "biology",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_biology",
+    "biology"
+  ],
+  "combination_used": [
+    "mmlu_biology_mcq",
+    "mmlu_biology_tf",
+    "mmlu_pro_biology_mcq",
+    "biology_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\undergraduate\\latex_documents\\biology_undergraduate_doc_09.tex",
+    "pdf_file": "output\\biology\\undergraduate\\pdf_documents\\biology_undergraduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_undergraduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_undergraduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\biology\\undergraduate\\answer_keys\\latex\\biology_undergraduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\undergraduate\\answer_keys\\pdf\\biology_undergraduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A reaction that includes energy as one of its reactants is called a(n)",
+      "options": {
+        "A": "endergonic reaction.",
+        "B": "catabolic reaction.",
+        "C": "redox reaction.",
+        "D": "anabolic reaction.",
+        "E": "exergonic reaction."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An endergonic reaction is characterized by its requirement for energy input, making it necessary for the reactants to absorb energy to proceed, which distinguishes it from exergonic reactions that release energy.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2815"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Explain why simple diffusion is not sufficient to account for the passage of all of the\ndissolved minerals into the cells of water plants.",
+      "options": {
+        "A": "Simple diffusion can only transport minerals when they are bound to oxygen molecules",
+        "B": "Simple diffusion cannot occur against a concentration gradient",
+        "C": "Simple diffusion requires specific carrier proteins for each mineral",
+        "D": "Simple diffusion only works for organic compounds, not inorganic minerals",
+        "E": "Simple diffusion can transport minerals in any concentration"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Simple diffusion relies on the movement of substances from an area of higher concentration to an area of lower concentration, and therefore cannot facilitate the uptake of dissolved minerals into plant cells when these minerals are present in lower concentrations inside the cells compared to the surrounding water.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a second messenger that stimulates release of calcium ions into\nthe cytoplasm?",
+      "options": {
+        "A": "Adenosine triphosphate",
+        "B": "Nitric oxide",
+        "C": "Guanosine triphosphate",
+        "D": "Cyclic GMP",
+        "E": "Prostaglandins"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adenosine triphosphate (ATP) acts as a second messenger in various signaling pathways, including those that lead to the release of calcium ions from the endoplasmic reticulum into the cytoplasm, thereby playing a crucial role in cellular communication and function.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2865"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "All of the following statements are true EXCEPT",
+      "options": {
+        "A": "insulin decreases storage of glycogen",
+        "B": "growth hormone stimulates cell division and protein synthesis",
+        "C": "epinephrine increases blood sugar levels and heart rate",
+        "D": "thyroxine increases the rate of metabolism",
+        "E": "vasopressin stimulates water reabsorption in the kidney"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Insulin actually promotes the storage of glycogen in the liver and muscle cells, so the statement that insulin decreases storage of glycogen is incorrect.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3045"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "One group of compounds that may become quite important in birth control is the\nprostaglandins. What are the advantages of prostaglandins in birth control?",
+      "options": {
+        "A": "Prostaglandins are used to enhance mood and have no effect on birth control.",
+        "B": "Prostaglandins increase fertility by promoting ovulation.",
+        "C": "Prostaglandins are able to prevent pregnancy by altering the DNA of the sperm and egg.",
+        "D": "Prostaglandins are known to mediate hormonal action",
+        "E": "Prostaglandins are non-hormonal, reducing the risk of hormonal side effects."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that prostaglandins are primarily known for their role in various physiological functions, including mood enhancement, rather than having a direct impact on birth control methods.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3300"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Crossing-over during meiosis allows scientists to determine the exact sequence of DNA bases in an organism's genome.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Crossing-over during meiosis involves the exchange of genetic material between homologous chromosomes, which increases genetic diversity but does not provide the means to determine the exact sequence of DNA bases in an organism's genome.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3266"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "All protozoans share a uniform reproductive method, resulting in consistent offspring across species.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Protozoans exhibit a diverse range of reproductive methods, including asexual reproduction through binary fission and sexual reproduction, leading to significant variability in offspring characteristics among different species.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Measuring the physical characteristics of a population is sufficient to assess its genetic equilibrium status.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Measuring the physical characteristics of a population alone does not account for the genetic variation and evolutionary processes that influence genetic equilibrium, such as mutation, gene flow, and genetic drift.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Cyanobacteria are prokaryotic organisms that lack a true nucleus.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cyanobacteria are classified as prokaryotic organisms because they lack a membrane-bound nucleus and instead possess their genetic material in a nucleoid region.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3121"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_undergraduate_doc_09_biology_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The vegetal pole does not undergo cleavage more readily than the animal pole in telolecithal eggs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In telolecithal eggs, the vegetal pole is densely packed with yolk, which inhibits cell division and cleavage compared to the animal pole, where the cytoplasm is more abundant and conducive to rapid cleavage.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3391"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_undergraduate_doc_09_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the various methods used to form recombinant DNA, and explain why translation does\nnot qualify as one of these methods.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Recombinant DNA is formed through various methods, primarily including restriction enzyme\ndigestion, ligation, and transformation. Restriction enzymes cut DNA at specific\nsequences, allowing scientists to isolate desired genes, while ligation involves joining\nthe DNA fragments using DNA ligase to create a stable recombinant molecule. Transformation\nrefers to the introduction of this recombinant DNA into host cells, where it can be\nreplicated and expressed. In contrast, translation is a biological process that\nsynthesizes proteins from mRNA templates but does not involve the manipulation or joining\nof DNA molecules. Thus, translation does not qualify as a method for forming recombinant\nDNA, as it occurs after the DNA has already been modified and does not contribute to the\ncreation of recombinant DNA itself.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies the primary methods for forming recombinant DNA\u2014restriction enzyme digestion, ligation, and transformation\u2014while clarifying that translation is not a method for forming recombinant DNA, but rather a process of protein synthesis that occurs after the DNA has been introduced into a host cell.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "23"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_undergraduate_doc_09_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that lead to the movement of electrons between orbitals in an atom,\nfocusing on how their energy remains constant while their position changes.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The movement of electrons between orbitals in an atom is primarily influenced by the\nprinciples of quantum mechanics, particularly the quantization of energy levels. Electrons\ncan transition between these orbitals when energy is absorbed or released, allowing them\nto occupy different regions around the nucleus. Despite these movements, the energy of the\nelectrons remains constant when they shift between orbitals of the same energy level, a\nconcept known as degeneracy. This is because the electron's position is described by\nprobability distributions rather than fixed paths, allowing for changes in location\nwithout variation in energy. Such transitions are crucial in biological processes, such as\nphotosynthesis and cellular respiration, where energy transfer is essential.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that electron movement between orbitals is governed by quantum mechanics and energy quantization, emphasizing that transitions can occur without energy change when moving between degenerate orbitals of the same energy level.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3276"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

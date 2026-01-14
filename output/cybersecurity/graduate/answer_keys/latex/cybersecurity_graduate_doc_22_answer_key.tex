@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 22 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Private-key system; B) Shared-key system; C) Public-key system; D) All of them
+\\ \textit{Note:} A digital signature requires a public-key system because it relies on asymmetric cryptography, where a private key is used to create the signature and a corresponding public key is used to verify its authenticity, ensuring both security and non-repudiation.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Speed; B) Space; C) Key exchange; D) Key length
+\\ \textit{Note:} Public key encryption simplifies the key exchange process by allowing users to share their public keys openly, eliminating the need for a secure channel to exchange secret keys as required in symmetric key cryptography.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Snort; B) SuperScan; C) Burp Suit; D) EtterPeak
+\\ \textit{Note:} EtterPeak is recognized as a popular tool for network analysis in multiprotocol diverse networks due to its ability to capture and analyze traffic across various protocols, making it essential for cybersecurity professionals in diagnosing and monitoring network performance.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Active, inactive, standby; B) Open, half-open, closed; C) Open, filtered, unfiltered; D) Active, closed, unused
+\\ \textit{Note:} The correct answer is "Open, filtered, unfiltered" because these terms describe the states of network ports as determined by Nmap during a scan, where "open" indicates a port is accepting connections, "filtered" means that the port is being blocked by a firewall or similar device, and "unfiltered" signifies that the port is accessible but its state is not confirmed.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Physical layer; B) Application layer; C) Data link layer; D) Network layer
+\\ \textit{Note:} A proxy firewall filters at the application layer because it operates by intercepting and analyzing the data traffic between clients and servers, allowing it to enforce security policies based on the content and context of the application-specific data being transmitted.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Nessus is primarily a vulnerability assessment tool designed for identifying security vulnerabilities in systems and applications, rather than functioning as a network intrusion detection system or performing real-time traffic analysis.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Escaping queries is effective against SQL injection attacks because it transforms potentially harmful user input into a safe format that the database engine can interpret as data rather than executable code, thereby neutralizing the threat.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the Data Encryption Standard (DES) utilizes a 64-bit key from which 8 bits are used for parity checks, leaving 56 bits that are actually used for encryption during each round.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the Transport Layer Security (TLS) protocol, enabling attackers to send a malformed heartbeat request that causes the server to leak sensitive data from its memory, thus allowing them to read data outside the intended buffer boundaries.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A Base Signal Station primarily handles signaling and control functions in mobile networks rather than data transmission, which is the primary role of a Base Transceiver Station.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The primary objectives of authentication in cybersecurity revolve around accurately determining who the user is, which is essential for enforcing access controls and protecting sensitive information. Authentication serves as the first line of defense against unauthorized access, ensuring that only legitimate users can interact with a system. This process not only verifies user identity through various methods-such as passwords, biometrics, or multi-factor authentication-but also establishes a trust framework that underpins overall system security. By confirming user identities, organizations can mitigate risks of data breaches and unauthorized transactions, thus reinforcing the integrity and confidentiality of their digital assets. Ultimately, effective authentication is crucial for maintaining a secure environment in which user actions can be reliably traced and monitored.
+\\ \textit{Note:} The answer correctly identifies authentication as a critical mechanism in cybersecurity for verifying user identity and enforcing access controls, thereby safeguarding sensitive information and maintaining overall system security.
+\item \textbf{Answer:} Buffer-overrun vulnerabilities pose significant risks in application development as they allow attackers to overwrite memory locations, potentially gaining unauthorized access to sensitive data or executing arbitrary code. When a buffer overflow occurs, malicious actors can manipulate the execution flow of a program, leading to severe consequences such as data breaches, system crashes, or the installation of malware. Mitigation strategies include implementing bounds checking, using safe programming languages that inherently prevent such vulnerabilities, and employing tools for static and dynamic analysis to identify and rectify buffer overflows during the development lifecycle. Additionally, adopting practices like address space layout randomization (ASLR) and stack canaries can further enhance the security posture against exploitation attempts. Ultimately, addressing buffer-overrun vulnerabilities is crucial for safeguarding applications and maintaining the integrity of information systems.
+\\ \textit{Note:} The answer correctly identifies the critical risks associated with buffer-overrun vulnerabilities, including unauthorized access and code execution, while also outlining effective mitigation strategies like bounds checking to enhance application security.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,293 @@
+{
+  "docid": "philosophy_graduate_doc_17",
+  "document_name": "Philosophy - Graduate Level Assessment 17",
+  "domain": "philosophy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "philosophy"
+  ],
+  "combination_used": [
+    "mmlu_pro_philosophy_mcq",
+    "mmlu_pro_philosophy_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\philosophy\\graduate\\latex_documents\\philosophy_graduate_doc_17.tex",
+    "pdf_file": "output\\philosophy\\graduate\\pdf_documents\\philosophy_graduate_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/philosophy_graduate_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/philosophy_graduate_doc_17_gold.json",
+    "answer_key_latex_file": "output\\philosophy\\graduate\\answer_keys\\latex\\philosophy_graduate_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\philosophy\\graduate\\answer_keys\\pdf\\philosophy_graduate_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Another name for hasty generalization is",
+      "options": {
+        "A": "straw man",
+        "B": "ad populum",
+        "C": "post hoc fallacy",
+        "D": "secundum quid",
+        "E": "ad crumenam"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The term \"secundum quid\" refers to an informal fallacy that occurs when a general rule is applied too broadly without sufficient evidence, which aligns with the concept of hasty generalization in logical reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10802"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "According to Kant, nothing can be called \"good\" without qualification except _____.",
+      "options": {
+        "A": "a good will",
+        "B": "self-interest",
+        "C": "justice",
+        "D": "right action",
+        "E": "good consequences"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to Kant, a good will is intrinsically good because it acts out of a sense of duty and moral obligation, making it the only thing that can be considered good without any qualifications or conditions.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10806"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Whether someone is hypocritical regarding her claims is...",
+      "options": {
+        "A": "Irrelevant to the truth of the claims",
+        "B": "Only relevant if the person is a public figure",
+        "C": "Only valid if the person is conscious of their hypocrisy",
+        "D": "A sign that the person is untrustworthy",
+        "E": "Direct evidence of the person's lying tendencies"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The truth of a claim is determined by its correspondence to reality, independent of the individual's consistency in adhering to their own claims, thus making accusations of hypocrisy irrelevant to the claim's veracity.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Select the best translation into predicate logic. Marco doesn't move from Spain to Italy.\n(i: Italy; m: Marco; s: Spain; Mxyz: x moves to y from z)",
+      "options": {
+        "A": "~Mis",
+        "B": "Msi~",
+        "C": "M~ism",
+        "D": "~Mmis",
+        "E": "M~mis"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer ~Mmis accurately represents the negation of the proposition that Marco moves from Spain to Italy, as it uses the predicate Mxyz to denote the action of moving, where the negation symbol (~) indicates that this action does not occur.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11079"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Who declared Muhammad a prophet?",
+      "options": {
+        "A": "Ali",
+        "B": "Abu Bakr",
+        "C": "Khadijah",
+        "D": "Uthman",
+        "E": "Abu Talib"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ali is considered by Shia Muslims to be the first person to recognize Muhammad's prophethood and openly support him, thus playing a crucial role in the early Islamic community's acceptance of Muhammad as a prophet.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "According to Kant, a hypothetical imperative represents an action as a necessary means to achieve a desired end.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Kant defines a hypothetical imperative as a command that applies conditionally, where an action is deemed necessary to achieve a specific end, thus affirming that it represents an action as a means to that desired outcome.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10793"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "Carruther's assumes that animals lack the capacity for conscious experience, equating their mental states to mere instinct.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Carruther's position actually acknowledges the potential for conscious experience in animals, rejecting the simplistic view that their mental states are solely driven by instinct.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10962"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The title Dalai Lama translates to 'Ocean of Stillness' in the Tibetan language.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The title Dalai Lama actually translates to 'Ocean of Wisdom' in Tibetan, not 'Ocean of Stillness.'",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Fatihah is recited exactly 10 times each day in the practice of Islamic prayer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the Fatihah is recited in each of the five daily prayers, totaling a minimum of 17 recitations, depending on the number of units (rak'ahs) performed in each prayer.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "10974"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "philosophy_graduate_doc_17_philosophy_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Cicero believes that all actions deemed expedient are inherently aligned with moral rightness and ethical principles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cicero argues that expedience does not equate to moral rightness, as he emphasizes the importance of virtue and ethical principles that transcend mere practical considerations.",
+      "source": {
+        "dataset": "mmlu_pro_philosophy_philosophy",
+        "source_id": "11155"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "philosophy_graduate_doc_17_philosophy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the laudatory personality fallacy and analyze its implications in moral\nphilosophy. How does this fallacy affect our judgments of individuals' actions based on\ntheir character traits?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The laudatory personality fallacy is the tendency to judge an individual's actions based\non an idealized perception of their character traits, leading to the assumption that\nvirtuous qualities necessarily correlate with moral behavior. This fallacy has significant\nimplications in moral philosophy, as it can distort ethical evaluations by prioritizing\nperceived character over the context and consequences of specific actions. Consequently,\nindividuals may be unjustly excused or praised based on their character, rather than the\nmorality of their actions, undermining a more objective ethical analysis. This bias can\nlead to a failure to hold individuals accountable for harmful actions, as their laudable\ntraits overshadow the moral evaluation of their behavior. Ultimately, recognizing this\nfallacy is crucial for developing a more nuanced understanding of moral responsibility\nthat transcends simplistic character judgments.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the laudatory personality fallacy as a cognitive bias where idealized character traits skew moral judgments, emphasizing the need to consider actions independently of perceived virtues to avoid ethical distortions.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "philosophy_graduate_doc_17_philosophy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss Clarence Darrow's perspective on the meaning of life, analyzing how he viewed its\nsignificance for the majority of individuals and the implications of this belief.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Clarence Darrow's perspective on the meaning of life centers around the notion that life\nholds intrinsic significance for the majority of individuals, regardless of their\ncircumstances. He believed that meaning arises from personal experiences, relationships,\nand the pursuit of knowledge, rather than from an abstract or universal truth. This view\nimplies that the significance of life is subjective and can be cultivated through\nindividual engagement with the world. For Darrow, the recognition of life's meaningfulness\nencourages a compassionate approach to human existence, emphasizing the importance of\nempathy and understanding in a diverse society. Thus, he posits that embracing our\nsubjective experiences allows for a richer, more fulfilling life for all.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly captures Darrow's belief that the meaning of life is subjective and derived from personal experiences and relationships, emphasizing that significance is not predetermined but cultivated through individual engagement with one's circumstances.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "10843"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "docid": "engineering_undergraduate_doc_07",
+  "document_name": "Engineering - Undergraduate Level Assessment 7",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_07.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find the inverse Laplace transform L^-1 {1 / (s - 1)^2}, using the convolution.",
+      "options": {
+        "A": "t^2 e^t",
+        "B": "t e^2 t",
+        "C": "e^(-t)",
+        "D": "t^3 e^t",
+        "E": "te^t"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - te^t",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11872"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Evaluate \\nablaf at the point (2, 3,5). The scalar field f is given by f(x_1, x_2, x_3) =\n2 sin x_1 - x_1^2 x_2 x_3 + x_1 e^(x)2(1)",
+      "options": {
+        "A": "(40.74, -20.17, 12)",
+        "B": "(- 30.74, 10.17, - 2)",
+        "C": "(0, 40.34, 24)",
+        "D": "(30.74, 10.17, 2)",
+        "E": "(40.74, 20.17, -12)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - (40.74, -20.17, 12)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11609"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The current through an inductor with inductance L = 10^-3 henry is given as i_L (t) = 0.1\nsin 10^6 t. Find the voltage\\nu_L(t) across this inductor.",
+      "options": {
+        "A": "1000 sin 10^6 t",
+        "B": "100 sin 10^6 t",
+        "C": "50 cos 10^6 t",
+        "D": "1000 cos 10^6 t",
+        "E": "0.1 cos 10^6 t"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 1000 sin 10^6 t",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the inverse Laplace transform f(t) = L^-1 {log [(s + 1) / (s - 1)]}, s > 1.",
+      "options": {
+        "A": "(1 - e^(-2 t)) / t",
+        "B": "(2 sinh t) / t^2",
+        "C": "(2 tanh t) / t",
+        "D": "(2 sinh t) / t",
+        "E": "(2 tanh t) * t"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - (2 sinh t) / t",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11653"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In a lap winding dc machine number of conductors are 100 and number of parallel paths are\n10. Find the average pitch",
+      "options": {
+        "A": "150",
+        "B": "100",
+        "C": "200",
+        "D": "5",
+        "E": "10"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - 10",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11657"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Gross errors are primarily caused by human mistakes during measurements or calculations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11287"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "A dc motor requires 10 kilowatts to supply 10 horsepower, resulting in an efficiency of 85%.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '74.6%'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11927"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The convolution of f(t) = t and g(t) = t^2 results in f(t) *_ g(t) = t^4 / 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11727"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The a-c voltage between rings of a 1,500-kw six-phase synchronous converter is 175 volts.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_07_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "XOR and XNOR gates alone can function as universal gates without the need for additional gate types.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'XOR, XNOR, NOR.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11812"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_07_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the required capacitive reactance to achieve unity power factor for a 220-volt,\n60-hertz, 10-hp single-phase induction motor operating at 86% efficiency and 90% power\nfactor. Discuss your reasoning and calculation steps.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "239 microfarads. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11392"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_07_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the volume of a storage container needed for 1500 lbm of ethane (C 2 H 6) at\n160^\\circF and 1100 psig, and discuss the factors influencing your calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "172.60 ft^3. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11294"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 18 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) A procedure for testing libraries or other program components for vulnerabilities; B) Whole-system testing for security flaws and bugs; C) A security-minded form of unit testing that applies early in the development process; D) All of the above
+\\ \textit{Note:} The correct answer is accurate because penetration testing involves a comprehensive assessment of a computer system's security by simulating attacks to identify vulnerabilities and weaknesses that could be exploited by malicious actors.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Message Condentiality; B) Message Integrity; C) Message Splashing; D) Message Sending
+\\ \textit{Note:} Message authentication ensures that a message is from a legitimate sender and has not been altered, which is a more comprehensive service than message integrity, which only verifies that the message has not been modified during transmission.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) the matrix, if stored directly, is large and can be clumsy to manage; B) it is not capable of expressing complex protection requirements; C) deciding whether a process has access to a resource is undecidable; D) there is no way to express who has rights to change the access matrix itself
+\\ \textit{Note:} The access matrix approach requires a potentially vast amount of storage to represent all possible subject-object access rights, making it cumbersome to manage, especially in large systems with numerous users and resources.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) crypter; B) virus; C) backdoor; D) key-logger
+\\ \textit{Note:} A backdoor is a method of bypassing normal authentication or security measures in a computer system, often created by malware to allow unauthorized access, which aligns with the description of being hidden or disguised within software or firmware.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Installing and configuring a IDS that can read the IP header; B) Comparing the TTL values of the actual and spoofed addresses; C) Implementing a firewall to the network; D) Identify all TCP sessions that are initiated but does not complete successfully
+\\ \textit{Note:} Comparing the Time to Live (TTL) values of the actual and spoofed addresses helps detect IP address spoofing because legitimate packets typically have a lower TTL compared to spoofed packets, which may have an artificially high or inconsistent TTL value.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the TLS/DTLS heartbeat extension, allowing attackers to read sensitive memory contents beyond the intended buffer limits, thereby compromising data integrity and confidentiality.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Brute-force attacks on access credentials primarily occur at the session layer of the OSI model because this layer is responsible for establishing, managing, and terminating sessions, where authentication and credential verification take place, making it a primary target for such attacks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because encryption and decryption can occur independently at different locations, and a message encrypted by the sender can be decrypted by the receiver without requiring decryption at the sender's site.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Trojans that exploit software vulnerabilities are often designed not only to steal personal information but also to engage in various malicious activities such as financial fraud, data corruption, or creating backdoors for further exploitation, which can incur significant costs to victims.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The TCP connect scan fully establishes a TCP connection by completing the three-way handshake, unlike the SYN stealth scan, which only sends a SYN packet and does not complete the connection.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def even\_num(x): | return True | return False
+\\ \textit{Note:} correct because it provides a basic structure for a function that determines the evenness of a number, although it lacks the necessary conditional logic to properly evaluate the input.
+\item \textbf{Answer:} def count\_elim(num): | return count\_elim
+\\ \textit{Note:} The answer correctly identifies the need for a function that recursively counts elements in a list, halting the count when a tuple is encountered, although the implementation is incomplete and requires further development to achieve its intended functionality.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

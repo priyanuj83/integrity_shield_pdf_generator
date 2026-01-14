@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 11 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Round-robin; B) Priority queuing; C) Shortest job first; D) Youngest job first
+\\ \textit{Note:} The round-robin scheduling policy is starvation-free because it allocates a fixed time slice to each job in a cyclic order, ensuring that every job gets regular access to the CPU without allowing any job to wait indefinitely.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 0.1; B) 0.2; C) 0.3; D) 0.5
+\\ \textit{Note:} The decimal number 0.5 has an exact representation in binary notation as it can be expressed as 1/2, which is equivalent to 0.1 in binary format.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Fast hardware exists to move blocks of pixels efficiently.; B) Realistic lighting and shading can be done.; C) All line segments can be displayed as straight.; D) Polygons can be filled with solid colors and textures.
+\\ \textit{Note:} The correct answer is that all line segments can be displayed as straight because bitmap graphics are composed of pixels, which can only approximate curves and diagonal lines, leading to a blocky representation rather than smooth straight lines.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Values of local variables; B) A heap area; C) The return address; D) Stack pointer for the calling activation record
+\\ \textit{Note:} A heap area is typically managed separately from the stack where activation records are stored, as it is used for dynamic memory allocation rather than for tracking function call information.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Session IDs; B) Registry keys; C) Network communications; D) SQL queries based on user input
+\\ \textit{Note:} SQL queries based on user input are most vulnerable to injection attacks because they can be manipulated by attackers to execute arbitrary SQL code, compromising the security of the database.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Mutation-based fuzzing primarily involves generating test cases by altering existing inputs rather than making mutations to the target program itself.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The AH Protocol (Authentication Header) is designed to provide authentication and integrity for the data packets being transmitted, but it does not encrypt the data, thus failing to ensure privacy.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message integrity is achieved through various techniques, such as checksums and hash functions, which verify that the data has not been altered during transmission, thus ensuring that it arrives at the receiver exactly as it was sent.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} When the STP solver times out on a constraint query, it defaults to concluding that the constraints cannot be satisfied, leading EXE to terminate the execution path based on this assumption.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Busy-waiting consumes CPU cycles while waiting for an event to occur, which is inefficient in a time-sharing system where CPU resources should be allocated to active processes to maximize overall system responsiveness and utilization.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def slope(x 1,y 1,x 2,y 2): | return (float)(y 2-y 1)/(x 2-x 1)
+\\ \textit{Note:} The provided function correctly calculates the slope of a line using the formula (y 2 - y 1) / (x 2 - x 1), ensuring that the division is performed as a floating-point operation to handle cases where the result is not an integer.
+\item \textbf{Answer:} def snake\_to\_camel(word): | return ''.join(x.capitalize() or '\_' for x in word.split('\_'))
+\\ \textit{Note:} The provided function correctly converts a snake case string to camel case by splitting the input string at underscores, capitalizing the first letter of each resulting segment, and then joining them back together while ignoring empty segments.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

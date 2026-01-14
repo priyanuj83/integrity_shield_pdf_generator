@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 9 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It relates inputs to outputs.; B) It is used for prediction.; C) It may be used for interpretation.; D) It discovers causal relationships
+\\ \textit{Note:} The statement is false because regression analysis identifies correlations between variables but does not establish causation, as it cannot account for confounding factors or the direction of influence.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) The use of sampling with replacement as the sampling technique; B) The use of weak classifiers; C) The use of classification algorithms which are not prone to overfitting; D) The practice of validation performed on every classifier trained
+\\ \textit{Note:} The use of weak classifiers in bagging reduces overfitting by averaging their predictions, which helps to mitigate the variance that can arise from complex models while maintaining a strong overall predictive performance.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) anomaly detection; B) one-class detection; C) train-test mismatch robustness; D) background detection
+\\ \textit{Note:} Anomaly detection refers to the identification of data points that deviate significantly from the norm, which aligns with the concept of out-of-distribution detection, where the goal is to recognize instances that differ from the training data distribution.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Increase the amount of training data.; B) Improve the optimisation algorithm being used for error minimisation.; C) Decrease the model complexity.; D) Reduce the noise in the training data.
+\\ \textit{Note:} Improving the optimization algorithm primarily affects the convergence speed and efficiency of finding a minimum, but does not directly address the complexity of the model or its tendency to fit noise in the training data, which are the main causes of overfitting.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) O(1); B) O( N ); C) O(log N ); D) O( $N^2$ )
+\\ \textit{Note:} The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to each of the N instances in the training dataset to determine the closest neighbors for classification.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Linear Soft margin SVM allows for the classification of data that is not perfectly linearly separable by introducing a penalty for misclassification, enabling it to handle overlaps between classes.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Bayesians incorporate prior distributions to express beliefs about parameters before observing data, while frequentists rely on the data alone for inference, often avoiding the use of priors.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} RoBERTa enhances BERT's training methodology by utilizing a significantly larger dataset, specifically around 160 GB of text data compared to BERT's 16 GB, which allows it to learn more robust language representations.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The rank of the matrix A is 1 because all its rows are identical and therefore linearly dependent, indicating that it can be reduced to a single row of non-zero values.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Neural networks can combine different activation functions in their architecture to leverage the strengths of each function for various layers, enhancing model performance and flexibility in learning complex patterns.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_last\_occurrence(A, x): | return result
+\\ \textit{Note:} correct because it outlines the essential structure of a function that should implement a search algorithm, such as binary search, to efficiently locate the index of the last occurrence of a specified number in a sorted array.
+\item \textbf{Answer:} def Find\_Max\_Length(lst): | return maxLength
+\\ \textit{Note:} correct because it defines a function that aims to identify the maximum length of contiguous sublists within the given list, employing the concept of utilizing Python's built-in functions to effectively compute the desired outcome.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

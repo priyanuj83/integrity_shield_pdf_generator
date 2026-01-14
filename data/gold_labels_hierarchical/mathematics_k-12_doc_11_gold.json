@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_k-12_doc_11",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The sum of -9 and -8 is -17 because when adding two negative numbers, their absolute values are summed and the result retains the negative sign.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2146
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Adding five points to everyone's score maintains the relative ranking of the scores, so Jonathan's position at the 90th percentile remains unchanged.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 14641
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is derived from applying the method of cylindrical shells to find the volume of the solid formed by rotating the area between the curves y = e^x and y = 2 around the y-axis, resulting in a calculated volume of approximately 0.592.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4455
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The number of positive cubes that divide \\(3! \\cdot 5! \\cdot 7!\\) is determined by finding the prime factorization of the product and calculating how many times each prime's exponent can be divided by 3, leading to a total of 6 combinations.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14524
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The numbers 10 and 12 have a least common multiple of 60 and a greatest common factor of 2, satisfying the conditions given in the problem.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2128
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The upper critical value of z for a 94% confidence interval is 1.88 because it corresponds to the z-score that captures the upper 3% of the standard normal distribution, leaving 94% in the center.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5463
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the actual difference in elevation between Talon Bluff and Salt Flats is not 565 feet, indicating a discrepancy in the provided elevation measurement.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2219
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because in the number line, -3 is to the right of -5, indicating that -3 is actually greater than -5.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2395
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when you solve the equation 3/2 * w = 66 by multiplying both sides by 2/3, you find that w equals 44.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 14269
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when combining like terms from the two polynomials, the coefficients of the terms with the same degree correctly add up to yield the simplified expression of x^{11}+10 x^9+7 x^8+6 x^7+3 x^3+5 x+8.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4370
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "In regression analysis, residuals are the differences between the observed values and the\nvalues predicted by the regression model. The significance of the mean of the residuals\nbeing always zero lies in the fact that it indicates the model is unbiased; it neither\nconsistently overestimates nor underestimates the values. This property helps ensure that\nthe predictions are centered around the actual data points, which impacts the accuracy of\nthe regression model. When the residuals average to zero, it suggests that the model\neffectively captures the underlying trend of the data, leading to more reliable\npredictions. Therefore, understanding residuals and their mean is crucial in evaluating\nthe performance of a regression model.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes residuals as the differences between observed and predicted values, emphasizes the significance of their mean being zero in indicating an unbiased model, and explains how this characteristic contributes to the overall accuracy of the regression analysis.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 5579
+    },
+    {
+      "question_id": "mathematics_k-12_doc_11_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To determine the angle \u03b8 at which the polar curve r = sin 3\u03b8 has a vertical tangent, we\nfirst need to find the derivative of the polar function with respect to \u03b8. The vertical\ntangent occurs when the derivative dr/d\u03b8 is zero while r is not. By differentiating r =\nsin 3\u03b8, we get dr/d\u03b8 = 3 cos 3\u03b8. To find the vertical tangent, we set 3 cos 3\u03b8 = 0, which\ngives us cos 3\u03b8 = 0. This occurs at angles of 3\u03b8 = \u03c0/2 + k\u03c0 for integers k. Solving for \u03b8\nin the first quadrant, we find \u03b8 = \u03c0/6, which simplifies to approximately 0.47 radians.\nThus, the angle \u03b8 at which the curve has a vertical tangent is approximately 0.47 radians.",
+      "marks": 10,
+      "explanation": "correct because it identifies that a vertical tangent occurs when the derivative dr/d\u03b8 equals zero, and by differentiating the polar function and solving for the angles where cos 3\u03b8 equals zero, it correctly finds the angle \u03b8 = \u03c0/6 in the first quadrant.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4473
+    }
+  ]
+}

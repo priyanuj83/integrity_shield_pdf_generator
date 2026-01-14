@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_06",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true for Statement 1 because ImageNet indeed contains images of various resolutions, while Statement 2 is false because ImageNet has significantly more images than Caltech-101, making it the larger dataset.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are correct because Word2Vec utilizes a neural network architecture without the initialization from a Restricted Boltzmann Machine, and the tanh function is indeed a nonlinear activation function commonly used in neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6899
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dimensionality of the null space of the matrix A is 2 because its rank is 1, resulting in a nullity of 2 as determined by the Rank-Nullity Theorem, which states that the dimension of the null space plus the rank must equal the number of columns.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is either (a) or (b) because both Lasso (L1) regularization and Ridge (L2) regularization can lead to zero coefficients, but it is specifically Lasso that is known for producing sparse solutions by forcing some coefficients to be exactly zero.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6934
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Averaging the output of multiple decision trees reduces variance by mitigating the impact of individual tree overfitting, leading to a more stable and accurate overall prediction.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6863
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Residual connections help mitigate the vanishing gradient problem by allowing gradients to flow through the network more effectively during backpropagation, enabling the successful training of deeper architectures like ResNets and Transformers.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6892
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the correct expression for the joint probability P(A, B, C) is P(A | B, C) * P(B | C) * P(C), not the product of the conditional probabilities given in the statement, which do not account for the correct conditioning of variables.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to represent the underlying relationships in the training data, leading to inadequate learning and consequently poor performance on both the training set and unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The trade-off between underfitting and overfitting is primarily influenced by model complexity and the amount of training data, rather than the method used to learn the weights.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6853
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Clustering effectively identifies fraudulent credit card transactions by grouping similar transaction patterns, allowing for the detection of anomalies that deviate from established norms, which are often indicative of fraud.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The statements regarding entropy in joint distributions and the effects of moralization on\ndirected graphs are both false. Entropy, as a measure of uncertainty, does not inherently\napply to joint distributions in the manner implied; rather, it is context-dependent and\ninfluenced by the relationships between variables. Additionally, moralization, which\ninvolves creating an undirected graph from a directed graph by adding edges between\nparents of common children, does not always lead to accurate representations of\ndependencies in probabilistic models. In machine learning, these misconceptions can lead\nto flawed model assumptions and suboptimal learning outcomes, emphasizing the need for\ncareful consideration of graphical representations and their implications for entropy.\nThus, understanding these concepts correctly is crucial for effective application in\nmachine learning contexts.",
+      "marks": 10,
+      "explanation": "correct because entropy is context-dependent and does not universally apply to joint distributions, while moralization can distort relationships in directed graphs, leading to potential inaccuracies in representing dependencies, which is critical in machine learning applications.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6929
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_06_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "The Naive Bayes algorithm operates under the assumption of attribute independence, meaning\nthat it presumes that the presence or absence of a particular feature (or attribute) in\nthe data is independent of the presence or absence of any other feature, given the class\nvalue. This assumption simplifies the computation of the posterior probabilities, allowing\nfor efficient classification. However, in real-world scenarios, features are often\ncorrelated, which can lead to a violation of this independence assumption. As a result,\nthe model may perform suboptimally, as it may underestimate or overestimate the importance\nof certain attributes that interact with one another. Consequently, while Naive Bayes can\nbe effective in many applications, its reliance on this strong independence assumption can\nlimit its accuracy in datasets where attributes are statistically dependent.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the fundamental assumption of attribute independence in the Naive Bayes algorithm, explaining how this simplification facilitates efficient probability calculations while also acknowledging the potential impact of feature correlation on model performance in practical applications.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14780
+    }
+  ]
+}

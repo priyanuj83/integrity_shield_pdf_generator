@@ -1,0 +1,289 @@
+{
+  "docid": "chemistry_undergraduate_doc_14",
+  "document_name": "Chemistry - Undergraduate Level Assessment 14",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_14.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which nuclide has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field?",
+      "options": {
+        "A": "17 O",
+        "B": "19 F",
+        "C": "29 Si",
+        "D": "31 P"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 17 O because its nuclear magnetic resonance (NMR) frequency of 115.5 MHz at a 20.0 T magnetic field is consistent with its gyromagnetic ratio, which determines the resonance frequency of a nuclide in a given magnetic field strength.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Cobalt-60 is used in the radiation therapy of cancer and can be produced by bombardment of\ncobalt-59 with which of the following?",
+      "options": {
+        "A": "Neutrons",
+        "B": "Alpha particles",
+        "C": "Beta particles",
+        "D": "X-rays"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cobalt-60 is produced from the neutron bombardment of cobalt-59 through a nuclear reaction, where a neutron is absorbed by cobalt-59, resulting in the formation of cobalt-60, which is a radioactive isotope used in cancer radiation therapy.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "902"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The normal modes of a carbon dioxide molecule that are infrared-active include which of\nthe following? I. Bending II. Symmetric stretching III. Asymmetric stretching",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "III only",
+        "D": "I and III only"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is I and III only because infrared-active modes require a change in the dipole moment during vibration, which occurs in the bending and asymmetric stretching modes of carbon dioxide, while the symmetric stretching mode does not produce a change in dipole moment and is therefore infrared-inactive.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "912"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the magnetic field responsible for the polarization of 2.5 x 10^-6 for 13 C at\n298 K.",
+      "options": {
+        "A": "0.5 T",
+        "B": "1.2 T",
+        "C": "2.9 T",
+        "D": "100 T"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2.9 T because it is derived from the relationship between the magnetic field strength, polarization, and the temperature for a paramagnetic substance, using the appropriate equations that relate these variables.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "932"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The T 2 of an NMR line is 15 ms. Ignoring other sources of linebroadening, calculate its\nlinewidth.",
+      "options": {
+        "A": "0.0471 Hz",
+        "B": "21.2 Hz",
+        "C": "42.4 Hz",
+        "D": "66.7 Hz"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The linewidth in NMR is inversely related to the T2 relaxation time, and can be calculated using the formula linewidth (Hz) = 1/(2\u03c0T2), resulting in a linewidth of approximately 21.2 Hz for a T2 of 15 ms.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "All lanthanide elements react with aqueous acid to liberate hydrogen gas in a similar manner to alkali metals.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, unlike alkali metals, lanthanides do not react vigorously with aqueous acids to liberate hydrogen gas; their reactions are generally less intense and depend on specific conditions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15603"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The NMR frequency of 31 P in a 20.0 T magnetic field is 345.0 MHz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The NMR frequency of 31P in a 20.0 T magnetic field is true because the Larmor frequency, which is directly proportional to the strength of the magnetic field and the gyromagnetic ratio of 31P, results in a calculated frequency of approximately 345.0 MHz.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "993"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "HCl and NaOH are classified as a conjugate acid-base pair in acid-base chemistry.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "HCl is an acid that donates protons, while NaOH is a base that accepts protons, and they do not form a conjugate acid-base pair because they do not convert into each other through proton transfer.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "975"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "The 13 C spectrum of hexane exhibits three distinct chemical shifts due to its unique molecular structure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because hexane has a symmetrical structure that leads to distinct environments for its carbon atoms, resulting in three unique chemical shifts in its 13C NMR spectrum.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "At standard temperature and pressure, bromine (Br 2) exists as a red-brown volatile liquid.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "At standard temperature and pressure, bromine (Br2) is the only non-metallic element that is a liquid, characterized by its red-brown color and volatility.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14139"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the impact of doubling the volume of a buffer solution, composed of equal\nconcentrations of a weak acid and its conjugate base, on its pH and explain the underlying\nprinciples involved.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Doubling the volume of a buffer solution composed of equal concentrations of a weak acid\nand its conjugate base has little effect on its pH. This is because the pH of a buffer\nsolution is determined by the ratio of the concentrations of the weak acid and its\nconjugate base, as described by the Henderson-Hasselbalch equation, which states that pH =\npKa + log([A-]/[HA]). When the volume is doubled, the concentrations of both the acid and\nthe base are halved, but their ratio remains unchanged. Therefore, despite the increase in\nvolume, the pH remains stable, illustrating the buffer solution's ability to resist\nchanges in pH when diluted.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the pH of a buffer solution is determined by the ratio of the concentrations of its weak acid and conjugate base, which remains constant when the volume is doubled, leading to no significant change in pH despite the halving of individual concentrations.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "974"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_14_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that contribute to lattice enthalpy in ionic compounds, and analyze\nwhy magnesium oxide (MgO) exhibits the greatest lattice enthalpy among common ionic\nsubstances.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Lattice enthalpy in ionic compounds is influenced by several key factors, including the\ncharges of the ions and the distance between them. Higher charges lead to stronger\nelectrostatic forces, while smaller ionic radii decrease the distance between ions,\nfurther increasing lattice enthalpy. Magnesium oxide (MgO) exhibits the greatest lattice\nenthalpy among common ionic substances primarily due to the high charges of its\nconstituent ions, Mg^2\u207a and O^2\u207b, which generate particularly strong electrostatic\nattractions. Additionally, the small size of these ions allows for closer packing in the\ncrystal lattice, enhancing the overall stability of the compound. As a result, the\ncombination of high ionic charges and small ionic radii in MgO contributes to its\nexceptionally high lattice enthalpy.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that the lattice enthalpy is determined by the ionic charges and distances, and it specifically highlights that magnesium oxide has high charges on its ions, leading to stronger electrostatic interactions and hence the greatest lattice enthalpy among common ionic compounds.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "955"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

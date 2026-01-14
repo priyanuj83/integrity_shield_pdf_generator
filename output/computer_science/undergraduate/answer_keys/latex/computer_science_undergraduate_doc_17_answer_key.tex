@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(log $e^N$); B) O(log N); C) O(log log N); D) O(N)
+\\ \textit{Note:} The correct answer is O(log log N) because logarithmic growth, specifically when applied twice, results in a rate of increase that is slower than any polynomial or single logarithmic function, making it one of the slowest-growing functions in computational complexity.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) choice(seq); B) randrange ([start,] stop [,step]); C) random(); D) seed([x])
+\\ \textit{Note:} The function `seed([x])` in Python 3 initializes the random number generator with a specified starting value, allowing for reproducibility of the sequence of random numbers generated.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Insertion sort; B) Quicksort; C) Merge sort; D) Selection sort
+\\ \textit{Note:} Merge sort consistently divides the input array into smaller subarrays and merges them, resulting in a time complexity of O(n log n) regardless of the initial order of the elements, unlike other sorting algorithms such as quicksort or insertion sort, which can perform significantly worse with specific arrangements of input.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O($N^(1$/2)); B) O($N^(1$/4)); C) O($N^(1$/N)); D) O(N)
+\\ \textit{Note:} The function O($N^(1$/N)) grows the slowest because as N increases, the expression approaches 1, indicating that it increases at a rate significantly slower than polynomial functions, logarithmic functions, or most other common complexity classes.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 1; B) 3; C) 8; D) 16
+\\ \textit{Note:} The correct answer is 8 because the expression x \textless{}\textless{} 3 performs a left bitwise shift on the binary representation of the number 1, which effectively multiplies it by 2 raised to the power of 3, resulting in 1 * $2^3$ = 8.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, accessing the first element of the tuple ('abcd', 786, 2.23, 'john', 70.2) does not result in an error because tuple indexing starts at 0, so the first element can be successfully accessed using index 0.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The one-time pad is considered perfectly secure because it uses a key that is as long as the message, completely random, used only once, and is kept secret, ensuring that every possible plaintext is equally likely for a given ciphertext, thus providing unconditional security.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In two's-complement representation, adding the numbers 10000001 (which is -127 in decimal) and 10101010 (which is -86 in decimal) results in -213, which exceeds the representable range of -128 to 127 in 8-bit format, thus causing an overflow condition.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because in Python, slicing a list with the syntax `list[start:end]` extracts elements from index `start` to `end-1`, so `list[1:3]` retrieves the elements at indices 1 and 2, which are 786 and 2.23, resulting in the output [786, 2.23].
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because in a complete K-ary tree of depth N, the ratio of nonterminal nodes to total nodes actually approaches ($K^N$ - 1)/($K^N$ - 1 + 1) as N increases, which does not equal (K-1)/K.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def change\_date\_format(dt): | return re.sub(r'(\ensuremath{\d{4}})-(\ensuremath{\d{1,2}})-(\ensuremath{\d{1,2}})', '\\3-\\2-\\1', dt) | return change\_date\_format(dt)
+\\ \textit{Note:} The provided answer correctly utilizes a regular expression to capture the year, month, and day from the input string and rearranges them in the desired format, effectively transforming a date from yyyy-mm-dd to dd-mm-yyyy.
+\item \textbf{Answer:} def count\_no\_of\_ways(n, k): | return dp[n]
+\\ \textit{Note:} correct because it utilizes dynamic programming to efficiently compute the number of valid ways to paint the fence by maintaining a state that adheres to the restriction of having at most two consecutive posts of the same color.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

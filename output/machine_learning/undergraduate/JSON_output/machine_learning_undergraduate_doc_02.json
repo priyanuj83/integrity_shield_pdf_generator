@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_02",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 2",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_02.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Suppose we like to calculate P(H|E, F) and we have no conditional independence\ninformation. Which of the following sets of numbers are sufficient for the calculation?",
+      "options": {
+        "A": "P(E, F), P(H), P(E|H), P(F|H)",
+        "B": "P(E, F), P(H), P(E, F|H)",
+        "C": "P(H), P(E|H), P(F|H)",
+        "D": "P(E, F), P(E|H), P(F|H)"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the application of Bayes' theorem, which requires the joint probability P(E, F), the prior probability P(H), and the conditional probability P(E, F|H) to compute the posterior probability P(H|E, F) without any assumptions of independence.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6893"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following can only be used when training data are linearly separable?",
+      "options": {
+        "A": "Linear hard-margin SVM.",
+        "B": "Linear Logistic Regression.",
+        "C": "Linear Soft margin SVM.",
+        "D": "The centroid method."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The linear hard-margin SVM is designed specifically to find a hyperplane that perfectly separates linearly separable data without any misclassifications, making it applicable only in scenarios where such separation is achievable.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Predicting the amount of rainfall in a region based on various cues is a ______ problem.",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Unsupervised learning",
+        "C": "Clustering",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"supervised learning\" because predicting rainfall involves using labeled historical data to train a model that can make accurate forecasts based on observed features or cues.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6869"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "K-fold cross-validation is",
+      "options": {
+        "A": "linear in K",
+        "B": "quadratic in K",
+        "C": "cubic in K",
+        "D": "exponential in K"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "K-fold cross-validation is considered linear in K because the model is trained and validated K times, resulting in a computational complexity that increases linearly with the number of folds.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6906"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sentence is FALSE regarding regression?",
+      "options": {
+        "A": "It relates inputs to outputs.",
+        "B": "It is used for prediction.",
+        "C": "It may be used for interpretation.",
+        "D": "It discovers causal relationships"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because regression analysis identifies relationships between variables and predicts outcomes but does not establish causation, as correlation does not imply causation.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6870"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "DCGANs primarily rely on self-attention mechanisms to enhance image generation quality and training stability.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DCGANs primarily utilize convolutional layers and batch normalization rather than self-attention mechanisms to improve image generation quality and training stability.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The classification run time of the nearest neighbors algorithm is O(log N), which suggests a logarithmic search efficiency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The classification run time of the nearest neighbors algorithm is O(N) in the worst case because it requires examining all N training data points to find the nearest neighbor, not O(log N) as suggested by the statement.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6885"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "The use of weak classifiers in bagging helps prevent overfitting by averaging their predictions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The use of weak classifiers in bagging helps prevent overfitting because averaging their predictions reduces variance and leads to a more robust model that generalizes better to unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6894"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "A Bayesian network with the structure H -> U <- P <- W requires 8 independent parameters to fully specify the joint distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because a Bayesian network with that structure requires specifying the conditional probabilities for each node, which results in 8 independent parameters due to the dependencies and independence constraints defined by the network's structure.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6843"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "ImageNet contains images of various resolutions, making it a diverse dataset for training deep learning models.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "ImageNet includes millions of images collected from the internet, featuring a wide range of resolutions and aspects, which contributes to its diversity and effectiveness as a dataset for training deep learning models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find out the minimum no of swaps required for bracket balancing in the\ngiven string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def swap_count(s): | return swap",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the function `swap_count(s)` is designed to compute the minimum number of swaps needed to balance brackets in the given string, which is a critical task in algorithms related to string manipulation and balance checking.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "386"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_02_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to select the nth items of a list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def nth_items(list,n): | return list[::n]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the function uses Python's slicing feature to generate a new list that contains every nth element from the original list, efficiently fulfilling the requirement to select specific items based on their position.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "536"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

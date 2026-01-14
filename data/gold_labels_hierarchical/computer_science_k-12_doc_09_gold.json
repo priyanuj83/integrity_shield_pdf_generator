@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_09",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because the expression evaluates the modulus operation first, where 3 % 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The output is \"cba\" because the slicing notation [::-1] reverses the string by stepping backwards through the characters from the end to the beginning.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A function that sorts values in a column or row helps to identify improbable high or low values by organizing the data, making it easier to spot outliers or anomalies that may indicate data entry errors.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3221
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The output is \"aab\" because in Python 3, the \"+\" operator concatenates the two strings \"a\" and \"ab\" together.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3272
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression x >> 1 performs a bitwise right shift on the binary representation of 8, which results in 4, not 3.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3227
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The isupper() function returns True if all the alphabetic characters in a string are uppercase and there is at least one character, confirming that it checks for the uppercase status of all characters.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The random() function in Python 3 generates a random float between 0.0 and 1.0 and does not set or use an integer starting value for generating random numbers; instead, the seed for random number generation is set using the seed() function.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3261
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The condition a < b does not account for the relationship between a and c, meaning if c is involved in the expression, it can lead to different outcomes depending on its value.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3269
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Passing all tests does not guarantee that preconditions are correct, as tests may not cover all possible input scenarios or edge cases, allowing for undetected errors in the preconditions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "The RGB color model represents colors by combining varying intensities of red, green, and\nblue light. Each color in this model is defined using values that typically range from 0\nto 255, which allows for a wide spectrum of possible colors. To accurately represent a\ncolor, 24 bits are required; this is because each of the three colors (red, green, and\nblue) is represented by 8 bits, allowing for 256 possible values per color. When you\nmultiply the 256 values for red, green, and blue together (256 x 256 x 256), you get over\n16 million different colors. This extensive range enables the RGB model to create vibrant\nand diverse colors for digital displays.",
+      "marks": 10,
+      "explanation": "correct because the RGB color model defines colors through the combination of red, green, and blue light at varying intensities, requiring 24 bits to represent each color channel with 8 bits, resulting in a total of 256 values for each primary color.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3228
+    },
+    {
+      "question_id": "computer_science_k-12_doc_09_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "In Python 3, the exponential operator is represented by the double asterisk symbol (**),\nand it is used to calculate powers of numbers. For example, the expression `2 ** 3`\ncomputes 2 raised to the power of 3, resulting in 8. The syntax is straightforward: the\nbase number comes first, followed by the `**` operator, and then the exponent. This\noperator is particularly useful in mathematical computations, such as when dealing with\nexponential growth or in scientific calculations. Unlike other arithmetic operations like\naddition or multiplication, which combine values, the exponential operator specifically\nraises one number to the power of another, making it unique in its function.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the syntax and functionality of the exponential operator (`**`) in Python 3 for calculating powers, provides an example, and highlights its applications in mathematical and scientific contexts, while also hinting at its distinction from other arithmetic operations.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3219
+    }
+  ]
+}

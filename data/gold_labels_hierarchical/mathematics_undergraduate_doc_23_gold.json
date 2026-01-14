@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_23",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true for Statement 1 because an ideal is a special type of subring that absorbs multiplication by elements from the larger ring, while Statement 2 is false because not all subrings satisfy the necessary conditions to be ideals, particularly in terms of absorbing multiplication.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 99
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The equation x^(log y) = y^(log x) holds true in the open first quadrant where both x and y are positive, as logarithmic functions are defined only for positive arguments, leading to the conclusion that the solution set is confined to this region.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1146
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The degree of the field extension Q(\u221a2 + \u221a3) over Q is 4 because the minimal polynomial of \u221a2 + \u221a3 over Q has degree 4, which can be determined by considering the degrees of the individual extensions Q(\u221a2) and Q(\u221a3), each of which is 2, leading to a total degree of 2 x 2 = 4.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 8
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The number 3 is a generator for the finite field Z_7 because it can produce all non-zero elements of the field through its successive powers modulo 7, demonstrating that it is a primitive element of the group formed by the non-zero integers under multiplication modulo 7.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 38
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Every compact space is complete because in a compact metric space, every sequence has a convergent subsequence that converges to a limit within the space, ensuring that Cauchy sequences converge.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1105
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The characteristic of the ring 2Z is 0 because there is no positive integer n such that n multiplied by any non-zero element of 2Z results in zero, indicating that elements in this ring can be added to themselves indefinitely without reaching zero, thereby showing they have infinite order.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 15577
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because a linear transformation is defined by its ability to map points in a vector space to other points in the same space according to a specific linear function, and in this case, the transformation T correctly maps the input point (2, 1) to the output point (1, 6).",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1195
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because at x = 0, the slope of the tangent line, given by the derivative of y = x + e^x, is 2, and the y-intercept at that point is 1, resulting in the equation y = 2x + 1.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1132
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A complete graph with 10 vertices, denoted as K10, has 45 edges, as each vertex is connected to every other vertex, resulting in the formula \\( \\frac{n(n-1)}{2} \\) for the number of edges, where n is the number of vertices.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1106
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A function is a permutation if and only if it is both one-to-one and onto, so being onto alone does not suffice to classify a function as a permutation.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 89
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "We notice that the denominator on the left factors, giving us \\[\\frac{2\nx+4}{(x-1)(x+5)}=\\frac{2-x}{x-1}.\\]As long as $x\\neq 1$ we are allowed to cancel $x-1$\nfrom the denominators, giving \\[\\frac{2 x+4}{x+5}=2-x.\\]Now we can cross-multiply to find\n\\[2 x+4=(2-x)(x+5)=-x^2-3 x+10.\\]We simplify this to \\[x^2+5 x-6=0\\]and then factor to\n\\[(x-1)(x+6)=0.\\]Notice that since $x-1$ is in the denominator of the original equation,\n$x=1$ is an extraneous solution. However $x=\\boxed{-6}$ does solve the original equation.",
+      "marks": 10,
+      "explanation": "correct because it accurately factors the denominator, cancels common terms while respecting the restriction of the domain, cross-multiplies to derive a quadratic equation, and identifies the extraneous solution while presenting the valid solution of \\( x = -6 \\).",
+      "source_dataset": "gsm8k_math",
+      "source_id": 14093
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_23_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Statement 1 highlights the crucial relationship between continuity, compactness, and\nuniform continuity, asserting that a continuous function defined on a compact set is\nuniformly continuous. This implies that the properties of compactness, such as boundedness\nand closedness, ensure that the behavior of the function does not exhibit extreme\nfluctuations, which is essential in various mathematical analyses. Similarly, Statement 2\naffirms that the composition of differentiable functions results in a differentiable\nfunction, reinforcing the importance of differentiability in constructing complex\nfunctions. Both statements are true, illustrating foundational principles in real analysis\nthat connect different concepts in understanding function behavior and properties.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the compactness of a set guarantees uniform continuity for continuous functions, and it emphasizes the foundational role of differentiability in the composition of functions, linking these concepts to broader mathematical principles.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1141
+    }
+  ]
+}

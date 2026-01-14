@@ -1,0 +1,293 @@
+{
+  "docid": "engineering_graduate_doc_11",
+  "document_name": "Engineering - Graduate Level Assessment 11",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_11.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Find the variance of the random variable, Z = X + Y if X and Y are not independent.",
+      "options": {
+        "A": "VarZ = VarX + VarY - 2 E[{X - E(X)}{Y - E(Y)}]",
+        "B": "VarZ = |VarX - VarY|",
+        "C": "VarZ =VarX +VarY",
+        "D": "VarZ = VarX + VarY + Cov(X,Y)",
+        "E": "VarZ = (VarX + VarY) / 2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - VarZ = VarX + VarY - 2 E[{X - E(X)}{Y - E(Y)}]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11729"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "While operating on variable frequency supplies, the AC motor requires variable voltage in\norder to",
+      "options": {
+        "A": "extend the motor's lifespan.",
+        "B": "increase the motor's efficiency.",
+        "C": "reduce the motor's noise.",
+        "D": "maintain a constant speed.",
+        "E": "improve the motor's torque."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - extend the motor's lifespan.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11738"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "An SCR has half cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge\ncurrent will be",
+      "options": {
+        "A": "2121.32 A.",
+        "B": "6000 A.",
+        "C": "2000 A.",
+        "D": "7000 A.",
+        "E": "5000 A."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 2121.32 A.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11577"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In an experiment involving the toss of two dice, what is the probability that the sum is 6\nor 7?",
+      "options": {
+        "A": "5/36",
+        "B": "3/12",
+        "C": "6/36",
+        "D": "1/6",
+        "E": "17/36"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 5/36",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the input impedance of a 50 ohm line terminated in + j 50 ohms, for a line length\nsuch that \\betal = \\pi radian.",
+      "options": {
+        "A": "100 ohms",
+        "B": "0 ohms",
+        "C": "- 50 j ohms",
+        "D": "-100 j ohms",
+        "E": "+ 25 j ohms"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 100 ohms",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11352"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The radiation resistance of an antenna that radiates 8 kW and draws 20 A is 50 ohms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '25 ohms'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11552"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "In the binary number system, the first digit from right to left is called the Least Significant Bit (LSB).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11742"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The pressure drop in a tube with water flowing at 1 fps over 10 ft is 8.22 psf.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '15.38 psf'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12145"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The energy dissipated in a 4\u03a9 resistor with a current of i(t) = sin(\u03c0t) is E(1) = 1.5 J, E(2) = 3 J, E(3) = 4.5 J.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'E(1) = 2 J, E(2) = 4 J, E(3) = 6 J, E(4) = 8 J, E(5) = 10 J, E(6) = 12 J'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12090"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_11_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "For an 80% modulation of the audio portion in a TV signal, the carrier swing is 20 kHz and the frequency deviation is 40 kHz.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11353"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_11_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the amount of information conveyed when the sum of a rolled pair of dice is\nrevealed to be seven. Analyze how this relates to concepts of information theory and\nprobability.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "2.585 bits. Explain why this is the correct answer and provide supporting evidence.\nReference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_11_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between a time-varying magnetic field, described by B = B_0\ne^bta_z, and the resulting electric field. Derive the expression for the electric field\nproduced and analyze its implications in engineering applications.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "E = - (1/2)bB_0 e^btra_ extphi. Explain why this is the correct answer and provide\nsupporting evidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11775"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

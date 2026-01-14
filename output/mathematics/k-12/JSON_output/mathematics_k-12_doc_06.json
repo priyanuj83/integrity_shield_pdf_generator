@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_k-12_doc_06",
+  "document_name": "Mathematics - K-12 Level Assessment 6",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_06.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_06.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_06_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_06_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_06_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_06_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Restate the expression 4(3 + 2) using the Distributive Property. Do not simplify.",
+      "options": {
+        "A": "4(3) + 2",
+        "B": "4(3) + 4(2)",
+        "C": "20",
+        "D": "3 + 4(2)"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, 4(3) + 4(2), is derived from the Distributive Property, which states that a(b + c) can be expressed as ab + ac, allowing us to distribute the 4 to both terms inside the parentheses without simplifying the expression.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2214"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which statementis true?",
+      "options": {
+        "A": "The product of 5 x 2 is even because both of the factors are even.",
+        "B": "The product of 4 x 4 is odd because both of the factors are even.",
+        "C": "The productof 2 x 7 is even because both of the factors are odd.",
+        "D": "The product of 5 x 3 is odd because both of the factors are odd."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is incorrect because the product of 5 x 3 is actually 15, which is odd, but the reasoning that both factors are odd is misleading as the product of two odd numbers is always odd regardless of the specific values of the factors.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2420"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Identify the algebraic expression that matches the word phrase: 4 times as many cans as\nTom collected.",
+      "options": {
+        "A": "4 t",
+        "B": "t over 4",
+        "C": "t - 4",
+        "D": "t + 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression \"4t\" accurately represents the phrase \"4 times as many cans as Tom collected,\" where \"t\" symbolizes the number of cans Tom collected, thus multiplying it by 4 gives the total number of cans.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2094"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "How many positive and negative integers is $12$ a multiple of?",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "12",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number 12 is a multiple of all positive integers from 1 to 12, totaling 12 positive multiples, and for negative integers, it includes all negative integers from -1 to -12, also totaling 12 negative multiples, resulting in a total of 12 positive and 12 negative integers.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4471"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_06_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find 1 over 6 + 1 over 8.",
+      "options": {
+        "A": "7 over 24",
+        "B": "2 over 14",
+        "C": "1 over 7",
+        "D": "1 over 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 7 over 24 because finding a common denominator of 24 allows us to convert 1 over 6 to 4 over 24 and 1 over 8 to 3 over 24, and when we add these fractions together, we get 7 over 24.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2352"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Mark has a total of 73 stamps in his collection from Japan, Canada, and Mexico combined.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it accurately reflects the total number of stamps Mark has in his collection from the three countries combined, confirming that the sum is indeed 73.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2088"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The simplified form of the fraction is \\( \\frac{\\sqrt{3}}{12} \\).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The fraction \\( \\frac{\\sqrt{3}}{12} \\) is already in its simplest form because the numerator and denominator have no common factors other than 1.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4466"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Find $b$ if $\\log_{b}343=-\\frac{3}{2}$.' is '\\frac{1}{49}'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if $\\log_{b}343=-\\frac{3}{2}$, then $b^{-\\frac{3}{2}}=343$, which simplifies to $b = \\frac{1}{49}$ after manipulating the equation.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4284"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "Evaluating (c^2 - b^2)^2 + a^2 for a = 5, b = 3, and c = 2 results in 50.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "When substituting a = 5, b = 3, and c = 2 into the expression (c^2 - b^2)^2 + a^2, the calculation simplifies to (2^2 - 3^2)^2 + 5^2 = (4 - 9)^2 + 25 = (-5)^2 + 25 = 25 + 25 = 50, confirming the statement is true.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_06_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The mean of the data set 18, 9, 9, 10, 11, 14, 30, 19 is 11.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mean of the data set is calculated by adding all the numbers together (18 + 9 + 9 + 10 + 11 + 14 + 30 + 19 = 120) and dividing by the number of values (8), which gives 120 \u00f7 8 = 15, not 11.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_06_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Stephanie flew 2,448 miles from Los Angeles to New York City. Discuss how you would round\nthis distance to the nearest thousand miles and explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To round the distance of 2,448 miles from Los Angeles to New York City to the nearest\nthousand miles, we first identify the thousands place, which is the digit '2' in this\ncase. We then look at the digit to the right of it, which is '4'. Since this digit is less\nthan 5, we round down. Therefore, 2,448 rounded to the nearest thousand is 2,000 miles.\nRounding helps us simplify numbers, making them easier to work with while still providing\na rough estimate.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the rounding rules, identifying the thousands place and determining that since the next digit is less than 5, the distance rounds down to 2,000 miles.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2354"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_06_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "In parallelogram \\(ABCD\\), angle \\(B\\) measures \\(110^\\circ\\). Explain how you can\ndetermine the measure of angle \\(C\\) and discuss the properties of parallelograms that\nsupport your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In parallelogram \\(ABCD\\), the measure of angle \\(C\\) can be determined using the\nproperties of parallelograms, specifically that opposite angles are equal and consecutive\nangles are supplementary. Since angle \\(B\\) measures \\(110^\\circ\\), angle \\(A\\) must also\nbe \\(110^\\circ\\) because it is opposite angle \\(B\\). Consequently, angles \\(C\\) and \\(D\\)\nare supplementary to angles \\(A\\) and \\(B\\), respectively. Therefore, angle \\(C\\) can be\ncalculated as \\(180^\\circ - 110^\\circ = 70^\\circ\\). This reasoning is supported by the\ndefining properties of parallelograms, which ensure that adjacent angles sum to\n\\(180^\\circ\\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies the properties of parallelograms, stating that opposite angles are equal and consecutive angles are supplementary, allowing for the determination of angle \\(C\\) as \\(70^\\circ\\) based on the measure of angle \\(B\\).",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4254"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

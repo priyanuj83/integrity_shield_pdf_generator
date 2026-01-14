@@ -1,0 +1,290 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_03",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 3",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_03.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authentication aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication aims to determine who the user is by verifying their identity through various means, such as passwords, biometrics, or security tokens, to ensure that access to systems and data is granted only to authorized individuals.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A proxy rewall lters at the",
+      "options": {
+        "A": "Physical layer",
+        "B": "Application layer",
+        "C": "Data link layer",
+        "D": "Network layer"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A proxy firewall operates at the application layer because it inspects and filters traffic based on the specific applications and protocols being used, such as HTTP or FTP, rather than just examining the raw data packets.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1528"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Message Condentiality, the transmitted message must make sense to only intended",
+      "options": {
+        "A": "Receiver",
+        "B": "Sender",
+        "C": "Modulor",
+        "D": "Translator"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Receiver\" because message confidentiality ensures that only the intended recipient can understand the transmitted message, protecting it from unauthorized access and maintaining its secrecy.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1474"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Can we build a secure PRP from a secure PRG?",
+      "options": {
+        "A": "No, it cannot be done",
+        "B": "Yes, just plug the GGM PRF into the Luby-Rackoff theorem",
+        "C": "It depends on the underlying PRG",
+        "D": "Option text"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A secure pseudorandom permutation (PRP) can be constructed from a secure pseudorandom generator (PRG) by applying the Luby-Rackoff theorem, which demonstrates how to build a secure PRP using a secure pseudorandom function (PRF) derived from the PRG, specifically through the GGM construction.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14208"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a security exploit?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Cross-site scripting",
+        "C": "Authentication",
+        "D": "SQL Injection"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is a security process designed to verify the identity of users, rather than a method used to exploit vulnerabilities in a system.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1485"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Wireshark is a widely used tool for capturing and analyzing wireless traffic in network security.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireshark is widely recognized for its capabilities in capturing and analyzing network traffic, including wireless packets, making it an essential tool in the field of network security for monitoring and troubleshooting communication.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "A buffer overflow can allow direct writing to the instruction pointer register, which executes the attacker's code immediately.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow typically allows an attacker to overwrite a function's return address on the stack, which can redirect execution to malicious code, but it does not allow direct writing to the instruction pointer register itself.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1531"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "A ping sweep is used to identify live systems on a network by sending ICMP echo requests to multiple IP addresses.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A ping sweep is considered true because it involves sending Internet Control Message Protocol (ICMP) echo requests to a range of IP addresses to determine which hosts are active and responsive on a network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1566"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Message authentication is a service that ensures message integrity by verifying the authenticity of the message sender.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message authentication involves using cryptographic techniques to confirm that a message has not been altered and that it originates from a legitimate sender, thereby ensuring both the integrity and authenticity of the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1513"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Snort is a tool used for network intrusion detection and real-time traffic analysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Snort is indeed a widely used open-source tool that analyzes network traffic in real-time to detect potential intrusions and threats, thereby serving as a crucial component in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to calculate the sum of series 1^3+2^3+3^3+\u2026.+n^3.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_series(number): | return total",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it indicates the need for a function that computes the sum of the cubes of the first n natural numbers, although it lacks the complete implementation details necessary to achieve this.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to insert a given string at the beginning of all items in a list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def add_string(list,string): | return add_string",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that is intended to modify a list by inserting a specified string at the beginning of each item, although the actual implementation is incomplete and does not perform the required operation.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "390"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

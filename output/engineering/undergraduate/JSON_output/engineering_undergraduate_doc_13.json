@@ -1,0 +1,295 @@
+{
+  "docid": "engineering_undergraduate_doc_13",
+  "document_name": "Engineering - Undergraduate Level Assessment 13",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_13.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A liquid compressed in a cylinder has a volume of 1 liter (l) (1000 cm^3) at 1 MN/m^2 and\na volume of 995 cm^3 at 2 MN/m^2. What is the bulk modulus of elasticity?",
+      "options": {
+        "A": "400 Mpa",
+        "B": "600 Mpa",
+        "C": "750 Mpa",
+        "D": "150 Mpa",
+        "E": "500 Mpa"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 400 Mpa",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12207"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the general solution of Bessel's equation of order one.",
+      "options": {
+        "A": "y(x) = c_1 * sin(x) + c_2 * cos(x)",
+        "B": "y(x) = c_1 * y_1(x)^2 + c_2 * y_2(x)^2",
+        "C": "y(x) = c_1 y_1(x) + c_2 y_2(x)",
+        "D": "y(x) = c_1 * x * y_1(x) + c_2 / (x * y_2(x))",
+        "E": "y(x) = c_1 * y_1(x) / (c_2 * y_2(x))"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - y(x) = c_1 y_1(x) + c_2 y_2(x)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11570"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Determine the mean-square quantization error during the quantization of a signal. Assume\nthat the error (equally likely) lies in the range - S/2 to + S/2, where S is the step\nsize.",
+      "options": {
+        "A": "(S^2 / 3)",
+        "B": "(S^2 / 12)",
+        "C": "(S^2 / 24)",
+        "D": "(S^2 / 8)",
+        "E": "(S^2 / 18)"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - (S^2 / 12)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11866"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the Laplace transform oft^nu(t).",
+      "options": {
+        "A": "L{t^nu(t)} = [n! / (s^(n+3))]",
+        "B": "L{t^nu(t)} = [(n+1)! / (s^(n+1))]",
+        "C": "L{t^nu(t)} = [n! / (s^n)]",
+        "D": "L{t^nu(t)} = [n! / (s^n+ 2)]",
+        "E": "L{t^nu(t)} = [n! / (s^n+ 1)]"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - L{t^nu(t)} = [n! / (s^n+ 1)]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11855"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the change in the stored energy of a parallel plate capacitoras a result of\ninserting a dielectric slab.",
+      "options": {
+        "A": "0.30",
+        "B": "0.92",
+        "C": "0.99",
+        "D": "1.05",
+        "E": "0.65"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 0.30",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12085"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "In the force-current analogy, the electrical analogous quantity for a dash-pot is admittance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'reactance.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12050"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The electric field in the gap between two infinite parallel plates is double the field produced by one plate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'zero.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Fourier series f(t) can be equivalently represented as f(t) = 2 + \u2211(cos(kt) + k sin(kt)) / (1 + k^2).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'f(t) = 1 + 2 ^\\infty\\sum_k=1 [{coskt+ k sinkt} / {1 + k^2}]'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The 8085 microprocessor has 22 output pins.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '27.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11361"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_13_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Sensitivity refers to the smallest change in measured variable that an instrument will respond to, similar to resolution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'resolution.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11658"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_13_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the loss of head in a 1/4 inch diameter, 16 ft long pipe when water flows at\nhalf the critical velocity. Discuss the factors influencing this calculation and the\nimplications for fluid dynamics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "3.12 in. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11346"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_13_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "A vertical cylinder with a diameter of 300 mm contains water at 70^\\circC and has a\nfrictionless piston. Analyze the conditions under which the water will boil and calculate\nthe minimum force required on the piston to achieve this, considering the atmospheric\npressure of 100 kPa. Provide a detailed explanation of your reasoning and calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "3.12 kN. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11826"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

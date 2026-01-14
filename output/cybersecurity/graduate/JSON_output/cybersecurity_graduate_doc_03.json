@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_03",
+  "document_name": "Cybersecurity - Graduate Level Assessment 3",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_03.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which form of encryption does WPA use?",
+      "options": {
+        "A": "Shared key",
+        "B": "LEAP",
+        "C": "TKIP",
+        "D": "AES"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as its encryption method to enhance the security of wireless networks by dynamically generating a new key for each data packet, addressing vulnerabilities present in the earlier WEP (Wired Equivalent Privacy) protocol.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1552"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "How do you prevent SQL injection?",
+      "options": {
+        "A": "Escape queries",
+        "B": "Interrupt requests",
+        "C": "Merge tables",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Escaping queries is essential in preventing SQL injection because it ensures that user inputs are treated as data rather than executable code, thereby thwarting potential malicious SQL commands from being executed in the database.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A ___________ is a method in which a computer security mechanism is bypassed untraceable\nfor accessing the computer or its information.",
+      "options": {
+        "A": "front-door",
+        "B": "backdoor",
+        "C": "clickjacking",
+        "D": "key-logging"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a method that allows unauthorized access to a computer system by circumventing security measures, often remaining untraceable to the system's legitimate users.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1517"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A _________________ may be a hidden part of a program, a separate infected program a\nTrojan in disguise of an executable or code in the firmware of any system's hardware.",
+      "options": {
+        "A": "crypter",
+        "B": "virus",
+        "C": "backdoor",
+        "D": "key-logger"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a method of bypassing normal authentication or security measures in a computer system, allowing unauthorized access to the system while often remaining unnoticed, which aligns with the description of being a hidden or disguised part of a program.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1562"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authentication aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication aims to determine who the user is by verifying their identity through various methods, ensuring that access to systems and data is granted only to legitimate users.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Common types of scanning in cybersecurity consist of server scanning, client scanning, and network scanning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because common types of scanning in cybersecurity are typically categorized into vulnerability scanning, port scanning, and network mapping, rather than specifically distinguishing between server scanning, client scanning, and network scanning.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "MD 5 generates a message digest that is 160 bits long.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "MD5 generates a message digest that is 128 bits long, not 160 bits.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1487"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "A buffer overflow on the stack enables direct modification of the instruction pointer register to execute arbitrary code.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow on the stack typically allows for the modification of local variables or return addresses but does not inherently enable direct modification of the instruction pointer register to execute arbitrary code without additional vulnerabilities or conditions being exploited.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1531"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The IP Network Browser is a tool commonly used for performing SNMP enumeration in network security assessments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The IP Network Browser is indeed a tool used in network security assessments for performing SNMP enumeration, as it allows security professionals to discover devices and gather information about their configurations and services through the Simple Network Management Protocol (SNMP).",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The one-time pad key can be computed using the formula k = m xor c, where m is the message and c is the ciphertext.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because in a one-time pad encryption scheme, the key k can be derived from the original message m and the ciphertext c through the operation k = m xor c, which allows for the retrieval of the key used in the encryption process.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the longest common subsequence for the given two sequences.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def longest_common_subsequence(X, Y, m, n): | return 0 | return 1 + longest_common_subsequence(X, Y, m-1, n-1) | return max(longest_common_subsequence(X, Y, m, n-1), longest_common_subsequence(X, Y, m-1, n))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly implements a recursive approach to find the longest common subsequence by considering three cases: when the last characters of both sequences match, when the last character of the first sequence does not match, and when the last character of the second sequence does not match, ensuring all possible subsequences are evaluated.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "187"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_03_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count unset bits of a given number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_unset_bits(n): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function that will iterate through the binary representation of the number 'n' to count and return the total number of unset (zero) bits, which is a fundamental operation in binary manipulation relevant to cybersecurity.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "331"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

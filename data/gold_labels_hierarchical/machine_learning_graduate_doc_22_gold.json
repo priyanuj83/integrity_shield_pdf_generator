@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_22",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A large step size can cause the model to overshoot the optimal solution during training, leading to increased training loss as the model fails to converge effectively.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "correct because the BLEU metric indeed relies on precision to evaluate machine translation quality, the ROGUE metric focuses on recall for summarization tasks, and Hidden Markov Models have historically been applied to model the sequential nature of English sentences in various natural language processing applications.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6924
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dimensionality of the null space of matrix A is 2 because the rank of the matrix is 1, leading to a nullity of 2 as determined by the Rank-Nullity Theorem.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Highway networks are indeed introduced before ResNets and utilize learned gating mechanisms instead of max pooling, making Statement 1 false, while DenseNets typically require more memory due to their dense connectivity patterns, making Statement 2 true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the structure of the Bayesian Network, where the joint probability is calculated by multiplying the prior probability of each root node and the conditional probabilities of each child node given its parents, which in this case leads to P(H) * P(W) * P(P | W) * P(U | H, P).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The learning rate determines the size of the steps taken during optimization, which directly affects how quickly and effectively a neural network converges to a minimum in the loss function, making it a critical factor in successful training.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Bayesian networks can require more than seven independent parameters, as the complexity and number of variables in the network can lead to an exponential increase in the number of parameters needed to accurately represent the joint distribution, even when independence assumptions are disregarded.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6881
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "High entropy signifies a high level of disorder or uncertainty in a dataset, indicating that the data points are distributed across multiple classes rather than being concentrated in a single class, which results in impure partitions in classification tasks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The original ResNet architecture is based on convolutional neural networks and employs residual connections, while self-attention mechanisms, which are characteristic of Transformers, are not utilized in ResNet's design.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the joint probability P(A, B, C) is defined as P(A | B, C) * P(B | C) * P(C), and the proposed expression does not account for the necessary dependencies between the variables.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def text_match_string(text): | return 'Found a match!' | return 'Not matched!'",
+      "marks": 10,
+      "explanation": "The provided function correctly identifies whether a specified word appears at the beginning of the input string by utilizing conditional logic to return a corresponding match status message.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 44
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_22_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def left_insertion(a, x): | return i",
+      "marks": 10,
+      "explanation": "correct because it outlines a function designed to find the index at which a specified value can be inserted into a sorted array without disrupting the order, which is essential for maintaining the properties of sorted data structures in machine learning algorithms.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 736
+    }
+  ]
+}

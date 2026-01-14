@@ -1,0 +1,294 @@
+{
+  "docid": "engineering_undergraduate_doc_12",
+  "document_name": "Engineering - Undergraduate Level Assessment 12",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_12.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Magnetic flux has the unit of",
+      "options": {
+        "A": "Volt",
+        "B": "Weber",
+        "C": "Watt",
+        "D": "Ohm",
+        "E": "Joule"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - Weber",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11813"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Use the derivative property of Laplace transforms to solve the differential equation y' -\ny = e^-x(1) where y(0) = 0 is the initial value of y.",
+      "options": {
+        "A": "sinh x",
+        "B": "e^x - e^-x",
+        "C": "e^x + x",
+        "D": "x^2 e^x",
+        "E": "cosh x"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - sinh x",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The resistance in the circuit of the moving coil of a dynamometer wattmeter should be",
+      "options": {
+        "A": "Low.",
+        "B": "Very low.",
+        "C": "High.",
+        "D": "Almost zero."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - High.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12192"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Potentiometer method of DC voltage measurement is more accurate than direct measurement\nusing a voltmeter because",
+      "options": {
+        "A": "It does not load the circuit at all.",
+        "B": "It uses a potentiometer, which is more accurate than a voltmeter.",
+        "C": "It uses a more precise measuring tool than a voltmeter.",
+        "D": "It uses centre zero galvanometer instead of voltmeter.",
+        "E": "It uses an ammeter instead of a voltmeter."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - It does not load the circuit at all.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11736"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Express the Boyle temperature of a van der Waals gas in terms of the constants a, b, and\nR. The final expression for T_B must contain only a, b, and R.",
+      "options": {
+        "A": "T_B = (a / 2 bR)",
+        "B": "T_B = (R / ab)",
+        "C": "T_B = (2 a / bR)",
+        "D": "T_B = (aR^2 / b)",
+        "E": "T_B = (bR / a)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - T_B = (a / 2 bR)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11367"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sequence y[n] satisfying the given difference equation is y[n] = 6 - (1/2)^n - (1/3)^n.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The determinant of matrix A is 0, indicating that the matrix is singular and does not have an inverse.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11328"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Laplace transform of f(t) = sin(kt) is k / (s^2 - k^2), which is incorrect.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '[k / (s^2 + k^2)]'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12178"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "Evaluating the vector function at the point (-1, 1, 2) yields -3 - e^-1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_12_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The initial value of f(t) = e^-2 t u(t) at t = 0^+ is 0, and the slope is -2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'Initial value is 2, slope is -4'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_12_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing power delivery in a roller chain system, and calculate the\npower output for a 3/4 in. pitch chain on a 34-tooth sprocket rotating at 500 rpm.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "4.73. Explain why this is the correct answer and provide supporting evidence. Reference\nkey facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12233"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_12_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given a mixture of N\u2082 and O\u2082 gases with equal weights and specified absolute velocities,\nanalyze the system to calculate the mass and molar average velocities. Discuss the\nimplications of your findings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Average mass velocity is 0 and molar average velocity is - 0.42 i m/sec. Explain why this\nis the correct answer and provide supporting evidence. Reference key facts or concepts\nthat support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12115"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_11",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 11",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_11.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Applications developed by programming languages like ____ and ______ have this common\nbuffer-overflow error.",
+      "options": {
+        "A": "C, Ruby",
+        "B": "Python, Ruby",
+        "C": "C, C++",
+        "D": "Tcl, C#"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "C and C++ are both low-level programming languages that allow direct memory manipulation, making them particularly susceptible to buffer-overflow vulnerabilities due to inadequate bounds checking.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Man in the middle attack can endanger the security of Diffie Hellman method if two parties\nare not",
+      "options": {
+        "A": "Joined",
+        "B": "Authenticated",
+        "C": "Submitted",
+        "D": "Shared"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Authenticated\" because without proper authentication, a man-in-the-middle attacker can intercept and alter the key exchange process of the Diffie-Hellman method, compromising the confidentiality and integrity of the communication.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "____________________ is the anticipation of unauthorized access or break to computers or\ndata by means of wireless networks.",
+      "options": {
+        "A": "Wireless access",
+        "B": "Wireless security",
+        "C": "Wired Security",
+        "D": "Wired device apps"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless security refers to the measures and protocols implemented to protect wireless networks from unauthorized access or breaches, making it the correct answer as it directly addresses the anticipation of threats to computers and data transmitted over these networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+      "options": {
+        "A": "boundary hacks",
+        "B": "memory checks",
+        "C": "boundary checks",
+        "D": "buffer checks"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, leading to potential security exploits, which can be prevented by implementing thorough boundary checks to ensure data is properly validated before being processed.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The __________ was a huge marketplace of Dark Web specifically famous for selling of\nillegal drugs & narcotics as well as you can find a wide range of other goods for sale.",
+      "options": {
+        "A": "Silk Road",
+        "B": "Cotton Road",
+        "C": "Dark Road",
+        "D": "Drug Road"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Silk Road was a notorious online marketplace on the Dark Web that became widely known for facilitating the sale of illegal drugs, narcotics, and various other illicit goods.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "The AH Protocol guarantees both data integrity and privacy for the information being transmitted.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The AH Protocol provides data integrity through hashing but does not offer encryption, which means it does not guarantee privacy for the transmitted information.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1484"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Buffer overflow vulnerabilities are primarily caused by insufficient processing power during application execution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer overflow vulnerabilities are primarily caused by programming errors, such as improper handling of memory allocation and bounds checking, rather than insufficient processing power.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1479"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Heartbleed bug allows an attacker to perform a read outside the bounds of a buffer, exposing sensitive data in memory.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the TLS/DTLS heartbeat extension, allowing attackers to read more data than intended from the memory of affected servers, thus revealing sensitive information.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15631"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "A buffer overflow occurs when a pointer is used to access memory not allocated to it.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, which can cause adjacent memory locations to be overwritten, allowing for unauthorized access to memory not allocated to the pointer.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1506"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Encapsulating Security Payload (ESP) is a protocol that belongs to the Internet Protocol Security (IPsec) suite.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Encapsulating Security Payload (ESP) is indeed a protocol within the Internet Protocol Security (IPsec) suite because it provides confidentiality, integrity, and authentication for data packets transmitted over IP networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the number of subsequences having product smaller than k for the\ngiven non negative array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def no_of_subsequences(arr, k): | return dp[k][n]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it leverages dynamic programming to efficiently count the subsequences of the given non-negative array whose product is less than the specified threshold k, ultimately storing and retrieving results from a table (dp) that tracks the number of valid subsequences for various products.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_11_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove an empty tuple from a list of tuples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_empty(tuple1): #L = [(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')] | return tuple1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that takes a list of tuples as input and returns only those tuples that are not empty, thereby effectively removing any empty tuples from the list.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "966"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

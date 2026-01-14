@@ -1,0 +1,294 @@
+{
+  "docid": "health_sciences_undergraduate_doc_05",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 5",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "mmlu_pro_health_mcq",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_05.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following genes conveys susceptibility for polygenic Alzheimer disease?",
+      "options": {
+        "A": "APP",
+        "B": "PS 1",
+        "C": "PS 2",
+        "D": "APOE"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The APOE gene is known to significantly influence the risk of developing polygenic Alzheimer disease, particularly the APOE \u03b54 allele, which has been consistently associated with increased susceptibility to the condition.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7303"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The normal human chromosome diploid number is:",
+      "options": {
+        "A": "23",
+        "B": "24",
+        "C": "46",
+        "D": "48"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 46 because humans have 23 pairs of chromosomes, resulting in a total diploid number of 46 chromosomes.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7357"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Most viral vaccines are produced by which of the following techniques?",
+      "options": {
+        "A": "Traditional cell culture",
+        "B": "Molecular biology",
+        "C": "Animal tissues in vitro",
+        "D": "VLPs (virus like particles)"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Molecular biology techniques are used to manipulate viral genes and produce recombinant proteins, which are essential for creating effective viral vaccines.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13832"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The highest risk of HIV infection among drug users in the U.S. is in:",
+      "options": {
+        "A": "The east coast",
+        "B": "The central United States (Kansas, Missouri etc.)",
+        "C": "Southern California",
+        "D": "The Pacific Northwest (Washington, Oregon, Idaho)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The highest risk of HIV infection among drug users in the U.S. is on the east coast due to higher rates of injection drug use, greater population density, and more significant socioeconomic factors that facilitate the spread of the virus.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13811"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Free radicals are produced by",
+      "options": {
+        "A": "Normal metabolism",
+        "B": "Excess consumption of Vitamins A and C",
+        "C": "Lack of sunlight",
+        "D": "A weakened immune system"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Free radicals are produced as a byproduct of normal metabolic processes in the body, particularly during the conversion of food into energy, highlighting their inherent role in biological functions.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6121"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "The dorsal roots of all spinal nerves contain both sensory and motor neuronal processes that facilitate reflex actions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the dorsal roots of spinal nerves only contain sensory neuronal processes, while the motor neuronal processes are located in the ventral roots.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "230"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "The gender gap is likely associated with differences in hormones, risky behaviors, and smoking prevalence between males and females.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The gender gap in health outcomes is influenced by biological differences in hormone levels, which can affect behavior and health risks, as well as the prevalence of risky behaviors and smoking, which are often more common in males, leading to disparities in health.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The trachea is totally enclosed by cartilaginous rings throughout its length.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the trachea is not entirely enclosed by cartilaginous rings; it has C-shaped cartilaginous rings that leave the posterior aspect open to allow flexibility and accommodation of the esophagus during swallowing.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "14064"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "During palpation of the neck, the cricoid cartilage should be felt before the thyroid cartilage and hyoid bone.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The cricoid cartilage is located below the thyroid cartilage and hyoid bone, making it anatomically impossible to palpate the cricoid cartilage before the thyroid cartilage and hyoid bone.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "As of 2019, African American women are more likely to remain at home alone compared to other racial and ethnic groups.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2019, studies indicated that African American women often face socioeconomic challenges and systemic barriers that contribute to higher rates of single-parent households and living alone compared to other racial and ethnic groups.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "15733"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of tar in tobacco smoke and its contribution to the development of\ncancers. Analyze its mechanisms and the implications for public health.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Tar in tobacco smoke is a complex mixture of particulate matter that contains numerous\ncarcinogenic compounds, contributing significantly to the development of cancers,\nparticularly lung cancer. When tobacco is burned, tar condenses in the lungs, leading to\ndirect exposure of lung tissue to these harmful substances, which can cause genetic\nmutations and promote tumor formation. The carcinogenic components of tar, such as\npolycyclic aromatic hydrocarbons and nitrosamines, disrupt normal cellular processes,\nleading to uncontrolled cell growth. Public health implications are profound, as the\npervasive use of tobacco products and the resultant exposure to tar necessitate\ncomprehensive smoking cessation programs and regulatory measures to reduce tobacco\nconsumption and protect public health. Understanding the role of tar emphasizes the urgent\nneed for preventive strategies against tobacco-related diseases.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies tar as a carcinogenic component of tobacco smoke that directly damages lung tissue and causes genetic mutations, ultimately leading to cancer development, which has significant public health implications.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15736"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_05_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of cellular scaffolding in the nucleus and cytoplasm during the assembly\nstage of viral replication, highlighting its significance and mechanism.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Cellular scaffolding plays a crucial role in the assembly stage of viral replication by\nproviding structural support and organization within the nucleus and cytoplasm. In the\nnucleus, scaffolding proteins facilitate the localization of viral components, ensuring\nefficient assembly of viral genomes and proteins into new virions. Similarly, in the\ncytoplasm, these scaffolds aid in the coordination of viral assembly by organizing viral\nproteins and cellular machinery, optimizing the conditions for replication and packaging.\nThe significance of cellular scaffolding lies in its ability to enhance the efficiency of\nviral replication, ultimately facilitating the spread of the virus. This mechanism\nhighlights the intricate interplay between viral strategies and host cellular structures,\nunderscoring the importance of cellular architecture in viral life cycles.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that cellular scaffolding is essential for the structural organization and localization of viral components during the assembly stage of viral replication, facilitating efficient viral genome and protein assembly in both the nucleus and cytoplasm.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "13816"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

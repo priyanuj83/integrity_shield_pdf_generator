@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_17",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's cake of machine learning because it represents an advanced paradigm that combines elements of supervised and unsupervised learning to enable agents to learn optimal behaviors through trial and error in dynamic environments.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14783
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Pruning a Decision Tree is essential to reduce its complexity and prevent it from fitting noise and outliers in the training data, which leads to overfitting and poor generalization to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "High entropy in classification indicates a high level of disorder or uncertainty within the partitions, meaning that the data points in those partitions are mixed and not predominantly from a single class, which results in impure classifications.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The softmax function is indeed used in multiclass logistic regression to convert raw scores into probabilities, and the temperature parameter in a nonuniform softmax distribution adjusts the distribution's sharpness or flatness, thereby influencing its entropy, which measures uncertainty.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6874
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the chain rule of probability, which states that the joint probability of multiple events can be expressed as the product of the conditional probability of one event given another and the probability of that other event, thus P(A, B, C) = P(A, B | C) * P(C).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6932
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Residual connections facilitate the flow of gradients during backpropagation, enabling deeper architectures like ResNets and improving the training dynamics of Transformers, which ultimately enhances model performance and stability.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6892
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The softmax function transforms the raw output scores of a multiclass logistic regression model into a probability distribution across multiple classes, ensuring that the probabilities sum to one, which is essential for modeling categorical outcomes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6874
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Averaging the output of multiple decision trees reduces variance by mitigating the effects of individual trees' overfitting, as their errors tend to cancel each other out when combined.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6863
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Grid search evaluates every possible combination of hyperparameters, leading to a significant increase in computational time, especially as the number of parameters and their possible values increases, which makes it run slowly for multiple linear regression.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6868
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The degree of a polynomial in polynomial regression directly influences the model's complexity, with lower degrees risking underfitting by failing to capture the underlying data patterns, while higher degrees can lead to overfitting by modeling noise in the data, thus establishing a critical trade-off between the two.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6853
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "To derive the gradient of the objective function \\( f(w) = \\frac{1}{2} \\|Xw - y\\|_2^2 +\n\\frac{1}{2}\\lambda \\|w\\|_2^2 \\) with respect to \\( w \\), we begin by applying the chain\nrule and properties of matrix derivatives. The first term can be expanded as \\(\n\\frac{1}{2} (Xw - y)^\\top (Xw - y) \\). The gradient of this term is given by \\( X^\\top (Xw\n- y) \\). The second term, which is a regularization term, has a gradient of \\( \\lambda w\n\\). Combining these results, we obtain the overall gradient: \\( \\nabla_w f(w) = X^\\top X w\n- X^\\top y + \\lambda w \\). This expression reflects how changes in \\( w \\) affect the\nobjective function, balancing the fit to the data with the regularization imposed by \\(\n\\lambda \\).",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the chain rule and matrix derivative properties to derive the gradient of the objective function, correctly calculating the gradient of the loss term and the regularization term, and then combining them to obtain the overall gradient with respect to \\( w \\).",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6941
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_17_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "To derive P(A | B), we can utilize Bayes' theorem, which states that P(A | B) = P(B | A) *\nP(A) / P(B). This formula allows us to compute the conditional probability of A given B by\nknowing the likelihood of B given A, along with the prior probabilities of A and B. In a\nmachine learning context, understanding these probabilities is crucial for models that\nrely on probabilistic reasoning, such as Bayesian networks, where the relationships\nbetween variables inform decision-making processes. Analyzing the implications of these\nprobabilities helps in refining models and improving predictions by capturing the\ndependencies between features in the data. Thus, accurately calculating P(A | B) can\nsignificantly enhance the performance and interpretability of machine learning algorithms.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies Bayes' theorem to derive the conditional probability P(A | B) using the relevant probabilities and highlights the significance of these concepts in the context of probabilistic models in machine learning.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6908
+    }
+  ]
+}

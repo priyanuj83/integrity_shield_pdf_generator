@@ -1,0 +1,288 @@
+{
+  "docid": "astronomy_graduate_doc_20",
+  "document_name": "Astronomy - Graduate Level Assessment 20",
+  "domain": "astronomy",
+  "academic_level": "Graduate",
+  "subjects": [
+    "astronomy"
+  ],
+  "combination_used": [
+    "mmlu_astronomy_mcq",
+    "mmlu_astronomy_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\astronomy\\graduate\\latex_documents\\astronomy_graduate_doc_20.tex",
+    "pdf_file": "output\\astronomy\\graduate\\pdf_documents\\astronomy_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/astronomy_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/astronomy_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\astronomy\\graduate\\answer_keys\\latex\\astronomy_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\astronomy\\graduate\\answer_keys\\pdf\\astronomy_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "astronomy_graduate_doc_20_astronomy_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The lunar maria are:",
+      "options": {
+        "A": "ancient heavily cratered highlands",
+        "B": "dark lavas inside volcanic calderas",
+        "C": "dark lavas filling older impact basins",
+        "D": "the bright regions on the Moon"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The lunar maria are formed from basaltic lava flows that erupted after the formation of large impact basins, resulting in their characteristic dark appearance compared to the lighter highland regions of the Moon.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "385"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "astronomy_graduate_doc_20_astronomy_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Why are Cepheid stars relevant for astronomers?",
+      "options": {
+        "A": "To measure interstellar mass.",
+        "B": "To measure galactic distances.",
+        "C": "To measure galactic energy-density.",
+        "D": "To measure interstellar density."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cepheid stars are relevant for astronomers because their predictable luminosity variations allow for accurate distance measurements to galaxies, acting as \"standard candles\" in the cosmos.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "379"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "astronomy_graduate_doc_20_astronomy_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The sky is blue because",
+      "options": {
+        "A": "the Sun mainly emits blue light.",
+        "B": "the atmosphere absorbs mostly blue light.",
+        "C": "molecules scatter red light more effectively than blue light.",
+        "D": "molecules scatter blue light more effectively than red light."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is supported by the Rayleigh scattering phenomenon, which demonstrates that shorter wavelengths of light, such as blue, are scattered more efficiently by atmospheric molecules than longer wavelengths like red, resulting in the blue appearance of the sky.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "358"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "astronomy_graduate_doc_20_astronomy_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The terrestrial planet cores contain mostly metal because",
+      "options": {
+        "A": "the entire planets are made mostly of metal.",
+        "B": "metals condensed first in the solar nebula and the rocks then accreted around them.",
+        "C": "metals sank to the center during a time when the interiors were molten throughout.",
+        "D": "radioactivity created metals in the core from the decay of uranium."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the principle of differentiation, where denser materials, such as metals, gravitate towards the center of a molten planetary body, leading to metallic cores in terrestrial planets.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "264"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "astronomy_graduate_doc_20_astronomy_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which one of these constellations is not located along the Milky Way in the sky?",
+      "options": {
+        "A": "Perseus",
+        "B": "Cygnus",
+        "C": "Scorpius",
+        "D": "Leo"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Leo is a zodiac constellation that is located away from the plane of the Milky Way, while the other options typically lie along or near this galactic structure.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "369"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "astronomy_graduate_doc_20_astronomy_tf_1",
+      "question_type": "TF",
+      "stem_text": "Knowing both the actual brightness and apparent brightness of an object allows one to estimate its distance from the observer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the relationship between an object's actual brightness (luminosity) and its apparent brightness as observed from Earth is governed by the inverse square law, which allows astronomers to calculate the distance to the object using these two measurements.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "236"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "astronomy_graduate_doc_20_astronomy_tf_2",
+      "question_type": "TF",
+      "stem_text": "The ratio of solar radiation flux on Mercury's surface at perihelion compared to aphelion is 9:4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Mercury's elliptical orbit causes it to be approximately 1.5 times closer to the Sun at perihelion than at aphelion, resulting in a solar radiation flux ratio of 9:4 due to the inverse square law of radiation intensity.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "286"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "astronomy_graduate_doc_20_astronomy_tf_3",
+      "question_type": "TF",
+      "stem_text": "Differentiation is primarily caused by spontaneous emission from radioactive atoms within the planet's interior.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Differentiation is primarily driven by processes such as gravitational separation of materials based on density and thermal evolution, rather than spontaneous emission from radioactive atoms.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "14068"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "astronomy_graduate_doc_20_astronomy_tf_4",
+      "question_type": "TF",
+      "stem_text": "The visible part of the electromagnetic spectrum ranges from approximately 380 to 740 nanometers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the visible part of the electromagnetic spectrum encompasses wavelengths that fall between approximately 380 nanometers (violet light) and 740 nanometers (red light), which corresponds to the range of light detectable by the human eye.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "332"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "astronomy_graduate_doc_20_astronomy_tf_5",
+      "question_type": "TF",
+      "stem_text": "The period of rotation is the same for every point on a solid disk regardless of its distance from the axis of rotation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The period of rotation is the same for every point on a solid disk because all points on the disk complete one full rotation around the axis of rotation in the same amount of time, regardless of their distance from that axis.",
+      "source": {
+        "dataset": "astronomy_astronomy",
+        "source_id": "333"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "astronomy_graduate_doc_20_astronomy_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of the Laniakea supercluster within the context of the Milky\nWay's structure and its implications for our understanding of cosmic evolution.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The Laniakea supercluster, which includes the Milky Way, represents a significant cosmic\nstructure that reshapes our understanding of galactic evolution and the large-scale\norganization of the universe. By encompassing approximately 100,000 galaxies and spanning\nover 520 million light-years, Laniakea highlights the interconnectedness of galaxy\nclusters and their gravitational influences, challenging the traditional view of isolated\ngalaxies. This supercluster's discovery has profound implications for the understanding of\ncosmic flows and the dynamics of galaxy formation, suggesting that the evolution of the\nMilky Way is intricately linked to its cosmic neighborhood. Furthermore, studying Laniakea\nallows astronomers to refine their models of dark matter and the expansion of the\nuniverse, thereby enhancing our comprehension of the fundamental processes that govern\ncosmic evolution.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes the Laniakea supercluster's role in illustrating the interconnectivity of galaxies and clusters, thereby enhancing our understanding of cosmic evolution and challenging previous notions of isolated galactic structures.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "249"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "astronomy_graduate_doc_20_astronomy_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the definition of a parsec in astronomy, including its significance and how it\nrelates to the measurement of distance using astronomical units and angular measurements.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A parsec is defined as the distance at which one astronomical unit (AU) subtends an angle\nof one arcsecond as viewed from Earth. This unit of measurement is significant in\nastronomy because it provides a practical way to express vast cosmic distances,\nfacilitating the comparison of distances between stars and galaxies. The relationship\nbetween parsecs, AU, and angular measurements stems from the principles of parallax, where\nthe apparent shift in position of a nearby star against a distant background is used to\ncalculate its distance. As a result, one parsec is equivalent to approximately 3.26 light-\nyears, emphasizing its utility in the cosmological context where distances can be\nexceedingly large. Understanding parsecs is essential for astronomers, as it allows for\naccurate distance measurements crucial for studying the structure and dynamics of the\nuniverse.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately defines a parsec in terms of its geometric relationship to astronomical units and angular measurements, emphasizing its significance in measuring vast cosmic distances through the principle of parallax.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "320"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

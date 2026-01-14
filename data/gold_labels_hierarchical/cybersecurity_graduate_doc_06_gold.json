@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_06",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "An SMS Trojan is a type of malicious software that exploits vulnerabilities in mobile devices to send unauthorized text messages, often leading to unexpected charges on the user's phone bill.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1569
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is justified because the Luby-Rackoff theorem demonstrates that a secure pseudorandom generator (PRG) can be used to construct a secure pseudorandom permutation (PRP) by employing the GGM pseudorandom function (PRF) as a building block in the construction.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14208
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "SQL queries based on user input are most vulnerable to injection attacks because attackers can manipulate unvalidated input to execute arbitrary SQL commands, potentially compromising the database's integrity and security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1514
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is based on the fact that languages like C and C++ do not inherently perform automatic boundary checks on string operations, allowing developers to unintentionally write data beyond the allocated memory limit, leading to buffer-overflow vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "CBF is not a recognized block cipher operating mode, as the standard modes include ECB, CBC, CFB, OFB, and CTR, while CBF does not correspond to any established mode in cryptographic literature.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1518
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer is indeed a sequential segment of memory specifically designed to temporarily hold data, which can include character strings or arrays of integers, making the statement true.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Blackbox fuzzers do not analyze source code; instead, they test the program's behavior through its inputs, which limits their ability to ensure complete coverage of every line of code.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1471
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Buffer-overflow issues cannot be effectively mitigated solely through comprehensive memory checks because boundary checks are essential to ensure that data written to memory does not exceed allocated limits, preventing unauthorized access and corruption of adjacent memory.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Encapsulating Security Payload (ESP) is indeed a component of the Secure IP Protocol, specifically designed to provide confidentiality, integrity, and authenticity for data transmitted over IP networks, thus making the statement true.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Nmap identifies port states as open, closed, or filtered, rather than active, inactive, and standby, which are not standard terminologies used in network security assessments.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1555
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "In cybersecurity, the classic security properties are confidentiality, integrity, and\navailability, often referred to as the CIA triad. Confidentiality ensures that sensitive\ninformation is accessible only to authorized individuals, while integrity guarantees that\ndata remains unaltered and trustworthy. Availability, however, is distinct from these\nproperties as it emphasizes the accessibility of information and systems when needed,\nrather than the protection of data from unauthorized access or changes. This distinction\narises because availability is often more related to system performance and reliability,\nwhich requires different strategies, such as redundancy and failover mechanisms, compared\nto the protective measures focused on confidentiality and integrity. Consequently, while\nall three properties are crucial for a robust security posture, availability's operational\nfocus sets it apart within the cybersecurity framework.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the classic security properties of confidentiality, integrity, and availability, while also highlighting that availability is distinct as it focuses on the accessibility of information rather than its protection from unauthorized access or alteration.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1570
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_06_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "Authorization plays a critical role in cybersecurity by establishing permissions that\ngovern user access to operations and data within an information system. By defining what\nspecific actions a user can perform and which data they can access, authorization\neffectively restricts unauthorized interactions, thereby minimizing the risk of data\nbreaches and ensuring that sensitive information is only handled by those with the\nappropriate clearance. This selective access is vital for maintaining the integrity,\nconfidentiality, and availability of data, as it prevents malicious actors from exploiting\nvulnerabilities or misusing information. Ultimately, a robust authorization framework not\nonly safeguards sensitive information but also enhances overall organizational trust and\ncompliance with regulatory standards.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes that authorization establishes specific permissions for user access, which is crucial for preventing unauthorized interactions and protecting sensitive information within an information system.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1560
+    }
+  ]
+}

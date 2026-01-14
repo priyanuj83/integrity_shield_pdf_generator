@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_20",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The null space of the matrix A consists of all vectors that, when multiplied by A, yield the zero vector, and since A has rank 1 (as all rows are linearly dependent), the dimension of the null space, given by the formula dimension = number of columns - rank, is 2 (3 - 1 = 2).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As the number of training examples approaches infinity, the model becomes better at capturing the true underlying patterns in the data, leading to lower variance and improved generalization to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Grid search is computationally intensive as it evaluates every combination of hyperparameters across a predefined grid, leading to slow performance, especially with the increased complexity and dimensionality in multiple linear regression scenarios.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6868
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A larger number of test examples is needed to achieve statistically significant results when the error rate is smaller because a lower error rate requires more samples to reliably detect the true performance of the model and ensure that the observed results are not due to random chance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14785
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "ImageNet indeed contains images of various resolutions, making Statement 1 true, while Statement 2 is false because ImageNet has significantly more images than Caltech-101, which only contains 9,144 images compared to ImageNet's millions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to represent the complexity of the training data, leading to poor performance both on the training set and when applied to new, unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Linear hard-margin SVM requires that the data can be perfectly separated by a hyperplane without any misclassifications, which is only possible when the training data are linearly separable.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "DCGANs (Deep Convolutional Generative Adversarial Networks) do not use self-attention mechanisms; instead, they rely on convolutional layers and batch normalization to improve training stability.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Sampling with replacement in bagging reduces overfitting by increasing diversity among the models but does not eliminate it entirely, as individual classifiers can still overfit to their respective training samples.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6894
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because calculating P(H|E, F) also requires knowledge of P(E, F|H) and P(E, F) to apply Bayes' theorem correctly.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6893
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def get_inv_count(arr, n): | return inv_count",
+      "marks": 10,
+      "explanation": "correct because it outlines the purpose of a function that computes the number of inversions in an array, which are pairs of elements that are out of order, and implicitly suggests the need for a variable to hold the count of these inversions, though the actual implementation details are incomplete.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 841
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_20_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def divSum(n): | return sum; | def areEquivalent(num1,num2): | return divSum(num1) == divSum(num2);",
+      "marks": 10,
+      "explanation": "The provided function first calculates the sum of the divisors of a given number through the `divSum` function, and then compares the sums of the divisors of two numbers using the `areEquivalent` function, correctly addressing the question of whether these sums are equal.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 164
+    }
+  ]
+}

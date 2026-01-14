@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 23 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Joined; B) Authenticated; C) Submitted; D) Shared
+\\ \textit{Note:} The correctness of the answer lies in the fact that without authentication, a man-in-the-middle attacker can intercept and manipulate the key exchange process in the Diffie-Hellman method, allowing them to impersonate one or both parties and compromise the security of the communication.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Eavesdropping; B) Cross-site scripting; C) Authentication; D) SQL Injection
+\\ \textit{Note:} Authentication is a fundamental security mechanism used to verify the identity of users, rather than a security exploit, which typically refers to methods or actions that compromise security.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Secure Socket Layer Protocol; B) Secure IP Protocol; C) Secure Http Protocol; D) Transport Layer Security Protocol
+\\ \textit{Note:} The Encapsulating Security Payload (ESP) is a component of the Internet Protocol Security (IPsec) suite, which is designed to provide secure communication over IP networks, thus categorizing it under the Secure IP Protocol.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 11111111, 00000001; B) 00000001, 10000000; C) 11111111, 10000001; D) 10000001, 10101010
+\\ \textit{Note:} The pair of 8-bit, two's-complement numbers 10000001 (which is -127 in decimal) and 10101010 (which is -86 in decimal) results in an overflow during addition because both are negative, and their sum (-213) exceeds the representable range of two's-complement for 8 bits, which is -128 to 127.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) To translate Web addresses to host names; B) To determine the IP address of a given host name; C) To determine the hardware address of a given host name; D) To determine the hardware address of a given IP address
+\\ \textit{Note:} The Address Resolution Protocol (ARP) is essential for mapping an IP address to a physical hardware address (MAC address) on a local network, enabling proper communication between devices.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Blackbox fuzzers are limited by their inability to understand the internal logic and structure of the program, making it difficult for them to achieve comprehensive code coverage as they may miss certain execution paths or edge cases that require knowledge of the program's design.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Weak or non-existent authentication mechanisms are primarily concerns associated with the application and transport layers, where user identity and data integrity are managed, rather than the presentation layer, which focuses on data formatting and presentation techniques.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because while wireless access allows devices to connect to a network without wires, it does not inherently ensure complete security, as wireless networks can be vulnerable to various security threats and breaches.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because perfect secrecy is fundamentally unattainable for all ciphers, as it requires that the ciphertext provides no information about the plaintext, which can only be achieved under specific conditions, such as using a one-time pad with a truly random key of equal length to the message.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow occurs when a program writes more data to a buffer than it can hold, leading to memory corruption, rather than rejecting requests due to a filled buffer.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def check\_monthnum\_number(monthnum 1): | return True | return False
+\\ \textit{Note:} correct because it defines a function that is intended to check if a given month number corresponds to February, which contains 28 days, but it lacks the necessary logic to evaluate the month number and return the appropriate boolean value.
+\item \textbf{Answer:} def most\_occurrences(test\_list): | return (str(res))
+\\ \textit{Note:} The provided answer correctly outlines the intention to define a function that will analyze a list of strings to identify and return the word with the highest frequency of occurrence, although it lacks the necessary implementation details to achieve this goal.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

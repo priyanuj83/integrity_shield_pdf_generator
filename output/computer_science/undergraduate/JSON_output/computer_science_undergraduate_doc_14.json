@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_undergraduate_doc_14",
+  "document_name": "Computer Science - Undergraduate Level Assessment 14",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_14.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sorting algorithms has average-case and worst-case running times of\nO(n log n)?",
+      "options": {
+        "A": "Bubble sort",
+        "B": "Insertion sort",
+        "C": "Merge sort",
+        "D": "Quicksort"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merge sort consistently divides the input array in half and recursively sorts each half, leading to an average-case and worst-case time complexity of O(n log n) due to the logarithmic number of divisions and linear time required to merge the sorted halves.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Of the following, which gives the best upper bound for the value of f(N) where f is a\nsolution to the recurrence f(2 N + 1) = f(2 N) = f(N) + log N for N >= 1, with f(1) = 0?",
+      "options": {
+        "A": "O(log N)",
+        "B": "O(N log N)",
+        "C": "O(log N) + 0(1)",
+        "D": "O((log N)^2)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The recurrence relation f(2N + 1) = f(2N) = f(N) + log N indicates that each recursive call adds a logarithmic term, and since the depth of the recursion grows logarithmically with N, the overall complexity accumulates to O((log N)^2).",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1080"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Let x = 8. What is x>>1 in Python 3?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "8"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the operator \">>\" represents a bitwise right shift, so shifting the binary representation of 8 (which is 1000 in binary) one position to the right results in 4 (which is 0100 in binary).",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3227"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In the Internet Protocol (IP) suite of protocols, which of the following best describes\nthe purpose of the Address Resolution Protocol?",
+      "options": {
+        "A": "To translate Web addresses to host names",
+        "B": "To determine the IP address of a given host name",
+        "C": "To determine the hardware address of a given host name",
+        "D": "To determine the hardware address of a given IP address"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Address Resolution Protocol (ARP) is designed to map an IP address to its corresponding hardware address (MAC address) within a local network, enabling effective communication between devices.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1058"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Of the following page-replacement policies, which is guaranteed to incur the minimum\nnumber of page faults?",
+      "options": {
+        "A": "Replace the page whose next reference will be the longest time in the future.",
+        "B": "Replace the page whose next reference will be the shortest time in the future.",
+        "C": "Replace the page whose most recent reference was the shortest time in the past.",
+        "D": "Replace the page whose most recent reference was the longest time in the past."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Replacing the page whose next reference will be the longest time in the future minimizes page faults by ensuring that the most immediately useful pages remain in memory, thereby reducing the likelihood of needing to load a page that will be referenced sooner.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "O(1) is the smallest asymptotic notation, indicating constant time complexity regardless of input size.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(1) represents constant time complexity, meaning that the execution time of an algorithm remains constant regardless of the size of the input data, thus making it the smallest asymptotic notation in terms of growth rate.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Even after extensive testing, a program may still contain undetected bugs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Even after extensive testing, a program may still contain undetected bugs because testing can only cover a finite number of scenarios and may not account for every possible input or interaction within the software.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The condition a < c is sufficient to ensure that the expression a < c || a < b && !(a == c) evaluates to true.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if a < c is true, then regardless of the values of b and the condition !(a == c), the entire expression a < c || a < b && !(a == c) will evaluate to true due to the logical OR operator, which requires only one true operand to yield true.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, converting a list with duplicates to a set results in a collection of unique elements, such as {1, 2, 3, 4}.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, a set automatically removes duplicate elements from a collection, thereby ensuring that only unique elements are retained when converting a list to a set.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The decimal number 0.5 has an exact representation in binary notation as 0.1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because in binary notation, 0.1 represents 1/2, which is exactly equal to the decimal number 0.5.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1042"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the number which occurs for odd number of times in the given\narray.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_odd_occurence(arr, arr_size): | return arr[i] | return -1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it suggests a function that iterates through the array to identify and return the number that appears an odd number of times, although it lacks the necessary implementation details and loop structure to achieve this.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "842"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_14_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sort each sublist of strings in a given list of lists using lambda\nfunction.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sort_sublists(input_list): | return result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the structure of a Python function that utilizes a lambda function to sort each sublist of strings within a list of lists, aligning with the question's requirement for sorting functionality.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "104"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

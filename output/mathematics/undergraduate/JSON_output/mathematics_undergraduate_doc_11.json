@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_undergraduate_doc_11",
+  "document_name": "Mathematics - Undergraduate Level Assessment 11",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mmlu_pro_math_mcq",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_11.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | If H is a subgroup of a group G and a belongs to G, then aH = Ha. Statement\n2 | If H is normal of G and a belongs to G, then ah = ha for all h in H.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The first statement is false because a subgroup H is not necessarily normal in G, which means that aH does not equal Ha for all elements a in G, while the second statement is false because it fails to recognize that the condition of normality requires a specific relationship between elements of G and the subgroup H, rather than simply asserting that ah = ha for all h in H.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "30"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Compute the product in the given ring. (12)(16) in Z_24",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "4",
+        "D": "6"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0 because in the ring Z_24, the product of 12 and 16, which is 192, is congruent to 0 modulo 24, as 192 is a multiple of 24.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "88"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For T: Z x Z -> Z where T(1, 0) = 3 and T(0, 1) = -5, find T(-3,2).",
+      "options": {
+        "A": "-19",
+        "B": "-10",
+        "C": "19",
+        "D": "10"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -19 because T is a linear transformation, and applying the linearity property, we have T(-3, 2) = -3T(1, 0) + 2T(0, 1) = -3(3) + 2(-5) = -9 - 10 = -19.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "87"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the characteristic of the ring Z_3 x Z_3.",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "12",
+        "D": "30"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The characteristic of the ring Z_3 x Z_3 is 3 because it is the smallest positive integer n such that n times any element in the ring equals the additive identity, which holds true since both components of the ring Z_3 have characteristic 3.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "73"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Any set of two vectors in R^2 is linearly independent. Statement 2 | If V =\nspan(v 1, ... , vk) and {v 1, ... , vk} are linearly independent, then dim(V) = k.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The first statement is false because two vectors in R^2 can be linearly dependent if they are scalar multiples of each other, while the second statement is true because the dimension of a vector space spanned by k linearly independent vectors is indeed k.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "22"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "In the finite field Z_7, the element 2 is a generator of the multiplicative group of nonzero elements.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The element 2 is not a generator of the multiplicative group of nonzero elements in Z_7 because it does not produce all the elements of the group through its powers, specifically failing to generate the element 3.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "38"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "If 3 x + 7 y is divisible by 11, then 9 x + 4 y must also be divisible by 11 for positive integers x and y.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the divisibility of 3x + 7y by 11 does not guarantee that the linear combination 9x + 4y will also be divisible by 11, as their coefficients are not directly related in a way that ensures the same divisibility condition holds.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1161"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "In the group G = {2, 4, 6, 8} under multiplication modulo 10, the identity element is 6.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The identity element in a group under multiplication modulo 10 is the element that, when multiplied by any other element in the group, returns that element; in this case, since 6 multiplied by any element in {2, 4, 6, 8} modulo 10 equals that element, 6 is indeed the identity element.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "52"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "It is possible to have a nontrivial homomorphism from a finite group into an infinite group.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A nontrivial homomorphism from a finite group to an infinite group cannot exist because the image of the finite group under the homomorphism must also be finite, contradicting the infinite nature of the target group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "46"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "If a and b are elements of finite order in an Abelian group, then |ab| is the least common multiple of |a| and |b| under certain conditions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because in an Abelian group, if elements a and b have finite orders m and n that are coprime, then the order of the product ab is indeed the least common multiple of the orders of a and b, which is lcm(m, n) = mn.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14048"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "A circle centered at $A$ with a radius of $1$ and a circle centered at $B$ with a radius\nof $4$ are externally tangent. A third circle is tangent to the first two and to one of\ntheir common external tangents as shown. What is the radius of the third circle? [asy]\ndraw((-3,0)--(7.5,0)); draw(Circle((-1,1),1),linewidth(0.7));\ndraw(Circle((3,4),4),linewidth(0.7)); draw(Circle((0.33,0.44),0.44),linewidth(0.7));\ndot((-1,1)); dot((3,4)); draw((-1,1)--(-2,1)); draw((3,4)--(7,4)); label(\"$A$\",(-1,1),E);\nlabel(\"$B$\",(3,4),W); label(\"1\",(-1.5,1),N); label(\"4\",(5,4),N); [/asy]",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Let $C$ be the intersection of the horizontal line through $A$ and the vertical line\nthrough $B.$ In right triangle $ABC,$ we have $BC=3$ and $AB=5,$ so $AC=4.$ Let $x$ be the\nradius of the third circle, and $D$ be the center. Let $E$ and $F$ be the points of\nintersection of the horizontal line through $D$ with the vertical lines through $B$ and\n$A,$ respectively, as shown. [asy] unitsize(0.7 cm); draw((-3,0)--(7.5,0));\ndraw(Circle((-1,1),1),linewidth(0.7)); draw(Circle((3,4),4),linewidth(0.7));\ndraw(Circle((0.33,0.44),0.44),linewidth(0.7)); dot((-1,1)); dot((3,4));\ndraw((-1,1)--(-2,1)); draw((3,4)--(7,4)); label(\"{\\tiny A}\",(-1,1),N); label(\"{\\tiny\nB}\",(3,4),N); label(\"{\\tiny 1}\",(-1.5,1),N); label(\"{\\tiny 4}\",(5,4),N);\ndraw((3,4)--(-1,1)--(3,1)--cycle); draw((3,0.44)--(-1,0.44)); draw((-1,1)--(-1,0));\ndraw((3,1)--(3,0)); draw((-1,1)--(0.33,0.44)); draw((0.33,0.44)--(3,4),dashed);\ndot((3,1)); dot((3,0.44)); dot((-1,0.44)); dot((0.33,0.44)); label(\"{\\tiny C}\",(3,1),E);\nlabel(\"{\\tiny E}\",(3,0.44),E); label(\"{\\tiny D}\",(0.33,0.44),S); label(\"{\\tiny\nF}\",(-1,0.44),W); [/asy] In $\\triangle BED$ we have $BD = 4+x$ and $BE = 4-x,$ so $$DE^2 =\n(4+x)^2 - (4-x)^2 = 16 x,$$and $DE = 4\\sqrt{x}.$ In $\\triangle ADF$ we have $AD = 1+x$ and\n$AF=1-x,$ so $$FD^2 = (1+x)^2 - (1-x)^2 = 4 x,$$and $FD = 2\\sqrt{x}.$ Hence,\n$$4=AC=FD+DE=2\\sqrt{x}+4\\sqrt{x}=6\\sqrt{x}$$and $\\sqrt{x}=\\frac{2}{3},$ which implies\n$x=\\boxed{\\frac{4}{9}}.$",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes the geometric relationship between the centers of the circles and the properties of right triangles to establish the distances involved, allowing for the determination of the radius of the third circle using the tangential relationships with the first two circles.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "16223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the conditions under which a triangular region, with one vertex at the center of a\ncircle of radius 1 and the other two vertices on the circle, achieves its maximum area.\nCalculate this area and justify your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The maximum area of a triangular region with one vertex at the center of a circle of\nradius 1 and the other two vertices on the circumference occurs when the two vertices are\npositioned opposite each other, forming a diameter of the circle. In this configuration,\nthe triangle becomes an isosceles triangle with its base along the diameter and height\nequal to the radius of the circle. The area can be calculated using the formula for the\narea of a triangle, A = 1/2 * base * height. Here, the base is 2 (the diameter) and the\nheight is 1 (the radius), resulting in an area of A = 1/2 * 2 * 1 = 1. Thus, the maximum\narea of the triangle is 1 square unit, achieved under these specific conditions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the area of the triangle is maximized when the base is the diameter of the circle, allowing the height to equal the radius, which results in the largest possible area for the given configuration.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1123"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

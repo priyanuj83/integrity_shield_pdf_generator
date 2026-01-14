@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_08",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The value of $b$ must be 3 because for the parabola and line to intersect at only one point, the discriminant of the resulting quadratic equation must equal zero, which occurs when the line is tangent to the parabola, leading to the specific intersection condition derived from setting the equations equal to each other.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4447
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "To solve the equation 12 - 9 + c = 12, we isolate c by simplifying the left side to 3 + c = 12, leading to the conclusion that c must equal 9 to satisfy the equation.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2104
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A reasonable height for a doorway is 2 meters because this measurement accommodates the average height of most individuals while also allowing for sufficient clearance for various activities, making it a practical standard in building design.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2402
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The three real numbers that are not in the domain of the function are \\( x = 0 \\) (due to division by zero), \\( x = -1 \\) (as it leads to an undefined expression), and \\( x = -1.5 \\) (which also results in division by zero when substituting into the nested fractions), and their sum is \\( 0 + (-1) + (-1.5) = -1.5 \\).",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14523
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "By solving the system of equations simultaneously, we find that the values of x and y satisfy the equations leading to the result that x - y equals -3.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4268
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The positive difference between the two solutions of a quadratic equation can vary based on the specific coefficients and values in the equation, and is not universally guaranteed to be 2.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4411
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "7% is equal to 0.07 when expressed as a decimal because percentage means \"per hundred,\" so 7% is equivalent to 7 divided by 100, which equals 0.07.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2224
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because 26.1 mm is equal to 2.61 cm, not 2.61 dm, as there are 10 mm in a cm and 100 mm in a dm.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2163
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The investment grows according to the exponential function 320e^(0.08t), and after 10 years, this function evaluates to approximately $8,902.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4389
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The numbers 5 and 14 add up to 19 (5 + 14 = 19) and multiply to 70 (5 \u00d7 14 = 70), confirming the statement is true.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4490
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "By Vieta's formulas, $ab + ac + bc = 5$ and $abc = -7,$ so \\[\\frac{1}{a} + \\frac{1}{b} +\n\\frac{1}{c} = \\frac{ab + ac + bc}{abc} = \\boxed{-\\frac{5}{7}}.\\]",
+      "marks": 10,
+      "explanation": "correct because it utilizes Vieta's formulas to express the sum of the reciprocals of the roots in terms of the sums and products of the roots, leading to the calculation \\(\\frac{ab + ac + bc}{abc} = \\frac{5}{-7} = -\\frac{5}{7}\\).",
+      "source_dataset": "gsm8k_math",
+      "source_id": 9514
+    },
+    {
+      "question_id": "mathematics_k-12_doc_08_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The weight of an object on the Moon is significantly less than its weight on Earth due to\nthe Moon's weaker gravitational pull. Specifically, the relationship can be expressed with\nthe equation m = e/6, where m represents the weight on the Moon and e represents the\nweight on Earth. This means that an object weighs one-sixth of its weight on Earth when\nmeasured on the Moon. The rationale behind this equation stems from the fact that the\ngravitational acceleration on the Moon is about one-sixth that of Earth's, leading to this\nproportional relationship in weight. Thus, to find the weight of an object on the Moon,\nyou simply divide its Earth weight by six.",
+      "marks": 10,
+      "explanation": "correct because it accurately reflects the fact that the Moon's gravitational acceleration is approximately one-sixth that of Earth's, leading to the conclusion that an object's weight on the Moon is one-sixth of its weight on Earth, which is represented by the equation m = e/6.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 2149
+    }
+  ]
+}

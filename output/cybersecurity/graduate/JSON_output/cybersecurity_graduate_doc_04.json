@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_04",
+  "document_name": "Cybersecurity - Graduate Level Assessment 4",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_04.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Failed sessions allow brute-force attacks on access credentials. This type of attacks are\ndone in which layer of the OSI model?",
+      "options": {
+        "A": "Physical layer",
+        "B": "Data-link Layer",
+        "C": "Session layer",
+        "D": "Presentation layer"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is the Session layer because this layer is responsible for establishing, maintaining, and terminating sessions between applications, and failed sessions can be exploited in brute-force attacks to gain unauthorized access to credentials.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "SHA-1 has a message digest of",
+      "options": {
+        "A": "160 bits",
+        "B": "512 bits",
+        "C": "628 bits",
+        "D": "820 bits"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "SHA-1 produces a fixed-length output known as a message digest, which is specifically 160 bits in size, making it a widely recognized standard in cryptographic hashing.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Exploitation of the Heartbleed bug permits",
+      "options": {
+        "A": "overwriting cryptographic keys in memory",
+        "B": "a kind of code injection",
+        "C": "a read outside bounds of a buffer",
+        "D": "a format string attack"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Heartbleed bug allows attackers to exploit a vulnerability in the OpenSSL implementation of the TLS/DTLS protocols, enabling them to read memory contents beyond the intended buffer limits, thereby exposing sensitive data such as private keys and user credentials.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15631"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Man in the middle attack can endanger the security of Diffie Hellman method if two parties\nare not",
+      "options": {
+        "A": "Joined",
+        "B": "Authenticated",
+        "C": "Submitted",
+        "D": "Shared"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Authenticated\" because without proper authentication, an attacker can impersonate one of the parties in a key exchange, allowing them to intercept and manipulate the communication, thus compromising the security of the Diffie-Hellman method.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1480"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "How is IP address spoofing detected?",
+      "options": {
+        "A": "Installing and configuring a IDS that can read the IP header",
+        "B": "Comparing the TTL values of the actual and spoofed addresses",
+        "C": "Implementing a firewall to the network",
+        "D": "Identify all TCP sessions that are initiated but does not complete successfully"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Comparing the Time to Live (TTL) values of actual and spoofed IP addresses can help detect spoofing because legitimate packets typically have consistent TTL values that correlate with their originating networks, while spoofed packets often exhibit anomalous TTL values indicative of a different source.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Troya is classified as a remote Trojan, capable of executing commands on a compromised system from a distance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Troya is classified as a remote Trojan because it enables an attacker to remotely control and execute commands on a compromised system, thereby facilitating unauthorized access and manipulation of the device from a distance.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The stack is primarily used for storing global variables and program code throughout the execution of a program.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The stack is primarily used for storing local variables and function call information, while global variables and program code are typically stored in the heap and data segments of memory, respectively.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Buffer-overflow errors are primarily a concern in high-level languages like Python and Ruby.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow errors are primarily a concern in low-level languages like C and C++, where direct memory management and lack of built-in bounds checking allow such vulnerabilities to occur, whereas high-level languages like Python and Ruby implement automatic memory management and safety features that mitigate these risks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "A stream cipher can achieve perfect secrecy if the pseudorandom generator is sufficiently secure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A stream cipher cannot achieve perfect secrecy because perfect secrecy requires that the key be truly random and at least as long as the message, whereas a pseudorandom generator, no matter how secure, produces deterministic outputs that do not meet these criteria.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1559"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Wireless access refers to the methods of connecting devices to a network, without addressing security concerns.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless access inherently involves addressing security concerns, as the nature of wireless communication makes it susceptible to unauthorized access and data breaches, necessitating the implementation of security measures to protect the network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the sum of first even and odd number of a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_even_odd(list1): | return (first_even+first_odd)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it succinctly defines a function that calculates the sum of the first even and first odd numbers from the provided list, demonstrating an understanding of basic programming concepts and the ability to manipulate data structures.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "881"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_04_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the minimun number of subsets with distinct elements.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def subset(ar, n): | return res",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the implementation of a Python function designed to identify the minimum number of subsets with distinct elements from an array, which is essential in various cybersecurity applications for optimizing resource allocation and ensuring data integrity.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "953"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

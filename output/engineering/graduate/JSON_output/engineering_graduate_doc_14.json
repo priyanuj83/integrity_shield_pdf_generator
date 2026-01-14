@@ -1,0 +1,292 @@
+{
+  "docid": "engineering_graduate_doc_14",
+  "document_name": "Engineering - Graduate Level Assessment 14",
+  "domain": "engineering",
+  "academic_level": "Graduate",
+  "subjects": [
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_pro_engineering_mcq",
+    "mmlu_pro_engineering_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\graduate\\latex_documents\\engineering_graduate_doc_14.tex",
+    "pdf_file": "output\\engineering\\graduate\\pdf_documents\\engineering_graduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_graduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_graduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\engineering\\graduate\\answer_keys\\latex\\engineering_graduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\graduate\\answer_keys\\pdf\\engineering_graduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "For f(t) = e^-2 t u(t), find the initial value and slope both by letting t = 0^+ and from\nthe initial-value theorem.",
+      "options": {
+        "A": "Initial value is 2, slope is -4",
+        "B": "Initial value is -1, slope is 2",
+        "C": "Initial value is 1, slope is 2",
+        "D": "Initial value is 0, slope is undefined",
+        "E": "Initial value is 0, slope is 2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - Initial value is 2, slope is -4",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the input impedance of a 50-ohm line terminated in +j 50 ohms, for a line length such\nthat\\betad= (\\pi/1) radian.",
+      "options": {
+        "A": "100 ohms",
+        "B": "25 ohms",
+        "C": "j 100 ohms",
+        "D": "50 ohms",
+        "E": "- j 50 ohms"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: E - - j 50 ohms",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The magnetisation and applied field in ferromagnetic materials are related",
+      "options": {
+        "A": "linearly.",
+        "B": "cubically.",
+        "C": "parabolically.",
+        "D": "logarithmically.",
+        "E": "hyperbolically."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - linearly.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11581"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A Binary number system has how many digits.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "10"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: C - 2",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is Newton's Law of cooling as applied to convective heattransfer?",
+      "options": {
+        "A": "q = hA\\DeltaT",
+        "B": "q = h^2 A\\DeltaT",
+        "C": "q = hA(T^2 - T_0^2)",
+        "D": "q = h\\DeltaT / A",
+        "E": "q = hA/T"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - q = hA\\DeltaT",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12168"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The impact stress in the steel rod under the given conditions is 25,678.9 psi.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '8,762.3 psi'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11414"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The determinant of matrix A is 2, suggesting that the matrix is invertible and has a non-zero determinant.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: '0'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11328"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The solution to the difference equation is y[n] = (27/20) 3^n - (3/5) (1/2)^n + (1/4) (1/3)^n.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The probability Pr[0 < x < (3/4), (1/3) < y < 2] is equal to 3/4 for the given joint density function f(x, y).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11641"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_graduate_doc_14_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Laplace transform of f(t) = t^2 is given by L{f(t)} = 2/s^3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12027"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_graduate_doc_14_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Derive the homogeneous solution for the voltage v_C(t) across a (1/2) F capacitor in a\nseries RLC circuit with R = 4\u03a9, L = 4 H, initial conditions i_L(0) = 1/4 A and v_C(0) = 0.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "e^(1/2)t cos (1/2) t V. Explain why this is the correct answer and provide supporting\nevidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "12218"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_graduate_doc_14_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the impact of varying the modulation index (\\(\\beta\\)) on the signal power passed\nby the filter in a space communication system, specifically analyzing the cases where\n\\(\\beta = 0.2\\) and \\(\\beta = 5\\).",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "0.60 or 60%, 0.95 or 95%. Explain why this is the correct answer and provide supporting\nevidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11559"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

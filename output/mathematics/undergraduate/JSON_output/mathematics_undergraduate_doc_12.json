@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_undergraduate_doc_12",
+  "document_name": "Mathematics - Undergraduate Level Assessment 12",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mmlu_pro_math_mcq",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_12.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT a group?",
+      "options": {
+        "A": "The integers under addition",
+        "B": "The nonzero integers under multiplication",
+        "C": "The nonzero real numbers under multiplication",
+        "D": "The complex numbers under addition"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The nonzero integers under multiplication do not form a group because they lack an identity element (the multiplicative identity, 1, is included, but the group must also include the inverse of each element, which is not satisfied since the inverse of any nonzero integer is not a nonzero integer).",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1160"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Using Fermat's theorem, find the remainder of 3^47 when it is divided by 23.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to Fermat's Little Theorem, since 23 is a prime number and does not divide 3, we have \\(3^{22} \\equiv 1 \\mod 23\\), allowing us to simplify \\(3^{47} \\equiv 3^{3} \\equiv 27 \\equiv 4 \\mod 23\\).",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "72"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If a real number x is chosen at random in the interval [0, 3] and a real number y is\nchosen at random in the interval [0, 4], what is the probability that x < y?",
+      "options": {
+        "A": "1/2",
+        "B": "7/12",
+        "C": "5/8",
+        "D": "2/3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5/8 because the area representing the condition x < y in the rectangular region defined by the intervals [0, 3] for x and [0, 4] for y is 5/8 of the total area of the rectangle, which is 12.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1188"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | The external direct product of cyclic groups is cyclic. Statement 2 | The\nexternal direct product of D_3 and D_4 is isomorphic to D_12.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The external direct product of cyclic groups is not necessarily cyclic, as it depends on the orders of the groups involved, and the external direct product of D_3 and D_4 is actually D_12, not isomorphic to it, thus both statements are false.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "80"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "There are 25 suitcases, 5 of which are damaged. Three suitcases are selected at random.\nWhat is the probability that exactly 2 are damaged?",
+      "options": {
+        "A": "2/69",
+        "B": "1/30",
+        "C": "2/23",
+        "D": "12/125"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the hypergeometric distribution, where the probability of selecting exactly 2 damaged suitcases from a total of 5 damaged and 20 undamaged suitcases in a sample of 3 is calculated using the formula for combinations, resulting in the probability of 2 out of 23.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1100"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "It is possible for a non-abelian group to have all its subgroups be abelian, which contradicts the properties of groups.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a non-abelian group, by definition, contains elements that do not commute, which implies that not all of its subgroups can be abelian, as some subgroups would inherit the non-commutative structure of the group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15576"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The value of c in Z_3 that makes Z_3[x]/(x^3 + x^2 + c) a field is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the polynomial \\(x^3 + x^2 + c\\) is irreducible over \\(Z_3\\) when \\(c = 2\\), ensuring that the quotient ring \\(Z_3[x]/(x^3 + x^2 + 2)\\) is a field.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "47"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The relation S = {(1, 1), (2, 2)} is both symmetric and anti-symmetric.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The relation S is symmetric because it contains pairs that are reflections of themselves, and it is anti-symmetric because there are no distinct elements in S that would violate the anti-symmetry condition, thus satisfying both properties simultaneously.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "11"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "Every element of a group indeed generates a cyclic subgroup of that group.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Every element of a group generates a cyclic subgroup because the group operation can be repeatedly applied to the element to produce all of its integer powers, forming a set that satisfies the subgroup criteria.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15575"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "There is only 1 isomorphic class of additive abelian groups of order 16 where x + x + x + x = 0 for all x in the group.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because there are multiple isomorphic classes of additive abelian groups of order 16, specifically the groups can be decomposed into different direct sums of cyclic groups, such as \\( \\mathbb{Z}_{16} \\), \\( \\mathbb{Z}_8 \\oplus \\mathbb{Z}_2 \\), and \\( \\mathbb{Z}_4 \\oplus \\mathbb{Z}_4 \\) among others, each satisfying the condition \\( x + x + x + x = 0 \\) for all elements \\( x \\) in the group.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1097"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Each letter represents a non-zero digit. What is the value of $t?$ \\begin{align*} c + o &=\nu \\\\ u + n &= t \\\\ t + c &= s \\\\ o + n + s &= 12 \\end{align*}",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The implications of the statement S(n) reveal that if S(k) implies S(k + 1) and S(n\u2080) is\nfalse for some positive integer n\u2080, then S(n) must also be false for all integers n \\leq\nn\u2080. This is due to the principle of mathematical induction, which suggests that if the\nbase case (S(n\u2080)) is false, the subsequent statements (S(n\u2080 - 1), S(n\u2080 - 2), ..., S(1))\ncannot be true either, as they rely on the truth of S(k) to validate S(k + 1). Therefore,\nwe can conclude that S(n) is not true for any positive integer n in the range of n \\leq\nn\u2080. This shows that the failure of S at n\u2080 cascades down to all preceding integers,\nemphasizing the interconnectedness of the statements within the sequence.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies the principle of mathematical induction, which dictates that if a statement is false for a base case (S(n\u2080)), then it must also be false for all preceding cases (S(n) for n \u2264 n\u2080) since each case relies on the truth of the previous one to hold.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1126"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_12_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of the statement S(n) regarding positive integers n, given that\nS(k) implies S(k + 1) and S(n 0) is false for some positive integer n 0. What can be\nconcluded about S(n) for all n \\leq n 0?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The implications of the statement S(n) reveal that if S(k) implies S(k + 1) and S(n\u2080) is\nfalse for some positive integer n\u2080, then S(n) must also be false for all integers n \\leq\nn\u2080. This is due to the principle of mathematical induction, which suggests that if the\nbase case (S(n\u2080)) is false, the subsequent statements (S(n\u2080 - 1), S(n\u2080 - 2), ..., S(1))\ncannot be true either, as they rely on the truth of S(k) to validate S(k + 1). Therefore,\nwe can conclude that S(n) is not true for any positive integer n in the range of n \\leq\nn\u2080. This shows that the failure of S at n\u2080 cascades down to all preceding integers,\nemphasizing the interconnectedness of the statements within the sequence.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies the principle of mathematical induction, which dictates that if a statement is false for a base case (S(n\u2080)), then it must also be false for all preceding cases (S(n) for n \u2264 n\u2080) since each case relies on the truth of the previous one to hold.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1126"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

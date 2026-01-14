@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_06",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression ['Hi!'] * 4 creates a new list that contains the string 'Hi!' repeated four times, resulting in the output ['Hi!', 'Hi!', 'Hi!', 'Hi!'].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "In Python 3, using a negative index accesses elements from the end of the string, so \"abc\"[-1] refers to the last character, which is 'c'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3247
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking computers involved.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it equals 7 in the units place (231 divided by 16 gives a remainder of 7) and E in the sixteens place (the quotient of 231 divided by 16 is 14, which corresponds to E in hexadecimal).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is {1,2,3,4} because the set data structure in Python automatically removes duplicate values, resulting in a collection of unique elements from the list.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3270
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because confidentiality refers to the protection of information from unauthorized access, and if a user can access a system without proper authentication, it indicates a failure in the authentication process rather than a compromise of confidentiality itself.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The function O(N^(1/4)) grows slower than O(1) as N approaches infinity, while O(N^(1/N)) approaches O(1) even faster, making the original statement false.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The boolean expression a[i] == max || !(max != a[i]) simplifies to a[i] == max because the second part, !(max != a[i]), is logically equivalent to a[i] == max, making the entire expression true if a[i] is equal to max.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, the operator '/' performs true division, returning a floating-point result, while the operator '//' is used for floor division.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The method 'sort()' is a list method in Python and cannot be directly applied to strings, which are immutable; instead, strings must be converted to a list of characters before sorting.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "To modify the specification for a method that searches an array for values larger than a\ngiven item, it is important to clarify how the method should handle situations where there\nare multiple indices of larger values. The specification should state that the method will\nreturn a list of all indices where the values exceed the given item. This approach allows\nusers to see all relevant positions in the array instead of just the first occurrence.\nAdditionally, it is essential to mention whether the returned list should be sorted or\nmaintain the order of indices as they appear in the array, which can help in understanding\nthe results better. By clearly defining this behavior, the method becomes more useful and\ninformative.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes the necessity of returning all indices of values larger than the specified item, which provides comprehensive information about the array's contents rather than limiting the result to just the first occurrence.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3202
+    },
+    {
+      "question_id": "computer_science_k-12_doc_06_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "Upgrading a customer service system can bring several benefits to a company, including\nfaster response times, improved customer satisfaction, and more efficient handling of\ninquiries. One significant advantage is the ability to provide a human representative for\nany incoming call, ensuring that customers feel valued and heard. This personal touch can\nenhance the overall customer experience and build loyalty. However, the benefit that might\nbe the least likely to improve is the reduction in response time. Despite the upgrade,\nhigh volumes of calls may still lead to delays if the system is not efficiently managed,\nlimiting the potential effectiveness of this change.",
+      "marks": 10,
+      "explanation": "correct because it identifies key benefits of upgrading a customer service system, such as faster response times and improved customer satisfaction, while also recognizing that the reduction in response time may not significantly improve due to factors like increased inquiry volume or complexity.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3192
+    }
+  ]
+}

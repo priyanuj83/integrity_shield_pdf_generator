@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 19 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authorization aims to restrict what operations or data a user can access to ensure that individuals only have permissions necessary for their roles, thus protecting sensitive information and maintaining system security.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) boundary hacks; B) memory checks; C) boundary checks; D) buffer checks
+\\ \textit{Note:} Buffer-overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, which can be prevented by implementing thorough boundary checks to ensure that data sizes are properly validated before being processed.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Memory leakage; B) Buffer-overrun; C) Less processing power; D) Inefficient programming
+\\ \textit{Note:} Buffer-overrun is the correct answer because it refers to a coding error where a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite memory and execute arbitrary code, leading to unauthorized access or system malfunctions.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) It generates each different input by modifying a prior input; B) It works by making small mutations to the target program to induce faults; C) Each input is mutation that follows a given grammar; D) It only makes sense for file-based fuzzing, not network-based fuzzing
+\\ \textit{Note:} Mutation-based fuzzing is characterized by its approach of creating new test inputs by systematically altering existing inputs, allowing it to explore various execution paths and uncover potential vulnerabilities in software.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Confidentiality; B) Availability; C) Correctness; D) Integrity
+\\ \textit{Note:} The correct answer is "Availability" because it refers to the accessibility of information and systems, while the classic security properties are typically identified as confidentiality, integrity, and authenticity, with availability being a separate but important aspect of overall security.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A packet filter firewall operates by examining the header information of packets at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model to determine whether to allow or block the traffic based on predefined rules.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a stack is not a continuous memory location; rather, it is a data structure that operates on a last-in, first-out (LIFO) principle, typically using non-contiguous memory locations to manage function calls and local variables dynamically.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Whitebox fuzzers utilize knowledge of the program's internal structure, such as control flow and data flow, to systematically explore all possible execution paths, thereby enhancing the chances of achieving comprehensive code coverage.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Morris Worm is considered the first known buffer overflow attack because it exploited a vulnerability in the Unix sendmail program's handling of strings, allowing it to spread across the internet and demonstrate the potential impact of such attacks on computer systems.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} IM Trojans are malicious software specifically created to infiltrate instant messaging applications and capture sensitive user credentials, such as logins and passwords.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def is\_majority(arr, n, x): | return False | return True | return False | def binary\_search(arr, low, high, x): | return mid | return binary\_search(arr, (mid + 1), high, x) | return binary\_search(arr, low, (mid -1), x) | return -1
+\\ \textit{Note:} The provided answer is correct because it outlines the implementation of a function that uses binary search to efficiently determine the presence of a majority element in a sorted array by checking if the count of the element exceeds half the size of the array.
+\item \textbf{Answer:} def are\_Equal(arr 1,arr 2,n,m): | return False | return False | return True
+\\ \textit{Note:} The answer correctly identifies that two arrays are equal if they have the same elements in the same order, returning True only when both arrays are identical in length and content, while returning False otherwise.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

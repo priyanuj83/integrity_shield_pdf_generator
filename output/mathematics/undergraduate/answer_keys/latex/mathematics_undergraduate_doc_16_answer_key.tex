@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) commutative semi group; B) abelian group; C) non-abelian group; D) None of these
+\\ \textit{Note:} The property (ab)^-1 = a^-1 b^-1 indicates that the group operation is commutative, meaning that for all a, b in G, a.b = b.a, which defines G as an abelian group.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 2; B) 3; C) 6; D) 12
+\\ \textit{Note:} The order of the factor group Z\_6/\textless{}3\textgreater{} is 3 because the subgroup \textless{}3\textgreater{} consists of the elements \{0, 3\} in Z\_6, and the factor group is formed by the cosets of this subgroup, which results in three distinct cosets: \{0, 3\}, \{1, 4\}, and \{2, 5\}.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) symmetric only; B) anti-symmetric only; C) both symmetric and anti-symmetric; D) an equivalence relation
+\\ \textit{Note:} The relation S is symmetric because it includes pairs of the form (a, a) for each element in its domain, and it is anti-symmetric since there are no pairs (a, b) with a ≠ b in S, thus satisfying both properties simultaneously.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) -5; B) -4; C) -3; D) -2
+\\ \textit{Note:} The correct answer is -4 because the equation 7 m + 12 n = 22 can be rearranged to express n in terms of m, and by substituting integer values for m, the maximum value of m+n that is negative occurs at m = -4 and n = 0, yielding m+n = -4.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 3; B) pi; C) 3 pi; D) 3/2
+\\ \textit{Note:} The length of the curve defined by the parametric equations x = cos t and y = sin t from t = 0 to t = π represents a semicircle with a radius of 1, resulting in a total length of π.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The product of 12 and 16 is 192, and when reduced modulo 24, it is congruent to 0, not 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because an ideal N in a ring R with unity being equal to the entire ring R implies that N contains the multiplicative identity 1, but it does not require N to contain any other element besides 1.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The order of the factor group aH, where a is an element of a group and H is a normal subgroup, can be independent of the order of a because it is determined by the index of H in the group, which does not necessarily relate to the order of individual elements in the group.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The degree of the field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q is 4, not 6, because sqrt(18) can be expressed as sqrt(2) * sqrt(9), which is already contained in Q(sqrt(2), sqrt(3)).
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the map x -\textgreater{} $axa^2$ is not a homomorphism in general, even for abelian groups, since it does not satisfy the homomorphism property of preserving the group operation for all elements in G.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Because any permutation of the vertices of a large triangle can be obtained by rotation or reflection, the coloring of the large triangle is determined by which set of three colors is used for the corner triangles and the color that is used for the center triangle. If the three corner triangles are the same color, there are six possible sets of colors for them. If exactly two of the corner triangles are the same color, there are $6\cdot 5=30$ possible sets of colors. If the three corner triangles are different colors, there are ${6\choose 3}=20$ possible sets of colors. Therefore there are $6+30+20=56$ sets of colors for the corner triangles. Because there are six choices for the color of the center triangle, there are $6\cdot 56=\boxed{336}$ distinguishable triangles.
+\\ \textit{Note:} correct because it accurately accounts for the distinct color combinations of the corner and center triangles by considering the effects of symmetry through rotations and reflections, leading to a systematic enumeration of distinguishable configurations based on the equality and inequality of colors among the corner triangles.
+\item \textbf{Answer:} Subtracting the second column from the first column, we get \[ \begin{vmatrix} 0 & 1 & 1 \\ x - 7 & 7 & -2 \\ x^3 - 343 & 343 & -8 \end{vmatrix} = 0.\]The first column becomes all zeros when $x = 7,$ so this is one possible value of $x.$ Subtracting the third column from the first column, we get \[ \begin{vmatrix} 0 & 1 & 1 \\ x + 2 & 7 & -2 \\ x^3 + 8 & 343 & -8 \end{vmatrix} = 0.\]The first column becomes all zeros when $x = -2,$ so this is another possible value of $x.$ Expanding the last determinant along the first column, we get \begin{align*} \begin{vmatrix} 0 \& 1 \& 1 \\ x + 2 \& 7 \& -2 \\ $x^3$ + 8 \& 343 \& -8 \end{vmatrix} \&= -(x + 2) \begin{vmatrix} 1 \& 1 \\ 343 \& -8 \end{vmatrix} + ($x^3$ + 8) \begin{vmatrix} 1 \& 1 \\ 7 \& -2 \end{vmatrix} \\ \&= -9 $x^3$ + 351 x + 630 = 0. \end{align*}Since we know that $x = 7$ are $x = -2$ are two solutions, we can take out a factor of $x - 7$ and $x + 2$, to get \[-9(x - 7)(x + 2)(x + 5) = 0.\]Hence, the possible values of $x$ are $\boxed{7, -2, \text{ and } -5}.$ (Alternatively, by Vieta's formulas, the sum of the three roots of $-9 x^3 + 351 x + 630 = 0$ is 0, so the third root is $-7 - (-2) = -5.$)
+\\ \textit{Note:} correct because it demonstrates the application of column operations on determinants, revealing specific values of \(x\) that lead to a column of zeros, which indicates that the determinant is zero, thus satisfying the original equation.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

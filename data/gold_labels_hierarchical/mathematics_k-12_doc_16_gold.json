@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_16",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression (4 x 4) + (4 x 5) is equivalent to 4 x 9 because it uses the distributive property, where 9 can be expressed as the sum of 4 and 5, allowing the original multiplication to be broken down into two separate products that still yield the same total.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 14292
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is due to the fact that the expected value and variance of the sum of two random variables can only be determined if the covariance or independence of the variables is known, which is not provided in this scenario.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5636
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 397 because when rounding to the nearest ten, any number from 395 to 404 rounds to 400, and 397 falls within that range.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2086
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "To find 60% of 30, you multiply 30 by 0.60, which equals 18.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2268
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 25 \u00d7 8 because it represents the total number of photos by multiplying the number of photos per book (25) by the number of photo books (8), thus applying the concept of multiplication to find the total quantity.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2226
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The solution to the equation x + 71 = -22 is true because when you subtract 71 from both sides, you get x = -22 - 71, which simplifies to x = -93.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2316
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because when solving the equation 13/4 = x/7, the correct value of x is calculated as 22.75, not 23.25.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2333
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The central limit theorem states that the sample mean is normally distributed regardless of the population's distribution as long as the sample size is sufficiently large, typically n \u2265 30, making the statement false.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 14640
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when you add 110 and 70 together, the result equals 180, which is confirmed by the basic arithmetic operation of addition.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2155
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because if the worker produces 22 parts every 7 hours, then in 35 hours, she can produce 110 parts, as 35 hours is equivalent to 5 cycles of 7 hours, resulting in 5 x 22 = 110 parts.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2099
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "We factor the quadratic, getting $(b-5)(2-b) \\ge 0$. The expression is equal to $0$ when\n$b=5 \\text{ or } 2$. When $b \\le 2$ or $b \\ge 5$, the quadratic is negative. When $2 \\le b\n\\le 5$, the quadratic is non-negative. Therefore, the greatest value of $b$ for which\n$(b-5)(2-b)\\ge 0$ is $b=\\boxed{5}$.",
+      "marks": 10,
+      "explanation": "correct because it accurately factors the quadratic inequality and determines the intervals where the expression is non-negative, concluding that the greatest value of \\( b \\) satisfying the inequality is \\( b = 5 \\).",
+      "source_dataset": "gsm8k_math",
+      "source_id": 15081
+    },
+    {
+      "question_id": "mathematics_k-12_doc_16_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Let the three terms of the arithmetic progression be 9, 9 + d, and 9 + 2 d, where d is the\ncommon difference. If the second term is increased by 2, it becomes 9 + d + 2, and if the\nthird term is increased by 20, it becomes 9 + 2 d + 20. The new sequence is then 9, 11 +\nd, and 29 + 2 d. For these terms to form a geometric progression, the square of the middle\nterm must equal the product of the other two, leading to the equation (11 + d)^2 = 9(29 +\n2 d). Solving this gives d = 5, making the third term 9 + 2 d = 19. Thus, the smallest\npossible value for the third term of the geometric progression is 19.",
+      "marks": 10,
+      "explanation": "correct because it correctly establishes the relationship between the terms of the arithmetic progression and the conditions for the new sequence to form a geometric progression, leading to the determination of the common difference d through the derived equation.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4302
+    }
+  ]
+}

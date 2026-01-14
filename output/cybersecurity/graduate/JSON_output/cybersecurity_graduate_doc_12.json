@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_12",
+  "document_name": "Cybersecurity - Graduate Level Assessment 12",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_12.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How does a buffer overflow on the stack facilitate running attacker-injected code?",
+      "options": {
+        "A": "By overwriting the return address to point to the location of that code",
+        "B": "By writing directly to the instruction pointer register the address of the code",
+        "C": "By writing directly to %eax the address of the code",
+        "D": "By changing the name of the running executable, stored on the stack"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow on the stack allows an attacker to overwrite the return address of a function, redirecting execution to attacker-injected code, thereby facilitating the execution of malicious instructions.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1531"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The __________ was a huge marketplace of Dark Web specifically famous for selling of\nillegal drugs & narcotics as well as you can find a wide range of other goods for sale.",
+      "options": {
+        "A": "Silk Road",
+        "B": "Cotton Road",
+        "C": "Dark Road",
+        "D": "Drug Road"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Silk Road was a notorious Dark Web marketplace that operated primarily between 2011 and 2013, facilitating the anonymous sale of illegal drugs and various illicit goods using cryptocurrency, making it emblematic of cybercrime in that domain.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following does authentication aim to accomplish?",
+      "options": {
+        "A": "Restrict what operations/data the user can access",
+        "B": "Determine if the user is an attacker",
+        "C": "Flag the user if he/she misbehaves",
+        "D": "Determine who the user is"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication aims to determine who the user is by verifying the identity of individuals attempting to access a system or network, ensuring that only authorized users can gain entry.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14206"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a transport layer vulnerability?",
+      "options": {
+        "A": "Mishandling of undefined, poorly defined variables",
+        "B": "The Vulnerability that allows \"fingerprinting\" & other enumeration of host information",
+        "C": "Overloading of transport-layer mechanisms",
+        "D": "Unauthorized network access"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses in the protocols and mechanisms that operate at the transport layer, such as TCP or UDP, which focus on end-to-end communication and data flow control.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1491"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What are the types of scanning?",
+      "options": {
+        "A": "Port, network, and services",
+        "B": "Network, vulnerability, and port",
+        "C": "Passive, active, and interactive",
+        "D": "Server, client, and network"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer encompasses the primary categories of scanning used in cybersecurity, where network scanning identifies active devices, vulnerability scanning assesses potential security flaws, and port scanning checks open ports and services, collectively forming a comprehensive approach to assessing security posture.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1526"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "UNIX and NT-based systems are known to have buffer overflow vulnerabilities due to their handling of memory.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "UNIX and NT-based systems are susceptible to buffer overflow vulnerabilities because they often allow programs to write more data to a buffer than it can hold, leading to memory corruption and the potential for attackers to execute arbitrary code.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "Buffer-overflow issues can be resolved entirely through adequate memory checks alone without the need for boundary checks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow issues require both memory and boundary checks because adequate memory checks alone cannot prevent data from being written outside the allocated buffer, which is essential for maintaining data integrity and system security.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Public key encryption offers significant advantages in secure key exchange compared to symmetric key cryptography.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Public key encryption enables secure key exchange without the need to share a secret key over potentially insecure channels, as it uses a pair of keys (public and private) to encrypt and decrypt messages, thereby eliminating the key distribution problem inherent in symmetric key cryptography.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1494"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "A packet filter firewall primarily filters traffic at the network or transport layer of the OSI model.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A packet filter firewall inspects packets based on their header information, which operates at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model, thereby validating or blocking traffic based on IP addresses and port numbers.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1508"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "A digital signature relies on a public-key system to ensure authenticity and integrity of digital communications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A digital signature utilizes a public-key cryptography system, where the sender signs a message with their private key, allowing the recipient to verify authenticity and integrity using the sender's public key, thus ensuring secure digital communications.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1507"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the difference between two consecutive numbers in a given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def diff_consecutivenums(nums): | return result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines the definition of a function that is intended to compute the difference between each pair of consecutive numbers in a list, which is a fundamental programming task that can be applied in various cybersecurity algorithms for data analysis or anomaly detection.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "345"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the smallest prime divisor of a number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def smallest_Divisor(n): | return 2; | return i; | return n;",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the smallest prime divisor of any integer greater than 1 is 2, and it suggests a structure for the function that could be expanded to include logic for checking other potential divisors if necessary.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "681"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

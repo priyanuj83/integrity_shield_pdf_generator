@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_17",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 17",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_17.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_17_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The characteristic of injecting drug users in Asia is/are:",
+      "options": {
+        "A": "Strong family support",
+        "B": "Low failure rate for rehabilitation centers",
+        "C": "Remaining a member of the community",
+        "D": "Both a and c"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Both a and c\" because it acknowledges that injecting drug users in Asia often share common characteristics related to their demographic profiles and patterns of drug use, which are crucial for understanding the public health implications and tailoring intervention strategies effectively.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13798"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The decline in working memory with advanced age seems to be due to",
+      "options": {
+        "A": "A loss of resources and slower processing speed",
+        "B": "An increase in the inhibition of relevant information",
+        "C": "A general decline in the ability to process information",
+        "D": "A severe loss of neural connections and decreased blood flow"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on research indicating that as individuals age, both the capacity of working memory diminishes due to a reduction in cognitive resources and the speed at which they process information decreases, leading to overall declines in memory performance.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6298"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A good surveillance system should provide information about:",
+      "options": {
+        "A": "Who is being infected",
+        "B": "Where the infected individuals are",
+        "C": "How rapidly infection is spreading",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A good surveillance system in health sciences must encompass a comprehensive range of information, including disease incidence, risk factors, and health outcomes, to effectively monitor and address public health issues.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13744"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "One of the first models of the physiology of the human sexual response was provided by",
+      "options": {
+        "A": "Henry Havelock Ellis",
+        "B": "Sigmund Freud",
+        "C": "Linda George and Stephen Weiler",
+        "D": "William Masters and Virginia Johnson"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "William Masters and Virginia Johnson are recognized for their pioneering research in the 1960s that detailed the physiological stages of human sexual response through direct observation and measurement, establishing a foundational model in sexology.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6347"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Continued stress is damaging to health and longevity because it leads to",
+      "options": {
+        "A": "Over exercising which causes physical damage",
+        "B": "Suppression of the immune system",
+        "C": "Less eating and, in many cases, severe eating disorders",
+        "D": "Risky behaviors such as speeding and not using a seat belt"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Continued stress triggers the release of stress hormones such as cortisol, which can suppress the immune system's function, making the body more vulnerable to infections and diseases, thereby negatively impacting health and longevity.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6117"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Activation of sympathetic nerves leads to dilation of the pupil of the eye.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Activation of sympathetic nerves triggers the release of norepinephrine, which acts on the dilator muscles of the iris, resulting in pupil dilation.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "14063"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Women experience hair loss more frequently than men, leading to significant concerns about their hair health.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because while both men and women can experience hair loss, studies indicate that men are more likely to experience significant hair loss due to genetic factors such as androgenetic alopecia.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6201"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Staphylococcus aureus is a bacterium associated with Toxic Shock Syndrome.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Staphylococcus aureus produces toxins, particularly toxic shock syndrome toxin-1 (TSST-1), which can lead to the development of Toxic Shock Syndrome in humans.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6367"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "The endometrium grows and thickens during the follicular phase of the menstrual cycle.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The endometrium grows and thickens during the follicular phase of the menstrual cycle due to the increasing levels of estrogen produced by developing follicles, which stimulates the proliferation of the endometrial lining in preparation for a potential pregnancy.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6412"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Nuremberg Code was the first to outline the principles of ethical research, including respect for persons and beneficence.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Nuremberg Code was not the first to outline ethical research principles, as earlier guidelines, such as the Declaration of Helsinki, also addressed ethical considerations in medical research.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13845"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the challenges of studying human norovirus in the absence of cell culture methods,\nand evaluate the role of volunteer studies in advancing our understanding of this virus.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Studying human norovirus poses significant challenges primarily due to the lack of\neffective cell culture methods, which complicates the understanding of its biology,\npathogenesis, and potential treatments. Without these methods, researchers struggle to\nreplicate the virus in vitro, limiting the ability to study its lifecycle and interactions\nwith host cells. Volunteer studies have become crucial in advancing our knowledge of\nnorovirus, as they allow researchers to ethically infect participants with the virus to\nobserve clinical outcomes and immune responses. This approach provides valuable insights\ninto viral transmission, symptomatology, and host factors influencing susceptibility,\nthereby filling the gaps left by the absence of cell culture techniques. Ultimately, these\nstudies enhance our understanding of norovirus and inform public health strategies to\ncontrol outbreaks.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the absence of effective cell culture methods as a major barrier to studying human norovirus, while emphasizing the importance of volunteer studies in ethically advancing research on the virus's biology and pathogenesis.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "13766"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_17_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the pathway of blood flow from the right ventricle of the heart, detailing its\njourney to the lungs and the significance of this process in respiratory and circulatory\nfunctions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Blood flow from the right ventricle of the heart begins when the ventricle contracts,\npropelling deoxygenated blood into the pulmonary arteries. These arteries carry the blood\nto the lungs, where it undergoes gas exchange; carbon dioxide is expelled, and oxygen is\nabsorbed. This process is crucial for respiratory and circulatory functions, as it\nreplenishes the blood with oxygen, necessary for cellular metabolism throughout the body.\nThe oxygen-rich blood then returns to the left atrium of the heart via the pulmonary\nveins, completing the cycle. Thus, the journey of blood from the right ventricle to the\nlungs via the pulmonary arteries is fundamental for maintaining the body's oxygen supply\nand supporting overall cardiovascular health.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the pathway of deoxygenated blood from the right ventricle to the lungs via the pulmonary arteries, emphasizes the essential gas exchange process that replenishes the blood with oxygen for cellular metabolism, and identifies the significance of this pathway for both respiratory and circulatory functions.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "163"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

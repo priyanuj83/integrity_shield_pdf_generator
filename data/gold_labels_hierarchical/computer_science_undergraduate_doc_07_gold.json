@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_undergraduate_doc_07",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is [11,15,19] because the slicing notation b[::2] selects every second element from the list b, starting from index 0.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Merge sort is the correct answer because it consistently divides the input array in half and merges the sorted halves, resulting in average-case and worst-case time complexities of O(n log n).",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1049
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The decimal number 0.5 has an exact representation in binary notation as it can be expressed as 1/2, which corresponds to the binary fraction 0.1.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1042
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The symbol table is a data structure used in compilers to store information about variables, including their names, types, scopes, and attributes, making it essential for semantic analysis and code generation.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1022
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Bitmap graphics are composed of pixels, which means that line segments may appear jagged or pixelated rather than perfectly straight, particularly when represented at lower resolutions.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1025
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the 'sort()' method is specific to list objects in Python, and strings are immutable, meaning they cannot be sorted in place.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Local variables are usually allocated on the stack dynamically and are not included in the activation record frame because their values are stored in separate stack space specific to each function call.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1030
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The sum of the list l = [1, 2, 3, 4] in Python 3 is 10, not 8, because when you add the numbers together (1 + 2 + 3 + 4), the total equals 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The one-time pad is considered perfectly secure because it uses a key that is as long as the message, truly random, used only once, and kept secret, ensuring that each possible plaintext is equally likely, making it impossible to decipher without the key.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1016
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because if r is defined as a lambda function multiplying its input by 2, then r(3) would evaluate to 6, not 3.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14389
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def count_Digit(n): | return count",
+      "marks": 10,
+      "explanation": "correct because it defines a function named `count_Digit` that is intended to count the digits in a given number `n`, demonstrating an understanding of function definition and the need for a counting mechanism, even though the implementation details are incomplete.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 365
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def get_Pairs_Count(arr,n,sum): | return count",
+      "marks": 10,
+      "explanation": "The provided answer correctly identifies the need for a function that takes an array, its length, and a target sum as parameters, which is essential for counting the number of pairs in the array that add up to the specified sum.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 767
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_11",
+  "document_name": "Mathematics - Graduate Level Assessment 11",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_11.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sets has the greatest cardinality?",
+      "options": {
+        "A": "The set of all finite subsets of R",
+        "B": "R",
+        "C": "The set of all infinite subsets of R",
+        "D": "The set of all functions from Z to Z",
+        "E": "The set of all functions from {0, 1} to R"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The set of all finite subsets of R has the greatest cardinality because it can be shown to have the same cardinality as the power set of R, which is uncountably infinite, thus exceeding the cardinality of any other set of finite subsets.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8155"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "There are 25 suitcases, 5 of which are damaged. Three suitcases are selected at random.\nWhat is the probability that exactly 2 are damaged?",
+      "options": {
+        "A": "2/50",
+        "B": "1/25",
+        "C": "1/30",
+        "D": "3/75",
+        "E": "4/100"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 2/50 arises from applying the hypergeometric distribution to calculate the probability of selecting exactly 2 damaged suitcases out of 3 chosen from a total of 25 suitcases, 5 of which are damaged.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8806"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A grocerystore sells a bag of 5 lemons for $2.00. What is the unit cost of each lemon in\nthe bag?",
+      "options": {
+        "A": "$1.50",
+        "B": "$0.50",
+        "C": "$0.20",
+        "D": "$0.60",
+        "E": "$0.10"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is $0.40, as the unit cost is calculated by dividing the total price of $2.00 by the number of lemons, which is 5, resulting in $2.00 \u00f7 5 = $0.40 per lemon.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7717"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What number makes the equation 35 / ? = 7 true?",
+      "options": {
+        "A": "5",
+        "B": "25",
+        "C": "7",
+        "D": "6",
+        "E": "10"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5 because dividing 35 by 5 yields 7, which satisfies the equation 35 / ? = 7.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8362"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Compute the product in the given ring. (12)(16) in Z_24",
+      "options": {
+        "A": "24",
+        "B": "28",
+        "C": "20",
+        "D": "16",
+        "E": "8"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the ring Z_24, the product (12)(16) equals 192, and when reduced modulo 24, 192 is congruent to 0, which is represented as 24 in the context of the ring.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8543"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The cost of one pencil is 66 cents when eleven pencils cost the same as three pens, which total $9.24 for seven pens.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if seven pens cost $9.24, then the cost per pen is $1.32, making the total cost for three pens $3.96, which equals the cost of eleven pencils, resulting in each pencil costing 66 cents.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7958"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The solution to the system of equations is given by the values x = 1, y = 3, and z = -1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the values x = 1, y = 3, and z = -1 do not satisfy all equations in the given system, indicating that they do not represent a valid solution.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "9023"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "There are 240 ways to divide a set of 5 elements into 2 non-empty ordered subsets.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the number of ways to divide a set of 5 elements into 2 non-empty ordered subsets is calculated as 2^5 - 2, which equals 30, and then multiplied by 2! (to account for the order of the subsets), resulting in 240 ways.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8937"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The expression $1990 \\times 1991 - 1989 \\times 1990$ simplifies to 3970.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression simplifies to \\(1990 \\times (1991 - 1989) = 1990 \\times 2 = 3980\\), not 3970, making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_11_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The value of y(4) for the differential equation dy/dt = \\sqrtt with the initial condition y(1) = 1 is approximately 7.789.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because integrating the differential equation dy/dt = \u221at from t=1 to t=4 yields y(4) = 1 + (2/3)(t^(3/2)) evaluated from 1 to 4, which approximates to 7.789.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8622"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_11_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the division of 2,314 by 4, providing the quotient and remainder, and discuss the\nimplications of these results in a broader mathematical context.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The division of 2,314 by 4 yields a quotient of 578 and a remainder of 2, denoted as 578 r\n2. This result indicates that 2,314 is not evenly divisible by 4, reflecting the concept\nof modular arithmetic where the remainder provides insight into the relationship between\nintegers. In a broader mathematical context, the quotient represents the largest multiple\nof 4 that fits within 2,314, while the remainder signifies the excess that cannot be\naccounted for by these multiples. Such division operations are fundamental in number\ntheory, influencing various applications, including algorithm design and cryptography,\nwhere understanding divisibility and remainders plays a crucial role.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately computes the quotient and remainder of the division, illustrating the principles of divisibility and modular arithmetic, where the quotient reflects the largest multiple of the divisor within the dividend, and the remainder indicates the surplus that remains after accounting for those multiples.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_11_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Determine the smallest positive integer that satisfies the following modular conditions:\nit leaves a remainder of 5 when divided by 8, a remainder of 1 when divided by 3, and a\nremainder of 7 when divided by 11. Explain your reasoning and the methods used to arrive\nat your solution.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the smallest positive integer that meets the given modular conditions, we can use\nthe method of successive substitutions or the Chinese Remainder Theorem. We need to solve\nthe system of congruences: \\( x \\equiv 5 \\ (\\text{mod} \\ 8) \\), \\( x \\equiv 1 \\\n(\\text{mod} \\ 3) \\), and \\( x \\equiv 7 \\ (\\text{mod} \\ 11) \\). Starting with the first two\ncongruences, we can express \\( x \\) in terms of \\( k \\) as \\( x = 8 k + 5 \\), and then\nsubstitute into the second congruence to find \\( k \\). Iterating through values leads to\nthe solution \\( x = 103 \\) which also satisfies the third condition. Thus, the smallest\npositive integer that satisfies all three conditions is 103.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it systematically applies the method of successive substitutions to solve the system of congruences, beginning with the first two conditions to express \\( x \\) in terms of one variable, and then substituting this expression into the remaining congruence to find the specific integer that satisfies all conditions.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8075"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

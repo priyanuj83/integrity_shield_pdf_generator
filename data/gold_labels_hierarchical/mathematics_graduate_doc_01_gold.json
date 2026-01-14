@@ -1,0 +1,123 @@
+{
+  "document_id": "mathematics_graduate_doc_01",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is a circle because if an analytic function maps the entire complex plane into the real axis, it must be constant by Liouville's theorem, and thus the imaginary axis, which corresponds to pure imaginary inputs, can only map to a single point, which can be viewed as a degenerate circle.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8575
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is $125.00 because a 15% markdown on the original price of $138.00 results in a subtraction of $20.70, leading to a new price of $117.30.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8793
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 10.065778 because, upon solving the initial value problem using an integrating factor and applying the initial condition, the resulting solution for y(t) reaches the value of 12 at this specific time.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8639
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 16 over 36 because when simplifying the ratio of 96 runners to 216 swimmers by dividing both numbers by their greatest common divisor, which is 6, the resulting simplest form is 16:36.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8260
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "In the group G = {2, 4, 6, 8} under multiplication modulo 10, the identity element is 1 because it is the unique element that, when multiplied by any element of the group, yields that element itself in the context of modular arithmetic, and since the question erroneously states 9, it suggests a misinterpretation of the identity element.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8330
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because with 12 months in a year, the pigeonhole principle dictates that to guarantee at least two people share a birth month, you need at least 13 individuals, thus making the minimum of 24 individuals unnecessary for this condition.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8411
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The cumulative distribution function of the standard Gaussian distribution is indeed log-concave because it is a non-decreasing, continuous function that is the integral of a concave probability density function, thus contradicting the claim that it is linear.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7962
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the double integral of f(x,y) over the specified domain is computed using numerical integration techniques, which yield an approximate value of 0.4295, demonstrating that the function's contributions in the given range result in this specific evaluation.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7964
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the correct number of combinations for selecting 3 toppings from 8 options is calculated using the combination formula C(8,3), which equals 56, not 36.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8313
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because substituting the number 12 into the equation yields 12^2 + 85 = 144 + 85 = 229, which does not equal (12 - 17)^2 = (-5)^2 = 25.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8921
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "If two numbers give the same remainder when divided by 5, they are said to be equivalent,\nmodulo 5. From $n^2$ to $n^3$, we have multiplied by $n$. Since $n^2$ is equivalent to 4\n(modulo 5), and $n^3$ is equivalent to 2 (modulo 5), we are looking for an integer $n$ for\nwhich $4\\cdot n$ is equivalent to 2, modulo 5. Notice that if $n$ is greater than 4, then\nwe can replace it with its remainder when divided by 5 without changing whether it\nsatisfies the condition. Therefore, we may assume that $0\\leq n <5$. Trying 0, 1, 2, 3,\nand 4, we find that only $\\boxed{3}$ times 4 leaves a remainder of 2 when divided by 5.",
+      "marks": 10,
+      "explanation": "correct because it applies the properties of modular arithmetic to derive the relationship between \\( n^2 \\) and \\( n^3 \\), simplifying the problem by considering the equivalence of \\( n \\) modulo 5 and determining that \\( 4n \\equiv 2 \\) leads to finding the appropriate remainder for \\( n \\).",
+      "source_dataset": "gsm8k_math",
+      "source_id": 18363
+    },
+    {
+      "question_id": "mathematics_graduate_doc_01_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To solve the equation \\( |x-4| - 10 = 2 \\), we first isolate the absolute value, yielding\n\\( |x-4| = 12 \\). This leads to two cases: \\( x-4 = 12 \\) and \\( x-4 = -12 \\). Solving\nthese, we find \\( x = 16 \\) and \\( x = -8 \\) as the solutions. The product of all possible\nvalues of \\( x \\) is \\( 16 \\times (-8) = -128 \\). Therefore, while the individual\nsolutions provide critical points for analysis, the product of these solutions highlights\nthe interaction between positive and negative values in the context of absolute equations.",
+      "marks": 10,
+      "explanation": "correct because it accurately solves the absolute value equation by isolating the absolute value, examining both possible cases, and calculating the product of the solutions, which reflects the mathematical relationship between the positive and negative values obtained.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8591
+    }
+  ]
+}

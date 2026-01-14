@@ -1,0 +1,289 @@
+{
+  "docid": "chemistry_undergraduate_doc_07",
+  "document_name": "Chemistry - Undergraduate Level Assessment 7",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_07.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A molecule has a rotational correlation time of 1 ns. At what magnetic field would protons\nin this molecule have the fastest spin-lattice relaxation? [Use eqns 5.3 and 5.4.]",
+      "options": {
+        "A": "3.74 T",
+        "B": "5.19 T",
+        "C": "6.08 T",
+        "D": "9.49 T"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 3.74 T because at this magnetic field strength, the Larmor frequency is optimized for efficient energy transfer during spin-lattice relaxation, aligning with the correlation time of 1 ns as indicated by the provided equations.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "954"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Infrared (IR) spectroscopy is useful for determining certain aspects of the structure of\norganic molecules because",
+      "options": {
+        "A": "all molecular bonds absorb IR radiation",
+        "B": "IR peak intensities are related to molecular mass",
+        "C": "most organic functional groups absorb in a characteristic region of the IR spectrum",
+        "D": "each element absorbs at a characteristic wavelength"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the fact that different organic functional groups have specific vibrational frequencies that correspond to distinct absorption bands in the infrared spectrum, allowing for the identification of these groups in a molecule's structure.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "897"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Of the following compounds, which has the lowest melting point?",
+      "options": {
+        "A": "HCl",
+        "B": "AgCl",
+        "C": "CaCl 2",
+        "D": "CCl 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "HCl has the lowest melting point among the given compounds because it is a molecular compound with weak van der Waals forces between its molecules, resulting in lower intermolecular attraction compared to ionic or stronger covalent compounds.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which nuclide has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field?",
+      "options": {
+        "A": "17 O",
+        "B": "19 F",
+        "C": "29 Si",
+        "D": "31 P"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 17 O because its nuclear magnetic resonance (NMR) frequency of 115.5 MHz in a 20.0 T magnetic field is consistent with its unique nuclear spin and gyromagnetic ratio, which determine the resonance frequency of a nuclide in a given magnetic field strength.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Of the following ions, which has the smallest radius?",
+      "options": {
+        "A": "K+",
+        "B": "Ca 2+",
+        "C": "Sc 3+",
+        "D": "Rb+"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sc 3+ has the smallest radius because it has lost three electrons, resulting in a higher effective nuclear charge relative to the remaining electrons, which pulls them closer to the nucleus and decreases the ionic radius.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "992"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "The Q-factor for an X-band EPR cavity with a resonator bandwidth of 1.58 MHz is 1012.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Q-factor for an X-band EPR cavity is typically in the range of 10,000 to 100,000, making a Q-factor of 1012 unreasonably high and therefore false.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "940"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "Tetramethylsilane's protons are not strongly shielded, which contributes to its effectiveness as a chemical shift reference.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Tetramethylsilane's protons are actually strongly shielded due to the surrounding electron-donating methyl groups, making it an effective reference for chemical shifts in NMR spectroscopy.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Doubling the volume of a buffer solution significantly decreases its pH due to dilution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the volume of a buffer solution does not significantly decrease its pH because buffers are designed to resist changes in pH upon dilution, as they contain both a weak acid and its conjugate base in equilibrium.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "974"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "Silicon is most commonly found in nature as an oxide, primarily in the form of silica and silicate minerals.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Silicon's high reactivity with oxygen leads to its predominant occurrence in nature as silicon dioxide (silica) and in various silicate minerals, making the statement true.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "920"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "CH 3 Br has a 1 H resonance approximately 1.55 kHz downfield from TMS in a spectrometer with a 12.0 T magnet.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because CH3Br typically produces a 1H NMR resonance at around 3.0 to 4.0 ppm downfield from TMS, which corresponds to a frequency shift significantly greater than 1.55 kHz in a 12.0 T magnetic field.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "956"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the equilibrium polarizations of an electron and a proton\nin a 1.0 T magnetic field at 300 K, and calculate the ratio |pe / pH|.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The equilibrium polarizations of an electron and a proton in a 1.0 T magnetic field at 300\nK are influenced by their magnetic moments, which are determined by their respective spins\nand g-factors. The electron has a much smaller mass compared to the proton, leading to a\ngreater sensitivity to the magnetic field. The polarization is also affected by\ntemperature, as higher temperatures generally result in increased thermal agitation,\nreducing polarization. By calculating the ratio of their polarizations, we find that |pe /\npH| equals approximately 820. This significant difference reflects the stronger response\nof the electron's magnetic moment to the applied magnetic field compared to that of the\nproton.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies that the equilibrium polarizations of an electron and a proton in a magnetic field are determined by their magnetic moments, which are influenced by their mass, spins, g-factors, and the effects of temperature on thermal agitation.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "977"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of polarization in 13 C nuclei within a 600 MHz spectrometer. How long\nwill it take for the polarization to reach twice its thermal equilibrium value at 298 K,\ngiven a T 1 of 5.0 s?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The process of polarization in 13 C nuclei within a 600 MHz spectrometer involves the\nalignment of nuclear spins in a magnetic field, leading to a net magnetization that can be\nmeasured. The time required for the polarization to reach twice its thermal equilibrium\nvalue can be calculated using the spin-lattice relaxation time, T 1, which in this case is\n5.0 seconds. The polarization follows an exponential approach to equilibrium, described by\nthe equation P(t) = P_eq(1 - e^(-t/T 1)). To find the time when polarization reaches twice\nits equilibrium value, we can set up the equation and solve for t, yielding approximately\n72.0 seconds. Thus, it will take about 72.0 seconds for the polarization of 13 C nuclei to\nreach twice its thermal equilibrium value at 298 K.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly describes the process of polarization in 13 C nuclei by referencing the alignment of spins in a magnetic field and the use of the T1 relaxation time to calculate the time required for polarization to reach twice its thermal equilibrium value through the exponential approach to equilibrium formula.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "907"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

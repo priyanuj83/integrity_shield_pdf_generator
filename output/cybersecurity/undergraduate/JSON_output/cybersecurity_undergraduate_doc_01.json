@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_01",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 1",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_01.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_01_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+      "options": {
+        "A": "boundary hacks",
+        "B": "memory checks",
+        "C": "boundary checks",
+        "D": "buffer checks"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow vulnerabilities occur when boundary checks are insufficiently implemented, allowing data to overflow the allocated memory space, potentially leading to security exploits.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The four Primary Security Principles related to messages are",
+      "options": {
+        "A": "Confidentiality, Integrity, Non repudiation and Authentication",
+        "B": "Confidentiality, Access Control, Integrity, Non repudiation",
+        "C": "Authentication, Authorization, Availability, Integrity",
+        "D": "Availability, Authorization, Confidentiality, Integrity"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights the four fundamental principles of cybersecurity that ensure the protection, trustworthiness, accountability, and verification of messages in digital communications.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1567"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Failed sessions allow brute-force attacks on access credentials. This type of attacks are\ndone in which layer of the OSI model?",
+      "options": {
+        "A": "Physical layer",
+        "B": "Data-link Layer",
+        "C": "Session layer",
+        "D": "Presentation layer"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is the Session layer because it is responsible for establishing, managing, and terminating sessions between applications, making it the layer where failed session attempts can be exploited through brute-force attacks on access credentials.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Why apps developed in languages like C, C++ is prone to Buffer-overflow?",
+      "options": {
+        "A": "No string boundary checks in predefined functions",
+        "B": "No storage check in the external memory",
+        "C": "No processing power check",
+        "D": "No database check"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Apps developed in languages like C and C++ are prone to buffer-overflow vulnerabilities because many of their standard library functions do not perform automatic boundary checks on strings, allowing data to exceed allocated memory limits and potentially overwrite adjacent memory.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1479"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What tool can be used to perform SNMP enumeration?",
+      "options": {
+        "A": "DNSlookup",
+        "B": "Whois",
+        "C": "Nslookup",
+        "D": "IP Network Browser"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The IP Network Browser is a tool specifically designed to discover and enumerate network devices using SNMP (Simple Network Management Protocol), making it suitable for performing SNMP enumeration in cybersecurity contexts.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "The OTP key can be computed as k = m xor c, where m is the message and c is the ciphertext.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, in a one-time pad encryption scheme, the ciphertext is generated by performing a bitwise XOR operation between the plaintext message and the key, allowing the original key to be retrieved by XORing the ciphertext with the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "All forms of network access are classified as transport layer vulnerabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Not all forms of network access are classified as transport layer vulnerabilities because vulnerabilities can exist at various layers of the OSI model, including the application, network, and data link layers, in addition to the transport layer.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1491"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "SQL queries based on user input are particularly vulnerable to injection attacks due to improper input validation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "SQL queries that incorporate user input without adequate input validation can allow attackers to manipulate the query structure, leading to unauthorized access to or alteration of the database, which is the essence of SQL injection attacks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1514"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Opera browser provides the necessary tools for entering the Tor network and accessing its services.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Opera browser does not natively support Tor network access, as it lacks integrated Tor functionality and does not provide the necessary anonymity features that the Tor browser does.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1530"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "EtterPeak is a widely used tool for conducting network analysis in multiprotocol diverse networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "EtterPeak is recognized for its effectiveness in analyzing network traffic across various protocols, making it a valuable tool in cybersecurity for understanding and managing multiprotocol diverse networks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1549"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find nth bell number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def bell_Number(n): | return bell[n][0]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that retrieves the nth Bell number from a precomputed table, which is a fundamental concept in combinatorial mathematics used in various applications, including cybersecurity algorithms.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_01_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check the occurrences of records which occur similar times in the\ngiven tuples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_occurences(test_list): | return  (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the structure of a function that aims to analyze and return the occurrences of records based on their frequency in the provided tuples, aligning with the task of counting similar occurrences.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "237"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_undergraduate_doc_16",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The decimal number 0.5 has an exact representation in binary notation as 0.1, since it is a power of two (specifically 1/2), which can be expressed without any repeating digits in the binary system.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1042
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The symbol table is a crucial data structure in a compiler that stores information about variables, including their names, types, scopes, and attributes, facilitating semantic analysis and code generation.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1022
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression evaluates to 1 because the modulus operation (3 % 3) results in 0, so the overall expression simplifies to 1 + 0, which equals 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is authentication because it refers to the process of verifying the identity of a user, and when someone logs in with stolen credentials, the integrity of this verification process is compromised.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The isupper() function in Python 3 checks if all characters in a string are uppercase letters, returning True if they are and False otherwise.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python, the expression 1**4 evaluates to 1 (since any number to the power of 0 is 1), and therefore the overall expression 4*1 results in 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3272
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the language of bit strings with a number of zeros that is a multiple of five cannot be represented by a regular expression, as it requires counting and enforcing specific numerical conditions that exceed the capabilities of regular languages.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1037
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Address Resolution Protocol (ARP) is indeed used to map an IP address to its corresponding hardware (MAC) address within a local network, allowing devices to communicate effectively.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1058
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the optimal page-replacement policy, known as the Belady's optimal algorithm, actually replaces the page that will not be used for the longest time in the future, not the one that was referenced the shortest time ago.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14149
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Merge sort consistently divides the input array in half and requires linear time to merge the sorted halves, resulting in both average-case and worst-case time complexities of O(n log n).",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1049
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def mutiple_tuple(nums): | return product",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a Python function to compute the product of numbers in a tuple, but it lacks the implementation details such as iterating through the tuple and using a multiplication operation to obtain the final product.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 925
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def replace_char(str1,ch,newch): | return str2",
+      "marks": 10,
+      "explanation": "correct because it defines a function named `replace_char` that takes three parameters: the original string, the character to be replaced, and the new character, indicating the intention to modify the string by replacing specified characters, although the implementation details are incomplete.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 474
+    }
+  ]
+}

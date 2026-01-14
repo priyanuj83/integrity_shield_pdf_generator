@@ -1,0 +1,288 @@
+{
+  "docid": "science_k-12_doc_01",
+  "document_name": "Science - K-12 Level Assessment 1",
+  "domain": "science",
+  "academic_level": "K-12",
+  "subjects": [
+    "science"
+  ],
+  "combination_used": [
+    "arc_science_mcq",
+    "arc_science_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\science\\k-12\\latex_documents\\science_k-12_doc_01.tex",
+    "pdf_file": "output\\science\\k-12\\pdf_documents\\science_k-12_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/science_k-12_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/science_k-12_doc_01_gold.json",
+    "answer_key_latex_file": "output\\science\\k-12\\answer_keys\\latex\\science_k-12_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\science\\k-12\\answer_keys\\pdf\\science_k-12_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "science_k-12_doc_01_science_arc_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which compound does not contain individual molecules?",
+      "options": {
+        "A": "salt",
+        "B": "water",
+        "C": "hydrogen gas",
+        "D": "carbon monoxide"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Salt, or sodium chloride, is an ionic compound that forms a crystal lattice structure, where ions are held together by strong electrostatic forces, rather than existing as discrete molecules. This key characteristic distinguishes it from covalent compounds, which consist of individual molecules.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_7008838"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "science_k-12_doc_01_science_arc_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Why does a floor covered with tile feel colder than a floor covered with carpet?",
+      "options": {
+        "A": "The tile floor is colder than the carpet.",
+        "B": "The tile floor conducts heat better than the carpet.",
+        "C": "The carpet conducts heat better than the tile floor.",
+        "D": "The tile floor is a better insulator than the carpet."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the concept of thermal conductivity, which indicates that tile has a higher thermal conductivity than carpet. As a result, tile efficiently absorbs heat from our body, making it feel colder, whereas carpet retains heat, providing a warmer sensation.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_7029803"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "science_k-12_doc_01_science_arc_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Genes are unable to determine a person's",
+      "options": {
+        "A": "eye color.",
+        "B": "athletic ability.",
+        "C": "number of teeth.",
+        "D": "shape of earlobes."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Genes play a significant role in determining certain physical traits and predispositions, but athletic ability is influenced by a combination of genetic factors, environmental conditions, training, and personal motivation, making it impossible for genes alone to determine a person's athletic potential. Thus, while genetics can contribute to athletic performance, they do not exclusively dictate it.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "AKDE&ED_2008_8_16"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "science_k-12_doc_01_science_arc_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A red giant star differs from main sequence stars because it",
+      "options": {
+        "A": "burns at a cooler temperature.",
+        "B": "is always larger than other suns.",
+        "C": "has greater density and gravity.",
+        "D": "fuses hydrogen to make helium."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A red giant star differs from main sequence stars because it has exhausted the hydrogen fuel in its core and is now fusing helium or heavier elements, which occurs at a cooler temperature compared to the hydrogen fusion that powers main sequence stars. This lower temperature causes the star to expand and take on a reddish hue, distinguishing it from the hotter, more luminous main sequence stars.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_7009993"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "science_k-12_doc_01_science_arc_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which is a natural cause of rivers drying up?",
+      "options": {
+        "A": "pollution",
+        "B": "erosion",
+        "C": "water tables rise",
+        "D": "lack of precipitation"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A natural cause of rivers drying up is a lack of precipitation because rivers rely on rainfall and snowmelt to replenish their water levels; when these sources of water decrease, the flow of the river diminishes, leading to dry conditions.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_7093975"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "science_k-12_doc_01_science_arc_tf_1",
+      "question_type": "TF",
+      "stem_text": "The outer layers of astronauts' space suits are reflective to protect them from intense sunlight in space.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The outer layers of astronauts' space suits are designed to be reflective in order to shield them from the intense sunlight and harmful radiation in space, helping to regulate their temperature and protect their skin from ultraviolet rays.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_7267925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "science_k-12_doc_01_science_arc_tf_2",
+      "question_type": "TF",
+      "stem_text": "Landslides are a sudden change to Earth's surface caused by the movement of loose rocks downhill.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Landslides indeed represent a sudden change to Earth's surface, as they occur when gravity causes loose rocks and soil to rapidly move downhill, often triggered by factors such as heavy rainfall, earthquakes, or human activity. This process alters the landscape, making the statement true.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "MEA_2010_8_15"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "science_k-12_doc_01_science_arc_tf_3",
+      "question_type": "TF",
+      "stem_text": "Humans have little control over sulfur dioxide levels, as they primarily come from natural sources like volcanoes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because while sulfur dioxide can originate from natural sources such as volcanoes, human activities, particularly the burning of fossil fuels and industrial processes, contribute significantly to sulfur dioxide emissions, allowing for substantial human control over its levels in the atmosphere.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_416633"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "science_k-12_doc_01_science_arc_tf_4",
+      "question_type": "TF",
+      "stem_text": "Rubbing the coin with cold hands will make it colder than placing it in cool water.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Rubbing a coin with cold hands will only transfer a small amount of heat away from the coin, while placing it in cool water allows for a more efficient heat exchange, making the coin colder than simply rubbing it with hands.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_SC_407072"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "science_k-12_doc_01_science_arc_tf_5",
+      "question_type": "TF",
+      "stem_text": "Incomplete metamorphosis describes an insect life cycle where the adult stage develops without passing through a pupa phase.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Incomplete metamorphosis is characterized by the life cycle of certain insects, such as grasshoppers and cockroaches, where the organism develops through a series of nymph stages that resemble the adult form, bypassing a distinct pupal phase.",
+      "source": {
+        "dataset": "arc_science_science",
+        "source_id": "Mercury_SC_401220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "science_k-12_doc_01_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the alternative energy resource that most closely resembles coal in its usage,\nincluding its benefits and challenges in comparison to traditional fossil fuels.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The alternative energy resource that most closely resembles coal in its usage is biomass,\nparticularly in the form of wood pellets. Biomass can be burned in power plants similar to\ncoal, providing a renewable energy source that helps reduce greenhouse gas emissions.\nHowever, challenges include the need for sustainable sourcing to prevent deforestation and\nthe potential for air pollution if not managed properly, making it crucial to balance its\nbenefits with these environmental concerns.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies biomass, particularly wood pellets, as an alternative energy resource that can be used similarly to coal in power generation, emphasizing its potential for reducing greenhouse gas emissions while also acknowledging the challenges of sustainable sourcing and air pollution management. This balanced perspective illustrates the complexities of transitioning to renewable energy sources in comparison to traditional fossil fuels.",
+      "source": {
+        "dataset": "arc_mcq_to_long",
+        "source_id": "Mercury_SC_415457"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "science_k-12_doc_01_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the key differences between organisms classified as Eukarya and those classified\nas Archaea and Bacteria, focusing on their cellular structures, functions, and ecological\nroles.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Organisms classified as Eukarya have complex cells with a defined nucleus and membrane-\nbound organelles, allowing for specialized functions, while Archaea and Bacteria are\nprokaryotic, meaning they lack a nucleus and have simpler structures. Eukarya includes\nplants, animals, and fungi, which play diverse ecological roles such as producers and\nconsumers, whereas Archaea and Bacteria are crucial for nutrient cycling, with some\ncapable of extreme survival conditions. These differences highlight the complexity of\nEukarya compared to the more ancient and diverse forms of life found in Archaea and\nBacteria.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that Eukarya organisms possess complex cellular structures with a nucleus and organelles, enabling specialized functions, while Archaea and Bacteria are simpler, prokaryotic organisms that play essential roles in nutrient cycling and can thrive in extreme environments, thus highlighting their ecological significance.",
+      "source": {
+        "dataset": "arc_mcq_to_long",
+        "source_id": "Mercury_415268"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

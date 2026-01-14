@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 5 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Sender Site; B) Site; C) Receiver site; D) Conferencing
+\\ \textit{Note:} The message must be encrypted at the sender site and decrypted at the receiver site to ensure that the data remains secure during transmission and only the intended recipient can access the original message.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) $n^m$; B) n!/(n - m)!; C) n!; D) n!/(m!(n - m)!)
+\\ \textit{Note:} The correct answer is $n^m$ because each of the m elements in set A can be independently mapped to any of the n elements in set B, resulting in n choices for each of the m elements.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Secure Socket Layer Protocol; B) Secure IP Protocol; C) Secure Http Protocol; D) Transport Layer Security Protocol
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is a component of the Internet Protocol Security (IPsec) suite, which is designed to secure Internet Protocol (IP) communications by providing confidentiality, integrity, and authentication.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 53; B) 29; C) 50; D) 100
+\\ \textit{Note:} The correct answer is 100 because the recursive function defines f(x) such that f(4) = 4 * f(3) + 16, and by calculating f(3) through the same process, we find that it ultimately evaluates to 100 after solving the series of recursive calls.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) the matrix, if stored directly, is large and can be clumsy to manage; B) it is not capable of expressing complex protection requirements; C) deciding whether a process has access to a resource is undecidable; D) there is no way to express who has rights to change the access matrix itself
+\\ \textit{Note:} The access matrix approach can become unwieldy because it requires a potentially large amount of storage to represent all possible combinations of subjects and objects in a system, leading to inefficiencies in management and scalability.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because MD 5 (Message-Digest Algorithm 5) is designed to produce a fixed-length output of 128 bits, regardless of the length of the input message.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Poor handling of unexpected input is primarily categorized as a business logic or application logic issue rather than a presentation layer issue, as it pertains to how the application processes and responds to user input rather than how that input is displayed.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The IP Network Browser is an effective tool for performing SNMP enumeration in network management because it provides a user-friendly interface for discovering and managing SNMP-enabled devices on a network, allowing for efficient data collection and analysis.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A TCP connect scan is considered a full connection scan because it completes the TCP three-way handshake, making it more detectable compared to stealthier scanning techniques such as SYN scans, which do not complete the handshake.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Windows 7, while it includes various security enhancements, does not completely eliminate buffer-overflow vulnerabilities, as such vulnerabilities can still be exploited by attackers due to inherent limitations in its security architecture.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def max\_sum(arr, n): | return max\_sum
+\\ \textit{Note:} The provided answer is correct because it defines a function that aims to compute the maximum sum of a bi-tonic subsequence in an array, which involves identifying the longest subsequence that first increases and then decreases, leveraging dynamic programming principles to optimize the calculation of the sum.
+\item \textbf{Answer:} def join\_tuples(test\_list): | return (res)
+\\ \textit{Note:} The answer correctly identifies the need to create a function that processes tuples with similar initial elements, implying that the function will aggregate or concatenate these tuples, leading to the return statement indicating the result of this operation.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

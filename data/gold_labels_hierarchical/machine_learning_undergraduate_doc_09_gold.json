@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_09",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The rank of the matrix A is 1 because all of its rows are identical, indicating that they span only a single dimension in the vector space.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because MAP incorporates prior information, which regularizes the estimation and reduces uncertainty in the parameter estimates.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14786
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and written about the potential existential risks associated with advanced AI systems, making him a prominent authority on the subject.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The sigmoid function, defined as \\( \\sigma(x) = \\frac{1}{1 + e^{-x}} \\), transforms any real-valued input into a value strictly between 0 and 1, making its output bounded within this range.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because P(H|E, F) can be calculated using Bayes' theorem, which requires P(E, F), P(H), and P(E, F|H) to derive the conditional probability of H given E and F.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6893
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the Bayesian network H -> U <- P <- W involves three nodes with dependencies that require more than four independent parameters to fully specify the conditional probabilities, as each node's distribution depends on its parents\u2019 states.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The ResNet-50 model contains approximately 23 million parameters, which is significantly fewer than 1 billion, thus categorizing it as a relatively smaller neural network compared to others in the field.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Ridge regression does not perform feature selection by eliminating less important features; instead, it shrinks the coefficients of all features towards zero but retains all of them in the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because best-subset selection evaluates all possible combinations of predictors to find the best model, while forward stepwise selection only adds predictors incrementally based on their individual contributions, which can lead to different models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def all_Bits_Set_In_The_Given_Range(n,l,r): | return True | return False",
+      "marks": 10,
+      "explanation": "The provided answer is incorrect because it lacks the necessary logic to actually check if all bits are unset in the given range and simply returns True and False without evaluating the conditions based on the input parameters.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 228
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_09_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def check_expression(exp): | return False | return False | return False | return not stack",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that checks for balanced expressions by utilizing a stack data structure, ensuring that for every opening symbol there is a corresponding closing symbol, and returns a boolean indicating whether the expression is balanced.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 771
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_19",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 19",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_19.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following can only be used when training data are linearly separable?",
+      "options": {
+        "A": "Linear hard-margin SVM.",
+        "B": "Linear Logistic Regression.",
+        "C": "Linear Soft margin SVM.",
+        "D": "The centroid method."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The linear hard-margin SVM is specifically designed to find a hyperplane that perfectly separates linearly separable data without allowing any misclassifications, making it applicable only in scenarios where such a separation is possible.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| L 2 regularization of linear models tends to make models more sparse than L 1\nregularization. Statement 2| Residual connections can be found in ResNets and\nTransformers.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "L2 regularization promotes weight shrinkage without enforcing sparsity, making Statement 1 false, while Statement 2 is true because both ResNets and Transformers utilize residual connections to facilitate training and improve model performance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6892"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the dimensionality of the null space of the following matrix? A = [[1, 1, 1], [1,\n1, 1], [1, 1, 1]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The null space of matrix A, which is a rank-deficient matrix with a rank of 1, has a dimensionality of 2 because the number of free variables in the system of equations defined by A equals the total number of columns (3) minus the rank (1).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "MLE estimates are often undesirable because",
+      "options": {
+        "A": "they are biased",
+        "B": "they have high variance",
+        "C": "they are not consistent estimators",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maximum Likelihood Estimation (MLE) estimates are often undesirable because they can exhibit high variance, meaning that they are sensitive to changes in the data and may lead to unstable and inconsistent parameter estimates.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which image data augmentation is most common for natural images?",
+      "options": {
+        "A": "random crop and horizontal flip",
+        "B": "random crop and vertical flip",
+        "C": "posterization",
+        "D": "dithering"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Random cropping and horizontal flipping are common data augmentation techniques for natural images because they effectively increase the diversity of the training dataset by introducing variations in scale and orientation, which helps improve model generalization.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "15759"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Adding more basis functions in a linear model decreases variance, leading to a more generalized model performance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adding more basis functions in a linear model can actually increase variance by allowing the model to fit the training data more closely, which may lead to overfitting and poorer generalization on unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6880"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "ImageNet contains images of various resolutions, providing a diverse dataset for training machine learning models.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "ImageNet includes millions of images collected from various sources, resulting in a wide range of resolutions that contribute to the dataset's diversity and effectiveness for training machine learning models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Discriminative approaches model the conditional probability p(y|x, w) to predict outcomes based on input features and parameters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Discriminative approaches specifically focus on modeling the conditional probability of the output given the input features and parameters, which allows them to predict outcomes directly based on this relationship.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Principal Component Analysis (PCA) is an unsupervised learning technique used for dimensionality reduction.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Principal Component Analysis (PCA) is considered an unsupervised learning technique because it identifies patterns in data without using labeled responses, effectively reducing the dimensionality by transforming correlated features into a set of uncorrelated variables called principal components.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Overfitting is more likely when the hypothesis space is small, as simpler models tend to capture all patterns.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because overfitting occurs when the hypothesis space is large and complex, allowing the model to capture noise in the training data rather than just the underlying patterns.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the n'th perrin number using recursion.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_perrin(n): | return 3 | return 0 | return 2 | return get_perrin(n - 2) + get_perrin(n - 3)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly implements the recursive definition of the Perrin sequence, where the base cases return the appropriate values for n = 0, 1, and 2, and for n greater than 2, it recursively computes the nth Perrin number as the sum of the (n-2)th and (n-3)th Perrin numbers.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "385"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to get the first element of each sublist.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def Extract(lst): | return [item[0] for item in lst]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly defines a Python function that utilizes a list comprehension to iterate through each sublist in the input list and extract the first element, effectively returning a new list containing these first elements.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "460"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

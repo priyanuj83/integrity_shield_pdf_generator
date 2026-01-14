@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_25",
+  "document_name": "Computer Science - Graduate Level Assessment 25",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_25.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A ___________ is a method in which a computer security mechanism is bypassed untraceable\nfor accessing the computer or its information.",
+      "options": {
+        "A": "front-door",
+        "B": "backdoor",
+        "C": "clickjacking",
+        "D": "key-logging"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a hidden method of bypassing normal authentication or security mechanisms in a computer system, allowing unauthorized access to the system and its information without detection.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1517"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT a reasonable justification for choosing to busy-wait on an\nasynchronous event?",
+      "options": {
+        "A": "The wait is expected to be short.",
+        "B": "A busy-wait loop is easier to code than an interrupt handler.",
+        "C": "There is no other work for the processor to do.",
+        "D": "The program executes on a time-sharing system."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Choosing to busy-wait on an asynchronous event is not reasonable on a time-sharing system because it can waste CPU cycles and degrade overall system performance by preventing other processes from executing.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1012"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following regular expressions is equivalent to (describes the same set of\nstrings as) (a* + b)*(c + d)?",
+      "options": {
+        "A": "a*(c + d)+ b(c + d)",
+        "B": "a*(c + d)* + b(c + d)*",
+        "C": "a*(c + d)+ b*(c + d)",
+        "D": "(a + b)*c +(a + b)*d"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, (a + b)*c + (a + b)*d, accurately captures the structure of the original expression (a* + b)*(c + d) by expressing that any combination of 'a's and 'b's can precede either 'c' or 'd', reflecting the union and concatenation operations inherent in the original regular expression.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "15608"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What was the first buffer overflow attack?",
+      "options": {
+        "A": "Love Bug",
+        "B": "SQL Slammer",
+        "C": "Morris Worm",
+        "D": "Code Red"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm, released in 1988, is considered the first buffer overflow attack as it exploited a vulnerability in the Unix sendmail program to propagate itself, demonstrating the severe consequences of such security flaws in software.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_25_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The Message condentiality or privacy means that the sender and the receiver expect",
+      "options": {
+        "A": "Integrity",
+        "B": "Condentiality",
+        "C": "Authentication",
+        "D": "Nonrepudiation"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Confidentiality\" because it refers to the assurance that information is accessible only to those authorized to have access, ensuring that both the sender and receiver can communicate without unauthorized interception or disclosure.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1511"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Interrupts are primarily used to replace data channels in managing input and output operations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Interrupts are mechanisms that allow the CPU to respond to events or signals from hardware devices, enhancing the efficiency of input and output operations, rather than replacing data channels which are crucial for data transmission.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1026"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Burp Suite is primarily designed for analyzing wireless traffic and is more effective than Wireshark.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Burp Suite is primarily designed for web application security testing and not for analyzing wireless traffic, which is the primary function of Wireshark.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Operator precedence in programming languages can be effectively specified using a context-free grammar.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Operator precedence can be effectively specified using a context-free grammar because context-free grammars can define the hierarchical structure of expressions, allowing for the correct interpretation of operator precedence and associativity in programming languages.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1077"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "WPA is the central node of 802.11 wireless operations, providing encryption and security for wireless networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because WPA (Wi-Fi Protected Access) is not the central node of 802.11 wireless operations; rather, it is a security protocol used to provide encryption and secure communication within those networks, while the central node typically refers to the access point or router that manages wireless connections.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_25_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The values of local variables are usually stored in a subroutine's activation record frame in stack-based programming languages.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In stack-based programming languages, local variables are typically stored in the activation record of a subroutine's stack frame, but they are not necessarily stored in the activation record frame itself, as they can also be held in registers or allocated on the heap depending on the language's implementation and optimization strategies.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1030"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_25_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to convert a given tuple of positive integers into an integer.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def tuple_to_int(nums): | return result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the basic structure of a function that will take a tuple of positive integers as input and aims to convert those integers into a single integer, emphasizing the importance of defining a function and the expected output format.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "116"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_25_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check if the given array represents min heap or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_min_heap(arr, i): | return True | return left_child and right_child",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines a function that checks the properties of a min heap by ensuring that each parent node is less than or equal to its children, which is essential for validating the min heap structure.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "751"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

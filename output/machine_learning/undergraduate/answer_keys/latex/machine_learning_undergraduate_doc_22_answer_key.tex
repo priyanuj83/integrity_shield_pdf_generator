@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 22 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) p(y|x, w); B) p(y, x); C) p(w|x, w); D) None of the above
+\\ \textit{Note:} Discriminative approaches in machine learning aim to directly model the conditional probability of the output variable y given the input variable x and parameters w, focusing on the decision boundary between classes rather than the joint distribution of inputs and outputs.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(A | B) * P(B | C) * P(C | A); B) P(C | A, B) * P(A) * P(B); C) P(A, B | C) * P(C); D) P(A | B, C) * P(B | A, C) * P(C | A, B)
+\\ \textit{Note:} The correct answer is P(A, B | C) * P(C) because it follows the fundamental rule of probability that states the joint probability of A and B given C can be expressed as the product of the conditional probability of A and B given C and the marginal probability of C.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Increase bias; B) Decrease bias; C) Increase variance; D) Decrease variance
+\\ \textit{Note:} Averaging the output of multiple decision trees helps decrease variance by reducing the impact of individual tree predictions that may be highly variable, leading to a more stable and accurate overall model.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) L$_{0}$ norm; B) L$_{1}$ norm; C) L$_{2}$ norm; D) either (a) or (b)
+\\ \textit{Note:} The correct answer is either (a) Lasso regularization or (b) Elastic Net regularization, as both techniques can lead to zeroing out some coefficients in linear regression due to their inherent properties of promoting sparsity in the model.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) O(1); B) O( N ); C) O(log N ); D) O( $N^2$ )
+\\ \textit{Note:} The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to each of the N training instances to determine the closest neighbors for classification, resulting in a linear time complexity relative to the number of training instances.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because best-subset selection evaluates all possible combinations of predictors to find the optimal model, while forward stepwise selection only adds predictors one at a time based on their individual contribution, potentially missing the best overall combination.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Lasso performs feature selection by applying L$_{1}$ regularization, which can shrink some coefficients to exactly zero, effectively removing irrelevant features from the model, while Ridge regression uses L$_{2}$ regularization, which does not achieve this zeroing effect.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The learning rate determines the size of the steps taken during the optimization process, directly impacting how quickly and effectively a neural network can adjust its weights based on the data it processes, thus influencing convergence.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Clustering is an unsupervised learning technique that groups data points based on similarity rather than predicting outcomes, making it unsuitable for predicting specific values like rainfall.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the BLEU metric measures the precision of n-grams in generated translations compared to reference translations, while the ROGUE metric emphasizes recall by comparing the overlap of n-grams between generated summaries and reference summaries.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_demlo(s): | return res
+\\ \textit{Note:} correct as it outlines the basic structure of a function in Python that is intended to compute a specific mathematical property (the demlo number) for a given input, though it lacks the actual implementation details needed to perform the calculation.
+\item \textbf{Answer:} def sumofFactors(n) : | return 0 | return res
+\\ \textit{Note:} correct as it outlines the basic structure of a Python function that aims to compute the sum of even factors of a given number, although it requires additional logic to calculate and return the actual sum of even factors.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

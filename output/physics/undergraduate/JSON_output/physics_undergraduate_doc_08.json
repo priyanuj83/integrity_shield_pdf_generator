@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_08",
+  "document_name": "Physics - Undergraduate Level Assessment 8",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_08.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_08_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical\nto that of a hydrogen atom in which all the wavelengths are",
+      "options": {
+        "A": "decreased by a factor of 9",
+        "B": "decreased by a factor of 49",
+        "C": "decreased by a factor of 81",
+        "D": "increased by a factor of 9"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The emission spectrum of Li++ is identical to that of hydrogen because it has only one electron, and since the wavelengths of the transitions in hydrogen are scaled by the square of the ratio of the atomic numbers, for Li++ (Z=3), the wavelengths are decreased by a factor of 3\u00b2, which equals 9.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1453"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_08_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is\napproximately",
+      "options": {
+        "A": "0.1 GeV/c^2",
+        "B": "0.2 GeV/c^2",
+        "C": "0.5 GeV/c^2",
+        "D": "1.0 GeV/c^2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the energy-momentum relation in relativistic physics, E^2 = (pc)^2 + (m\u2080c\u00b2)\u00b2, which allows us to calculate the rest mass m\u2080 as approximately 1.0 GeV/c\u00b2 when substituting the given total energy and momentum values.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1418"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_08_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following lasers utilizes transitions that involve the energy levels of free\natoms?",
+      "options": {
+        "A": "Diode laser",
+        "B": "Dye laser",
+        "C": "Free-electron laser",
+        "D": "Gas laser"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Gas lasers operate by exciting the energy levels of free atoms or molecules, allowing them to emit coherent light through stimulated emission, which distinguishes them from other types of lasers that rely on solid or liquid mediums.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1455"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_08_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "For which of the following thermodynamic processes is the increase in the internal energy\nof an ideal gas equal to the heat added to the gas?",
+      "options": {
+        "A": "Constant temperature",
+        "B": "Constant volume",
+        "C": "Constant pressure",
+        "D": "Adiabatic"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a constant volume process, no work is done on or by the gas, so the change in internal energy is equal to the heat added, as described by the first law of thermodynamics (\u0394U = Q - W, where W = 0).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14196"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_08_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following gives the total spin quantum number of the electrons in the ground\nstate of neutral nitrogen (Z = 7)?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "3/2",
+        "D": "5/2"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total spin quantum number of the electrons in the ground state of neutral nitrogen is 3/2 because nitrogen has three unpaired electrons in its p-orbitals, each contributing a spin of 1/2, resulting in a total spin of 3/2 when combined.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1374"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_08_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "If the total energy of a particle is twice its rest energy, its relativistic momentum is equal to (\\sqrt 3)mc.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, according to the relativistic energy-momentum relationship, if a particle's total energy is twice its rest energy (E=2mc\u00b2), its relativistic momentum can be derived to be (\u221a3)mc using the formula p = \u221a(E\u00b2/c\u00b2 - m\u00b2c\u00b2).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1378"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_08_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "Electrical resistivity measurements can directly indicate the type of charge carriers in a semiconductor.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Electrical resistivity measurements alone cannot determine the type of charge carriers in a semiconductor because both electrons and holes can contribute to conduction, making it necessary to use additional methods, such as Hall effect measurements, to distinguish between them.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1381"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_08_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "In a constant pressure process, the increase in the internal energy of an ideal gas is equal to the heat added to the gas.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, in a constant pressure process, the increase in internal energy of an ideal gas is equal to the heat added minus the work done by the gas on its surroundings, as described by the first law of thermodynamics.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15624"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_08_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "A meter stick moving at 0.8 c takes 1.6 ns to pass an observer in their reference frame.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, due to length contraction in special relativity, the proper length of the meter stick is shorter in the observer's reference frame, resulting in it taking less than 1.6 ns to pass the observer.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_08_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "During a reversible thermodynamic process, the internal energy of the system always increases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the internal energy of a system can change in either direction\u2014increase or decrease\u2014depending on the heat added to the system and the work done by or on the system, regardless of whether the process is reversible.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_08_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the work required to accelerate a proton from rest to a speed of 0.6 c. Explain\nthe underlying physics principles and derive the expression for the work done in terms of\nthe proton's mass.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To accelerate a proton from rest to a speed of 0.6 c, we must consider the principles of\nrelativistic kinetic energy. The work done on the proton can be calculated using the\nrelativistic kinetic energy formula, which is given by \\( K.E. = (\\gamma - 1)mc^2 \\),\nwhere \\( \\gamma \\) is the Lorentz factor. For a speed of 0.6 c, the Lorentz factor is \\(\n\\gamma = \\frac{1}{\\sqrt{1 - (0.6)^2}} \\approx 1.25 \\). Therefore, the work done, which\nequals the change in kinetic energy, is \\( W = (1.25 - 1)mc^2 = 0.25 mc^2 \\). This result\nhighlights the energy required to overcome the relativistic effects as the proton\napproaches a significant fraction of the speed of light.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the relativistic kinetic energy formula, incorporates the Lorentz factor for the given speed, and derives the work done in terms of the proton's mass, demonstrating the relationship between work, energy, and relativistic motion.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1376"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_08_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the measurements an astronomer can make when observing a moon orbiting a planet,\nand explain why the mass of the moon cannot be determined from these measurements.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When observing a moon orbiting a planet, an astronomer can measure the moon's orbital\nperiod, distance from the planet, and the shape of its orbit. These measurements allow the\napplication of Kepler's laws and Newton's law of gravitation to determine the mass of the\nplanet, as the gravitational force exerted by the planet governs the moon's motion.\nHowever, the mass of the moon itself cannot be determined from these measurements because\nthe gravitational influence of the moon on the planet is negligible compared to the\nplanet's mass. Consequently, while the moon's orbital characteristics provide insights\ninto the planet's mass, they do not yield sufficient information to deduce the moon's mass\ndirectly. This limitation arises because the equations used to analyze orbital motion\ndepend primarily on the central mass, which in this case is the planet.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the measurements of the moon's orbital period and distance allow for the calculation of the planet's mass using gravitational principles, but the moon's mass cannot be determined since its gravitational influence on the planet is negligible compared to that of the planet on the moon.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1395"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

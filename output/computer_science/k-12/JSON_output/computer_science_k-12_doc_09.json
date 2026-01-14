@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_09",
+  "document_name": "Computer Science - K-12 Level Assessment 9",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_09.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_09_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 1 + 3 % 3?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because the expression evaluates the modulus operation first, where 3 % 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of \"abc\"[::-1] in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "abc",
+        "C": "cba",
+        "D": "c"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The output is \"cba\" because the slicing notation [::-1] reverses the string by stepping backwards through the characters from the end to the beginning.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "15675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following spreadsheet functions would be most useful for detecting improbably\nhigh or low values that have become part of a data set as a result of data entry errors?",
+      "options": {
+        "A": "A function that averages numeric values in a column or row",
+        "B": "A function that counts the values in a column or row",
+        "C": "A function that rounds a numeric value",
+        "D": "A function that sorts values in a column or row"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A function that sorts values in a column or row helps to identify improbable high or low values by organizing the data, making it easier to spot outliers or anomalies that may indicate data entry errors.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3221"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of the statement \"a\" + \"ab\" in Python 3?",
+      "options": {
+        "A": "Error",
+        "B": "aab",
+        "C": "ab",
+        "D": "a ab"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The output is \"aab\" because in Python 3, the \"+\" operator concatenates the two strings \"a\" and \"ab\" together.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3203"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_09_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of 4*1**4 in python?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "256",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression x >> 1, where x equals 8, evaluates to 3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression x >> 1 performs a bitwise right shift on the binary representation of 8, which results in 4, not 3.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3227"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The isupper() function in Python 3 checks if all characters in a string are uppercase.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The isupper() function returns True if all the alphabetic characters in a string are uppercase and there is at least one character, confirming that it checks for the uppercase status of all characters.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The random() function in Python 3 sets the integer starting value used in generating random numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The random() function in Python 3 generates a random float between 0.0 and 1.0 and does not set or use an integer starting value for generating random numbers; instead, the seed for random number generation is set using the seed() function.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The condition a < b guarantees that the expression evaluates to true regardless of the values of a and c.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition a < b does not account for the relationship between a and c, meaning if c is involved in the expression, it can lead to different outcomes depending on its value.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_09_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "If a large Java program passes all tests, all its preconditions are guaranteed to be correct.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Passing all tests does not guarantee that preconditions are correct, as tests may not cover all possible input scenarios or edge cases, allowing for undetected errors in the preconditions.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3216"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_09_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the RGB color model represents colors using red, green, and blue values. How\nmany bits are required to accurately represent a color in this model, and why?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The RGB color model represents colors by combining varying intensities of red, green, and\nblue light. Each color in this model is defined using values that typically range from 0\nto 255, which allows for a wide spectrum of possible colors. To accurately represent a\ncolor, 24 bits are required; this is because each of the three colors (red, green, and\nblue) is represented by 8 bits, allowing for 256 possible values per color. When you\nmultiply the 256 values for red, green, and blue together (256 x 256 x 256), you get over\n16 million different colors. This extensive range enables the RGB model to create vibrant\nand diverse colors for digital displays.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the RGB color model defines colors through the combination of red, green, and blue light at varying intensities, requiring 24 bits to represent each color channel with 8 bits, resulting in a total of 256 values for each primary color.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_09_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Explain how the exponential operator in Python 3 functions for calculating powers of\nnumbers. Discuss its syntax, use cases, and any differences from other arithmetic\noperations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In Python 3, the exponential operator is represented by the double asterisk symbol (**),\nand it is used to calculate powers of numbers. For example, the expression `2 ** 3`\ncomputes 2 raised to the power of 3, resulting in 8. The syntax is straightforward: the\nbase number comes first, followed by the `**` operator, and then the exponent. This\noperator is particularly useful in mathematical computations, such as when dealing with\nexponential growth or in scientific calculations. Unlike other arithmetic operations like\naddition or multiplication, which combine values, the exponential operator specifically\nraises one number to the power of another, making it unique in its function.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the syntax and functionality of the exponential operator (`**`) in Python 3 for calculating powers, provides an example, and highlights its applications in mathematical and scientific contexts, while also hinting at its distinction from other arithmetic operations.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3219"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

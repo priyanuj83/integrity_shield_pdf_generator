@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_k-12_doc_05",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The ratio 8 over 12 is correct because it simplifies to 2 over 3, which is equivalent to the simplified form of 6 over 9, also 2 over 3, thus forming a proportion.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2225
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 298 because the primes between 100 and 200 that are 1 or 2 more than perfect squares are 101, 103, 113, 127, 131, 137, 149, 151, 157, 163, 173, 179, 181, and 191, which when summed yield 298.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14521
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Since $5000 doubles to $10000 in six years, the interest rate can be determined as approximately 12.25%, and using the formula for compound interest, it takes 30 years for $300 to grow to $9600 at the same rate.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 15699
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The fraction 3 over 5 represents the ratio of 3 dogs to a total of 5 dogs, which accurately indicates the part-to-whole relationship between the number of dogs in the group and the total number of dogs.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2431
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The ant travels a distance of 10 units from $(-4,6)$ to the origin, calculated using the distance formula, and then an additional distance of $2\\sqrt{13}$ units from the origin to $(4,3)$, resulting in a total distance of $5 + 2\\sqrt{13}$.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4243
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the mean of the students' test scores is determined by adding all the scores together and dividing by the number of students, and without specific data indicating that the mean is 60, we cannot assume it to be true.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 15702
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the actual total number of T-shirts sold by the volunteers differs from 668, indicating a miscalculation or incorrect reporting of the sales figures.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2424
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when you divide 35 by 5, the result is indeed 7, confirming that 5 is the correct divisor in this equation.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2280
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because when comparing the numbers, 3.8 is greater than 3.18, so the correct order from greatest to least should be 3.8, 3.18, 3, and 1 over 8.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2111
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The two smallest 3-digit prime numbers are 101 and 103, and their product is 10403, whose digits sum to 1 + 0 + 4 + 0 + 3 = 8.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4244
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "In the transition between figures, each endpoint splits into two new segments, creating\ntwo new endpoints, so the number of endpoints doubles. Figure 1 has $3$ endpoints, so\nFigure $n$ has $3*2^{n-1}$ endpoints. Thus Figure 5 has $\\boxed{48}$ endpoints.",
+      "marks": 10,
+      "explanation": "correct because the pattern shows that each endpoint from the previous figure splits into two new endpoints in the next figure, leading to an exponential growth in the total number of endpoints, which can be calculated as \\(3 \\times 2^{n-1}\\) for Figure \\(n\\), resulting in 48 endpoints for Figure 5.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 13096
+    },
+    {
+      "question_id": "mathematics_k-12_doc_05_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To solve the equation \\( |x-4| - 10 = 2 \\), I first isolated the absolute value by adding\n10 to both sides, resulting in \\( |x-4| = 12 \\). This absolute value equation leads to two\ncases: \\( x - 4 = 12 \\) and \\( x - 4 = -12 \\). Solving these, I found \\( x = 16 \\) from\nthe first case and \\( x = -8 \\) from the second case. The possible values of \\( x \\) are\n16 and -8. Finally, I calculated the product of these values: \\( 16 \\times (-8) = -128 \\).",
+      "marks": 10,
+      "explanation": "correct because it accurately isolates the absolute value expression, correctly identifies and solves both cases arising from the absolute value equation, and properly computes the product of the resulting solutions.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4292
+    }
+  ]
+}

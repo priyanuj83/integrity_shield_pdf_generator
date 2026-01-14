@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_19",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In a convex polygon, the sum of the interior angles is given by the formula (n-2) \u00d7 180\u00b0, and since each acute angle is less than 90\u00b0, having more than three acute angles would make it impossible to satisfy the angle sum requirement for a 10-gon, which is 1440\u00b0.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1135
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is False for Statement 1 because there exist solvable groups that have orders which are not prime powers, while Statement 2 is True as every group of prime-power order is guaranteed to be solvable due to the structure theorem for finite groups.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 50
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The degree of the field extension Q(sqrt(2)) over Q is 2 because the minimal polynomial of sqrt(2) over Q is x^2 - 2, which is irreducible in Q and has a degree of 2.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 54
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The maximum possible order of an element in the symmetric group S_n is given by the least common multiple of the cycle lengths in its disjoint cycle decomposition, and for n = 7, the cycle structure that achieves this maximum is a 7-cycle combined with a 2-cycle, resulting in a least common multiple of 14, but only the elements with cycle lengths 3 and 4, or 6 and 2 yield the maximum order of 12.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 14050
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The first statement is false because the order of the product of two elements in an Abelian group is the least common multiple of their orders only if the elements commute, which they do in an Abelian group, but also requires that their orders are coprime; the second statement is false because if g^n = e, it only guarantees that the order of g divides n, not that |g| equals n.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 14048
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The product of (2,3) and (3,5) in the ring Z_5 x Z_9 is calculated by multiplying the components modulo 5 and 9 respectively, resulting in (2*3 mod 5, 3*5 mod 9) = (1,6).",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 17
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the circle defined by x^2 + y^2 = 16 intersects the parabola x^2 = y + 4 at only two points, while other circles can intersect the parabola at a greater number of points depending on their size and position.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1193
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The area of an equilateral triangle is given by the formula \\( A = \\frac{r^2 \\cdot 3\\sqrt{3}}{2} \\), so with an inscribed circle radius of 2, the area is \\( 6\\sqrt{3} \\), which is approximately 10.39 square units, not 16.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1149
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The identity element in the group G under multiplication modulo 10 is 1, not 2, because the identity element must satisfy the condition that multiplying it by any element in the group returns that element unchanged, which is not true for 2 in this case.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 52
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The maximum possible order for an element of the symmetric group S_10 is 20, which corresponds to a permutation that is a product of a 5-cycle and a 2-cycle, thus making the statement false.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 14
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "We consider the opposite; we try to find the number of words that do not contain A, and\nthen subtract it from the total possible number of words. So we have a few cases to\nconsider: $\\bullet$ One letter words: There is only $1$ one-letter word that contains A,\nthat's A. $\\bullet$ Two letter words: There are $19\\times 19=361$ words that do not\ncontain A. There is a total of $20\\times 20=400$ words, so we have $400-361=39$ words that\nsatisfy the condition. $\\bullet$ Three letter words: There are $19\\times 19\\times 19=6859$\nwords without A, and there are $20^{3}=8000$ words available. So there are\n$8000-6859=1141$ words that satisfy the condition. $\\bullet$ Four letter words: Using the\nsame idea as above, we have $20^{4}-19^{4}=29679$ words satisfying the requirement. So\nthis gives a total of $1+39+1141+29679=\\boxed{30860}$ words.",
+      "marks": 10,
+      "explanation": "correct because it effectively uses complementary counting to determine the total number of valid words by first calculating the total words possible without the letter A and then subtracting that from the overall total, ensuring that all counted words include at least one A.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 15714
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_19_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "In group theory, the product of two subgroups \\( H \\) and \\( K \\) is a subgroup if at\nleast one of them is normal. This is because when \\( H \\) is normal in \\( G \\), the\nelements of \\( K \\) conjugate elements of \\( H \\) back into \\( H \\), ensuring that the\nproduct \\( HK \\) satisfies the subgroup criteria of closure and inverses. Additionally,\ngroups of order \\( p^2 \\), where \\( p \\) is a prime, are always Abelian. This stems from\nthe fact that such groups can be analyzed using the classification of finite groups, where\neither they are cyclic or isomorphic to the direct product of two cyclic groups, both of\nwhich exhibit the commutative property. Thus, both statements highlight fundamental\nproperties of group structure in abstract algebra.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the normality of one subgroup ensures closure under group operations for the product of subgroups \\( HK \\), and it correctly identifies that groups of order \\( p^2 \\) are Abelian due to their structure being constrained by the properties of prime order groups.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 59
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 21 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Temporary inconsistencies among views of a file by different machines can result; B) The file system is likely to be corrupted when a computer crashes; C) A much higher amount of network traffic results; D) Caching makes file migration impossible
+\\ \textit{Note:} Local caching in distributed file systems can lead to temporary inconsistencies because different machines may access and modify their cached versions of a file independently, resulting in divergent views of the same data until synchronization occurs.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) O(log N); B) O(N log N); C) O(log N) + 0(1); D) O((log $N)^2$)
+\\ \textit{Note:} The correct answer is O((log $N)^2$) because the recurrence relation involves a logarithmic term that accumulates at each recursive step, leading to a quadratic growth rate in the logarithmic scale as N increases.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) C, Ruby; B) Python, Ruby; C) C, C++; D) Tcl, C\#
+\\ \textit{Note:} C and C++ are known for providing low-level memory management capabilities that allow direct manipulation of memory, which can lead to buffer-overflow errors if bounds checking is not implemented.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Local variables; B) Program code; C) Dynamically linked libraries; D) Global variables
+\\ \textit{Note:} The stack is used for storing local variables because it operates on a last-in, first-out principle that efficiently manages memory for function calls and their associated local scopes.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Finding a longest simple cycle in G; B) Finding a shortest cycle in G; C) Finding ALL spanning trees of G; D) Finding a largest clique in G
+\\ \textit{Note:} Finding a shortest cycle in an undirected graph can be solved in polynomial time using graph traversal algorithms like breadth-first search (BFS) to systematically explore all paths and determine the shortest cycle.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A session symmetric key is specifically generated for a single communication session to ensure security and confidentiality, preventing the risks associated with key reuse such as cryptographic attacks.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message integrity involves mechanisms such as checksums and cryptographic hashes that verify that data sent over a network remains unchanged and intact upon arrival at its destination, thus ensuring that it has not been altered during transmission.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Windows 7 incorporates several security enhancements, such as Address Space Layout Randomization (ASLR) and Data Execution Prevention (DEP), which significantly reduce the risk of buffer-overflow vulnerabilities compared to traditional UNIX systems.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The AH Protocol uses hashing to provide source authentication and data integrity through message integrity checks, but it does not encrypt the data, thus failing to ensure privacy.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Church's thesis, also known as the Church-Turing thesis, was not proven by Alan Turing but rather is a hypothesis about the nature of computable functions that was independently proposed by Alonzo Church and Turing, with Turing's work on Turing machines providing evidence for the thesis rather than a definitive proof.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def remove\_datatype(test\_tuple, data\_type): | return (res)
+\\ \textit{Note:} correct because it outlines the creation of a function that, when implemented, will effectively filter out elements of a specific data type from a tuple, demonstrating an understanding of function definition and tuple manipulation in Python.
+\item \textbf{Answer:} def num\_position(text): | return m.start()
+\\ \textit{Note:} correct because it utilizes the `start()` method from a match object to identify and return the starting position of a number found within the given string, which is essential for separating and printing both the numbers and their respective positions.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

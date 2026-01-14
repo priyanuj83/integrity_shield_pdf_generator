@@ -1,0 +1,294 @@
+{
+  "docid": "biology_graduate_doc_20",
+  "document_name": "Biology - Graduate Level Assessment 20",
+  "domain": "biology",
+  "academic_level": "Graduate",
+  "subjects": [
+    "biology",
+    "anatomy"
+  ],
+  "combination_used": [
+    "mmlu_pro_biology_mcq",
+    "biology_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\graduate\\latex_documents\\biology_graduate_doc_20.tex",
+    "pdf_file": "output\\biology\\graduate\\pdf_documents\\biology_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\biology\\graduate\\answer_keys\\latex\\biology_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\graduate\\answer_keys\\pdf\\biology_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_graduate_doc_20_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How can one demonstrate that amino acids are used tobuild proteinsin cells, while the\nproteins already in the cell are usedin catabolism?",
+      "options": {
+        "A": "By observing the cell under a microscope",
+        "B": "Using fluorescent tagging of proteins",
+        "C": "Tracking changes in cell size and shape",
+        "D": "Autoradiography with labelled amino acids",
+        "E": "Through protein synthesis"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Autoradiography with labelled amino acids allows researchers to track the incorporation of specific amino acids into proteins, demonstrating the synthesis of new proteins from these amino acids, while also revealing the degradation of existing proteins during catabolism.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3154"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_graduate_doc_20_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a biotic factor that could affect the growth rate of a\npopulation?",
+      "options": {
+        "A": "Flash flood",
+        "B": "Tsunami",
+        "C": "Sudden reduction in the animal food resource",
+        "D": "Destruction of the ozone layer",
+        "E": "Drought"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The destruction of the ozone layer can lead to increased ultraviolet radiation, which negatively impacts the health and reproductive success of organisms, thereby influencing the growth rate of populations.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3199"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_graduate_doc_20_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is anoncogene?",
+      "options": {
+        "A": "Oncogenes are found only in viruses",
+        "B": "Oncogenes prevent cancer cells",
+        "C": "Oncogenes are a type of immune cell",
+        "D": "Oncogenes detoxify harmful substances in the cell",
+        "E": "Oncogenes slow down cell division"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Oncogenes are indeed associated with viral genomes, as they are often derived from normal cellular genes that become mutated or expressed at high levels in viral infections, leading to cancer development.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3357"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_graduate_doc_20_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "To prevent desiccation and injury, the embryos of terrestrial vertebrates are encased\nwithin a fluid secreted by the",
+      "options": {
+        "A": "blastoderm",
+        "B": "mesoderm",
+        "C": "amnion",
+        "D": "zona pellucida",
+        "E": "ectoderm"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The amnion is a protective membrane that surrounds the embryo in terrestrial vertebrates, providing a fluid-filled cavity that prevents desiccation and mechanical injury during development.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_graduate_doc_20_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "This biome contains plants whose roots cannot go deep due to the presence of a permafrost.",
+      "options": {
+        "A": "Savanna",
+        "B": "Taiga",
+        "C": "Tundra",
+        "D": "Chaparral",
+        "E": "Alpine"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The taiga, also known as boreal forest, is characterized by its cold climate and permafrost, which restricts the depth of plant roots, influencing the types of vegetation that can thrive in this biome.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3200"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_graduate_doc_20_biology_pubmedqa_tf_1",
+      "question_type": "TF",
+      "stem_text": "Implementation of epidural analgesia for labor: is the standard of effective analgesia reachable in all women?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Present audit shows that the process of implementation of labor analgesia was quick, successful and safe, notwithstanding the identification of one cluster of women with suboptimal response to epidural analgesia that need to be further studies, overall pregnant womens'adhesion to labor analgesia was satisfactory.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "23690198"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_graduate_doc_20_biology_pubmedqa_tf_2",
+      "question_type": "TF",
+      "stem_text": "Are intraoperative precursor events associated with postoperative major adverse events?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Patients undergoing cardiac surgery who are exposed to intraoperative precursor events were more likely to experience a postoperative MACE. Quality improvement techniques aimed at mitigating the consequences of precursor events might improve the surgical outcomes for cardiac surgical patients.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "23870157"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_graduate_doc_20_biology_pubmedqa_tf_3",
+      "question_type": "TF",
+      "stem_text": "Do inhaled steroids differ from cromones in terms of hospital admission rates for asthma in children?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Our results suggest that inhaled steroids are better than cromones in preventing admissions for asthma when two provinces with different practices for maintenance medication of steady-state asthma were compared.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "15841770"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_graduate_doc_20_biology_pubmedqa_tf_4",
+      "question_type": "TF",
+      "stem_text": "Spinal subdural hematoma: a sequela of a ruptured intracranial aneurysm?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Although the exact mechanism of SSDH in this case is unclear, we speculate that this SSDH was a hematoma that migrated from the intracranial subdural space. Low CSF pressure because of continuous drainage and intrathecal thrombolytic therapy may have played an important role in the migration of the hematoma through the spinal canal. It is important to recognize the SSDH as a possible complication of the SAH accompanied with intracranial subdural hematoma.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "12765819"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_graduate_doc_20_biology_pubmedqa_tf_5",
+      "question_type": "TF",
+      "stem_text": "Transgastric endoscopic splenectomy: is it possible?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Transgastric endoscopic splenectomy in a porcine model appears technically feasible. Additional long-term survival experiments are planned.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "16432652"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_graduate_doc_20_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the processes involved in RNA processing of preRNA, including point mutation\nrepair, intron removal, and the addition of a 5\u2032 cap and poly-A tail.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "RNA processing of preRNA involves several critical steps to ensure the maturation of\nfunctional mRNA. Initially, point mutations within the preRNA can be repaired through\nmechanisms such as base excision repair, which corrects errors that may have arisen during\ntranscription. Following this, intron removal occurs through a process called splicing,\nwhere non-coding sequences are excised, and the remaining exons are joined together to\nform a continuous coding sequence. Additionally, the addition of a 5\u2032 cap and a poly-A\ntail is essential for mRNA stability and protection against degradation, as well as for\nfacilitating translation. These modifications are crucial for the preRNA to be exported\nfrom the nucleus and translated into proteins in the cytoplasm. Together, these processes\nensure that only correctly processed RNA is utilized in protein synthesis, maintaining\ncellular function and integrity.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies and describes the essential steps of RNA processing, including point mutation repair, intron removal through splicing, and the addition of a 5\u2032 cap and poly-A tail, which collectively contribute to the maturation and functionality of mRNA.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3207"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_graduate_doc_20_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the distinction between flagella and pili in bacteria, and analyze why the\nstudent's conclusions about the appendages in a non-motile bacterium are incorrect.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In bacterial physiology, flagella and pili serve distinct functions, with flagella being\nprimarily involved in motility, while pili (or fimbriae) play crucial roles in adhesion\nand surface interactions. Flagella are long, whip-like structures that facilitate movement\nthrough rotational motion, whereas pili are shorter, hair-like appendages that enable\nbacteria to adhere to surfaces and each other, often aiding in biofilm formation and\ncolonization. If a student concludes that the filamentous appendages observed in a non-\nmotile bacterium are flagella, they are mistaken, as non-motile bacteria lack the\ncapability for movement and, therefore, do not possess flagella. Instead, the presence of\nthese appendages indicates pili, which are essential for attachment rather than\nlocomotion, highlighting a fundamental misunderstanding of bacterial structure and\nfunction.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly distinguishes between flagella and pili by emphasizing their different functions in motility and adhesion, respectively, and highlights the incorrect assumption made by the student regarding the role of these appendages in a non-motile bacterium.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3245"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

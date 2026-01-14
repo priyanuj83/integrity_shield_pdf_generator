@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_18",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The AH Protocol, part of the IPsec suite, is designed to ensure source authentication and data integrity through the use of cryptographic hashing, but it does not provide encryption, which is necessary for ensuring privacy of the data being transmitted.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1484
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is confidentiality because it specifically refers to the assurance that information is not disclosed to unauthorized individuals, thereby ensuring that both the sender and receiver can trust that their communications remain private.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A buffer overflow occurs when a program writes more data to a buffer than it can hold, leading to memory corruption and potential access to unauthorized memory locations, which is often facilitated by a pointer referencing this out-of-bounds memory.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1506
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "WPS, or Wi-Fi Protected Setup, is a security standard designed to simplify the process of connecting new devices to a wireless network, making it a relevant technology that emerged in recent years for wireless access points.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1554
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer identifies the three primary types of scanning in cybersecurity\u2014network scanning for identifying active devices, vulnerability scanning for detecting security weaknesses, and port scanning for assessing open ports and services\u2014each crucial for comprehensive security assessments.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a Base Signal Station does not specifically refer to a recognized component in mobile networks; the correct term is Base Transceiver Station (BTS), which is responsible for radio communication with mobile devices.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1550
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "DaCryptic is primarily identified as ransomware rather than a remote Trojan, as its main function is to encrypt files and demand a ransom for their release, not to steal sensitive information.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1475
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because if an attacker has access to both the original message and its ciphertext, they can easily compute the one-time pad (OTP) key by performing a bitwise XOR operation between the two.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1540
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Encapsulating Security Payload (ESP) is part of the Internet Protocol Security (IPsec) suite, not the Secure Socket Layer (SSL) Protocol, which is used for securing web communications.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Surface Web refers only to the portion of the internet that is indexed by search engines and publicly accessible, while the Deep Web comprises a vast amount of data that is not indexed and includes private databases, password-protected sites, and other content that is not available through standard search engines.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15632
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_digits(n): | return 0 | return n % 10 + sum_digits(int(n / 10))",
+      "marks": 10,
+      "explanation": "The answer correctly implements a recursive function that calculates the sum of the digits of a non-negative integer by repeatedly extracting the last digit using the modulus operator and reducing the number by dividing it by 10, until it reaches zero.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 566
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_18_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def ascii_value(k): | return ord(ch)",
+      "marks": 10,
+      "explanation": "correct because it utilizes the built-in Python function `ord()` which accurately converts a character into its corresponding ASCII value, demonstrating the fundamental programming concept of character encoding.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 269
+    }
+  ]
+}

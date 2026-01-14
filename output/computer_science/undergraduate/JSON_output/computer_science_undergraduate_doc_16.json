@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_undergraduate_doc_16",
+  "document_name": "Computer Science - Undergraduate Level Assessment 16",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_16.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following decimal numbers has an exact representation in binary notation?",
+      "options": {
+        "A": "0.1",
+        "B": "0.2",
+        "C": "0.3",
+        "D": "0.5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The decimal number 0.5 has an exact representation in binary notation as 0.1, since it is a power of two (specifically 1/2), which can be expressed without any repeating digits in the binary system.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1042"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the name of the data structure in a compiler that is responsible\nfor managing information about variables and their attributes?",
+      "options": {
+        "A": "Abstract Syntax Tree (AST)",
+        "B": "Attribute Grammar",
+        "C": "Symbol Table",
+        "D": "Semantic Stack"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The symbol table is a crucial data structure in a compiler that stores information about variables, including their names, types, scopes, and attributes, facilitating semantic analysis and code generation.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1022"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 1 + 3 % 3?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression evaluates to 1 because the modulus operation (3 % 3) results in 0, so the overall expression simplifies to 1 + 0, which equals 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which pillar of cybersecurity is compromised when someone logs into a system using a\nstolen login and password?",
+      "options": {
+        "A": "Authentication",
+        "B": "Confidentiality",
+        "C": "Integrity",
+        "D": "Nonrepudiation"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is authentication because it refers to the process of verifying the identity of a user, and when someone logs in with stolen credentials, the integrity of this verification process is compromised.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following function checks in a string that all characters are in\nuppercase?",
+      "options": {
+        "A": "isupper()",
+        "B": "join(seq)",
+        "C": "len(string)",
+        "D": "ljust(width[, fillchar])"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The isupper() function in Python 3 checks if all characters in a string are uppercase letters, returning True if they are and False otherwise.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3197"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The output of the expression 4*1**4 in Python is 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, the expression 1**4 evaluates to 1 (since any number to the power of 0 is 1), and therefore the overall expression 4*1 results in 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "All bit strings whose number of zeros is a multiple of five can be described with a regular expression.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the language of bit strings with a number of zeros that is a multiple of five cannot be represented by a regular expression, as it requires counting and enforcing specific numerical conditions that exceed the capabilities of regular languages.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1037"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Address Resolution Protocol (ARP) is used to determine the hardware address of a given IP address.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Address Resolution Protocol (ARP) is indeed used to map an IP address to its corresponding hardware (MAC) address within a local network, allowing devices to communicate effectively.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1058"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The page-replacement policy that minimizes page faults replaces the page whose most recent reference was the shortest time in the past.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the optimal page-replacement policy, known as the Belady's optimal algorithm, actually replaces the page that will not be used for the longest time in the future, not the one that was referenced the shortest time ago.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Merge sort has both average-case and worst-case time complexities of O(n log n).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merge sort consistently divides the input array in half and requires linear time to merge the sorted halves, resulting in both average-case and worst-case time complexities of O(n log n).",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to calculate the product of all the numbers of a given tuple.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def mutiple_tuple(nums): | return product",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a Python function to compute the product of numbers in a tuple, but it lacks the implementation details such as iterating through the tuple and using a multiplication operation to obtain the final product.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_16_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to replace characters in a string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def replace_char(str1,ch,newch): | return str2",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function named `replace_char` that takes three parameters: the original string, the character to be replaced, and the new character, indicating the intention to modify the string by replacing specified characters, although the implementation details are incomplete.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "474"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

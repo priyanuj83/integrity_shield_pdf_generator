@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_19",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(log log N) represents a growth rate that increases very slowly compared to other functions, such as polynomial or exponential functions, making it the slowest growing type among the options.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3231
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Chemistry\" because in Python, negative indexing allows access to list elements from the end, so [-3] refers to the third element from the end of the list, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3279
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 5 because in Python, the modulus operator (%) has a higher precedence than addition (+), so the expression is evaluated as 4 + (3 % 2), which simplifies to 4 + 1, resulting in 5.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3250
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The function `seed([x])` initializes the random number generator in Python 3 with a specific starting value, allowing for reproducible sequences of random numbers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3261
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In Python 3, the operator '//' is used to perform floor division, which returns the largest integer less than or equal to the result of the division of two numbers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the 'sort()' method is designed for lists, and strings in Python are immutable, meaning they cannot be modified in place.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the max function in Python 3 is designed to evaluate a list of numerical values and return the largest number, which in the case of the list [1, 2, 3, 4] is indeed 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, in Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is actually 'Chemistry', not 'a'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The strip() function in Python 3 is designed to remove all leading and trailing whitespace characters from a string by default, which makes the statement true.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "O(n^2) represents a larger growth rate than O(n) because as the input size n increases, the value of n^2 grows significantly faster than the value of n, indicating that algorithms with O(n^2) complexity will take more time to execute than those with O(n) complexity for large inputs.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "To convert the decimal number 231 to its hexadecimal representation, we divide the number\nby 16, which is the base of the hexadecimal system. The first division gives us 14 with a\nremainder of 7. The number 14 corresponds to the hexadecimal digit 'E'. Therefore, reading\nthe remainder and the quotient from top to bottom, we find that 231 in hexadecimal is E 7.\nThis conversion is significant in computer science as hexadecimal is often used to\nsimplify binary representation and make it more readable, especially in programming and\ndigital systems. Thus, the final result of the conversion is E 7_{16}.",
+      "marks": 10,
+      "explanation": "correct because it accurately outlines the division process used to convert the decimal number 231 into hexadecimal, identifies the corresponding hexadecimal digits, and emphasizes the importance of hexadecimal notation in simplifying binary representation for better readability in computer science.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_k-12_doc_19_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "Phishing attacks are deceptive attempts to obtain sensitive information by masquerading as\na trustworthy entity, often through emails that appear to be from banks or other\norganizations. Key characteristics of these attacks include urgent language, requests for\npersonal information, and links to fraudulent websites. However, a legitimate email from a\nbank requesting a phone call for transaction verification is least indicative of a\nphishing attack because it encourages the customer to use the official phone number found\non their card, rather than clicking on any links. This approach is secure as it directs\ncustomers to verify transactions through established channels, reducing the risk of\nfalling victim to scams. In contrast, phishing emails typically push for immediate action\nthrough suspicious links or ask for sensitive details directly.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes that legitimate bank communications typically encourage direct, secure methods of verification, such as phone calls, rather than asking for sensitive information through email, which is a common tactic used in phishing attacks.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3235
+    }
+  ]
+}

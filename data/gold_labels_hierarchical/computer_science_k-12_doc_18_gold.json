@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_18",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The function int(x [,base]) in Python 3 is specifically designed to convert a string representation of an integer into its corresponding integer value, optionally allowing for a specified base for conversion.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because the min() function in Python 3 returns the smallest element from a list, and in the list l = [1, 2, 3, 4], the smallest value is 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3241
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking machines involved.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"abcd\" because in Python, tuples are zero-indexed data structures, meaning that the first element, accessed by index 0, is 'abcd'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function O(N^(1/N)) grows the slowest because as N increases, N^(1/N) approaches 1, indicating that the growth rate diminishes significantly compared to other common functions such as polynomial or exponential functions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14392
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because in Python 3, the expression 'a' + 'ab' successfully concatenates two strings, resulting in the string 'aab' without any type compatibility issues.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the cmp() function was removed in Python 3, and instead, the max() function is used to find the item with the maximum value in a list.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because while unauthorized login attempts may compromise security, they primarily threaten the integrity and availability of systems rather than directly violating confidentiality, which specifically pertains to protecting sensitive information from unauthorized access.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A device driver is assigned to a device when the device is connected to the computer or operating system, not specifically when it connects to the Internet.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression \"a[i] == max || !(max != a[i])\" is logically equivalent to \"a[i] == max,\" not \"a[i] != max.\"",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def replace_list(list1,list2): | return replace_list",
+      "marks": 10,
+      "explanation": "The answer correctly defines a function intended to replace the last element of a list with another list, but it fails to implement the necessary logic to achieve that goal, as it only defines a function without any operational code.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 240
+    },
+    {
+      "question_id": "computer_science_k-12_doc_18_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def count_list(input_list): | return len(input_list)",
+      "marks": 10,
+      "explanation": "correct because the function uses the built-in `len()` function to accurately count and return the number of lists contained within the provided input list.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 792
+    }
+  ]
+}

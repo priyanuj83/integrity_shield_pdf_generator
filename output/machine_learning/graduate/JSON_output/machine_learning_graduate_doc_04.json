@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_graduate_doc_04",
+  "document_name": "Machine Learning - Graduate Level Assessment 4",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_04.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The model obtained by applying linear regression on the identified subset of features may\ndiffer from the model obtained at the end of the process of identifying the subset during",
+      "options": {
+        "A": "Best-subset selection",
+        "B": "Forward stepwise selection",
+        "C": "Forward stage wise selection",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is Forward stagewise selection because this method sequentially adds features based on their contribution to the model's performance, which can lead to a different model compared to the final model obtained after fully identifying the optimal subset of features through other selection processes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6864"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Industrial-scale neural networks are normally trained on CPUs, not GPUs.\nStatement 2| The ResNet-50 model has over 1 billion parameters.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6907"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Averaging the output of multiple decision trees helps _.",
+      "options": {
+        "A": "Increase bias",
+        "B": "Decrease bias",
+        "C": "Increase variance",
+        "D": "Decrease variance"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging the output of multiple decision trees reduces variance by mitigating the impact of individual model errors, leading to a more stable and generalized prediction.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6863"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "High entropy means that the partitions in classification are",
+      "options": {
+        "A": "pure",
+        "B": "not pure",
+        "C": "useful",
+        "D": "useless"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "High entropy indicates a high level of disorder or uncertainty in the classification partitions, meaning that the classes within those partitions are mixed and not predominantly one class, resulting in impure classifications.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6849"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Overfitting is more likely when the set of training data is small. Statement\n2| Overfitting is more likely when the hypothesis space is small.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Overfitting is more likely when the training data is small because the model may learn noise rather than general patterns, while a small hypothesis space restricts the model's capacity to fit the data, reducing the risk of overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The Penn Treebank is primarily focused on annotating book reviews for sentiment analysis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Penn Treebank is primarily focused on syntactic and grammatical annotation of a diverse corpus of English text, including news articles and other written materials, rather than specifically annotating book reviews for sentiment analysis.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6896"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Increasing the number of training examples always leads to higher variance in the model's predictions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Increasing the number of training examples generally leads to lower variance in the model's predictions, as it provides more information for the model to learn from, thereby reducing overfitting to the training data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Only K-means and grid based clustering are effective methods for spatial clustering tasks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is false because there are various effective spatial clustering methods beyond K-means and grid-based techniques, such as hierarchical clustering, DBSCAN, and OPTICS, which can better handle different data distributions and densities.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6890"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The cost of one gradient descent update, given the gradient, is O(D), where D represents the number of dimensions or features.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the computation of the gradient descent update involves calculating the gradient of the loss function with respect to each of the D features, resulting in a linear time complexity of O(D) for each update step.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "An excessively large step size during training can lead to an increase in training loss over epochs due to instability in learning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An excessively large step size can cause the optimization algorithm to overshoot the minimum of the loss function, leading to erratic updates and ultimately resulting in increased training loss over epochs due to instability in the learning process.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6900"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the minimum difference between any two elements in a given\narray.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_Min_Diff(arr,n): | return diff",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the definition of a Python function that aims to compute the minimum difference between any two elements in an array, which is a fundamental task in data analysis and machine learning for understanding variability within datasets.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "763"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to check whether every odd index contains odd numbers of a given\nlist.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def odd_position(nums): | return all(nums[i]%2==i%2 for i in range(len(nums)))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function correctly uses a generator expression to iterate through the indices of the list, checking that each element at an odd index is odd by comparing the modulus of the element with 2 to the modulus of the index with 2, ensuring the condition holds for all relevant indices.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "775"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

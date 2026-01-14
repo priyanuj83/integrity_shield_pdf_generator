@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 1 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Privacy; C) Nonrepudiation; D) Both A \& C
+\\ \textit{Note:} The AH Protocol (Authentication Header) is designed to ensure source authentication and integrity of the data packets, but it does not provide confidentiality or privacy for the payload, as it does not encrypt the data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Modication detection code (MDC); B) Modify authentication connection; C) Message authentication control; D) Message authentication cipher
+\\ \textit{Note:} The correct answer is "Modification detection code (MDC)" because a hash function generates a fixed-size output, known as a digest, that serves to verify the integrity of data by detecting any modifications made to the original input.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) John the Ripper; B) L$_{0}$ phtCrack; C) Snort; D) Nessus
+\\ \textit{Note:} Snort is an open-source network intrusion detection and prevention system that specializes in real-time traffic analysis and packet logging, making it the correct choice for this question.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is considered the first buffer overflow attack as it exploited vulnerabilities in UNIX systems to propagate itself, illustrating the potential for buffer overflow exploits to cause widespread disruption in computer networks.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Base Signal Station; B) Base Transmitter Station; C) Base Transceiver Station; D) Transceiver Station
+\\ \textit{Note:} The Base Transceiver Station (BTS) functions similarly to an Access Point (AP) by facilitating wireless communication and signal coverage for mobile operators, serving as a critical component in cellular networks.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the 4-way handshake is a crucial procedure in wireless security protocols, such as WPA 2, that establishes a secure connection between a user and an access point by confirming the user's credentials and generating unique session keys.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} EtterPeak is considered a widely used tool for network analysis in multiprotocol diverse networks because it effectively captures and analyzes network traffic across various protocols, aiding in the identification of security vulnerabilities and performance issues.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Eavesdropping is indeed a security exploit that compromises sensitive information during data transmission, making the statement False because it inaccurately suggests that eavesdropping does not pose a risk to data security.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Tor browser is specifically designed to route internet traffic through the Tor network, enabling users to access its services while obscuring their identity and location, which is essential for maintaining anonymity online.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A SYN stealth scan sends a SYN packet to the target port and analyzes the response without completing the three-way TCP handshake, allowing the scanner to identify open ports while remaining undetected.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The encryption scheme defined by E(k,m) = [r ← R, output (r, F(k,r) ⊕ m)] achieves semantic security under chosen plaintext attacks, provided that the randomness source R is sufficiently large to ensure that the value of r does not repeat with high probability. This randomness is crucial as it ensures that even with the same plaintext m and key k, the resulting ciphertext will vary due to the unique random value r. Consequently, an attacker cannot derive any meaningful information about the plaintext from the ciphertext without knowledge of the random value used, thereby preserving confidentiality. Therefore, the semantic security of this scheme hinges on the effectiveness of the randomization process, making it vital for R to be expansive enough to prevent repetition of r.
+\\ \textit{Note:} correct because the use of a sufficiently large random value r ensures that each encryption of the same plaintext m under the same key k produces a unique ciphertext, thereby preventing attackers from gaining any information about the plaintext even when they can choose the plaintexts to be encrypted.
+\item \textbf{Answer:} The presentation layer in cybersecurity plays a crucial role in how data is formatted and transmitted between applications, yet it is often undermined by weak or non-existent authentication mechanisms. Such vulnerabilities can lead to unauthorized access, data breaches, and increased susceptibility to various attacks, including man-in-the-middle scenarios. Without robust authentication processes, malicious actors can impersonate legitimate users, compromising the integrity and confidentiality of data. This lack of security not only undermines user trust but can also lead to significant financial and reputational damage for organizations. Therefore, implementing strong authentication protocols at the presentation layer is essential for safeguarding against potential threats and ensuring system resilience.
+\\ \textit{Note:} The answer correctly identifies that weak or non-existent authentication mechanisms at the presentation layer can lead to serious security vulnerabilities, including unauthorized access and data breaches, thereby compromising the integrity and confidentiality of the system.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

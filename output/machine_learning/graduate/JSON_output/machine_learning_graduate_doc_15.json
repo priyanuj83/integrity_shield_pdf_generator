@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_15",
+  "document_name": "Machine Learning - Graduate Level Assessment 15",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_15.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_15.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_15_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_15_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_15_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_15_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Word 2 Vec parameters were not initialized using a Restricted Boltzman\nMachine. Statement 2| The tanh function is a nonlinear activation function.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are correct because Word2Vec does not utilize Restricted Boltzmann Machines for parameter initialization, and the tanh function is indeed classified as a nonlinear activation function.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The BLEU metric uses precision, while the ROGUE metric uses recall. Statement\n2| Hidden markov models were frequently used to model English sentences.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The BLEU metric indeed emphasizes precision in evaluating machine translation quality, while the ROGUE metric focuses on recall for summarization tasks, and Hidden Markov Models have historically been utilized in natural language processing to effectively model the probabilistic structure of English sentences.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6924"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Averaging the output of multiple decision trees helps _.",
+      "options": {
+        "A": "Increase bias",
+        "B": "Decrease bias",
+        "C": "Increase variance",
+        "D": "Decrease variance"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual tree errors, leading to a more stable and reliable overall prediction.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6863"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Overfitting is more likely when the set of training data is small. Statement\n2| Overfitting is more likely when the hypothesis space is small.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Overfitting occurs more frequently with small training data due to limited generalization capability, while a small hypothesis space restricts model complexity, reducing the risk of overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6914"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The numerical output of a sigmoid node in a neural network:",
+      "options": {
+        "A": "Is unbounded, encompassing all real numbers.",
+        "B": "Is unbounded, encompassing all integers.",
+        "C": "Is bounded between 0 and 1.",
+        "D": "Is bounded between -1 and 1."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sigmoid function outputs values in a continuous range between 0 and 1 due to its mathematical properties, making it suitable for modeling probabilities in neural networks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6888"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Calculating P(H|E, F) requires P(E, F), P(H), and P(E|H), P(F|H) without any conditional independence information.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because calculating P(H|E, F) can utilize Bayes' theorem and the chain rule of probability, which allows for the computation of conditional probabilities without needing all the specified quantities, especially if additional independence assumptions or relationships between the variables are known.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6893"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The original ResNets and Transformers are both types of feedforward neural networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both ResNets and Transformers are designed to process input data through layers of neurons without recurrent connections, classifying them as types of feedforward neural networks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Fully connected networks have been shown to outperform convolutional networks in classifying high-resolution images.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fully connected networks require significantly more parameters and computational resources than convolutional networks, making them less efficient and effective for classifying high-resolution images, where local patterns and hierarchical features are better captured by convolutional architectures.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Linear hard-margin SVM can only be effectively used when the training data is linearly separable.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Linear hard-margin SVM requires that the training data is perfectly linearly separable because it aims to find a hyperplane that maximizes the margin between two classes without allowing any misclassifications, which is impossible if the data points overlap or are not distinctly separable.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The variance of the Maximum A Posteriori (MAP) estimate is lower than the variance of the Maximum Likelihood Estimate (MLE).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The variance of the Maximum A Posteriori (MAP) estimate is lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which regularizes the estimate and reduces uncertainty compared to the MLE, which only relies on the observed data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14786"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the computational cost of performing a single gradient descent update when the\ngradient of the cost function is represented as a vector. What factors influence this\ncost?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The computational cost of performing a single gradient descent update when the gradient of\nthe cost function is represented as a vector is O(D), where D denotes the dimensionality\nof the parameter space. This cost arises because each component of the gradient vector\nmust be computed and then used to update the corresponding parameter, resulting in a\nlinear relationship between the number of parameters and the computation required. Factors\ninfluencing this cost include the complexity of the cost function, the method used to\ncompute the gradient (e.g., analytical vs. numerical), and the dimensionality of the input\ndata. Additionally, if the cost function is based on a large dataset, the time taken to\ncompute the gradient can also be affected by the size and structure of the data, as\nprocessing each data point contributes to the overall computation. Thus, understanding\nthese factors is essential for optimizing the efficiency of gradient descent in high-\ndimensional spaces.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the computational cost of a gradient descent update is directly proportional to the dimensionality of the parameter space, O(D), since each parameter's update requires the computation of its corresponding gradient component, making the process linear with respect to the number of parameters involved.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6841"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_15_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications and methodologies of applying unsupervised learning to analyze a\nlarge dataset of medical records from heart disease patients to identify potential\ntreatment clusters.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Applying unsupervised learning to analyze a large dataset of medical records from heart\ndisease patients can lead to the identification of treatment clusters that may not be\nevident through traditional methods. This approach utilizes algorithms such as k-means\nclustering or hierarchical clustering to group patients based on similarities in their\nmedical profiles, treatment responses, or outcomes without prior labeling. The\nimplications of this analysis include the potential for personalized treatment strategies\nand improved patient outcomes, as clusters may reveal distinct subpopulations that respond\ndifferently to therapies. Furthermore, by revealing hidden patterns in complex datasets,\nunsupervised learning can enhance our understanding of disease mechanisms and inform\nfuture clinical research. Overall, this methodology can drive innovations in treatment\napproaches by leveraging data-driven insights.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately highlights how unsupervised learning algorithms can uncover hidden patterns and clusters in patient data, facilitating personalized treatment strategies for heart disease by grouping patients based on similarities without the need for pre-existing labels.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6917"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

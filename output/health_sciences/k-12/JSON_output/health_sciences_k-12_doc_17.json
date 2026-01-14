@@ -1,0 +1,289 @@
+{
+  "docid": "health_sciences_k-12_doc_17",
+  "document_name": "Health Sciences - K-12 Level Assessment 17",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "health_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_17.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_17_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Facial flushing is seen in approximately 50% of East Asians and is thought to be due to a\ndeficiency of?",
+      "options": {
+        "A": "ALDH 1",
+        "B": "ALDH 2",
+        "C": "ALDH 3",
+        "D": "ALDH 4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Facial flushing in approximately 50% of East Asians is associated with a deficiency of the enzyme ALDH 2, which impairs the metabolism of acetaldehyde, a byproduct of alcohol consumption, leading to uncomfortable physiological reactions.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9478"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following in not a zinc-dependent enzyme?",
+      "options": {
+        "A": "Superoxide dismutase",
+        "B": "Alkaline phosphatase",
+        "C": "Glutathione peroxidase",
+        "D": "DNA polymerase"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Glutathione peroxidase is not a zinc-dependent enzyme because it primarily relies on selenium as a cofactor for its enzymatic activity, unlike other enzymes that require zinc for their function.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9576"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Ulcerative Colitis",
+      "options": {
+        "A": "Carries a risk of colonic cancer",
+        "B": "Can be treated with a LOFFLEX diet",
+        "C": "Can be caused by small intestinal bacterial overgrowth",
+        "D": "Can be caused by milk intolerance"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ulcerative colitis is a chronic inflammatory bowel disease that increases the risk of developing colonic cancer due to prolonged inflammation and dysplasia in the colon.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9481"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A deficiency of which vitamin has been associated with enamel defects and increased risk\nof dental caries?",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Folic acid",
+        "C": "Vitamin C",
+        "D": "Vitamin D"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Vitamin D is essential for calcium absorption and bone health, and its deficiency can lead to impaired enamel formation and a higher susceptibility to dental caries.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9655"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements is not true?",
+      "options": {
+        "A": "Vegan diets are likely to be deficient in protein",
+        "B": "Cereals are deficient in lysine",
+        "C": "Legumes are deficient in methionine",
+        "D": "Dairy products are rich source of tryptophan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Vegan diets can provide sufficient protein through a variety of plant-based sources such as legumes, nuts, seeds, and whole grains, making the statement that they are likely to be deficient in protein inaccurate.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9483"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Riboflavin is the primary vitamin that provides a coenzyme for fatty acid synthesis.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Riboflavin is not the primary vitamin for fatty acid synthesis; instead, biotin plays a crucial role as a coenzyme in this process.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9589"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Potassium is a dietary component that has been shown to help improve hypertension in humans.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Potassium helps to balance sodium levels in the body, which can lead to lower blood pressure and improved hypertension outcomes in humans.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9531"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Acarbose is the first-line drug for managing type 2 diabetes in patients with obesity as of 2020.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Acarbose is not considered a first-line medication for managing type 2 diabetes in obese patients; instead, metformin is typically the preferred initial treatment due to its effectiveness and safety profile.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "15797"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Epidemiological measures of effect assess the strength of the association between an exposure and an outcome.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Epidemiological measures of effect, such as risk ratios and odds ratios, quantify the relationship between an exposure and an outcome, thereby assessing the strength of that association.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9635"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Starch mainly consists of amylose, which is a polymer of fructose connected by beta 1,4-linkages.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because starch primarily consists of amylose and amylopectin, which are polymers of glucose connected by alpha 1,4-linkages, not fructose and beta linkages.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of ATP as the immediate source of chemical energy in skeletal muscle\ncontraction, including its production, usage, and significance in muscle function.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "ATP, or adenosine triphosphate, serves as the immediate source of chemical energy required\nfor skeletal muscle contraction. When a muscle cell is stimulated, ATP is produced\nprimarily through cellular respiration, which involves breaking down glucose and fatty\nacids. During contraction, ATP binds to the myosin heads in muscle fibers, allowing them\nto pull on actin filaments, resulting in muscle shortening and movement. The significance\nof ATP in muscle function cannot be overstated, as it ensures that muscles can contract\nand relax efficiently, enabling physical activity and overall mobility. Without sufficient\nATP, muscles would fatigue quickly and be unable to perform effectively.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes ATP's essential role in muscle contraction by detailing its production through cellular respiration, its binding to myosin heads for actin interaction, and its critical importance in facilitating muscle movement.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15069"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_17_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the effectiveness of various treatments for Binge Eating Disorder (BED) and\nanalyze why benzodiazepines have not shown efficacy in managing this condition.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Binge Eating Disorder (BED) can be effectively treated using various methods, including\npsychotherapy, such as cognitive-behavioral therapy (CBT), and medications like certain\nantidepressants. These treatments focus on helping individuals understand their eating\npatterns and develop healthier coping strategies. However, benzodiazepines, such as\nDiazepam and Alprazolam, have not shown effectiveness in managing BED. This is because\nbenzodiazepines primarily address anxiety and are not designed to tackle the underlying\nbehavioral and emotional issues associated with binge eating. Therefore, they do not\nprovide the necessary support to change eating behaviors or improve emotional regulation\nin individuals with BED.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies effective treatments for Binge Eating Disorder, such as psychotherapy and certain antidepressants, while explaining that benzodiazepines are ineffective due to their primary function of managing anxiety rather than addressing the underlying issues related to eating behaviors.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9463"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

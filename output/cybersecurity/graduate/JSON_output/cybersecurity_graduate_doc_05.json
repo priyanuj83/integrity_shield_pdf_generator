@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_05",
+  "document_name": "Cybersecurity - Graduate Level Assessment 5",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_05.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Message authentication is a service beyond",
+      "options": {
+        "A": "Message Condentiality",
+        "B": "Message Integrity",
+        "C": "Message Splashing",
+        "D": "Message Sending"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message authentication ensures that a message comes from a legitimate source and has not been altered, which is a broader purpose than message integrity, which solely focuses on the correctness of the message content.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1513"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A sender must not be able to deny sending a message that was sent, is known as",
+      "options": {
+        "A": "Message Nonrepudiation",
+        "B": "Message Integrity",
+        "C": "Message Condentiality",
+        "D": "Message Sending"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the sender's identity and the integrity of the communication, which is crucial in cybersecurity to prevent disputes and enhance accountability.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is an authentication method?",
+      "options": {
+        "A": "Secret question",
+        "B": "Biometric",
+        "C": "SMS code",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All of the above\" because authentication methods encompass a variety of techniques, including passwords, biometrics, and multi-factor authentication, all of which serve to verify a user's identity in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Public key encryption is advantageous over Symmetric key Cryptography because of",
+      "options": {
+        "A": "Speed",
+        "B": "Space",
+        "C": "Key exchange",
+        "D": "Key length"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Public key encryption eliminates the need for a secure key exchange, as it allows users to share their public keys openly while keeping their private keys confidential, enhancing security compared to symmetric key cryptography, which requires both parties to share a secret key securely.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1494"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is true of mutation-based fuzzing?",
+      "options": {
+        "A": "It generates each different input by modifying a prior input",
+        "B": "It works by making small mutations to the target program to induce faults",
+        "C": "Each input is mutation that follows a given grammar",
+        "D": "It only makes sense for file-based fuzzing, not network-based fuzzing"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Mutation-based fuzzing is characterized by its approach of taking existing inputs and systematically altering them to create new test cases, allowing for the discovery of vulnerabilities in software through variations of previously known data.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1525"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Encryption and decryption provide confidentiality but do not ensure data integrity throughout its lifecycle.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "While encryption and decryption effectively protect data confidentiality by rendering it unreadable to unauthorized users, they do not inherently verify or guarantee that the data remains unchanged and uncorrupted throughout its lifecycle, thus failing to ensure data integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Cotton Road was a significant Dark Web marketplace primarily focused on the trade of counterfeit luxury items.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Cotton Road was not a Dark Web marketplace but rather a legitimate trade network known for the exchange of cotton and textiles, rather than counterfeit luxury items.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "A digital signature can be effectively created using a shared-key system, which offers equal security.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A digital signature relies on asymmetric encryption, where a private key is used for signing and a public key for verification, providing stronger security compared to a shared-key system that uses a single key for both encryption and decryption, making it less secure and susceptible to key compromise.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1507"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The message must be decrypted at the receiver site to ensure its confidentiality and integrity during transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because decrypting the message at the receiver's site is essential to ensure that it remains confidential and intact, safeguarding it from unauthorized access and ensuring that it has not been altered during transmission.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Wireshark is a widely used tool for capturing and analyzing wireless network traffic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireshark is a powerful network protocol analyzer that enables users to capture and inspect data packets traversing both wired and wireless networks, making it an essential tool for analyzing network traffic in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1516"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether the entered number is greater than the elements of the\ngiven array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_greater(arr, number): | return ('Yes, the entered number is greater than those in the array') | return ('No, entered number is less than those in the array')",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines a function that evaluates whether a specified number exceeds all elements in a given array, demonstrating basic programming logic and comparison operations fundamental to both coding and cybersecurity applications.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "433"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_05_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check if a nested list is a subset of another nested list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def check_subset_list(list1, list2): | return exist",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the need to create a function that verifies whether all elements of one nested list are contained within another nested list, which is essential for data validation and integrity in cybersecurity practices.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "216"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

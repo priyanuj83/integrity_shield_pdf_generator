@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_22",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 22",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_22.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_22.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_22_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_22_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_22_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_22_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Some recent work has found an association between obesity and",
+      "options": {
+        "A": "Shorter telomere strands",
+        "B": "Tobacco use",
+        "C": "Excess alcohol use",
+        "D": "Skin cancers"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Recent studies have shown that obesity can lead to increased oxidative stress and inflammation, which may accelerate telomere shortening, thereby resulting in shorter telomere strands.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "14721"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "15",
+        "D": "22"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "DiGeorge/Shprintzen syndrome is caused by a microdeletion on chromosome 22, specifically at the 22q11.2 locus, which affects the development of various bodily systems.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7304"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "NEAT may be one way in which some people are able to maintain a healthy BMI; NEAT refers\nto",
+      "options": {
+        "A": "Eating the right kinds of low calorie foods",
+        "B": "Daily activities like walking, gesturing, and even fidgeting",
+        "C": "Intense aerobic exercise practiced at least 3 times a week",
+        "D": "Surgical removal of fatty tissue"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer identifies NEAT, or Non-Exercise Activity Thermogenesis, as the energy expenditure from daily activities that are not formal exercise, such as walking, gesturing, and fidgeting, which contribute to maintaining a healthy body mass index (BMI).",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The Apo-E 2 protein is very prevalent in people who",
+      "options": {
+        "A": "Die young",
+        "B": "Live to be 100 or older",
+        "C": "Have healthy immune systems",
+        "D": "Also have high levels of Apo-E 4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Apo-E 2 protein is associated with longevity and has been linked to a reduced risk of age-related diseases, which contributes to a higher prevalence in individuals who live to be 100 or older.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6268"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the genetic structure of rotavirus?",
+      "options": {
+        "A": "Circular DNA containing virus",
+        "B": "RNA virus with RT",
+        "C": "ds RNA virus",
+        "D": "ds RNA virus in segments"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Rotavirus is classified as an RNA virus because its genetic material consists of ribonucleic acid, and it has a reverse transcriptase (RT) component that facilitates the replication process, distinguishing it from other virus types.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "The chemistry of the DNA and RNA is the most important factor for virus classification.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The chemistry of DNA and RNA is crucial for virus classification because it determines the virus's genetic material, which influences its replication, structure, and the host organisms it can infect.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13800"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Orders of monks and nuns in various religions practice asceticism, emphasizing celibacy, virginity, and poverty.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Orders of monks and nuns across different religions intentionally adopt ascetic practices, including celibacy, virginity, and poverty, as a means to deepen their spiritual devotion and commitment to their faith.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6325"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The RT PCR kit is essential for the diagnosis of arenavirus infection.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The RT PCR kit is essential for the diagnosis of arenavirus infection because it allows for the sensitive and specific detection of viral RNA, which is crucial for confirming the presence of the virus in infected individuals.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "15536"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Condom use has no effect on the risk of acquiring an HIV infection from an infected partner.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Condom use significantly reduces the risk of acquiring an HIV infection by acting as a barrier that prevents the exchange of bodily fluids during sexual intercourse with an infected partner.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13738"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Cerebrospinal fluid circulates between the arachnoid and pia maters surrounding the brain.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cerebrospinal fluid circulates in the subarachnoid space, which is the area between the arachnoid mater and the pia mater, providing cushioning and support for the brain.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the embryological development of the hyoid bone, detailing the contributions of\nthe second and third pharyngeal arches and their significance in human anatomy.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The hyoid bone develops embryologically from the second and third pharyngeal arches, which\nare critical structures during early human development. The second pharyngeal arch,\nprimarily composed of mesoderm and neural crest cells, gives rise to the body and greater\nhorn of the hyoid, while the third pharyngeal arch contributes to the lesser horn and part\nof the body. This development is significant in human anatomy as the hyoid bone plays a\ncrucial role in supporting the tongue and facilitating movements involved in swallowing\nand speech. Furthermore, the hyoid serves as an attachment point for various muscles,\nunderscoring its importance in both respiratory and digestive functions. Understanding the\nembryological origins of the hyoid bone enhances our comprehension of its anatomical\nrelationships and clinical implications.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the embryological origins of the hyoid bone from the second and third pharyngeal arches, detailing how each arch contributes to specific parts of the bone, which underscores its anatomical significance in supporting the tongue and aiding in functions such as swallowing and speaking.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15578"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_22_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the appropriate study design an investigator should use to explore the potential\nlink between first trimester acetaminophen use and neural tube defects, considering the\nestimated risk in the general population.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To explore the potential link between first trimester acetaminophen use and neural tube\ndefects, an investigator should consider utilizing an ecologic study design. This approach\nallows for the examination of population-level data to identify correlations between\nacetaminophen use during early pregnancy and the incidence of neural tube defects across\ndifferent demographic groups. Given that neural tube defects occur at a low baseline rate\nin the general population, an ecologic study can help reveal broader trends that may not\nbe evident in individual-level studies. Furthermore, this design is advantageous for\nassessing exposure data that can be gathered from health records or surveys, making it a\npractical choice for preliminary investigation in this area. However, it is important to\nnote that while ecologic studies can suggest associations, they cannot establish\ncausation, necessitating further research to confirm findings.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because an ecologic study design effectively assesses population-level trends and associations between first trimester acetaminophen use and the relatively low incidence of neural tube defects, enabling the identification of potential correlations across diverse demographic groups.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15545"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

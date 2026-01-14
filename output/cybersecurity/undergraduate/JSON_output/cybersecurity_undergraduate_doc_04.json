@@ -1,0 +1,290 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_04",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 4",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_04.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Applications developed by programming languages like ____ and ______ have this common\nbuffer-overflow error.",
+      "options": {
+        "A": "C, Ruby",
+        "B": "Python, Ruby",
+        "C": "C, C++",
+        "D": "Tcl, C#"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "C and C++ are prone to buffer-overflow errors because they allow direct manipulation of memory through pointers and do not automatically enforce bounds checking on arrays, leading to vulnerabilities in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A digital signature needs a",
+      "options": {
+        "A": "Private-key system",
+        "B": "Shared-key system",
+        "C": "Public-key system",
+        "D": "All of them"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A digital signature relies on a public-key system because it uses a pair of keys\u2014one public and one private\u2014to ensure authenticity and integrity of a message, allowing the sender to sign with their private key while anyone can verify the signature using the corresponding public key.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1507"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The __________ was a huge marketplace of Dark Web specifically famous for selling of\nillegal drugs & narcotics as well as you can find a wide range of other goods for sale.",
+      "options": {
+        "A": "Silk Road",
+        "B": "Cotton Road",
+        "C": "Dark Road",
+        "D": "Drug Road"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Silk Road was a notorious online marketplace on the Dark Web known for facilitating the sale of illegal drugs and a variety of other illicit goods, making it emblematic of such activities.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1495"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "1. _________ framework made cracking of vulnerabilities easy like point and click.",
+      "options": {
+        "A": ".Net",
+        "B": "Metasploit",
+        "C": "Zeus",
+        "D": "Ettercap"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Metasploit framework is designed to simplify the exploitation of security vulnerabilities through its user-friendly interface and extensive library of pre-built exploits, making it accessible for users to perform penetration testing with minimal technical complexity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which among them has the strongest wireless security?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA 2",
+        "D": "WPA 3"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA3 provides enhanced security features such as stronger encryption, improved protection against brute-force attacks, and mandatory use of advanced security protocols, making it the most secure wireless security standard available.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "All of the following methods-secret question, biometric, and SMS code-are valid authentication methods.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "All three methods\u2014secret question, biometric authentication, and SMS code\u2014are valid authentication methods because they each employ distinct mechanisms to verify a user's identity, enhancing security in various contexts.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The haunted web is an area of the internet that contains abandoned websites and is easily accessible through regular browsers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The haunted web refers to websites that are no longer maintained or abandoned, but they are typically not easily accessible through regular browsers as they often require specific knowledge or tools to access, distinguishing them from the regular web.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "The length of the message digest produced by MD 5 is 160 bits.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The length of the message digest produced by MD5 is actually 128 bits, not 160 bits.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1487"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The digest created by a hash function is commonly referred to as a Modification Detection Code (MDC).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function generates a fixed-size digest from variable input data, which serves as a Modification Detection Code (MDC) by allowing the verification of data integrity through comparison of the hash values.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1532"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The message must be encrypted at the receiver site and decrypted at the sender site for secure communication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because secure communication can be achieved by encrypting the message at the sender site and decrypting it at the receiver site, which is the standard practice in cryptography.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to remove all whitespaces from the given string using regex.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def remove_whitespaces(text1): | return (re.sub(r'\\s+', '',text1))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes the `re.sub()` function from the `re` module to replace all whitespace characters in the input string `text1` with an empty string, effectively removing them.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "451"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_04_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to check whether a list contains the given sublist or not.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_sublist(l, s): | return sub_set",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that presumably checks for the presence of a sublist within a larger list, which is a fundamental operation in data manipulation relevant to cybersecurity tasks such as pattern recognition and anomaly detection.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "69"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

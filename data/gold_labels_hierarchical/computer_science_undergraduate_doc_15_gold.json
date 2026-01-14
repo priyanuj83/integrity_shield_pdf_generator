@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_undergraduate_doc_15",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "In Python, negative indexing allows access to elements from the end of a sequence, so \"abc\"[-1] retrieves the last character, which is 'c'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3247
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 10 because the sum function in Python 3 calculates the total of the elements in the list l, which are 1, 2, 3, and 4, resulting in 1 + 2 + 3 + 4 = 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The program executing on a time-sharing system indicates that resources are shared among multiple processes, making busy-waiting inefficient as it can waste CPU cycles while other processes could use the CPU more effectively.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1012
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The set of all bit strings with more ones than zeros cannot be described by a regular expression because it requires counting and comparing the number of ones and zeros, which exceeds the capabilities of regular languages that can only recognize patterns without maintaining such counts.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1037
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "In Python, the expression 4*1**4 evaluates as 4 multiplied by 1 raised to the power of 4, where the exponentiation operator (**) has higher precedence than multiplication (*), resulting in 4*1, which equals 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3272
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the correct formula for the number of distinct functions mapping a set A with m elements into a set B with n elements is n^m, not n!/(n - m)!.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1072
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "O(n^2) grows faster than O(n) and O(log n) as the input size increases because the quadratic term dominates the linear and logarithmic terms, leading to a more rapid increase in function value as n becomes large.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Local caching of files can lead to inconsistencies because changes made to a file on one machine may not be immediately reflected on other machines until the cache is synchronized, resulting in potential discrepancies across the file system.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1085
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Priority queuing can lead to starvation for lower-priority jobs because higher-priority jobs may continuously receive service, preventing equal access to resources over time.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1079
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The function random() in Python 3 generates random numbers based on a pseudo-random number generator, but it does not set the starting integer value; instead, the seed value is set using the random.seed() function.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3261
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def get_max_occuring_char(str1): | return ch",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a Python function intended to find the maximum occurring character in a string, as indicated by its naming and structure, although it lacks the complete implementation details necessary for full functionality.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 480
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_15_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def mul_list(nums1,nums2): | return list(result)",
+      "marks": 10,
+      "explanation": "correct because it illustrates the use of a lambda function within the map function to apply multiplication element-wise to two lists, returning the result as a new list.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 682
+    }
+  ]
+}

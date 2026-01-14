@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_10",
+  "document_name": "Computer Science - Graduate Level Assessment 10",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_10.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A sender must not be able to deny sending a message that was sent, is known as",
+      "options": {
+        "A": "Message Nonrepudiation",
+        "B": "Message Integrity",
+        "C": "Message Condentiality",
+        "D": "Message Sending"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the origin and integrity of the message in communication systems.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Of the following page-replacement policies, which is guaranteed to incur the minimum\nnumber of page faults?",
+      "options": {
+        "A": "Replace the page whose next reference will be the longest time in the future.",
+        "B": "Replace the page whose next reference will be the shortest time in the future.",
+        "C": "Replace the page whose most recent reference was the shortest time in the past.",
+        "D": "Replace the page whose most recent reference was the longest time in the past."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This page-replacement policy minimizes page faults by ensuring that the page replaced is the one that will not be needed for the longest period of time, thereby reducing the likelihood of immediate future accesses leading to faults.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following deals with network intrusion detection and real-time traffic\nanalysis?",
+      "options": {
+        "A": "John the Ripper",
+        "B": "L 0 phtCrack",
+        "C": "Snort",
+        "D": "Nessus"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Snort is an open-source network intrusion detection and prevention system that analyzes real-time traffic to detect and respond to malicious activities, making it the correct answer for the question.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Failed sessions allow brute-force attacks on access credentials. This type of attacks are\ndone in which layer of the OSI model?",
+      "options": {
+        "A": "Physical layer",
+        "B": "Data-link Layer",
+        "C": "Session layer",
+        "D": "Presentation layer"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Brute-force attacks target the session layer of the OSI model because this layer is responsible for managing sessions between users and services, where failed sessions can indicate weaknesses that attackers exploit to gain unauthorized access to credentials.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1504"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which form of encryption does WPA use?",
+      "options": {
+        "A": "Shared key",
+        "B": "LEAP",
+        "C": "TKIP",
+        "D": "AES"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as a security protocol to provide improved data encryption and integrity for wireless networks, replacing the less secure WEP (Wired Equivalent Privacy).",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1552"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Message authentication is primarily concerned with ensuring message confidentiality by encrypting the message content.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message authentication is primarily concerned with verifying the integrity and authenticity of a message, rather than ensuring its confidentiality, which is the role of encryption.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1513"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The stack is utilized for storing global variables that can be accessed throughout the entire program.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The stack is primarily used for storing local variables and function call information, while global variables are stored in a separate memory area known as the data segment, making the statement false.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "Insertion sort has average-case and worst-case time complexities of O(n log n).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Insertion sort has an average-case and worst-case time complexity of O(n^2), not O(n log n), because it requires nested iterations to compare and shift elements in the array, particularly in scenarios where the elements are in reverse order.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "Wireless authentication between a user and an access point is typically completed through a method called AP-handshaking.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the wireless authentication process between a user and an access point typically involves methods such as WPA2 or EAP, rather than a process specifically referred to as \"AP-handshaking.\"",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1512"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The string 'xxzy' can be generated by the grammar defined by the production rules A -> BC, B -> x|Bx, C -> B|D, D -> y|Ey, E -> z.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The string 'xxzy' cannot be generated by the given grammar because there is no valid sequence of production rules that allows for the creation of two consecutive 'x's followed by 'z' and 'y', given the constraints of the rules for B and D.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1060"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_10_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find sum and average of first n natural numbers.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sum_average(number): | return (total,average)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the essential components of a function that computes the total and average of the first n natural numbers, although it lacks the implementation details necessary for complete functionality.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "599"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_10_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to convert the given string to lower case.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def is_lower(string): | return (string.lower())",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively utilizes Python's built-in string method `lower()` to convert all characters in the given string to lowercase, thereby fulfilling the function's purpose.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "477"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

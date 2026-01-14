@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_06",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 6",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_06.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_06.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_06_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_06_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_06_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_06_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which image data augmentation is most common for natural images?",
+      "options": {
+        "A": "random crop and horizontal flip",
+        "B": "random crop and vertical flip",
+        "C": "posterization",
+        "D": "dithering"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Random crop and horizontal flip are commonly used data augmentation techniques for natural images because they effectively increase the diversity of the training dataset, helping to improve model robustness and generalization by simulating variations in viewpoint and scale.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "15759"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "As of 2020, which architecture is best for classifying high-resolution images?",
+      "options": {
+        "A": "convolutional networks",
+        "B": "graph networks",
+        "C": "fully connected networks",
+        "D": "RBF networks"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Convolutional networks are specifically designed to process and analyze visual data by leveraging their ability to capture spatial hierarchies and local patterns, making them highly effective for classifying high-resolution images.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Averaging the output of multiple decision trees helps _.",
+      "options": {
+        "A": "Increase bias",
+        "B": "Decrease bias",
+        "C": "Increase variance",
+        "D": "Decrease variance"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging the output of multiple decision trees reduces variance by smoothing out the fluctuations caused by individual trees, leading to more stable and reliable predictions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6863"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In Yann LeCun's cake, the cherry on top is",
+      "options": {
+        "A": "reinforcement learning",
+        "B": "self-supervised learning",
+        "C": "unsupervised learning",
+        "D": "supervised learning"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's framework because it represents the culmination of advancements in machine learning that enable systems to learn optimal behaviors through interactions with their environment, thus enhancing the overall effectiveness of AI models.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14783"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| A neural network's convergence depends on the learning rate. Statement 2|\nDropout multiplies randomly chosen activation values by zero.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is true for both statements because the learning rate is a crucial hyperparameter that influences how quickly a neural network converges during training, and dropout is a regularization technique that randomly sets a portion of the activation values to zero to prevent overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The joint probability P(H, U, P, W) can be expressed as P(H) * P(W) * P(P | W) * P(U | H, P).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it follows the chain rule of probability, which allows the joint probability of multiple variables to be expressed as the product of the marginal and conditional probabilities of those variables.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6876"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The method used to learn weights, such as matrix inversion or gradient descent, greatly affects the trade-off between underfitting and overfitting.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The method used to learn weights, whether matrix inversion or gradient descent, primarily influences the efficiency and convergence of the learning process, but it does not inherently determine the model's capacity to underfit or overfit, which is more related to the model complexity and the amount of training data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "As of 2020, some models achieve accuracy greater than 98% on the CIFAR-10 dataset.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As of 2020, advancements in deep learning techniques, such as convolutional neural networks, have enabled models to reach and even exceed 98% accuracy on the CIFAR-10 dataset, demonstrating significant improvements in image classification tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6854"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The variance of the Maximum A Posteriori (MAP) estimate is the same as that of the Maximum Likelihood Estimate (MLE).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The variance of the MAP estimate incorporates prior information about the parameters, while the MLE estimate is solely based on the observed data, leading to different variances for the two estimates.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14786"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "An excessively large step size during training can cause the training loss to increase over time.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An excessively large step size can cause the model to overshoot the optimal parameters during updates, leading to divergence and an increase in training loss over time.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6900"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to shift last element to first position in the given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def move_first(test_list): | return test_list",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly identifies the need to create a Python function, but it fails to implement the logic necessary to shift the last element of the list to the first position, as it simply returns the original list without any modifications.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "378"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_06_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def max_sum(arr, n): | return max_sum",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it succinctly identifies the need for a function to compute the maximum sum of a bi-tonic subsequence, which involves both increasing and then decreasing sequences, though it lacks the actual implementation details necessary to achieve this.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "245"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

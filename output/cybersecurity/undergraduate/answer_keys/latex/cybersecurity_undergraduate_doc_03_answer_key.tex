@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 3 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authentication aims to determine who the user is by verifying their identity through various means, such as passwords, biometrics, or security tokens, to ensure that access to systems and data is granted only to authorized individuals.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Physical layer; B) Application layer; C) Data link layer; D) Network layer
+\\ \textit{Note:} A proxy firewall operates at the application layer because it inspects and filters traffic based on the specific applications and protocols being used, such as HTTP or FTP, rather than just examining the raw data packets.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Receiver; B) Sender; C) Modulor; D) Translator
+\\ \textit{Note:} The correct answer is "Receiver" because message confidentiality ensures that only the intended recipient can understand the transmitted message, protecting it from unauthorized access and maintaining its secrecy.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, it cannot be done; B) Yes, just plug the GGM PRF into the Luby-Rackoff theorem; C) It depends on the underlying PRG; D) Option text
+\\ \textit{Note:} A secure pseudorandom permutation (PRP) can be constructed from a secure pseudorandom generator (PRG) by applying the Luby-Rackoff theorem, which demonstrates how to build a secure PRP using a secure pseudorandom function (PRF) derived from the PRG, specifically through the GGM construction.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Eavesdropping; B) Cross-site scripting; C) Authentication; D) SQL Injection
+\\ \textit{Note:} Authentication is a security process designed to verify the identity of users, rather than a method used to exploit vulnerabilities in a system.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Wireshark is widely recognized for its capabilities in capturing and analyzing network traffic, including wireless packets, making it an essential tool in the field of network security for monitoring and troubleshooting communication.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer overflow typically allows an attacker to overwrite a function's return address on the stack, which can redirect execution to malicious code, but it does not allow direct writing to the instruction pointer register itself.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A ping sweep is considered true because it involves sending Internet Control Message Protocol (ICMP) echo requests to a range of IP addresses to determine which hosts are active and responsive on a network.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message authentication involves using cryptographic techniques to confirm that a message has not been altered and that it originates from a legitimate sender, thereby ensuring both the integrity and authenticity of the message.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Snort is indeed a widely used open-source tool that analyzes network traffic in real-time to detect potential intrusions and threats, thereby serving as a crucial component in cybersecurity.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_series(number): | return total
+\\ \textit{Note:} correct as it indicates the need for a function that computes the sum of the cubes of the first n natural numbers, although it lacks the complete implementation details necessary to achieve this.
+\item \textbf{Answer:} def add\_string(list,string): | return add\_string
+\\ \textit{Note:} correct because it defines a function that is intended to modify a list by inserting a specified string at the beginning of each item, although the actual implementation is incomplete and does not perform the required operation.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

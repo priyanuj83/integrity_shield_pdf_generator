@@ -1,0 +1,124 @@
+{
+  "document_id": "chemistry_undergraduate_doc_07",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "answers": [
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 3.74 T because at this magnetic field strength, the Larmor frequency is optimized for efficient energy transfer during spin-lattice relaxation, aligning with the correlation time of 1 ns as indicated by the provided equations.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 954
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the fact that different organic functional groups have specific vibrational frequencies that correspond to distinct absorption bands in the infrared spectrum, allowing for the identification of these groups in a molecule's structure.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 897
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "HCl has the lowest melting point among the given compounds because it is a molecular compound with weak van der Waals forces between its molecules, resulting in lower intermolecular attraction compared to ionic or stronger covalent compounds.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 935
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 17 O because its nuclear magnetic resonance (NMR) frequency of 115.5 MHz in a 20.0 T magnetic field is consistent with its unique nuclear spin and gyromagnetic ratio, which determine the resonance frequency of a nuclide in a given magnetic field strength.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 921
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Sc 3+ has the smallest radius because it has lost three electrons, resulting in a higher effective nuclear charge relative to the remaining electrons, which pulls them closer to the nucleus and decreases the ionic radius.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 992
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Q-factor for an X-band EPR cavity is typically in the range of 10,000 to 100,000, making a Q-factor of 1012 unreasonably high and therefore false.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 940
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Tetramethylsilane's protons are actually strongly shielded due to the surrounding electron-donating methyl groups, making it an effective reference for chemical shifts in NMR spectroscopy.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 929
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Doubling the volume of a buffer solution does not significantly decrease its pH because buffers are designed to resist changes in pH upon dilution, as they contain both a weak acid and its conjugate base in equilibrium.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 974
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Silicon's high reactivity with oxygen leads to its predominant occurrence in nature as silicon dioxide (silica) and in various silicate minerals, making the statement true.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 920
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because CH3Br typically produces a 1H NMR resonance at around 3.0 to 4.0 ppm downfield from TMS, which corresponds to a frequency shift significantly greater than 1.55 kHz in a 12.0 T magnetic field.",
+      "source_dataset": "chemistry_college_chemistry",
+      "source_id": 956
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_long_1",
+      "type": "long",
+      "correct_answer": "The equilibrium polarizations of an electron and a proton in a 1.0 T magnetic field at 300\nK are influenced by their magnetic moments, which are determined by their respective spins\nand g-factors. The electron has a much smaller mass compared to the proton, leading to a\ngreater sensitivity to the magnetic field. The polarization is also affected by\ntemperature, as higher temperatures generally result in increased thermal agitation,\nreducing polarization. By calculating the ratio of their polarizations, we find that |pe /\npH| equals approximately 820. This significant difference reflects the stronger response\nof the electron's magnetic moment to the applied magnetic field compared to that of the\nproton.",
+      "marks": 10,
+      "explanation": "correct because it identifies that the equilibrium polarizations of an electron and a proton in a magnetic field are determined by their magnetic moments, which are influenced by their mass, spins, g-factors, and the effects of temperature on thermal agitation.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 977
+    },
+    {
+      "question_id": "chemistry_undergraduate_doc_07_chemistry_long_2",
+      "type": "long",
+      "correct_answer": "The process of polarization in 13 C nuclei within a 600 MHz spectrometer involves the\nalignment of nuclear spins in a magnetic field, leading to a net magnetization that can be\nmeasured. The time required for the polarization to reach twice its thermal equilibrium\nvalue can be calculated using the spin-lattice relaxation time, T 1, which in this case is\n5.0 seconds. The polarization follows an exponential approach to equilibrium, described by\nthe equation P(t) = P_eq(1 - e^(-t/T 1)). To find the time when polarization reaches twice\nits equilibrium value, we can set up the equation and solve for t, yielding approximately\n72.0 seconds. Thus, it will take about 72.0 seconds for the polarization of 13 C nuclei to\nreach twice its thermal equilibrium value at 298 K.",
+      "marks": 10,
+      "explanation": "The answer correctly describes the process of polarization in 13 C nuclei by referencing the alignment of spins in a magnetic field and the use of the T1 relaxation time to calculate the time required for polarization to reach twice its thermal equilibrium value through the exponential approach to equilibrium formula.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 907
+    }
+  ]
+}

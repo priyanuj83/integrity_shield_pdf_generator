@@ -1,0 +1,289 @@
+{
+  "docid": "chemistry_undergraduate_doc_18",
+  "document_name": "Chemistry - Undergraduate Level Assessment 18",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_18.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_18.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_18_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_18_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_18_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_18_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Considering 0.1 M aqueous solutions of each of the following, which solution has the\nlowest pH?",
+      "options": {
+        "A": "Na 2 CO 3",
+        "B": "Na 3 PO 4",
+        "C": "Na 2 S",
+        "D": "NaCl"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "NaCl is a neutral salt that does not hydrolyze in solution, resulting in a pH of 7, which is higher than the pH of solutions of weak acids or bases that could be present in 0.1 M concentrations, thus it does not exhibit the lowest pH.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "947"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the Larmor frequency for a proton in a magnetic field of 1 T.",
+      "options": {
+        "A": "23.56 GHz",
+        "B": "42.58 MHz",
+        "C": "74.34 kHz",
+        "D": "13.93 MHz"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Larmor frequency for a proton in a magnetic field is calculated using the formula f = \u03b3B, where \u03b3 (the gyromagnetic ratio for a proton) is approximately 42.58 MHz/T, and thus for a magnetic field of 1 T, the frequency is 42.58 MHz.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "915"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Of the following solutions, which will have the highest ionic strength? (Assume complete\ndissociation.)",
+      "options": {
+        "A": "0.050 M AlCl 3",
+        "B": "0.100 M NaCl",
+        "C": "0.050 M CaCl 2",
+        "D": "0.100 M HCl"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The 0.050 M AlCl3 solution has the highest ionic strength because it dissociates into four ions (1 Al^3+ and 3 Cl^-) per formula unit, resulting in a total concentration of 0.200 M ions, compared to other solutions that yield fewer ions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "942"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Of the following ionic substances, which has the greatest lattice enthalpy?",
+      "options": {
+        "A": "MgO",
+        "B": "MgS",
+        "C": "NaF",
+        "D": "NaCl"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "MgO has the greatest lattice enthalpy due to its high charge density resulting from the presence of divalent magnesium ions (Mg\u00b2\u207a) and oxide ions (O\u00b2\u207b), which leads to stronger electrostatic forces of attraction between the ions compared to other ionic substances.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "955"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The 13 C spectrum of which isomer of C 6 H 14 has lines with three distinct chemical\nshifts?",
+      "options": {
+        "A": "hexane",
+        "B": "2-methylpentane",
+        "C": "3-methylpentane",
+        "D": "2,3-dimethylbutane"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Hexane has three distinct chemical environments for its carbon atoms due to its linear structure, resulting in three distinct chemical shifts in its 13C NMR spectrum.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "14140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "Halogenated hydrocarbons are commonly regarded as safe for aquatic environments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Halogenated hydrocarbons are often toxic to aquatic life and can lead to significant environmental harm, making them unsafe for aquatic environments.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "969"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "HCl and NaOH are classified as a conjugate acid-base pair in acid-base chemistry.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "HCl is an acid that donates protons, while NaOH is a base that accepts protons, and they do not form a conjugate acid-base pair because they do not convert into each other through proton transfer.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "975"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Doubling the volume of a buffer solution by adding water significantly decreases its pH.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Doubling the volume of a buffer solution by adding water dilutes both the acid and conjugate base components equally, resulting in no significant change in pH.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "974"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "In a three-component mixture, a maximum of five phases can coexist at equilibrium.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "According to the Gibbs phase rule, the number of phases that can coexist at equilibrium in a system is given by the formula P = C - F + 2, where P is the number of phases, C is the number of components, and F is the number of degrees of freedom; for a three-component system (C=3) at equilibrium (F=0), this calculation yields a maximum of five phases.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "898"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "Strong oxidizing conditions are necessary for a substance to exhibit both paramagnetism and ferromagnetism.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Strong oxidizing conditions are not necessary for a substance to exhibit both paramagnetism and ferromagnetism, as these magnetic properties depend primarily on the presence of unpaired electrons in the material's electronic structure rather than the oxidation state.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "903"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of the 190 nm wavelength absorption in proteins, including its\nrelation to \u03c0 \u2192 \u03c0* transitions and its placement within the electromagnetic spectrum.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The significance of the 190 nm wavelength absorption in proteins lies primarily in its\nassociation with \u03c0 \u2192 \u03c0* electronic transitions, which are crucial for understanding\nprotein structure and function. This absorption occurs in the ultraviolet region of the\nelectromagnetic spectrum, specifically within the far UV range, where many amino acids and\nnucleic acids exhibit strong absorbance. The \u03c0 \u2192 \u03c0* transitions involve the excitation of\nelectrons in conjugated systems, such as the peptide bonds and aromatic side chains of\nproteins, allowing for the analysis of protein conformation and interactions.\nUnderstanding this absorption helps in techniques like UV-Vis spectroscopy, which is\nwidely used for characterizing proteins and studying their dynamics. Overall, the 190 nm\nabsorption is vital for elucidating protein behavior at a molecular level.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that the 190 nm absorption in proteins is linked to \u03c0 \u2192 \u03c0* transitions, which are essential for analyzing the electronic properties of amino acids and nucleic acids in the far UV region of the electromagnetic spectrum.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "970"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_18_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that lead to the difference in relaxation times T 1 and T 2 for a\nnucleus, focusing on the sensitivity of T 2 to molecular motions at the Larmor frequency.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The difference in relaxation times T 1 and T 2 for a nucleus can be attributed to their\ndistinct mechanisms of energy exchange with the surrounding environment. T 1, or spin-\nlattice relaxation time, involves the transfer of energy from the nuclear spins to the\nlattice, which occurs over a relatively long timescale and is less sensitive to molecular\nmotions. In contrast, T 2, or spin-spin relaxation time, is significantly influenced by\nmolecular motions occurring at the Larmor frequency. This sensitivity arises because T 2\ndescribes the dephasing of nuclear spins due to interactions with neighboring spins, which\nare affected by dynamic molecular environments. As a result, rapid molecular motions can\nlead to faster dephasing and shorter T 2 times, highlighting the crucial role of molecular\ndynamics in determining relaxation behaviors.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately distinguishes between T1 and T2 relaxation mechanisms, emphasizing that T1 is related to energy transfer to the lattice with less sensitivity to motion, while T2 is significantly affected by molecular dynamics at the Larmor frequency, leading to shorter relaxation times.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "905"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

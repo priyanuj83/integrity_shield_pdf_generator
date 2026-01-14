@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_20",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Remote procedure calls (RPC) operate over a network where parameters are serialized and deserialized, making it impossible to pass parameters by reference as it would require shared memory access, which is not feasible in a distributed environment.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1031
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the origin and integrity of the communication.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1527
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless clients and the wired network, thus managing data traffic and connections within the wireless network.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1486
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The one-time pad is considered a perfectly secure encryption scheme because it uses a random key that is as long as the message, is used only once, and provides complete secrecy when the key is kept secret and never reused.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1016
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The language {ww | w in (0 + 1)*} is context-sensitive and requires the ability to compare two halves of a string, which is beyond the capabilities of a pushdown automaton that can only recognize context-free languages, while a Turing machine can handle such comparisons due to its greater computational power.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1013
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Authorization is the process of determining and enforcing what actions a user is permitted to perform and what resources they can access within a system, thereby restricting operations and data access based on predefined permissions.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1560
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because Confidentiality, Integrity, Non-repudiation, and Authentication are foundational principles of information security that ensure the protection and trustworthiness of data in communication systems.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1567
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer is indeed a sequential segment of memory used for temporarily storing data, including character strings and arrays of integers, which allows for efficient data manipulation and communication between processes.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message confidentiality is achieved through cryptographic techniques that encrypt the data, ensuring that only authorized parties with the correct decryption keys can access the content, thereby protecting it from unauthorized access.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1511
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Bubble sort has average-case and worst-case running times of O(n^2), which makes it inefficient for large datasets compared to algorithms with O(n log n) performance.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1049
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def min_product_tuple(list1): | return result_min",
+      "marks": 10,
+      "explanation": "correct as it outlines the need for a function that computes the minimum product from pairs of tuples in a list, indicating a focus on algorithmic implementation in Python that adheres to the problem's requirements.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 409
+    },
+    {
+      "question_id": "computer_science_graduate_doc_20_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def count_list(input_list): | return len(input_list)",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a Python function that utilizes the built-in `len()` function to count and return the number of elements in the input list, effectively determining the number of lists contained within it.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 792
+    }
+  ]
+}

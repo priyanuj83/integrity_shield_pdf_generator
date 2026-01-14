@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 6 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) ['Hi!', 'Hi!', 'Hi!', 'Hi!']; B) ['Hi!'] * 4; C) Error; D) None of the above.
+\\ \textit{Note:} The expression ['Hi!'] * 4 creates a new list that contains the string 'Hi!' repeated four times, resulting in the output ['Hi!', 'Hi!', 'Hi!', 'Hi!'].
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Error; B) a; C) b; D) c
+\\ \textit{Note:} In Python 3, using a negative index accesses elements from the end of the string, so "abc"[-1] refers to the last character, which is 'c'.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) The goal of the attack; B) The number of computers being attacked; C) The number of computers launching the attack; D) The time period in which the attack occurs
+\\ \textit{Note:} A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking computers involved.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 17\_\{16\}; B) E$_{4}$\_\{16\}; C) E$_{7}$\_\{16\}; D) F$_{4}$\_\{16\}
+\\ \textit{Note:} The correct answer is E$_{7}$\_\{16\} because when converting the decimal number 231 to hexadecimal, it equals 7 in the units place (231 divided by 16 gives a remainder of 7) and E in the sixteens place (the quotient of 231 divided by 16 is 14, which corresponds to E in hexadecimal).
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) \{1\}; B) \{1,2,2,3,4\}; C) \{1,2,3,4\}; D) \{4,3,2,2,1\}
+\\ \textit{Note:} The correct answer is \{1,2,3,4\} because the set data structure in Python automatically removes duplicate values, resulting in a collection of unique elements from the list.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because confidentiality refers to the protection of information from unauthorized access, and if a user can access a system without proper authentication, it indicates a failure in the authentication process rather than a compromise of confidentiality itself.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The function O($N^(1$/4)) grows slower than O(1) as N approaches infinity, while O($N^(1$/N)) approaches O(1) even faster, making the original statement false.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The boolean expression a[i] == max || !(max != a[i]) simplifies to a[i] == max because the second part, !(max != a[i]), is logically equivalent to a[i] == max, making the entire expression true if a[i] is equal to max.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, the operator '/' performs true division, returning a floating-point result, while the operator '//' is used for floor division.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The method 'sort()' is a list method in Python and cannot be directly applied to strings, which are immutable; instead, strings must be converted to a list of characters before sorting.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} To modify the specification for a method that searches an array for values larger than a given item, it is important to clarify how the method should handle situations where there are multiple indices of larger values. The specification should state that the method will return a list of all indices where the values exceed the given item. This approach allows users to see all relevant positions in the array instead of just the first occurrence. Additionally, it is essential to mention whether the returned list should be sorted or maintain the order of indices as they appear in the array, which can help in understanding the results better. By clearly defining this behavior, the method becomes more useful and informative.
+\\ \textit{Note:} correct because it emphasizes the necessity of returning all indices of values larger than the specified item, which provides comprehensive information about the array's contents rather than limiting the result to just the first occurrence.
+\item \textbf{Answer:} Upgrading a customer service system can bring several benefits to a company, including faster response times, improved customer satisfaction, and more efficient handling of inquiries. One significant advantage is the ability to provide a human representative for any incoming call, ensuring that customers feel valued and heard. This personal touch can enhance the overall customer experience and build loyalty. However, the benefit that might be the least likely to improve is the reduction in response time. Despite the upgrade, high volumes of calls may still lead to delays if the system is not efficiently managed, limiting the potential effectiveness of this change.
+\\ \textit{Note:} correct because it identifies key benefits of upgrading a customer service system, such as faster response times and improved customer satisfaction, while also recognizing that the reduction in response time may not significantly improve due to factors like increased inquiry volume or complexity.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

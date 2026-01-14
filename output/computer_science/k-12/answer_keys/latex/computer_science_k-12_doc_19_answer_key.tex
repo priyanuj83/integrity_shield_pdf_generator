@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - K-12 Level Assessment 19 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(log $e^N$); B) O(log N); C) O(log log N); D) O(N)
+\\ \textit{Note:} O(log log N) represents a growth rate that increases very slowly compared to other functions, such as polynomial or exponential functions, making it the slowest growing type among the options.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) a; B) Chemistry; C) 0; D) 1
+\\ \textit{Note:} The correct answer is "Chemistry" because in Python, negative indexing allows access to list elements from the end, so [-3] refers to the third element from the end of the list, which is 'Chemistry'.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 6; C) 4; D) 5
+\\ \textit{Note:} The correct answer is 5 because in Python, the modulus operator (\%) has a higher precedence than addition (+), so the expression is evaluated as 4 + (3 \% 2), which simplifies to 4 + 1, resulting in 5.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) choice(seq); B) randrange ([start,] stop [,step]); C) random(); D) seed([x])
+\\ \textit{Note:} The function `seed([x])` initializes the random number generator in Python 3 with a specific starting value, allowing for reproducible sequences of random numbers.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) /; B) //; C) \%; D) |
+\\ \textit{Note:} In Python 3, the operator '//' is used to perform floor division, which returns the largest integer less than or equal to the result of the division of two numbers.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the 'sort()' method is designed for lists, and strings in Python are immutable, meaning they cannot be modified in place.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the max function in Python 3 is designed to evaluate a list of numerical values and return the largest number, which in the case of the list [1, 2, 3, 4] is indeed 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, in Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is actually 'Chemistry', not 'a'.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The strip() function in Python 3 is designed to remove all leading and trailing whitespace characters from a string by default, which makes the statement true.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} O($n^2$) represents a larger growth rate than O(n) because as the input size n increases, the value of $n^2$ grows significantly faster than the value of n, indicating that algorithms with O($n^2$) complexity will take more time to execute than those with O(n) complexity for large inputs.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} To convert the decimal number 231 to its hexadecimal representation, we divide the number by 16, which is the base of the hexadecimal system. The first division gives us 14 with a remainder of 7. The number 14 corresponds to the hexadecimal digit 'E'. Therefore, reading the remainder and the quotient from top to bottom, we find that 231 in hexadecimal is E$_{7}$. This conversion is significant in computer science as hexadecimal is often used to simplify binary representation and make it more readable, especially in programming and digital systems. Thus, the final result of the conversion is E$_{7}$\_\{16\}.
+\\ \textit{Note:} correct because it accurately outlines the division process used to convert the decimal number 231 into hexadecimal, identifies the corresponding hexadecimal digits, and emphasizes the importance of hexadecimal notation in simplifying binary representation for better readability in computer science.
+\item \textbf{Answer:} Phishing attacks are deceptive attempts to obtain sensitive information by masquerading as a trustworthy entity, often through emails that appear to be from banks or other organizations. Key characteristics of these attacks include urgent language, requests for personal information, and links to fraudulent websites. However, a legitimate email from a bank requesting a phone call for transaction verification is least indicative of a phishing attack because it encourages the customer to use the official phone number found on their card, rather than clicking on any links. This approach is secure as it directs customers to verify transactions through established channels, reducing the risk of falling victim to scams. In contrast, phishing emails typically push for immediate action through suspicious links or ask for sensitive details directly.
+\\ \textit{Note:} correct because it emphasizes that legitimate bank communications typically encourage direct, secure methods of verification, such as phone calls, rather than asking for sensitive information through email, which is a common tactic used in phishing attacks.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

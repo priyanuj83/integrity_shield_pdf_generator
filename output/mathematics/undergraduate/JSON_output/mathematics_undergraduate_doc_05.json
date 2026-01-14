@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_05",
+  "document_name": "Mathematics - Undergraduate Level Assessment 5",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_05.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If (G, .) is a group such that (ab)^-1 = a^-1 b^-1, for all a, b in G, then G is a/an",
+      "options": {
+        "A": "commutative semi group",
+        "B": "abelian group",
+        "C": "non-abelian group",
+        "D": "None of these"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition (ab)^-1 = a^-1 b^-1 implies that the operation in the group is commutative, meaning a*b = b*a for all a, b in G, which defines an abelian group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "31"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If A = (1, 2, 3, 4). Let ~= {(1, 2), (1, 3), (4, 2)}. Then ~ is",
+      "options": {
+        "A": "not anti-symmetric",
+        "B": "transitive",
+        "C": "reflexive",
+        "D": "symmetric"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The relation ~ is transitive because for every pair (a, b) and (b, c) in the relation, there exists a pair (a, c), specifically, since (1, 2) and (1, 3) do not violate transitivity and the other pairs do not provide a counterexample.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "63"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find all zeros in the indicated finite field of the given polynomial with coefficients in\nthat field. x^5 + 3 x^3 + x^2 + 2 x in Z_5",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "0,1",
+        "D": "0,4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0 and 4 because these are the values in the finite field Z_5 that satisfy the polynomial equation x^5 + 3x^3 + x^2 + 2x = 0 when evaluated modulo 5.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "2"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A group G in which (ab)^2 = a^2 b^2 for all a, b in G is necessarily",
+      "options": {
+        "A": "finite",
+        "B": "cyclic",
+        "C": "of order two",
+        "D": "abelian"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition (ab)^2 = a^2 b^2 for all a, b in G implies that ab * ab = aa * bb, which can be rearranged to show that ab = ba, demonstrating that G is abelian since the operation is commutative for any elements a and b in the group.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1137"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Find the maximum possible order for an element of S_n for n = 7.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "30",
+        "D": "105"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order of an element in the symmetric group S_n is determined by the least common multiple of the lengths of the disjoint cycles in its cycle decomposition, and for n=7, the cycle type (3,2,2) produces an order of 12, which is the highest achievable.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14050"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "If f(1 + x) = f(x) for all real x and f(5) = 11, then f(15/2) also equals 11.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The functional equation f(1 + x) = f(x) implies that f is periodic with a period of 1, allowing us to determine that f(15/2) = f(5) = 11.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "15616"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "Every permutation can be expressed as a product of disjoint cycles.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because while every permutation can be expressed as a product of disjoint cycles, not every permutation can be expressed as a single disjoint cycle, particularly when considering permutations with multiple independent cycles.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "39"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The circle described by the equation x^2 + y^2 = 1 intersects the parabola x^2 = y + 4 at the greatest number of points.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the circle intersects the parabola at a maximum of two points, while other curves can intersect the parabola at more than two points, such as lines or other parabolas.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The product of (2,3) and (3,5) in the ring Z_5 x Z_9 is (3,1).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The product of (2,3) and (3,5) in the ring Z_5 x Z_9 is calculated as (2*3 mod 5, 3*5 mod 9), which results in (1,6), not (3,1), making the statement false.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "17"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "A function is a permutation if and only if it is one-to-one and onto, which is not always the case.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a function is a permutation if and only if it is both one-to-one and onto, and this definition holds true; thus, it is incorrect to claim it is \"not always the case.\"",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "89"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of cardinality in set theory and analyze why the set of all functions\nfrom R to {0, 1} has the greatest cardinality compared to other sets.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Cardinality in set theory refers to the size of a set, specifically the number of elements\nit contains. When considering the set of all functions from the real numbers R to the set\n{0, 1}, we can observe that each function can be seen as a way to assign either 0 or 1 to\nevery real number. This results in a vast number of possible functions, specifically\n2^|R|, where |R| represents the cardinality of the real numbers. Since the cardinality of\nthe continuum, |R|, is uncountably infinite, this leads to the conclusion that the set of\nall such functions has a cardinality of 2^\u2135\u2081, which is greater than the cardinality of R\nitself. Therefore, the set of all functions from R to {0, 1} not only demonstrates the\nconcept of cardinality but also highlights why it has the greatest cardinality compared to\nother sets.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights that the set of all functions from R to {0, 1} has a cardinality of 2^|R|, which is greater than the cardinality of any other set, due to the uncountably infinite size of R.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1176"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_05_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the properties of the trace of n \\times n matrices A and B with real entries.\nAnalyze the validity of the statements regarding the trace of A^2 and the conditions under\nwhich it holds true.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The trace of an n \\times n matrix, denoted as tr(A), is defined as the sum of its diagonal\nelements. A key property of the trace is that it is linear, meaning tr(A + B) = tr(A) +\ntr(B) and tr(cA) = c tr(A) for any scalar c. Additionally, the trace of the product of two\nmatrices satisfies the cyclic property: tr(AB) = tr(BA). However, when examining the\nstatement regarding tr(A^2), it is important to note that while tr(A^2) is always non-\nnegative (as it is the sum of squares of the eigenvalues of A), the specific assertions\nabout its properties can depend on the context or conditions given. Therefore, the\nvalidity of statements regarding tr(A^2) holds true under certain conditions, particularly\nwhen A is symmetric or positive definite, which justifies the assertion that only\nstatement II is valid.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the properties of the trace, including linearity and the cyclic property, while also addressing the specific case of tr(A^2) being non-negative due to its relationship with the eigenvalues of the matrix A.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1139"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

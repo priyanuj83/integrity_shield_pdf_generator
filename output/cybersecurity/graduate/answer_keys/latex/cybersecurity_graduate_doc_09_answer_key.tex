@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 9 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a method of circumventing normal authentication procedures, allowing unauthorized access to a computer system or its data without detection.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is widely recognized as the first significant computer worm that exploited a buffer overflow vulnerability, demonstrating the potential for such attacks to spread rapidly and cause extensive damage to networks.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Maltego; B) BurpSuit; C) Nessus; D) Wireshark
+\\ \textit{Note:} Wireshark is a widely used network protocol analyzer that can capture and analyze wireless traffic, making it a key tool for sniffing and inspecting data transmitted over wireless networks in cybersecurity.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Local variables; B) Program code; C) Dynamically linked libraries; D) Global variables
+\\ \textit{Note:} The stack is a region of memory that stores local variables and function call information, enabling efficient management of temporary data during program execution.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) John the Ripper; B) L$_{0}$ phtCrack; C) Snort; D) Nessus
+\\ \textit{Note:} Snort is an open-source network intrusion detection system that specializes in real-time traffic analysis and packet logging, making it the appropriate choice for the given question.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} IM Trojans are classified as malware specifically created to infiltrate instant messaging platforms, where they capture and transmit users' login credentials and passwords to malicious actors.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encryption and decryption are designed to protect the confidentiality of data by converting it into an unreadable format for unauthorized users, but they do not verify or guarantee that the data has not been altered or tampered with, which is the primary concern of data integrity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA 3 is actually more secure than WEP because it employs modern encryption standards, including Simultaneous Authentication of Equals (SAE) and improved key management, which address the vulnerabilities found in WEP's outdated and easily compromised encryption methods.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} IP address spoofing can be detected by comparing the Time to Live (TTL) values because legitimate packets typically have a TTL value that reflects their origin and routing path, while spoofed packets may display anomalous TTL values inconsistent with expected network behavior.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WiFi traffic sniffing can be conducted on both secured and unsecured networks, as attackers can exploit vulnerabilities in encryption protocols or use methods such as session hijacking to access data even on protected connections, thereby enhancing its effectiveness in forensic analysis.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} In cybersecurity analysis, when the EXE assumes a query is unsatisfiable due to the STP solver timing out on a constraint query for a specific path, it halts further execution of that path. This assumption can lead to significant implications, as it may prevent the identification of potential vulnerabilities or exploits that could have been discovered with additional processing time. By prematurely considering a path unviable, analysts risk overlooking critical attack vectors, which can compromise the overall security assessment. Furthermore, this approach may lead to an incomplete understanding of the system's behavior, as it does not account for the possibility that the solver's timeout could be due to complex constraints rather than a definitive impossibility of satisfying the query. Thus, while stopping execution may streamline analysis, it introduces a trade-off between efficiency and thoroughness in cybersecurity evaluations.
+\\ \textit{Note:} correct because assuming a query is unsatisfiable after a timeout can lead to missed opportunities in identifying vulnerabilities, as it prematurely halts the analysis of potentially critical paths in the cybersecurity context.
+\item \textbf{Answer:} Whitebox fuzzing is highly effective in achieving comprehensive code coverage in software testing due to its access to the underlying code structure and control flow. By leveraging this visibility, whitebox fuzzers can generate test cases that target specific paths, conditions, and potential vulnerabilities within the code more systematically than blackbox or graybox fuzzing techniques, which typically rely on input-output behavior without detailed knowledge of the code. This results in a more thorough exploration of edge cases and a higher likelihood of uncovering security flaws. In contrast, while blackbox fuzzing can provide insights into the software's behavior from the user's perspective, it often misses deeper vulnerabilities that require knowledge of the program's internal workings. Thus, whitebox fuzzing stands out as a crucial approach in cybersecurity for achieving robust and comprehensive testing outcomes.
+\\ \textit{Note:} correct because whitebox fuzzing utilizes in-depth knowledge of the code structure to systematically generate targeted test cases that enhance code coverage, unlike blackbox and graybox approaches that lack this level of insight.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

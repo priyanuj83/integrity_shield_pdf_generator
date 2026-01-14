@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_k-12_doc_11",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(n^2) is the largest asymptotic notation among the choices because it represents a quadratic growth rate, which increases faster than linear (O(n)) or logarithmic (O(log n)) growth rates as the input size n becomes very large.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is ['Hi!', 'Hi!', 'Hi!', 'Hi!'] because the expression ['Hi!'] * 4 in Python creates a new list containing four copies of the original list element.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression `sorted('ab')` is valid in Python 3.5 because it uses the built-in `sorted()` function to return a list of the characters in the string 'ab' in ascending order.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "O(log log N) represents a growth rate that increases very slowly compared to other common functions such as polynomial or exponential functions, making it the slowest-growing type of function among the options provided.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3231
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 4 because the max() function in Python returns the largest element from the list, and in the list [1, 2, 3, 4], the largest number is 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, the function `cmp()` does not exist; instead, the correct function to determine the count of items in a list is `len()`.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3233
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "An Internet Protocol (IP) address is assigned to a device to uniquely identify it on a network, enabling communication and data exchange when it connects to the Internet.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression \"a[i] == max || !(max != a[i])\" is logically equivalent to \"a[i] == max\" rather than simplifying to \"a[i] != max.\"",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The strip() function in Python 3 removes all leading and trailing whitespace characters from a string by default, which confirms that the statement is true.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Negative indexing in Python 3 allows access to characters in a string by counting from the end, so it does not always result in an error.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3247
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def tn_ap(a,n,d): | return tn",
+      "marks": 10,
+      "explanation": "The function correctly calculates the t-nth term of an arithmetic progression by utilizing the formula tn = a + (n - 1) * d, where 'a' is the first term, 'n' is the term number, and 'd' is the common difference.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 354
+    },
+    {
+      "question_id": "computer_science_k-12_doc_11_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def adjac(ele, sub = []): | def get_coordinates(test_tup): | return (res)",
+      "marks": 10,
+      "explanation": "The answer correctly defines a function that utilizes a helper function to generate and return all coordinates that are adjacent to a specified coordinate tuple, demonstrating an understanding of coordinate manipulation in programming.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 630
+    }
+  ]
+}

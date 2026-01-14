@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_03",
+  "document_name": "Mathematics - Undergraduate Level Assessment 3",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_03.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 |\nIf H and K are subgroups of G then HK is a subgroup of G.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are false because the order of the coset aH does not necessarily divide the order of the element a, and the product of two subgroups HK is not guaranteed to be a subgroup unless one of the subgroups is normal in G.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15574"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The set of all real numbers under the usual multiplication operation is not a group since",
+      "options": {
+        "A": "multiplication is not a binary operation",
+        "B": "multiplication is not associative",
+        "C": "identity element does not exist",
+        "D": "zero has no inverse"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the fact that for a set to be a group under a binary operation, every element must have an inverse with respect to that operation, and since zero does not have a multiplicative inverse in the set of real numbers, the set fails to satisfy the group axioms.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "18"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | If H is a subgroup of G and a belongs to G then |aH| = |Ha|. Statement 2 |\nIf H is a subgroup of G and a and b belong to G, then aH and Hb are identical or disjoint.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The first statement is true because the left cosets and right cosets of a subgroup have the same size, while the second statement is false because left cosets and right cosets may intersect but are not necessarily identical or disjoint.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "10"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because in the ring Z_3[x], the polynomial x^2 + c is irreducible and thus Z_3[x]/(x^2 + c) is a field if and only if c is not a quadratic residue modulo 3, which occurs only when c = 1.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15573"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | If R is a ring and f(x) and g(x) are in R[x], then deg (f(x)+g(x)) = maximum\n(deg f(x), deg g(x)). Statement 2 | If F is a field then every ideal of F[x] is principal.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Statement 1 is false because the degree of the sum of two polynomials can be less than the maximum degree of the individual polynomials if they cancel each other out, while Statement 2 is true since in a field, every ideal in the polynomial ring F[x] is generated by a single polynomial, making it a principal ideal.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "66"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The characteristic of the ring 2 Z is 0, indicating that it has no finite order elements.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ring 2Z has characteristic 0 because there is no positive integer n such that n times any element of 2Z equals 0, indicating that it contains elements of infinite order.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15577"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "A complete graph with 10 vertices has 20 edges, connecting only some of the vertices.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A complete graph with 10 vertices has 45 edges, as the number of edges in a complete graph is given by the formula n(n-1)/2, where n is the number of vertices.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1106"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "If H and K are subgroups of a group G, then |HK| = |H||K|/|H \u2229 K| is a true statement.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it is a consequence of the formula for the cardinality of the product of two sets, which accounts for the overlap of elements in the intersection of the two subgroups H and K.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "86"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "In the finite field Z_2, the polynomial x^2 + 1 has zeros at both x = 0 and x = 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial x^2 + 1 evaluates to 1 at both x = 0 and x = 1 in the finite field Z_2, indicating that it has no zeros in this field.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "96"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "Every group is isomorphic to a subgroup of some group of permutations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Every group can be represented as a permutation group by considering the action of the group on itself, thus allowing it to be embedded as a subgroup of the symmetric group on the set of its elements.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14047"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the function f(x, y) = x^2 - 2 xy + y^3 and discuss the conditions under which its\nrelative extrema occur, particularly focusing on the line x = y.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the function f(x, y) = x^2 - 2 xy + y^3, we begin by finding the critical\npoints by calculating the partial derivatives and setting them to zero. The partial\nderivatives are f_x = 2 x - 2 y and f_y = -2 x + 3 y^2. Setting these equal to zero, we\nfind the line x = y as a key constraint, where substituting y for x simplifies our\nconditions for relative extrema. Specifically, along the line x = y, we can rewrite the\nfunction as f(y, y) = -y^2 + y^3, which allows us to analyze the single-variable function\nfor critical points. Through this analysis, we conclude that all relative extrema of f\noccur on the line x = y, highlighting the significant role this line plays in determining\nthe behavior of the function.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively identifies the critical points of the function by calculating the partial derivatives, demonstrates the significance of the line x = y in simplifying the analysis of relative extrema, and shows how substituting y for x leads to a single-variable function that can be further analyzed for extrema.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1124"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_03_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the polynomial function \\( f(x) = 2 x^5 + 8 x - 7 \\) and determine the number of\nreal roots it has. Discuss your reasoning and the methods used in your analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the polynomial function \\( f(x) = 2 x^5 + 8 x - 7 \\), we first apply the\nIntermediate Value Theorem, which suggests that if a continuous function changes signs\nover an interval, it must have at least one real root within that interval. Evaluating \\(\nf(x) \\) at several points, we find \\( f(0) = -7 \\) and \\( f(1) = 3 \\), indicating a sign\nchange between \\( x = 0 \\) and \\( x = 1 \\), thus confirming at least one real root exists.\nFurthermore, we can analyze the derivative \\( f'(x) = 10 x^4 + 8 \\), which is always\npositive for all real \\( x \\), indicating that \\( f(x) \\) is strictly increasing. A\nstrictly increasing function can cross the x-axis only once, leading us to conclude that\n\\( f(x) \\) has exactly one real root.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively applies the Intermediate Value Theorem to demonstrate a sign change in the polynomial function, indicating the existence of at least one real root between the evaluated points, while also initiating an analysis of the derivative to explore the function's behavior further.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1156"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

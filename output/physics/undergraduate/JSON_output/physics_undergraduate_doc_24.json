@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_24",
+  "document_name": "Physics - Undergraduate Level Assessment 24",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_24.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_24_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In the diamond structure of elemental carbon, the nearest neighbors of each C atom lie at\nthe corners of a",
+      "options": {
+        "A": "square",
+        "B": "hexagon",
+        "C": "cube",
+        "D": "tetrahedron"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the diamond structure of elemental carbon, each carbon atom forms four covalent bonds arranged tetrahedrally, resulting in its nearest neighbors being located at the corners of a tetrahedron.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1379"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_24_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements about bosons and/or fermions is true?",
+      "options": {
+        "A": "Bosons have symmetric wave functions and obey the Pauli exclusion principle.",
+        "B": "Bosons have antisymmetric wave functions and do not obey the Pauli exclusion principle.",
+        "C": "Fermions have symmetric wave functions and obey the Pauli exclusion principle.",
+        "D": "Fermions have antisymmetric wave functions and obey the Pauli exclusion principle."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Fermions are particles with half-integer spin that are characterized by antisymmetric wave functions, which leads to the Pauli exclusion principle stating that no two fermions can occupy the same quantum state simultaneously.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1384"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_24_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is true about any system that undergoes a reversible thermodynamic\nprocess?",
+      "options": {
+        "A": "There are no changes in the internal energy of the system.",
+        "B": "The temperature of the system remains constant during the process.",
+        "C": "The entropy of the system and its environment remains unchanged.",
+        "D": "The entropy of the system and its environment must increase."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a reversible thermodynamic process, the system and its surroundings can be returned to their original states without any net change in entropy, reflecting the principle that entropy is conserved in such idealized processes.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1371"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_24_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "By definition, the electric displacement current through a surface S is proportional to\nthe",
+      "options": {
+        "A": "rate of change of the electric flux through S",
+        "B": "electric flux through S",
+        "C": "time integral of the magnetic flux through S",
+        "D": "rate of change of the magnetic flux through S"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The electric displacement current is defined by Maxwell's equations as the term that accounts for the changing electric field in a dielectric, which directly relates to the rate of change of electric flux through a surface S.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1438"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_24_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "By definition, the electric displacement current through a surface S is proportional to\nthe",
+      "options": {
+        "A": "magnetic flux through S",
+        "B": "rate of change of the magnetic flux through S",
+        "C": "time integral of the magnetic flux through S",
+        "D": "rate of change of the electric flux through S"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The electric displacement current is defined by Maxwell's equations as the term that accounts for the changing electric field in a dielectric, which directly relates to the rate of change of electric flux through a surface S.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1405"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_24_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "In the observer's reference frame, it takes 2.5 ns for a meter stick moving at 0.8 c to pass the observer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, in the observer's reference frame, the time it takes for a meter stick moving at 0.8c to pass by is calculated using the relativistic formula for time dilation, which shows that the stick's length contracts, allowing it to pass in 2.5 ns as observed.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_24_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The angular magnification of the telescope is 5, which is calculated using the separation distance of the lenses.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a telescope is determined by the ratio of the focal lengths of the objective and eyepiece lenses, not by the separation distance of the lenses.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15626"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_24_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "An electron in the l = 2 state can have only three allowed values of the magnetic quantum number m_l.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because for the angular momentum quantum number l = 2, the magnetic quantum number m_l can take on five allowed values: -2, -1, 0, +1, and +2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1432"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_24_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The sign of the charge carriers in a doped semiconductor can be determined by measuring the Hall coefficient.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Hall coefficient indicates the type of charge carriers (positive or negative) in a doped semiconductor by revealing the direction of the induced voltage in a magnetic field, which is dependent on the sign of the charge carriers.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_24_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "According to BCS theory, the attraction between Cooper pairs in a superconductor is due to the weak nuclear force.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The attraction between Cooper pairs in a superconductor is primarily due to phonon-mediated interactions rather than the weak nuclear force.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1434"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_24_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the conditions under which a beam of electrons can diffract when interacting with\na crystal surface, and analyze the approximate kinetic energy required to observe the\nresulting scattering pattern.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A beam of electrons can diffract when interacting with a crystal surface under specific\nconditions, primarily related to the wavelength of the electrons and the lattice spacing\nof the crystal. For diffraction to occur, the de Broglie wavelength of the electrons must\nbe comparable to the interatomic distances within the crystal, which typically range from\n1 to 3 \u00c5. To achieve this condition, electrons need to have a kinetic energy of\napproximately 10 eV, as this energy corresponds to a wavelength on the order of a few\nangstroms. At this energy, the electrons possess sufficient momentum to interact with the\ncrystal lattice and produce observable scattering patterns, revealing information about\nthe crystal structure. Thus, both the energy of the electrons and the properties of the\ncrystal are critical for electron diffraction phenomena.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the crucial relationship between the de Broglie wavelength of electrons and the lattice spacing of the crystal, establishing that a kinetic energy of about 10 eV allows the electrons' wavelength to match the scale necessary for diffraction to occur.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1411"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_24_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process and calculations involved in determining the final voltage across a\ncharged capacitor when two initially uncharged capacitors are connected in series to it.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the final voltage across a charged capacitor when two initially uncharged\ncapacitors are connected in series, we start by considering the initial conditions. Assume\nwe have a charged capacitor with voltage \\( V_0 \\) and two uncharged capacitors, each with\ncapacitance \\( C \\). When connected in series, the total capacitance \\( C_{total} \\) is\ngiven by \\( \\frac{1}{C_{total}} = \\frac{1}{C} + \\frac{1}{C} \\), resulting in \\( C_{total}\n= \\frac{C}{2} \\). The charge \\( Q \\) on the charged capacitor remains constant and is\nequal to \\( Q = C_{total} V_{final} \\). By applying conservation of charge and the\nrelations of voltage, we find that the final voltage across the series connection is \\(\nV_{final} = \\frac{2 V_0}{3} \\), illustrating how the voltage divides among the capacitors\nin series.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formula for total capacitance in a series circuit, calculates the resulting charge distribution, and demonstrates how the initial voltage across the charged capacitor affects the final voltage across the combined capacitors.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1375"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

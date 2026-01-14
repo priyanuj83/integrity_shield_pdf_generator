@@ -1,0 +1,291 @@
+{
+  "docid": "history_k-12_doc_03",
+  "document_name": "History - K-12 Level Assessment 3",
+  "domain": "history",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_european_history",
+    "high_school_us_history",
+    "high_school_world_history",
+    "prehistory"
+  ],
+  "combination_used": [
+    "mmlu_history_mcq",
+    "mmlu_history_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\history\\k-12\\latex_documents\\history_k-12_doc_03.tex",
+    "pdf_file": "output\\history\\k-12\\pdf_documents\\history_k-12_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/history_k-12_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/history_k-12_doc_03_gold.json",
+    "answer_key_latex_file": "output\\history\\k-12\\answer_keys\\latex\\history_k-12_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\history\\k-12\\answer_keys\\pdf\\history_k-12_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "history_k-12_doc_03_history_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "At its height, only about _______ of the Incan empire was composed of ethnic Inca.",
+      "options": {
+        "A": "1 percent",
+        "B": "10 percent",
+        "C": "30 percent",
+        "D": "50 percent"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 percent because the Incan empire was vast and included numerous diverse ethnic groups, with the ethnic Inca making up a very small portion of the overall population.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10302"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "history_k-12_doc_03_history_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "When the Spanish explorer Hernando de Soto crossed a portion of the North American\ncontinent, his expedition encountered direct descendants of which people?",
+      "options": {
+        "A": "Mississippian",
+        "B": "Adena",
+        "C": "Ancestral Puebloan",
+        "D": "Kwakiutl"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is Mississippian because Hernando de Soto's expedition in the 1540s encountered various Native American groups that were direct descendants of the Mississippian culture, known for their advanced agricultural practices and mound-building societies in the southeastern United States.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10123"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "history_k-12_doc_03_history_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The Chimu civilization was one of the ___________ kingdoms of the ancient New World.",
+      "options": {
+        "A": "richest",
+        "B": "strongest",
+        "C": "largest",
+        "D": "highest"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Chimu civilization was one of the largest kingdoms in the ancient New World due to its extensive territory, significant population, and advanced cultural and economic achievements.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10312"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "history_k-12_doc_03_history_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What culture used hide boats and spread across the Arctic, from Alaska to Greenland\nbeginning about 700 years ago, in a third wave of migration from the Old World into the\nNew?",
+      "options": {
+        "A": "Paleo-Eskimos",
+        "B": "Dorset",
+        "C": "Thule",
+        "D": "Clovis"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Thule culture, known for its advanced hunting technology including hide boats, migrated across the Arctic regions from Alaska to Greenland around 700 years ago, marking a significant third wave of migration from the Old World into the New.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10218"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "history_k-12_doc_03_history_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "When did Aborigines occupy the harsh interior of Australia?",
+      "options": {
+        "A": "10,000-12,000 years ago",
+        "B": "20,000-25,000 years ago",
+        "C": "35,000-40,000 years ago",
+        "D": "40,000-45,000 years ago"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on archaeological evidence that suggests Aboriginal Australians have inhabited the harsh interior of Australia for approximately 20,000 to 25,000 years, showcasing their long-standing adaptation to diverse and challenging environments.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10074"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "history_k-12_doc_03_history_tf_1",
+      "question_type": "TF",
+      "stem_text": "The climate change during this period forced human populations to wear clothing to survive the cold weather.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because early humans developed clothing for protection from environmental factors and to enhance survival, not specifically due to climate change during a particular period.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10210"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "history_k-12_doc_03_history_tf_2",
+      "question_type": "TF",
+      "stem_text": "Urbanization refers to the process of developing cities and does not involve social hierarchies among individuals.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Urbanization involves not only the development of cities but also the establishment of social hierarchies, as population density and economic opportunities can lead to stratification among individuals and groups.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10043"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "history_k-12_doc_03_history_tf_3",
+      "question_type": "TF",
+      "stem_text": "The walls of the central complex of Great Zimbabwe were built using over 1 million granite bricks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because archaeological evidence shows that the walls of the central complex of Great Zimbabwe were constructed from more than a million carefully cut granite blocks, showcasing the advanced engineering and construction techniques of the civilization.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10335"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "history_k-12_doc_03_history_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Moche constructed an enormous walled-in precinct of elite residences at the heart of their urban center.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Moche civilization did not construct a large walled-in precinct of elite residences but instead built urban centers that featured a mix of elite and non-elite structures without the extensive fortifications typical of other ancient cultures.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10177"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "history_k-12_doc_03_history_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Nazca geoglyphs are believed to represent ceremonial pathways and effigies of spirits and gods.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Nazca geoglyphs, vast designs etched into the desert floor of Peru, are thought to have had ceremonial significance, possibly serving as pathways for rituals or representations of deities and spirits, reflecting the cultural beliefs of the Nazca civilization.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10188"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "history_k-12_doc_03_history_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the characteristics and significance of periods in Earth's history that were\nmarked by extensive ice and snow cover, known as glacials, and their impact on the\nenvironment and human societies.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Periods in Earth's history marked by extensive ice and snow cover, known as glacials, are\nsignificant for both the environment and human societies. These glacials, such as the Last\nGlacial Maximum, shaped the planet's landscape by carving out valleys, creating lakes, and\ninfluencing sea levels. The colder temperatures had a profound impact on ecosystems,\nleading to shifts in animal and plant life as species adapted to survive in harsh\nconditions. For human societies, glacials affected migration patterns, as people followed\nherds of animals that adapted to the cold. Overall, glacials played a crucial role in\nshaping the Earth's climate and the development of early human civilizations.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively addresses the characteristics of glacials, their geological and ecological impacts, and their influence on human migration and societal development during periods of extensive ice and snow cover.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "10214"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "history_k-12_doc_03_history_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors that contributed to the Inca's military expansion across South America\naround 1450 A.D., and analyze its impact on the region's cultures and societies.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Around 1450 A.D., the Inca Empire expanded its military influence across South America due\nto several key factors. First, the Incas had a highly organized and disciplined army,\nwhich allowed them to conquer neighboring tribes efficiently. Additionally, the Incas\nemployed strategies such as diplomacy and alliances, often integrating conquered peoples\ninto their society rather than simply subjugating them. This military expansion\nsignificantly impacted the region's cultures and societies by promoting the spread of Inca\ninnovations, such as their road systems and agricultural techniques, while also leading to\na blending of local customs with Inca traditions. Ultimately, the Inca expansion helped to\nunify diverse groups under a single empire, which facilitated trade and communication\nacross vast distances.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the Inca's organized military structure and diplomatic strategies as crucial factors in their expansion, while also noting the significant cultural and societal impacts of this expansion on the region.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "10279"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

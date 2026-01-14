@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_19",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The GCD of 25 and 55 is actually 5, as it is the largest positive integer that divides both numbers without leaving a remainder, but the answer 275 is incorrect; thus, the given answer does not reflect the correct application of the Euclidean algorithm or prime factorization for calculating the GCD.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8907
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The area of a triangle can be calculated using the formula \\(A = \\frac{abc}{4R}\\), where \\(a\\), \\(b\\), and \\(c\\) are the sides of the triangle and \\(R\\) is the circumradius, which can be derived from the altitudes; thus, using the given altitudes of 10, 12, and 15, we find the area to be \\(240\\sqrt{7}/7\\) through the appropriate relationships between the sides and altitudes.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8603
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The cube root of $x = 2^{15} \\cdot 3^6$ is $x^{1/3} = 2^{15/3} \\cdot 3^{6/3} = 2^5 \\cdot 3^2 = 32 \\cdot 9 = 288$, and since 125 is $5^3$, the question likely involves a misunderstanding, as the cube root of $x$ should yield 288 instead of 125; thus, the provided answer does not match the cube root of the original expression.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8168
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "E",
+      "marks": 2,
+      "explanation": "The dimensions 30 inches by 57 inches maintain the ratio of 10 to 19, as 30/57 simplifies to 10/19, confirming that they are proportional according to the specified ratio for the American flag.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8794
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The Lebesgue measure of the set E corresponds to the area of the region defined by the conditions sin(x) < 1/2 and the irrationality of cos(x+y), leading to the measure of E being calculated as the area of the applicable region in the unit square, which evaluates to 0.7853981634.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8523
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Taylor Series for \\( f(x) = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!} \\), which is the series expansion for \\( e^x \\), converges absolutely for all \\( x \\) in the real numbers, including \\( x = 5 \\), making the statement false.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8833
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the integral involves a singularity at z = 0, which lies inside the contour defined by |z - 2| = 1, making the integral's evaluation not equal to 1.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7758
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A standard deviation of zero indicates that all data points in the sample are identical, meaning there can be no outliers and therefore no skewness in the distribution.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7910
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the function f(x, y) = x^3 + y^3 + 3xy has a single critical point at (0,0), which is a saddle point, indicating that it does not have any local minima at distinct points P and Q.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8916
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the probability that a random integer from any set is divisible by 9 must be calculated based on the total number of integers in the set and their divisibility by 9, which does not yield a probability of 0.1005.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7870
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To analyze the waiting times for 100,000 out of 150,000 riders on a new roller coaster\nride, we refer to the normal distribution characterized by a mean of 35 minutes and a\nstandard deviation of 10 minutes. By calculating the 66.67 th percentile of this\ndistribution, which corresponds to the waiting times for approximately 100,000 riders, we\nfind the time interval to be between 25.3 and 44.7 minutes. This interval indicates that a\nsignificant majority of riders can expect to wait within this range, highlighting the\ndistribution's role in understanding rider experience. Such statistical insights are\ncrucial for park management to optimize operational efficiency and enhance customer\nsatisfaction by setting realistic expectations regarding wait times.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the 66.67th percentile of a normally distributed waiting time using the provided mean and standard deviation, thereby establishing that 100,000 out of 150,000 riders are expected to wait within the calculated interval of 25.3 to 44.7 minutes, which reflects the characteristics of normal distribution and its implications for rider experience.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8662
+    },
+    {
+      "question_id": "mathematics_graduate_doc_19_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To analyze the probability that a point selected uniformly within the cube bounded by \\(-1\n\\leq x, y, z \\leq 1\\) lies within the unit sphere defined by \\(x^2 + y^2 + z^2 \\leq 1\\),\nwe first calculate the volumes of both the cube and the sphere. The volume of the cube is\n\\(V_{\\text{cube}} = (2)^3 = 8\\), while the volume of the unit sphere is\n\\(V_{\\text{sphere}} = \\frac{4}{3} \\pi (1)^3 = \\frac{4\\pi}{3}\\). The probability \\(P\\) is\nthen given by the ratio of the sphere's volume to the cube's volume, \\(P =\n\\frac{V_{\\text{sphere}}}{V_{\\text{cube}}} = \\frac{\\frac{4\\pi}{3}}{8} = \\frac{\\pi}{6}\\).\nThus, the correct probability that the point lies within the unit sphere is\n\\(\\frac{\\pi}{6}\\). This analysis highlights the geometric relationship between the\nenclosed volumes and the principles of probability in a three-dimensional space.",
+      "marks": 10,
+      "explanation": "correct because it accurately computes the volumes of the cube and the unit sphere and uses the ratio of these volumes to determine the probability that a point randomly selected within the cube also lies within the sphere, illustrating the relationship between geometric shapes and probability in a uniform distribution context.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8919
+    }
+  ]
+}

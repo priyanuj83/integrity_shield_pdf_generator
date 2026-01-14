@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_15",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is Modification Detection Code (MDC) because a hash function generates a unique digest that serves to verify the integrity of data by detecting any alterations made to the original content.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Whitebox fuzzers have access to the program's internal structure and logic, enabling them to systematically explore all code paths and ensure comprehensive coverage, making them more effective than other styles in achieving line coverage.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1471
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Deep Web refers to all parts of the internet that are not indexed by traditional search engines, including databases, private content, and other resources, making it inaccessible for standard search queries.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15632
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "SHA-1 produces a hash value that is 160 bits long, which is a fundamental characteristic of the SHA-1 hashing algorithm used in cryptography.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15628
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Mutation-based fuzzing is characterized by its method of creating new test inputs through systematic alterations of existing inputs, thereby allowing it to explore variations that may uncover vulnerabilities in software.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1525
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A proxy firewall operates at the application layer of the OSI model, rather than the physical layer, by intercepting and filtering traffic between clients and servers based on application-level protocols.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1528
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In message confidentiality, the transmitted message is meant to be unintelligible to unauthorized parties, including potential interceptors, meaning it does not need to be comprehensible to the translator if they lack the proper decryption key.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "BurpSuite is primarily designed for web application security testing, specifically for identifying vulnerabilities in web applications, rather than for monitoring and analyzing wireless traffic.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message nonrepudiation is achieved through mechanisms such as digital signatures, which provide proof of the origin and integrity of a message, thereby preventing the sender from denying their involvement in sending it.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1527
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message integrity is achieved through cryptographic techniques that verify that data has not been altered during transmission, confirming that it is received exactly as it was sent.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1542
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_Pairs(arr,n): | return sum",
+      "marks": 10,
+      "explanation": "correct because it outlines a function that is intended to compute the sum of absolute differences for all pairs in the given array, which is a fundamental operation in many cybersecurity algorithms for analyzing data variability and ensuring data integrity.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 144
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_15_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def sum_nums(x, y,m,n): | return 20 | return sum_nums",
+      "marks": 10,
+      "explanation": "The provided function correctly defines a method that adds two integers, but it lacks the necessary logic to check if the sum falls within the specified range and return 20 accordingly, thus failing to meet the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 675
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_undergraduate_doc_21",
+  "document_name": "Computer Science - Undergraduate Level Assessment 21",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_21.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_21.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_21_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_21_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_21_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_21_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, which of the following operator in python performs exponential (power)\ncalculation on operands?",
+      "options": {
+        "A": "**",
+        "B": "//",
+        "C": "is",
+        "D": "not in"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the double asterisk operator (**) is specifically designated for performing exponentiation, allowing for the calculation of a number raised to the power of another number.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following has the greatest potential for compromising a user's personal\nprivacy?",
+      "options": {
+        "A": "A group of cookies stored by the user's Web browser",
+        "B": "The Internet Protocol (IP) address of the user's computer",
+        "C": "The user's e-mail address",
+        "D": "The user's public key used for encryption"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A group of cookies stored by the user's Web browser can track and store a wide range of personal data, including browsing history and preferences, which can be accessed by third parties, thereby significantly compromising the user's personal privacy.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3267"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A starvation-free job-scheduling policy guarantees that no job waits indefinitely for\nservice. Which of the following job-scheduling policies is starvation-free?",
+      "options": {
+        "A": "Round-robin",
+        "B": "Priority queuing",
+        "C": "Shortest job first",
+        "D": "Youngest job first"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The round-robin scheduling policy is starvation-free because it allocates a fixed time slice to each job in a cyclic order, ensuring that all jobs receive regular service and preventing any job from waiting indefinitely.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1079"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the hexadecimal representation of the decimal number 231_{10} ?",
+      "options": {
+        "A": "17_{16}",
+        "B": "E 4_{16}",
+        "C": "E 7_{16}",
+        "D": "F 4_{16}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it breaks down to 14 (E) in the 16's place and 7 in the 1's place, which together form E7.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is min(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1 because the min() function in Python 3 returns the smallest element from an iterable, and in the list l = [1, 2, 3, 4], the smallest value is 1.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The set of Boolean operators {AND, OR} is not complete for representing all Boolean expressions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The set of Boolean operators {AND, OR} is not complete because it lacks the ability to express negation, which is essential for representing all possible Boolean expressions.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1000"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression x >> 1 with x set to 8 evaluates to 3, indicating a right bitwise shift operation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the expression x >> 1 with x set to 8 evaluates to 4, not 3, as a right bitwise shift by 1 divides the number by 2.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3227"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The maximum possible degree of the minimal-degree interpolating polynomial p(x) for n + 1 distinct points is n + 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible degree of the minimal-degree interpolating polynomial p(x) for n + 1 distinct points is n, as a polynomial of degree n can uniquely interpolate n + 1 points only if the points lie on a polynomial of degree at most n.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1007"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The language {ww | w in (0 + 1)*} is context-free and can be accepted by a pushdown automaton.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The language {ww | w in (0 + 1)*} is not context-free because it requires the ability to compare two potentially unbounded segments of a string for equality, which cannot be accomplished using a pushdown automaton that has only a single stack.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1013"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The values of local variables are typically included in a subroutine's activation record frame for a stack-based programming language.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Local variables are typically stored on the stack and are not included in the activation record frame, which primarily contains information such as return addresses, parameters, and saved registers.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1030"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function for computing square roots using the babylonian method.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def babylonian_squareroot(number): | return 0; | return g;",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need for a function that computes square roots using the Babylonian method, although it lacks the necessary iterative calculation steps and initialization of the variable 'g' to approximate the square root.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "246"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_21_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the longest common prefix in the given set of strings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def common_prefix_util(str1, str2): | return (result) | def common_prefix (arr, n): | return (prefix)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly outlines the structure of a function that utilizes a helper function to compare pairs of strings and extract the longest common prefix from an array of strings, which is essential for solving the problem effectively.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "181"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "document_id": "physics_undergraduate_doc_25",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is derived from the relationship between total energy, rest energy, and relativistic momentum in special relativity, where if the total energy \\(E\\) is twice the rest energy \\(E_0 = mc^2\\), the momentum \\(p\\) can be calculated using the equation \\(E^2 = (pc)^2 + (m c^2)^2\\), leading to \\(p = \\sqrt{E^2 - (m c^2)^2}/c\\), which simplifies to \\(p = \\sqrt{3}mc\\) when \\(E = 2E_0\\).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1378
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "De Broglie's hypothesis states that the wavelength of a particle is inversely proportional to its momentum, and this relationship is expressed mathematically using Planck's constant as the proportionality factor.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1377
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is based on Kepler's Third Law of planetary motion, which states that the square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit, leading to the conclusion that the time required for one revolution is proportional to R^(3/2).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1470
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The angular magnification of a refracting telescope is given by the ratio of the focal lengths of the objective lens to the eyepiece lens, and with the objective lens having a focal length of 80 cm (derived from the separation of the lenses minus the eyepiece focal length), the magnification is 80 cm / 20 cm = 4.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 15623
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Doubling the voltage across a resistor increases the current through it by a factor of two, and since power dissipation (P) is given by the formula P = V^2/R, the new power will be four times the original (P = (2V)^2/R = 4V^2/R), resulting in a new rate of energy dissipation of 4 W.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1409
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In a reversible thermodynamic process, the system remains in equilibrium at all stages, leading to infinitesimally small changes in internal energy, which means it does not change significantly.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1428
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Electromagnetic radiation emitted from a nucleus is primarily in the form of gamma rays rather than visible light, as gamma radiation has much higher energy and shorter wavelengths than visible light.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1430
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The speed of light in a medium is given by the equation \\( v = \\frac{c}{\\sqrt{\\epsilon_r}} \\), where \\( c \\) is the speed of light in a vacuum and \\( \\epsilon_r \\) is the dielectric constant; for a dielectric constant of 4.0, this results in a speed of \\( v = \\frac{3.0 \\times 10^8 \\text{ m/s}}{\\sqrt{4}} = 1.5 \\times 10^8 \\text{ m/s} \\).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1407
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Hall coefficient is directly related to the type of charge carriers in a material, with a positive value indicating the presence of holes (positive charge carriers) and a negative value indicating electrons (negative charge carriers) in a doped semiconductor.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1381
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The negative muon, mu^-, is a charged lepton like the electron and shares similar properties such as charge and spin, although it has a greater mass.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1406
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_long_1",
+      "type": "long",
+      "correct_answer": "The emission spectra of the doubly ionized lithium atom (Li++) and hydrogen exhibit\nsimilarities due to their reliance on the same fundamental principles of quantum\nmechanics, specifically the energy levels governed by the Rydberg formula. Both systems\nare hydrogen-like, meaning they have a single electron orbiting a nucleus, which leads to\ndiscrete emission lines corresponding to electronic transitions. However, the wavelengths\nof the emission lines for Li++ are decreased by a factor of 9 compared to those of\nhydrogen. This reduction is fundamentally attributed to the difference in nuclear charge;\nLi++ has a nuclear charge of +3, leading to stronger Coulombic attraction between the\nnucleus and the electron. Consequently, the higher effective nuclear charge results in\nmore tightly bound electron states, thus shortening the wavelengths of emitted photons in\nthe spectrum.",
+      "marks": 10,
+      "explanation": "correct because both Li++ and hydrogen have a single electron in a hydrogen-like system, leading to similar emission spectra based on the Rydberg formula, but the wavelengths for Li++ are shorter due to its greater nuclear charge, resulting in increased energy level spacing.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1453
+    },
+    {
+      "question_id": "physics_undergraduate_doc_25_physics_long_2",
+      "type": "long",
+      "correct_answer": "When a light beam enters a tube of water moving at 1/2 c (where c is the speed of light)\nrelative to the lab frame, the speed of light inside the water can be affected by the\nindex of refraction. The index of refraction for water is approximately 1.33, which means\nthat the speed of light in water is c/n, or about 0.75 c. However, to find the speed of\nthe light beam relative to the lab frame, we must use the relativistic velocity addition\nformula. Applying this formula, we find that the speed of the light beam relative to the\nlab frame is approximately 10/11 c. This result illustrates the fascinating interplay\nbetween the speed of light, the motion of the medium, and relativistic effects.",
+      "marks": 10,
+      "explanation": "correct because it recognizes that the speed of light in the moving tube is modified by the index of refraction and requires the application of the relativistic velocity addition formula to determine the light beam's speed relative to the lab frame.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1417
+    }
+  ]
+}

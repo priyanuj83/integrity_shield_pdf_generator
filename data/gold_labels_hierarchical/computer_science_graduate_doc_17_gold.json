@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_graduate_doc_17",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Wireless Traffic Sniffing is the correct answer because it involves capturing and analyzing wireless data packets transmitted over a network, which is essential for identifying issues or gathering evidence in forensic investigations.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14212
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the Luby-Rackoff theorem, which demonstrates that a secure pseudorandom generator (PRG) can be transformed into a secure pseudorandom permutation (PRP) by using a pseudorandom function (PRF) like the GGM construction, ensuring that the output remains indistinguishable from random.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 14208
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because authentication methods encompass a variety of techniques, including passwords, biometrics, and security tokens, all of which are valid forms of verifying a user's identity.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1505
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Base Transceiver Station (BTS) functions similarly to an Access Point (AP) in that both serve as critical components in wireless communication networks, facilitating signal coverage and connectivity for mobile devices.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1550
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The symbol table is a critical data structure in a compiler that stores information about variables, including their names, types, scopes, and attributes, enabling efficient management and access during the compilation process.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1022
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Silk Road was indeed a prominent online marketplace on the Dark Web that facilitated the anonymous sale of illegal drugs and other illicit goods, operating primarily through cryptocurrencies to ensure user privacy.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1495
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because replacing the page with the next reference that will occur the farthest in the future does not account for the varying access patterns and can lead to suboptimal decisions in certain scenarios, resulting in more page faults.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14149
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Unauthorized network access is primarily associated with vulnerabilities at the application and network layers, rather than the transport layer, which is responsible for end-to-end communication and does not inherently deal with access control mechanisms.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer-overrun occurs when a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite adjacent memory and execute arbitrary code, thereby compromising system security or functionality.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1476
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "IM Trojans are indeed malicious programs that specifically target instant messaging applications to surreptitiously capture and transmit users' login credentials and passwords for malicious purposes.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1523
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def sum_of_digits(nums): | return sum(int(el) for n in nums for el in str(n) if el.isdigit())",
+      "marks": 10,
+      "explanation": "The provided function correctly computes the sum of digits for each number in the list by converting each number to a string, iterating through each character, checking if it is a digit, converting it back to an integer, and summing these values using a generator expression.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 398
+    },
+    {
+      "question_id": "computer_science_graduate_doc_17_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def check_alphanumeric(string): | return (\"Accept\") | return (\"Discard\")",
+      "marks": 10,
+      "explanation": "The provided answer is correct as it outlines a function that presumably uses regex to determine if the input string ends with alphanumeric characters, although it lacks the actual implementation of the regex logic.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 860
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_11",
+  "document_name": "Mathematics - K-12 Level Assessment 11",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_11.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_11_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Use a number line to find the sum of -9 + (-8).",
+      "options": {
+        "A": "-17",
+        "B": "1",
+        "C": "-1",
+        "D": "17"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of -9 and -8 is -17 because when adding two negative numbers, their absolute values are summed and the result retains the negative sign.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2146"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Jonathan obtained a score of 80 on a statistics exam, placing him at the 90 th percentile.\nSuppose five points are added to everyone's score. Jonathan's new score will be at the",
+      "options": {
+        "A": "80 th percentile.",
+        "B": "85 th percentile.",
+        "C": "90 th percentile.",
+        "D": "95 th percentile."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adding five points to everyone's score maintains the relative ranking of the scores, so Jonathan's position at the 90th percentile remains unchanged.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "14641"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find the volume of the solid generated when the region bounded by the y-axis, y = e^x, and\ny = 2 is rotated around the y-axis.",
+      "options": {
+        "A": "0.296",
+        "B": "0.592",
+        "C": "2.427",
+        "D": "3.998"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from applying the method of cylindrical shells to find the volume of the solid formed by rotating the area between the curves y = e^x and y = 2 around the y-axis, resulting in a calculated volume of approximately 0.592.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4455"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "How many positive cubes divide $3!\\cdot 5!\\cdot 7!\\,$?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "3",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number of positive cubes that divide \\(3! \\cdot 5! \\cdot 7!\\) is determined by finding the prime factorization of the product and calculating how many times each prime's exponent can be divided by 3, leading to a total of 6 combinations.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "14524"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_11_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Two whole numbers have a least common multiple of 60. Each number is less than or equal to\n12. The greatest common factor of the two numbersis 2. What are the two numbers?",
+      "options": {
+        "A": "6 and 10",
+        "B": "5 and 12",
+        "C": "10 and 12",
+        "D": "12 and 15"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The numbers 10 and 12 have a least common multiple of 60 and a greatest common factor of 2, satisfying the conditions given in the problem.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2128"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The upper critical value of z for a 94% confidence interval is 1.88.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The upper critical value of z for a 94% confidence interval is 1.88 because it corresponds to the z-score that captures the upper 3% of the standard normal distribution, leaving 94% in the center.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5463"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The difference in elevation between Talon Bluff and Salt Flats is 565 feet.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the actual difference in elevation between Talon Bluff and Salt Flats is not 565 feet, indicating a discrepancy in the provided elevation measurement.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2219"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "-3 is greater than -5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because in the number line, -3 is to the right of -5, indicating that -3 is actually greater than -5.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2395"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The solution to the equation 3/2 * w = 66 is w = 44.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when you solve the equation 3/2 * w = 66 by multiplying both sides by 2/3, you find that w equals 44.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "14269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_11_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The simplified expression of (9 x^9+7 x^8+4 x^7) + (x^{11}+x^9+2 x^7+3 x^3+5 x+8) is x^{11}+10 x^9+7 x^8+6 x^7+3 x^3+5 x+8.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because when combining like terms from the two polynomials, the coefficients of the terms with the same degree correctly add up to yield the simplified expression of x^{11}+10 x^9+7 x^8+6 x^7+3 x^3+5 x+8.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4370"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_11_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of residuals in regression analysis. Why is it significant that the\nmean of the residuals is always zero, and how does this impact the accuracy of the\nregression model?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In regression analysis, residuals are the differences between the observed values and the\nvalues predicted by the regression model. The significance of the mean of the residuals\nbeing always zero lies in the fact that it indicates the model is unbiased; it neither\nconsistently overestimates nor underestimates the values. This property helps ensure that\nthe predictions are centered around the actual data points, which impacts the accuracy of\nthe regression model. When the residuals average to zero, it suggests that the model\neffectively captures the underlying trend of the data, leading to more reliable\npredictions. Therefore, understanding residuals and their mean is crucial in evaluating\nthe performance of a regression model.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes residuals as the differences between observed and predicted values, emphasizes the significance of their mean being zero in indicating an unbiased model, and explains how this characteristic contributes to the overall accuracy of the regression analysis.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "5579"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_11_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "In the first quadrant, analyze the polar curve r = sin 3\u03b8 to determine the angle \u03b8 at\nwhich the curve has a vertical tangent. Explain your reasoning and calculations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the angle \u03b8 at which the polar curve r = sin 3\u03b8 has a vertical tangent, we\nfirst need to find the derivative of the polar function with respect to \u03b8. The vertical\ntangent occurs when the derivative dr/d\u03b8 is zero while r is not. By differentiating r =\nsin 3\u03b8, we get dr/d\u03b8 = 3 cos 3\u03b8. To find the vertical tangent, we set 3 cos 3\u03b8 = 0, which\ngives us cos 3\u03b8 = 0. This occurs at angles of 3\u03b8 = \u03c0/2 + k\u03c0 for integers k. Solving for \u03b8\nin the first quadrant, we find \u03b8 = \u03c0/6, which simplifies to approximately 0.47 radians.\nThus, the angle \u03b8 at which the curve has a vertical tangent is approximately 0.47 radians.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies that a vertical tangent occurs when the derivative dr/d\u03b8 equals zero, and by differentiating the polar function and solving for the angles where cos 3\u03b8 equals zero, it correctly finds the angle \u03b8 = \u03c0/6 in the first quadrant.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4473"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

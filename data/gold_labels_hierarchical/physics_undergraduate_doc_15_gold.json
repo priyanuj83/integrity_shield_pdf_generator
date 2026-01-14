@@ -1,0 +1,125 @@
+{
+  "document_id": "physics_undergraduate_doc_15",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "De Broglie's hypothesis states that the wavelength of a particle is inversely proportional to its momentum, and this relationship is quantified by Planck's constant, which serves as the proportionality factor in the equation \u03bb = h/p.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1377
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The resolving power of a spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, the difference between 500 nm and 502 nm is 2 nm, leading to a resolving power of 500 nm / 2 nm = 250.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1419
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The angular magnification of a refracting telescope is given by the formula \\( M = \\frac{f_{\\text{objective}}}{f_{\\text{eyepiece}}} \\), and since the focal length of the objective lens is not specified but can be determined from the total separation and the known eyepiece focal length, it results in a magnification of 4 when calculated.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 15623
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The resolving power of a spectrometer is defined as the ratio of the wavelength to the minimum difference in wavelength that can be resolved, and in this case, the difference between 500 nm and 502 nm is 2 nm, leading to a resolving power of 500 nm / 2 nm = 250.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 14194
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 0.60 c because, according to the principles of special relativity, length contraction occurs at a factor of \u221a(1 - v\u00b2/c\u00b2), and solving for v when the contracted length is 0.80 m reveals that the observer must move at 0.60 times the speed of light (c) to achieve this measurement.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1396
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the emission spectrum of Li++ is influenced by its greater nuclear charge (Z=3) compared to hydrogen (Z=1), leading to energy levels that are scaled by a factor of Z\u00b2, resulting in wavelengths that are decreased by a factor of 9 (3\u00b2) compared to those of hydrogen.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1453
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the ionization energy of a helium atom, which refers to the energy needed to remove one electron from a neutral helium atom, is indeed measured at approximately 24.6 eV.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1436
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, due to the effects of length contraction in special relativity, the proper length of the meter stick moving at 0.8c would be shorter than 1 meter in the observer's frame, resulting in a time to pass that is less than 1.6 ns.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1387
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Hall coefficient indicates the type of charge carriers in a doped semiconductor\u2014positive for holes and negative for electrons\u2014allowing determination of their sign based on its value.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1381
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The total spin quantum number of the electrons in the ground state of neutral nitrogen is 3/2 because nitrogen has three unpaired electrons in its 2p subshell, each contributing a spin of 1/2, resulting in a total spin of 3/2 when combined.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1374
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_long_1",
+      "type": "long",
+      "correct_answer": "In a quasi-static expansion of an ideal monatomic gas to twice its volume, the work done\nunder isothermal conditions (Wi) is greater than that done under adiabatic conditions\n(Wa). During isothermal expansion, the gas absorbs heat from the surroundings, allowing it\nto perform more work as it maintains a constant temperature. In contrast, during adiabatic\nexpansion, the gas does not exchange heat with its surroundings, leading to a decrease in\ninternal energy and consequently less work being done. Therefore, the relationship between\nthe two work values can be expressed as 0 < Wa < Wi, indicating that while both processes\ninvolve work, the isothermal process allows for greater work output due to the heat\nexchange.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how isothermal expansion allows for heat absorption, enabling greater work output due to constant temperature, while adiabatic expansion restricts heat exchange, resulting in reduced work due to internal energy loss.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14197
+    },
+    {
+      "question_id": "physics_undergraduate_doc_15_physics_long_2",
+      "type": "long",
+      "correct_answer": "In a one-dimensional, inelastic collision between a particle of mass 2 m and a stationary\nparticle of mass m, the conservation of momentum can be applied. Initially, the momentum\nof the system is given by the moving particle: \\( p_{\\text{initial}} = 2 mv \\). After the\ncollision, both particles move together with a common velocity \\( V \\). Using the\nconservation of momentum, we find that \\( 2 mv = (2 m + m)V \\), leading to \\( V =\n\\frac{2}{3}v \\). To analyze the kinetic energy, the initial kinetic energy is \\(\nKE_{\\text{initial}} = \\frac{1}{2}(2 m)v^2 = mv^2 \\). The final kinetic energy after the\ncollision is \\( KE_{\\text{final}} = \\frac{1}{2}(3 m)V^2 = \\frac{1}{2}(3\nm)\\left(\\frac{2}{3}v\\right)^2 = \\frac{2}{3}mv^2 \\). The kinetic energy lost in the\ncollision is \\( KE_{\\text{lost}} = KE_{\\text{initial}} - KE_{\\text{final}} = mv^2 -\n\\frac{2}{3}mv^2 = \\frac{1}{3}mv^2 \\). Thus, the fraction of initial kinetic energy lost in\nthe collision is \\( \\frac{KE_{\\text{lost}}}{KE_{\\text{initial}}} =\n\\frac{\\frac{1}{3}mv^2}{mv^2} = \\frac{1}{3} \\). This result indicates that one-third of the\ninitial kinetic energy is transformed into other forms of energy",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the conservation of momentum to determine the common velocity after the inelastic collision and calculates the fraction of kinetic energy lost by comparing the initial and final kinetic energies of the system.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1465
+    }
+  ]
+}

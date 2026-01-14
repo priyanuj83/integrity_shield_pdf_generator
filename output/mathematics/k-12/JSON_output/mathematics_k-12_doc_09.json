@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_k-12_doc_09",
+  "document_name": "Mathematics - K-12 Level Assessment 9",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_09.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_09_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_09_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is 836 rounded to the nearest 10?",
+      "options": {
+        "A": "800",
+        "B": "830",
+        "C": "840",
+        "D": "870"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 840 because when rounding to the nearest ten, you look at the digit in the ones place (6 in this case), and since it is 5 or greater, you round up the tens digit from 3 to 4, resulting in 840.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2380"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_09_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A point in space $(x,y,z)$ is randomly selected so that $-1\\le x \\le 1$,$-1\\le y \\le\n1$,$-1\\le z \\le 1$. What is the probability that $x^2+y^2+z^2\\le 1$?",
+      "options": {
+        "A": "\\frac{\\pi}{24}",
+        "B": "\\frac{\\pi}{12}",
+        "C": "\\frac{\\pi}{6}",
+        "D": "\\frac{\\pi}{3}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \\(\\frac{\\pi}{6}\\) because the region defined by \\(x^2+y^2+z^2\\le 1\\) represents a sphere of radius 1, and the volume of this sphere, when compared to the volume of the cube defined by the constraints on \\(x\\), \\(y\\), and \\(z\\), gives the probability as the ratio of the sphere's volume \\(\\frac{4}{3}\\pi\\) to the cube's volume \\(8\\), simplifying to \\(\\frac{\\pi}{6}\\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4345"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_09_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Express $0.1\\overline{7}$ as a common fraction.",
+      "options": {
+        "A": "\\frac{8}{45}",
+        "B": "\\frac{8}{5}",
+        "C": "\\frac{8}{7}",
+        "D": "\\frac{8}{33}"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To convert the repeating decimal $0.1\\overline{7}$ into a fraction, we let $x = 0.1\\overline{7}$, multiply by 10 to shift the decimal, and then subtract the resulting equations to isolate the repeating part, ultimately leading to the fraction $\\frac{8}{45}$ after simplification.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_09_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Express as a common fraction the reciprocal of $0.\\overline 7$.",
+      "options": {
+        "A": "\\frac{7}{2}",
+        "B": "\\frac{7}{9}",
+        "C": "\\frac{9}{2}",
+        "D": "\\frac{9}{7}"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reciprocal of a number is found by dividing 1 by that number, and since \\( 0.\\overline{7} \\) equals \\( \\frac{7}{9} \\), its reciprocal is \\( \\frac{1}{\\frac{7}{9}} = \\frac{9}{7} \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4337"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_09_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the smallest two-digit integer $n$ such that switching its digits and then adding\n3 results in $2 n$?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "96",
+        "D": "102"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The integer 12, when its digits are switched to form 21 and then adding 3 gives 24, which is equal to 2 times 12, satisfying the condition of the problem.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "14527"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_09_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "-4 plus -3 equals -1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because -4 plus -3 equals -7, not -1.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2087"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_09_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The 5 th term in the series, starting with 2 and multiplying by -2 each time, is -16.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The 5th term in the series, which starts with 2 and multiplies by -2 each time, is actually 32, not -16, as the sequence alternates between positive and negative values while doubling in magnitude.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4249"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_09_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The median of the data set 13, 35, 26, 8, 24, 10, 22, 10, 32 is 20.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The median of the data set is actually 22, as the numbers must be arranged in ascending order and the middle value identified, which shows that the statement claiming the median is 20 is incorrect.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2441"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_09_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "A simple random sample is determined by how representative the sample is of the entire population.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A simple random sample is defined by the method of selection, where every individual in the population has an equal chance of being chosen, rather than how representative the sample is of the population.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_09_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "If 7 coins represent 5% of Kate's collection, then her total coin collection is 120 coins.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because if 7 coins represent 5% of Kate's collection, then her total collection is actually 140 coins, not 120.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2438"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_09_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "In how many ways can we form an international commission if we must choose one European\ncountry from among 6 European countries, one Asian country from among 4, one North\nAmerican country from among 3, and one African country from among 7?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "There are six ways in which one European country can be chosen, four in which one Asian\ncountry can be chosen, three in which one North American country can be chosen, and seven\nin which one African country can be chosen. Thus, there are $6 \\cdot 4 \\cdot 3 \\cdot 7 =\n\\boxed{504}$ ways to form the international commission.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it applies the fundamental principle of counting, which states that the total number of combinations can be found by multiplying the number of choices for each category, leading to $6 \\cdot 4 \\cdot 3 \\cdot 7 = 504$ ways to form the international commission.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "8959"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_09_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how increasing the sample size from 200 to 2,000 in a study of geese returning to\nthe same breeding site affects the distribution of the sample proportion. Provide a\ndetailed explanation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Increasing the sample size from 200 to 2,000 in a study of geese returning to the same\nbreeding site will affect the distribution of the sample proportion by making it less\nspread out. This means that the estimates we get from our sample will be more accurate and\ncloser to the true proportion of geese that return to the breeding site. A larger sample\nsize reduces the variability in the results because it provides a better representation of\nthe entire population. As a result, the distribution of the sample proportion becomes\nnarrower, leading to more reliable conclusions about the geese's behavior.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Increasing the sample size reduces variability and narrows the distribution of the sample proportion, leading to more accurate estimates that better reflect the true population parameter.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "5507"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

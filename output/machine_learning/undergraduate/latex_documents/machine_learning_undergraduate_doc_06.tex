@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 6 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Which image data augmentation is most common for natural images?
+\begin{enumerate}[label=(\alph*)]
+    \item random crop and horizontal flip
+    \item random crop and vertical flip
+    \item posterization
+    \item dithering
+\end{enumerate}
+\item As of 2020, which architecture is best for classifying high-resolution images?
+\begin{enumerate}[label=(\alph*)]
+    \item convolutional networks
+    \item graph networks
+    \item fully connected networks
+    \item RBF networks
+\end{enumerate}
+\item Averaging the output of multiple decision trees helps \_.
+\begin{enumerate}[label=(\alph*)]
+    \item Increase bias
+    \item Decrease bias
+    \item Increase variance
+    \item Decrease variance
+\end{enumerate}
+\item In Yann LeCun's cake, the cherry on top is
+\begin{enumerate}[label=(\alph*)]
+    \item reinforcement learning
+    \item self-supervised learning
+    \item unsupervised learning
+    \item supervised learning
+\end{enumerate}
+\item Statement 1| A neural network's convergence depends on the learning rate. Statement 2| Dropout multiplies randomly chosen activation values by zero.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The joint probability P(H, U, P, W) can be expressed as P(H) * P(W) * P(P | W) * P(U | H, P).
+\item True or False: The method used to learn weights, such as matrix inversion or gradient descent, greatly affects the trade-off between underfitting and overfitting.
+\item True or False: As of 2020, some models achieve accuracy greater than 98\% on the CIFAR-10 dataset.
+\item True or False: The variance of the Maximum A Posteriori (MAP) estimate is the same as that of the Maximum Likelihood Estimate (MLE).
+\item True or False: An excessively large step size during training can cause the training loss to increase over time.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a python function to shift last element to first position in the given list.
+\item Write a function to find the maximum sum of bi-tonic sub-sequence for the given array.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

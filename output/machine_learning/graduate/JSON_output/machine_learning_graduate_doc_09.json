@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_graduate_doc_09",
+  "document_name": "Machine Learning - Graduate Level Assessment 9",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_09.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_09.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_09_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_09_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_09_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_09_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sentence is FALSE regarding regression?",
+      "options": {
+        "A": "It relates inputs to outputs.",
+        "B": "It is used for prediction.",
+        "C": "It may be used for interpretation.",
+        "D": "It discovers causal relationships"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because regression analysis identifies correlations between variables but does not establish causation, as it cannot account for confounding factors or the direction of influence.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6870"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which among the following prevents overfitting when we perform bagging?",
+      "options": {
+        "A": "The use of sampling with replacement as the sampling technique",
+        "B": "The use of weak classifiers",
+        "C": "The use of classification algorithms which are not prone to overfitting",
+        "D": "The practice of validation performed on every classifier trained"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The use of weak classifiers in bagging reduces overfitting by averaging their predictions, which helps to mitigate the variance that can arise from complex models while maintaining a strong overall predictive performance.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6894"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Another term for out-of-distribution detection is?",
+      "options": {
+        "A": "anomaly detection",
+        "B": "one-class detection",
+        "C": "train-test mismatch robustness",
+        "D": "background detection"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Anomaly detection refers to the identification of data points that deviate significantly from the norm, which aligns with the concept of out-of-distribution detection, where the goal is to recognize instances that differ from the training data distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6882"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Suppose your model is overfitting. Which of the following is NOT a valid way to try and\nreduce the overfitting?",
+      "options": {
+        "A": "Increase the amount of training data.",
+        "B": "Improve the optimisation algorithm being used for error minimisation.",
+        "C": "Decrease the model complexity.",
+        "D": "Reduce the noise in the training data."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Improving the optimization algorithm primarily affects the convergence speed and efficiency of finding a minimum, but does not directly address the complexity of the model or its tendency to fit noise in the training data, which are the main causes of overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If N is the number of instances in the training dataset, nearest neighbors has a\nclassification run time of",
+      "options": {
+        "A": "O(1)",
+        "B": "O( N )",
+        "C": "O(log N )",
+        "D": "O( N^2 )"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to each of the N instances in the training dataset to determine the closest neighbors for classification.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6885"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Linear Soft margin SVM is exclusively for training data that is linearly separable without any overlaps in the classes.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Linear Soft margin SVM allows for the classification of data that is not perfectly linearly separable by introducing a penalty for misclassification, enabling it to handle overlaps between classes.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6889"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Bayesians advocate for the use of prior distributions on parameters in probabilistic models, while frequentists typically do not.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bayesians incorporate prior distributions to express beliefs about parameters before observing data, while frequentists rely on the data alone for inference, often avoiding the use of priors.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "RoBERTa pretrains on a corpus that is approximately 10 times larger than the corpus used for BERT pretraining.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "RoBERTa enhances BERT's training methodology by utilizing a significantly larger dataset, specifically around 160GB of text data compared to BERT's 16GB, which allows it to learn more robust language representations.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The rank of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The rank of the matrix A is 1 because all its rows are identical and therefore linearly dependent, indicating that it can be reduced to a single row of non-zero values.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6857"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Neural networks can utilize a combination of different activation functions in their architecture.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Neural networks can combine different activation functions in their architecture to leverage the strengths of each function for various layers, enhancing model performance and flexibility in learning complex patterns.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6865"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the index of the last occurrence of a given number in a sorted\narray.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_last_occurrence(A, x): | return result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the essential structure of a function that should implement a search algorithm, such as binary search, to efficiently locate the index of the last occurrence of a specified number in a sorted array.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "316"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_09_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the maximum length of sublist.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def Find_Max_Length(lst): | return maxLength",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function that aims to identify the maximum length of contiguous sublists within the given list, employing the concept of utilizing Python's built-in functions to effectively compute the desired outcome.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "562"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

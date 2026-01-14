@@ -220,6 +220,22 @@ class ConfigManager:
         key = f"{domain}_{level_key}"
         return hierarchical_combinations.get(key, [])
     
+    def get_dataset_override(self, domain: str, level: str, question_type: str) -> Optional[str]:
+        """Get dataset override for a specific domain, level, and question type.
+        
+        Args:
+            domain: The domain name (e.g., "biology")
+            level: The academic level (e.g., "Graduate", "Undergraduate", "K-12")
+            question_type: The question type (e.g., "tf", "mcq", "long")
+        
+        Returns:
+            The dataset name to use, or None if no override is configured.
+        """
+        overrides = self.config['document_generation'].get('dataset_overrides', {})
+        level_key = level.lower()
+        key = f"{domain}_{level_key}_{question_type}"
+        return overrides.get(key)
+    
     def get_hierarchical_mappings(self) -> Dict[str, Dict[str, Any]]:
         """Get all hierarchical subject mappings."""
         mappings = {}
@@ -230,24 +246,33 @@ class ConfigManager:
     
     def get_hierarchical_mapping(self, domain: str, level: str) -> Dict[str, Any]:
         """Get hierarchical mapping for a specific domain and academic level."""
+        # Normalize domain to lowercase for consistent lookup
+        domain = domain.lower()
+        
         # Map level names to abbreviated forms used in config
         level_mapping = {
-            "K-12": "k12",
-            "Undergraduate": "undergrad", 
-            "Graduate": "grad"
+            "k-12": "k12",
+            "undergraduate": "undergrad", 
+            "graduate": "grad"
         }
         
         # Map domain names to abbreviated forms used in config
         domain_mapping = {
             "mathematics": "math",
+            "chemistry": "chemistry",  # Explicitly map (lowercase)
+            "physics": "physics",
+            "biology": "biology",
             "computer_science": "cs",
             "machine_learning": "machine_learning",  # Keep as is
             "political_science": "political_science",  # Keep as is
             "religious_studies": "religious_studies",  # Keep as is
-            "cybersecurity": "cybersecurity"  # Keep as is
+            "cybersecurity": "cybersecurity",  # Keep as is
+            "business_administration": "business",
+            "health_sciences": "health",
+            "constitutional_law": "law"
         }
         
-        level_abbrev = level_mapping.get(level, level.lower())
+        level_abbrev = level_mapping.get(level.lower(), level.lower().replace("-", "_"))
         domain_abbrev = domain_mapping.get(domain, domain)
         
         # Check for AI2-ARC mappings first (for Science domain)
@@ -264,11 +289,85 @@ class ConfigManager:
         mapping = self.get_hierarchical_mapping(domain, level)
         return mapping.get('subjects', [])
     
+    def get_squad_keywords_for_domain(self, domain: str) -> Dict[str, List[str]]:
+        """Get SQuAD keywords for a specific domain.
+        
+        Args:
+            domain: The domain name (e.g., "history", "geography")
+        
+        Returns:
+            Dictionary with 'title_keywords' and 'context_keywords' lists, or empty dict if not found.
+        """
+        # Map domain names to SQuAD mapping keys
+        domain_mapping = {
+            "history": "squad_history",
+            "geography": "squad_geography",
+            "political_science": "squad_political_science",
+            "sociology": "squad_sociology",
+            "economics": "squad_economics",
+            "health_sciences": "squad_health",
+            "business_administration": "squad_business",
+            "philosophy": "squad_philosophy",
+            "religious_studies": "squad_religious_studies"
+        }
+        
+        squad_key = domain_mapping.get(domain.lower())
+        if not squad_key:
+            return {}
+        
+        # Get document generation config - need to go one level deeper to domain_generation
+        doc_gen_config = self.config.get('document_generation', {})
+        domain_gen_config = doc_gen_config.get('domain_generation', {})
+        squad_mapping = domain_gen_config.get(squad_key, {})
+        
+        if not squad_mapping:
+            return {}
+        
+        return {
+            "title_keywords": squad_mapping.get("title_keywords", []),
+            "context_keywords": squad_mapping.get("context_keywords", [])
+        }
+    
+    def get_squad_domains(self) -> List[str]:
+        """Get list of domains that have SQuAD mappings.
+        
+        Returns:
+            List of domain names that support SQuAD.
+        """
+        return [
+            "history",
+            "geography",
+            "political_science",
+            "sociology",
+            "economics",
+            "health_sciences",
+            "business_administration",
+            "philosophy",
+            "religious_studies"
+        ]
+    
     
     def is_pdf_validation_enabled(self) -> bool:
         """Check if PDF validation is enabled."""
         pdf_config = self.get_pdf_generation_config()
         return pdf_config.get('validation_enabled', True)
+    
+    def get_llm_config(self) -> Dict[str, Any]:
+        """Get LLM configuration for MCQ to long-form conversion."""
+        llm_config = self.config.get('llm', {})
+        if not llm_config:
+            # Return default configuration if not specified
+            return {
+                "provider": "openai",
+                "model": "gpt-4o-mini",
+                "temperature": 0.7,
+                "max_tokens": 200,
+                "enable_caching": True,
+                "cache_file": "data/cache/llm_conversions.json",
+                "max_retries": 3,
+                "timeout": 30
+            }
+        return llm_config
 
 
 # Global configuration instance

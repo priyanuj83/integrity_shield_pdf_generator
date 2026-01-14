@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 7 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Lower variance; B) Higher variance; C) Same variance; D) None of the above
+\\ \textit{Note:} As the number of training examples approaches infinity, the model's predictions become more stable and less sensitive to fluctuations in the training data, resulting in lower variance.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) reinforcement learning; B) self-supervised learning; C) unsupervised learning; D) supervised learning
+\\ \textit{Note:} Reinforcement learning is considered the "cherry on top" in Yann LeCun's cake because it represents the pinnacle of machine learning techniques that effectively addresses complex decision-making and learning from interaction with an environment, thus enhancing the capabilities of AI systems.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) O(D); B) O(N); C) O(ND); D) O($ND^2$)
+\\ \textit{Note:} The cost of one gradient descent update is O(D) because updating each parameter involves a simple arithmetic operation based on the gradient vector g, where D represents the number of parameters in the model.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) they are biased; B) they have high variance; C) they are not consistent estimators; D) None of the above
+\\ \textit{Note:} Maximum Likelihood Estimation (MLE) estimates can be highly sensitive to small changes in the data, leading to high variance and less reliable predictions, especially in small sample sizes or complex models.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The correct answer is False, True because while it is true that sigmoids are monotonic functions, RELUs can be considered piecewise linear and are not strictly monotonic, and gradient descent does not guarantee convergence to a global optimum in non-convex optimization problems typically encountered in neural networks.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Highway networks were introduced before ResNets and use learned gating mechanisms rather than max pooling, which distinguishes them from traditional convolutional layers.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The numerical output of a sigmoid node in a neural network is bounded between 0 and 1, not encompassing all real numbers.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Batch Normalization was specifically designed to normalize the inputs of each layer across the mini-batch during training, which was a crucial factor in enhancing the convergence and stability of the original ResNet architecture, whereas Layer Normalization normalizes across the features instead of the batch dimension.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Predicting the amount of rainfall based solely on historical data is a supervised learning problem because it involves using labeled data (historical rainfall amounts) to make predictions about future outcomes.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Dropout randomly sets activation values to zero for a subset of neurons during training, preventing them from contributing to the forward pass and thereby promoting robustness and preventing overfitting.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The ID 3 algorithm is not optimal for decision tree generation, primarily because it utilizes a greedy approach that selects the attribute with the highest information gain at each node without considering future implications. This can lead to suboptimal trees that do not generalize well to unseen data. Additionally, the properties of continuous probability distributions are not adequately addressed by ID 3, as it is designed for categorical data, which limits its applicability in scenarios where continuous variables are prevalent. Consequently, while ID 3 is a foundational algorithm in decision tree learning, its lack of optimality and inability to handle continuous distributions highlight significant limitations that can affect model performance and accuracy in real- world applications.
+\\ \textit{Note:} correct because it emphasizes that the ID 3 algorithm's greedy selection process can result in suboptimal decision trees that fail to generalize to new data, and it also highlights the algorithm's limitation in handling continuous probability distributions, which restricts its effectiveness in diverse data scenarios.
+\item \textbf{Answer:} To modify the EM algorithm for computing Maximum A Posteriori (MAP) estimates in a model with latent variables, one must adjust the E-step and M-step to incorporate prior distributions over the parameters. In the E-step, rather than merely calculating the expected values of the latent variables based on the current parameter estimates, we would compute the posterior distribution of the latent variables given both the observed data and the parameter priors. In the M-step, the maximization step would then not only optimize the likelihood of the observed data but also include the log-prior of the parameters, effectively maximizing the posterior. This adjustment is crucial because MAP estimation aims to find the parameter set that maximizes the posterior distribution, which inherently requires the inclusion of prior information in the optimization process.
+\\ \textit{Note:} correct because it accurately identifies the need to incorporate prior distributions in both the E-step and M-step of the EM algorithm to compute MAP estimates, thereby adjusting the calculations of latent variable expectations and parameter maximization to account for the influence of these priors.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

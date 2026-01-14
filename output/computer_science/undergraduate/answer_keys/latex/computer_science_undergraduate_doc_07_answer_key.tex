@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 7 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [19,21]; B) [11,15]; C) [11,15,19]; D) [13,17,21]
+\\ \textit{Note:} The correct answer is [11,15,19] because the slicing notation b[::2] selects every second element from the list b, starting from index 0.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Bubble sort; B) Insertion sort; C) Merge sort; D) Quicksort
+\\ \textit{Note:} Merge sort is the correct answer because it consistently divides the input array in half and merges the sorted halves, resulting in average-case and worst-case time complexities of O(n log n).
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 0.1; B) 0.2; C) 0.3; D) 0.5
+\\ \textit{Note:} The decimal number 0.5 has an exact representation in binary notation as it can be expressed as 1/2, which corresponds to the binary fraction 0.1.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Abstract Syntax Tree (AST); B) Attribute Grammar; C) Symbol Table; D) Semantic Stack
+\\ \textit{Note:} The symbol table is a data structure used in compilers to store information about variables, including their names, types, scopes, and attributes, making it essential for semantic analysis and code generation.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Fast hardware exists to move blocks of pixels efficiently.; B) Realistic lighting and shading can be done.; C) All line segments can be displayed as straight.; D) Polygons can be filled with solid colors and textures.
+\\ \textit{Note:} Bitmap graphics are composed of pixels, which means that line segments may appear jagged or pixelated rather than perfectly straight, particularly when represented at lower resolutions.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the 'sort()' method is specific to list objects in Python, and strings are immutable, meaning they cannot be sorted in place.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Local variables are usually allocated on the stack dynamically and are not included in the activation record frame because their values are stored in separate stack space specific to each function call.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The sum of the list l = [1, 2, 3, 4] in Python 3 is 10, not 8, because when you add the numbers together (1 + 2 + 3 + 4), the total equals 10.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The one-time pad is considered perfectly secure because it uses a key that is as long as the message, truly random, used only once, and kept secret, ensuring that each possible plaintext is equally likely, making it impossible to decipher without the key.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because if r is defined as a lambda function multiplying its input by 2, then r(3) would evaluate to 6, not 3.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def count\_Digit(n): | return count
+\\ \textit{Note:} correct because it defines a function named `count\_Digit` that is intended to count the digits in a given number `n`, demonstrating an understanding of function definition and the need for a counting mechanism, even though the implementation details are incomplete.
+\item \textbf{Answer:} def get\_Pairs\_Count(arr,n,sum): | return count
+\\ \textit{Note:} The provided answer correctly identifies the need for a function that takes an array, its length, and a target sum as parameters, which is essential for counting the number of pairs in the array that add up to the specified sum.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

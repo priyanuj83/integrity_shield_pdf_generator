@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 7 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Overfitting is more likely with a small training dataset because the model can memorize the limited examples rather than generalizing, while a small hypothesis space restricts the model's complexity, reducing the risk of overfitting.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(A | B) * P(B | C) * P(C | A); B) P(C | A, B) * P(A) * P(B); C) P(A, B | C) * P(C); D) P(A | B, C) * P(B | A, C) * P(C | A, B)
+\\ \textit{Note:} The correct answer is based on the chain rule of probability, which states that the joint probability P(A, B, C) can be expressed as the product of the conditional probability P(A, B | C) and the marginal probability P(C).
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) To save computing time during testing; B) To save space for storing the Decision Tree; C) To make the training set error smaller; D) To avoid overfitting the training set
+\\ \textit{Note:} Pruning a Decision Tree is essential to avoid overfitting the training set by removing branches that capture noise or irrelevant patterns, thereby enhancing the model's generalization to unseen data.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) they are biased; B) they have high variance; C) they are not consistent estimators; D) None of the above
+\\ \textit{Note:} Maximum Likelihood Estimation (MLE) can produce estimates with high variance, particularly in small sample sizes or complex models, leading to less reliable predictions and instability in the estimated parameters.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Increase bias; B) Decrease bias; C) Increase variance; D) Decrease variance
+\\ \textit{Note:} Averaging the output of multiple decision trees helps decrease variance because it reduces the impact of individual model errors, leading to a more stable and robust overall prediction.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Yann LeCun's machine learning cake emphasizes the importance of unsupervised learning and other techniques, highlighting that supervised learning is just one component rather than the most innovative.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The dimensionality of the null space of matrix A being 2 indicates that there are two linearly independent solutions to the homogeneous equation Ax = 0, which implies that the rank of A is reduced by two dimensions compared to its maximum possible rank.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Increasing the number of training examples generally leads to lower variance in the model's predictions, as more data provides a better representation of the underlying distribution and helps the model generalize more effectively.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} This statement is true because supervised learning involves using labeled data, where past rainfall amounts serve as the output labels corresponding to various input features or cues, allowing the model to learn the relationship between them for future predictions.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because both ReLU and sigmoid activation functions are monotonic; ReLU is non-decreasing, and the sigmoid function is also monotonic as it consistently increases between 0 and 1.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def find\_lists(Input): | return 1 | return len(Input)
+\\ \textit{Note:} The answer correctly identifies that the function should return the count of lists within the tuple by first checking for the presence of lists and then using the `len()` function to count them accurately.
+\item \textbf{Answer:} def find\_max\_val(n, x, y): | return (ans if (ans \textgreater{}= 0 and
+\\ \textit{Note:} The function correctly calculates the largest integer k by ensuring it satisfies the condition k \% x = y while also being non-negative, which is achieved by adjusting n to the nearest multiple of x that maintains the specified remainder y.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

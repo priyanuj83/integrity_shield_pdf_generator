@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 14 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Decreases model bias; B) Decreases estimation bias; C) Decreases variance; D) Doesn't affect bias and variance
+\\ \textit{Note:} Adding more basis functions in a linear model allows for greater flexibility in fitting the training data, which reduces model bias by enabling the model to capture more complex relationships within the data.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are false; Layer Normalization was not used in the original ResNet paper, which employed Batch Normalization, and DCGANs do not inherently use self-attention, which is a feature of other architectures like Transformers.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Regularization is too low and model is overfitting; B) Regularization is too high and model is underfitting; C) Step size is too large; D) Step size is too small
+\\ \textit{Note:} A step size that is too large can cause the model's parameters to oscillate or diverge during training, leading to an increase in training loss over epochs instead of convergence.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) O(1); B) O( N ); C) O(log N ); D) O( $N^2$ )
+\\ \textit{Note:} The classification run time of nearest neighbors is O(N) because it requires a linear search through all N instances in the training dataset to find the closest neighbor(s) for each classification decision.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The null space of the matrix A, which is rank deficient because all its rows are linearly dependent, has a dimensionality of 2, corresponding to the two degrees of freedom available for solutions to the homogeneous equation Ax = 0.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because neural networks operate in non-convex optimization landscapes, where gradient descent may converge to local minima rather than the global optimum, depending on the initial conditions and the complexity of the network architecture.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The computational complexity of gradient descent is not linear in the number of data points, N, because it involves multiple iterations over the entire dataset, which can result in a complexity that is proportional to the product of the number of iterations and the number of data points.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because Naive Bayes relies on the assumption of conditional independence among attributes, meaning that the presence or absence of one attribute does not affect the presence or absence of another attribute given the class label.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Increasing the amount of training data can help reduce model overfitting, but it is not guaranteed to be successful if the model remains overly complex or if the additional data does not provide diverse and representative examples.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} ResNeXt models primarily utilized a combination of activation functions, including the more advanced PReLU (Parametric ReLU) and other modifications, rather than predominantly relying on ReLU activation functions.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The poor performance of a decision tree in spam classification, despite a bug-free implementation, can often be attributed to the tree's inadequate depth. Shallow decision trees may fail to capture the intricate patterns and relationships inherent in the data, leading to underfitting. This limitation restricts the model's ability to differentiate between spam and non-spam effectively, as it lacks the necessary complexity to represent the features that characterize each class accurately. Consequently, a deeper tree would allow for more nuanced decision boundaries, potentially enhancing model accuracy and improving classification outcomes. Thus, the depth of a decision tree is crucial in balancing bias and variance, directly impacting its performance in tasks like spam classification.
+\\ \textit{Note:} The answer correctly identifies that shallow decision trees may lead to underfitting, resulting in poor performance in spam classification due to their inability to capture complex patterns and relationships in the data necessary for accurate differentiation between classes.
+\item \textbf{Answer:} To generate a $10\times 5$ Gaussian matrix with entries sampled from $\mathcal{N}(\mu=5,\sigma^2=16)$, we use the PyTorch command `5 + torch.randn(10,5) * 4`. This command leverages the standard normal distribution generated by `torch.randn`, scales it by 4 (the standard deviation, since $\sigma = 4$), and shifts it by 5 (the mean). For the $10\times 10$ uniform matrix with entries from $U[-1,1)$, we can use `2 * torch.rand(10,10) - 1`. Here, `torch.rand` generates numbers uniformly in the interval $[0,1)$, which we then scale to the desired range by multiplying by 2 and subtracting 1. This approach ensures that the generated matrices meet the specified distributions accurately.
+\\ \textit{Note:} The answer correctly applies the properties of Gaussian and uniform distributions by utilizing PyTorch functions to generate a $10\times 5$ matrix from a normal distribution with specified mean and variance, and a $10\times 10$ matrix from a uniform distribution over the desired interval, demonstrating an understanding of both sampling techniques and the corresponding PyTorch commands.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

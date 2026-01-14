@@ -1,0 +1,126 @@
+{
+  "document_id": "computer_science_graduate_doc_10",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Message nonrepudiation ensures that a sender cannot deny having sent a message, thereby providing proof of the origin and integrity of the message in communication systems.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1527
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "This page-replacement policy minimizes page faults by ensuring that the page replaced is the one that will not be needed for the longest period of time, thereby reducing the likelihood of immediate future accesses leading to faults.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14149
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Snort is an open-source network intrusion detection and prevention system that analyzes real-time traffic to detect and respond to malicious activities, making it the correct answer for the question.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1510
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Brute-force attacks target the session layer of the OSI model because this layer is responsible for managing sessions between users and services, where failed sessions can indicate weaknesses that attackers exploit to gain unauthorized access to credentials.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1504
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "WPA (Wi-Fi Protected Access) uses TKIP (Temporal Key Integrity Protocol) as a security protocol to provide improved data encryption and integrity for wireless networks, replacing the less secure WEP (Wired Equivalent Privacy).",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1552
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Message authentication is primarily concerned with verifying the integrity and authenticity of a message, rather than ensuring its confidentiality, which is the role of encryption.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1513
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The stack is primarily used for storing local variables and function call information, while global variables are stored in a separate memory area known as the data segment, making the statement false.",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1558
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Insertion sort has an average-case and worst-case time complexity of O(n^2), not O(n log n), because it requires nested iterations to compare and shift elements in the array, particularly in scenarios where the elements are in reverse order.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1049
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the wireless authentication process between a user and an access point typically involves methods such as WPA2 or EAP, rather than a process specifically referred to as \"AP-handshaking.\"",
+      "source_dataset": "computer_science_computer_security",
+      "source_id": 1512
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The string 'xxzy' cannot be generated by the given grammar because there is no valid sequence of production rules that allows for the creation of two consecutive 'x's followed by 'z' and 'y', given the constraints of the rules for B and D.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1060
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def sum_average(number): | return (total,average)",
+      "marks": 10,
+      "explanation": "correct because it outlines the essential components of a function that computes the total and average of the first n natural numbers, although it lacks the implementation details necessary for complete functionality.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 599
+    },
+    {
+      "question_id": "computer_science_graduate_doc_10_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def is_lower(string): | return (string.lower())",
+      "marks": 10,
+      "explanation": "correct because it effectively utilizes Python's built-in string method `lower()` to convert all characters in the given string to lowercase, thereby fulfilling the function's purpose.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 477
+    }
+  ]
+}

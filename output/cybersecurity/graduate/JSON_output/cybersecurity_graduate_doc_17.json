@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_graduate_doc_17",
+  "document_name": "Cybersecurity - Graduate Level Assessment 17",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_17.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_17_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In a _____________ attack, the extra data that holds some specific instructions in the\nmemory for actions is projected by a cyber-criminal or penetration tester to crack the\nsystem.",
+      "options": {
+        "A": "Phishing",
+        "B": "MiTM",
+        "C": "Buffer-overflow",
+        "D": "Clickjacking"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer overflow attack occurs when a cyber-criminal exploits a vulnerability in a program's memory management by overrunning a buffer's boundary, allowing them to inject malicious instructions that can compromise the system's integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1548"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Why would a ping sweep be used?",
+      "options": {
+        "A": "To identify live systems",
+        "B": "To locate live systems",
+        "C": "To identify open ports",
+        "D": "To locate firewalls"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A ping sweep is used to identify live systems by sending ICMP echo requests to a range of IP addresses to determine which hosts are responsive and active on a network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1566"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What are the port states determined by Nmap?",
+      "options": {
+        "A": "Active, inactive, standby",
+        "B": "Open, half-open, closed",
+        "C": "Open, filtered, unfiltered",
+        "D": "Active, closed, unused"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Open, filtered, unfiltered\" because these terms represent the three primary states that Nmap assigns to ports based on its scanning results, indicating whether a port is accepting connections, being blocked by a firewall, or is accessible without filtering, respectively.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1555"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Applications developed by programming languages like ____ and ______ have this common\nbuffer-overflow error.",
+      "options": {
+        "A": "C, Ruby",
+        "B": "Python, Ruby",
+        "C": "C, C++",
+        "D": "Tcl, C#"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "C and C++ are low-level programming languages that allow direct memory manipulation without built-in bounds checking, making them susceptible to buffer-overflow errors.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1521"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Can a stream cipher have perfect secrecy?",
+      "options": {
+        "A": "Yes, if the PRG is really \"secure\"",
+        "B": "No, there are no ciphers with perfect secrecy",
+        "C": "Yes, every cipher has perfect secrecy",
+        "D": "No, since the key is shorter than the message"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A stream cipher cannot achieve perfect secrecy because perfect secrecy requires the key to be at least as long as the message and completely random, which is not the case when the key is shorter than the message.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1559"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A stack is a sequential segment of memory that stores data in a manner similar to a buffer, allowing for random access.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a stack operates on a last-in, first-out (LIFO) principle, which does not allow for random access like a buffer does, as data can only be accessed in the order it was added.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1551"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The four primary security principles related to messages are confidentiality, access control, integrity, and non-repudiation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the four primary security principles related to messages are confidentiality, integrity, availability, and non-repudiation, with access control being a separate concept that supports these principles.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1567"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Wireless access refers to the methods used to connect devices to a wired network for data transmission.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because wireless access specifically pertains to connecting devices to a network without physical cables, while the description provided refers to wired network connections.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Authorization is primarily focused on determining the identity of the user and whether they are an attacker.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authorization is primarily concerned with determining what actions or resources a user is permitted to access after their identity has been established through authentication, rather than focusing on identifying the user as an attacker.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "Applications developed in C and C++ are prone to buffer overflows due to the lack of string boundary checks in predefined functions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because C and C++ do not automatically perform boundary checks on arrays and buffers, allowing developers to inadvertently write data beyond the allocated memory, which can lead to buffer overflow vulnerabilities.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1479"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the occurrence and position of the substrings within a string.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def occurance_substring(text,pattern): | return (text[s:e], s, e)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly defines a function that identifies the starting (s) and ending (e) indices of a substring (pattern) within a larger string (text) and returns both the substring and its positions, which is essential for substring searching techniques relevant in cybersecurity applications.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "773"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the directrix of a parabola.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def parabola_directrix(a, b, c): | return directrix",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is correct because it outlines the creation of a function named `parabola_directrix` that is intended to calculate and return the directrix of a parabola based on its coefficients, aligning with the mathematical principles governing parabolas in the context of quadratic equations.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "430"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

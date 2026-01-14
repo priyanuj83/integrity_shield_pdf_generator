@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 17 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) reinforcement learning; B) self-supervised learning; C) unsupervised learning; D) supervised learning
+\\ \textit{Note:} Reinforcement learning is considered the "cherry on top" in Yann LeCun's cake because it represents an advanced and crucial approach in machine learning that focuses on training algorithms to make sequences of decisions through trial and error, thereby enhancing the overall effectiveness and adaptability of AI systems.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Highway networks indeed utilize convolutions without max pooling, making Statement 1 false, while DenseNets generally require more memory than ResNets due to their dense connectivity pattern, making Statement 2 true.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) To save computing time during testing; B) To save space for storing the Decision Tree; C) To make the training set error smaller; D) To avoid overfitting the training set
+\\ \textit{Note:} Pruning a Decision Tree is primarily aimed at reducing its complexity to prevent overfitting, which occurs when the model learns noise in the training data rather than the underlying patterns, leading to poor generalization on unseen data.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} correct because the Stanford Sentiment Treebank specifically focuses on analyzing movie reviews for sentiment analysis, while the Penn Treebank has been extensively utilized in various language modeling tasks.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(A|B) decreases; B) P(B|A) decreases; C) P(B) decreases; D) All of above
+\\ \textit{Note:} As P(A, B) decreases while P(A) increases, the conditional probability P(B|A) is given by P(A, B) / P(A), leading to a decrease in P(B|A) since the numerator decreases while the denominator increases.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Transforming data to a zero median does not ensure that the data is centered around the mean, which is essential for PCA to achieve the same projection as Singular Value Decomposition (SVD).
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} By$_{2020}$, advancements in deep learning architectures, such as convolutional neural networks, enabled several models to surpass 98\% accuracy on the CIFAR-10 dataset, demonstrating significant progress in image classification tasks.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Grid search evaluates every possible combination of hyperparameters in a defined range, which can lead to a significant increase in computation time, especially in complex models like multiple linear regression with many parameters.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Convolutional networks, particularly through their ability to capture spatial hierarchies and features in visual data, have demonstrated superior performance in classifying high-resolution images compared to other architectures, making them the most effective choice as of 2020.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the Bayesian network consists of four nodes (H, U, P, W) and their conditional independence relationships require specifying the parameters of each node given its parents, resulting in a total of eight independent parameters to fully characterize the joint distribution.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def cummulative\_sum(test\_list): | return (res)
+\\ \textit{Note:} correct because it outlines the creation of a function that will compute the cumulative sum of all values in a tuple list, which requires iterating through the list and accumulating the total, though the specific implementation details are incomplete.
+\item \textbf{Answer:} def even\_bit\_toggle\_number(n) : | return n ^ res
+\\ \textit{Note:} correct because it utilizes the bitwise XOR operator to toggle all even bits of the number, where `res` is a mask that has 1 s in the positions of the even bits, allowing the function to flip those specific bits in the original number `n`.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

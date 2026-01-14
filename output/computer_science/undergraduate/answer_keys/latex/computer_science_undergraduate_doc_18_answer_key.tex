@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 18 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Finding a longest simple cycle in G; B) Finding a shortest cycle in G; C) Finding ALL spanning trees of G; D) Finding a largest clique in G
+\\ \textit{Note:} Finding a shortest cycle in an undirected graph can be solved in polynomial time using algorithms like breadth-first search (BFS) to efficiently explore all possible cycles and determine the shortest one.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) int(x [,base]); B) long(x [,base] ); C) float(x); D) str(x)
+\\ \textit{Note:} The function `int(x [,base])` is designed to convert a given string `x` into an integer, optionally using a specified base, making it the correct choice for converting strings to integers in Python 3.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Error; B) aab; C) ab; D) a ab
+\\ \textit{Note:} The correct answer is "aab" because in Python 3, the '+' operator concatenates strings, combining "a" and "ab" to form the single string "aab".
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Error; B) abc; C) cba; D) c
+\\ \textit{Note:} The output of "abc"[::-1] is "cba" because the slicing syntax with a step of -1 reverses the string by iterating over it from the end to the beginning.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) [19,21]; B) [11,15]; C) [11,15,19]; D) [13,17,21]
+\\ \textit{Note:} The correct answer is [11,15,19] because the slicing operation b[::2] retrieves every second element from the list b, starting from index 0, which includes the elements at indices 0, 2, and 4.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because extensive testing cannot guarantee the identification of all bugs due to factors such as incomplete test coverage, the complexity of the program, and the possibility of unforeseen interactions between components.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the correct evaluation of the expression 4 + 3 \% 2 is 4 + 1, which equals 5, not 6.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because O($n^2$) represents a growth rate that is greater than O(1), O(n), and O(log n), making it the largest among the given asymptotic notations in terms of time complexity as the input size approaches infinity.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The access matrix approach can be limited in expressing complex protection requirements due to its inability to efficiently manage dynamic access control and the challenges of representing relationships among multiple subjects and objects in large, complex systems.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Python's automatic garbage collection manages memory by automatically reclaiming unused objects, and its ability to interface with languages like C, C++, and Java through various libraries and APIs enhances its functionality and interoperability.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def extract\_symmetric(test\_list): | return (res)
+\\ \textit{Note:} correct because it demonstrates the initiation of a function that is intended to process a list of tuples to identify and return all symmetric pairs, highlighting the function's purpose in addressing the problem statement.
+\item \textbf{Answer:} def zip\_tuples(test\_tup 1, test\_tup 2): | return (res)
+\\ \textit{Note:} The provided answer correctly defines a function named `zip\_tuples` that is intended to combine two given tuples into a single tuple, though it lacks the actual implementation of zipping the tuples together before returning the result.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_05",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The output of \"abc\"[::-1] is \"cba\" because the slicing syntax [::-1] in Python reverses the string by stepping through it from the end to the start.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In Python, the left shift operator '<<' shifts the bits of the number to the left by the specified number of positions, so shifting the binary representation of 1 (which is '0001') three positions to the left results in '1000', which is equal to 8 in decimal.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression x >> 1 in Python 3 performs a bitwise right shift on the binary representation of the number 8, effectively dividing it by 2, which results in 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3227
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The function int(x [,base]) is specifically designed to convert a string representation of a number into an integer, where 'x' is the string to be converted and 'base' allows for conversion from different numeral systems.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3183
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer \"Both of the above\" indicates that two previously mentioned statements about Python are accurate, highlighting its versatile features and widespread use in various applications.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "O(n^2) is the largest asymptotic notation among the given options because it grows faster than O(1), O(n), and O(log n) as the input size n increases, indicating that algorithms with O(n^2) complexity require more time or resources compared to those with the other notations.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the output of print(list[1:3]) would actually be [786, 2.23], as list slicing in Python returns a sub-list containing elements starting from index 1 up to, but not including, index 3.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3223
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because using the slicing syntax b[::2] selects every second element from the list b, starting with the first element, resulting in the output [11, 15, 19].",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The user's public key is designed to be shared and does not pose a risk to personal privacy, as it is the private key that must be kept secret to ensure the security of encrypted communications.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3267
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a lambda function that divides the input by 1.5 would output 2 when called with the argument 3 only if it is defined correctly, such as `lambda x: x / 1.5`, but without the actual definition provided, the claim cannot be validated.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14389
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "When a large Java program passes extensive testing without any errors, it might suggest\nthat the program is functioning correctly within the tested parameters. However, this does\nnot guarantee that the program is entirely free of bugs. There may still be hidden issues\nthat did not appear during testing, such as edge cases or unforeseen user interactions\nthat were not accounted for. Therefore, it is important to remain cautious and consider\nthe potential for bugs, as they can lead to unexpected behavior in real-world scenarios.\nThis understanding encourages ongoing vigilance in software development, promoting\npractices like code reviews and continuous integration to identify and address any lurking\nproblems.",
+      "marks": 10,
+      "explanation": "correct because it emphasizes that passing extensive testing indicates functionality within tested parameters but does not eliminate the possibility of hidden bugs arising from untested scenarios or edge cases.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_k-12_doc_05_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "The `isupper()` function in Python 3 is used to determine if all characters in a given\nstring are uppercase letters. When this function is called on a string, it checks each\ncharacter to see if it is an uppercase letter and returns `True` only if every character\nmeets this condition; otherwise, it returns `False`. This functionality is useful in\nprogramming for validating input, ensuring that certain data, such as passwords or codes,\nfollows specific formatting rules. For example, you might want to enforce that a user's\ninput is entirely in uppercase to maintain consistency or meet certain requirements in a\nprogram.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the `isupper()` function's purpose of checking if all characters in a string are uppercase, explains its return values based on this check, and highlights its practical applications in validating input formats in programming.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3197
+    }
+  ]
+}

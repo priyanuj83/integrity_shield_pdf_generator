@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 2 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Freenet; B) ARPANET; C) Stuxnet; D) Internet
+\\ \textit{Note:} Freenet is specifically designed to facilitate the anonymous sharing and transfer of files, making it a prominent component of the darknet ecosystem.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Dark web; D) Surface web
+\\ \textit{Note:} The dark web refers to a part of the internet that is intentionally hidden and requires specific software, configurations, or authorization to access, differentiating it from the surface web and other segments of the Deep Web.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) IM - Trojans; B) Backdoor Trojans; C) Trojan-Downloader; D) Ransom Trojan
+\\ \textit{Note:} IM Trojans specifically target instant messaging applications to capture and transmit users' login credentials and passwords without their consent, making them a distinct type of malware designed for this purpose.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Assume that the query is satisfiable and continue executing the path.; B) Assume that the query is not satisfiable and stop executing the path; C) Restart STP and retry the query, up to a limited number of retries.; D) Remove a subset of the constraints and retry the query.
+\\ \textit{Note:} The correct answer is based on the principle that when a solver cannot determine the satisfiability of a constraint within a given time frame, it conservatively assumes the constraints may not be satisfiable, thereby preventing unnecessary computations and potential security risks associated with executing uncertain paths.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless devices and the wired network, enabling data transmission and connectivity within a local area network.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A session symmetric key is designed to be used only for a single session to prevent key compromise and enhance security by ensuring that any potential interception of the key does not compromise past or future communications.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the four primary security principles related to messages are typically identified as Confidentiality, Integrity, Availability, and Authenticity, rather than including Access Control and Non-repudiation.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A ping sweep involves sending ICMP echo requests to multiple IP addresses in a network to determine which addresses respond, thereby identifying active or live systems.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A MAC that consistently produces a 5-bit tag can generate only 32 unique tags (from 00000 to 11111), making it feasible for an attacker to exhaustively search through all possible tags to find a valid one, thereby exposing it to brute-force attacks.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Wi-Fi Protected Setup (WPS) was designed to streamline the process of connecting devices to secure wireless networks by allowing users to establish a connection with minimal manual input, often using a PIN or a physical button, thus simplifying the setup process.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Encryption standards play a crucial role in cybersecurity, each possessing unique strengths and weaknesses. Among them, Wired Equivalent Privacy (WEP) is widely regarded as the least secure option due to its fundamental design flaws and vulnerabilities. WEP employs a static key for encryption, which can be easily compromised through methods like packet sniffing and replay attacks, rendering the encryption ineffective against modern threats. Additionally, the use of weak initialization vectors (IVs) allows attackers to exploit predictable patterns, leading to rapid key recovery. In contrast, more advanced standards like WPA 2 and WPA 3 offer robust security features, such as dynamic key management and stronger encryption algorithms, making them significantly more resilient against attacks.
+\\ \textit{Note:} correct because it identifies WEP's reliance on a static key and weak initialization vectors as critical vulnerabilities that make it easily exploitable, thus illustrating its inadequacy compared to other encryption standards in the context of modern cybersecurity threats.
+\item \textbf{Answer:} Buffer-overrun vulnerabilities occur when a software application writes more data to a buffer than it can hold, leading to data corruption, crashes, or the execution of arbitrary code. These vulnerabilities are typically caused by inadequate input validation, improper memory management, and the use of unsafe programming languages that do not enforce boundary checks. The potential impacts include unauthorized access to sensitive information, system compromise, and the propagation of malware. To mitigate buffer-overrun vulnerabilities, developers can adopt secure coding practices, utilize modern programming languages with built-in safety features, and implement runtime protections such as stack canaries and Address Space Layout Randomization (ASLR). By addressing these vulnerabilities proactively, organizations can significantly enhance their cybersecurity posture and reduce the risk of exploitation.
+\\ \textit{Note:} correct because it accurately identifies buffer-overrun vulnerabilities as a result of inadequate input validation and improper memory management, outlines their potential impacts on security, and suggests the need for mitigation strategies in software development practices.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) convolutional networks; B) graph networks; C) fully connected networks; D) RBF networks
+\\ \textit{Note:} Convolutional networks are specifically designed to process and classify image data by leveraging their hierarchical architecture, which effectively captures spatial hierarchies and patterns in high-resolution images.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Predicting the amount of rainfall based on various cues; B) Detecting fraudulent credit card transactions; C) Training a robot to solve a maze; D) All of the above
+\\ \textit{Note:} Clustering is effective for detecting fraudulent credit card transactions because it groups similar transaction patterns together, allowing anomalies that deviate from typical behaviors to be identified as potential fraud.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(A | B) * P(B | C) * P(C | A); B) P(C | A, B) * P(A) * P(B); C) P(A, B | C) * P(C); D) P(A | B, C) * P(B | A, C) * P(C | A, B)
+\\ \textit{Note:} The correct answer is based on the chain rule of probability, which states that the joint probability P(A, B, C) can be expressed as the product of the conditional probability P(A, B | C) and the marginal probability P(C).
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(A|B) decreases; B) P(B|A) decreases; C) P(B) decreases; D) All of above
+\\ \textit{Note:} P(B|A) decreases because an increase in P(A) with a decrease in P(A, B) indicates that the probability of event B occurring given that event A has occurred is diminishing, as P(B|A) is calculated as P(A, B) divided by P(A).
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Partitioning based clustering; B) K-means clustering; C) Grid based clustering; D) All of the above
+\\ \textit{Note:} The correct answer is "All of the above" because spatial clustering algorithms such as K-means, DBSCAN, and Hierarchical clustering are all designed to group data points based on their spatial proximity, making them integral to the field of machine learning for analyzing spatial data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because K-fold cross-validation has a computational complexity that is linear in K, as the model is trained K times on different subsets of the data, rather than requiring a quadratic number of computations.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In PCA, centering the data to have a zero mean is essential because it ensures that the principal components capture the directions of maximum variance from the mean rather than from the origin, which aligns with the SVD projection methodology.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Out-of-distribution detection is considered a type of anomaly detection because both concepts involve identifying data points that deviate significantly from the expected distribution of the training data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The dimensionality of the null space of the matrix A is 2, indicating that there are two linearly independent vectors that span the null space, which corresponds to the fact that the rank of the matrix is less than the number of its columns by exactly 2.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Applying an L$_{1}$ norm penalty in linear regression, known as Lasso regression, encourages sparsity in the model by effectively shrinking some coefficients to zero, while the L$_{0}$ norm penalty directly counts non-zero coefficients, leading to a model that can exclude certain features entirely.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def str\_to\_list(string): | return temp | def lst\_to\_string(List): | return ''.join(List) | def get\_char\_count\_array(string): | return count | def remove\_dirty\_chars(string, second\_string): | return lst\_to\_string(str\_list[0:res\_ind])
+\\ \textit{Note:} correct because it outlines a process that converts the first string into a list, counts the characters, and constructs a new string by excluding characters found in the second string, effectively achieving the goal of removing unwanted characters.
+\item \textbf{Answer:} def div\_list(nums 1,nums 2): | return list(result)
+\\ \textit{Note:} correct because it demonstrates the use of a lambda function within the map function to apply the division operation element-wise between two lists, effectively creating a new list of results.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

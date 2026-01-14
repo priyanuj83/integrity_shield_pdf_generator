@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_graduate_doc_07",
+  "document_name": "Computer Science - Graduate Level Assessment 7",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_research",
+    "cs_implementation"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_07.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ is categorized as an unknown segment of the Deep Web which has been\npurposely kept hidden & is inaccessible using standard web browsers.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Dark web",
+        "D": "Surface web"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dark web is a specific part of the deep web that requires special software, such as Tor, to access, making it intentionally hidden and inaccessible through standard web browsers.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a transport layer vulnerability?",
+      "options": {
+        "A": "Mishandling of undefined, poorly defined variables",
+        "B": "The Vulnerability that allows \"fingerprinting\" & other enumeration of host information",
+        "C": "Overloading of transport-layer mechanisms",
+        "D": "Unauthorized network access"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to security issues related to authentication and permissions rather than the specific functions and protocols of the transport layer, which primarily focuses on data transmission and error recovery.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1491"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following statements about a remote procedure call is true?",
+      "options": {
+        "A": "It is used to call procedures with addresses that are farther than 2^16 bytes away.",
+        "B": "It cannot return a value.",
+        "C": "It cannot pass parameters by reference.",
+        "D": "It cannot call procedures implemented in a different language."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A remote procedure call (RPC) operates over a network, which typically requires that parameters be serialized for transmission, making it impossible to pass them by reference as it would not allow the called procedure to directly modify the caller's local variables.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1031"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "If p(x) is the minimal-degree interpolating polynomial for the real-valued function f(x)\nat the n + 1 distinct real numbers x 0, .... xn what is the maximum possible degree of\np(x)?",
+      "options": {
+        "A": "n",
+        "B": "n + 1",
+        "C": "n + 2",
+        "D": "2 n"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible degree of the minimal-degree interpolating polynomial p(x) for n + 1 distinct real numbers is n, as a polynomial of degree n can uniquely interpolate any set of n + 1 points in the plane.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1007"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_07_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following instruction-set features is NOT generally considered an obstacle to\naggressive pipelining of an integer unit?",
+      "options": {
+        "A": "Condition codes set by every instruction",
+        "B": "Variable-length encoding of instructions",
+        "C": "Instructions requiring widely varying numbers of cycles to execute",
+        "D": "Several different classes (sets) of registers"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The presence of several different classes of registers can actually enhance instruction-level parallelism and reduce hazards, thereby facilitating more aggressive pipelining rather than obstructing it.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1053"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "A ping sweep is primarily used to locate firewalls by analyzing their response to network traffic.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A ping sweep is primarily used to discover active hosts on a network by sending ICMP echo requests, not specifically to locate firewalls.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1566"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Public key encryption simplifies key exchange by allowing secure communication without needing to share a secret key in advance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Public key encryption enables secure communication by using a pair of keys\u2014one public and one private\u2014allowing parties to encrypt messages with the recipient's public key without needing to exchange a secret key beforehand.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1494"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The language {ww | w in (0 + 1)*} is accepted by some Turing machine, but cannot be accepted by any pushdown automaton.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The language {ww | w in (0 + 1)*} is context-sensitive and requires the ability to maintain an arbitrary count of symbols, which is beyond the capabilities of a pushdown automaton that can only manage a single stack, while a Turing machine can utilize its tape to track and compare the two halves of the input.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1013"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The digest created by a hash function is commonly referred to as a Modification Detection Code (MDC).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function produces a fixed-size digest from variable-length input data, which serves as a Modification Detection Code (MDC) by allowing verification of data integrity through comparison of the generated hash with a previously computed value.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1532"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_07_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In a phishing attack, attackers rely on manipulating memory to execute harmful code directly on the victim's machine.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because phishing attacks primarily involve deceiving individuals into revealing sensitive information or downloading malicious software, rather than manipulating memory directly on the victim's machine.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1548"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_07_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to calculate the harmonic sum of n-1.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def harmonic_sum(n): | return 1 | return 1 / n + (harmonic_sum(n - 1))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function uses recursion to compute the harmonic sum of n-1 by summing the reciprocal of each integer from 1 to n-1, thereby correctly implementing the definition of the harmonic sum.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "704"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_07_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to find the sum of squares of binomial co-efficients.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def factorial(start,end): | return res | def sum_of_square(n): | return int(factorial(n + 1, 2 * n)  /factorial(1, n))",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly defines a function to compute the sum of squares of binomial coefficients by utilizing the relationship between factorials and binomial coefficients, specifically leveraging the formula for the sum of squares through factorial computations.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "905"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

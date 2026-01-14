@@ -1,0 +1,293 @@
+{
+  "docid": "mathematics_graduate_doc_24",
+  "document_name": "Mathematics - Graduate Level Assessment 24",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_24.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_24.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_24_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_24_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_24_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_24_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "How many integers between 1 (included) and 100 (included) are divisible by either 2, 3, or\n5?",
+      "options": {
+        "A": "82",
+        "B": "60",
+        "C": "80",
+        "D": "68",
+        "E": "74"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 74 because it is derived from applying the principle of inclusion-exclusion to count the integers divisible by 2, 3, or 5, ensuring that overlaps among these sets are accurately accounted for.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8062"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "For how many positive integers k does the ordinary decimal representation of the integer\nk! end in exactly 99 zeros?",
+      "options": {
+        "A": "Twenty",
+        "B": "Three",
+        "C": "None",
+        "D": "Four",
+        "E": "Five"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number of trailing zeros in the factorial of a number k is determined by the formula \u230ak/5\u230b + \u230ak/25\u230b + \u230ak/125\u230b, and for k! to end in exactly 99 zeros, the values of k that satisfy this equation are found to be 5 specific integers within the range where 99 zeros can occur.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8152"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For a\\geq 0, we define $S_a={x | dist(x, S) \\leq a}$, where $dist(x,S)=inf_{y\\in\nS}||x-y||$. Suppose S is convex. Is S_a convex? Return 1 for yes and 0 for no.",
+      "options": {
+        "A": "Undefined",
+        "B": "0.0",
+        "C": "None of the above",
+        "D": "1.0"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The set \\( S_a \\) is convex because it is the Minkowski sum of the convex set \\( S \\) and a ball of radius \\( a \\), which retains the property of convexity.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7765"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "At West Elementary School, there are 20 more girls than boys. If there are 180 girls, how\ncan you find the number of boys?",
+      "options": {
+        "A": "divide 20 by 180",
+        "B": "add 180 to 20",
+        "C": "multiply 180 by 20",
+        "D": "multiply 180 by 2",
+        "E": "divide 180 by 20"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Dividing 20 by 180 does not correctly find the number of boys, as the correct approach would be to set up the equation based on the information given, where the number of boys is equal to the number of girls minus 20, leading to 180 - 20 = 160 boys.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "We know that $y'=(x+y) / 2$, we also know that $y(x=0) = 2, y(x=0.5) = 2.636, y(x=1) =\n3.595, y(x=1.5) = 4.9868$, what is the value of y(2) using Adams bashforth predictor\nmethod.",
+      "options": {
+        "A": "5.4321",
+        "B": "7.1234",
+        "C": "6.2456",
+        "D": "7.7654",
+        "E": "5.6789"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 5.4321 is obtained by applying the Adams-Bashforth predictor method, which uses previously calculated values of the function and its derivative to estimate future values, thus giving an accurate approximation of y(2) based on the differential equation and the provided initial conditions.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8741"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The value of the expression -16 + 13 + (-33) is equal to -36.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of the expression -16 + 13 + (-33) simplifies to -36, making the statement true, not false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7929"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Given that $n > 1$, what is the smallest positive integer $n$ whose positive divisors have a product of $n^6$?' is '120'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the product of the positive divisors of an integer \\( n \\) is given by \\( n^{t(n)/2} \\), where \\( t(n) \\) is the total number of divisors of \\( n \\), and for \\( n^6 \\) to equal the product of the divisors, \\( t(n) \\) must equal 12, which is not satisfied by \\( n = 120 \\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8710"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "There is only one group of order n (up to isomorphism) for the integers n = 4, 6, 8, and 10.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because there are multiple non-isomorphic groups of the specified orders, such as the existence of both cyclic and dihedral groups for n = 4, 6, 8, and 10.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The probability that the sample mean lies between 74.2 and 78.4 is approximately 0.6398 for the given normal distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the probability that the sample mean lies within a specific range for a normal distribution is determined by the standard deviation and sample size, and the given probability of 0.6398 does not accurately reflect the calculated probability for the specified range based on the parameters of the distribution.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8432"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_24_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The composition f(g(h(x))) yields the expression -225 x^2 + 90 x - 27, which is a common miscalculation in function composition.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the composition of functions f(g(h(x))) does not necessarily yield the specific quadratic expression -225 x^2 + 90 x - 27 without knowing the definitions of the individual functions f, g, and h.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8291"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_24_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the relationship between reading rate and time. If Susan reads a book at a rate of\n1 page every 3 minutes, explain how to calculate the total time required for her to read\n18 pages.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To analyze the relationship between reading rate and time, we can set up a calculation\nbased on Susan's reading speed. If Susan reads 1 page every 3 minutes, we find the total\ntime required for her to read 18 pages by multiplying the number of pages by the time per\npage. This calculation is expressed as: total time = number of pages \\times time per page,\nwhich equates to 18 pages \\times 3 minutes per page. Thus, the total time required is 54\nminutes. This relationship illustrates how increasing the number of pages directly scales\nthe time needed, reinforcing the mathematical principle of direct proportionality.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the formula for calculating total time based on a constant reading rate by multiplying the number of pages by the time taken per page, resulting in a total of 54 minutes for Susan to read 18 pages.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8692"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_24_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the impact of a 15% increase in waist circumference on Owen's current jean size of\n32 inches. Discuss the mathematical calculations involved and the implications for\nclothing sizing.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "A 15% increase in Owen's current waist circumference of 32 inches can be calculated by\nmultiplying 32 by 0.15, resulting in 4.8 inches. Adding this increase to the original\nwaist size gives us 32 + 4.8 = 36.8 inches. For practical purposes, this means that Owen's\nnew jean size would round to 37 inches, but considering standard sizing conventions, he\nwould likely require a size 36. This calculation highlights the implications of increasing\nwaist measurements on clothing sizes, illustrating how even a modest percentage increase\ncan necessitate a significant adjustment in fit and sizing, ultimately impacting retail\nofferings and consumer choices in fashion.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly calculates the new waist circumference after a 15% increase by applying mathematical operations to the original size, demonstrating the practical implications of such changes on clothing sizing and standardization.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "8287"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

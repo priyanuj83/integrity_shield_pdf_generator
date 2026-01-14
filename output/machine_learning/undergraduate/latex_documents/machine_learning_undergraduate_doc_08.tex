@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 8 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item The number of test examples needed to get statistically significant results should be \_
+\begin{enumerate}[label=(\alph*)]
+    \item Larger if the error rate is larger.
+    \item Larger if the error rate is smaller.
+    \item Smaller if the error rate is smaller.
+    \item It does not matter.
+\end{enumerate}
+\item Suppose your model is overfitting. Which of the following is NOT a valid way to try and reduce the overfitting?
+\begin{enumerate}[label=(\alph*)]
+    \item Increase the amount of training data.
+    \item Improve the optimisation algorithm being used for error minimisation.
+    \item Decrease the model complexity.
+    \item Reduce the noise in the training data.
+\end{enumerate}
+\item Which image data augmentation is most common for natural images?
+\begin{enumerate}[label=(\alph*)]
+    \item random crop and horizontal flip
+    \item random crop and vertical flip
+    \item posterization
+    \item dithering
+\end{enumerate}
+\item For polynomial regression, which one of these structural assumptions is the one that most affects the trade-off between underfitting and overfitting:
+\begin{enumerate}[label=(\alph*)]
+    \item The polynomial degree
+    \item Whether we learn the weights by matrix inversion or gradient descent
+    \item The assumed variance of the Gaussian noise
+    \item The use of a constant-term unit input
+\end{enumerate}
+\item The disadvantage of Grid search is
+\begin{enumerate}[label=(\alph*)]
+    \item It can not be applied to non-differentiable functions.
+    \item It can not be applied to non-continuous functions.
+    \item It is hard to implement.
+    \item It runs reasonably slow for multiple linear regression.
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The joint probability distribution P(X, Y, Z) can be expressed as P(Y) * P(X|Y) * P(Z|Y) in the given Bayes net.
+\item True or False: Hidden Markov models are primarily used for classifying images rather than modeling sequences like English sentences.
+\item True or False: Word 2 Vec parameters are typically not initialized using a Restricted Boltzmann Machine.
+\item True or False: The original ResNets were primarily trained using the SGD optimizer for all experiments.
+\item True or False: Adding more basis functions in a linear model decreases variance, leading to a more stable model across different datasets.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a python function to find the first repeated word in a given string.
+\item Write a function to count those characters which have vowels as their neighbors in the given string.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_k-12_doc_01",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 4 over 9 because both 96 and 216 can be divided by their greatest common divisor, which is 24, simplifying the ratio to 4:9.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2370
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Jess made 9 baskets because each basket is worth 2 points, and when you divide her total score of 18 points by the point value of each basket (18 \u00f7 2 = 9), it shows the number of baskets made.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2192
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 48,000 because 1 meter is equal to 1,000 millimeters, so 48 meters equals 48,000 millimeters when converted.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2294
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 7^3 because 7 multiplied by itself three times (7 x 7 x 7) equals 343, demonstrating the equivalence of the exponential notation to the number.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2272
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Surveying a group of people standing in line for tickets provides a direct and immediate sample of attendees who are present and likely to express their preferences, making it a more accurate method for gauging the popularity of the teams at that specific game.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2201
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when \\( \\frac{2+2i}{-3+4i} \\) is simplified by multiplying the numerator and denominator by the conjugate of the denominator, \\(-3-4i\\), the result is \\( \\frac{(2+2i)(-3-4i)}{(-3+4i)(-3-4i)} = \\frac{-6 - 8i - 6i - 8}{9 + 16} = \\frac{-14 - 14i}{25} = \\frac{2}{25} - \\frac{14}{25}i\\).",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14516
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because both expressions evaluate to the same product, as (2 x 4) equals 8, making (2 x 4) x 6 equal to 8 x 6.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2324
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the solution to the equation does not necessarily yield x as \u00be without knowing the specific equation being referenced, and misinterpretations can arise from incorrect assumptions about the equation's context or structure.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4441
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The object reverses direction two times in the interval 0 <= t <= 10 because its velocity changes sign at two distinct points within that time frame.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4475
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because multiplying 32 by 67 yields 2,144, which can be verified through standard multiplication or by breaking it down into simpler calculations.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2227
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "The process of choosing a block can be represented by a generating function. Each choice\nwe make can match the 'plastic medium red circle' in one of its qualities $(1)$ or differ\nfrom it in $k$ different ways $(kx)$. Choosing the material is represented by the factor\n$(1+1 x)$, choosing the size by the factor $(1+2 x)$, etc:\\[(1+x)(1+2 x)(1+3\nx)^2\\]Expanding out the first two factors and the square:\\[(1+3 x+2 x^2)(1+6 x+9 x^2)\\]By\nexpanding further we can find the coefficient of $x^2$, which represents the number of\nblocks differing from the original block in exactly two ways. We don't have to expand it\ncompletely, but choose the terms which will be multiplied together to result in a constant\nmultiple of $x^2$:\\[1\\cdot 9+3\\cdot 6+2\\cdot 1=\\boxed{29}\\]",
+      "marks": 10,
+      "explanation": "The correct answer is derived by considering how many ways a block can differ from the 'plastic medium red circle' in exactly two attributes by using a generating function to represent the choices for material, size, color, and shape, ultimately leading to the calculation of combinations that yield the desired differences.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 16031
+    },
+    {
+      "question_id": "mathematics_k-12_doc_01_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "In Simon's fruit salad, the ratio of pears to apples is 1:3. This means that for every\npear used, there are three apples in the salad. The significance of this ratio highlights\nthe predominant role of apples in the flavor and texture of the fruit salad, suggesting\nthat apples may be the main ingredient. Understanding ratios helps us see how different\ningredients contribute to the overall composition of a recipe, allowing for adjustments\nbased on personal preference or dietary needs.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the ratio of pears to apples as 1:3, illustrating that apples are the dominant ingredient in the fruit salad, which is significant for understanding flavor balance and the recipe's overall composition.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 2429
+    }
+  ]
+}

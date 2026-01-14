@@ -1,0 +1,289 @@
+{
+  "docid": "physics_undergraduate_doc_02",
+  "document_name": "Physics - Undergraduate Level Assessment 2",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_02.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_02_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In the diamond structure of elemental carbon, the nearest neighbors of each C atom lie at\nthe corners of a",
+      "options": {
+        "A": "square",
+        "B": "hexagon",
+        "C": "cube",
+        "D": "tetrahedron"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the diamond structure of elemental carbon, each carbon atom is covalently bonded to four other carbon atoms arranged at the corners of a tetrahedron, reflecting the sp\u00b3 hybridization and the tetrahedral geometry characteristic of this allotrope.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1379"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_02_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A meter stick with a speed of 0.8 c moves past an observer. In the observer's reference\nframe, how long does it take the stick to pass the observer ?",
+      "options": {
+        "A": "1.6 ns",
+        "B": "2.5 ns",
+        "C": "4.2 ns",
+        "D": "6.9 ns"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 2.5 ns because, in the observer's frame, the length contraction of the meter stick reduces its observed length to 0.6 m, and using the formula time = distance/speed, the time taken to pass the observer is calculated as 0.6 m / (0.8c) = 2.5 ns.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1387"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_02_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "For which of the following thermodynamic processes is the increase in the internal energy\nof an ideal gas equal to the heat added to the gas?",
+      "options": {
+        "A": "Constant temperature",
+        "B": "Constant volume",
+        "C": "Constant pressure",
+        "D": "Adiabatic"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a constant volume process, no work is done on or by the gas, so the increase in internal energy is solely due to the heat added, as described by the first law of thermodynamics, \u0394U = Q - W, where W is zero.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14196"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_02_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant\nof 4.0 is",
+      "options": {
+        "A": "1.2 * 10^9 m/s",
+        "B": "3.0 * 10^8 m/s",
+        "C": "1.5 * 10^8 m/s",
+        "D": "1.0 * 10^8 m/s"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The speed of light in a medium is calculated using the formula \\( v = \\frac{c}{\\sqrt{\\varepsilon_r}} \\), where \\( c \\) is the speed of light in a vacuum (approximately \\( 3.0 \\times 10^8 \\) m/s) and \\( \\varepsilon_r \\) is the dielectric constant; thus, for a dielectric constant of 4.0, the speed of light is \\( \\frac{3.0 \\times 10^8}{\\sqrt{4}} = 1.5 \\times 10^8 \\) m/s.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1460"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_02_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A rod measures 1.00 m in its rest system. How fast must an observer move parallel to the\nrod to measure its length to be 0.80 m?",
+      "options": {
+        "A": "0.50 c",
+        "B": "0.60 c",
+        "C": "0.70 c",
+        "D": "0.80 c"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0.60 c because, according to the principles of special relativity, length contraction occurs when an object is observed moving relative to an observer, and the formula for length contraction is L = L\u2080\u221a(1 - v\u00b2/c\u00b2), where L\u2080 is the proper length (1.00 m), L is the contracted length (0.80 m), and v is the velocity, leading to the calculation of v as 0.60 c.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1396"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_02_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The speed of light in a nonmagnetic dielectric material with a dielectric constant of 4.0 is 3.0 x 10^8 m/s.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The speed of light in a nonmagnetic dielectric material is reduced by the factor of the square root of the dielectric constant, so in a material with a dielectric constant of 4.0, the speed of light would be 3.0 x 10^8 m/s divided by 2, resulting in 1.5 x 10^8 m/s, not 3.0 x 10^8 m/s.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1407"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_02_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The detector will detect an average of 10 photons, with an rms deviation of about 3 due to the quantum efficiency of 0.1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because with a quantum efficiency of 0.1, the average number of photons detected is 10, and the rms deviation, which quantifies the statistical fluctuations due to the detection process, is consistent with the expected variation in a Poisson distribution where the standard deviation is the square root of the average detected count.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1402"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_02_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "In a reversible thermodynamic process, the temperature of the system must always remain constant.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a reversible thermodynamic process, the temperature of the system can change as long as the process occurs infinitely slowly, allowing the system to remain in equilibrium at every stage.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_02_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The primary source of the Sun's energy is a series of thermonuclear reactions involving four hydrogen atoms fusing to form one helium atom.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the Sun generates its energy through the process of nuclear fusion, where four hydrogen nuclei combine to form a single helium nucleus, releasing a significant amount of energy in the form of light and heat.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_02_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The particle will travel 450 m in the lab frame before decaying, accounting for relativistic effects.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, when accounting for relativistic effects, the particle\u2019s lifetime in the lab frame is extended due to time dilation, allowing it to travel a greater distance before decaying.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1416"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_02_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the harmonic series of an organ pipe that is closed at one end and open at the\nother, specifically analyzing how to determine the frequency of the next higher harmonic\ngiven a fundamental frequency of 131 Hz.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The harmonic series of an organ pipe that is closed at one end and open at the other\nconsists of only the odd harmonics. Given a fundamental frequency of 131 Hz, the next\nhigher harmonic is the third harmonic, which can be calculated by multiplying the\nfundamental frequency by three. Thus, the frequency of the next higher harmonic is 3 times\n131 Hz, resulting in 393 Hz. This relationship arises because in such pipes, the harmonics\nare produced at frequencies that are odd multiples of the fundamental frequency, leading\nto a distinct series of notes available for sound production.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because an organ pipe closed at one end produces only odd harmonics, and the next higher harmonic after the fundamental frequency is obtained by multiplying the fundamental by three, resulting in the third harmonic's frequency of 393 Hz.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1431"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_02_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "A police car moving towards a wall at 3.5 m/s emits a siren at 600 Hz. Calculate the\nfrequency of the echo heard by the driver, discussing the Doppler effect involved in your\nanalysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the frequency of the echo heard by the driver of the police car, we apply the\nDoppler effect, which describes the change in frequency of a wave in relation to an\nobserver moving relative to the wave source. The frequency emitted by the siren is 600 Hz,\nand since the police car is moving towards a stationary wall, we first need to determine\nthe frequency of the sound reflected back to the car. Using the formula for the Doppler\neffect when the source is moving towards a stationary observer, the frequency of the sound\nheard by the wall is given by: f' = f * (v + v_o) / (v - v_s), where f is the emitted\nfrequency (600 Hz), v is the speed of sound in air (approximately 343 m/s), v_o is the\nspeed of the observer (0 m/s, since the wall is stationary), and v_s is the speed of the\nsource (3.5 m/s). Plugging in the values, we find that the frequency reflected back to the\ncar is about 612 Hz. Consequently, this is the frequency of the echo heard by the driver.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the Doppler effect by recognizing that the frequency of the sound emitted by the moving police car will increase as it approaches the stationary wall, and then reflects back to the car, allowing for the calculation of the echo frequency heard by the driver.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1415"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

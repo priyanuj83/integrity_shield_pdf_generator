@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_14",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The polynomial 8x^3 + 6x^2 - 9x + 24 satisfies the Eisenstein criterion for irreducibility over Q because, when evaluated with p = 3, the coefficients of the polynomial demonstrate that all coefficients except the leading coefficient are divisible by 3, while the constant term is not divisible by 3 squared.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 27
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The polynomial must have real coefficients, so the roots 2 + i and 1 - i imply that their complex conjugates, 2 - i and 1 + i, are also roots, leading to a polynomial of degree 4 that can be expressed as x^4 - 6 x^3 + 15 x^2 - 18 x + 10, which satisfies this condition.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 14158
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is true, false because an integral domain with characteristic 0 must contain infinitely many elements (as it can't be a finite field), while an integral domain with prime characteristic can be finite, as seen in finite fields where the characteristic is a prime number.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 43
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The trace of a matrix is the sum of its eigenvalues, and since A is an involutory matrix (A = A^(-1)), its eigenvalues must be either 1 or -1, leading to the conclusion that for a 2x2 matrix, the only way to satisfy the condition that the eigenvalues sum to zero is if the trace of A is 0.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1173
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is based on the fact that the critical points of the function f(x, y) can be found by setting the partial derivatives equal to zero, and upon solving these equations, it becomes evident that the solutions lie along the line x = y, indicating that all relative extrema occur on this line.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1124
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when selecting k digits from the set {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, the probability of not choosing 0 for each digit is 9 out of 10, and since the selections are independent, the overall probability is (9/10)^k.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 14162
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A subring can exist without a unity, or it may have a different unity than the larger ring, as the definition of a subring does not require it to inherit the unity of its parent ring.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 60
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In the finite field Z_2, the polynomial x^2 + 1 evaluates to 0 when x = 1, confirming that 1 is indeed a zero of the polynomial.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 96
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The probability that the player who makes the first toss wins the game is not 1/4 because it depends on the game's specific rules and win conditions, which generally provide a higher probability for the first player than the stated fraction.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1159
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the equation (ab)^n = a^n b^n holds only when the elements a and b commute, meaning ab = ba, which is not generally true for all elements in a group.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 75
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "In an isosceles trapezoid, there are two pairs of congruent angles. Let $x$ and $y$ be the\ndistinct angle measures. Since the angles of a quadrilateral sum to 360, we have $2 x+2\ny=360$. Setting $x=40$ we find $y=\\boxed{140}$ degrees.",
+      "marks": 10,
+      "explanation": "correct because, in an isosceles trapezoid, the sum of the interior angles equals 360 degrees, and with two acute angles measuring 40 degrees each, the corresponding obtuse angles must measure 140 degrees to maintain the balance of angle measures.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 12237
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_14_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To determine the units digit of \\( 7^{25} \\), we can analyze the pattern of the units\ndigits of consecutive powers of 7. Calculating the first few powers, we find: - \\( 7^1 = 7\n\\) (units digit is 7) - \\( 7^2 = 49 \\) (units digit is 9) - \\( 7^3 = 343 \\) (units digit\nis 3) - \\( 7^4 = 2401 \\) (units digit is 1) Notably, the units digits repeat every four\npowers: 7, 9, 3, 1. To find the units digit of \\( 7^{25} \\), we calculate \\( 25 \\mod 4 \\),\nwhich gives us a remainder of 1. Therefore, \\( 7^{25} \\) shares the same units digit as \\(\n7^1 \\), which is 7. Thus, the units digit of \\( 7^{25} \\) is 7.",
+      "marks": 10,
+      "explanation": "correct because it identifies the repeating pattern of the units digits of powers of 7 (7, 9, 3, 1) and uses modular arithmetic to determine that \\( 7^{25} \\) corresponds to the first digit in this cycle, which is 7.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1140
+    }
+  ]
+}

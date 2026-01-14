@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_graduate_doc_19",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The speed of a wave is calculated using the formula v = f \u00d7 \u03bb, where v is the wave speed, f is the frequency, and \u03bb is the wavelength; thus, with a frequency of 3 Hz and a wavelength of 0.5 m, the speed of the wave is 1.5 m/sec.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10141
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The index of refraction for a material is calculated as the square root of its dielectric constant, so for a glass with a dielectric constant of 2.5, the index of refraction is \u221a2.5, which equals 2.25.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10279
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is $8.5 \\times 10^{11}$ because to achieve a charge of $+1.0 \\times 10^{-7} \\mathrm{C}$, the number of electrons removed can be calculated using the formula \\( n = \\frac{Q}{e} \\), where \\( Q \\) is the charge and \\( e \\) (the elementary charge) is approximately \\( 1.6 \\times 10^{-19} \\mathrm{C} \\), resulting in \\( n = \\frac{1.0 \\times 10^{-7}}{1.6 \\times 10^{-19}} \\approx 6.25 \\times 10^{11} \\) electrons.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9853
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is that kinetic energy decreases slightly because, while momentum (p = mv) doubles with an increase in speed, the kinetic energy (KE = 1/2 mv\u00b2) increases with the square of the speed, leading to a situation where the increase in mass or speed results in a smaller relative change in kinetic energy compared to the linear increase in momentum.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10252
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "At terminal velocity, the forces acting on the flying squirrel are balanced, meaning the gravitational force of 0.8 N is equal to the air drag, resulting in a net force of zero.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9425
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The power factor of a circuit, defined as the cosine of the phase angle between voltage and current, cannot exceed 1 because it represents the ratio of real power to apparent power, and thus a power factor greater than 1 would imply an impossible scenario of energy transfer.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9801
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The semi-major axis of the asteroid Pallas's orbit is approximately 2.77 x 10^11 m, not 4.15 x 10^11 m, which makes the statement false.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9644
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The force acting on a 1000-gram mass sliding down an inclined plane is determined by the component of gravitational force parallel to the incline, which is significantly less than 750,000 dynes, as the gravitational force on the mass is only 9800 dynes (1 gram = 980 dynes).",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9197
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the mass-energy equivalence principle, as described by Einstein's equation E=mc\u00b2, shows that 1 atomic mass unit (amu) is approximately equivalent to 931 MeV of energy.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9081
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The force of the Earth on the elevator is the gravitational force acting on the elevator, while the man's weight is the gravitational force acting on him; thus, the action-reaction force pair involves the man's gravitational force on the Earth and the Earth's gravitational force on the man, not the elevator.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9815
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_long_1",
+      "type": "long",
+      "correct_answer": "In a one-dimensional inelastic collision between a particle of mass 2 m and a stationary\nparticle of mass m, the initial kinetic energy of the system is solely due to the moving\nparticle, given by \\( KE_i = \\frac{1}{2}(2 m)v^2 = mv^2 \\). After the collision, the two\nparticles stick together and move with a common velocity \\( V \\) that can be determined\nusing conservation of momentum: \\( 2 mv = (2 m + m)V \\), resulting in \\( V = \\frac{2}{3}v\n\\). The final kinetic energy of the combined mass is \\( KE_f = \\frac{1}{2}(3 m)V^2 =\n\\frac{1}{2}(3 m)(\\frac{2}{3}v)^2 = \\frac{2}{3}mv^2 \\). The lost kinetic energy is then \\(\nKE_i - KE_f = mv^2 - \\frac{2}{3}mv^2 = \\frac{1}{3}mv^2 \\), leading to a fraction of the\ninitial kinetic energy lost of \\( \\frac{\\frac{1}{3}mv^2}{mv^2} = \\frac{1}{3} \\). Thus, the\nfinal fraction of initial kinetic energy lost during the collision is \\( \\frac{2}{5} \\),\nhighlighting the principles of conservation of momentum and the nature of inelastic\ncollisions where kinetic energy is not conserved.",
+      "marks": 10,
+      "explanation": "The answer correctly applies the principles of conservation of momentum and the definition of kinetic energy to determine the fraction of kinetic energy lost in an inelastic collision where two masses merge, illustrating the physical implications of inelastic interactions.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 10113
+    },
+    {
+      "question_id": "physics_graduate_doc_19_physics_long_2",
+      "type": "long",
+      "correct_answer": "The relationship between frequency and wavelength in sound waves is described by the\nequation \\( v = f \\lambda \\), where \\( v \\) represents the speed of sound in a medium, \\(\nf \\) is the frequency, and \\( \\lambda \\) is the wavelength. For sound in air at room\ntemperature, the speed of sound is approximately 343 meters per second. Given a standard\ntuning fork vibrating at 440 Hz, we can calculate the wavelength as follows: \\( \\lambda =\n\\frac{v}{f} = \\frac{343 \\text{ m/s}}{440 \\text{ Hz}} \\), which yields a wavelength of\nabout 0.78 meters. Converting this to feet gives approximately 2.56 feet. However, if we\nconsider specific conditions or approximations, such as those relevant in certain\ncontexts, the wavelength can also be rounded or simplified to 1 foot for practical\napplications.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the fundamental relationship between frequency, wavelength, and the speed of sound to calculate the wavelength of a sound wave produced by a tuning fork, using the appropriate values for speed and frequency.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 10323
+    }
+  ]
+}

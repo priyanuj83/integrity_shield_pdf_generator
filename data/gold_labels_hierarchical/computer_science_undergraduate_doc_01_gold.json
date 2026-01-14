@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_undergraduate_doc_01",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "This answer is correct because replacing the page with the next reference farthest in the future minimizes the risk of evicting a page that will be needed sooner, thereby reducing the total number of page faults.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14149
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it equals 14 in the first digit (E) and 7 in the second digit, resulting in the hexadecimal representation E7.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3220
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The `strip([chars])` function in Python 3 is specifically designed to remove all leading and trailing whitespace characters from a string, making it the correct answer for this question.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The Address Resolution Protocol (ARP) is designed to map IP addresses to their corresponding hardware (MAC) addresses, enabling devices on a local network to locate each other and communicate effectively.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1058
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The primary distinction between a DDoS attack and a DoS attack lies in the fact that a DDoS attack is executed using multiple compromised computers, which significantly amplifies its scale and impact compared to a DoS attack that typically originates from a single source.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Merge sort consistently divides the input data into halves and processes them in a manner that does not vary with the initial ordering, resulting in a time complexity of O(n log n) regardless of whether the data is sorted, reversed, or randomly ordered.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1032
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The access matrix approach, while useful for representing access rights, can become unwieldy and inefficient for complex protection requirements due to its inability to handle dynamic access control and fine-grained permissions effectively.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 996
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Finding a largest clique in an undirected graph is NP-hard, meaning there is no known polynomial-time algorithm to solve this problem for all instances.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1017
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Even with extensive testing, it is impossible to guarantee that all potential bugs are identified due to the complexity of software systems, the limitations of testing methods, and the presence of edge cases that may not be encountered during testing.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3216
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Python variable names are case-sensitive, meaning that variables named \"Variable\", \"variable\", and \"VARIABLE\" are treated as distinct identifiers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def second_smallest(numbers): | return  uniq_items[1]",
+      "marks": 10,
+      "explanation": "correct because it implies that the function first filters the input list to obtain unique items, and then accesses the second element in this sorted list, which corresponds to the second smallest number.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 755
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_01_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def check_monthnum_number(monthnum1): | return True | return False",
+      "marks": 10,
+      "explanation": "The answer correctly defines a function that checks if the input month number corresponds to February, which is the only month that consistently has 28 days, returning True for February and False for all other months, thereby fulfilling the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 820
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 22 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 53; B) 29; C) 50; D) 100
+\\ \textit{Note:} The correct answer is 100 because evaluating the recursive function f(4) involves calculating f(3), f(2), and f(1) based on the defined conditions, leading to the final computation of f(4) = 4 * (f(3) + 4) = 100 after performing the necessary recursive calculations.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Temporary inconsistencies among views of a file by different machines can result; B) The file system is likely to be corrupted when a computer crashes; C) A much higher amount of network traffic results; D) Caching makes file migration impossible
+\\ \textit{Note:} The correct answer highlights that local caching can lead to temporary inconsistencies because when multiple machines cache a file, they may not immediately reflect updates made by others, resulting in different views of the same file at the same time.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) O(1); B) O(n); C) O($n^2$); D) O(log n)
+\\ \textit{Note:} O(1) represents constant time complexity, meaning it does not grow with the size of the input, making it the smallest asymptotic notation compared to other complexities that increase with input size.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Recursive procedures; B) Arbitrary goto's; C) Two-dimensional arrays; D) Integer-valued functions
+\\ \textit{Note:} Recursive procedures require stack-based storage allocation because each recursive call needs its own separate instance of local variables and return addresses, which the stack can dynamically manage as calls are made and unwound.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) one in which each main memory word can be stored at any of 3 cache locations; B) effective only if 3 or fewer processes are running alternately on the processor; C) possible only with write-back; D) faster to access than a direct-mapped cache
+\\ \textit{Note:} A$_{3}$-way set-associative cache allows each main memory word to be stored in any of three different cache locations within the same set, providing greater flexibility and efficiency in data retrieval compared to direct-mapped caches.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because an upper bound of O(N log N) indicates that the function grows at a rate that is at least N log N, which may not necessarily be larger than the actual growth rate of the function if it is, for example, linear or sub-linear.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A device driver is not assigned when a device connects to the Internet; instead, it is a software component that allows the operating system to communicate with hardware devices and is typically installed prior to the device being used.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the max() function in Python 3 returns the largest element in the list, which in this case is 4, not the smallest element.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Bitmap graphics are composed of individual pixels, which can only approximate curves and angles, resulting in certain line segments appearing jagged or not entirely straight due to the grid-like arrangement of pixels.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because in Python, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is indeed 'Chemistry'.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def is\_Two\_Alter(s): | return False | return False | return True
+\\ \textit{Note:} correct because it provides a function that checks if the input string consists solely of two distinct characters that alternate, returning True if they do and False otherwise, although the implementation is incomplete and lacks the necessary logic to correctly evaluate the string.
+\item \textbf{Answer:} def move\_num(test\_str): | return (res)
+\\ \textit{Note:} correct as it outlines the beginning of a function that aims to manipulate a string by moving all numerical characters within it, although it lacks the complete implementation details necessary for full functionality.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

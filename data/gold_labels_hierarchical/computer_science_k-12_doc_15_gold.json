@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_15",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression x >> 1 in Python 3 performs a bitwise right shift on the binary representation of x, effectively dividing the number by 2, so shifting the binary representation of 8 (which is 1000 in binary) to the right by one position results in 4 (which is 0100 in binary).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3227
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "When a new device is connected to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and allows for communication with other devices.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "In Python, negative indexing allows access to elements from the end of a string, so \"abc\"[-1] retrieves the last character, which is 'c'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3247
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The `strip()` function in Python 3 is specifically designed to remove all leading and trailing whitespace characters from a string, making it the correct choice for this question.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A distributed denial-of-service (DDoS) attack involves multiple compromised computers working together to overwhelm a target, whereas a denial-of-service (DoS) attack typically originates from a single source, highlighting the key difference in the number of attacking computers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3266
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the expression ['Hi!'] * 4 is valid syntax in Python 3 and results in a list containing four copies of the string \"Hi!\".",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3262
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "O(1) indicates that the time taken by an algorithm does not depend on the size of the input, making it the fastest possible time complexity and thus the smallest in the hierarchy of asymptotic notations.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because O(log n) represents logarithmic growth, which increases much more slowly than O(n^2), indicating that as n increases, O(n^2) grows significantly faster than O(log n).",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "In Python 3, floor division is performed using the operator '//' instead of the operator '/', which is used for regular division.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Sorting values in a column or row organizes the data in a way that makes it easier to spot outliers or anomalies, such as unusually high or low entries, compared to the rest of the dataset.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3221
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "When we process the list l = [1, 2, 2, 3, 4] using the set data structure in Python 3, the\noutput is {1, 2, 3, 4}. A set automatically removes any duplicate values, which is why the\nrepeated number '2' appears only once in the result. This feature is significant because\nit allows us to obtain a collection of unique elements from the list, making it easier to\nanalyze data without redundancy. The use of sets is particularly useful in various\napplications, such as counting distinct items or performing operations like unions and\nintersections efficiently.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the set data structure in Python 3 removes duplicate values from the list, resulting in a collection of unique elements, which is essential for data analysis and various computational applications.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3270
+    },
+    {
+      "question_id": "computer_science_k-12_doc_15_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "The trend of computer processing speeds doubling approximately every two years\nsignificantly influences technology companies' research and development strategies.\nCompanies can set ambitious goals for their projects based on the expectation that faster\nprocessing will allow for more complex and innovative applications. For example, a company\nfocusing on artificial intelligence might plan to develop more sophisticated algorithms\nthat can leverage the increased speed for quicker data analysis. This foresight encourages\ninvestment in cutting-edge technologies and can lead to advancements in various fields,\nsuch as gaming or data science, where processing power is crucial. By anticipating these\nchanges, companies can stay competitive and push the boundaries of what is possible with\ntechnology.",
+      "marks": 10,
+      "explanation": "The answer correctly highlights how the predictable increase in processing speeds enables technology companies to set ambitious research and development goals, allowing them to innovate and create more complex applications, such as advanced artificial intelligence algorithms that benefit from faster data processing.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3193
+    }
+  ]
+}

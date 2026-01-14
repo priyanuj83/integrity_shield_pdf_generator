@@ -1,0 +1,289 @@
+{
+  "docid": "computer_science_k-12_doc_12",
+  "document_name": "Computer Science - K-12 Level Assessment 12",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "cs_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_12.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_12_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following has the greatest potential for compromising a user's personal\nprivacy?",
+      "options": {
+        "A": "A group of cookies stored by the user's Web browser",
+        "B": "The Internet Protocol (IP) address of the user's computer",
+        "C": "The user's e-mail address",
+        "D": "The user's public key used for encryption"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A group of cookies stored by the user's web browser can track online behavior and preferences, potentially revealing sensitive personal information to advertisers and third parties, thereby significantly compromising user privacy.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3267"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 4 + 3 % 2?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "4",
+        "D": "5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5 because in Python, the modulo operator (%) has higher precedence than addition (+), so the expression is evaluated as 4 + (3 % 2), which equals 4 + 1, resulting in 5.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, b = [11,13,15,17,19,21]; print(b[::2]) outputs what?",
+      "options": {
+        "A": "[19,21]",
+        "B": "[11,15]",
+        "C": "[11,15,19]",
+        "D": "[13,17,21]"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is [11,15,19] because the slicing operation b[::2] selects every second element from the list b, starting from the first element at index 0.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3274"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the hexadecimal representation of the decimal number 231_{10} ?",
+      "options": {
+        "A": "17_{16}",
+        "B": "E 4_{16}",
+        "C": "E 7_{16}",
+        "D": "F 4_{16}"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is E7_{16} because when converting the decimal number 231 to hexadecimal, it equals 14 in the 16s place (E) and 7 in the 1s place, resulting in the hexadecimal representation E7.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3220"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_12_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which is the smallest asymptotically?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "O(1) is the smallest asymptotic notation because it represents a constant time complexity that does not grow with the size of the input, unlike other notations such as O(n), O(n log n), or O(n^2), which indicate increasing time complexities as the input size increases.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, floor division is performed using the operator '/'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, floor division is performed using the operator '//' instead of the operator '/', which is used for regular division.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Authentication is compromised when an unauthorized user logs into a system using stolen credentials.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is compromised because it relies on verifying the identity of a user, and if an unauthorized individual gains access using stolen credentials, the system cannot accurately confirm the legitimate user's identity.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3237"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "A distributed denial-of-service (DDoS) attack involves multiple computers launching the attack simultaneously.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A distributed denial-of-service (DDoS) attack is characterized by the coordinated effort of multiple compromised computers, known as a botnet, that overwhelm a target's resources by sending a high volume of traffic simultaneously.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3266"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python, the expression list[1:3] with list = [ 'abcd', 786 , 2.23, 'john', 70.2 ] results in [786, 2.23].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because in Python, list slicing with the expression list[1:3] retrieves the elements at index 1 and index 2 from the given list, which are 786 and 2.23, resulting in the sublist [786, 2.23].",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3223"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_12_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Python variable names are case-sensitive, meaning 'Variable' and 'variable' are treated as different identifiers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, variable names are considered different if they differ in capitalization, so 'Variable' and 'variable' are treated as separate identifiers due to the language's case sensitivity.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_12_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the number of possible sequences of length n such that each of\nthe next element is greater than or equal to twice of the previous element but less than\nor equal to m.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_total_number_of_sequences(m,n): | return T[m][n]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes a dynamic programming approach by storing the computed values in a table T, where T[m][n] represents the total number of valid sequences of length n with the maximum value m, effectively encapsulating the problem constraints of the sequence formation.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "239"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_12_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to perform the adjacent element concatenation in the given tuples.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def concatenate_elements(test_tup): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to define a function that processes tuples, suggesting that it will return a result based on concatenating adjacent elements, which is the core requirement of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "206"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

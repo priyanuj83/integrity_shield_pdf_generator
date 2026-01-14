@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_undergraduate_doc_11",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mmlu_pro_math_mcq",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The first statement is false because a subgroup H is not necessarily normal in G, which means that aH does not equal Ha for all elements a in G, while the second statement is false because it fails to recognize that the condition of normality requires a specific relationship between elements of G and the subgroup H, rather than simply asserting that ah = ha for all h in H.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 30
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 0 because in the ring Z_24, the product of 12 and 16, which is 192, is congruent to 0 modulo 24, as 192 is a multiple of 24.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 88
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is -19 because T is a linear transformation, and applying the linearity property, we have T(-3, 2) = -3T(1, 0) + 2T(0, 1) = -3(3) + 2(-5) = -9 - 10 = -19.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 87
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The characteristic of the ring Z_3 x Z_3 is 3 because it is the smallest positive integer n such that n times any element in the ring equals the additive identity, which holds true since both components of the ring Z_3 have characteristic 3.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 73
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The first statement is false because two vectors in R^2 can be linearly dependent if they are scalar multiples of each other, while the second statement is true because the dimension of a vector space spanned by k linearly independent vectors is indeed k.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 22
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The element 2 is not a generator of the multiplicative group of nonzero elements in Z_7 because it does not produce all the elements of the group through its powers, specifically failing to generate the element 3.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 38
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the divisibility of 3x + 7y by 11 does not guarantee that the linear combination 9x + 4y will also be divisible by 11, as their coefficients are not directly related in a way that ensures the same divisibility condition holds.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1161
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The identity element in a group under multiplication modulo 10 is the element that, when multiplied by any other element in the group, returns that element; in this case, since 6 multiplied by any element in {2, 4, 6, 8} modulo 10 equals that element, 6 is indeed the identity element.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 52
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A nontrivial homomorphism from a finite group to an infinite group cannot exist because the image of the finite group under the homomorphism must also be finite, contradicting the infinite nature of the target group.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 46
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in an Abelian group, if elements a and b have finite orders m and n that are coprime, then the order of the product ab is indeed the least common multiple of the orders of a and b, which is lcm(m, n) = mn.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 14048
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "Let $C$ be the intersection of the horizontal line through $A$ and the vertical line\nthrough $B.$ In right triangle $ABC,$ we have $BC=3$ and $AB=5,$ so $AC=4.$ Let $x$ be the\nradius of the third circle, and $D$ be the center. Let $E$ and $F$ be the points of\nintersection of the horizontal line through $D$ with the vertical lines through $B$ and\n$A,$ respectively, as shown. [asy] unitsize(0.7 cm); draw((-3,0)--(7.5,0));\ndraw(Circle((-1,1),1),linewidth(0.7)); draw(Circle((3,4),4),linewidth(0.7));\ndraw(Circle((0.33,0.44),0.44),linewidth(0.7)); dot((-1,1)); dot((3,4));\ndraw((-1,1)--(-2,1)); draw((3,4)--(7,4)); label(\"{\\tiny A}\",(-1,1),N); label(\"{\\tiny\nB}\",(3,4),N); label(\"{\\tiny 1}\",(-1.5,1),N); label(\"{\\tiny 4}\",(5,4),N);\ndraw((3,4)--(-1,1)--(3,1)--cycle); draw((3,0.44)--(-1,0.44)); draw((-1,1)--(-1,0));\ndraw((3,1)--(3,0)); draw((-1,1)--(0.33,0.44)); draw((0.33,0.44)--(3,4),dashed);\ndot((3,1)); dot((3,0.44)); dot((-1,0.44)); dot((0.33,0.44)); label(\"{\\tiny C}\",(3,1),E);\nlabel(\"{\\tiny E}\",(3,0.44),E); label(\"{\\tiny D}\",(0.33,0.44),S); label(\"{\\tiny\nF}\",(-1,0.44),W); [/asy] In $\\triangle BED$ we have $BD = 4+x$ and $BE = 4-x,$ so $$DE^2 =\n(4+x)^2 - (4-x)^2 = 16 x,$$and $DE = 4\\sqrt{x}.$ In $\\triangle ADF$ we have $AD = 1+x$ and\n$AF=1-x,$ so $$FD^2 = (1+x)^2 - (1-x)^2 = 4 x,$$and $FD = 2\\sqrt{x}.$ Hence,\n$$4=AC=FD+DE=2\\sqrt{x}+4\\sqrt{x}=6\\sqrt{x}$$and $\\sqrt{x}=\\frac{2}{3},$ which implies\n$x=\\boxed{\\frac{4}{9}}.$",
+      "marks": 10,
+      "explanation": "correct because it utilizes the geometric relationship between the centers of the circles and the properties of right triangles to establish the distances involved, allowing for the determination of the radius of the third circle using the tangential relationships with the first two circles.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 16223
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_11_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The maximum area of a triangular region with one vertex at the center of a circle of\nradius 1 and the other two vertices on the circumference occurs when the two vertices are\npositioned opposite each other, forming a diameter of the circle. In this configuration,\nthe triangle becomes an isosceles triangle with its base along the diameter and height\nequal to the radius of the circle. The area can be calculated using the formula for the\narea of a triangle, A = 1/2 * base * height. Here, the base is 2 (the diameter) and the\nheight is 1 (the radius), resulting in an area of A = 1/2 * 2 * 1 = 1. Thus, the maximum\narea of the triangle is 1 square unit, achieved under these specific conditions.",
+      "marks": 10,
+      "explanation": "correct because the area of the triangle is maximized when the base is the diameter of the circle, allowing the height to equal the radius, which results in the largest possible area for the given configuration.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1123
+    }
+  ]
+}

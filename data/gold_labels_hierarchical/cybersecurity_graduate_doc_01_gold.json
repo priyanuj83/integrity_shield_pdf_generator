@@ -1,0 +1,123 @@
+{
+  "document_id": "cybersecurity_graduate_doc_01",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The AH Protocol (Authentication Header) is designed to ensure source authentication and integrity of the data packets, but it does not provide confidentiality or privacy for the payload, as it does not encrypt the data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1484
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"Modification detection code (MDC)\" because a hash function generates a fixed-size output, known as a digest, that serves to verify the integrity of data by detecting any modifications made to the original input.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1532
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Snort is an open-source network intrusion detection and prevention system that specializes in real-time traffic analysis and packet logging, making it the correct choice for this question.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1510
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Morris Worm, released in 1988, is considered the first buffer overflow attack as it exploited vulnerabilities in UNIX systems to propagate itself, illustrating the potential for buffer overflow exploits to cause widespread disruption in computer networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Base Transceiver Station (BTS) functions similarly to an Access Point (AP) by facilitating wireless communication and signal coverage for mobile operators, serving as a critical component in cellular networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1550
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the 4-way handshake is a crucial procedure in wireless security protocols, such as WPA2, that establishes a secure connection between a user and an access point by confirming the user's credentials and generating unique session keys.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1512
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "EtterPeak is considered a widely used tool for network analysis in multiprotocol diverse networks because it effectively captures and analyzes network traffic across various protocols, aiding in the identification of security vulnerabilities and performance issues.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1549
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Eavesdropping is indeed a security exploit that compromises sensitive information during data transmission, making the statement False because it inaccurately suggests that eavesdropping does not pose a risk to data security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1485
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Tor browser is specifically designed to route internet traffic through the Tor network, enabling users to access its services while obscuring their identity and location, which is essential for maintaining anonymity online.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1530
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A SYN stealth scan sends a SYN packet to the target port and analyzes the response without completing the three-way TCP handshake, allowing the scanner to identify open ports while remaining undetected.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1546
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "The encryption scheme defined by E(k,m) = [r \u2190 R, output (r, F(k,r) \u2295 m)] achieves\nsemantic security under chosen plaintext attacks, provided that the randomness source R is\nsufficiently large to ensure that the value of r does not repeat with high probability.\nThis randomness is crucial as it ensures that even with the same plaintext m and key k,\nthe resulting ciphertext will vary due to the unique random value r. Consequently, an\nattacker cannot derive any meaningful information about the plaintext from the ciphertext\nwithout knowledge of the random value used, thereby preserving confidentiality. Therefore,\nthe semantic security of this scheme hinges on the effectiveness of the randomization\nprocess, making it vital for R to be expansive enough to prevent repetition of r.",
+      "marks": 10,
+      "explanation": "correct because the use of a sufficiently large random value r ensures that each encryption of the same plaintext m under the same key k produces a unique ciphertext, thereby preventing attackers from gaining any information about the plaintext even when they can choose the plaintexts to be encrypted.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1533
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_01_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "The presentation layer in cybersecurity plays a crucial role in how data is formatted and\ntransmitted between applications, yet it is often undermined by weak or non-existent\nauthentication mechanisms. Such vulnerabilities can lead to unauthorized access, data\nbreaches, and increased susceptibility to various attacks, including man-in-the-middle\nscenarios. Without robust authentication processes, malicious actors can impersonate\nlegitimate users, compromising the integrity and confidentiality of data. This lack of\nsecurity not only undermines user trust but can also lead to significant financial and\nreputational damage for organizations. Therefore, implementing strong authentication\nprotocols at the presentation layer is essential for safeguarding against potential\nthreats and ensuring system resilience.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that weak or non-existent authentication mechanisms at the presentation layer can lead to serious security vulnerabilities, including unauthorized access and data breaches, thereby compromising the integrity and confidentiality of the system.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1564
+    }
+  ]
+}

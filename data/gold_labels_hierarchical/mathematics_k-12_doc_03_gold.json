@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_03",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "To find out how many hours Mai needs to work to earn $132, you divide her total earnings by her hourly wage, which is $132 \u00f7 $5.50 = 24 hours.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2237
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The region satisfying the inequalities forms a trapezoidal shape between the lines \\(y = |x|\\) and \\(y = -|x| + 3\\), and calculating the area of this shape gives 4.5 square units.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 14511
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 625 because there are 5 choices (1, 3, 5, 7, 9) for each of the four digits in the 4-digit number, resulting in 5 x 5 x 5 x 5 = 625 possible combinations.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4298
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The difference between the 60th and 40th percentile scores provides insight into the spread of data within a population, indicating how much the scores vary around the median.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5504
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "199 is the smallest prime number whose digits (1 + 9 + 9) sum to 19, and it is the lowest such number that meets both criteria of being prime and having a digit sum of 19.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4274
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when the widths of the two cardboard strips are added together, they equal 1.5 feet, which is the same as 1 and 1 over 2 feet.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2209
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the possible distributions of 4 distinguishable balls into 2 indistinguishable boxes can be categorized as (4,0), (3,1), and (2,2), leading to a total of 8 distinct arrangements when considering the different combinations of balls for each distribution.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4250
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the solution to the equation 8y = 56 is y = 7, not y = 6, as dividing both sides of the equation by 8 yields y = 56/8 = 7.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2427
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Substituting -1 for x in the equation 5x - 5 = -10 yields 5(-1) - 5 = -5 - 5 = -10, which confirms that -1 is indeed a solution.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2166
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because substituting 5.7 for x in the equation x + 2.7 = 8.4 results in the correct equality: 5.7 + 2.7 equals 8.4.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2089
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Note that \\[a_k = \\frac{1}{k^2+k} = \\frac{1}{k} - \\frac{1}{k+1}\\]for each $k.$ Thus, the\nsum telescopes: \\[\\begin{aligned} a_m + a_{m+1} + \\dots + a_{n-1} & = \\left(\\frac{1}{m} -\n\\frac{1}{m+1}\\right) + \\left(\\frac{1}{m+1} - \\frac{1}{m+2}\\right) + \\dots +\n\\left(\\frac{1}{n-1} - \\frac{1}{n}\\right) \\\\ &= \\frac{1}{m} - \\frac{1}{n}.\n\\end{aligned}\\]Therefore, we have the equation $1/m - 1/n = 1/29.$ Multiplying by $29 mn$\non both sides, we have $29 n - 29 m = mn,$ or $mn + 29 m - 29 n = 0.$ Subtracting $29^2$\nfrom both sides, we get \\[(m-29)(n+29) = -29^2.\\]Since $29$ is prime and $0 < m < n,$ the\nonly possibility is $m-29 = -1$ and $n+29 = 841,$ which gives $m = 28$ and $n = 812.$\nThus, $m+n=28+812=\\boxed{840}.$",
+      "marks": 10,
+      "explanation": "correct because it utilizes the telescoping nature of the series defined by \\( a_k \\), allowing for a simplified expression of the sum \\( a_m + a_{m+1} + \\dots + a_{n-1} \\) as \\( \\frac{1}{m} - \\frac{1}{n} \\), which can then be equated to \\( \\frac{1}{29} \\) to derive a quadratic equation in \\( m \\) and \\( n \\).",
+      "source_dataset": "gsm8k_math",
+      "source_id": 9282
+    },
+    {
+      "question_id": "mathematics_k-12_doc_03_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To analyze the function y = 5 + 3 * sin(pi - x), we start by understanding the sine\nfunction. The sine function oscillates between -1 and 1, so sin(pi - x) also has this\nrange. Therefore, the expression 3 * sin(pi - x) will oscillate between -3 and 3. By\nadding 5 to this range, we find that y will oscillate between 5 - 3 = 2 and 5 + 3 = 8.\nThus, the range of the function is 2 \\leq y \\leq 8. This conclusion shows how\ntransformations of the sine function affect its range.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies the oscillatory nature of the sine function, determines the effect of scaling and shifting on its range, and correctly calculates the final range of the function y = 5 + 3 * sin(pi - x) as 2 \u2264 y \u2264 8.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 4444
+    }
+  ]
+}

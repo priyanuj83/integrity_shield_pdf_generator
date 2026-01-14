@@ -1,0 +1,294 @@
+{
+  "docid": "mathematics_graduate_doc_02",
+  "document_name": "Mathematics - Graduate Level Assessment 2",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_02.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "compute the line integral of \\int_K xy dx, \\int_L xy dx, where K is a straight line from\n(0,0) to (1,1) and L is the Parabola y=x^2 from (0,0) to (1,1). return the answer as a\nlist",
+      "options": {
+        "A": "[0.333, 0.2]",
+        "B": "[0.1, 0.05]",
+        "C": "[0.4, 0.3]",
+        "D": "[0.5, 0.75]",
+        "E": "[0.4, 0.5]"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of [0.333, 0.2] is derived from evaluating the line integral of the function xy along the straight line K and the parabola L, where the integral along K results in 1/3 (or approximately 0.333) due to the linear path, while the integral along L results in 1/5 (or 0.2) due to the curvature affecting the area under the curve.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7975"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "For which of the following rings is it possible for the product of two nonzero elements to\nbe zero?",
+      "options": {
+        "A": "The ring of complex numbers with rational coefficients",
+        "B": "The ring of integers modulo 11",
+        "C": "The ring of continuous real-valued functions on [0, 1]",
+        "D": "The ring of rational numbers",
+        "E": "The ring of complex numbers"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the ring of continuous real-valued functions on [0, 1], it is possible for the product of two nonzero functions to be zero if they are zero at the same point, demonstrating the concept of zero divisors in the context of function rings.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8157"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A team of volunteers collected a total of $5,144 selling T-shirts at a charity concert.\nEach T-shirt was sold for $8. What was the total number of T-shirts the volunteers sold?",
+      "options": {
+        "A": "650",
+        "B": "700",
+        "C": "680",
+        "D": "655",
+        "E": "620"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 650 because dividing the total amount collected, $5,144, by the price per T-shirt, $8, yields 650 T-shirts sold (5,144 \u00f7 8 = 643).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "9006"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Write 8 and 2 over 4 as an improper fraction in simplest form.",
+      "options": {
+        "A": "17 over 2",
+        "B": "34 over 4",
+        "C": "16 over 2",
+        "D": "19 over 2",
+        "E": "33 over 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To convert the mixed number 8 and 2 over 4 to an improper fraction, you first convert 8 into a fraction with a denominator of 1, giving 8/1, then multiply 8 by 4 (the denominator) to get 32, add the numerator 2 to get 34, and finally place that over the denominator 4, simplifying to 17/2.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8677"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Identify a solution for the equation 5 x - 5 = -10 from the given numbers.",
+      "options": {
+        "A": "-2",
+        "B": "-5",
+        "C": "-4",
+        "D": "0",
+        "E": "2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The solution -2 is correct because substituting it into the equation 5(-2) - 5 results in -10, thereby satisfying the equation 5x - 5 = -10.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8989"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The covariance Cov(X(s=1/2), X(t=1)) for standard Brownian motion is equal to 1.6180.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The covariance Cov(X(s=1/2), X(t=1)) for standard Brownian motion is given by the formula min(s, t), which evaluates to 1/2 when s = 1/2 and t = 1, thus making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8953"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The probability that all three mutually independent events A, B, and C occur is 0.36.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the probability of all three mutually independent events A, B, and C occurring is calculated as the product of their individual probabilities, and if that product equals 0.36, then it confirms the statement.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8871"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The total volume of water in 8 fish tanks, each containing 40 liters, is 400 liters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total volume of water in the 8 fish tanks is calculated by multiplying the number of tanks (8) by the volume of water in each tank (40 liters), resulting in a total of 320 liters, which is incorrectly stated as 400 liters, making the statement false; however, if the total volume were indeed calculated correctly, it would represent the accurate total.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "An outlier is the mode of the data set, representing the most frequently occurring observation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An outlier is a data point that significantly differs from the other observations in a dataset, while the mode is defined as the most frequently occurring value, and they are not inherently related concepts.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_02_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Consider the initial value problem $$ 5 u^{\\prime \\prime}+2 u^{\\prime}+7 u=0, \\quad u(0)=2, \\quad u^{\\prime}(0)=1 $$ Find the smallest...' is '14.5115'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the solution to the initial value problem, when solved using appropriate methods for second-order linear differential equations, yields a value of 14.5115 for the specified condition.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8533"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_02_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the process of determining the units digit of the number 7 raised to the power of\n25. Discuss the underlying patterns and mathematical principles involved in your\nreasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the units digit of \\(7^{25}\\), we first observe the pattern in the units\ndigits of successive powers of 7. Calculating the first few powers, we find: \\(7^1 = 7\\)\n(units digit 7), \\(7^2 = 49\\) (units digit 9), \\(7^3 = 343\\) (units digit 3), and \\(7^4 =\n2401\\) (units digit 1). This reveals a repeating cycle of units digits: 7, 9, 3, 1, which\nhas a length of 4. To find the units digit of \\(7^{25}\\), we compute \\(25 \\mod 4\\),\nyielding a remainder of 1. Consequently, the units digit of \\(7^{25}\\) corresponds to the\nfirst element in our identified cycle, which is 7. Thus, the units digit of \\(7^{25}\\) is\n7.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the repeating cycle of units digits for powers of 7, demonstrates how to find the relevant position within that cycle using modular arithmetic, and accurately concludes that the units digit of \\(7^{25}\\) corresponds to the first element of the cycle, which is 7.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7732"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_02_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Evaluate the integral \\( \\frac{2}{\\pi} \\int_0^{+\\infty} \\frac{\\sin^2 t}{t^2} \\cos(2 xt) \\,\ndt \\) for \\( x = \\frac{\\sqrt{17}}{17} \\), and discuss your findings, rounding the result\nto the hundredths place.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To evaluate the integral \\( \\frac{2}{\\pi} \\int_0^{+\\infty} \\frac{\\sin^2 t}{t^2} \\cos(2 xt)\n\\, dt \\) for \\( x = \\frac{\\sqrt{17}}{17} \\), we can utilize the known result that \\(\n\\int_0^{+\\infty} \\frac{\\sin^2 t}{t^2} \\cos(2 xt) \\, dt = \\frac{\\pi}{4} \\) for any real \\(\nx \\). Thus, substituting this into our expression gives us: \\[ \\frac{2}{\\pi} \\cdot\n\\frac{\\pi}{4} = \\frac{2}{4} = \\frac{1}{2}. \\] However, if we analyze the behavior of the\nintegral further with the specific value of \\( x = \\frac{\\sqrt{17}}{17} \\), it does not\naffect the outcome as the integral evaluates to 1 regardless of the value of \\( x \\)\nwithin the specified range. Therefore, the result of the integral evaluates to 1.00 when\nrounded to the hundredths place, confirming that the integral yields a consistent result\nacross its valid domain.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the integral \\( \\int_0^{+\\infty} \\frac{\\sin^2 t}{t^2} \\cos(2xt) \\, dt \\) evaluates to \\( \\frac{\\pi}{4} \\) for any real \\( x \\), leading to the final result of \\( \\frac{2}{\\pi} \\cdot \\frac{\\pi}{4} = \\frac{1}{2} \\).",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9022"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_19",
+  "document_name": "Cybersecurity - Graduate Level Assessment 19",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_19.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A ___________ is a method in which a computer security mechanism is bypassed untraceable\nfor accessing the computer or its information.",
+      "options": {
+        "A": "front-door",
+        "B": "backdoor",
+        "C": "clickjacking",
+        "D": "key-logging"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a method that allows unauthorized access to a computer system or its data without detection, making it a key concept in cybersecurity related to bypassing security mechanisms.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1517"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The stack is memory for storing",
+      "options": {
+        "A": "Local variables",
+        "B": "Program code",
+        "C": "Dynamically linked libraries",
+        "D": "Global variables"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The stack is a memory structure used in programming that primarily stores local variables and function call information, making it essential for managing variable scope and function execution in cybersecurity contexts.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1558"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is penetration testing?",
+      "options": {
+        "A": "A procedure for testing libraries or other program components for vulnerabilities",
+        "B": "Whole-system testing for security flaws and bugs",
+        "C": "A security-minded form of unit testing that applies early in the development process",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Penetration testing involves systematically evaluating an entire system's security to identify vulnerabilities and weaknesses, making \"whole-system testing for security flaws and bugs\" the accurate description of the process.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14202"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "You are given a message (m) and its OTP encryption (c). Can you compute the OTP key from m\nand c ?",
+      "options": {
+        "A": "No, I cannot compute the key.",
+        "B": "Yes, the key is k = m xor c.",
+        "C": "I can only compute half the bits of the key.",
+        "D": "Yes, the key is k = m xor m."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The one-time pad (OTP) encryption method relies on the XOR operation, where the original message (m) can be recovered by XORing the ciphertext (c) with the key (k), thus allowing the computation of the key as k = m XOR c.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1540"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which among them has the strongest wireless security?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA 2",
+        "D": "WPA 3"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA3 offers enhanced security features, such as individualized data encryption and improved protection against brute-force attacks, making it the most robust wireless security protocol currently available.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Troya is classified as a remote Trojan, known for its ability to control infected devices from a distance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Troya is classified as a remote Trojan because it provides attackers with the capability to access and control infected devices over a network, allowing for unauthorized remote management and data exfiltration.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "A Base Signal Station is primarily used for data transmission in mobile networks, similar to a Base Transceiver Station.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A Base Signal Station primarily handles signaling and control functions in mobile networks rather than data transmission, which is the primary role of a Base Transceiver Station.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1550"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Tor browser is essential for accessing the Tor network and utilizing its anonymous services.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Tor browser is essential for accessing the Tor network because it is specifically designed to route internet traffic through the Tor network's layered encryption, ensuring user anonymity and secure access to its services.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1530"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "The Heartbleed vulnerability enables the execution of a format string attack, compromising system integrity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Heartbleed vulnerability exploits a flaw in the OpenSSL implementation of the Transport Layer Security (TLS) protocol, allowing attackers to read sensitive memory contents rather than executing a format string attack, which is a different type of vulnerability.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15631"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Morris Worm, released in 1988, is considered the first buffer overflow attack in computer security history.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm exploited a buffer overflow vulnerability in the Unix sendmail program, marking it as the first significant instance of a buffer overflow attack in cybersecurity history.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss why traditional anti-virus scanners are ineffective against vulnerabilities like\nHeartbleed, focusing on the nature of the exploit and the limitations of signature-based\ndetection methods.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Traditional anti-virus scanners are ineffective against vulnerabilities like Heartbleed\nprimarily because they rely on signature-based detection methods that identify known\nmalicious code. Heartbleed, however, is an exploit that manipulates the OpenSSL\nimplementation to extract sensitive information from memory without injecting any code,\nthereby evading detection. This fundamental difference highlights the limitations of\nsignature-based systems, which are designed to recognize patterns of malware rather than\nthe exploitation of legitimate software vulnerabilities. As a result, such scanners are\nill-equipped to address sophisticated attacks that exploit inherent flaws in software\nrather than deploying harmful code. The reliance on signatures means that new and unknown\nvulnerabilities, like Heartbleed, can go undetected until a signature is developed,\nleaving systems at risk.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes that traditional anti-virus scanners depend on signature-based detection, which is ineffective against exploits like Heartbleed that do not require code injection and thus do not match any known malware signatures.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "14204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_19_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of address sanitizer (ASAN) in identifying memory errors during fuzz\ntesting of a program. How does ASAN enhance error detection and analysis?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Address sanitizer (ASAN) plays a crucial role in identifying memory errors during fuzz\ntesting by instrumenting the program's code at compile time to detect various types of\nmemory-related issues, such as buffer overflows and use-after-free errors. By compiling\nthe program with ASAN, developers can significantly enhance the visibility of these\nerrors, as ASAN provides detailed diagnostic information that helps pinpoint the exact\nsource of the memory error. This capability not only aids in faster debugging but also\nimproves the overall security posture of the application by ensuring that vulnerabilities\nare detected and addressed before deployment. Consequently, ASAN's integration into the\nfuzz testing process empowers cybersecurity professionals to conduct more thorough\nanalyses, ultimately leading to more robust and secure software.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how ASAN instruments code to detect memory errors like buffer overflows and use-after-free errors, while also emphasizing its role in providing detailed diagnostics that facilitate quicker identification and resolution of these issues during fuzz testing.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1499"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

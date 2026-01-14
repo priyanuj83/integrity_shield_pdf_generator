@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 21 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Restrict what operations/data the user can access; B) Determine if the user is an attacker; C) Flag the user if he/she misbehaves; D) Determine who the user is
+\\ \textit{Note:} Authentication aims to determine who the user is by verifying the identity of individuals attempting to access systems or data, ensuring that only authorized users gain access to sensitive information.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Snort; B) SuperScan; C) Burp Suit; D) EtterPeak
+\\ \textit{Note:} EtterCap is a widely-used tool in cybersecurity for network analysis and man-in-the-middle attacks in multiprotocol diverse networks due to its ability to intercept and manipulate traffic across various network protocols.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Wireless Traffic Sniffing; B) WiFi Traffic Sniffing; C) Wireless Traffic Checking; D) Wireless Transmission Sniffing
+\\ \textit{Note:} Wireless traffic sniffing is the correct answer because it involves monitoring and capturing data packets transmitted over a wireless network, which can provide critical insights for forensic investigations and troubleshooting wireless connectivity issues.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) WPA; B) Access Point; C) WAP; D) Access Port
+\\ \textit{Note:} The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless devices and providing connectivity to a wired network, thereby managing data traffic and ensuring network access.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Memory leakage; B) Buffer-overrun; C) Less processing power; D) Inefficient programming
+\\ \textit{Note:} A buffer-overrun occurs when more data is written to a buffer than it can hold, potentially allowing attackers to overwrite adjacent memory and gain unauthorized access or cause system malfunctions.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Nessus is primarily a vulnerability assessment tool designed for identifying security vulnerabilities in systems and applications, rather than functioning as a network intrusion detection system or performing real-time traffic analysis.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} IP address spoofing involves forging the source IP address in packets, which can bypass firewalls that rely only on IP filtering, as they cannot verify the legitimacy of the source address without additional context or methods of validation.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A digital signature utilizes a public-key cryptography system, where a private key is used to create the signature, and the corresponding public key is employed to verify both the authenticity of the sender and the integrity of the message.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Authorization is a fundamental security mechanism that defines and enforces user permissions to ensure that individuals can only access resources and perform operations for which they have been granted explicit permission, thereby protecting sensitive data and maintaining system integrity.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} WPA 3 employs advanced encryption techniques, such as Simultaneous Authentication of Equals (SAE), which enhance security against brute-force attacks and provide stronger overall protection for wireless networks compared to its predecessors.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Weak or non-existent authentication mechanisms significantly exacerbate presentation layer vulnerabilities in cybersecurity by allowing unauthorized access to sensitive data and system functionalities. When authentication is insufficient, attackers can exploit these vulnerabilities to impersonate legitimate users, leading to data breaches and compromised systems. Furthermore, the lack of robust authentication protocols can result in the exposure of user credentials and personal information, amplifying the risk of phishing and other social engineering attacks. Consequently, organizations must prioritize implementing strong authentication measures, such as multi-factor authentication, to mitigate these risks and enhance overall security posture against potential threats at the presentation layer.
+\\ \textit{Note:} correct because it highlights how weak or absent authentication mechanisms enable attackers to exploit presentation layer vulnerabilities, leading to unauthorized access, data breaches, and the potential compromise of sensitive user information.
+\item \textbf{Answer:} Blinding techniques play a crucial role in mitigating timing attacks in cryptographic systems by randomizing the ciphertext during decryption. This randomization obscures the correlation between the adversary's input and the timing variations that may arise during the decryption process. By introducing noise into the timing measurements, adversaries are less able to infer information about the plaintext or the decryption key based on observed execution times. Consequently, these techniques enhance the security of cryptographic operations by preventing attackers from leveraging timing discrepancies to compromise sensitive data. Overall, the relationship between ciphertext randomization and the reduction of observable timing differences is fundamental to robust cryptographic defenses against timing attacks.
+\\ \textit{Note:} correct because it accurately describes how blinding techniques randomize ciphertext to disrupt the relationship between timing variations and adversarial observations, thereby enhancing the security of cryptographic systems against timing attacks.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

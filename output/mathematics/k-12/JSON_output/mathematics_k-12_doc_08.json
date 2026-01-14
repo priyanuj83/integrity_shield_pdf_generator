@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_k-12_doc_08",
+  "document_name": "Mathematics - K-12 Level Assessment 8",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_08.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_08_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If the parabola $y_1 = x^2 + 2 x + 7$ and the line $y_2 = 6 x + b$ intersect at only one\npoint, what is the value of $b$?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "12",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of $b$ must be 3 because for the parabola and line to intersect at only one point, the discriminant of the resulting quadratic equation must equal zero, which occurs when the line is tangent to the parabola, leading to the specific intersection condition derived from setting the equations equal to each other.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4447"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let 12-9+c=12. What value of c makes the equation true?",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "9",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To solve the equation 12 - 9 + c = 12, we isolate c by simplifying the left side to 3 + c = 12, leading to the conclusion that c must equal 9 to satisfy the equation.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2104"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is a reasonable height for a doorway?",
+      "options": {
+        "A": "2 km",
+        "B": "2 cm",
+        "C": "2 m",
+        "D": "2 mm"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A reasonable height for a doorway is 2 meters because this measurement accommodates the average height of most individuals while also allowing for sufficient clearance for various activities, making it a practical standard in building design.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2402"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "There are three real numbers $x$ that are not in the domain of $$f(x) =\n\\frac{1}{1+\\frac{1}{1+\\frac 1 x}}.$$ What is the sum of those three numbers?",
+      "options": {
+        "A": "0.5",
+        "B": "0",
+        "C": "-1",
+        "D": "-1.5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The three real numbers that are not in the domain of the function are \\( x = 0 \\) (due to division by zero), \\( x = -1 \\) (as it leads to an undefined expression), and \\( x = -1.5 \\) (which also results in division by zero when substituting into the nested fractions), and their sum is \\( 0 + (-1) + (-1.5) = -1.5 \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "14523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_08_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "If $888 x + 889 y = 890$ and $891 x + 892 y = 893$, what is the value of $x - y$?",
+      "options": {
+        "A": "1",
+        "B": "-3",
+        "C": "-1",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "By solving the system of equations simultaneously, we find that the values of x and y satisfy the equations leading to the result that x - y equals -3.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4268"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The positive difference between the two solutions of the quadratic equation is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The positive difference between the two solutions of a quadratic equation can vary based on the specific coefficients and values in the equation, and is not universally guaranteed to be 2.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4411"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "7% is equal to 0.07 when expressed as a decimal.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "7% is equal to 0.07 when expressed as a decimal because percentage means \"per hundred,\" so 7% is equivalent to 7 divided by 100, which equals 0.07.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2224"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "26.1 mm is equal to 2.61 dm.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because 26.1 mm is equal to 2.61 cm, not 2.61 dm, as there are 10 mm in a cm and 100 mm in a dm.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2163"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The value of a $4000 investment after 10 years, growing at the rate of 320 e^(0.08 t), is approximately $8,902.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The investment grows according to the exponential function 320e^(0.08t), and after 10 years, this function evaluates to approximately $8,902.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_08_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The two numbers that add up to 19 and multiply to 70 are 5 and 14.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The numbers 5 and 14 add up to 19 (5 + 14 = 19) and multiply to 70 (5 \u00d7 14 = 70), confirming the statement is true.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4490"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_08_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Let $a,$ $b,$ $c$ be the roots of $x^3 + 2 x^2 + 5 x + 7 = 0.$ Compute \\[\\frac{1}{a} +\n\\frac{1}{b} + \\frac{1}{c}.\\]",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The weight of an object on the Moon is significantly less than its weight on Earth due to\nthe Moon's weaker gravitational pull. Specifically, the relationship can be expressed with\nthe equation m = e/6, where m represents the weight on the Moon and e represents the\nweight on Earth. This means that an object weighs one-sixth of its weight on Earth when\nmeasured on the Moon. The rationale behind this equation stems from the fact that the\ngravitational acceleration on the Moon is about one-sixth that of Earth's, leading to this\nproportional relationship in weight. Thus, to find the weight of an object on the Moon,\nyou simply divide its Earth weight by six.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately reflects the fact that the Moon's gravitational acceleration is approximately one-sixth that of Earth's, leading to the conclusion that an object's weight on the Moon is one-sixth of its weight on Earth, which is represented by the equation m = e/6.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2149"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_08_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between the weight of an object on the moon and its weight on\nEarth. How can you express the moon's weight in terms of Earth's weight? Provide a\nrationale for your equation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The weight of an object on the Moon is significantly less than its weight on Earth due to\nthe Moon's weaker gravitational pull. Specifically, the relationship can be expressed with\nthe equation m = e/6, where m represents the weight on the Moon and e represents the\nweight on Earth. This means that an object weighs one-sixth of its weight on Earth when\nmeasured on the Moon. The rationale behind this equation stems from the fact that the\ngravitational acceleration on the Moon is about one-sixth that of Earth's, leading to this\nproportional relationship in weight. Thus, to find the weight of an object on the Moon,\nyou simply divide its Earth weight by six.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately reflects the fact that the Moon's gravitational acceleration is approximately one-sixth that of Earth's, leading to the conclusion that an object's weight on the Moon is one-sixth of its weight on Earth, which is represented by the equation m = e/6.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2149"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

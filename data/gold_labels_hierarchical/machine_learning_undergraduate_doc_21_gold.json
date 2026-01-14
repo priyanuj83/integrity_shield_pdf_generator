@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_21",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Neural networks can incorporate various activation functions in different layers to enhance their ability to model complex relationships and improve overall performance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dimensionality of the null space of the matrix A is 2 because the rank of the matrix is 1, which leads to a nullity of 2 as per the Rank-Nullity Theorem, indicating that there are two linearly independent solutions to the homogeneous equation Ax = 0.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The rank of the matrix A is 1 because all rows are linearly dependent and can be expressed as scalar multiples of each other, indicating that there is only one linearly independent row.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer reflects the chain rule of probability applied to a Bayesian network, where the joint probability distribution of the variables is expressed as the product of the prior probability of Y and the conditional probabilities of X and Z given Y.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14787
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "correct because the Stanford Sentiment Treebank specifically focuses on analyzing the sentiment of movie reviews, while the Penn Treebank is a well-known resource that has been utilized for various linguistic tasks, including language modeling.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A small step size typically leads to slower convergence and may cause the training loss to decrease more gradually, but it does not inherently increase training loss due to model capacity, as that is determined by the architecture, not the learning rate.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The polynomial degree determines the model's complexity, as higher degrees can capture more intricate patterns in the data, leading to overfitting, while lower degrees may oversimplify the data and cause underfitting, thus significantly influencing the balance between these two extremes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6853
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) can be biased in small samples and does not guarantee unbiasedness, as some MLE estimates are asymptotically unbiased only as the sample size approaches infinity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Both ResNets and Transformers process inputs in a sequential manner without any recurrent connections, classifying them as feedforward neural networks.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the probabilities P(A, B), P(A), and P(B) are not directly dependent on each other in a way that guarantees a decrease in P(B) when P(A, B) decreases and P(A) increases, as they can be influenced by other factors or variables in the probabilistic model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def check_triplet(A, n, sum, count): | return True | return False | return check_triplet(A, n - 1, sum - A[n - 1], count + 1) or\\",
+      "marks": 10,
+      "explanation": "The provided answer correctly implements a recursive function to determine if there exists a triplet in the array whose sum equals the specified target by reducing the problem size and checking combinations of elements while maintaining a count of selected elements.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 121
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_21_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def repeat_tuples(test_tup, N): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it outlines the creation of a function that takes a tuple and an integer as parameters, and by using tuple repetition in Python, it effectively returns a new tuple that consists of the original tuple repeated 'n' times.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 368
+    }
+  ]
+}

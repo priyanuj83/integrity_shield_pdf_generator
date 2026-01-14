@@ -1,0 +1,293 @@
+{
+  "docid": "mathematics_graduate_doc_08",
+  "document_name": "Mathematics - Graduate Level Assessment 8",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\graduate\\latex_documents\\mathematics_graduate_doc_08.tex",
+    "pdf_file": "output\\mathematics\\graduate\\pdf_documents\\mathematics_graduate_doc_08.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_graduate_doc_08_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_graduate_doc_08_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\graduate\\answer_keys\\latex\\mathematics_graduate_doc_08_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\graduate\\answer_keys\\pdf\\mathematics_graduate_doc_08_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let {N(t), t \\in [0, \\infty)} be a Poisson process with rate of $\\lambda = 4$ and $X_1$ be\nthe first arrival time. Given N(t) = 1, then what is $P(X_1 <= t / 2)$?",
+      "options": {
+        "A": "0.5",
+        "B": "1",
+        "C": "0.95",
+        "D": "0.65",
+        "E": "0.85"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0.5 because, given that there is exactly one arrival in the interval [0, t], the first arrival time \\(X_1\\) is uniformly distributed over that interval, leading to \\(P(X_1 \\leq t/2) = \\frac{t/2}{t} = 0.5\\).",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8855"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Consider the initial value problem $$ 4 y^{\\prime \\prime}+12 y^{\\prime}+9 y=0, \\quad\ny(0)=1, \\quad y^{\\prime}(0)=-4 . $$ Determine where the solution has the value zero.",
+      "options": {
+        "A": "0.8",
+        "B": "0.3",
+        "C": "0.1",
+        "D": "0.5",
+        "E": "0.4"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 0.4 because the solution to the initial value problem, which is a second-order linear homogeneous differential equation, can be determined by finding its characteristic polynomial, solving for the roots, and using the initial conditions to construct the explicit solution, which reveals that the first instance where the solution equals zero occurs at t = 0.4.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7774"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is\na normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G.",
+      "options": {
+        "A": "False, False",
+        "B": "True, True",
+        "C": "Not Determinable, True",
+        "D": "Not Determinable, False",
+        "E": "True, False"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is false for both statements because a factor group of a non-Abelian group can be Abelian, and while normality is transitive under certain conditions, K being a normal subgroup of H and H being a normal subgroup of G does not guarantee that K is normal in G unless H is also a normal subgroup of K.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8654"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Sam paid $8.28 for 18 stamps. At this rate, how much would it cost Sam to buy 12 stamps?",
+      "options": {
+        "A": "$4.52",
+        "B": "$7.28",
+        "C": "$5.52",
+        "D": "$6.28",
+        "E": "$3.72"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is $5.52 because the cost per stamp is $8.28 divided by 18, which equals approximately $0.46 per stamp, and multiplying this rate by 12 stamps gives a total of $5.52.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7827"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The graph of the equation $x + 2 y + 3 = 0$ is perpendicular to the graph of the equation\n$ax + 2 y + 3 = 0$. What is the value of $a$?",
+      "options": {
+        "A": "-1",
+        "B": "-13",
+        "C": "-4",
+        "D": "-3",
+        "E": "0"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The slopes of two perpendicular lines are negative reciprocals of each other, and since the slope of the line represented by $x + 2y + 3 = 0$ is -1/2, the slope of the line represented by $ax + 2y + 3 = 0$ must be 2, leading to the equation $-\\frac{a}{2} = 2$, which simplifies to $a = -4$.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8827"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The limit of the sequence a_n as n approaches infinity is 0.5, given the conditions 0 < a_n < 1 and (1-a_n)a_{n+1} > 1/4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the given conditions imply that the sequence \\( a_n \\) is bounded between 0 and 1 and converges to a limit, and the inequality \\( (1-a_n)a_{n+1} > 1/4 \\) ensures that \\( a_{n+1} \\) approaches a value close to 0.5 as \\( n \\) increases, thereby establishing that the limit of the sequence as \\( n \\) approaches infinity is indeed 0.5.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7968"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The value of the expression -25 - (-11) is -11, indicating a misunderstanding of the operation's effect on negative values.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression -25 - (-11) simplifies to -25 + 11, which equals -14, thus making the statement false.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8263"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Every nonzero free abelian group indeed has an infinite number of bases due to the independence of its elements.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because in a nonzero free abelian group, any independent set of generators can be extended to form a new basis, leading to the existence of infinitely many distinct bases.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7696"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The determinant of matrix A = [[2, 4, 3], [3, 3, 1], [42, 20, 51]] is 200.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The determinant of matrix A can be calculated using the formula for the determinant of a 3x3 matrix, which yields a value of 200 when the elements of the matrix are substituted into the formula.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "7970"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_graduate_doc_08_mathematics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The difference of 142.76 and 16.5 is accurately calculated as 126.26.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The difference of 142.76 and 16.5 is accurately calculated as 126.26 because when subtracting 16.5 from 142.76, the result is indeed 126.26, confirming the correctness of the arithmetic.",
+      "source": {
+        "dataset": "mmlu_pro_mathematics_math",
+        "source_id": "8785"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_graduate_doc_08_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "The points $A\\, (5,-5)$ and $B\\, (-1,-1)$ are the endpoints of the hypotenuse of an\nisosceles right triangle $\\triangle ABC$. What is the area of $ABC$?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the maximum possible value of the quotient \\(\\frac{x}{y}\\) for distinct\nelements \\(x\\) and \\(y\\) from the set \\(\\{\\frac{2}{5}, \\frac{1}{2}, 5, 10\\}\\), we analyze\nthe possible pairings. The largest value of \\(x\\) is \\(10\\) and the smallest value of\n\\(y\\) is \\(\\frac{2}{5}\\). Thus, the maximum quotient is \\(\\frac{10}{\\frac{2}{5}} = 10\n\\times \\frac{5}{2} = 25\\). Checking other combinations, such as \\(\\frac{5}{\\frac{1}{2}} =\n10\\) and \\(\\frac{5}{\\frac{2}{5}} = 12.5\\), confirms that none exceed \\(25\\). Therefore,\nthe maximum possible value of \\(\\frac{x}{y}\\) is \\(25\\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the maximum quotient \\(\\frac{x}{y}\\) is achieved by selecting the largest element \\(x = 10\\) and the smallest element \\(y = \\frac{2}{5}\\), resulting in a value of 25, which is greater than any other possible pair of distinct elements from the set.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7949"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_graduate_doc_08_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Analyze the set $\\{\\frac{2}{5}, \\frac{1}{2}, 5, 10\\}$ and determine the maximum possible\nvalue of the quotient $\\frac{x}{y}$ for any two distinct elements. Justify your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the maximum possible value of the quotient \\(\\frac{x}{y}\\) for distinct\nelements \\(x\\) and \\(y\\) from the set \\(\\{\\frac{2}{5}, \\frac{1}{2}, 5, 10\\}\\), we analyze\nthe possible pairings. The largest value of \\(x\\) is \\(10\\) and the smallest value of\n\\(y\\) is \\(\\frac{2}{5}\\). Thus, the maximum quotient is \\(\\frac{10}{\\frac{2}{5}} = 10\n\\times \\frac{5}{2} = 25\\). Checking other combinations, such as \\(\\frac{5}{\\frac{1}{2}} =\n10\\) and \\(\\frac{5}{\\frac{2}{5}} = 12.5\\), confirms that none exceed \\(25\\). Therefore,\nthe maximum possible value of \\(\\frac{x}{y}\\) is \\(25\\).",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the maximum quotient \\(\\frac{x}{y}\\) is achieved by selecting the largest element \\(x = 10\\) and the smallest element \\(y = \\frac{2}{5}\\), resulting in a value of 25, which is greater than any other possible pair of distinct elements from the set.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "7949"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

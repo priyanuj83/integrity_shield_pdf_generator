@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Graduate Level Assessment 17 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item In Yann LeCun's cake, the cherry on top is
+\begin{enumerate}[label=(\alph*)]
+    \item reinforcement learning
+    \item self-supervised learning
+    \item unsupervised learning
+    \item supervised learning
+\end{enumerate}
+\item Which one of the following is the main reason for pruning a Decision Tree?
+\begin{enumerate}[label=(\alph*)]
+    \item To save computing time during testing
+    \item To save space for storing the Decision Tree
+    \item To make the training set error smaller
+    \item To avoid overfitting the training set
+\end{enumerate}
+\item High entropy means that the partitions in classification are
+\begin{enumerate}[label=(\alph*)]
+    \item pure
+    \item not pure
+    \item useful
+    \item useless
+\end{enumerate}
+\item Statement 1| The softmax function is commonly used in mutliclass logistic regression. Statement 2| The temperature of a nonuniform softmax distribution affects its entropy.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Which one of the following is equal to P(A, B, C) given Boolean random variables A, B and C, and no independence or conditional independence assumptions between any of them?
+\begin{enumerate}[label=(\alph*)]
+    \item P(A | B) * P(B | C) * P(C | A)
+    \item P(C | A, B) * P(A) * P(B)
+    \item P(A, B | C) * P(C)
+    \item P(A | B, C) * P(B | A, C) * P(C | A, B)
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Residual connections are integral components in both ResNets and Transformers, enhancing model performance and training stability.
+\item True or False: The softmax function is indeed commonly used in multiclass logistic regression to model probabilities of multiple classes.
+\item True or False: Averaging the output of multiple decision trees helps decrease variance in model predictions.
+\item True or False: Grid search runs reasonably slow for multiple linear regression due to the exhaustive evaluation of parameter combinations.
+\item True or False: The polynomial degree is a critical factor in determining the trade-off between underfitting and overfitting in polynomial regression.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Discuss the process of deriving the gradient of the objective function $\frac{1}{2} \norm{Xw-y}^2_2 + \frac{1}{2}\lambda \norm{w}^2_2$ with respect to $w$. Include detailed steps and reasoning.
+\item Given two Boolean random variables A and B with specific probabilities, analyze how to derive P(A | B) using the provided information. Discuss the implications of these probabilities in a machine learning context.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

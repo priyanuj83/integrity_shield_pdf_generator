@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_12",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 12",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_12.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_12.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_12_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_12_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_12_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_12_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In MD-5 the length of the message digest is",
+      "options": {
+        "A": "160",
+        "B": "128",
+        "C": "64",
+        "D": "54"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 128 because MD5 (Message-Digest Algorithm 5) produces a fixed-length output of 128 bits, which corresponds to 32 hexadecimal characters.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1487"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Encryption and decryption provide secrecy, or condentiality, but not",
+      "options": {
+        "A": "Authentication",
+        "B": "Integrity",
+        "C": "Privacy",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Encryption and decryption primarily focus on transforming data to prevent unauthorized access, thereby ensuring confidentiality, but they do not inherently verify whether the data has been altered, which is the essence of integrity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Why would a ping sweep be used?",
+      "options": {
+        "A": "To identify live systems",
+        "B": "To locate live systems",
+        "C": "To identify open ports",
+        "D": "To locate firewalls"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A ping sweep is used to identify live systems by sending ICMP echo requests to multiple IP addresses to determine which ones respond, indicating that they are active and reachable on the network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1566"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following deals with network intrusion detection and real-time traffic\nanalysis?",
+      "options": {
+        "A": "John the Ripper",
+        "B": "L 0 phtCrack",
+        "C": "Snort",
+        "D": "Nessus"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Snort is an open-source network intrusion detection and prevention system specifically designed for real-time traffic analysis and packet logging, making it the correct choice for the question.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1510"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "How is IP address spoofing detected?",
+      "options": {
+        "A": "Installing and configuring a IDS that can read the IP header",
+        "B": "Comparing the TTL values of the actual and spoofed addresses",
+        "C": "Implementing a firewall to the network",
+        "D": "Identify all TCP sessions that are initiated but does not complete successfully"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Comparing the TTL (Time to Live) values of the actual and spoofed IP addresses can help detect spoofing because legitimate packets typically have a consistent TTL value that decreases with each hop, while spoofed packets may have unusual or inconsistent TTL values indicating they did not originate from the expected source.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Only biometric methods are considered effective forms of authentication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because effective forms of authentication also include passwords, two-factor authentication, and security tokens, in addition to biometric methods.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1505"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "WEP is considered the least secure encryption standard among wireless security protocols.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WEP is considered the least secure encryption standard among wireless security protocols because it employs weak encryption algorithms and has significant vulnerabilities that can be easily exploited, making it susceptible to unauthorized access.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "SHA-1 generates a message digest that is 512 bits long.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "SHA-1 generates a message digest that is 160 bits long, not 512 bits.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15628"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "A crypter is primarily used to create malicious software that disguises its true nature by altering its code structure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A crypter is primarily used to obfuscate or encrypt malware to evade detection by security software, but it is not exclusively for creating malicious software itself.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1562"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "ECB, CFB, and CBC are all valid block cipher operating modes used in encryption.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because ECB (Electronic Codebook) and CBC (Cipher Block Chaining) are valid block cipher modes, while CFB (Cipher Feedback) is not categorized as a block cipher mode but rather as a stream cipher mode.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1518"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the number of rotations in a circularly sorted array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_rotation_count(A): | return left | return mid | return -1",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the essential steps for implementing a function to find the number of rotations in a circularly sorted array by indicating the use of binary search principles to efficiently locate the pivot point where the rotation occurs.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to compute the value of ncr mod p.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def nCr_mod_p(n, r, p): | return C[r]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it efficiently computes the binomial coefficient nCr under modulo p using precomputed factorial values and modular inverses, which is essential in cybersecurity applications for algorithms that require combinatorial calculations.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "952"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

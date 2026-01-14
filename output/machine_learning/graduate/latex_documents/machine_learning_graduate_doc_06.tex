@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Graduate Level Assessment 6 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Statement 1| ImageNet has images of various resolutions. Statement 2| Caltech-101 has more images than ImageNet.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Statement 1| Word 2 Vec parameters were not initialized using a Restricted Boltzman Machine. Statement 2| The tanh function is a nonlinear activation function.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item What is the dimensionality of the null space of the following matrix? A = [[3, 2, -9], [-6, -4, 18], [12, 8, -36]]
+\begin{enumerate}[label=(\alph*)]
+    \item 0
+    \item 1
+    \item 2
+    \item 3
+\end{enumerate}
+\item After applying a regularization penalty in linear regression, you find that some of the coefficients of w are zeroed out. Which of the following penalties might have been used?
+\begin{enumerate}[label=(\alph*)]
+    \item L$_{0}$ norm
+    \item L$_{1}$ norm
+    \item L$_{2}$ norm
+    \item either (a) or (b)
+\end{enumerate}
+\item Averaging the output of multiple decision trees helps \_.
+\begin{enumerate}[label=(\alph*)]
+    \item Increase bias
+    \item Decrease bias
+    \item Increase variance
+    \item Decrease variance
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Residual connections are commonly utilized in architectures such as ResNets and Transformers to facilitate training deep networks.
+\item True or False: P(A, B, C) is equal to P(A | B) * P(B | C) * P(C | A) for Boolean random variables A, B, and C.
+\item True or False: Underfitting occurs when a model fails to capture the underlying patterns in the training data, resulting in poor performance on both training and new data.
+\item True or False: The method used to learn the weights, whether matrix inversion or gradient descent, most critically affects the trade-off between underfitting and overfitting.
+\item True or False: Clustering is effectively used for detecting fraudulent credit card transactions by grouping similar transaction patterns.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Discuss the validity of the statements regarding entropy in joint distributions and the effects of moralization on directed graphs. Analyze their implications in machine learning contexts.
+\item Discuss the assumptions of the Naive Bayes algorithm, particularly focusing on the implications of attribute independence given the class value, and analyze its impact on model performance.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

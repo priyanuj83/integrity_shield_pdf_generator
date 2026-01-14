@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 4 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Physical layer; B) Data-link Layer; C) Session layer; D) Presentation layer
+\\ \textit{Note:} The correct answer is the Session layer because this layer is responsible for establishing, maintaining, and terminating sessions between applications, and failed sessions can be exploited in brute-force attacks to gain unauthorized access to credentials.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 160 bits; B) 512 bits; C) 628 bits; D) 820 bits
+\\ \textit{Note:} SHA-1 produces a fixed-length output known as a message digest, which is specifically 160 bits in size, making it a widely recognized standard in cryptographic hashing.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) overwriting cryptographic keys in memory; B) a kind of code injection; C) a read outside bounds of a buffer; D) a format string attack
+\\ \textit{Note:} The Heartbleed bug allows attackers to exploit a vulnerability in the OpenSSL implementation of the TLS/DTLS protocols, enabling them to read memory contents beyond the intended buffer limits, thereby exposing sensitive data such as private keys and user credentials.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Joined; B) Authenticated; C) Submitted; D) Shared
+\\ \textit{Note:} The correct answer is "Authenticated" because without proper authentication, an attacker can impersonate one of the parties in a key exchange, allowing them to intercept and manipulate the communication, thus compromising the security of the Diffie-Hellman method.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Installing and configuring a IDS that can read the IP header; B) Comparing the TTL values of the actual and spoofed addresses; C) Implementing a firewall to the network; D) Identify all TCP sessions that are initiated but does not complete successfully
+\\ \textit{Note:} Comparing the Time to Live (TTL) values of actual and spoofed IP addresses can help detect spoofing because legitimate packets typically have consistent TTL values that correlate with their originating networks, while spoofed packets often exhibit anomalous TTL values indicative of a different source.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Troya is classified as a remote Trojan because it enables an attacker to remotely control and execute commands on a compromised system, thereby facilitating unauthorized access and manipulation of the device from a distance.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The stack is primarily used for storing local variables and function call information, while global variables and program code are typically stored in the heap and data segments of memory, respectively.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Buffer-overflow errors are primarily a concern in low-level languages like C and C++, where direct memory management and lack of built-in bounds checking allow such vulnerabilities to occur, whereas high-level languages like Python and Ruby implement automatic memory management and safety features that mitigate these risks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A stream cipher cannot achieve perfect secrecy because perfect secrecy requires that the key be truly random and at least as long as the message, whereas a pseudorandom generator, no matter how secure, produces deterministic outputs that do not meet these criteria.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Wireless access inherently involves addressing security concerns, as the nature of wireless communication makes it susceptible to unauthorized access and data breaches, necessitating the implementation of security measures to protect the network.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sum\_even\_odd(list 1): | return (first\_even+first\_odd)
+\\ \textit{Note:} correct because it succinctly defines a function that calculates the sum of the first even and first odd numbers from the provided list, demonstrating an understanding of basic programming concepts and the ability to manipulate data structures.
+\item \textbf{Answer:} def subset(ar, n): | return res
+\\ \textit{Note:} correct because it outlines the implementation of a Python function designed to identify the minimum number of subsets with distinct elements from an array, which is essential in various cybersecurity applications for optimizing resource allocation and ensuring data integrity.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

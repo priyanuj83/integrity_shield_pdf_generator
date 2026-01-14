@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 19 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 160 bits; B) 512 bits; C) 628 bits; D) 820 bits
+\\ \textit{Note:} The correct answer is 160 bits because SHA-1 (Secure Hash Algorithm 1) consistently produces a fixed-length output of 160 bits, which is a fundamental characteristic of this cryptographic hash function.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Haunted web; B) World Wide Web; C) Surface web; D) Deep Web
+\\ \textit{Note:} The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible through standard search queries.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) To identify live systems; B) To locate live systems; C) To identify open ports; D) To locate firewalls
+\\ \textit{Note:} A ping sweep is used to identify live systems on a network by sending ICMP echo requests to multiple IP addresses and determining which addresses respond, indicating active devices.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) \{AND, NOT\}; B) \{NOT, OR\}; C) \{AND, OR\}; D) \{NAND\}
+\\ \textit{Note:} The set \{AND, OR\} is not complete because it lacks the NOT operator, which is necessary to express negation and thus represent all possible Boolean expressions.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Insertion sort; B) Quicksort; C) Merge sort; D) Selection sort
+\\ \textit{Note:} Merge sort consistently has a time complexity of O(n log n) regardless of the initial order of the input data, as it divides the array into halves and processes each half independently before merging, making its efficiency stable across different input configurations.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Nmap categorizes port states into open, closed, filtered, and unfiltered, rather than active, inactive, and standby, based on the responses it receives from the target ports during a network scan.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A buffer-overflow attack takes advantage of programming errors that allow an attacker to overwrite adjacent memory by injecting excessive data, which can include malicious code, leading to unauthorized control of a program's execution.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Opera browser is not specifically designed for accessing the Tor network; it is a general web browser that does not inherently provide the anonymity features and routing capabilities that the Tor network requires.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Escaping queries effectively prevents SQL injection attacks by treating user input as literal values rather than executable code, thereby neutralizing potentially harmful input that could manipulate the database.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because both regular expressions describe the same set of strings, where any combination of 'a' and 'b' can precede either 'c' or 'd', thus ensuring that both expressions generate the same language.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def equilibrium\_index(arr): | return i | return -1
+\\ \textit{Note:} The answer correctly identifies the need to return the index of an equilibrium point in the array, where the sum of the elements to the left is equal to the sum of the elements to the right, and includes a fallback return of -1 to indicate that no such index exists.
+\item \textbf{Answer:} def square\_Sum(n): | return int(2*n*(n+1)*(2*n+1)/3)
+\\ \textit{Note:} The function correctly calculates the sum of squares of the first n even natural numbers by leveraging the formula for the sum of squares of the first n natural numbers and adjusting it for even integers, resulting in an efficient computation without the need for iterative summation.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

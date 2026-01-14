@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 6 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 1; B) 3; C) 8; D) 16
+\\ \textit{Note:} In Python, the operator '\textless{}\textless{}' performs a left bitwise shift, so shifting the binary representation of the number 1 (which is '0001') three places to the left results in '1000', which is equal to 8 in decimal.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) O(1); B) O(n); C) O($n^2$); D) O(log n)
+\\ \textit{Note:} O($n^2$) is the largest asymptotic notation among the options because it grows at a faster rate than linear or logarithmic functions as the input size n increases, indicating that its time complexity will be higher in comparison to those functions for large n.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) It is used to call procedures with addresses that are farther than $2^16$ bytes away.; B) It cannot return a value.; C) It cannot pass parameters by reference.; D) It cannot call procedures implemented in a different language.
+\\ \textit{Note:} In a remote procedure call (RPC), parameters are typically serialized and sent over the network, which means they are passed by value rather than by reference, as the remote procedure cannot directly access the caller's memory space.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Error; B) abc; C) cba; D) c
+\\ \textit{Note:} The expression "abc"[::-1] in Python 3 uses slicing with a step of -1, which reverses the string, resulting in "cba".
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) ['Hi!', 'Hi!', 'Hi!', 'Hi!']; B) ['Hi!'] * 4; C) Error; D) None of the above.
+\\ \textit{Note:} The expression ['Hi!'] * 4 creates a new list that repeats the single element 'Hi!' four times, resulting in the list ['Hi!', 'Hi!', 'Hi!', 'Hi!'].
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python 3, a set is defined as an unordered collection of unique elements, so when a list containing duplicate elements is converted to a set, all duplicates are automatically removed, resulting in a collection of only unique elements.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Identifier length in programming languages is typically defined by context-sensitive rules, such as those considering scope and naming conflicts, which cannot be captured by context-free grammars.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Choosing to busy-wait on an asynchronous event in a time-sharing system is unreasonable because it consumes CPU cycles unnecessarily, preventing the system from efficiently allocating resources to other processes that could make better use of the available processing power.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The join() function in Python 3 is used to concatenate elements of an iterable into a string using a specified separator, and it does not perform any checks on the case of characters within strings.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The operator '//' in Python 3 is used for floor division, not for performing exponential (power) calculations, which are done using the '**' operator.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def profit\_amount(actual\_cost,sale\_amount): | return amount | return None
+\\ \textit{Note:} The provided function correctly checks if the sale amount exceeds the actual cost to determine profit, returning the profit amount if applicable, or None if there is no profit.
+\item \textbf{Answer:} def get\_max\_sum (n): | return res[n]
+\\ \textit{Note:} correct because it suggests using a memoization technique (implied by returning `res[n]`) to efficiently compute and store the maximum sum derived from the recursive function, ensuring optimal performance by avoiding redundant calculations.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

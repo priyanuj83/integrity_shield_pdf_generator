@@ -1,0 +1,293 @@
+{
+  "docid": "chemistry_graduate_doc_20",
+  "document_name": "Chemistry - Graduate Level Assessment 20",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_20.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the maximum number of phases that can be at equilibrium with each other in a three\ncomponent mixture?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "2",
+        "D": "4",
+        "E": "10"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum number of phases that can be at equilibrium in a three-component mixture is determined by the phase rule, which states that F = C - P + 2, where F is the degrees of freedom, C is the number of components, and P is the number of phases; thus, setting F to 0 for equilibrium results in a maximum of 6 phases (P = 6) for three components (C = 3).",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4604"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the de Broglie wavelength for (a) an electron with a kinetic energy of $100\n\\mathrm{eV}$",
+      "options": {
+        "A": "0.175 nm",
+        "B": "0.080 nm",
+        "C": "0.098 nm",
+        "D": "0.123 nm",
+        "E": "0.135 nm"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 0.123 nm for the de Broglie wavelength of an electron with a kinetic energy of 100 eV is derived from the de Broglie wavelength formula, \u03bb = h/p, where the momentum p is calculated using the kinetic energy, leading to the wavelength being approximately equal to 0.123 nm when substituting the appropriate values for Planck's constant and the electron's mass.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3733"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "One cubic millimeter of oil is spread on the surface of water so that the oil film has an\narea of 1 square meter. What is the thickness of the oil film in angstrom units?",
+      "options": {
+        "A": "200 \\AA",
+        "B": "1 \\AA",
+        "C": "0.1 \\AA",
+        "D": "50 \\AA",
+        "E": "500 \\AA"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The thickness of the oil film can be calculated by dividing the volume of oil (1 cubic millimeter, which is equivalent to 1,000,000 cubic micrometers) by the area it covers (1 square meter or 10,000 square centimeters), resulting in a thickness of 200 angstroms.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4396"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following molecules is a strong electrolyte when dissolved in water?",
+      "options": {
+        "A": "CH 3 COOH",
+        "B": "CO 2",
+        "C": "O 2",
+        "D": "H 2 O",
+        "E": "NH 3"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "CH3COOH (acetic acid) is a weak electrolyte, not a strong one, because it partially dissociates into ions in water, leading to a lower concentration of ions compared to strong electrolytes that fully dissociate.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4082"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is an n-type semiconductor?",
+      "options": {
+        "A": "Silicon",
+        "B": "Boron-doped silicon",
+        "C": "Pure germanium",
+        "D": "Arsenic-doped silicon",
+        "E": "Indium Phosphide"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Arsenic-doped silicon is considered an n-type semiconductor because arsenic, which has five valence electrons, donates extra electrons to the silicon lattice, thus increasing the concentration of electrons available for conduction.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4512"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The nuclide 17 O has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the NMR frequency of a nuclide is directly proportional to the strength of the magnetic field, and for 17 O, the calculated frequency at 20.0 T is indeed approximately 115.5 MHz.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3726"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The temperature change of 1 mole of a diatomic gas is 65 K when 65 J of heat is added and 210 J of work is done.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, according to the first law of thermodynamics, the change in internal energy of the gas is equal to the heat added minus the work done, and in this case, the internal energy change does not correspond to a temperature change of 65 K for 1 mole of a diatomic gas.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4658"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The expected value of the number of heads when two coins are tossed is 2.5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expected value of the number of heads when two coins are tossed is 1, as the possible outcomes are 0, 1, or 2 heads, each with probabilities that yield an average of 1 head, not 2.5.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4093"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The valence of element X, which has an atomic weight of 58.7 and displaces hydrogen, is -2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because an element that displaces hydrogen typically has a valence of -1 or -2, and with an atomic weight of 58.7, it is likely a non-metal that can accept two electrons to form bonds, thus exhibiting a valence of -2.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4028"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_20_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The carbon configuration $1 s^2 2 s^2 2 p^2$ corresponds to 20 distinct quantum states.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The carbon configuration $1s^2 2s^2 2p^2$ corresponds to 4 distinct quantum states, as each electron in the 2p subshell can occupy one of the three p orbitals with specific spin orientations, leading to a total of 6 possible arrangements, but only 4 unique states when considering indistinguishable particles.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4444"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_20_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the kinetic energy of a 1.0 g particle released from rest near the Earth's surface\nunder an acceleration of 8.91 m/s^2 after 1.0 s, ignoring air resistance.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The kinetic energy (KE) of a 1.0 g particle released from rest near the Earth's surface,\nunder an acceleration of 8.91 m/s^2 after 1.0 s, can be calculated using the formula KE =\n0.5 * m * v^2. First, we determine the velocity (v) of the particle after 1.0 s, which is\ngiven by v = a * t = 8.91 m/s^2 * 1.0 s = 8.91 m/s. Converting the mass from grams to\nkilograms, we have m = 0.001 kg. Substituting these values into the kinetic energy formula\nyields KE = 0.5 * 0.001 kg * (8.91 m/s)^2, resulting in a kinetic energy of approximately\n36 mJ. This calculation illustrates the relationship between acceleration due to gravity\nand the kinetic energy acquired by a particle in free fall when air resistance is\nneglected.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the kinetic energy formula and correctly calculates the velocity of the particle after 1.0 seconds using the given acceleration, while also converting the mass from grams to kilograms to ensure consistency in units.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3816"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_20_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the total binding energy of carbon-12 (_6 C^12) and analyze its average binding\nenergy per nucleon, exploring the implications for nuclear stability and structure.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The total binding energy of carbon-12 (_6 C^12) is 92.22 MeV, which reflects the energy\nrequired to disassemble the nucleus into its individual protons and neutrons. When this\ntotal binding energy is divided by the number of nucleons (6), the average binding energy\nper nucleon is calculated to be approximately 7.68 MeV. This relatively high average\nbinding energy per nucleon suggests that carbon-12 is a stable nucleus, as a greater\nbinding energy generally indicates a stronger nuclear force holding the nucleons together.\nConsequently, the stability and structure of carbon-12 play a crucial role in its\nprevalence in the universe, particularly in biological systems, as it serves as a\nfundamental building block of organic matter.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the total binding energy of carbon-12 and its average binding energy per nucleon, demonstrating that the relatively high value of 7.68 MeV indicates a strong nuclear force and contributes to the nucleus's stability.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3570"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

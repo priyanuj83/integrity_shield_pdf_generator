@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_20",
+  "document_name": "Mathematics - K-12 Level Assessment 20",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_20.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_20_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_20_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "During a semester, a student received scores of 76, 80, 83, 71, 80, and 78 on six tests.\nWhat is the student's average score for these six tests?",
+      "options": {
+        "A": "76",
+        "B": "77",
+        "C": "78",
+        "D": "79"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 78 because the average score is calculated by summing the test scores (76 + 80 + 83 + 71 + 80 + 78 = 468) and dividing by the number of tests (6), resulting in an average of 78 (468 \u00f7 6 = 78).",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2266"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_20_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Solve 18.5 dol over m gal = 3.60 dol over 7.5 gal. Round to the nearest hundredth if\nnecessary.",
+      "options": {
+        "A": "8.86",
+        "B": "42.25",
+        "C": "32.54",
+        "D": "38.44"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 38.44 is obtained by cross-multiplying the given rates to find the equivalent value of 18.5 dollars per m gallons, leading to the equation 18.5 m = 3.60 * 7.5, which simplifies to m = 38.44 when calculated.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_20_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the smallest positive integer with factors of 16, 15, and 12?",
+      "options": {
+        "A": "12",
+        "B": "22",
+        "C": "840",
+        "D": "240"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The smallest positive integer with factors of 16, 15, and 12 is 240 because it is the least common multiple (LCM) of these numbers, which is found by taking the highest powers of their prime factors: \\(2^4\\) from 16, \\(3^1\\) from 15, and \\(5^1\\) from 15, resulting in \\(2^4 \\cdot 3^1 \\cdot 5^1 = 240\\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4260"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_20_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What is the shortest distance from the origin to the circle defined by $x^2-24 x +y^2+10 y\n+160=0$?",
+      "options": {
+        "A": "10",
+        "B": "16",
+        "C": "24",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10 because the given circle can be rewritten in standard form as \\((x - 12)^2 + (y + 5)^2 = 25\\), indicating a center at (12, -5) with a radius of 5, and the shortest distance from the origin (0, 0) to the circle is the distance from the origin to the center (approximately 13) minus the radius (5), resulting in 13 - 5 = 8.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4259"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_20_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Evaluate -2(x - 3) for x = 2.",
+      "options": {
+        "A": "-4",
+        "B": "-2",
+        "C": "10",
+        "D": "2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find the value of -2(x - 3) when x = 2, substitute 2 into the expression to get -2(2 - 3) = -2(-1) = 2, demonstrating the application of substitution and simplification.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2129"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_20_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Jane's mean quiz score is 94.5, which is the result of adding her scores and dividing by five.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because Jane's mean quiz score of 94.5 would require the total of her scores divided by the number of quizzes to equal 94.5, which is not necessarily true if her actual scores do not add up to 472.5.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_20_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The ratio of x to y is 5 to 4 when the ratio of 2 x - y to x + y is 2 to 3.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if the ratio of 2x - y to x + y is 2 to 3, it can be manipulated to show that the ratio of x to y simplifies to 5 to 4.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4408"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_20_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The interval consisting of all u such that neither 2 u nor -20 u is in (-\u221e, -1) is [-1, 1].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the interval [-1, 1] does not accurately represent all values of u for which neither 2u nor -20u falls within (-\u221e, -1), as those inequalities require a different set of conditions for u.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4477"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_20_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Evaluate $\\log_3 81$.' is '-1'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because $\\log_3 81$ equals 4, since $3^4 = 81$, not -1.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4358"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_20_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "You can buy 12 cans of pears for $9.48 if 3 cans cost $2.37.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because if 3 cans cost $2.37, then the cost per can is $0.79, and multiplying that by 12 cans results in a total cost of $9.48.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2110"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_20_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "An ice cream shop sold 48 vanilla milkshakes, which represented 40% of its total sales for\nthe day. Calculate the total number of milkshakes sold and explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the total number of milkshakes sold at the ice cream shop, we start by using the\ninformation that 48 vanilla milkshakes represented 40% of the total sales. We can set up\nan equation where 40% of the total sales (let's call it x) equals 48. This can be\nexpressed as 0.4 x = 48. To solve for x, we divide both sides of the equation by 0.4,\nwhich gives us x = 48 / 0.4. Performing the calculation, we find that x equals 120.\nTherefore, the total number of milkshakes sold that day was 120.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately sets up and solves the equation that relates the known quantity of vanilla milkshakes to the total sales, using the percentage relationship to find the total number of milkshakes sold.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2205"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_20_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "A baker made 232 muffins and sent 190 to a hotel. Describe how you would determine the\nnumber of boxes needed for the remaining muffins, including the relevant equation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the number of boxes needed for the remaining muffins, we first need to\ncalculate how many muffins are left after sending some to the hotel. The baker made 232\nmuffins and sent 190 to the hotel, so we subtract 190 from 232. This can be represented by\nthe equation: \\( 232 - 190 = 42 \\). Now, we have 42 muffins remaining. If each box can\nhold 6 muffins, we then divide the remaining muffins by the number of muffins per box,\nwhich gives us \\( 42 \\div 6 = 7 \\). Therefore, the baker needs 7 boxes for the remaining\nmuffins.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the remaining muffins by subtracting the number sent to the hotel from the total made and then determines the number of boxes needed by dividing the remaining muffins by the capacity of each box.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "2245"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_01",
+  "document_name": "Computer Science - K-12 Level Assessment 1",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_01.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_01_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_01_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is the output of print tuple[0] if tuple = ( 'abcd', 786 , 2.23, 'john',\n70.2 )?",
+      "options": {
+        "A": "( 'abcd', 786 , 2.23, 'john', 70.2 )",
+        "B": "abcd",
+        "C": "Error",
+        "D": "None of the above."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"abcd\" because in Python, indexing starts at 0, so tuple[0] refers to the first element of the tuple, which is the string 'abcd'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3191"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_01_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which types of functions grow the slowest?",
+      "options": {
+        "A": "O(log e^N)",
+        "B": "O(log N)",
+        "C": "O(log log N)",
+        "D": "O(N)"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function O(log log N) grows the slowest among common complexity classes because its growth rate decreases significantly as N increases, indicating that it requires fewer resources relative to larger input sizes compared to other functions like O(N) or O(log N).",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_01_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "What is the value of this python expression: 4 + 3 % 2?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "4",
+        "D": "5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5 because in Python, the expression evaluates the modulus operator first, resulting in 3 % 2 equaling 1, and then adds that to 4, giving a final value of 5.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3250"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_01_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is max(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because the max() function in Python returns the largest value in a list, and in the list [1,2,3,4], the largest value is 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_01_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The boolean expression a[i] == max || !(max != a[i]) can be simplified to",
+      "options": {
+        "A": "a[i] == max",
+        "B": "a[i] != max",
+        "C": "a[i] < max || a[i] > max",
+        "D": "FALSE"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression !(max != a[i]) simplifies to a[i] == max, making the entire boolean expression equivalent to just a[i] == max.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_01_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The output of the expression 'abc'[::-1] in Python 3 is 'cba', which reverses the string.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, the slicing syntax `[::-1]` effectively reverses the order of elements in a string, so applying it to 'abc' results in 'cba'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "15675"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_01_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The output of set(l) in Python 3 will remove duplicates and result in {1, 2, 3, 4}.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is True because the set() function in Python 3 creates a set from the list l, automatically removing any duplicate elements and resulting in a collection of unique values.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3270"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_01_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python, the expression 4 * 1 ** 4 evaluates to 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, the exponentiation operator (**) has a higher precedence than multiplication (*), so the expression evaluates as 4 * (1 ** 4), which simplifies to 4 * 1, resulting in 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_01_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the operator for floor division is represented by the single slash (/).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the operator for floor division is represented by a double slash (//), while the single slash (/) is used for regular division that returns a float.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_01_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, using negative indexing on a string always results in an error.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, using negative indexing on a string allows you to access characters from the end of the string, thus it does not always result in an error.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3247"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_01_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Explain how the RGB color model represents colors using red, green, and blue values.\nDiscuss how many bits are required to represent a color in this model and why.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The RGB color model represents colors by combining varying intensities of red, green, and\nblue light. Each of these three colors can have a value ranging from 0 to 255, which\nallows for a total of 256 different shades for each color. Since there are three colors\nbeing combined, the total number of distinct colors that can be represented is 256 x 256 x\n256, which equals over 16 million colors. To store these colors, 24 bits are required: 8\nbits for red, 8 bits for green, and 8 bits for blue. This means each color channel can\nrepresent 256 levels of intensity, ensuring a rich and diverse palette for digital images.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the RGB color model as a combination of red, green, and blue light values ranging from 0 to 255, leading to over 16 million possible colors, and explains that 24 bits are needed to represent these colors with 8 bits allocated to each primary color.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_01_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how providing laptops or tablets to all students can positively influence the\ndigital divide in education. What are the potential benefits and challenges of this\npolicy?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Providing laptops or tablets to all students can significantly reduce the digital divide\nin education by ensuring equal access to technology and online resources. This initiative\nallows students from diverse backgrounds to engage with digital learning tools, fostering\na more inclusive educational environment. Potential benefits include improved digital\nliteracy skills, enhanced collaboration among students, and increased engagement with\nlearning materials. However, challenges may arise, such as ensuring proper training for\nboth students and teachers, maintaining the devices, and addressing differences in\nstudents' home internet access. Overall, while this policy can promote equity in\neducation, careful planning and support are essential for its success.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it emphasizes that providing laptops or tablets to all students promotes equal access to technology, which can bridge the digital divide and enhance educational outcomes, while also acknowledging the potential benefits and challenges of implementing such a policy.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3205"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

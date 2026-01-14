@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_02",
+  "document_name": "Mathematics - Undergraduate Level Assessment 2",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_02.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1 | Every ideal in a ring is a subring of the ring. Statement 2 | Every subring\nof every ring is an ideal of the ring.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is true for Statement 1 because every ideal is indeed a subring that is closed under addition and multiplication, but false for Statement 2 because not every subring satisfies the condition of absorbing multiplication from the ring, which is required to be an ideal.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "99"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Sofia and Tess will each randomly choose one of the 10 integers from 1 to 10. What is the\nprobability that neither integer chosen will be the square of the other?",
+      "options": {
+        "A": "0.64",
+        "B": "0.72",
+        "C": "0.81",
+        "D": "0.95"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The probability that neither integer chosen will be the square of the other is 0.95 because out of the 100 possible pairs of integers (10 choices for Sofia and 10 for Tess), only 5 pairs correspond to one integer being the square of the other (1 and 1, 2 and 4, 4 and 2, 3 and 9, 9 and 3), thus resulting in a probability of 95 out of 100 that they do not choose such pairs.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1110"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The polynomial x^4 + 4 can be factored into linear factors in Z_5[x]. Find this\nfactorization.",
+      "options": {
+        "A": "(x - 2)(x + 2)(x - 1)(x + 1)",
+        "B": "(x+1)^4",
+        "C": "(x-1)(x+1)^3",
+        "D": "(x-1)^3(x+1)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The polynomial x^4 + 4 can be factored into linear factors in Z_5[x] as (x - 2)(x + 2)(x - 1)(x + 1) because in the field Z_5, the roots of the equation x^4 + 4 = 0 correspond to the values of x that produce zero when substituted into the polynomial, specifically at x = 2, -2, 1, and -1, which simplifies to 2, 3, 1, and 4 modulo 5.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "68"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Some group (G, 0) is known to be abelian. Then which one of the following is TRUE for G?",
+      "options": {
+        "A": "g = g^-1 for every g in G",
+        "B": "g = g^2 for every g in G",
+        "C": "(g o h)^2 = g^2 o h^2 for every g,h in G",
+        "D": "G is of finite order"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In an abelian group, the operation is commutative, allowing the expression (g o h)^2 to be rewritten as g o h o g o h, which can be rearranged due to commutativity to equal g o g o h o h, confirming that (g o h)^2 = g^2 o h^2 for all elements g and h in the group G.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "33"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Suppose today is Wednesday. What day of the week will it be 10^(10^(10)) days from now?",
+      "options": {
+        "A": "Sunday",
+        "B": "Monday",
+        "C": "Tuesday",
+        "D": "Wednesday"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Since the number of days can be reduced modulo 7 (the number of days in a week), calculating \\(10^{10^{10}} \\mod 7\\) yields 0, indicating that 10^(10^(10)) days from Wednesday falls on the same day of the week, which is Sunday.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1165"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "Every group of prime-power order is solvable.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Every group of prime-power order is solvable because it can be shown that any group whose order is a power of a prime number has a normal subgroup whose index is a prime, leading to a series of normal subgroups that ultimately results in an abelian group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "50"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The determinant of a 5 x 5 matrix M must always be zero if any two distinct column vectors are linearly independent.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the determinant of a 5 x 5 matrix can be non-zero even if some column vectors are linearly independent, as long as the entire set of columns is also linearly independent.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1182"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The equation cos(97 x) = x has 15 positive solutions for x.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The equation cos(97x) = x has only one positive solution due to the behavior of the cosine function, which oscillates between -1 and 1, while the line y = x continuously increases without bound, resulting in a maximum of one intersection point in the positive domain.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1183"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The dimension of the intersection of two 2-dimensional subspaces of R^4 can be 0, 1, or 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dimension of the intersection of two 2-dimensional subspaces of R^4 can be 0, 1, or 2 because the intersection can vary from being empty (0-dimensional) to sharing an entire plane (2-dimensional), with 1-dimensional intersections representing cases where they share a line.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1153"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The probability of rolling a six 70 or more times in 360 tosses of a fair die is between 0.02 and 0.16.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, using the normal approximation to the binomial distribution, the probability of rolling a six 70 or more times in 360 tosses of a fair die falls within the calculated range of approximately 0.02 to 0.16.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "14165"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Human beings have discovered a habitable planet and soon after, they find 10 more\nhabitable planets. Of these 11, only 5 are deemed ``Earth-like'' in their resources and\nthe rest are deemed ``Mars-like'' since they lack many important resources. Assume that\nplanets like Earth take up 2 units of colonization, while those like Mars take up only 1.\nIf humanity mobilizes 12 total units of colonies, how many different combinations of\nplanets can be occupied if the planets are all different from each other?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Let $a$ be the number of colonies on Earth-like planets and $b$ be the number on Mars-like\nplanets. We therefore seek nonnegative integers $a$ and $b$ such that $2 a + b = 12$. From\nthis equation, we see that $b$ can be at most 6 while $a$ can at most be 5. In addition,\n$b$ must be even, so the only possibilities are $b = 6, 4, 2$. Thus, there are 3 possible\ncolonization options: $a = 3, b = 6; a=4, b = 4; a=5, b=2$. In the first option, we take\nall 6 Mars-like planets, and can choose the Earth-like planets in $\\binom{5}{3} = 10$\nways. This gives us 10 possibilities. In the second option, we can choose any 4 of the 5\nlike Earth and any 4 of the 6 like Mars. This is $\\binom{5}{4}\\binom{6}{4} = 75$\npossibilities. In the third option, all Earth-like planets must be occupied while only 2\nof those like Mars must be occupied. This is $\\binom{5}{5}\\binom{6}{2} = 15$\npossibilities. In all, there are $10 + 75 + 15 = \\boxed{100}$ planets.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the relationship between the number of colonies allocated to Earth-like and Mars-like planets, formulates the appropriate equation to represent the total colonization units, and systematically derives the valid combinations of planet colonization that satisfy the constraints of the problem.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "15973"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_02_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "What is the mean of the measures of the three exterior angles of a triangle if two of the\ninterior angles have measures of 63 and 78 degrees?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The exterior angles of a triangle sum to $360^\\circ$, so the average of their measures is\n$360^\\circ/3 = \\boxed{120^\\circ}$.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the sum of all exterior angles of any polygon, including a triangle, is always 360 degrees, and dividing this total by the number of angles (three, in this case) gives the mean exterior angle, which is 120 degrees.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "12310"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

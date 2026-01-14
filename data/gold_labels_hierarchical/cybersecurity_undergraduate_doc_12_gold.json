@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_12",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 128 because MD5 (Message-Digest Algorithm 5) produces a fixed-length output of 128 bits, which corresponds to 32 hexadecimal characters.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1487
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Encryption and decryption primarily focus on transforming data to prevent unauthorized access, thereby ensuring confidentiality, but they do not inherently verify whether the data has been altered, which is the essence of integrity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1522
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A ping sweep is used to identify live systems by sending ICMP echo requests to multiple IP addresses to determine which ones respond, indicating that they are active and reachable on the network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Snort is an open-source network intrusion detection and prevention system specifically designed for real-time traffic analysis and packet logging, making it the correct choice for the question.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1510
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Comparing the TTL (Time to Live) values of the actual and spoofed IP addresses can help detect spoofing because legitimate packets typically have a consistent TTL value that decreases with each hop, while spoofed packets may have unusual or inconsistent TTL values indicating they did not originate from the expected source.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1563
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because effective forms of authentication also include passwords, two-factor authentication, and security tokens, in addition to biometric methods.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1505
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "WEP is considered the least secure encryption standard among wireless security protocols because it employs weak encryption algorithms and has significant vulnerabilities that can be easily exploited, making it susceptible to unauthorized access.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1556
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "SHA-1 generates a message digest that is 160 bits long, not 512 bits.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15628
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A crypter is primarily used to obfuscate or encrypt malware to evade detection by security software, but it is not exclusively for creating malicious software itself.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1562
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because ECB (Electronic Codebook) and CBC (Cipher Block Chaining) are valid block cipher modes, while CFB (Cipher Feedback) is not categorized as a block cipher mode but rather as a stream cipher mode.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1518
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def find_rotation_count(A): | return left | return mid | return -1",
+      "marks": 10,
+      "explanation": "The answer correctly outlines the essential steps for implementing a function to find the number of rotations in a circularly sorted array by indicating the use of binary search principles to efficiently locate the pivot point where the rotation occurs.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 382
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_12_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def nCr_mod_p(n, r, p): | return C[r]",
+      "marks": 10,
+      "explanation": "correct because it efficiently computes the binomial coefficient nCr under modulo p using precomputed factorial values and modular inverses, which is essential in cybersecurity applications for algorithms that require combinatorial calculations.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 952
+    }
+  ]
+}

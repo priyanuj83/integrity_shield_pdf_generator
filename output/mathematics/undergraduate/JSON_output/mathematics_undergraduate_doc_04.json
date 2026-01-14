@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_04",
+  "document_name": "Mathematics - Undergraduate Level Assessment 4",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_04.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Let A be the set of all ordered pairs of integers (m, n) such that 7 m + 12 n = 22. What\nis the greatest negative number in the set B = {m + n : (m, n) \\in A}?",
+      "options": {
+        "A": "-5",
+        "B": "-4",
+        "C": "-3",
+        "D": "-2"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -4 because the equation 7m + 12n = 22 can be rewritten to express m in terms of n, allowing us to find integer pairs (m, n) that satisfy the equation, and among the possible sums m + n, the maximum negative sum occurs when m = -4 and n = 0, resulting in m + n = -4.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "15617"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "For how many positive integers k does the ordinary decimal representation of the integer\nk! end in exactly 99 zeros?",
+      "options": {
+        "A": "None",
+        "B": "One",
+        "C": "Four",
+        "D": "Five"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number of trailing zeros in k! is determined by the formula \u230ak/5\u230b + \u230ak/25\u230b + \u230ak/125\u230b, and for k! to end in exactly 99 zeros, this formula yields five specific values of k, specifically for k = 400, 401, 402, 403, and 404.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1117"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Find the maximum possible order for some element of Z_8 x Z_10 x Z_24.",
+      "options": {
+        "A": "8",
+        "B": "120",
+        "C": "240",
+        "D": "24"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The maximum possible order of an element in the direct product of groups is the least common multiple of the orders of the individual groups, so for Z_8 (order 8), Z_10 (order 10), and Z_24 (order 24), the LCM is 120.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "49"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Find the generator for the finite field Z_11.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The number 2 is a generator for the finite field Z_11 because it generates all non-zero elements of the field when raised to the powers of integers from 0 to 9, demonstrating that it is a primitive root modulo 11.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "57"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Let (Z_{10} , +, x) be the ring of integers modulo 10, and let S be the subset of Z_{10}\nrepresented by {0, 2, 4, 6, 8}. Which of the following statements is FALSE?",
+      "options": {
+        "A": "(S, +, x) is closed under addition modulo 10.",
+        "B": "(S, +, x) is closed under multiplication modulo 10.",
+        "C": "(S, +, x) has an identity under addition modulo 10.",
+        "D": "(S, +, x) has no identity under multiplication modulo 10."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is correct because the subset S = {0, 2, 4, 6, 8} lacks a multiplicative identity element under multiplication modulo 10, as none of its elements can multiply with every other element in S to yield an element of S itself that serves as the multiplicative identity (which would be 1 in a ring).",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1101"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "There are exactly 3 nonisomorphic trees that can be formed with 5 vertices.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the three nonisomorphic trees with 5 vertices are characterized by their distinct structures: one with a star configuration (1 central vertex connected to 4 leaves), one with a linear configuration (a path of 5 vertices), and one with a more branched configuration (a vertex connected to two others, which each have one additional leaf).",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1129"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The only coset of the subgroup 4 Z in 2 Z is 4 Z.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the subgroup 4Z has multiple cosets in 2Z, specifically 4Z and 2Z \\ 4Z, which includes elements like 2 and 6.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "91"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The product of 20 and -8 in the ring Z_26 is 22.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The product of 20 and -8 in the ring Z_26 is calculated as (20 * -8) mod 26, which equals -160 mod 26, resulting in 22.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "36"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The largest order of an element in the group of permutations of 5 objects is 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The largest order of an element in the symmetric group S5, which represents the permutations of 5 objects, is actually 60, corresponding to the permutation with the cycle structure of a 5-cycle.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1125"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The probability that 0 will not be chosen when selecting k digits is (1/10)^k.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the correct probability that 0 will not be chosen when selecting k digits is (9/10)^k, as there are 9 other digits (1 through 9) that can be chosen for each selection.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "14162"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Given a real 2 x 2 matrix A such that A = A^(-1) and I != A != -I, analyze the\nimplications of these conditions on the trace of A. What does your analysis reveal about\nits value?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Given a real 2 x 2 matrix A such that A = A^(-1) and I \\neq A \\neq -I, we can derive\nimplications for the trace of A. Since A is its own inverse, it must satisfy A^2 = I,\nmeaning the eigenvalues of A are either 1 or -1. However, since A is neither the identity\nmatrix (I) nor the negative identity matrix (-I), it must have one eigenvalue of 1 and one\nof -1. The trace of a matrix is the sum of its eigenvalues, so in this case, the trace of\nA is 1 + (-1) = 0. Thus, our analysis reveals that the trace of matrix A is 0.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it logically deduces that since the matrix A is its own inverse, its eigenvalues must be 1 and -1, leading to a trace of 0, while also adhering to the given conditions that A is neither the identity nor the negative identity matrix.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1173"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_04_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Determine the minimum value of the expression x + 4 z under the constraint x^2 + y^2 + z^2\n\\leq 2. Provide a detailed analysis of your approach and justification for your solution.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the minimum value of the expression x + 4 z under the constraint x^2 + y^2 +\nz^2 \\leq 2, we can utilize the method of Lagrange multipliers or analyze the geometry of\nthe constraint. Since the constraint describes a sphere of radius \\sqrt 2, we can\nparametrically express x and z in terms of spherical coordinates. By substituting z = (2 -\nx^2 - y^2)^(1/2) into the expression and optimizing, we find that the minimum occurs when\nx and z take on specific values. After calculations, we find that the minimum value of the\nexpression x + 4 z is -\\sqrt 34, which is achieved when x = -1 and z = -\\sqrt 2. This\nsolution illustrates the relationship between optimization and geometric constraints in\nmultivariable calculus.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it employs the method of Lagrange multipliers or geometric analysis to optimize the expression x + 4z within the given spherical constraint, leading to specific values for x and z that yield the minimum.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1162"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

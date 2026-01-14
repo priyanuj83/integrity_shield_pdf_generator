@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) IM - Trojans; B) Backdoor Trojans; C) SMS Trojan; D) Ransom Trojan
+\\ \textit{Note:} An SMS Trojan is a type of malware that exploits mobile devices by sending unauthorized text messages, often leading to financial loss for the user through premium-rate services or hidden charges.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 32; B) 56; C) 48; D) 64
+\\ \textit{Note:} The correct answer is 56 because the Data Encryption Standard (DES) uses a key length of 64 bits, but 8 bits are used for parity checks, leaving 56 bits for actual encryption.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Confidentiality, Integrity, Non repudiation and Authentication; B) Confidentiality, Access Control, Integrity, Non repudiation; C) Authentication, Authorization, Availability, Integrity; D) Availability, Authorization, Confidentiality, Integrity
+\\ \textit{Note:} The correct answer identifies the four primary security principles essential for ensuring the protection and reliability of messages in cybersecurity, as they collectively address the need for message confidentiality, accuracy, verification of origin, and assurance that the sender cannot deny sending the message.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) SYN stealth scan; B) TCP connect; C) XMAS tree scan; D) ACK scan
+\\ \textit{Note:} The SYN stealth scan, also known as a half-open scan, sends SYN packets to initiate a connection but does not complete the TCP handshake, thus allowing the scanner to detect open ports without establishing a full connection.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Joined; B) Authenticated; C) Submitted; D) Shared
+\\ \textit{Note:} The correct answer is "Authenticated" because a man-in-the-middle attack can intercept and alter communications between two parties during the Diffie-Hellman key exchange process if they do not verify each other's identities, allowing an attacker to establish separate keys with each party and compromise the security of the exchanged information.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because message confidentiality pertains to ensuring that the content of the message remains secret from unauthorized parties, and it does not require that the message be understandable to anyone other than the intended sender and receiver.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the Deep Web consists of vast amounts of information that are not accessible through traditional search engine indexing, including databases, private networks, and other resources that require specific permissions or credentials to access.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A digest created by a hash function is typically called a hash value or hash digest, whereas a Message Authentication Code (MAC) involves a cryptographic key and is used to verify both the integrity and authenticity of a message.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A ping sweep is true because it utilizes Internet Control Message Protocol (ICMP) echo requests to systematically determine which IP addresses in a specified range are active and responsive, thereby identifying live systems on a network.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The IP Network Browser is effective for performing SNMP enumeration in network security assessments because it allows security professionals to easily discover and analyze SNMP-enabled devices on a network, facilitating the identification of vulnerabilities and misconfigurations.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} The Tor browser plays a crucial role in facilitating anonymous internet access by enabling users to connect to the Tor network, which obscures their online identity and location. By routing internet traffic through a series of volunteer-operated servers, or nodes, the Tor browser effectively encrypts data multiple times, making it extremely difficult for third parties to monitor user activity. In the context of cybersecurity, this anonymity is significant as it protects individuals from surveillance, censorship, and potential retaliation for their online actions. Furthermore, the Tor browser is instrumental for users in oppressive regimes, where accessing uncensored information can be life-saving. Overall, the Tor browser not only enhances personal privacy but also contributes to a more open and secure internet landscape.
+\\ \textit{Note:} correct because it accurately describes how the Tor browser enables anonymous internet access by routing traffic through multiple encrypted nodes, thereby enhancing user privacy and security against surveillance.
+\item \textbf{Answer:} AddressSanitizer (ASAN) plays a crucial role in identifying memory errors during fuzz testing by instrumenting the program's code to detect various types of memory issues, such as buffer overflows, use-after-free, and memory leaks. By compiling the program with ASAN, developers gain the ability to pinpoint the exact source of memory errors, which significantly enhances the debugging process. This capability is particularly valuable in cybersecurity, where understanding the root cause of vulnerabilities is essential for remediation and improving software robustness. Furthermore, ASAN provides detailed error reports that include stack traces, facilitating a more efficient analysis and faster resolution of memory-related security flaws. Overall, the integration of ASAN into the fuzz testing workflow strengthens the security posture of applications by enabling developers to address critical memory errors proactively.
+\\ \textit{Note:} The answer correctly highlights that AddressSanitizer enhances the debugging process in cybersecurity by instrumenting code to detect memory errors, allowing developers to identify and address vulnerabilities such as buffer overflows and use-after-free errors effectively.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

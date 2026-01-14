@@ -1,0 +1,124 @@
+{
+  "document_id": "mathematics_graduate_doc_20",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mmlu_pro_math_mcq",
+    "mmlu_pro_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 4 because in the binomial expansion of $(m+n)^6$, the terms are determined by the coefficients given by the binomial theorem, and since both $m$ and $n$ are odd integers, the terms corresponding to odd powers of the binomial will yield odd results, specifically for the combinations where the exponent of either $m$ or $n$ is odd, resulting in 4 such terms.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8721
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement f(c) = f(d) must be false because a linear function with a nonzero slope produces different output values for distinct input values, meaning that if c < d, then f(c) cannot equal f(d).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7851
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Statement 1 is correct because every solvable group has a composition series whose factors are abelian, and by the classification of finite groups, every finite solvable group has a prime-power order; however, Statement 2 is false for groups of prime power order that contain non-abelian simple groups, such as the alternating group A4, which is of order 12 (a prime power) but not solvable.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8004
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer to the equation -6 x = -36 is 6, as dividing both sides of the equation by -6 yields x = 6, and checking by substituting back into the original equation confirms that -6 times 6 equals -36.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8137
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The order of the group Z_{18}, which consists of the integers modulo 18 under addition, is 18, not 30, indicating a possible error in the given correct answer, as the order of a finite cyclic group is equal to the modulus.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8619
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because 60% of 30 is calculated as 0.6 \u00d7 30, which equals 18, indicating that the result of 18 is indeed the correct outcome for this percentage calculation, thus highlighting a common misconception about interpreting percentages in mathematical contexts.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8689
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the polynomial x^3 + x^2 + 2 is irreducible over the field Z_3, allowing Z_3[x]/(x^3 + x^2 + 2) to satisfy the criteria for being a field.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7691
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the polynomial 8x^3 + 6x^2 - 9x + 24 is reducible over Z, as it can be factored into the product of polynomials with integer coefficients, contradicting the claim of irreducibility.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7787
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The covariance function C_N(2, 4) for a Poisson process is equal to the minimum of the two time points multiplied by the rate \u03bb, which in this case is C_N(2, 4) = \u03bb * min(2, 4) = 4 * 2 = 8, not 12.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8197
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because solving the equation v - 26 = 68 involves adding 26 to both sides, resulting in v = 94.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8259
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "Dividing the equation by $x^2,$ we get \\[6 x^2 - 35 x + 62 - \\frac{35}{x} + \\frac{6}{x^2}\n= 0.\\]Let $y = x + \\frac{1}{x}.$ Then \\[y^2 = x^2 + 2 + \\frac{1}{x^2},\\]so $x^2 +\n\\frac{1}{x^2} = y^2 - 2.$ Thus, we can re-write the equation above as \\[6(y^2 - 2) - 35 y\n+ 62 = 0.\\]This simplifies to $6 y^2 - 35 y + 50 = 0.$ The roots are $y = \\frac{5}{2}$ and\n$y = \\frac{10}{3}.$ The roots to \\[x + \\frac{1}{x} = \\frac{5}{2}\\]are 2 and $\\frac{1}{2}.$\nThe roots to \\[x + \\frac{1}{x} = \\frac{10}{3}\\]are 3 and $\\frac{1}{3}.$ Thus, the roots of\n$6 x^4 - 35 x^3 + 62 x^2 - 35 x + 6 = 0$ are $\\boxed{2, 3, \\frac{1}{2}, \\frac{1}{3}}.$",
+      "marks": 10,
+      "explanation": "correct because it effectively transforms the original quartic equation into a quadratic form by substituting \\( y = x + \\frac{1}{x} \\), allowing the identification of roots through a systematic approach to solving polynomial equations.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 17254
+    },
+    {
+      "question_id": "mathematics_graduate_doc_20_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The amount of $20.08 can be expressed as a fraction by recognizing that it represents 20\ndollars and 8 cents. In fractional form, this is written as \\( \\frac{2008}{100} \\), which\nsimplifies to \\( \\frac{502}{25} \\) upon dividing both the numerator and denominator by 4.\nThis representation highlights the relationship between currency and rational numbers,\ndemonstrating that monetary values can be precisely quantified and manipulated within the\nframework of arithmetic operations. Moreover, it emphasizes the importance of\nunderstanding decimals and their fractional equivalents in mathematical contexts such as\nfinancial analysis, where precision is crucial for accurate calculations and decision-\nmaking.",
+      "marks": 10,
+      "explanation": "correct because it accurately converts the monetary amount of $20.08 into a simplified fraction, \\( \\frac{502}{25} \\), illustrating the connection between currency and rational numbers while demonstrating the ability to perform arithmetic operations with these representations.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8787
+    }
+  ]
+}

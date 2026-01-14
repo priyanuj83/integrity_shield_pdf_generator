@@ -1,0 +1,125 @@
+{
+  "document_id": "computer_science_undergraduate_doc_05",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 4 because in Python, the exponentiation operator '**' has higher precedence than multiplication '*', so the expression is evaluated as 4 * (1 ** 4), which simplifies to 4 * 1, resulting in 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3272
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All bit strings with more ones than zeros\" because this language is not regular; it requires a counting mechanism to ensure the number of ones exceeds the number of zeros, which cannot be achieved by finite state machines that define regular expressions.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1037
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"//\" because in Python 3, this operator performs floor division by dividing two numbers and rounding down to the nearest whole number.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3204
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 4 because the `max()` function in Python returns the largest value from the provided iterable, and in the list l = [1,2,3,4], the largest number is 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 100 because when applying the recursive function f(x) for x = 4, it calculates as f(4) = 4 * f(3) + 4^2, and through subsequent evaluations (f(3) = 3 * f(2) + 3^2, f(2) = 2 * f(1) + 2^2, and f(1) = 0), the final result sums to 100.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14150
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In a complete K-ary tree of depth N, the total number of nodes is \\( \\frac{K^{N+1} - 1}{K - 1} \\) while the nonterminal nodes are \\( K^N \\), leading to a ratio of nonterminal nodes to total nodes that approaches \\( \\frac{1}{K} \\) as N increases.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1019
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because O(log n) denotes logarithmic growth, which increases without bound as n increases, while O(1) represents constant growth that remains fixed regardless of n, meaning O(log n) is not smaller than O(1) for large values of n.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3234
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A 3-way, set-associative cache can effectively manage multiple processes beyond just three, as it allows for better cache utilization and reduced conflict misses by providing three possible locations for each memory block, regardless of the number of processes running.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1091
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The function O(log log N) grows slower than O(log N) because as N increases, the logarithm of a logarithm grows at a much slower rate than a single logarithm, indicating that O(log log N) is indeed one of the slowest growing functions.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3231
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because a polynomial of degree n can uniquely interpolate n + 1 distinct points, which means the maximum degree of such a polynomial cannot exceed n.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1007
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def search_literal(pattern,text): | return (s, e)",
+      "marks": 10,
+      "explanation": "The provided answer correctly outlines a function designed to search for a specified pattern within a larger text string, with the expected return values indicating the start and end positions of the found pattern, thus addressing the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 534
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def find_Digits(n): | return 0; | return 1; | return math.floor(x) + 1;",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that the number of digits in the factorial of a number can be determined using logarithmic properties, specifically by calculating the floor of the logarithm of the factorial and adding one to it, though it lacks the proper implementation details and the necessary import statement for the math module.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 845
+    }
+  ]
+}

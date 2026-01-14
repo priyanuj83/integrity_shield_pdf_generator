@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(A|B) decreases; B) P(B|A) decreases; C) P(B) decreases; D) All of above
+\\ \textit{Note:} The correct answer is P(B|A) decreases because an increase in P(A) while P(A, B) decreases implies that the conditional probability P(B|A), which is defined as P(A, B)/P(A), must also decrease as it reflects the diminishing joint occurrence of A and B relative to the increasing probability of A alone.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Industrial-scale neural networks are typically trained on GPUs due to their parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 2; B) 4; C) 8; D) 16
+\\ \textit{Note:} The correct answer is 8 because in a Bayesian network, the number of independent parameters required is calculated based on the number of conditional probability tables needed for each node, which in this case amounts to 8 parameters for the structure H -\textgreater{} U \textless{}- P \textless{}- W, considering each node's parent configurations and the probabilities associated with them.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The correct answer is true for both statements because the softmax function transforms logits into probabilities for multiclass classification, and adjusting the temperature in a nonuniform softmax distribution influences the distribution's sharpness, thereby impacting its entropy.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) To save computing time during testing; B) To save space for storing the Decision Tree; C) To make the training set error smaller; D) To avoid overfitting the training set
+\\ \textit{Note:} Pruning a Decision Tree is essential to prevent overfitting, as it reduces the model's complexity by removing branches that have little importance, thus improving its generalization to unseen data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Random crop and horizontal flip are widely used in image data augmentation because they effectively increase the diversity of training datasets by introducing variations in scale and orientation, which helps improve the robustness and generalization of machine learning models.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Overfitting occurs when the hypothesis space is large, allowing the model to capture noise in the training data, rather than when it is small, which restricts the model's flexibility and capacity to fit the data effectively.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because to calculate P(H|E, F) using Bayes' theorem, one also needs P(F|H) and P(F|E), which are not provided by the given probabilities.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Discriminative approaches directly model the conditional probability p(y|x, w), which emphasizes the relationship between input features x and output labels y while incorporating any relevant parameters w, distinguishing them from generative approaches that model the joint distribution p(x, y).
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Word 2 Vec uses stochastic gradient descent to optimize its parameters during training, rather than initializing them with a Restricted Boltzmann Machine, which is a different model architecture.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} An increasing training loss with the number of epochs in a machine learning model can often be attributed to an excessively large step size in the optimization algorithm. When the step size, or learning rate, is too high, the model's parameters can overshoot the optimal values during the weight updates. This can lead to divergence rather than convergence, resulting in fluctuating or increasing loss values. As the model continues to train, the instability caused by the large step size can prevent it from effectively minimizing the loss function, ultimately leading to poor model performance. Therefore, careful tuning of the learning rate is crucial to ensure that the model converges appropriately during training.
+\\ \textit{Note:} correct because an excessively large step size in the optimization process can cause the model's parameters to diverge from optimal values, leading to increasing training loss as the model fails to stabilize during training.
+\item \textbf{Answer:} In the given Bayesian Network H -\textgreater{} U \textless{}- P \textless{}- W, the joint probability P(H, U, P, W) can be expressed as P(H) * P(W) * P(P | W) * P(U | H, P). Each variable plays a critical role: H influences U directly, while P is a common cause for both U and W, establishing a dependency structure. The term P(H) represents the prior probability of variable H, while P(W) reflects the independent probability of W. The conditional probability P(P | W) captures how W affects the likelihood of P, and P(U | H, P) illustrates how both H and P together determine U's probability. This formulation allows for a comprehensive understanding of the interactions among the variables within the network.
+\\ \textit{Note:} The answer correctly describes the joint probability in the Bayesian Network by breaking it down into prior and conditional probabilities that reflect the relationships and dependencies among the variables, illustrating how H influences U, P acts as a common cause, and W impacts P.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

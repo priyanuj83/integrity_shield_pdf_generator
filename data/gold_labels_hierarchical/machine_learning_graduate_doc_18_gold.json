@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_18",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is O(N) because the nearest neighbors algorithm requires comparing the test instance to all N instances in the training dataset to determine the closest neighbors for classification, resulting in a linear run time relative to the number of training instances.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6885
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is justified because both Lasso (L1) regularization and Elastic Net regularization can lead to some coefficients being exactly zero, as Lasso encourages sparsity in the model by penalizing the absolute size of the coefficients.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6934
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As the number of training examples increases towards infinity, the model's predictions become more consistent and stable, leading to lower variance because it can better capture the underlying data distribution without being overly sensitive to fluctuations in the training data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Random cropping and horizontal flipping are widely used in natural image data augmentation because they effectively enhance model robustness by introducing variability in spatial composition and orientation while maintaining the essential content of the images.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Lasso is more appropriate for feature selection because its L1 regularization property can shrink some coefficients to zero, effectively eliminating irrelevant features from the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Regression analysis quantifies the strength and direction of relationships between variables, but it does not inherently establish causation, as correlation does not imply causation without further investigation or experimental design.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because P(H|E, F) can be calculated using Bayes' theorem, which requires the joint probability P(E, F), the prior probability P(H), and the conditional probability P(E, F|H) to properly derive the posterior probability of H given E and F.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6893
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the original ResNet paper introduced Batch Normalization as a technique to stabilize and accelerate training, while it did not utilize Layer Normalization, which is more commonly associated with recurrent neural networks and tasks involving sequential data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Clustering is effective for detecting fraudulent credit card transactions because it identifies patterns of normal behavior among users, allowing for the detection of anomalies that may indicate fraudulent activity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Overfitting occurs when a model becomes too complex relative to the amount of training data available, leading it to capture noise and outliers rather than the underlying distribution of the data, which is more pronounced when the training dataset is small.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def find_first_occurrence(A, x): | return result",
+      "marks": 10,
+      "explanation": "correct because it outlines the definition of a function, `find_first_occurrence`, which is intended to locate the index of the first occurrence of a specified number `x` within a sorted array `A`, a crucial operation in search algorithms relevant to machine learning contexts.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 733
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_18_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def min_of_two( x, y ): | return x | return y",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a function intended to find the minimum of two numbers, but it contains a logical error as it does not implement the necessary comparison between x and y to determine which value is smaller.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 970
+    }
+  ]
+}

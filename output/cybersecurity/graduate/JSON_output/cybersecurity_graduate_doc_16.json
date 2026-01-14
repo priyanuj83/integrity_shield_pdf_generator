@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_16",
+  "document_name": "Cybersecurity - Graduate Level Assessment 16",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_16.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "1. _________ framework made cracking of vulnerabilities easy like point and click.",
+      "options": {
+        "A": ".Net",
+        "B": "Metasploit",
+        "C": "Zeus",
+        "D": "Ettercap"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Metasploit is a widely-used penetration testing framework that simplifies the exploitation of vulnerabilities through its user-friendly interface and extensive library of pre-built exploits, allowing users to perform attacks with minimal technical expertise.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1539"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Old operating systems like _______ and NT-based systems have buffer-overflow attack a\ncommon vulnerability.",
+      "options": {
+        "A": "Windows 7",
+        "B": "Chrome",
+        "C": "IOS 12",
+        "D": "UNIX"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "UNIX operating systems have historically been prone to buffer-overflow vulnerabilities due to their use of C programming, which lacks built-in bounds checking, making it easier for attackers to exploit memory management flaws.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not an example of presentation layer issues?",
+      "options": {
+        "A": "Poor handling of unexpected input can lead to the execution of arbitrary instructions",
+        "B": "Unintentional or ill-directed use of superficially supplied input",
+        "C": "Cryptographic flaws in the system may get exploited to evade privacy",
+        "D": "Weak or non-existent authentication mechanisms"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Weak or non-existent authentication mechanisms are primarily related to security measures at the application and network layers rather than the presentation layer, which focuses on data formatting and representation.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+      "options": {
+        "A": "boundary hacks",
+        "B": "memory checks",
+        "C": "boundary checks",
+        "D": "buffer checks"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Buffer-overflow vulnerabilities occur when data exceeds a program's allocated memory boundaries, and without proper boundary checks, these overflows can lead to unintended behavior or security breaches in applications.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1520"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A _________________ may be a hidden part of a program, a separate infected program a\nTrojan in disguise of an executable or code in the firmware of any system's hardware.",
+      "options": {
+        "A": "crypter",
+        "B": "virus",
+        "C": "backdoor",
+        "D": "key-logger"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A backdoor is a method of bypassing normal authentication or encryption in a system, allowing unauthorized access and control, often disguised as legitimate software or embedded in firmware, making it a hidden threat in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1562"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "Merging tables is a recommended practice for preventing SQL injection vulnerabilities in database applications.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merging tables does not inherently prevent SQL injection vulnerabilities; rather, proper input validation and parameterized queries are essential practices for safeguarding against such attacks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1489"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key between two parties is utilized only once for encrypting a specific communication session.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A session symmetric key is designed to provide temporary encryption for a single communication session, enhancing security by ensuring that even if the key is compromised, only that specific session's data is at risk, thereby adhering to the principle of key uniqueness and minimizing potential exposure.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Message confidentiality ensures that only the sender and receiver can access the content of the communication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Message confidentiality is achieved through encryption techniques that protect the content of communications from unauthorized access, ensuring that only the intended sender and receiver can read the information.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1511"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "WEP is considered the least secure encryption standard among the wireless security protocols.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WEP is considered the least secure encryption standard among wireless security protocols due to its weak cryptographic mechanisms, which are vulnerable to multiple attack vectors, allowing unauthorized access and data breaches.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "The dark web is a segment of the Deep Web that is intentionally hidden and inaccessible via standard web browsers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the dark web consists of encrypted networks that require specific software, configurations, or authorization to access, making it deliberately obscured from standard web browsers and search engines.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the SYN stealth scan in Nmap, explaining how it operates without establishing a\nfull TCP connection and analyzing its implications for network security assessments.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The SYN stealth scan, also known as half-open scanning, is a technique utilized by Nmap\nthat enables the identification of open ports on a target system without completing the\nTCP handshake. This method operates by sending a SYN packet to the target port; if the\nport is open, the target responds with a SYN-ACK packet, which Nmap can then interpret as\nan indication of an open port. If the port is closed, the target will respond with a RST\npacket. By not completing the handshake, SYN scans evade some intrusion detection systems\nand logging mechanisms, thereby reducing the likelihood of detection during network\nsecurity assessments. This stealthy approach allows penetration testers and security\nanalysts to map out potential vulnerabilities more discreetly, highlighting the importance\nof employing such techniques in thorough vulnerability assessments and the necessity for\nrobust defensive measures against these scanning methods.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the SYN stealth scan's methodology of sending SYN packets to probe ports without completing the TCP handshake, thereby allowing for the detection of open ports while minimizing the chances of detection by intrusion detection systems.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1546"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_16_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the four-step authentication process known as the 4-way handshake that occurs when\na wireless user connects to an access point, analyzing its significance in ensuring secure\ncommunication.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The 4-way handshake is a crucial authentication process in wireless networking,\nspecifically within the IEEE 802.11 standard, designed to establish a secure connection\nbetween a client and an access point (AP). This process involves four distinct steps: the\nAP sends a nonce (a random number) to the client, the client responds with its nonce and a\nmessage integrity check (MIC), the AP then validates the client's response, and finally,\nboth parties generate session keys based on the exchanged nonces. The significance of the\n4-way handshake lies in its ability to authenticate devices and establish encryption keys\nthat protect data during transmission, thereby mitigating risks such as unauthorized\naccess and eavesdropping. By ensuring that both the client and AP possess the shared\nsecret (the pre-shared key), the 4-way handshake enhances the overall security of wireless\ncommunications, making it a foundational component of secure wireless networking.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the 4-way handshake process by detailing each of the four steps involved in establishing a secure connection and emphasizes its significance in ensuring secure communication through the generation of session keys and message integrity checks.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1512"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

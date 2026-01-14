@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 4 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) C, Ruby; B) Python, Ruby; C) C, C++; D) Tcl, C\#
+\\ \textit{Note:} C and C++ are prone to buffer-overflow errors because they allow direct manipulation of memory through pointers and do not automatically enforce bounds checking on arrays, leading to vulnerabilities in cybersecurity.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Private-key system; B) Shared-key system; C) Public-key system; D) All of them
+\\ \textit{Note:} A digital signature relies on a public-key system because it uses a pair of keys-one public and one private-to ensure authenticity and integrity of a message, allowing the sender to sign with their private key while anyone can verify the signature using the corresponding public key.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Silk Road; B) Cotton Road; C) Dark Road; D) Drug Road
+\\ \textit{Note:} The Silk Road was a notorious online marketplace on the Dark Web known for facilitating the sale of illegal drugs and a variety of other illicit goods, making it emblematic of such activities.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) .Net; B) Metasploit; C) Zeus; D) Ettercap
+\\ \textit{Note:} The Metasploit framework is designed to simplify the exploitation of security vulnerabilities through its user-friendly interface and extensive library of pre-built exploits, making it accessible for users to perform penetration testing with minimal technical complexity.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WPA 3 provides enhanced security features such as stronger encryption, improved protection against brute-force attacks, and mandatory use of advanced security protocols, making it the most secure wireless security standard available.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} All three methods-secret question, biometric authentication, and SMS code-are valid authentication methods because they each employ distinct mechanisms to verify a user's identity, enhancing security in various contexts.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The haunted web refers to websites that are no longer maintained or abandoned, but they are typically not easily accessible through regular browsers as they often require specific knowledge or tools to access, distinguishing them from the regular web.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The length of the message digest produced by MD 5 is actually 128 bits, not 160 bits.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A hash function generates a fixed-size digest from variable input data, which serves as a Modification Detection Code (MDC) by allowing the verification of data integrity through comparison of the hash values.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because secure communication can be achieved by encrypting the message at the sender site and decrypting it at the receiver site, which is the standard practice in cryptography.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def remove\_whitespaces(text 1): | return (re.sub(r'\ensuremath{\s}+', '',text 1))
+\\ \textit{Note:} correct because it utilizes the `re.sub()` function from the `re` module to replace all whitespace characters in the input string `text 1` with an empty string, effectively removing them.
+\item \textbf{Answer:} def is\_sublist(l, s): | return sub\_set
+\\ \textit{Note:} correct because it defines a function that presumably checks for the presence of a sublist within a larger list, which is a fundamental operation in data manipulation relevant to cybersecurity tasks such as pattern recognition and anomaly detection.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

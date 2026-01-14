@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_undergraduate_doc_11",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The function O(log log N) represents an extremely slow growth rate compared to other common functions such as polynomial, exponential, and even logarithmic functions, making it the slowest growing type among the options typically considered in algorithm complexity analysis.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3231
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Church's thesis, also known as the Church-Turing thesis, asserts that any function that can be intuitively considered computable can be computed by a Turing machine, but it cannot be proven as it is a statement about the nature of computability rather than a theorem that can be formally verified.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14151
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The value of f(4) is 100 because the recursive function evaluates as f(4) = 4 * f(3) + 16, f(3) = 3 * f(2) + 9, f(2) = 2 * f(1) + 4, and f(1) = 0, leading to the final calculation f(4) = 4 * (3 * (2 * 0 + 4) + 9) + 16 = 100.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14150
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The output of \"abc\"[::-1] in Python 3 is \"cba\" because the slicing notation with a step of -1 reverses the string by starting from the end and moving to the beginning.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 15675
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression !(max != a[i]) is logically equivalent to a[i] == max, making the entire boolean expression reducible to just a[i] == max.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3229
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python lists, indexing starts at 0, so the element at index 1 of the list ['a', 'Chemistry', 0, 1] is indeed 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because confidentiality is not compromised solely by the act of logging in with stolen credentials; it is the unauthorized access and subsequent exposure of sensitive information that constitutes a breach of confidentiality.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3237
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Reference counting cannot reclaim cyclic structures because it only tracks the number of references to an object, failing to recognize when objects are mutually referencing each other, thus preventing their reference counts from ever reaching zero.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 14152
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The method 'ab'.sort() is false because strings in Python are immutable, meaning they cannot be modified in place, and thus do not have a sort() method.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Static allocation does not accommodate the dynamic nature of recursive calls, which can lead to issues such as stack overflow and insufficient memory management for variable storage during multiple recursive invocations.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1059
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def increasing_trend(nums): | return True | return False",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need to evaluate a sequence of numbers for an increasing trend, but it lacks the necessary logic to compare the elements of the sequence and determine if each subsequent number is greater than the previous one, which is essential for accurately implementing the function.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 680
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_11_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def check_none(test_tup): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it defines a function that is expected to evaluate the elements of a tuple for the presence of any `None` values, although the implementation details are incomplete and need to be filled in to provide the actual logic for checking.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 744
+    }
+  ]
+}

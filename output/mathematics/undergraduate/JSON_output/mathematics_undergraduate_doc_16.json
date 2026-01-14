@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_undergraduate_doc_16",
+  "document_name": "Mathematics - Undergraduate Level Assessment 16",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\undergraduate\\latex_documents\\mathematics_undergraduate_doc_16.tex",
+    "pdf_file": "output\\mathematics\\undergraduate\\pdf_documents\\mathematics_undergraduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_undergraduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_undergraduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\undergraduate\\answer_keys\\latex\\mathematics_undergraduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\undergraduate\\answer_keys\\pdf\\mathematics_undergraduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If (G, .) is a group such that (ab)^-1 = a^-1 b^-1, for all a, b in G, then G is a/an",
+      "options": {
+        "A": "commutative semi group",
+        "B": "abelian group",
+        "C": "non-abelian group",
+        "D": "None of these"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The property (ab)^-1 = a^-1 b^-1 indicates that the group operation is commutative, meaning that for all a, b in G, a.b = b.a, which defines G as an abelian group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "31"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Find the order of the factor group Z_6/<3>.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The order of the factor group Z_6/<3> is 3 because the subgroup <3> consists of the elements {0, 3} in Z_6, and the factor group is formed by the cosets of this subgroup, which results in three distinct cosets: {0, 3}, {1, 4}, and {2, 5}.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "14043"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If A = {1, 2, 3} then relation S = {(1, 1), (2, 2)} is",
+      "options": {
+        "A": "symmetric only",
+        "B": "anti-symmetric only",
+        "C": "both symmetric and anti-symmetric",
+        "D": "an equivalence relation"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The relation S is symmetric because it includes pairs of the form (a, a) for each element in its domain, and it is anti-symmetric since there are no pairs (a, b) with a \u2260 b in S, thus satisfying both properties simultaneously.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "11"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let A be the set of all ordered pairs of integers (m, n) such that 7 m + 12 n = 22. What\nis the greatest negative number in the set B = {m + n : (m, n) \\in A}?",
+      "options": {
+        "A": "-5",
+        "B": "-4",
+        "C": "-3",
+        "D": "-2"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is -4 because the equation 7m + 12n = 22 can be rearranged to express n in terms of m, and by substituting integer values for m, the maximum value of m+n that is negative occurs at m = -4 and n = 0, yielding m+n = -4.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "15617"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In the xy-plane, the curve with parametric equations x = cos t and y = sin t, 0 <= t <=\npi, has length",
+      "options": {
+        "A": "3",
+        "B": "pi",
+        "C": "3 pi",
+        "D": "3/2"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The length of the curve defined by the parametric equations x = cos t and y = sin t from t = 0 to t = \u03c0 represents a semicircle with a radius of 1, resulting in a total length of \u03c0.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1143"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The product of 12 and 16 in the ring Z_24 is congruent to 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The product of 12 and 16 is 192, and when reduced modulo 24, it is congruent to 0, not 4.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "88"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "An ideal N in a ring R with unity is all of R if and only if N contains some element other than 1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because an ideal N in a ring R with unity being equal to the entire ring R implies that N contains the multiplicative identity 1, but it does not require N to contain any other element besides 1.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "62"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The order of the factor group aH is not necessarily a divisor of |a| in group theory.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The order of the factor group aH, where a is an element of a group and H is a normal subgroup, can be independent of the order of a because it is determined by the index of H in the group, which does not necessarily relate to the order of individual elements in the group.",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": "15574"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The degree of the field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q is 6.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The degree of the field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q is 4, not 6, because sqrt(18) can be expressed as sqrt(2) * sqrt(9), which is already contained in Q(sqrt(2), sqrt(3)).",
+      "source": {
+        "dataset": "mathematics_abstract_algebra",
+        "source_id": ""
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The map x -> axa^2 of a group G into itself is a homomorphism if and only if G is abelian.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the map x -> axa^2 is not a homomorphism in general, even for abelian groups, since it does not satisfy the homomorphism property of preserving the group operation for all elements in G.",
+      "source": {
+        "dataset": "mathematics_college_mathematics",
+        "source_id": "1185"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "There is an unlimited supply of congruent equilateral triangles made of colored paper.\nEach triangle is a solid color with the same color on both sides of the paper. A large\nequilateral triangle is constructed from four of these paper triangles as shown. Two large\ntriangles are considered distinguishable if it is not possible to place one on the other,\nusing translations, rotations, and/or reflections, so that their corresponding small\ntriangles are of the same color. Given that there are six different colors of triangles\nfrom which to choose, how many distinguishable large equilateral triangles can be\nconstructed? [asy] draw((0,0)--(10,0)--(5,8.7)--cycle);\ndraw((5,0)--(2.5,4.3)--(7.5,4.3)--cycle); [/asy]",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Because any permutation of the vertices of a large triangle can be obtained by rotation or\nreflection, the coloring of the large triangle is determined by which set of three colors\nis used for the corner triangles and the color that is used for the center triangle. If\nthe three corner triangles are the same color, there are six possible sets of colors for\nthem. If exactly two of the corner triangles are the same color, there are $6\\cdot 5=30$\npossible sets of colors. If the three corner triangles are different colors, there are\n${6\\choose 3}=20$ possible sets of colors. Therefore there are $6+30+20=56$ sets of colors\nfor the corner triangles. Because there are six choices for the color of the center\ntriangle, there are $6\\cdot 56=\\boxed{336}$ distinguishable triangles.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately accounts for the distinct color combinations of the corner and center triangles by considering the effects of symmetry through rotations and reflections, leading to a systematic enumeration of distinguishable configurations based on the equality and inequality of colors among the corner triangles.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "16070"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_undergraduate_doc_16_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Find all values of $x$ such that \\[ \\begin{vmatrix} 1 & 1 & 1 \\\\ x & 7 & -2 \\\\ x^3 & 343 &\n-8 \\end{vmatrix} = 0.\\]Enter your values separated by commas. For example, if you think\nthe possible values are 4, 5, and 6, then enter you answer as \"4,5,6\".",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Subtracting the second column from the first column, we get \\[ \\begin{vmatrix} 0 & 1 & 1\n\\\\ x - 7 & 7 & -2 \\\\ x^3 - 343 & 343 & -8 \\end{vmatrix} = 0.\\]The first column becomes all\nzeros when $x = 7,$ so this is one possible value of $x.$ Subtracting the third column\nfrom the first column, we get \\[ \\begin{vmatrix} 0 & 1 & 1 \\\\ x + 2 & 7 & -2 \\\\ x^3 + 8 &\n343 & -8 \\end{vmatrix} = 0.\\]The first column becomes all zeros when $x = -2,$ so this is\nanother possible value of $x.$ Expanding the last determinant along the first column, we\nget \\begin{align*} \\begin{vmatrix} 0 & 1 & 1 \\\\ x + 2 & 7 & -2 \\\\ x^3 + 8 & 343 & -8\n\\end{vmatrix} &= -(x + 2) \\begin{vmatrix} 1 & 1 \\\\ 343 & -8 \\end{vmatrix} + (x^3 + 8)\n\\begin{vmatrix} 1 & 1 \\\\ 7 & -2 \\end{vmatrix} \\\\ &= -9 x^3 + 351 x + 630 = 0.\n\\end{align*}Since we know that $x = 7$ are $x = -2$ are two solutions, we can take out a\nfactor of $x - 7$ and $x + 2$, to get \\[-9(x - 7)(x + 2)(x + 5) = 0.\\]Hence, the possible\nvalues of $x$ are $\\boxed{7, -2, \\text{ and } -5}.$ (Alternatively, by Vieta's formulas,\nthe sum of the three roots of $-9 x^3 + 351 x + 630 = 0$ is 0, so the third root is $-7 -\n(-2) = -5.$)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it demonstrates the application of column operations on determinants, revealing specific values of \\(x\\) that lead to a column of zeros, which indicates that the determinant is zero, thus satisfying the original equation.",
+      "source": {
+        "dataset": "gsm8k_math",
+        "source_id": "10905"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

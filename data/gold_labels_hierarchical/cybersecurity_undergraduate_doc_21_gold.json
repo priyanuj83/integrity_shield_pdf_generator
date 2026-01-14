@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_21",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A digital signature requires a public-key system because it relies on asymmetric encryption, where a private key is used to create the signature and a corresponding public key is used to verify its authenticity, ensuring secure communication and integrity of the signed data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1507
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The Heartbleed bug allows an attacker to exploit a vulnerability in the OpenSSL implementation of the TLS/DTLS protocols, enabling them to read sensitive memory outside the bounds of a buffer, thereby accessing data that should not be available.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15631
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is the Session layer because it is responsible for managing and controlling the sessions between computers, where failed sessions can be exploited by attackers to perform brute-force attempts on access credentials.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1504
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "SHA-1 produces a message digest that is exactly 160 bits long, making it a widely recognized cryptographic hash function in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 15628
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Comparing the Time to Live (TTL) values of actual and spoofed IP addresses helps detect spoofing because legitimate packets typically have a predictable TTL that decreases with each hop, while spoofed packets often exhibit anomalies in their TTL values.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1563
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Authentication is a fundamental security process designed to ensure that users are who they claim to be, distinguishing it from security exploits, which involve malicious activities aimed at compromising system integrity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1485
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A MAC with a fixed output length is vulnerable to collision attacks and brute force, making it insecure regardless of the strength of the underlying cryptographic functions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1509
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The length of the message digest in MD5 is actually 128 bits, not 160 bits.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1487
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A session symmetric key is designed for temporary use to encrypt data exchanged during a specific communication session, ensuring that even if the key is compromised later, it cannot be reused to decrypt past communications, thus enhancing security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A crypter is not a type of malware itself; rather, it is a tool used to obfuscate malware, making it harder for antivirus software to detect the actual malicious code.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1562
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def find_Element(arr,ranges,rotations,index) : | return arr[index]",
+      "marks": 10,
+      "explanation": "The provided answer correctly identifies the element at the specified index of the array without accounting for the rotations, which implies that the question may be misleading or the given answer is overly simplistic, as it should also consider how the array is affected by the number of rotations before accessing the index.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 304
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_21_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def count_list(input_list): | return len(input_list)",
+      "marks": 10,
+      "explanation": "The provided answer is correct because it defines a function that accurately counts and returns the total number of lists contained within the given input list, utilizing the built-in `len()` function to achieve this.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 792
+    }
+  ]
+}

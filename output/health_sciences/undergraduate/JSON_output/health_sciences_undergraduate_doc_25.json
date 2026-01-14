@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_25",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 25",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_25.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In men gonorrhea and chlamydia most often infect the:",
+      "options": {
+        "A": "penis",
+        "B": "scrotum",
+        "C": "urethra",
+        "D": "bladder"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Gonorrhea and chlamydia are sexually transmitted infections that primarily target the urethra in men, leading to symptoms such as painful urination and discharge.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6438"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Remarriages are",
+      "options": {
+        "A": "More frequent for woman than men",
+        "B": "Typically more successful",
+        "C": "Typically less successful",
+        "D": "Most common among those who have never been married before"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Remarriages are typically less successful due to factors such as unresolved emotional baggage from previous relationships and the complexities of blending families, which can lead to increased stress and conflict.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6164"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In a condition such as schizophrenia the recurrence risk will be greatest for which of the\nfollowing relatives of an affected individual?",
+      "options": {
+        "A": "Brother",
+        "B": "Nephew",
+        "C": "Grandchild",
+        "D": "Aunt"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The recurrence risk for schizophrenia is greatest for a brother of an affected individual due to the shared genetic and environmental factors, as first-degree relatives have a higher probability of developing the disorder compared to more distant relatives.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "7296"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT part of the internal structure of a female's breast?",
+      "options": {
+        "A": "Breast lobule",
+        "B": "Lactiferous duct",
+        "C": "Lactiferous sinus",
+        "D": "Dartos Muscle"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dartos muscle is not part of the internal structure of a female's breast, as it is a layer of smooth muscle found in the scrotum, not in breast tissue.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6441"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The auditory tube",
+      "options": {
+        "A": "connects the inner ear and nasopharynx.",
+        "B": "is derived from the second pharyngeal pouch.",
+        "C": "is opened by the action of levator veli palatini.",
+        "D": "is closed by the action of tensor veli palatini."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The levator veli palatini muscle plays a crucial role in opening the auditory tube during swallowing or yawning, which equalizes pressure in the middle ear, making it the correct answer.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "135"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Lymphocytes, a type of white blood cell, do not have a nucleus in their mature form.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lymphocytes, in their mature form, retain a nucleus, which is essential for their role in the immune response, including the production of antibodies and the regulation of immune functions.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "147"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Human Chorionic Gonadotropin (hCG) is an odorous steroid found in the underarm sweat of humans and acts as a pheromone.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Human Chorionic Gonadotropin (hCG) is a hormone produced during pregnancy, not a steroid or a pheromone, and it is not found in underarm sweat.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "14729"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Papillomaviruses most often infect humans via scratches and breaks in the skin.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Papillomaviruses primarily enter the body through micro-abrasions or breaks in the skin, allowing them to infect epithelial cells and cause conditions such as warts.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13752"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "The primary goal of public health is to protect the uninfected population from diseases and health threats.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The primary goal of public health is indeed to protect the uninfected population from diseases and health threats by implementing preventive measures, promoting health education, and ensuring access to healthcare resources.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "15543"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "Validation therapy involves treating individuals with dementia with dignity and respect, recognizing their humanity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Validation therapy is based on the principle of acknowledging and honoring the feelings and experiences of individuals with dementia, thus treating them with dignity and respect.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6233"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the anatomy and significance of the fibula in the context of lower leg injuries,\nand explain the role of X-ray imaging in diagnosing related conditions.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The fibula is a slender bone located on the lateral side of the lower leg, running\nparallel to the tibia. Although it bears less weight than the tibia, the fibula plays a\ncrucial role in providing stability to the ankle and supporting the muscles of the lower\nleg. Injuries to the fibula, such as fractures, can significantly impact mobility and may\nrequire careful assessment and management. X-ray imaging is essential in diagnosing\nfibular injuries, as it allows for clear visualization of bone integrity and alignment,\nhelping clinicians determine the severity of the injury and appropriate treatment options.\nUnderstanding the anatomy and significance of the fibula is vital for addressing lower leg\ninjuries effectively and ensuring optimal recovery.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes the fibula's anatomical position, its functional significance in lower leg stability and muscle support, the impact of fibular injuries on mobility, and the critical role of X-ray imaging in diagnosing such conditions.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "146"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_25_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the principles and techniques of behavior modification in psychotherapy, focusing\non how they address problem behaviors and the implications for therapeutic outcomes.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Behavior modification in psychotherapy is grounded in principles of operant conditioning,\nwhich emphasizes the role of reinforcement and punishment in shaping behavior. Techniques\nsuch as systematic desensitization, token economies, and contingency management are\nemployed to address problem behaviors by reinforcing desirable actions while discouraging\nmaladaptive ones. By implementing these strategies, therapists aim to modify negative\nbehaviors, leading to improved emotional and psychological well-being. The implications\nfor therapeutic outcomes are significant, as successful behavior modification can result\nin increased adaptive functioning, enhanced coping skills, and overall improved quality of\nlife for clients. Ultimately, the effectiveness of these techniques relies on consistent\napplication and tailoring to individual needs, ensuring that the modification process is\nboth ethical and client-centered.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies operant conditioning as the foundational principle of behavior modification, outlines specific techniques used to reinforce positive behaviors and discourage negative ones, and connects these strategies to the goal of improving therapeutic outcomes.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6404"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

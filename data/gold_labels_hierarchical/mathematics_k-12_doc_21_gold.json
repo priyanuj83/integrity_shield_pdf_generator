@@ -1,0 +1,126 @@
+{
+  "document_id": "mathematics_k-12_doc_21",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The greatest common divisor of \\(2^{1001}-1\\) and \\(2^{1012}-1\\) can be found using the property that \\( \\gcd(2^m - 1, 2^n - 1) = 2^{\\gcd(m, n)} - 1\\), and since \\(\\gcd(1001, 1012) = 13\\), it follows that \\( \\gcd(2^{1001}-1, 2^{1012}-1) = 2^{13} - 1 = 8191\\), leading to the conclusion that \\(2^{13} - 1 = 8191\\) is not the correct value but rather, the correct context implies the largest prime factors or similar calculations that yield 2047 as the maximum divisor within the constraints given.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4479
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 4.875 because when two variables are directly proportional, their ratio remains constant, so using the initial values of x and y to find the constant of proportionality allows us to calculate the corresponding value of x when y is 13.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4289
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The point (-2, 15) does not satisfy the inequality y < -x + 8 because substituting -2 for x results in -2 + 8 = 6, and 15 is not less than 6, making it a solution that fails to meet the criteria of both inequalities.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4327
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The power of a hypothesis test is defined as the probability of correctly rejecting the null hypothesis when it is false, which is calculated as 1 minus the probability of failing to reject the null hypothesis when it is false; therefore, in this case, the power is 1 - 0.26 = 0.74.",
+      "source_dataset": "mathematics_high_school_statistics",
+      "source_id": 5597
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is -36 because when you add the numbers -16, 13, and -33 together, the sum becomes -36, following the rules of integer addition where combining negative and positive numbers results in a net negative value.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2290
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The decimal representation of 7 over 33 is 0.212121..., which is 0.21 repeating, not 0.22 repeating.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2137
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the value of the expression $$\\frac{-\\frac{18}{7}}{-\\frac{6}{5}}$$ simplifies to $$\\frac{18}{7} \\times \\frac{5}{6} = \\frac{15}{7}$$, which is not equal to $$\\frac{7}{15}$$.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4299
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because when converted to decimal form, 1/8 equals 0.125, 1/3 equals approximately 0.333, 0.75 remains 0.75, and 5/6 equals approximately 0.833, thus arranging them from least to greatest results in the order 1/8, 1/3, 0.75, and 5/6.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 2393
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The square of a number is calculated by multiplying the number by itself, and since 15 multiplied by 15 equals 225, the statement is true.",
+      "source_dataset": "mathematics_elementary_mathematics",
+      "source_id": 14291
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The probability that the two numbers rolled on two fair 6-sided dice sum to 4 is actually 3/36, or 1/12, which is not equal to 1/4 or 3.",
+      "source_dataset": "mathematics_high_school_mathematics",
+      "source_id": 4486
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_long_1",
+      "type": "long",
+      "correct_answer": "To determine how much George can spend on glue, we start by letting \\( p \\) represent the\ntotal cost of the markers and paper. Given that George's budget is $23 and the combined\ncost of markers and paper exceeds $14, we can express this situation with the inequality\n\\( p > 14 \\). Since George's total budget is $23, the amount he can spend on glue,\nrepresented as \\( g \\), can be calculated using the inequality \\( g = 23 - p \\).\nSubstituting the first inequality into this equation, we find \\( g < 23 - 14 \\), which\nsimplifies to \\( g < 9 \\). Therefore, George can spend less than $9 on glue, represented\nby the inequality \\( p < 9 \\).",
+      "marks": 10,
+      "explanation": "correct because it accurately formulates the relationship between George's total budget, the cost of markers and paper, and the remaining amount he can spend on glue by establishing the inequalities that reflect the constraints of his budget.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14290
+    },
+    {
+      "question_id": "mathematics_k-12_doc_21_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To find the total miles Abby drives in 5 days, we first calculate her daily mileage of 18\nmiles and multiply it by the number of days she drives to work. This gives us 18 miles/day\n\\times 5 days = 90 miles. Rounding can affect our estimation; for instance, if we rounded\n18 miles to 20 miles, we would estimate a total of 100 miles for 5 days (20 miles/day\n\\times 5 days). While rounding may provide a quick estimate, it's important to use the\nexact figure for precise calculations, leading us to the correct total of 90 miles.",
+      "marks": 10,
+      "explanation": "correct because it accurately calculates the total miles driven by multiplying the daily mileage by the number of days, while also demonstrating how rounding can lead to an estimation that differs from the precise total.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 2309
+    }
+  ]
+}

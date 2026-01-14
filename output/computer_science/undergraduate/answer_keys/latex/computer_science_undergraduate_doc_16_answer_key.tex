@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Undergraduate Level Assessment 16 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 0.1; B) 0.2; C) 0.3; D) 0.5
+\\ \textit{Note:} The decimal number 0.5 has an exact representation in binary notation as 0.1, since it is a power of two (specifically 1/2), which can be expressed without any repeating digits in the binary system.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Abstract Syntax Tree (AST); B) Attribute Grammar; C) Symbol Table; D) Semantic Stack
+\\ \textit{Note:} The symbol table is a crucial data structure in a compiler that stores information about variables, including their names, types, scopes, and attributes, facilitating semantic analysis and code generation.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) 0; B) 1; C) 3; D) 4
+\\ \textit{Note:} The expression evaluates to 1 because the modulus operation (3 \% 3) results in 0, so the overall expression simplifies to 1 + 0, which equals 1.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Authentication; B) Confidentiality; C) Integrity; D) Nonrepudiation
+\\ \textit{Note:} The correct answer is authentication because it refers to the process of verifying the identity of a user, and when someone logs in with stolen credentials, the integrity of this verification process is compromised.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) isupper(); B) join(seq); C) len(string); D) ljust(width[, fillchar])
+\\ \textit{Note:} The isupper() function in Python 3 checks if all characters in a string are uppercase letters, returning True if they are and False otherwise.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} In Python, the expression 1**4 evaluates to 1 (since any number to the power of 0 is 1), and therefore the overall expression 4*1 results in 4.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the language of bit strings with a number of zeros that is a multiple of five cannot be represented by a regular expression, as it requires counting and enforcing specific numerical conditions that exceed the capabilities of regular languages.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Address Resolution Protocol (ARP) is indeed used to map an IP address to its corresponding hardware (MAC) address within a local network, allowing devices to communicate effectively.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the optimal page-replacement policy, known as the Belady's optimal algorithm, actually replaces the page that will not be used for the longest time in the future, not the one that was referenced the shortest time ago.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Merge sort consistently divides the input array in half and requires linear time to merge the sorted halves, resulting in both average-case and worst-case time complexities of O(n log n).
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def mutiple\_tuple(nums): | return product
+\\ \textit{Note:} The answer correctly identifies the need for a Python function to compute the product of numbers in a tuple, but it lacks the implementation details such as iterating through the tuple and using a multiplication operation to obtain the final product.
+\item \textbf{Answer:} def replace\_char(str 1,ch,newch): | return str 2
+\\ \textit{Note:} correct because it defines a function named `replace\_char` that takes three parameters: the original string, the character to be replaced, and the new character, indicating the intention to modify the string by replacing specified characters, although the implementation details are incomplete.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

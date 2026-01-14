@@ -1,0 +1,288 @@
+{
+  "docid": "health_sciences_k-12_doc_05",
+  "document_name": "Health Sciences - K-12 Level Assessment 5",
+  "domain": "health_sciences",
+  "academic_level": "K-12",
+  "subjects": [
+    "nutrition"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\k-12\\latex_documents\\health_sciences_k-12_doc_05.tex",
+    "pdf_file": "output\\health_sciences\\k-12\\pdf_documents\\health_sciences_k-12_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_k-12_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_k-12_doc_05_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\k-12\\answer_keys\\latex\\health_sciences_k-12_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\k-12\\answer_keys\\pdf\\health_sciences_k-12_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following contributes to reduced energy expenditure in older adults?",
+      "options": {
+        "A": "A reduction in lean body mass",
+        "B": "A reduction in physical activity",
+        "C": "A reduction in basal metabolic rate",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "All of the above factors, including decreased muscle mass, lower physical activity levels, and metabolic changes, collectively contribute to reduced energy expenditure in older adults.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9671"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Infants and children with a suspected food allergy e.g. cow's milk allergy/intolerance\ncould display the following symptoms and signs:",
+      "options": {
+        "A": "severe atopic dermatitis",
+        "B": "enterocolitis",
+        "C": "diarrhoea",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"all of the above\" because infants and children with a suspected food allergy, such as cow's milk allergy/intolerance, can exhibit a range of symptoms including gastrointestinal, skin, and respiratory reactions, indicating the diverse manifestations of food allergies.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9468"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "How is iron transported in the circulation from the intestine to the sites of metabolism\nin the body?",
+      "options": {
+        "A": "As simple Fe 2+ in the serum",
+        "B": "Bound to albumin",
+        "C": "Bound to ferritin",
+        "D": "Bound to transferrin"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Iron is transported in the circulation bound to transferrin because this protein effectively binds and carries iron, ensuring its solubility and availability for metabolism at various sites in the body.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9465"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Insulin deficiency is associated with",
+      "options": {
+        "A": "Reduced lipolysis",
+        "B": "Increased ketogenesis",
+        "C": "Reduced gluconeogenesis",
+        "D": "Reduced proteolysis"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Insulin deficiency leads to increased ketogenesis because without sufficient insulin, the body cannot effectively use glucose for energy, prompting it to break down fats for fuel, which produces ketones as a byproduct.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9588"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "When using bioelectrical impedance for measuring body composition, why does an electrical\ncurrent travel faster through muscle than it does through fat?",
+      "options": {
+        "A": "Muscle contains less water than fat",
+        "B": "Muscle contains more water than fat",
+        "C": "Muscle weighs more than fat",
+        "D": "Muscle weighs less than fat"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the fact that muscle tissue has a higher water content, which facilitates the conduction of electrical currents more efficiently than fat tissue, which contains less water.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9666"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "The sarcomere is the basic functional unit of skeletal muscle tissue.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sarcomere is the basic functional unit of skeletal muscle tissue because it is the smallest contractile unit within the muscle fibers, responsible for the generation of muscle contractions through the interaction of actin and myosin filaments.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9560"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Leptin acts on the hypothalamus to increase feelings of satiety, while ghrelin stimulates hunger.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Leptin is a hormone produced by fat cells that signals the brain to reduce appetite and increase energy expenditure, while ghrelin, produced in the stomach, signals hunger, thus supporting the statement's accuracy.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9658"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The weighed diary is the most commonly used dietary assessment method in epidemiological research.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The weighed diary is not the most commonly used dietary assessment method in epidemiological research; instead, methods like food frequency questionnaires or 24-hour dietary recalls are more prevalent due to their practicality and lower participant burden.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9680"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "A food additive is considered safe if its Estimated Daily Intake (EDI) is less than its Acceptable Daily Intake (ADI).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A food additive is considered safe when its Estimated Daily Intake (EDI) is less than its Acceptable Daily Intake (ADI) because the ADI represents the maximum amount that can be consumed daily over a lifetime without posing a significant risk to health.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9418"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "The main metabolites of alcohol metabolism are acetaldehyde and acetate.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because during alcohol metabolism, ethanol is first converted into acetaldehyde by the enzyme alcohol dehydrogenase, and then acetaldehyde is further metabolized into acetate by acetaldehyde dehydrogenase, making acetaldehyde and acetate the primary metabolites of this process.",
+      "source": {
+        "dataset": "health_sciences_nutrition",
+        "source_id": "9707"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss Engel's law in the context of food economics and analyze how changes in income\nlevels affect the proportion of income spent on food.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Engel's law states that as people's income increases, the proportion of their income spent\non food decreases. This phenomenon occurs because, with higher income levels, individuals\nand families can afford to allocate more money to other needs and desires beyond basic\nsustenance, such as education, healthcare, and leisure activities. For example, a family\nearning a low income might spend a large percentage of their budget on groceries to meet\ntheir basic needs, while a wealthier family might spend a smaller percentage on food,\nchoosing to invest in other areas. This trend highlights how economic growth can influence\nconsumer behavior and dietary choices, ultimately affecting food economics and health\noutcomes in society.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly illustrates Engel's law by demonstrating that as income rises, the percentage of income allocated to food decreases, allowing households to invest more in non-food necessities and discretionary spending.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "9662"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_k-12_doc_05_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the differences in iodine content between organic and non-organic milk, and\nanalyze the implications of these differences on health and nutrition.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Organic milk typically contains lower iodine levels compared to non-organic milk. This\ndifference is primarily due to the feeding practices and farming methods used in organic\ndairy production, which may not include iodine-rich supplements that are more commonly\nutilized in non-organic farming. Iodine is essential for proper thyroid function and\noverall health, so lower iodine intake from organic milk could potentially lead to iodine\ndeficiency in individuals who rely heavily on this source for their dietary needs.\nTherefore, while organic milk offers benefits such as fewer pesticides and antibiotics,\nconsumers should be mindful of its reduced iodine content and consider incorporating other\niodine-rich foods into their diet to maintain adequate levels for optimal health.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that organic milk usually has lower iodine levels due to the absence of iodine-rich supplements in organic farming practices, which is significant since iodine is crucial for thyroid function and overall health, potentially leading to deficiency in those who consume primarily organic milk.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15796"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

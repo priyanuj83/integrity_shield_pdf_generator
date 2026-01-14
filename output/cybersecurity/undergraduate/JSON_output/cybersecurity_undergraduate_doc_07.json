@@ -1,0 +1,289 @@
+{
+  "docid": "cybersecurity_undergraduate_doc_07",
+  "document_name": "Cybersecurity - Undergraduate Level Assessment 7",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\undergraduate\\latex_documents\\cybersecurity_undergraduate_doc_07.tex",
+    "pdf_file": "output\\cybersecurity\\undergraduate\\pdf_documents\\cybersecurity_undergraduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_undergraduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_undergraduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\undergraduate\\answer_keys\\latex\\cybersecurity_undergraduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\undergraduate\\answer_keys\\pdf\\cybersecurity_undergraduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "When a wireless user authenticates to any AP, both of them go in the course of four-step\nauthentication progression which is called _____________",
+      "options": {
+        "A": "AP-handshaking",
+        "B": "4-way handshake",
+        "C": "4-way connection",
+        "D": "wireless handshaking"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"4-way handshake\" because it refers to the four-step process used in Wi-Fi security protocols, such as WPA and WPA2, to securely establish a session key between a wireless user and an access point (AP) for encrypted communication.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1512"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Exploitation of the Heartbleed bug permits",
+      "options": {
+        "A": "overwriting cryptographic keys in memory",
+        "B": "a kind of code injection",
+        "C": "a read outside bounds of a buffer",
+        "D": "a format string attack"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Heartbleed bug allows attackers to exploit a vulnerability in the OpenSSL implementation of the TLS/SSL protocols, enabling them to read more data than intended from the server's memory, thus facilitating a read outside bounds of a buffer.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15631"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A hash function guarantees the integrity of a message. It guarantees that the message has\nnot be",
+      "options": {
+        "A": "Replaced",
+        "B": "Overview",
+        "C": "Changed",
+        "D": "Violated"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A hash function produces a unique fixed-size output for a given input, allowing any alteration of the original message to be detected by comparing the hash values, thereby ensuring the integrity of the message by indicating whether it has been changed.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14209"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What was the first buffer overflow attack?",
+      "options": {
+        "A": "Love Bug",
+        "B": "SQL Slammer",
+        "C": "Morris Worm",
+        "D": "Code Red"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Morris Worm, released in 1988, is widely recognized as the first significant instance of a buffer overflow attack, as it exploited vulnerabilities in networked systems to propagate itself and caused substantial disruptions, thereby highlighting the dangers of such exploits in cybersecurity.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1568"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The ____________ is anything which your search engine cannot search.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Surface web",
+        "D": "Deep Web"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Deep Web refers to parts of the internet that are not indexed by traditional search engines, making them inaccessible through standard search queries.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "15632"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A front-door is a method used to enhance security by allowing only authorized users access to a system.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a front-door typically refers to a legitimate access point to a system, while security enhancement is often achieved through back-door management and other protective measures that restrict unauthorized access.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1517"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "CBF is not a recognized block cipher operating mode in cryptography.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "CBF, or Cipher Block Feedforward, is not a widely accepted or standardized block cipher operating mode in cryptography, making the statement true.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1518"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "Wireless traffic sniffing is a process used for analyzing wireless communications to aid in forensic investigations.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless traffic sniffing involves capturing and analyzing data packets transmitted over wireless networks, which can provide critical information for forensic investigations into security incidents.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "14212"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "Encryption and decryption provide both confidentiality and integrity of the data.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "While encryption provides confidentiality by making data unreadable to unauthorized users, it does not inherently ensure integrity, which requires additional mechanisms like hashing or digital signatures to verify that data has not been altered.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1522"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "A packet filter firewall operates mainly at the application or transport layer, inspecting payload data for filtering.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A packet filter firewall primarily operates at the network and transport layers, analyzing packet headers rather than inspecting payload data, which is characteristic of application layer firewalls.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1508"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to access dictionary key's element by index.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def access_key(ditionary,key): | return list(ditionary)[key]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it converts the dictionary's keys into a list, allowing for indexed access to a specific key based on the provided index, which is essential for retrieving elements in a dictionary by their position.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "679"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_undergraduate_doc_07_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to calculate distance between two points using latitude and longitude.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def distance_lat_long(slat,slon,elat,elon): | return dist",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct as it outlines a function that takes the latitude and longitude of two points as inputs, essential for calculating the geographical distance between them, which is a fundamental concept in cybersecurity for location-based data analysis.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "180"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

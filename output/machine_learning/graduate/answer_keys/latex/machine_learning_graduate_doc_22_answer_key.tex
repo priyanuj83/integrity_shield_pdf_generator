@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 22 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Regularization is too low and model is overfitting; B) Regularization is too high and model is underfitting; C) Step size is too large; D) Step size is too small
+\\ \textit{Note:} A large step size can cause the model to overshoot the optimal solution during training, leading to increased training loss as the model fails to converge effectively.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} correct because the BLEU metric indeed relies on precision to evaluate machine translation quality, the ROGUE metric focuses on recall for summarization tasks, and Hidden Markov Models have historically been applied to model the sequential nature of English sentences in various natural language processing applications.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) 2; D) 3
+\\ \textit{Note:} The dimensionality of the null space of matrix A is 2 because the rank of the matrix is 1, leading to a nullity of 2 as determined by the Rank-Nullity Theorem.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Highway networks are indeed introduced before ResNets and utilize learned gating mechanisms instead of max pooling, making Statement 1 false, while DenseNets typically require more memory due to their dense connectivity patterns, making Statement 2 true.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) P(H, U, P, W) = P(H) * P(W) * P(P) * P(U); B) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P); C) P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P); D) None of the above
+\\ \textit{Note:} The correct answer is based on the structure of the Bayesian Network, where the joint probability is calculated by multiplying the prior probability of each root node and the conditional probabilities of each child node given its parents, which in this case leads to P(H) * P(W) * P(P | W) * P(U | H, P).
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The learning rate determines the size of the steps taken during optimization, which directly affects how quickly and effectively a neural network converges to a minimum in the loss function, making it a critical factor in successful training.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because Bayesian networks can require more than seven independent parameters, as the complexity and number of variables in the network can lead to an exponential increase in the number of parameters needed to accurately represent the joint distribution, even when independence assumptions are disregarded.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} High entropy signifies a high level of disorder or uncertainty in a dataset, indicating that the data points are distributed across multiple classes rather than being concentrated in a single class, which results in impure partitions in classification tasks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The original ResNet architecture is based on convolutional neural networks and employs residual connections, while self-attention mechanisms, which are characteristic of Transformers, are not utilized in ResNet's design.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the joint probability P(A, B, C) is defined as P(A | B, C) * P(B | C) * P(C), and the proposed expression does not account for the necessary dependencies between the variables.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def text\_match\_string(text): | return 'Found a match!' | return 'Not matched!'
+\\ \textit{Note:} The provided function correctly identifies whether a specified word appears at the beginning of the input string by utilizing conditional logic to return a corresponding match status message.
+\item \textbf{Answer:} def left\_insertion(a, x): | return i
+\\ \textit{Note:} correct because it outlines a function designed to find the index at which a specified value can be inserted into a sorted array without disrupting the order, which is essential for maintaining the properties of sorted data structures in machine learning algorithms.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

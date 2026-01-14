@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_20",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Message authentication ensures that a message has not only been delivered without alteration but also verifies the identity of the sender, making it a service that encompasses and extends beyond the concept of message integrity, which only confirms that the message content is unmodified.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1513
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Freenet is designed specifically to facilitate anonymous file sharing and communication, making it a key component of the darknet focused on privacy and security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1478
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Integrity refers to the accuracy and completeness of data, which encryption and decryption do not inherently provide, as they primarily focus on protecting data from unauthorized access rather than ensuring that the data remains unaltered.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1522
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Encapsulating Security Payload (ESP) is part of the Internet Protocol Security (IPsec) suite, which provides confidentiality, authentication, and integrity for IP packets, thereby categorizing it under the Secure IP Protocol.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1529
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A hash function produces a unique fixed-size string from input data, allowing for the verification of integrity by detecting any alterations in the original message, thus ensuring it has not been changed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14209
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A buffer overflow occurs when a program writes more data to a block of memory, or buffer, than it was allocated, allowing a pointer to access adjacent memory locations, which can corrupt data and create vulnerabilities that can be exploited by attackers.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1506
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "This statement is false because secure forms of authentication in modern cybersecurity practices also include password-based methods, token-based systems, and multi-factor authentication, all of which can be effective in ensuring security beyond just biometric methods.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1505
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Correctness is not typically classified as a fundamental security property in cybersecurity; the primary properties are confidentiality, integrity, and availability, often referred to as the CIA triad.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1570
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The AH Protocol provides data integrity through authentication but does not ensure privacy since it does not encrypt the data packets, leaving their content exposed during transmission.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1484
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A packet filter firewall operates at the network layer, evaluating data packets based on IP addresses and port numbers rather than specific application protocols at the application or transport layer.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def round_and_sum(list1): | return round_and_sum",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the need for a function that processes a list by rounding each number, but fails to provide the complete implementation needed to achieve the summation and multiplication by the list's length.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 419
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_20_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def is_lower(string): | return (string.lower())",
+      "marks": 10,
+      "explanation": "correct because the function utilizes Python's built-in `lower()` method to convert all characters in the provided string to their lowercase equivalents, effectively achieving the goal of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 477
+    }
+  ]
+}

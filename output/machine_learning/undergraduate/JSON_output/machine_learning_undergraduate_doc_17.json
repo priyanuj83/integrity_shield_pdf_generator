@@ -1,0 +1,290 @@
+{
+  "docid": "machine_learning_undergraduate_doc_17",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 17",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_17.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_17.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_17_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_17_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_17_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_17_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Yann LeCun's cake, the cherry on top is",
+      "options": {
+        "A": "reinforcement learning",
+        "B": "self-supervised learning",
+        "C": "unsupervised learning",
+        "D": "supervised learning"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Reinforcement learning is considered the \"cherry on top\" in Yann LeCun's cake because it represents an advanced and crucial approach in machine learning that focuses on training algorithms to make sequences of decisions through trial and error, thereby enhancing the overall effectiveness and adaptability of AI systems.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14783"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Highway networks were introduced after ResNets and eschew max pooling in\nfavor of convolutions. Statement 2| DenseNets usually cost more memory than ResNets.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Highway networks indeed utilize convolutions without max pooling, making Statement 1 false, while DenseNets generally require more memory than ResNets due to their dense connectivity pattern, making Statement 2 true.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6884"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is the main reason for pruning a Decision Tree?",
+      "options": {
+        "A": "To save computing time during testing",
+        "B": "To save space for storing the Decision Tree",
+        "C": "To make the training set error smaller",
+        "D": "To avoid overfitting the training set"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Pruning a Decision Tree is primarily aimed at reducing its complexity to prevent overfitting, which occurs when the model learns noise in the training data rather than the underlying patterns, leading to poor generalization on unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6871"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews.\nStatement 2| The Penn Treebank has been used for language modeling.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because the Stanford Sentiment Treebank specifically focuses on analyzing movie reviews for sentiment analysis, while the Penn Treebank has been extensively utilized in various language modeling tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6896"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A and B are two events. If P(A, B) decreases while P(A) increases, which of the following\nis true?",
+      "options": {
+        "A": "P(A|B) decreases",
+        "B": "P(B|A) decreases",
+        "C": "P(B) decreases",
+        "D": "All of above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "As P(A, B) decreases while P(A) increases, the conditional probability P(B|A) is given by P(A, B) / P(A), leading to a decrease in P(B|A) since the numerator decreases while the denominator increases.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Transforming data to zero median is sufficient to achieve the same projection as SVD in PCA.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Transforming data to a zero median does not ensure that the data is centered around the mean, which is essential for PCA to achieve the same projection as Singular Value Decomposition (SVD).",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "By 2020, several models achieved accuracy levels exceeding 98% on the CIFAR-10 dataset.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "By 2020, advancements in deep learning architectures, such as convolutional neural networks, enabled several models to surpass 98% accuracy on the CIFAR-10 dataset, demonstrating significant progress in image classification tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6854"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Grid search runs reasonably slow for multiple linear regression due to its exhaustive nature in parameter tuning.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Grid search evaluates every possible combination of hyperparameters in a defined range, which can lead to a significant increase in computation time, especially in complex models like multiple linear regression with many parameters.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6868"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Convolutional networks are the most effective architecture for classifying high-resolution images as of 2020.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Convolutional networks, particularly through their ability to capture spatial hierarchies and features in visual data, have demonstrated superior performance in classifying high-resolution images compared to other architectures, making them the most effective choice as of 2020.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The Bayesian network H -> U <- P <- W requires 8 independent parameters to fully characterize its structure.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the Bayesian network consists of four nodes (H, U, P, W) and their conditional independence relationships require specifying the parameters of each node given its parents, resulting in a total of eight independent parameters to fully characterize the joint distribution.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6843"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the cumulative sum of all the values that are present in the\ngiven tuple list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def cummulative_sum(test_list): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the creation of a function that will compute the cumulative sum of all values in a tuple list, which requires iterating through the list and accumulating the total, though the specific implementation details are incomplete.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "614"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_17_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to toggle all even bits of a given number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def even_bit_toggle_number(n) : | return n ^ res",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes the bitwise XOR operator to toggle all even bits of the number, where `res` is a mask that has 1s in the positions of the even bits, allowing the function to flip those specific bits in the original number `n`.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "155"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

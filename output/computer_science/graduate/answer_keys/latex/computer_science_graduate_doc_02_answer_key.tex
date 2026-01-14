@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Computer Science - Graduate Level Assessment 2 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Recursive procedures; B) Arbitrary goto's; C) Two-dimensional arrays; D) Integer-valued functions
+\\ \textit{Note:} Recursive procedures require stack-based storage allocation because each recursive call must maintain its own state and local variables, which is efficiently managed by the stack's Last In, First Out (LIFO) structure.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Love Bug; B) SQL Slammer; C) Morris Worm; D) Code Red
+\\ \textit{Note:} The Morris Worm, released in 1988, is recognized as the first significant buffer overflow attack because it exploited vulnerabilities in UNIX systems to propagate itself, demonstrating the potential for such attacks to disrupt networks and systems.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Sender's Private key; B) Sender's Public key; C) Receiver's Private key; D) Receiver's Public key
+\\ \textit{Note:} To verify a digital signature, the recipient must use the sender's public key to confirm that the signature was created using the corresponding private key, ensuring the authenticity and integrity of the message.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) ECB; B) CFB; C) CBF; D) CBC
+\\ \textit{Note:} CBF is not a recognized block cipher operating mode, whereas the other options typically represent established modes such as ECB, CBC, and CTR that determine how block ciphers process data.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Identifier length; B) Maximum level of nesting; C) Operator precedence; D) Type compatibility
+\\ \textit{Note:} Operator precedence can be effectively defined using context-free grammar because it involves hierarchical rules that dictate the order of operations in expressions, which can be expressed through production rules in such grammars.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} An Abstract Syntax Tree (AST) primarily represents the structure of source code in a hierarchical format, while a symbol table is responsible for managing information about variables and their attributes in a compiler.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is True because the GGM construction utilizes a secure pseudorandom generator to generate pseudorandom functions, and the Luby-Rackoff theorem establishes that a secure pseudorandom generator can be used to construct secure pseudorandom permutations through a suitable construction.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because the Silk Road refers to a historical trade route that facilitated the exchange of goods and culture between the East and West, while the modern Dark Web marketplace sharing the same name was specifically known for illegal activities, including drug trafficking.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because modern security practices recognize a variety of authentication methods, including passwords, security tokens, and multi-factor authentication, in addition to biometric data.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Heartbleed bug exploits a vulnerability in the OpenSSL implementation of the Transport Layer Security (TLS) protocol, allowing an attacker to read arbitrary memory content from a server, thereby accessing sensitive data beyond the intended bounds of a buffer.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def check\_IP(Ip): | return ("Valid IP address") | return ("Invalid IP address")
+\\ \textit{Note:} The provided answer is correct in concept as it outlines a function intended to validate an IP address using a regular expression, although it lacks the actual implementation of the regex logic and the necessary conditional statements to check and return the validity of the IP address.
+\item \textbf{Answer:} def find\_Min\_Sum(num): | return sum
+\\ \textit{Note:} correct because it outlines the basic structure of a Python function intended to calculate the sum of the factors of a given number, although it lacks the specific implementation details needed to achieve the desired functionality.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

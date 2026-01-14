@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) The integers under addition; B) The nonzero integers under multiplication; C) The nonzero real numbers under multiplication; D) The complex numbers under addition
+\\ \textit{Note:} The nonzero integers under multiplication do not form a group because they lack an identity element (the multiplicative identity, 1, is included, but the group must also include the inverse of each element, which is not satisfied since the inverse of any nonzero integer is not a nonzero integer).
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 1; B) 2; C) 3; D) 4
+\\ \textit{Note:} According to Fermat's Little Theorem, since 23 is a prime number and does not divide 3, we have \(3^{22} \equiv 1 \mod 23\), allowing us to simplify \(3^{47} \equiv 3^{3} \equiv 27 \equiv 4 \mod 23\).
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 1/2; B) 7/12; C) 5/8; D) 2/3
+\\ \textit{Note:} The correct answer is 5/8 because the area representing the condition x \textless{} y in the rectangular region defined by the intervals [0, 3] for x and [0, 4] for y is 5/8 of the total area of the rectangle, which is 12.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The external direct product of cyclic groups is not necessarily cyclic, as it depends on the orders of the groups involved, and the external direct product of D\_3 and D\_4 is actually D\_12, not isomorphic to it, thus both statements are false.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 2/69; B) 1/30; C) 2/23; D) 12/125
+\\ \textit{Note:} The correct answer is derived from the hypergeometric distribution, where the probability of selecting exactly 2 damaged suitcases from a total of 5 damaged and 20 undamaged suitcases in a sample of 3 is calculated using the formula for combinations, resulting in the probability of 2 out of 23.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because a non-abelian group, by definition, contains elements that do not commute, which implies that not all of its subgroups can be abelian, as some subgroups would inherit the non-commutative structure of the group.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the polynomial \(x^3 + x^2 + c\) is irreducible over \(Z_3\) when \(c = 2\), ensuring that the quotient ring \(Z_3[x]/(x^3 + x^2 + 2)\) is a field.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The relation S is symmetric because it contains pairs that are reflections of themselves, and it is anti-symmetric because there are no distinct elements in S that would violate the anti-symmetry condition, thus satisfying both properties simultaneously.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Every element of a group generates a cyclic subgroup because the group operation can be repeatedly applied to the element to produce all of its integer powers, forming a set that satisfies the subgroup criteria.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because there are multiple isomorphic classes of additive abelian groups of order 16, specifically the groups can be decomposed into different direct sums of cyclic groups, such as \( \mathbb{Z}_{16} \), \( \mathbb{Z}_8 \oplus \mathbb{Z}_2 \), and \( \mathbb{Z}_4 \oplus \mathbb{Z}_4 \) among others, each satisfying the condition \( x + x + x + x = 0 \) for all elements \( x \) in the group.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Sum the first two equations to find $c+o+n=t.$ Solve the third equation for $c$ to find $c=s-t,$ and substitute $s-t$ for $c$ in $c+o+n=t$ to find $o+n+s-t=t\implies o+n+s=2 t.$ Substitute $12$ for $o+n+s$ to find $t=12/2=\boxed{6}.$
+\\ \textit{Note:} correct because it systematically combines the given equations to express variables in terms of each other, ultimately leading to a straightforward solution for \( t \) by utilizing the provided total of \( o + n + s \) equating to 12.
+\item \textbf{Answer:} The implications of the statement S(n) reveal that if S(k) implies S(k + 1) and S(n₀) is false for some positive integer n₀, then S(n) must also be false for all integers n \ensuremath{\leq} n₀. This is due to the principle of mathematical induction, which suggests that if the base case (S(n₀)) is false, the subsequent statements (S(n₀ - 1), S(n₀ - 2), ..., S(1)) cannot be true either, as they rely on the truth of S(k) to validate S(k + 1). Therefore, we can conclude that S(n) is not true for any positive integer n in the range of n \ensuremath{\leq} n₀. This shows that the failure of S at n₀ cascades down to all preceding integers, emphasizing the interconnectedness of the statements within the sequence.
+\\ \textit{Note:} correct because it applies the principle of mathematical induction, which dictates that if a statement is false for a base case (S(n₀)), then it must also be false for all preceding cases (S(n) for n ≤ n₀) since each case relies on the truth of the previous one to hold.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

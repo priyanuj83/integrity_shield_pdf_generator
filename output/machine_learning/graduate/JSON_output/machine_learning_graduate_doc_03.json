@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_03",
+  "document_name": "Machine Learning - Graduate Level Assessment 3",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_03.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "_ refers to a model that can neither model the training data nor generalize to new data.",
+      "options": {
+        "A": "good fitting",
+        "B": "overfitting",
+        "C": "underfitting",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Underfitting occurs when a model is too simplistic to capture the underlying patterns in the training data, resulting in poor performance on both the training set and unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6846"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT supervised learning?",
+      "options": {
+        "A": "PCA",
+        "B": "Decision Tree",
+        "C": "Linear Regression",
+        "D": "Naive Bayesian"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction and feature extraction, which does not rely on labeled output data, distinguishing it from supervised learning methods.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which image data augmentation is most common for natural images?",
+      "options": {
+        "A": "random crop and horizontal flip",
+        "B": "random crop and vertical flip",
+        "C": "posterization",
+        "D": "dithering"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Random crop and horizontal flip are common image data augmentation techniques because they effectively introduce variability in the training dataset, helping to improve the robustness and generalization of machine learning models on natural images.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "15759"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Predicting the amount of rainfall in a region based on various cues is a ______ problem.",
+      "options": {
+        "A": "Supervised learning",
+        "B": "Unsupervised learning",
+        "C": "Clustering",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Predicting the amount of rainfall involves using labeled training data (historical weather patterns) to train a model that can make predictions on unseen data, which is characteristic of supervised learning.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6869"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following tasks can be best solved using Clustering.",
+      "options": {
+        "A": "Predicting the amount of rainfall based on various cues",
+        "B": "Detecting fraudulent credit card transactions",
+        "C": "Training a robot to solve a maze",
+        "D": "All of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Clustering is effective for detecting fraudulent credit card transactions as it groups similar transaction patterns, allowing anomalies that deviate from established clusters to be identified as potential fraud.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6933"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The original ResNet paper utilized Batch Normalization rather than Layer Normalization.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The original ResNet paper implemented Batch Normalization to stabilize and accelerate the training of deep neural networks by normalizing layer inputs across each mini-batch, which is distinct from Layer Normalization that normalizes across the features.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The original ResNet incorporates self-attention mechanisms, similar to the original Transformers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The original ResNet architecture relies on convolutional layers and residual connections to facilitate training deep neural networks, while self-attention mechanisms, as utilized in Transformers, are a distinct approach to capturing long-range dependencies in data that ResNet does not employ.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6886"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Applying an L 1 norm regularization penalty in linear regression can result in some coefficients being zeroed out.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Applying an L1 norm regularization penalty, also known as Lasso regularization, encourages sparsity in the model coefficients by adding a constraint that can lead to some coefficients being exactly zero, effectively performing variable selection.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6934"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The joint probability P(H, U, P, W) can be expressed as P(H) * P(W) * P(P | W) * P(U | H, P).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because it applies the chain rule of probability, which allows the joint probability of multiple events to be expressed as the product of the marginal probabilities and conditional probabilities of the involved events.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6876"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The classification run time of the nearest neighbors algorithm is O(log N), which implies efficient searching within the dataset.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The classification run time of the nearest neighbors algorithm is O(N) in the worst case, as it requires calculating the distance to all points in the dataset, not O(log N), which is characteristic of more efficient searching methods like binary search.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6885"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the choice of polynomial degree in polynomial regression impacts the balance\nbetween underfitting and overfitting, and analyze the implications for model performance.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The choice of polynomial degree in polynomial regression critically influences the balance\nbetween underfitting and overfitting, which in turn affects model performance. A low-\ndegree polynomial may lead to underfitting, as it fails to capture the underlying\ncomplexity of the data, resulting in poor predictive accuracy. Conversely, a high-degree\npolynomial can create an overly complex model that fits the training data too closely,\nleading to overfitting, where the model performs well on training data but poorly on\nunseen data. Therefore, selecting an appropriate polynomial degree is essential; it\nrequires careful consideration of the bias-variance tradeoff to optimize model performance\nand generalization capabilities. Ultimately, employing techniques such as cross-validation\ncan aid in determining the ideal polynomial degree that balances these conflicting\ntendencies.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it clearly articulates how selecting a low-degree polynomial can result in underfitting by inadequately modeling data complexity, while a high-degree polynomial risks overfitting by capturing noise, both of which directly impact the model's predictive performance.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6853"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_03_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the importance of centering data to achieve equivalent projections in Principal\nComponent Analysis (PCA) and Singular Value Decomposition (SVD). Analyze the implications\nfor data interpretation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Centering data to achieve zero mean is crucial in both Principal Component Analysis (PCA)\nand Singular Value Decomposition (SVD) because it ensures that the resulting projections\naccurately reflect the structure of the data without being biased by its original scale or\nlocation. When data is centered, the covariance matrix calculated in PCA effectively\ncaptures the relationships among variables, leading to meaningful principal components\nthat reveal the underlying variance in the dataset. Similarly, in SVD, centering the data\nallows for a clearer interpretation of singular values and vectors, as they denote the\ndirections of maximum variance independent of the mean. Failure to center the data can\nresult in misleading interpretations, where the first components may simply reflect the\nmean offset rather than genuine patterns in the data. Thus, centering is essential for\naccurate data analysis and interpretation in these dimensionality reduction techniques.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Centering data to achieve zero mean is essential in PCA and SVD because it eliminates biases related to the data's original scale or location, thereby enabling accurate covariance calculations that reveal the true underlying structure and variance of the dataset.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

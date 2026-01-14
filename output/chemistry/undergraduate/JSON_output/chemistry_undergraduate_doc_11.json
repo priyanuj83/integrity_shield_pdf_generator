@@ -1,0 +1,290 @@
+{
+  "docid": "chemistry_undergraduate_doc_11",
+  "document_name": "Chemistry - Undergraduate Level Assessment 11",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_11.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_11.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_11_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_11_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_11_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_11_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the limiting high-temperature molar heat capacity at constant volume (C_V) of a\ngas-phase diatomic molecule?",
+      "options": {
+        "A": "1.5 R",
+        "B": "2 R",
+        "C": "2.5 R",
+        "D": "3.5 R"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 3.5 R because at high temperatures, a diatomic gas has 5 degrees of freedom (3 translational and 2 rotational), leading to a molar heat capacity at constant volume of \\( C_V = \\frac{5}{2}R \\) for translational and rotational contributions, plus an additional \\( \\frac{1}{2}R \\) contribution from vibrational modes that become active, resulting in a total of \\( C_V = 3.5R \\).",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "965"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is a primary standard for use in standardizing bases?",
+      "options": {
+        "A": "Ammonium hydroxide",
+        "B": "Sulfuric acid",
+        "C": "Acetic acid",
+        "D": "Potassium hydrogen phthalate"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Potassium hydrogen phthalate is a primary standard because it is a pure, stable compound that can be accurately weighed and used to determine the concentration of a base in titrations due to its known and consistent acidity.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "983"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A molecule has a rotational correlation time of 1 ns. At what magnetic field would protons\nin this molecule have the fastest spin-lattice relaxation? [Use eqns 5.3 and 5.4.]",
+      "options": {
+        "A": "3.74 T",
+        "B": "5.19 T",
+        "C": "6.08 T",
+        "D": "9.49 T"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 3.74 T corresponds to the magnetic field strength at which the rotational correlation time of 1 ns leads to optimal spin-lattice relaxation, as determined by the relationship between magnetic field and relaxation times in NMR spectroscopy.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "954"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the equilibrium polarization of 13 C nuclei in a 20.0 T magnetic field at 300 K.",
+      "options": {
+        "A": "10.8 x 10^-5",
+        "B": "4.11 x 10^-5",
+        "C": "3.43 x 10^-5",
+        "D": "1.71 x 10^-5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 1.71 x 10^-5 is derived from the Boltzmann distribution, which relates the population of spin states of nuclei in a magnetic field to their energy difference, showing that at 300 K and in a 20.0 T magnetic field, the equilibrium polarization of 13 C nuclei is minimal due to the relatively high thermal energy compared to the energy associated with the magnetic field.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "957"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Of the following compounds, which has the lowest melting point?",
+      "options": {
+        "A": "HCl",
+        "B": "AgCl",
+        "C": "CaCl 2",
+        "D": "CCl 4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "HCl has the lowest melting point because it is a polar covalent molecule with relatively weak dipole-dipole interactions, compared to the stronger ionic or hydrogen bonding interactions present in other compounds.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "935"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "The +3 oxidation state is more stable than the +1 oxidation state for thallium (Tl) because of its higher electronegativity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because thallium's +1 oxidation state is more stable due to the inert pair effect, where the s-electrons are less likely to participate in bonding, making the +3 state less favorable.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "966"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The thermal stability of group-14 hydrides increases in the order: PbH 4 < SnH 4 < GeH 4 < SiH 4 < CH 4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The thermal stability of group-14 hydrides increases in that order because as you move from CH4 to PbH4, the bond strength of the carbon-hydrogen bonds decreases, while the heavier hydrides exhibit weaker bonds due to the increasing size and decreasing electronegativity of the central atom, leading to greater instability and easier decomposition.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "15607"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Silicon naturally occurs most frequently as a metallic element in the Earth's crust.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Silicon predominantly occurs in nature as a silicate or silicon dioxide rather than as a metallic element, making the statement false.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "920"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "0.050 M AlCl 3 has the highest ionic strength due to its complete dissociation into four ions per formula unit.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because AlCl3 dissociates in solution into one aluminum ion (Al3+) and three chloride ions (Cl-), resulting in a total of four ions per formula unit, which contributes to a higher ionic strength compared to other solutions with fewer ions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "942"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "Planck's quantum theory is primarily used to explain the emission spectra of diatomic molecules in detail.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Planck's quantum theory is primarily used to explain the emission spectra of atoms, particularly monatomic gases, rather than diatomic molecules, which require more complex quantum mechanical models due to their vibrational and rotational transitions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "944"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the reason why the 1 H NMR spectrum of 12 CHCl 3 appears as a singlet, focusing on\nthe role of chlorine isotopes and their electric quadrupole moments.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The 1 H NMR spectrum of CHCl 3 appears as a singlet due to the presence of chlorine\nisotopes, specifically 35 Cl and 37 Cl, both of which have electric quadrupole moments. In\nNMR spectroscopy, the presence of quadrupole nuclei can lead to broadening of the signals,\nbut in the case of CHCl 3, the two chlorine isotopes are present in such a way that they\ndo not lead to splitting of the proton signal. Instead, the magnetic environment around\nthe hydrogen atom is effectively averaged out by the two isotopes, resulting in a single\npeak. Furthermore, the quadrupole interactions are not strong enough to cause noticeable\ncoupling effects in this molecule, solidifying the observation of the singlet in the\nspectrum. Thus, the singlet arises from the symmetrical nature of the molecule and the\naveraging effect from the isotopes of chlorine.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The 1H NMR spectrum of CHCl3 appears as a singlet because the presence of both 35Cl and 37Cl isotopes, which have electric quadrupole moments, results in an averaging effect on the magnetic environment around the hydrogen atom that prevents splitting of the proton signal.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "917"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_11_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Calculate the magnetogyric ratio for 23 Na given its NMR frequency of 198.52 MHz in a 750\nMHz spectrometer. Discuss the significance of this ratio in NMR spectroscopy.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the magnetogyric ratio (\u03b3) for 23 Na, we use the formula \u03b3 = \u03bd / B, where \u03bd\nis the NMR frequency and B is the magnetic field strength. Given that the NMR frequency is\n198.52 MHz and the magnetic field strength of the spectrometer is 750 MHz, we first\nconvert these frequencies to their respective values in Hertz. This results in \u03b3 = (198.52\nx 10^6 Hz) / (750 x 10^6 Hz) = 0.2647 Hz/T. The magnetogyric ratio for 23 Na can then be\nexpressed in units of T^-1 s^-1, leading to a final value of approximately 7.081 x 10^7\nT^-1 s^-1. This ratio is significant in NMR spectroscopy as it provides insight into the\nsensitivity and resolution of the NMR signal related to the nucleus being observed,\ninfluencing the overall experimental results and interpretations.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly calculates the magnetogyric ratio for 23Na by applying the formula \u03b3 = \u03bd / B, using the provided NMR frequency and magnetic field strength, and it emphasizes the significance of the magnetogyric ratio in understanding the relationship between nuclear magnetic resonance frequencies and applied magnetic fields.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "963"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

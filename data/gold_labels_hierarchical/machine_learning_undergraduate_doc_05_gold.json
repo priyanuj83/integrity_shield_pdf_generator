@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_05",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dimensionality of the null space of the matrix A, which consists of three identical rows, is 2 because the rank of the matrix is 1, leading to a nullity of 3 - 1 = 2 according to the rank-nullity theorem.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Both statements are true because ResNets are indeed feedforward networks that utilize skip connections but do not employ self-attention mechanisms, while Transformers are also feedforward networks that specifically leverage self-attention for processing input data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6886
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Neural networks can employ various activation functions across different layers to optimize learning and capture non-linear relationships in data, enhancing their performance and versatility.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6865
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The rank of the matrix A is 1 because all rows are linearly dependent and can be expressed as scalar multiples of each other, indicating that there is only one linearly independent row.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is false for Statement 1 because while ReLU (Rectified Linear Unit) functions are indeed monotonic (increasing), sigmoid functions are also monotonic, and true for Statement 2 because neural networks trained with gradient descent do not guarantee convergence to the global optimum due to the presence of local minima and saddle points in non-convex loss landscapes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "As the number of training examples increases, the model gains more information about the underlying data distribution, which reduces the impact of noise and leads to lower variance in predictions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Bayesians advocate for the use of prior distributions in statistical models to incorporate prior knowledge, while frequentists typically do not use prior distributions and rely on data alone for inference.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because Naive Bayes assumes that the presence or absence of a particular attribute is independent of the presence or absence of any other attribute when the class value is known, which simplifies the computation of probabilities in the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14780
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a Bayesian network with four nodes (H, U, P, W) requires more than 7 independent parameters due to the need to account for the conditional dependencies and relationships among these nodes, which typically exceed that number.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6881
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "High entropy in classification indicates a high level of disorder or uncertainty in the data, meaning that the partitions contain a mixture of class labels rather than being pure and consisting of a single class label.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def is_decimal(num): | return bool(result)",
+      "marks": 10,
+      "explanation": "correct because it outlines the creation of a function that utilizes regular expressions (regex) to validate whether a given decimal number conforms to the specified precision of two decimal places, effectively returning a boolean result indicating the validity of the input.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 208
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_05_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def count_Rectangles(radius): | return rectangles",
+      "marks": 10,
+      "explanation": "correct as it suggests a function structure that can be further developed to calculate the number of rectangles that can fit within a circle of a given radius by utilizing geometric principles and properties of shapes.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 355
+    }
+  ]
+}

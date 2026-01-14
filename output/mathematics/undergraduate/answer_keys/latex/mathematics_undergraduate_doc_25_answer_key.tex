@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Mathematics - Undergraduate Level Assessment 25 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) 3; B) e; C) sqrt(5); D) 0
+\\ \textit{Note:} The correct answer is 3 because, assuming the sequence \{x\_n\} converges to a limit L, substituting L into the recurrence relation gives L = sqrt(3 + 2 L), which simplifies to the equation $L^2$ - 2 L - 3 = 0, yielding L = 3 as the only positive solution.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) f(c); B) f($e^c$); C) f(1/c); D) f(log c)
+\\ \textit{Note:} The minimum value of the function f(x) = $e^x$ - cx occurs at the critical point found by setting the derivative f'(x) = $e^x$ - c to zero, which leads to the solution x = log(c), thus making f(log c) the minimum value.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 0; B) 1; C) -1; D) 12
+\\ \textit{Note:} The identity element in the group defined by the operation \( a * b = a + b + 1 \) is -1, because for any integer \( a \), the equation \( a * (-1) = a + (-1) + 1 = a \) holds true, satisfying the identity property.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 1/(2 e); B) 1/e; C) $e^2$/2; D) 2 e
+\\ \textit{Note:} The correct answer is $e^2$/2 because solving the given differential equation using separation of variables leads to the general solution, which, when applied with the initial condition y(1) = 0, yields f(2) = $e^2$/2.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The statement is false because in $R^2$, any two vectors are linearly independent only if they are not scalar multiples of each other, while the second statement is true as it follows from the definition of the dimension of a vector space, which states that the dimension is equal to the number of vectors in a linearly independent set that spans the space.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because there are multiple non-isomorphic additive abelian groups of order 16, such as the direct sums of cyclic groups, that satisfy the condition x + x + x + x = 0 for all x in the group, indicating the existence of different structures.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The maximum possible order for an element of S\_6 is 6, which occurs for a 6-cycle, not 12.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because, although the complex numbers under addition do include the zero element as the identity, they do not satisfy the closure property when considering the operation of multiplication, which is necessary for forming a group under both addition and multiplication.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The norm ||x||\_p can only be expressed as an inner product for p = 2 because only in this case does the norm satisfy the properties of an inner product space, specifically the definiteness, linearity, and symmetry conditions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The largest order of an element in the symmetric group S$_{5}$, which represents the permutations of 5 objects, is 6, corresponding to a permutation that is a product of a 3-cycle and a 2-cycle, as the order of a permutation is determined by the least common multiple of the lengths of its disjoint cycles.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Listing her first 5 times in ascending order, we get \[86,88,94,96,97\] Because the final median is 92 and that is between 88 and 94, the final time must also lie in this spot. Thus, we have \[86,88,x,94,96,97\] Because there are an even number of elements, the median is the mean of the center two. Thus, for the mean to be 92, $x$ must be $\boxed{90}~\text{seconds}$.
+\\ \textit{Note:} correct because the insertion of Sarah's sixth time (x) into the ordered list of her previous times must maintain a median of 92 seconds, which requires x to be 90 seconds, as it falls between the two central values of the even-numbered list.
+\item \textbf{Answer:} We use the distance formula: $\sqrt{(8 - 0)^2 + (0 - 15)^2} = \sqrt{64 + 225} = \boxed {17}.$$- OR - We note that the points $(0, 15)$, $(8, 0)$, and $(0, 0)$ form a right triangle with legs of length 8 and 15. This is a Pythagorean triple, so the hypotenuse must have length $\ensuremath{\boxed{17}}\$.
+\\ \textit{Note:} correct because it accurately applies the distance formula to calculate the distance between two points in a Cartesian plane, and it also recognizes the geometric relationship of the points as forming a right triangle, allowing the use of the Pythagorean theorem to confirm the same distance.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

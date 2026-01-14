@@ -1,0 +1,123 @@
+{
+  "document_id": "mathematics_graduate_doc_14",
+  "domain": "mathematics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "math"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "mmlu_pro_math_research"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is 132 because the number of ways to arrange 6 pairs of balanced parentheses is given by the 6th Catalan number, which is calculated as C(6) = (1/(6+1)) * (2*6 choose 6) = 132.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7762
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 7.0 because the series converges to a sum of geometric series that can be simplified, resulting in the total of 7.0 when evaluated over all positive integers \\( n \\) using the properties of the nearest integer function \\( \\langle n \\rangle \\).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8212
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 2.0 because in a direct proportion, the ratio of x to y remains constant, so using the initial values to find the constant of proportionality and applying it to the new value of y leads to the result x = 2.0 when y = 13.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8380
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is 12,000,000 because the number of equivalent parameter settings in a mixture model with 10 components arises from the combinatorial calculation of the permutations of the components, specifically given by the formula for the number of ways to arrange 10 distinct items, which is 10! (factorial of 10) divided by the product of the factorials of the counts of each indistinguishable item, leading to 10! = 3,628,800, and accounting for interchange symmetries results in 12,000,000 distinct equivalent settings.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 7761
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The ones digit of the product \\(1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8 \\cdot 9\\) is 0 because the multiplication includes the factor 5 and an even number (specifically, 2), resulting in a product that is a multiple of 10.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8160
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The eigenvalues of the matrix A = [[5, 4], [1, 2]] are actually 6 and 1, as determined by solving the characteristic polynomial, which contradicts the stated eigenvalues of 4 and 1.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8931
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the numeral 6049 accurately represents the numerical value of the cost of the used car Manuel bought, indicating that the car's price is indeed $6,049.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8788
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Molly's final cost is calculated as $25 for the haircut plus a 15% tip of $3.75 (15% of $25), resulting in a total of $28.75.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8261
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The decimal \\(0.1\\overline{7}\\) can be expressed as the fraction \\(\\frac{8}{45}\\) by recognizing that it is equal to \\(\\frac{1}{10} + \\frac{7}{90}\\), which simplifies to \\(\\frac{8}{45}\\).",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8390
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, for an integer to be classified as a powerful integer, every prime factor must appear with an exponent of at least 2 in its prime factorization, and the prime factorization of 240 is \\(2^4 \\times 3^1 \\times 5^1\\), which includes primes (3 and 5) with exponents less than 2.",
+      "source_dataset": "mmlu_pro_mathematics_math",
+      "source_id": 8373
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "There are two cases, one where the $AB$ is the base, and the other where $AB$ is a leg.\nFor the case where $AB$ is the base, we can create the third point $C$ anywhere on the\nline perpendicular to $AB$ at the midpoint of $AB$. There are $4$ points on that line. For\nthe case where $AB$ is a leg, since $AB$ is two units, we can create a point $C$ two units\naway from either $A$ or $B$. There are two such points. In total, there are\n$2+4=\\boxed{6}$. [asy] draw((0,0)--(0,6)--(6,6)--(6,0)--cycle,linewidth(1)); for(int\ni=1;i<6;++i) {for(int j=1;j<6;++j) {dot((i,j));} } draw((2,2)--(4,2),linewidth(1));\nlabel(\"A\",(2,2),SW); label(\"B\",(4,2),SE); label(\"C\",(3,1), SE); label(\"C\",(3,3), SE);\nlabel(\"C\",(3,4), SE); label(\"C\",(3,5), SE); label(\"C\",(4,4), SE); label(\"C\",(2,4), SE);\n[/asy]",
+      "marks": 10,
+      "explanation": "correct because it systematically considers both configurations of triangle ABC\u2014where segment AB serves as the base and when it acts as one of the legs\u2014accounting for all valid positions of point C that maintain the isosceles property.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 15855
+    },
+    {
+      "question_id": "mathematics_graduate_doc_14_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "To find the value of \\( x \\) such that the area of the rectangle equals its perimeter, we\nfirst express both quantities. The area \\( A \\) is given by \\( A = \\text{length} \\times\n\\text{width} = 3 x(x + 5) = 3 x^2 + 15 x \\). The perimeter \\( P \\) is calculated as \\( P =\n2(\\text{length} + \\text{width}) = 2(3 x + (x + 5)) = 2(4 x + 5) = 8 x + 10 \\). Setting the\narea equal to the perimeter gives the equation \\( 3 x^2 + 15 x = 8 x + 10 \\). Simplifying\nthis leads to the quadratic equation \\( 3 x^2 + 7 x - 10 = 0 \\). Using the quadratic\nformula, we find \\( x = \\frac{-7 \\pm \\sqrt{7^2 - 4(3)(-10)}}{2(3)} = \\frac{-7 \\pm 11}{6}\n\\), yielding \\( x = \\frac{2}{3} \\) or \\( x = -3 \\). Since \\( x \\) must be positive, we\nconclude that \\( x = \\frac{3}{10} \\) satisfies the condition where the area equals the\nperimeter.",
+      "marks": 10,
+      "explanation": "correct because it accurately formulates the area and perimeter of the rectangle as algebraic expressions, sets them equal to each other, and derives a quadratic equation that allows for the determination of the variable \\( x \\).",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 8391
+    }
+  ]
+}

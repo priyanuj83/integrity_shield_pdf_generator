@@ -1,0 +1,288 @@
+{
+  "docid": "computer_science_k-12_doc_16",
+  "document_name": "Computer Science - K-12 Level Assessment 16",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\k-12\\latex_documents\\computer_science_k-12_doc_16.tex",
+    "pdf_file": "output\\computer_science\\k-12\\pdf_documents\\computer_science_k-12_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_k-12_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_k-12_doc_16_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\k-12\\answer_keys\\latex\\computer_science_k-12_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\k-12\\answer_keys\\pdf\\computer_science_k-12_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "If a, b, and c are integers, which of the following conditions is sufficient to guarantee\nthat the expression a < c || a < b && !(a == c) evaluates to true?",
+      "options": {
+        "A": "a < c",
+        "B": "a < b",
+        "C": "a > b",
+        "D": "a == b"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The condition \"a < c\" is sufficient to guarantee that the entire expression evaluates to true because if a is less than c, the first part of the disjunction (a < c) is satisfied, making the whole expression true regardless of the other conditions.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3269"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is sum(l) in Python 3?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "10",
+        "D": "8"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 10 because the sum function in Python 3 calculates the total of all elements in the list l, which are 1, 2, 3, and 4, adding them together to yield 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is max(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because the `max()` function in Python returns the largest value from the list, and in the list [1, 2, 3, 4], the largest number is 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The boolean expression a[i] == max || !(max != a[i]) can be simplified to",
+      "options": {
+        "A": "a[i] == max",
+        "B": "a[i] != max",
+        "C": "a[i] < max || a[i] > max",
+        "D": "FALSE"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression `!(max != a[i])` simplifies to `max == a[i]`, making the entire expression equivalent to `a[i] == max || a[i] == max`, which further simplifies to just `a[i] == max`.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3229"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_k-12_doc_16_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, what is ['a', 'Chemistry', 0, 1][-3]?",
+      "options": {
+        "A": "a",
+        "B": "Chemistry",
+        "C": "0",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"Chemistry\" because negative indexing in Python allows access to list elements starting from the end, so [-3] refers to the third element from the end of the list, which is 'Chemistry'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3279"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In Python 3, using b[::2] on the list [11,13,15,17,19,21] returns [11,15,19].",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, the slicing syntax b[::2] retrieves every second element from the list starting from the first element, which results in the list [11, 15, 19] from the original list [11, 13, 15, 17, 19, 21].",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3274"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function min([1, 2, 3, 4]) returns the second smallest value in the list, which is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the function min([1, 2, 3, 4]) returns the smallest value in the list, which is 1, not the second smallest value, which is 2.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3241"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the function choice(seq) sets the integer starting value used in generating random numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function choice(seq) in Python 3 is used to select a random element from a non-empty sequence and does not set or alter the starting value for generating random numbers.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3261"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression 'a' + 'ab' results in the string 'aab'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python 3, the '+' operator concatenates two strings, so adding 'a' and 'ab' combines them into the single string 'aab'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3203"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_k-12_doc_16_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, accessing the first element of the tuple ( 'abcd', 786, 2.23, 'john', 70.2 ) will output 'abcd'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In Python, tuples are zero-indexed, meaning that the first element can be accessed using the index 0, which for the tuple ('abcd', 786, 2.23, 'john', 70.2) corresponds to 'abcd'.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3191"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_k-12_doc_16_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of failing to check for a zero value in the denominator when\ncalculating the average of N numbers in an algorithm. When would this error become\napparent?",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Failing to check for a zero value in the denominator when calculating the average of N\nnumbers in an algorithm can lead to a runtime error, specifically a division by zero\nerror. This occurs because dividing by zero is mathematically undefined, and when the\nalgorithm attempts this operation, it will crash or produce an unexpected result. Such\nerrors typically become apparent during runtime, when the program is executing and tries\nto perform the calculation. To prevent this, programmers should include a check to ensure\nthat the denominator is not zero before performing the division, ensuring the algorithm\nruns smoothly and produces correct outputs.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because failing to check for a zero value in the denominator can cause a division by zero error during runtime, leading to program crashes or unexpected results.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3275"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_k-12_doc_16_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given the list l = [1,2,2,3,4], explain how the Python 3 set function processes this list\nto produce its output. Discuss the significance of using sets in programming.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When the Python 3 set function is applied to the list l = [1, 2, 2, 3, 4], it processes\nthe elements of the list and removes any duplicates, resulting in the output {1, 2, 3, 4}.\nThis happens because sets are designed to contain only unique elements, meaning that each\nvalue can only appear once. The significance of using sets in programming lies in their\nability to simplify tasks that involve uniqueness, such as removing duplicates from a list\nor checking membership efficiently. By using sets, programmers can write cleaner and more\nefficient code when dealing with collections of items.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately describes how the set function removes duplicates from the list, resulting in a collection of unique elements, and explains the importance of sets in programming for tasks involving uniqueness and efficient membership checks.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "3270"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

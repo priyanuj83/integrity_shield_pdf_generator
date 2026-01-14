@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_13",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The Access Point serves as the central node in 802.11 wireless operations because it facilitates communication between wireless devices and the wired network, managing data traffic and connections within the wireless local area network (WLAN).",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1486
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "WPS, or Wi-Fi Protected Setup, was introduced to simplify the process of connecting new devices to a wireless network by allowing users to connect via a PIN or push-button method, enhancing user convenience in home networking.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1554
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Unauthorized network access is considered an application layer vulnerability rather than a transport layer vulnerability, as it pertains to issues related to user authentication and data access rather than the mechanisms that facilitate data transfer between devices.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The IP Network Browser is specifically designed to discover and enumerate devices on a network using SNMP (Simple Network Management Protocol), making it an effective tool for this purpose in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1501
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Buffer-overrun is the correct answer because it refers to a coding error where a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite memory, gain unauthorized access, or cause system malfunctions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1476
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Brute-force attacks on access credentials are primarily conducted at the application layer of the OSI model, where authentication processes occur, rather than at the physical layer, which is concerned with the transmission of raw data.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1504
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A session symmetric key is used only once to encrypt and decrypt messages during a single communication session to ensure confidentiality and prevent replay attacks, thereby enhancing security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1544
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Burp Suite is primarily designed for web application security testing rather than for network analysis in multiprotocol diverse networks.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1549
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Metasploit framework provides a comprehensive set of tools and a streamlined interface that allow users, including those with limited technical knowledge, to efficiently identify and exploit security vulnerabilities in software systems.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1539
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Authentication is the process that verifies the identity of a user attempting to access a system, ensuring that only authorized individuals gain access based on their credentials.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14206
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_even_and_even_index(arr,n): | return sum",
+      "marks": 10,
+      "explanation": "The provided answer correctly identifies the need to iterate through an array to sum even numbers located at even indices, which aligns with the requirements of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 270
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_13_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def filter_evennumbers(nums): | return even_nums",
+      "marks": 10,
+      "explanation": "correct as it demonstrates the use of a function to filter even numbers from a list, which is a fundamental programming concept applicable in various domains, including cybersecurity for tasks such as data processing and analysis.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 41
+    }
+  ]
+}

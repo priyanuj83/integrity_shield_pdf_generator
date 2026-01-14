@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_undergraduate_doc_13",
+  "document_name": "Machine Learning - Undergraduate Level Assessment 13",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\undergraduate\\latex_documents\\machine_learning_undergraduate_doc_13.tex",
+    "pdf_file": "output\\machine_learning\\undergraduate\\pdf_documents\\machine_learning_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\undergraduate\\answer_keys\\latex\\machine_learning_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\undergraduate\\answer_keys\\pdf\\machine_learning_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Consider the Bayesian network given below. How many independent parameters would we need\nif we made no assumptions about independence or conditional independence H -> U <- P <- W?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "15"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 15 because in a Bayesian network with four nodes (H, U, P, W) and directed edges indicating dependencies, the total number of independent parameters required is calculated as the sum of the parameters for each conditional probability distribution, which accounts for the possible configurations of parents and their respective values.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6881"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "If N is the number of instances in the training dataset, nearest neighbors has a\nclassification run time of",
+      "options": {
+        "A": "O(1)",
+        "B": "O( N )",
+        "C": "O(log N )",
+        "D": "O( N^2 )"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The classification run time of nearest neighbors is O(N) because, in order to classify a new instance, the algorithm must compute the distance to each of the N training instances to identify the nearest neighbors.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6885"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is the main reason for pruning a Decision Tree?",
+      "options": {
+        "A": "To save computing time during testing",
+        "B": "To save space for storing the Decision Tree",
+        "C": "To make the training set error smaller",
+        "D": "To avoid overfitting the training set"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The main reason for pruning a Decision Tree is to reduce its complexity and prevent it from fitting noise in the training data, which helps maintain its generalization ability on unseen data and thus avoids overfitting.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6871"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| L 2 regularization of linear models tends to make models more sparse than L 1\nregularization. Statement 2| Residual connections can be found in ResNets and\nTransformers.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "L2 regularization encourages weight shrinkage rather than sparsity, making Statement 1 false, while residual connections are indeed utilized in both ResNets and Transformers, making Statement 2 true.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6892"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| The softmax function is commonly used in mutliclass logistic regression.\nStatement 2| The temperature of a nonuniform softmax distribution affects its entropy.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The softmax function is indeed utilized in multiclass logistic regression to convert logits into probabilities for each class, and the temperature parameter in a nonuniform softmax distribution influences the distribution's sharpness or flatness, thereby affecting its entropy.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6874"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "The computational complexity of gradient descent is polynomial in the number of features, D.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The computational complexity of gradient descent is polynomial in the number of features, D, because each iteration involves calculating the gradients for all D features, resulting in a linear time complexity with respect to D for each update, which maintains a polynomial relationship overall.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6862"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Word 2 Vec parameters are not initialized using a Restricted Boltzmann Machine.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Word2Vec uses a neural network architecture for word embeddings and initializes its parameters randomly rather than using a Restricted Boltzmann Machine, which is a different type of probabilistic graphical model.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6899"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "Averaging the output of multiple decision trees helps decrease variance in the model's predictions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Averaging the output of multiple decision trees reduces variance by leveraging the diversity among the trees, which smooths out individual errors and leads to more stable and accurate predictions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6863"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The softmax function is commonly employed in multiclass logistic regression to convert logits into probabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The softmax function transforms the raw output logits of a multiclass logistic regression model into a probability distribution over multiple classes by exponentiating the logits and normalizing them, ensuring that the sum of the probabilities equals one.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6874"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "The BLEU metric primarily relies on precision, while the ROUGE metric focuses on recall in evaluating generated text.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The BLEU metric measures the precision of n-grams in generated text compared to reference texts, while the ROUGE metric emphasizes recall by assessing the overlap of n-grams between the generated and reference texts.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6924"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the longest chain which can be formed from the given set of\npairs.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def __init__(self, a, b): | def max_chain_length(arr, n): | return max",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This answer correctly defines a function to calculate the longest chain of pairs by utilizing an initialization method and a maximum chain length calculation that iteratively assesses the relationships between the pairs based on their elements.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "601"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_undergraduate_doc_13_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find maximum possible sum of disjoint pairs for the given array of\nintegers and a number k.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def max_sum_pair_diff_lessthan_K(arr, N, K): | return dp[N - 1]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it utilizes dynamic programming to efficiently compute the maximum sum of disjoint pairs in the array, ensuring that the difference between each pair does not exceed the specified limit K.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "571"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

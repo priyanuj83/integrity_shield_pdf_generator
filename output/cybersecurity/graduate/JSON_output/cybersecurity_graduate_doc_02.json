@@ -1,0 +1,288 @@
+{
+  "docid": "cybersecurity_graduate_doc_02",
+  "document_name": "Cybersecurity - Graduate Level Assessment 2",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\cybersecurity\\graduate\\latex_documents\\cybersecurity_graduate_doc_02.tex",
+    "pdf_file": "output\\cybersecurity\\graduate\\pdf_documents\\cybersecurity_graduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/cybersecurity_graduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/cybersecurity_graduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\cybersecurity\\graduate\\answer_keys\\latex\\cybersecurity_graduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\cybersecurity\\graduate\\answer_keys\\pdf\\cybersecurity_graduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "____________ is also a part of darknet that is employed for transferring files\nanonymously.",
+      "options": {
+        "A": "Freenet",
+        "B": "ARPANET",
+        "C": "Stuxnet",
+        "D": "Internet"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Freenet is specifically designed to facilitate the anonymous sharing and transfer of files, making it a prominent component of the darknet ecosystem.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1478"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The ______________ is categorized as an unknown segment of the Deep Web which has been\npurposely kept hidden & is inaccessible using standard web browsers.",
+      "options": {
+        "A": "Haunted web",
+        "B": "World Wide Web",
+        "C": "Dark web",
+        "D": "Surface web"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The dark web refers to a part of the internet that is intentionally hidden and requires specific software, configurations, or authorization to access, differentiating it from the surface web and other segments of the Deep Web.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1496"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "A/an ___________ is a program that steals your logins & passwords for instant messaging\napplications.",
+      "options": {
+        "A": "IM - Trojans",
+        "B": "Backdoor Trojans",
+        "C": "Trojan-Downloader",
+        "D": "Ransom Trojan"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "IM Trojans specifically target instant messaging applications to capture and transmit users' login credentials and passwords without their consent, making them a distinct type of malware designed for this purpose.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1523"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "What does EXE do when the STP solver times out on a constraint query for a particular\npath?",
+      "options": {
+        "A": "Assume that the query is satisfiable and continue executing the path.",
+        "B": "Assume that the query is not satisfiable and stop executing the path",
+        "C": "Restart STP and retry the query, up to a limited number of retries.",
+        "D": "Remove a subset of the constraints and retry the query."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on the principle that when a solver cannot determine the satisfiability of a constraint within a given time frame, it conservatively assumes the constraints may not be satisfiable, thereby preventing unnecessary computations and potential security risks associated with executing uncertain paths.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1497"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "_______________ is the central node of 802.11 wireless operations.",
+      "options": {
+        "A": "WPA",
+        "B": "Access Point",
+        "C": "WAP",
+        "D": "Access Port"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Access Point serves as the central node in 802.11 wireless operations by facilitating communication between wireless devices and the wired network, enabling data transmission and connectivity within a local area network.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_1",
+      "question_type": "TF",
+      "stem_text": "A session symmetric key between two parties is utilized only once for the duration of that session to ensure confidentiality.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A session symmetric key is designed to be used only for a single session to prevent key compromise and enhance security by ensuring that any potential interception of the key does not compromise past or future communications.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1544"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_2",
+      "question_type": "TF",
+      "stem_text": "The four Primary Security Principles related to messages include Confidentiality, Access Control, Integrity, and Non-repudiation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the four primary security principles related to messages are typically identified as Confidentiality, Integrity, Availability, and Authenticity, rather than including Access Control and Non-repudiation.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1567"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_3",
+      "question_type": "TF",
+      "stem_text": "A ping sweep is utilized to identify live systems within a network by sending ICMP echo requests.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A ping sweep involves sending ICMP echo requests to multiple IP addresses in a network to determine which addresses respond, thereby identifying active or live systems.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1566"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_4",
+      "question_type": "TF",
+      "stem_text": "A MAC that consistently produces a 5-bit tag is vulnerable to brute-force attacks due to the limited tag space.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A MAC that consistently produces a 5-bit tag can generate only 32 unique tags (from 00000 to 11111), making it feasible for an attacker to exhaustively search through all possible tags to find a valid one, thereby exposing it to brute-force attacks.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1509"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_tf_5",
+      "question_type": "TF",
+      "stem_text": "WPS, or Wi-Fi Protected Setup, was introduced to simplify the process of connecting new devices to wireless networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wi-Fi Protected Setup (WPS) was designed to streamline the process of connecting devices to secure wireless networks by allowing users to establish a connection with minimal manual input, often using a PIN or a physical button, thus simplifying the setup process.",
+      "source": {
+        "dataset": "cybersecurity_computer_security",
+        "source_id": "1554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the strengths and weaknesses of various encryption standards in cybersecurity,\nspecifically focusing on why WEP is considered the least secure option.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Encryption standards play a crucial role in cybersecurity, each possessing unique\nstrengths and weaknesses. Among them, Wired Equivalent Privacy (WEP) is widely regarded as\nthe least secure option due to its fundamental design flaws and vulnerabilities. WEP\nemploys a static key for encryption, which can be easily compromised through methods like\npacket sniffing and replay attacks, rendering the encryption ineffective against modern\nthreats. Additionally, the use of weak initialization vectors (IVs) allows attackers to\nexploit predictable patterns, leading to rapid key recovery. In contrast, more advanced\nstandards like WPA 2 and WPA 3 offer robust security features, such as dynamic key\nmanagement and stronger encryption algorithms, making them significantly more resilient\nagainst attacks.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies WEP's reliance on a static key and weak initialization vectors as critical vulnerabilities that make it easily exploitable, thus illustrating its inadequacy compared to other encryption standards in the context of modern cybersecurity threats.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1556"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "cybersecurity_graduate_doc_02_cybersecurity_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of buffer-overrun vulnerabilities in software applications, including\ntheir causes, potential impacts, and strategies for mitigation in cybersecurity.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Buffer-overrun vulnerabilities occur when a software application writes more data to a\nbuffer than it can hold, leading to data corruption, crashes, or the execution of\narbitrary code. These vulnerabilities are typically caused by inadequate input validation,\nimproper memory management, and the use of unsafe programming languages that do not\nenforce boundary checks. The potential impacts include unauthorized access to sensitive\ninformation, system compromise, and the propagation of malware. To mitigate buffer-overrun\nvulnerabilities, developers can adopt secure coding practices, utilize modern programming\nlanguages with built-in safety features, and implement runtime protections such as stack\ncanaries and Address Space Layout Randomization (ASLR). By addressing these\nvulnerabilities proactively, organizations can significantly enhance their cybersecurity\nposture and reduce the risk of exploitation.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies buffer-overrun vulnerabilities as a result of inadequate input validation and improper memory management, outlines their potential impacts on security, and suggests the need for mitigation strategies in software development practices.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

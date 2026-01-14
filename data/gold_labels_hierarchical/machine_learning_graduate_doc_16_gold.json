@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_16",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of techniques, such as k-means, DBSCAN, and hierarchical clustering, all of which are designed to group data points based on their spatial proximity and characteristics.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Anomaly detection refers to the identification of patterns in data that do not conform to expected behavior, which aligns with the concept of out-of-distribution detection that seeks to recognize data points that fall outside the normal training distribution.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Bayesians advocate for the incorporation of prior distributions to reflect beliefs about parameters before observing data, while frequentists reject this approach, focusing instead on the data collected without incorporating prior information.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer reflects the structure of the Bayes net, where Y is a parent of both X and Z, allowing the joint probability distribution to be factored into the product of the marginal probability of Y and the conditional probabilities of X given Y and Z given Y.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14787
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Discriminative approaches focus on modeling the conditional probability of the output variable y given the input variable x and the model parameters w, which allows for a direct estimation of the decision boundary between different classes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Clustering is an unsupervised learning technique that groups data based on similarity, making it unsuitable for prediction tasks like forecasting rainfall, which typically requires supervised learning methods that can model the relationship between input features and output variables.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the rows of the matrix A are linearly dependent, as they are all identical and thus span a space of dimension 1, resulting in a rank of 1, not 3.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Penn Treebank is primarily designed for syntactic parsing and language modeling tasks, providing annotated corpora that focus on grammatical structures rather than sentiment analysis.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the dimensionality of the null space of a matrix A is determined by the rank-nullity theorem, which relates the rank of the matrix to its nullity, and a null space dimension of 3 would imply specific conditions on the number of columns and the rank that are not universally applicable.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, in a Bayesian network without any assumptions about independence, the total number of parameters required equals the product of the number of possible outcomes for each variable, leading to a need for 15 independent parameters to fully specify the joint distribution.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6881
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def extract_min_max(test_tup, K): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it outlines the basic structure of a function that is intended to return the maximum and minimum k elements from a tuple, which is the core requirement of the given question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 219
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_16_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def heap_assending(nums): | return s_result",
+      "marks": 10,
+      "explanation": "correct because it suggests implementing a function that utilizes the heap queue algorithm, which is designed to efficiently sort elements by maintaining a binary heap structure, ensuring that the smallest element can be accessed and removed in logarithmic time, ultimately leading to a sorted list in ascending order.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 372
+    }
+  ]
+}

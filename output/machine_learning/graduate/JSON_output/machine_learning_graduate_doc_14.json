@@ -1,0 +1,288 @@
+{
+  "docid": "machine_learning_graduate_doc_14",
+  "document_name": "Machine Learning - Graduate Level Assessment 14",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_14.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Adding more basis functions in a linear model, pick the most probably option:",
+      "options": {
+        "A": "Decreases model bias",
+        "B": "Decreases estimation bias",
+        "C": "Decreases variance",
+        "D": "Doesn't affect bias and variance"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adding more basis functions in a linear model allows for greater flexibility in fitting the training data, which reduces model bias by enabling the model to capture more complex relationships within the data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6880"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Statement 1| Layer Normalization is used in the original ResNet paper, not Batch\nNormalization. Statement 2| DCGANs use self-attention to stabilize training.",
+      "options": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Both statements are false; Layer Normalization was not used in the original ResNet paper, which employed Batch Normalization, and DCGANs do not inherently use self-attention, which is a feature of other architectures like Transformers.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6850"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "If your training loss increases with number of epochs, which of the following could be a\npossible issue with the learning process?",
+      "options": {
+        "A": "Regularization is too low and model is overfitting",
+        "B": "Regularization is too high and model is underfitting",
+        "C": "Step size is too large",
+        "D": "Step size is too small"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A step size that is too large can cause the model's parameters to oscillate or diverge during training, leading to an increase in training loss over epochs instead of convergence.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6900"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "If N is the number of instances in the training dataset, nearest neighbors has a\nclassification run time of",
+      "options": {
+        "A": "O(1)",
+        "B": "O( N )",
+        "C": "O(log N )",
+        "D": "O( N^2 )"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The classification run time of nearest neighbors is O(N) because it requires a linear search through all N instances in the training dataset to find the closest neighbor(s) for each classification decision.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6885"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the dimensionality of the null space of the following matrix? A = [[1, 1, 1], [1,\n1, 1], [1, 1, 1]]",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The null space of the matrix A, which is rank deficient because all its rows are linearly dependent, has a dimensionality of 2, corresponding to the two degrees of freedom available for solutions to the homogeneous equation Ax = 0.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "Neural networks trained with gradient descent do not guarantee convergence to the global optimum due to non-convexity.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because neural networks operate in non-convex optimization landscapes, where gradient descent may converge to local minima rather than the global optimum, depending on the initial conditions and the complexity of the network architecture.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6887"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "The computational complexity of gradient descent is linear in the number of data points, N.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The computational complexity of gradient descent is not linear in the number of data points, N, because it involves multiple iterations over the entire dataset, which can result in a complexity that is proportional to the product of the number of iterations and the number of data points.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6862"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "In Naive Bayes, attributes are statistically independent of one another given the class value.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because Naive Bayes relies on the assumption of conditional independence among attributes, meaning that the presence or absence of one attribute does not affect the presence or absence of another attribute given the class label.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14780"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "Increasing the amount of training data can successfully help in reducing model overfitting.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Increasing the amount of training data can help reduce model overfitting, but it is not guaranteed to be successful if the model remains overly complex or if the additional data does not provide diverse and representative examples.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6873"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "ResNeXt models from 2018 predominantly employed ReLU activation functions in their architecture.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "ResNeXt models primarily utilized a combination of activation functions, including the more advanced PReLU (Parametric ReLU) and other modifications, rather than predominantly relying on ReLU activation functions.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the potential reasons for the poor performance of a decision tree in spam\nclassification despite a bug-free implementation, focusing on the implications of tree\ndepth on model accuracy.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The poor performance of a decision tree in spam classification, despite a bug-free\nimplementation, can often be attributed to the tree's inadequate depth. Shallow decision\ntrees may fail to capture the intricate patterns and relationships inherent in the data,\nleading to underfitting. This limitation restricts the model's ability to differentiate\nbetween spam and non-spam effectively, as it lacks the necessary complexity to represent\nthe features that characterize each class accurately. Consequently, a deeper tree would\nallow for more nuanced decision boundaries, potentially enhancing model accuracy and\nimproving classification outcomes. Thus, the depth of a decision tree is crucial in\nbalancing bias and variance, directly impacting its performance in tasks like spam\nclassification.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that shallow decision trees may lead to underfitting, resulting in poor performance in spam classification due to their inability to capture complex patterns and relationships in the data necessary for accurate differentiation between classes.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6905"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_14_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how to generate a $10\\times 5$ Gaussian matrix with entries sampled from\n$\\mathcal{N}(\\mu=5,\\sigma^2=16)$ and a $10\\times 10$ uniform matrix with entries from\n$U[-1,1)$. Include relevant PyTorch commands and explain your reasoning.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To generate a $10\\times 5$ Gaussian matrix with entries sampled from\n$\\mathcal{N}(\\mu=5,\\sigma^2=16)$, we use the PyTorch command `5 + torch.randn(10,5) * 4`.\nThis command leverages the standard normal distribution generated by `torch.randn`, scales\nit by 4 (the standard deviation, since $\\sigma = 4$), and shifts it by 5 (the mean). For\nthe $10\\times 10$ uniform matrix with entries from $U[-1,1)$, we can use `2 *\ntorch.rand(10,10) - 1`. Here, `torch.rand` generates numbers uniformly in the interval\n$[0,1)$, which we then scale to the desired range by multiplying by 2 and subtracting 1.\nThis approach ensures that the generated matrices meet the specified distributions\naccurately.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly applies the properties of Gaussian and uniform distributions by utilizing PyTorch functions to generate a $10\\times 5$ matrix from a normal distribution with specified mean and variance, and a $10\\times 10$ matrix from a uniform distribution over the desired interval, demonstrating an understanding of both sampling techniques and the corresponding PyTorch commands.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6938"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

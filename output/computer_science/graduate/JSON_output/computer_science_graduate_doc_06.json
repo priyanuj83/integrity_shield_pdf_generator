@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_06",
+  "document_name": "Computer Science - Graduate Level Assessment 6",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_06.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_06.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_06_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_06_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_06_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_06_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "A proxy rewall lters at the",
+      "options": {
+        "A": "Physical layer",
+        "B": "Application layer",
+        "C": "Data link layer",
+        "D": "Network layer"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A proxy firewall operates at the application layer because it intercepts and analyzes the traffic between a client and server, allowing it to filter content based on application-specific protocols and data.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1528"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Three of the following are classic security properties; which one is not?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Availability",
+        "C": "Correctness",
+        "D": "Integrity"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Availability is not considered a classic security property like confidentiality and integrity, as it focuses on ensuring access to information rather than the protection of that information itself.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1570"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a security exploit?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Cross-site scripting",
+        "C": "Authentication",
+        "D": "SQL Injection"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Authentication is a fundamental security process used to verify the identity of a user or system, rather than a security exploit, which typically involves malicious actions aimed at compromising security.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1485"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Of the following, which best approximates the ratio of the number of nonterminal nodes to\nthe total number of nodes in a complete K-ary tree of depth N?",
+      "options": {
+        "A": "1/K",
+        "B": "K-1/K",
+        "C": "log_10 (1/N)",
+        "D": "N-1/m"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a complete K-ary tree of depth N, the total number of nodes is given by (K^(N+1) - 1) / (K - 1), while the number of nonterminal nodes, which are all internal nodes, is K^N - 1, leading to the ratio of nonterminal nodes to total nodes being approximately 1/K as N becomes large.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1019"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_06_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "______________ is a widespread app's coding mistake made by developers which could be\nexploited by an attacker for gaining access or malfunctioning your system.",
+      "options": {
+        "A": "Memory leakage",
+        "B": "Buffer-overrun",
+        "C": "Less processing power",
+        "D": "Inefficient programming"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A buffer-overrun occurs when a program writes more data to a buffer than it can hold, leading to potential overwriting of adjacent memory, which can be exploited by attackers to gain unauthorized access or disrupt system functionality.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1476"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "Wireless security refers to the measures taken to protect computers and data from unauthorized access via wireless networks.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Wireless security encompasses protocols, technologies, and practices designed to safeguard data integrity and prevent unauthorized access to devices connected through wireless networks.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1537"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "There is a consensus in the field that Church's thesis can be proven with advancements in computational theory.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Church's thesis, which posits that any effectively calculable function can be computed by a Turing machine, remains unprovable as it is a foundational assumption in computer science rather than a theorem that can be definitively proven or disproven with advancements in computational theory.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14151"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "WPA 2 is a protocol that began to show up a few years back on wireless access points for connecting new devices.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "WPA2 is not a recent protocol; it was established in 2004 as an enhancement to WPA and is widely used for securing wireless networks, rather than being a new feature that emerged in recent years.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1554"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The set of Boolean operators {AND, OR} is not complete as it cannot represent all Boolean expressions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The set of Boolean operators {AND, OR} is not complete because it lacks the ability to express negation, which is essential for representing all possible Boolean expressions.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1000"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_06_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "A front-door is a method of accessing a computer system that is fully traceable and compliant with security protocols.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A front-door typically refers to a legitimate access point in a system, but it may not always be fully traceable or compliant with security protocols, as vulnerabilities can exist even in authorized access methods.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1517"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_06_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to create a list taking alternate elements from another given list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def alternate_elements(list1): | return result",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it outlines the essential function structure needed to generate a new list containing alternate elements from the provided list, indicating an understanding of list manipulation and function definition in programming.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "718"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_06_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to sort a given mixed list of integers and strings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def sort_mixed_list(mixed_list): | return int_part + str_part",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines a function that separates integers and strings from a mixed list and returns them concatenated, demonstrating an understanding of data types and list manipulation in programming.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "37"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

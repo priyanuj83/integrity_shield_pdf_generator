@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_03",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Authentication aims to determine who the user is by verifying their identity through various means, such as passwords, biometrics, or security tokens, to ensure that access to systems and data is granted only to authorized individuals.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14206
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A proxy firewall operates at the application layer because it inspects and filters traffic based on the specific applications and protocols being used, such as HTTP or FTP, rather than just examining the raw data packets.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1528
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is \"Receiver\" because message confidentiality ensures that only the intended recipient can understand the transmitted message, protecting it from unauthorized access and maintaining its secrecy.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1474
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "A secure pseudorandom permutation (PRP) can be constructed from a secure pseudorandom generator (PRG) by applying the Luby-Rackoff theorem, which demonstrates how to build a secure PRP using a secure pseudorandom function (PRF) derived from the PRG, specifically through the GGM construction.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14208
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Authentication is a security process designed to verify the identity of users, rather than a method used to exploit vulnerabilities in a system.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1485
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Wireshark is widely recognized for its capabilities in capturing and analyzing network traffic, including wireless packets, making it an essential tool in the field of network security for monitoring and troubleshooting communication.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1516
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "A buffer overflow typically allows an attacker to overwrite a function's return address on the stack, which can redirect execution to malicious code, but it does not allow direct writing to the instruction pointer register itself.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1531
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A ping sweep is considered true because it involves sending Internet Control Message Protocol (ICMP) echo requests to a range of IP addresses to determine which hosts are active and responsive on a network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Message authentication involves using cryptographic techniques to confirm that a message has not been altered and that it originates from a legitimate sender, thereby ensuring both the integrity and authenticity of the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1513
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Snort is indeed a widely used open-source tool that analyzes network traffic in real-time to detect potential intrusions and threats, thereby serving as a crucial component in cybersecurity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1510
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def sum_series(number): | return total",
+      "marks": 10,
+      "explanation": "correct as it indicates the need for a function that computes the sum of the cubes of the first n natural numbers, although it lacks the complete implementation details necessary to achieve this.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 931
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_03_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def add_string(list,string): | return add_string",
+      "marks": 10,
+      "explanation": "correct because it defines a function that is intended to modify a list by inserting a specified string at the beginning of each item, although the actual implementation is incomplete and does not perform the required operation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 390
+    }
+  ]
+}

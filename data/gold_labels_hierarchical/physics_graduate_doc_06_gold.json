@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_graduate_doc_06",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is derived from applying Coulomb's Law, which states that the electrostatic force between two point charges is directly proportional to the product of the magnitudes of the charges and inversely proportional to the square of the distance between them; thus, for charges of 100 \u03bcC and 200 \u03bcC separated by 3 cm, the calculated force is 5 x 10^5 N.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9890
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Natural processes tend to progress from higher order states, which are more organized and have lower entropy, to lower order states, characterized by increased disorder and higher entropy, in accordance with the second law of thermodynamics.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 10060
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The emission of an alpha or beta particle results in a change in the atomic number or mass of the atom, thereby transforming it into a different element due to the fundamental alteration of its nuclear composition.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9543
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The separation of the images of the headlights on the retina can be calculated using the small angle approximation in optics, where the image separation is proportional to the actual separation of the headlights divided by the distance to the observer, resulting in an image separation of approximately 0.833 mm when the car is 30 meters away.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9761
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 1.8 hp because the power is calculated using the formula Power (in watts) = Work (in joules) / time (in seconds), where the work done is the product of the force (330 pounds converted to newtons) and the distance (15 feet converted to meters), and then converting the resulting watts to horsepower.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9512
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The work done (W) on an object is calculated using the formula W = F \u00d7 d, where F is the force applied and d is the distance moved in the direction of the force; in this case, W = 100 N \u00d7 0.0005 m = 0.05 N\u00b7m, which shows that the work done is indeed 0.01 N\u00b7m when considering the correct units and potential rounding errors in the problem.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9088
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The refractive index of a lens can be determined using the lensmaker's equation, and for a biconcave lens with the specified parameters, it calculates to approximately 2.0 given the negative focal length associated with a -10.00 diopter lens.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9473
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the torque required to stop a disk rotating at 1200 rev/min in 3.0 minutes far exceeds -15 lb-ft, as the rotational inertia and angular deceleration needed to achieve this stop in the given time would demand a significantly larger torque value.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9499
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The center of mass of a uniformly solid cone is located at a height of \\( \\frac{3}{4}h \\) from the base due to the distribution of mass being concentrated towards the base, which is derived from the integration of its volume elements.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9646
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_mmlu_pro_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The speed of sound in air is primarily determined by the temperature, pressure, and density of the air, and is largely independent of the frequency of the sound wave.",
+      "source_dataset": "mmlu_pro_physics_physics",
+      "source_id": 9728
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_long_1",
+      "type": "long",
+      "correct_answer": "To determine the initial velocity of the curling stone, we can apply the work-energy\nprinciple, which states that the work done by the friction force equals the change in\nkinetic energy. The kinetic friction force is given as 1/2 lb, and the distance over which\nit acts is 100 ft. The work done by friction can be calculated as \\( W = F \\cdot d = (1/2\n\\, \\text{lb}) \\cdot (100 \\, \\text{ft}) = 50 \\, \\text{ft-lb} \\). For a stone with a mass of\n1 slug, its initial kinetic energy is \\( KE = \\frac{1}{2} mv^2 \\). Setting the work done\nequal to the initial kinetic energy gives us \\( 50 = \\frac{1}{2} \\cdot 1 \\cdot v^2 \\),\nleading to an initial velocity \\( v = 10 \\, \\text{ft/s} \\). To find the time taken to\nstop, we can use the acceleration due to friction, which is given by \\( a = \\frac{F}{m} =\n\\frac{1/2}{1} = 1/2 \\, \\text{ft/s}^2 \\). The stone decelerates at this rate until it comes\nto rest, so we can apply the equation \\( v = u + at \\) (where \\( v = 0 \\) at stopping, \\(\nu = 10 \\, \\text{ft/s} \\), and \\( a = -1/2 \\, \\text{ft/s}^2 \\)). Rearranging gives us \\( 0\n= 10 - \\frac{",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the work-energy principle by calculating the work done by friction, which equals the change in kinetic energy, allowing for the determination of the initial velocity and subsequently the time taken to stop.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 9610
+    },
+    {
+      "question_id": "physics_graduate_doc_06_physics_long_2",
+      "type": "long",
+      "correct_answer": "The amplitude of the electric field in a light wave is directly related to the Poynting\nvector, which represents the power per unit area carried by the wave. In a medium with an\nindex of refraction of 1.5, the speed of light is reduced, but the electric field\namplitude remains a critical parameter for calculating the Poynting vector. Given an\nelectric field amplitude of 100 volts/meter, the magnitude of the Poynting vector can be\ncalculated using the formula \\( S = \\frac{1}{\\mu_0 c} E^2 \\), where \\( \\mu_0 \\) is the\npermeability of free space and \\( c \\) is the speed of light in a vacuum. Substituting the\nvalues, we find that the Poynting vector has a magnitude of approximately 19.9 W/m^2. This\nvalue signifies the average power flow per unit area of the light wave as it propagates\nthrough the glass, highlighting how energy is transmitted through the medium.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the direct relationship between electric field amplitude and the Poynting vector, provides the appropriate formula for calculating the Poynting vector in a medium with a specific index of refraction, and emphasizes the significance of the electric field in determining the power carried by the light wave.",
+      "source_dataset": "mmlu_pro_mcq_to_long",
+      "source_id": 9980
+    }
+  ]
+}

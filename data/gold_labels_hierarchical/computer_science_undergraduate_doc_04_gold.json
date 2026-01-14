@@ -1,0 +1,124 @@
+{
+  "document_id": "computer_science_undergraduate_doc_04",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mbpp_coding_long",
+    "cs_algorithm_long"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Round-robin scheduling is starvation-free because it allocates a fixed time slice to each job in a cyclic order, ensuring that every job receives regular service without indefinite waiting.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1079
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The set {AND, OR} is not complete because it lacks the NOT operator, which is essential for representing all possible Boolean expressions by allowing for the negation of values.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1000
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 'abcd' because in Python, indexing starts at 0, and accessing tuple[0] retrieves the first element of the tuple, which is 'abcd'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer highlights that local caching can lead to temporary discrepancies in the file's state across different machines, as updates made on one machine may not be immediately reflected on others, resulting in inconsistent views of the same file.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1085
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Both of the above\" because it indicates that multiple statements about Python, likely regarding its features or capabilities, are accurate, showcasing the language's versatility and widespread applicability in programming.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3226
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the regular expression a*(c + d)* + b(c + d)* allows for strings that start with zero or more 'a's or a single 'b' followed by zero or more 'c's or 'd's, while (a* + b)*(c + d) allows for any combination of 'a's and 'b's followed by at least one 'c' or 'd', thus representing different sets of strings.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 15608
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because in Python, the modulus operator (%) has higher precedence than the addition operator (+), so the expression is evaluated as 4 + (3 % 2), resulting in 4 + 1, which equals 5.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3250
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the '+' operator concatenates strings, so 'a' + 'ab' results in the combined string 'aab'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3203
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because for each of the m elements in set A, there are n possible choices in set B, leading to a total of n^m distinct functions when considering all combinations of mappings.",
+      "source_dataset": "computer_science_college_computer_science",
+      "source_id": 1072
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression evaluates to the string 'Chemistry', which is at index 1 of the list, not the integer 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3265
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "def is_Power_Of_Two (x): | return x and (not(x & (x - 1))) | def differ_At_One_Bit_Pos(a,b): | return is_Power_Of_Two(a ^ b)",
+      "marks": 10,
+      "explanation": "correct because it leverages the property that two numbers differ at exactly one bit position if their bitwise XOR results in a power of two, which is determined by the function is_Power_Of_Two.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 6
+    },
+    {
+      "question_id": "computer_science_undergraduate_doc_04_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "def convert_list_dictionary(l1, l2, l3): | return result",
+      "marks": 10,
+      "explanation": "correct because it indicates the creation of a function that takes multiple lists as input, suggesting the intention to organize the data from these lists into a structured nested dictionary format, although the implementation details for building the result are not provided.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 391
+    }
+  ]
+}

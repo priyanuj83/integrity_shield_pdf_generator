@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_24",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As of 2020, advancements in deep learning have led to models achieving over 98% accuracy on the CIFAR-10 dataset, while the original ResNet architectures were trained using stochastic gradient descent instead of the Adam optimizer, confirming both statements as true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6854
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Predicting the amount of rainfall in a region based on various cues is a supervised learning problem because it involves using labeled training data (historical rainfall measurements) to train a model that can make predictions on new, unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6869
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Improving the optimization algorithm typically affects convergence speed and efficiency rather than directly addressing overfitting, which is primarily mitigated through techniques like regularization, cross-validation, or reducing model complexity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Transforming the data to zero mean is essential in PCA because it ensures that the principal components reflect the directions of maximum variance without being influenced by the mean, making the results consistent with those obtained from Singular Value Decomposition (SVD).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "High entropy indicates a high level of disorder or uncertainty in a dataset, which means that the classification partitions contain a mix of different classes rather than being dominated by a single class, resulting in them being not pure.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The computational complexity of gradient descent is considered polynomial in the number of dimensions, D, because the algorithm performs a fixed number of operations proportional to D for each iteration, leading to a total complexity that scales polynomially with respect to D.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6862
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Out-of-distribution detection refers to identifying data points that differ significantly from the training distribution, whereas background detection typically involves distinguishing relevant objects from irrelevant background elements in images, making the two concepts distinct in machine learning.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a Bayesian network with the structure H -> U <- P <- W actually requires only 3 independent parameters to fully define its conditional probabilities, as the dependency relationships reduce the number of parameters needed.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because K-fold cross-validation requires the model to be trained K times on different subsets of the data, resulting in a computational complexity that increases linearly with K.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6906
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The cost of one gradient descent update is O(N * d), where N is the number of training examples and d is the number of features, because the gradient must be computed for each feature across all training examples.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def remove_odd(str1): | return str2",
+      "marks": 10,
+      "explanation": "correct as it outlines the basic structure of a function in Python that is intended to process a string, although it lacks the implementation details to actually remove odd characters.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 437
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_24_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def armstrong_number(number): | return True | return False",
+      "marks": 10,
+      "explanation": "correct in that it provides a function structure to check for Armstrong numbers, but it lacks the necessary logic to perform the actual calculation and determination, as it only returns True and False without evaluating the input number.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 598
+    }
+  ]
+}

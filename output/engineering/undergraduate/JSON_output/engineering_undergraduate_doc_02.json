@@ -1,0 +1,296 @@
+{
+  "docid": "engineering_undergraduate_doc_02",
+  "document_name": "Engineering - Undergraduate Level Assessment 2",
+  "domain": "engineering",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "electrical_engineering",
+    "engineering"
+  ],
+  "combination_used": [
+    "mmlu_engineering_mcq",
+    "mmlu_engineering_tf",
+    "mmlu_pro_engineering_mcq",
+    "engineering_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\engineering\\undergraduate\\latex_documents\\engineering_undergraduate_doc_02.tex",
+    "pdf_file": "output\\engineering\\undergraduate\\pdf_documents\\engineering_undergraduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/engineering_undergraduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/engineering_undergraduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\engineering\\undergraduate\\answer_keys\\latex\\engineering_undergraduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\engineering\\undergraduate\\answer_keys\\pdf\\engineering_undergraduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "For a short dipole antenna, evaluate the maximum effective apertureA_em.",
+      "options": {
+        "A": "0.119 wavelength",
+        "B": "0.130 wavelength",
+        "C": "0.112 wavelength^2",
+        "D": "0.100 wavelength",
+        "E": "0.123 wavelength^2"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - 0.119 wavelength",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11562"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "At approximately what temperature will water boil ifthe elevationis 10,000 ft?",
+      "options": {
+        "A": "206^\\circF",
+        "B": "193^\\circF",
+        "C": "190^\\circF",
+        "D": "212^\\circF",
+        "E": "180^\\circF"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 193^\\circF",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11753"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Findcurlaat the point (1, - 2, 1) fora= x^2 y^2 i+ 2 xyzj+ z^2 k(1)",
+      "options": {
+        "A": "(4, 4, 0)",
+        "B": "(-2, 0, 0)",
+        "C": "(0, 0, 4)",
+        "D": "(4, 0, 0)",
+        "E": "(2, 0, 0)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: D - (4, 0, 0)",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11318"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Using the definition of the unilateral Z transform, F (z) = ^\\infty\\sum_n=0 f[n] z^-n.\nfind the z - transform of the step-sequence f[n] = u[n].",
+      "options": {
+        "A": "[1 / (z - 1)]",
+        "B": "[z / (1 + z)]",
+        "C": "[z^2 / (z - 1)]",
+        "D": "[1 / (2 - z)]",
+        "E": "[(z - 1) / z]"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: A - [1 / (z - 1)]",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12077"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A Lissajous pattern on an oscilloscope has 5 horinzontal tangencies and 2 vertical\ntangencies. The frequency of horizontal input is 100 Hz. The frequency of the vertical\nwill be",
+      "options": {
+        "A": "750 Hz.",
+        "B": "250 Hz.",
+        "C": "625 Hz.",
+        "D": "500 Hz.",
+        "E": "800 Hz."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Correct option: B - 250 Hz.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11965"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The current at time t=0+, i(0^+), can be expressed as E / (v(0^+) * R).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12246"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The variance of the random variable Z = X + Y, regardless of independence, is simply VarZ = VarX + VarY.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'VarZ = VarX + VarY - 2 E[{X - E(X)}{Y - E(Y)}]'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11729"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The voltage across a linear time-varying inductor can be expressed as U(t) = L_0 (1 - tanh t)cos(\u03c9t) + \u03c9L_0 (t - sech^2 t)sin(\u03c9t).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'U(t) = L_0 (1 + sech^2 t)cos\\omegat- \\omegaL_0 (t +tanht)sin\\omegat'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11836"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The equivalent resistance of five resistors of 10, 15, 20, 25, and 30 ohms connected in parallel is approximately 3.46 ohms.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated true statement based on MCQ.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "11380"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "engineering_undergraduate_doc_02_engineering_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Silicon is often regarded as the most harmful impurity in magnetic materials, negatively impacting their performance.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "LLM-generated false statement. Correct answer: 'Nitrogen.'.",
+      "source": {
+        "dataset": "mmlu_pro_engineering_engineering",
+        "source_id": "12126"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "engineering_undergraduate_doc_02_engineering_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the process of finding the Laplace transform of the function f(t) = t^n, where n\nis a positive integer. Explain the significance of the result in engineering applications.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "L{t^n} = [n^2 / (s^(n+2))], for s > 0. Explain why this is the correct answer and provide\nsupporting evidence. Reference key facts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11650"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "engineering_undergraduate_doc_02_engineering_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the concept of probability in the context of a single die throw, explaining how\nthe likelihood of rolling a \"six\" is determined and its implications in engineering\napplications.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "1/6. Explain why this is the correct answer and provide supporting evidence. Reference key\nfacts or concepts that support this choice.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Long-form derived from MCQ; award credit for stating the correct idea and giving supporting reasoning.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "11627"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

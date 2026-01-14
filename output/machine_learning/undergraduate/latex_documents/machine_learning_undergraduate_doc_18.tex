@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Undergraduate Level Assessment 18 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is \_\_\_\_\_\_\_\_
+\begin{enumerate}[label=(\alph*)]
+    \item higher
+    \item same
+    \item lower
+    \item it could be any of the above
+\end{enumerate}
+\item Which of the following is the joint probability of H, U, P, and W described by the given Bayesian Network H -\textgreater{} U \textless{}- P \textless{}- W? [note: as the product of the conditional probabilities]
+\begin{enumerate}[label=(\alph*)]
+    \item P(H, U, P, W) = P(H) * P(W) * P(P) * P(U)
+    \item P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(W | H, P)
+    \item P(H, U, P, W) = P(H) * P(W) * P(P | W) * P(U | H, P)
+    \item None of the above
+\end{enumerate}
+\item Predicting the amount of rainfall in a region based on various cues is a \_\_\_\_\_\_ problem.
+\begin{enumerate}[label=(\alph*)]
+    \item Supervised learning
+    \item Unsupervised learning
+    \item Clustering
+    \item None of the above
+\end{enumerate}
+\item Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural networks trained with gradient descent with high probability converge to the global optimum.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\item Consider the Bayesian network given below. How many independent parameters would we need if we made no assumptions about independence or conditional independence H -\textgreater{} U \textless{}- P \textless{}- W?
+\begin{enumerate}[label=(\alph*)]
+    \item 3
+    \item 4
+    \item 7
+    \item 15
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: The rank of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 3.
+\item True or False: Underfitting occurs when a model fails to capture the underlying patterns in the training data and performs poorly on new data.
+\item True or False: P(A, B, | C) * P(C) accurately represents the joint probability of Boolean variables A, B, and C without independence assumptions.
+\item True or False: Neural networks can use a mix of different activation functions to enhance learning and model complexity.
+\item True or False: Lasso regression is more effective for feature selection compared to Ridge regression due to its ability to shrink some coefficients to zero.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Write a function to generate a two-dimensional array.
+\item Write a function to find frequency count of list of lists.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

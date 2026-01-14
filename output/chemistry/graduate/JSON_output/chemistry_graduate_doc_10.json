@@ -1,0 +1,294 @@
+{
+  "docid": "chemistry_graduate_doc_10",
+  "document_name": "Chemistry - Graduate Level Assessment 10",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "mmlu_pro_chemistry_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_10.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_10.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_10_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_10_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_10_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_10_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the normality of a solution containing 2.45 g of sulfuric acid in 2.00 liters of\nsolution. (MW of H_2 SO_4 = 98.1.)",
+      "options": {
+        "A": "0.0125 equiv/liter",
+        "B": "0.060 equiv/liter",
+        "C": "0.050 equiv/liter",
+        "D": "0.100 equiv/liter",
+        "E": "0.125 equiv/liter"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The normality of the sulfuric acid solution is 0.0125 equiv/liter because sulfuric acid (H\u2082SO\u2084) is a diprotic acid that can donate two protons, meaning the equivalents of acid per mole are twice the molarity, calculated from the mass (2.45 g) divided by its molar mass (98.1 g/mol) and adjusted for the volume (2.00 L).",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4643"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the equilibrium polarization of 13 C nuclei in a 20.0 T magnetic field at 300 K.",
+      "options": {
+        "A": "7.39 x 10^-5",
+        "B": "9.12 x 10^-5",
+        "C": "3.43 x 10^-5",
+        "D": "6.28 x 10^-5",
+        "E": "1.71 x 10^-5"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer, 1.71 x 10^-5, is derived from the Boltzmann distribution that describes the population of nuclear spins in a magnetic field, where the equilibrium polarization of 13C nuclei at 20.0 T and 300 K is calculated using the formula that relates polarization to the magnetic field strength, temperature, and the nuclear magnetic moment.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3895"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "$$ \\text { If we locate an electron to within } 20 \\mathrm{pm} \\text {, then what is the\nuncertainty in its speed? } $$",
+      "options": {
+        "A": "8.1$10^6 \\mathrm{~m} \\cdot \\mathrm{s}^{-1}$",
+        "B": "9.4$10^7 \\mathrm{~m} \\cdot \\mathrm{s}^{-1}$",
+        "C": "6.2$10^7 \\mathrm{~m} \\cdot \\mathrm{s}^{-1}$",
+        "D": "1.1$10^8 \\mathrm{~m} \\cdot \\mathrm{s}^{-1}$",
+        "E": "3.7$10^7 \\mathrm{~m} \\cdot \\mathrm{s}^{-1}$"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the Heisenberg Uncertainty Principle, which states that the product of the uncertainties in position (\u0394x) and momentum (\u0394p) of a particle is bounded by a constant, leading to the calculation that a precise localization of an electron within 20 pm results in a corresponding uncertainty in its speed on the order of 3.7 x 10^7 m/s.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4178"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Compare the bond order of He_2 and He_2^+.",
+      "options": {
+        "A": "Bond order of He_2 is 0 and He_2^+ is 0.5",
+        "B": "Bond order of He_2 is 0.5 and He_2^+ is 0",
+        "C": "Bond order of He_2 and He_2^+ is 0.5",
+        "D": "Bond order of He_2 is 2 and He_2^+ is 1.5",
+        "E": "Bond order of He_2 is 1 and He_2^+ is 0"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The bond order is calculated as half the difference between the number of bonding and antibonding electrons, and in He_2, there are two antibonding electrons and no bonding electrons (yielding a bond order of 0), while in He_2^+, there is one antibonding electron and two bonding electrons (resulting in a bond order of 0.5).",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4190"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A solution of sulfurous acid, H 2 SO 3, is present in an aqueous solution. Which of the\nfollowing represents the concentrations of three different ions in solution?",
+      "options": {
+        "A": "[H 2 SO 3] > [HSO 3-] = [SO 32-]",
+        "B": "[HSO 3-] > [SO 32-] > [H 2 SO 3]",
+        "C": "[SO 32-] > [H 2 SO 3] > [HSO 3-]",
+        "D": "[HSO 3-] = [SO 32-] > [H 2 SO 3]",
+        "E": "[SO 32-] = [HSO 3-] > [H 2 SO 3]"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer reflects the weak acid nature of sulfurous acid (H2SO3), where it only partially dissociates in solution, resulting in a higher concentration of undissociated H2SO3 compared to its conjugate base ions HSO3- and SO3^2-, which exist in equal concentrations due to the second dissociation equilibrium.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3633"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The volume of a cube with edges measuring 150.0 mm is 450 cubic centimeters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The volume of a cube is calculated by cubing the length of one edge, so for a cube with edges measuring 150.0 mm (which is 15.0 cm), the volume is 15.0 cm x 15.0 cm x 15.0 cm = 3375 cubic centimeters, not 450 cubic centimeters.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4551"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The molecule NO 2- exhibits sp 2 hybridization around its central nitrogen atom.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The molecule NO2- exhibits sp2 hybridization around its central nitrogen atom because it has one lone pair and forms two sigma bonds with oxygen atoms, resulting in a trigonal planar geometry that is characteristic of sp2 hybridization.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The recoil energy of the atom is 400 eV, which is the expected value for such emissions in similar scenarios.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The recoil energy of an atom during emission processes is typically much lower than 400 eV, as recoil energies are generally on the order of a few eV or less, depending on the mass of the emitting nucleus and the energy of the emitted particle.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4597"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The reduction of NO(g) typically results in the formation of nitrogen dioxide NO 2(g) as a product.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The reduction of NO(g) typically results in the formation of nitrogen (N2) or nitrous oxide (N2O) rather than nitrogen dioxide (NO2), which is produced through oxidation rather than reduction.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3634"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_10_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "Electrons can occupy the same orbital if they possess identical quantum numbers.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because according to the Pauli Exclusion Principle, no two electrons in an atom can have the same set of quantum numbers, meaning they must differ in at least one quantum number to occupy the same orbital.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3629"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_10_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between temperature and the standard molar enthalpy of sulfur\ndioxide gas, calculating the increase in enthalpy as the temperature rises from 298.15 K\nto 1500 K.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The relationship between temperature and the standard molar enthalpy of sulfur dioxide gas\ncan be understood through the concept of heat capacity and how enthalpy changes with\ntemperature. As the temperature rises from 298.15 K to 1500 K, the standard molar enthalpy\nof sulfur dioxide increases due to the absorption of heat, which is quantified by the heat\ncapacity at constant pressure. By calculating the change in enthalpy using appropriate\nheat capacity values, we find that the increase in enthalpy over this temperature range is\napproximately 62.2 kJ mol\u207b\u00b9. This value reflects the energy required for the gas to reach\nhigher thermal states, highlighting the direct correlation between temperature and the\nenthalpy of a substance.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately relates the increase in the standard molar enthalpy of sulfur dioxide gas to the principles of heat capacity, demonstrating how enthalpy changes with temperature through the absorption of heat over the specified temperature range.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4091"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_10_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the conditions under which precipitates of ZnS and CuS would form when H 2 S is\nbubbled into a solution containing Zn^2+ and Cu^2+ ions at 0.02 M each, and analyze the\nimplications of their solubility products.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "When hydrogen sulfide (H 2 S) is bubbled into a solution containing Zn^2+ and Cu^2+ ions\nat a concentration of 0.02 M, precipitation occurs based on the solubility products (Ksp)\nof the sulfides formed. The solubility product for CuS is significantly lower (Ksp \\approx\n8.5 x 10^-45) compared to that of ZnS (Ksp \\approx 1.2 x 10^-23), indicating that CuS will\nprecipitate before ZnS under the same conditions. As H 2 S is introduced, the\nconcentration of S^2- ions increases, and once it exceeds the solubility product of CuS,\nCuS will precipitate out of solution. In contrast, the precipitation of ZnS will not occur\nuntil the concentration of sulfide ions becomes much higher, due to its comparatively\nhigher Ksp. Thus, in this scenario, CuS is expected to form first, highlighting the\nimplications of differing solubility products on precipitation reactions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies that the lower solubility product of CuS compared to ZnS means that CuS will precipitate first as the concentration of sulfide ions increases in the solution.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4321"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

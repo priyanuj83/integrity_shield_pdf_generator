@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_01",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The first statement is false because ReLU activations are indeed monotonic (non-decreasing), while the second statement is true as neural networks trained with gradient descent often converge to local minima, with certain conditions allowing for convergence to the global optimum in specific cases.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The dimensionality of the null space of matrix A is 2 because the rank of the matrix is 1, leading to a nullity of 2 as determined by the Rank-Nullity Theorem, which states that the dimension of the null space plus the rank equals the number of columns in the matrix.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Stuart Russell is widely recognized for his work on the safety and ethical implications of artificial intelligence, particularly regarding existential risks, making him a leading authority on this topic in the field of machine learning.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The sigmoid function transforms any real-valued input into a value between 0 and 1, making the output of a sigmoid node in a neural network bounded within this range.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is P(B|A) decreases because if P(A, B) decreases while P(A) increases, the conditional probability P(B|A), calculated as P(A, B)/P(A), must decrease due to the numerator decreasing relative to the increasing denominator.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Out-of-distribution detection refers specifically to the ability of a model to identify data points that differ from the training distribution, while train-test mismatch robustness encompasses a broader range of issues related to performance degradation due to differences between training and testing data distributions, making the two concepts distinct.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The computational complexity of gradient descent is considered polynomial in the dimensionality D of the data because each iteration of the algorithm requires computing the gradient, which involves a linear scan of the D-dimensional data, resulting in a time complexity of O(D) per iteration.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6862
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the rank of matrix A, which consists of three identical rows, is 1, as all rows are linearly dependent.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6857
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Discriminative approaches model the conditional distribution p(y | x) to directly differentiate between classes given the input features, rather than modeling the joint distribution p(y, x) that represents the overall data distribution.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Lasso regression incorporates L1 regularization, which penalizes the absolute size of the coefficients, leading to some coefficients being shrunk to zero, thereby effectively selecting a subset of features for the model.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6926
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is a 3 x 3 matrix where all rows are\nidentical, indicating that its rank is 1. To determine the dimensionality of its null\nspace, we apply the rank-nullity theorem, which states that the nullity (dimension of the\nnull space) plus the rank must equal the number of columns. Thus, nullity = number of\ncolumns - rank = 3 - 1 = 2. This implies that the null space of A is two-dimensional,\nmeaning there are infinitely many vectors that can be mapped to the zero vector under the\nlinear transformation represented by A. In the context of machine learning, this indicates\nthat the transformation loses a degree of freedom, which can impact the model's ability to\ncapture variability in the data.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the rank-nullity theorem to determine that the null space of the matrix A, which has a rank of 1, must have a dimensionality of 2, indicating the presence of infinitely many vectors that can be transformed to the zero vector under the corresponding linear transformation.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_01_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "A linear hard-margin Support Vector Machine (SVM) is applicable under the condition that\nthe training data is linearly separable, meaning that there exists a hyperplane that can\nperfectly divide the data points of different classes without any misclassifications. This\ncondition implies that there is a clear margin between the classes, which enables the SVM\nto maximize this margin while ensuring that all training instances are correctly\nclassified. The implications of linear separability in machine learning models are\nsignificant, as they determine the choice of algorithms; when data is not linearly\nseparable, hard-margin SVMs may fail, leading practitioners to consider alternative\napproaches like soft-margin SVMs or kernel methods that can handle non-linear\nrelationships. Thus, understanding the nature of the data and its separability is crucial\nin selecting the appropriate model and ensuring effective classification.",
+      "marks": 10,
+      "explanation": "correct because it accurately identifies that a linear hard-margin SVM requires linearly separable data to function effectively, allowing for the maximization of the margin between classes without misclassifications, which is fundamental to the SVM algorithm's design and performance.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6889
+    }
+  ]
+}

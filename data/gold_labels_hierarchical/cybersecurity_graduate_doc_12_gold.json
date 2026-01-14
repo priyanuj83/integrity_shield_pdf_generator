@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_12",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A buffer overflow on the stack allows an attacker to overwrite the return address of a function, redirecting execution to attacker-injected code, thereby facilitating the execution of malicious instructions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1531
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The Silk Road was a notorious Dark Web marketplace that operated primarily between 2011 and 2013, facilitating the anonymous sale of illegal drugs and various illicit goods using cryptocurrency, making it emblematic of cybercrime in that domain.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1495
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Authentication aims to determine who the user is by verifying the identity of individuals attempting to access a system or network, ensuring that only authorized users can gain entry.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 14206
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Unauthorized network access is not a transport layer vulnerability because it pertains to broader network security issues rather than specific weaknesses in the protocols and mechanisms that operate at the transport layer, such as TCP or UDP, which focus on end-to-end communication and data flow control.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1491
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer encompasses the primary categories of scanning used in cybersecurity, where network scanning identifies active devices, vulnerability scanning assesses potential security flaws, and port scanning checks open ports and services, collectively forming a comprehensive approach to assessing security posture.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1526
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "UNIX and NT-based systems are susceptible to buffer overflow vulnerabilities because they often allow programs to write more data to a buffer than it can hold, leading to memory corruption and the potential for attackers to execute arbitrary code.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1534
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Buffer-overflow issues require both memory and boundary checks because adequate memory checks alone cannot prevent data from being written outside the allocated buffer, which is essential for maintaining data integrity and system security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Public key encryption enables secure key exchange without the need to share a secret key over potentially insecure channels, as it uses a pair of keys (public and private) to encrypt and decrypt messages, thereby eliminating the key distribution problem inherent in symmetric key cryptography.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1494
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A packet filter firewall inspects packets based on their header information, which operates at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model, thereby validating or blocking traffic based on IP addresses and port numbers.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A digital signature utilizes a public-key cryptography system, where the sender signs a message with their private key, allowing the recipient to verify authenticity and integrity using the sender's public key, thus ensuring secure digital communications.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1507
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def diff_consecutivenums(nums): | return result",
+      "marks": 10,
+      "explanation": "correct as it outlines the definition of a function that is intended to compute the difference between each pair of consecutive numbers in a list, which is a fundamental programming task that can be applied in various cybersecurity algorithms for data analysis or anomaly detection.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 345
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_12_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def smallest_Divisor(n): | return 2; | return i; | return n;",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that the smallest prime divisor of any integer greater than 1 is 2, and it suggests a structure for the function that could be expanded to include logic for checking other potential divisors if necessary.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 681
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "docid": "mathematics_k-12_doc_23",
+  "document_name": "Mathematics - K-12 Level Assessment 23",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_23.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_23.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_23_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_23_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_23_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_23_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Gwen wrote the number pattern below on a piece of paper. 1, 5, 9, 13 What are the next two\nterms in Gwen's pattern?",
+      "options": {
+        "A": "15, 17",
+        "B": "15, 19",
+        "C": "17, 19",
+        "D": "17, 21"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 17, 21 because the pattern increases by 4 with each successive term, and continuing this pattern from 13 results in 17 and then 21.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2109"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The Sojourn family went on a vacation. They started with $2000. If they spent $150 each\nday, which expression represents how much money they had after x days?",
+      "options": {
+        "A": "1850 x",
+        "B": "2000 -150 x",
+        "C": "150 x",
+        "D": "2000 +150 x"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 2000 - 150x correctly represents the total amount of money the Sojourn family has left after spending $150 each day for x days, starting with an initial amount of $2000.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2105"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Simplify $\\frac{k-3}{2} + 3 k+1+\\frac{3 k+1}{2}$.",
+      "options": {
+        "A": "3 k+1",
+        "B": "5 k",
+        "C": "3 k",
+        "D": "1"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5k because simplifying the expression involves combining like terms, where the fractions are converted to a common denominator and then combined, leading to a final result of 5k.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4313"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which step explains how to find the value of a in 6 a = 72?",
+      "options": {
+        "A": "add 6 to both sides",
+        "B": "divide both sides by 6",
+        "C": "multiply both sides by 6",
+        "D": "subtract 6 from both sides"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To isolate the variable a in the equation 6a = 72, you must perform the inverse operation of multiplication by dividing both sides of the equation by 6.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2119"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_23_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The rainfall for the last three months of school was 8.1 inches, 4.2 inches, and 0.33\ninch. Estimate the total rainfall for the three months by rounding to the nearest whole\nnumber.",
+      "options": {
+        "A": "11.9 in.",
+        "B": "11 in.",
+        "C": "45.0 in.",
+        "D": "12 in."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "By rounding each rainfall measurement to the nearest whole number (8 inches, 4 inches, and 0 inches), the estimated total rainfall becomes 12 inches.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2300"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "The expression 9(9 m + 3 t) simplifies to 18 m + 12 t.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The expression 9(9 m + 3 t) simplifies to 81 m + 27 t, not 18 m + 12 t, because when distributing 9, each term inside the parentheses must be multiplied by 9.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2406"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "Sam would pay $5.52 for 12 stamps based on the rate of $8.28 for 18 stamps.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the cost per stamp is $8.28 \u00f7 18 = $0.46, and therefore, for 12 stamps, the total cost is 12 \u00d7 $0.46 = $5.52.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2416"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The ratio 12 over 27 can form a proportion with 8 over 18 because they are equivalent ratios.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The ratio 12 over 27 simplifies to 4 over 9, while 8 over 18 simplifies to 4 over 9 as well, so they are equivalent ratios, making the statement true, not false.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The value of 'a' that makes the graphs of the equations perpendicular is -4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of 'a' is -4 because for two lines to be perpendicular, the product of their slopes must equal -1, and the slope of one line is the negative reciprocal of the other, which is satisfied by this value.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4436"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_23_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The total cost of 934 puzzles at $6 each, including tax, is $5,484.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The total cost of 934 puzzles at $6 each is actually $5,604, calculated by multiplying 934 by 6, which makes the statement false.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2161"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_23_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "A square is divided into five congruent rectangles, as shown. If the perimeter of each of\nthese five rectangles is 36 inches, what is the perimeter of the square, in inches? [asy]\ndraw((0,0)--(0,5)--(5,5)--(5,0)--cycle); draw((1,0)--(1,5)); draw((2,0)--(2,5));\ndraw((3,0)--(3,5)); draw((4,0)--(4,5)); [/asy]",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the 8 th number, we start by calculating the total of the first 7 numbers. Since\ntheir mean is 15, the total is 7 times 15, which equals 105. When we add the 8 th number,\nthe new mean becomes 12 for all 8 numbers. Therefore, the total for these 8 numbers is 8\ntimes 12, which equals 96. To find the 8 th number, we subtract the total of the first 7\nnumbers from the total of all 8 numbers: 96 - 105 = -9. Thus, the 8 th number is -9.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the total of the first 7 numbers using the mean, determines the total for all 8 numbers based on the new mean, and then finds the 8th number by subtracting the total of the first 7 from the total of all 8, resulting in -9.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4293"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_23_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Given that the mean of 7 numbers is 15, and upon adding an 8 th number the mean decreases\nto 12, calculate the 8 th number and explain your reasoning step-by-step.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To find the 8 th number, we start by calculating the total of the first 7 numbers. Since\ntheir mean is 15, the total is 7 times 15, which equals 105. When we add the 8 th number,\nthe new mean becomes 12 for all 8 numbers. Therefore, the total for these 8 numbers is 8\ntimes 12, which equals 96. To find the 8 th number, we subtract the total of the first 7\nnumbers from the total of all 8 numbers: 96 - 105 = -9. Thus, the 8 th number is -9.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the total of the first 7 numbers using the mean, determines the total for all 8 numbers based on the new mean, and then finds the 8th number by subtracting the total of the first 7 from the total of all 8, resulting in -9.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4293"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

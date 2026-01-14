@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_20",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 8 because in this Bayesian network, there are 3 nodes (H, U, P) that have parent-child relationships, requiring 1 parameter for H, 2 parameters for U (given H), and 2 parameters for P (given U), plus 2 parameters for W (given P), totaling 8 independent parameters to fully specify the joint probability distribution.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "RELU (Rectified Linear Unit) activation functions are indeed non-monotonic due to their zero output for negative inputs, whereas sigmoid functions are monotonic; additionally, neural networks trained with gradient descent do not guarantee convergence to the global optimum due to issues like local minima and saddle points.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6887
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Improving the optimization algorithm primarily focuses on how the model learns from the training data rather than addressing the issue of overfitting, which is related to the model's complexity and generalization to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is based on the factorization of the joint probability distribution in a Bayesian network, where the structure X <- Y -> Z indicates that Y is a parent of both X and Z, allowing the distribution to be expressed as the product of the marginal probability P(Y) and the conditional probabilities P(X|Y) and P(Z|Y).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14787
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Discriminative approaches model the conditional probability of the output variable given the input variables and model parameters, specifically p(y|x, w), focusing on the decision boundary between classes rather than the distribution of the input data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Overfitting occurs when a model learns the training data too well, capturing noise and details that do not generalize to new data, leading to poor performance on unseen datasets.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6846
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because Naive Bayes assumes that attributes are conditionally independent of each other given the class value, which simplifies the computation of probabilities.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14780
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The variance of the Maximum A Posteriori (MAP) estimate is typically lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which regularizes the estimate and reduces its sensitivity to noise in the data, leading to more stable parameter estimates.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14786
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "This statement is false because an increase in P(A) and a decrease in P(A, B) can lead to a decrease in P(B|A) due to the relationship P(B|A) = P(A, B) / P(A), illustrating that P(B|A) does not necessarily have to increase to maintain consistency in probabilities.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because calculating the gradient vector g involves computing the derivative of the loss function with respect to each feature, which requires O(D) operations, where D represents the number of features in the dataset.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "The assumption of full versus diagonal class covariance matrices in a Gaussian Bayes\nclassifier significantly influences the trade-off between underfitting and overfitting.\nWhen full covariance matrices are assumed, the model can capture complex relationships and\ninteractions between features, which may lead to better performance on training data but\nincreases the risk of overfitting, especially in high-dimensional spaces with limited\ndata. Conversely, diagonal covariance matrices simplify the model by assuming feature\nindependence, which can lead to underfitting if the true data distribution exhibits\nfeature correlations. Therefore, the choice between these covariance structures must\nbalance the model's flexibility against its ability to generalize, ultimately affecting\nits predictive accuracy on unseen data.",
+      "marks": 10,
+      "explanation": "correct because assuming full covariance matrices allows the model to represent intricate feature relationships, enhancing training performance but heightening overfitting risk, while diagonal covariance matrices restrict this complexity, potentially leading to underfitting in the presence of rich data patterns.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6928
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_20_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "To generate a $10 \\times 5$ Gaussian matrix with a mean ($\\mu$) of 5 and a variance\n($\\sigma^2$) of 16 using PyTorch, one can utilize the formula \\(5 + \\text{torch.randn}(10,\n5) \\times 4\\). Here, \\(\\text{torch.randn}(10, 5)\\) produces a matrix of standard normally\ndistributed random numbers, which is then scaled by 4 (the standard deviation, since\n\\(\\sigma = \\sqrt{16} = 4\\)) and shifted by 5 to achieve the desired mean. For the $10\n\\times 10$ uniform matrix from the uniform distribution \\(U[-1,1)\\), the expression \\(2\n\\times \\text{torch.rand}(10, 10) - 1\\) is employed. This generates values uniformly\ndistributed between 0 and 2, which are then shifted to the range of -1 to 1 by scaling and\ntranslating appropriately.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the transformation of a standard normal distribution to create a Gaussian matrix with the specified mean and variance while correctly utilizing PyTorch functions to generate random matrices, and it begins the process of generating a uniform matrix from the uniform distribution \\(U[-1,1)\\).",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6938
+    }
+  ]
+}

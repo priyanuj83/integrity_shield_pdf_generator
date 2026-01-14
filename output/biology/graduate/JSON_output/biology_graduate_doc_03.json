@@ -1,0 +1,294 @@
+{
+  "docid": "biology_graduate_doc_03",
+  "document_name": "Biology - Graduate Level Assessment 3",
+  "domain": "biology",
+  "academic_level": "Graduate",
+  "subjects": [
+    "biology",
+    "anatomy"
+  ],
+  "combination_used": [
+    "mmlu_pro_biology_mcq",
+    "biology_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\graduate\\latex_documents\\biology_graduate_doc_03.tex",
+    "pdf_file": "output\\biology\\graduate\\pdf_documents\\biology_graduate_doc_03.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_graduate_doc_03_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_graduate_doc_03_gold.json",
+    "answer_key_latex_file": "output\\biology\\graduate\\answer_keys\\latex\\biology_graduate_doc_03_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\graduate\\answer_keys\\pdf\\biology_graduate_doc_03_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_graduate_doc_03_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What controls the process of molting incrustacea?",
+      "options": {
+        "A": "Water temperature alone without hormonal influence",
+        "B": "The age of the crustacean",
+        "C": "Environmental factors",
+        "D": "Social interactions with other crustaceans",
+        "E": "Diet of the crustacean"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The process of molting in crustaceans is primarily triggered by water temperature changes, as it influences metabolic rates and physiological conditions necessary for shedding their exoskeleton, independent of hormonal factors.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3082"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_graduate_doc_03_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A dominant trait has a fitness of 0.6. The frequency in a population of this trait is 1 in\n8,000. What is the mutation rate?",
+      "options": {
+        "A": "2.5 \\times 10^-5",
+        "B": "1.5 \\times 10^-5",
+        "C": "3.0 \\times 10^-5",
+        "D": "4.0 \\times 10^-5",
+        "E": "5.0 \\times 10^-5"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is derived from the relationship between the frequency of the dominant trait (1/8000) and the fitness of that trait (0.6), which allows calculation of the mutation rate using the formula \u03bc = q^2 (1 - w) / w, where q is the frequency of the recessive allele and w is the fitness of the dominant allele.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3140"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_graduate_doc_03_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Why is it incorrect to say that man evolved from monkeys? What did he possibly evolve\nfrom?",
+      "options": {
+        "A": "Man evolved directly from monkeys",
+        "B": "Man evolved from a branch of primates that includes the modern lemur",
+        "C": "Man evolved from Parapithecus",
+        "D": "Man evolved from a direct line of increasingly intelligent monkeys",
+        "E": "Man evolved from Neanderthals who were a separate species from monkeys"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is incorrect because humans and modern monkeys share a common ancestor rather than evolving directly from one another, highlighting the concept of divergent evolution in the study of primate phylogeny.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3232"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_graduate_doc_03_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "All of the following are examples of connective tissue EXCEPT",
+      "options": {
+        "A": "tendons",
+        "B": "skin",
+        "C": "muscle",
+        "D": "blood",
+        "E": "cartilage"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Muscle is classified as a type of tissue distinct from connective tissue, as it primarily functions in movement through contraction, whereas connective tissues serve to support, bind, and protect other tissues and organs in the body.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "2985"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_graduate_doc_03_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Mutation of homeotic cluster genes often results in which of the following developmental\ndefects in Drosophila?",
+      "options": {
+        "A": "Complete absence of segmentation",
+        "B": "Hindrance in the development of the nervous system",
+        "C": "Inability to undergo metamorphosis",
+        "D": "Absence of a group of contiguous segments",
+        "E": "Tumor formation in imaginal discs"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mutation of homeotic cluster genes disrupts the normal patterning and segmentation of Drosophila, often leading to the complete absence of segmentation by failing to specify distinct body segments during development.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3446"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_graduate_doc_03_biology_pubmedqa_tf_1",
+      "question_type": "TF",
+      "stem_text": "Do general practice selection scores predict success at MRCGP?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The general practice selection process is predictive of future performance in the MRCGP.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "22449464"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_graduate_doc_03_biology_pubmedqa_tf_2",
+      "question_type": "TF",
+      "stem_text": "Discharging patients earlier from Winnipeg hospitals: does it adversely affect quality of care?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Improving hospital efficiency by shortening length of stay does not appear to result in increased rates of readmission or numbers of physician visits within 30 days after discharge from hospital. Research is needed to identify optimal lengths of stay and expected readmission rates.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "7664228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_graduate_doc_03_biology_pubmedqa_tf_3",
+      "question_type": "TF",
+      "stem_text": "Processing fluency effects: can the content and presentation of participant information sheets influence recruitment and participation for an antenatal intervention?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Font influenced pregnant women's ratings of intervention complexity.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "25481573"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_graduate_doc_03_biology_pubmedqa_tf_4",
+      "question_type": "TF",
+      "stem_text": "Blunt trauma in intoxicated patients: is computed tomography of the abdomen always necessary?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The incidence of abdominal injury in intoxicated, hemodynamically stable, blunt trauma patients with a normal abdominal examination and normal mentation is low. Physical examination and attention to clinical risk factors allow accurate abdominal evaluation without CT.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "10798511"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_graduate_doc_03_biology_pubmedqa_tf_5",
+      "question_type": "TF",
+      "stem_text": "Resection of colorectal liver metastases after second-line chemotherapy: is it worthwhile?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "CLM resection following second-line PCT, after oncosurgically favourable selection, could bring similar OS compared to what observed after first-line. For initially unresectable patients, OS or DFS is comparable between first- and second-line PCT. Surgery should not be denied after the failure of first-line chemotherapy.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "28407529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_graduate_doc_03_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Analyze the courtship behavior of the common tern, specifically the male's presentation of\nfish, and discuss the broader significance of courtship rituals in reproductive success\namong avian species.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The courtship behavior of the common tern is characterized by the male's presentation of\nfish to potential mates, which serves as a display of his foraging ability and overall\nfitness. This ritual, while seemingly aimed at securing a mate, also functions as a form\nof entertainment for both the male and female terns, underscoring the social dynamics at\nplay in avian courtship. Such behaviors can enhance reproductive success by allowing\nfemales to assess the quality of males, thereby ensuring that they select partners capable\nof providing resources for offspring. Moreover, the broader significance of these\ncourtship rituals extends beyond individual pair bonding; they play a crucial role in the\nevolutionary strategies of avian species, influencing mate selection and ultimately\ncontributing to the genetic diversity and adaptability of populations. In this context,\nthe courtship of common terns exemplifies how seemingly simple behaviors can have profound\nimplications for the survival and evolution of species.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it effectively highlights the significance of the male common tern's fish presentation as a display of fitness that plays a crucial role in female mate selection, while also emphasizing the social dynamics and entertainment value of courtship rituals in enhancing reproductive success among birds.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3519"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_graduate_doc_03_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the mechanisms by which the biological clock of fiddler crabs can be reset to\ninduce a reversal in their color change pattern, considering environmental and\nphysiological factors.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The biological clock of fiddler crabs can be reset through specific environmental\nmanipulations, such as artificially creating cycles of light and darkness or exposing the\ncrabs to extreme temperatures, like ice water. These interventions exploit the inherent\nplasticity of the crabs' circadian rhythms, which are sensitive to external cues. Light\nexposure, particularly, can influence melatonin production and other hormonal pathways\nthat regulate color change, while cold exposure may trigger physiological stress responses\nthat affect metabolic processes linked to pigmentation. By altering these environmental\nfactors, researchers can induce a reversal in the crabs' color change patterns,\nillustrating the interplay between environmental stimuli and physiological adaptations in\nthe regulation of circadian rhythms.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the role of environmental factors such as light and temperature in resetting the fiddler crabs' biological clock, which in turn affects hormonal regulation and the color change mechanism, illustrating the influence of external cues on circadian rhythms.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3314"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

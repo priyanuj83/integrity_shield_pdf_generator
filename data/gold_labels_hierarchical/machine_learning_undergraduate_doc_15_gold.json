@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_15",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is \"All of the above\" because spatial clustering algorithms encompass a variety of techniques used to group spatial data points based on their proximity, and all listed options fall within this category.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Overfitting is more likely with a small training dataset because the model can learn noise instead of general patterns, while a small hypothesis space limits the model's complexity and capacity to overfit.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "RoBERTa does indeed pretrain on a corpus that is approximately 10 times larger than that used for BERT, making Statement 1 true, while ResNeXT typically employs ReLU activation functions rather than tanh, rendering Statement 2 false.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6836
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "K-fold cross-validation is considered linear in K because the computational cost of training the model increases proportionally with the number of folds, as each fold requires an independent training and validation process.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6906
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The sigmoid function maps any real-valued number into a range between 0 and 1, making the output of a sigmoid node in a neural network always bounded within these limits.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6888
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The degree of a polynomial in polynomial regression determines the model's complexity, with higher degrees increasing the risk of overfitting by capturing noise in the training data, while lower degrees may lead to underfitting by failing to capture the underlying trends, thus significantly impacting the trade-off between these two issues.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6853
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The cost of one gradient descent update is O(D) because the algorithm computes the gradient for each of the D dimensions in the parameter space, requiring a linear amount of computation relative to the number of dimensions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "L2 norm regularization, also known as Ridge regression, shrinks the coefficients towards zero but does not set any coefficients exactly to zero, unlike L1 norm regularization which can lead to sparse solutions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6934
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Bayesians incorporate prior distributions to express beliefs about parameters before observing data, while frequentists rely solely on the data at hand, eschewing prior beliefs in their statistical inference.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6923
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "High entropy signifies a higher degree of disorder or uncertainty in a dataset, indicating that the instances within the partitions belong to multiple classes rather than being predominantly from a single class, thus reflecting a lack of purity in classification.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def subject_marks(subjectmarks): | return subjectmarks",
+      "marks": 10,
+      "explanation": "The provided answer correctly returns the input list of tuples, but it lacks the implementation of sorting using a lambda function, which is essential to fulfill the requirement of the question.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 64
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_15_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def check_literals(text, patterns): | return ('Matched!') | return ('Not Matched!')",
+      "marks": 10,
+      "explanation": "The provided answer correctly identifies the basic structure of a function that uses regex to search for literal strings in a given text, although it lacks the actual implementation details needed to perform the search and return the appropriate match results.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 186
+    }
+  ]
+}

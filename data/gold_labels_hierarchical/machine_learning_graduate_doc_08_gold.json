@@ -1,0 +1,123 @@
+{
+  "document_id": "machine_learning_graduate_doc_08",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is P(B|A) decreases because an increase in P(A) while P(A, B) decreases implies that the conditional probability P(B|A), which is defined as P(A, B)/P(A), must also decrease as it reflects the diminishing joint occurrence of A and B relative to the increasing probability of A alone.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6935
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Industrial-scale neural networks are typically trained on GPUs due to their parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 8 because in a Bayesian network, the number of independent parameters required is calculated based on the number of conditional probability tables needed for each node, which in this case amounts to 8 parameters for the structure H -> U <- P <- W, considering each node's parent configurations and the probabilities associated with them.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6843
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The correct answer is true for both statements because the softmax function transforms logits into probabilities for multiclass classification, and adjusting the temperature in a nonuniform softmax distribution influences the distribution's sharpness, thereby impacting its entropy.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6874
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Pruning a Decision Tree is essential to prevent overfitting, as it reduces the model's complexity by removing branches that have little importance, thus improving its generalization to unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6871
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Random crop and horizontal flip are widely used in image data augmentation because they effectively increase the diversity of training datasets by introducing variations in scale and orientation, which helps improve the robustness and generalization of machine learning models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Overfitting occurs when the hypothesis space is large, allowing the model to capture noise in the training data, rather than when it is small, which restricts the model's flexibility and capacity to fit the data effectively.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because to calculate P(H|E, F) using Bayes' theorem, one also needs P(F|H) and P(F|E), which are not provided by the given probabilities.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6893
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Discriminative approaches directly model the conditional probability p(y|x, w), which emphasizes the relationship between input features x and output labels y while incorporating any relevant parameters w, distinguishing them from generative approaches that model the joint distribution p(x, y).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Word2Vec uses stochastic gradient descent to optimize its parameters during training, rather than initializing them with a Restricted Boltzmann Machine, which is a different model architecture.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6899
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "An increasing training loss with the number of epochs in a machine learning model can\noften be attributed to an excessively large step size in the optimization algorithm. When\nthe step size, or learning rate, is too high, the model's parameters can overshoot the\noptimal values during the weight updates. This can lead to divergence rather than\nconvergence, resulting in fluctuating or increasing loss values. As the model continues to\ntrain, the instability caused by the large step size can prevent it from effectively\nminimizing the loss function, ultimately leading to poor model performance. Therefore,\ncareful tuning of the learning rate is crucial to ensure that the model converges\nappropriately during training.",
+      "marks": 10,
+      "explanation": "correct because an excessively large step size in the optimization process can cause the model's parameters to diverge from optimal values, leading to increasing training loss as the model fails to stabilize during training.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_08_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "In the given Bayesian Network H -> U <- P <- W, the joint probability P(H, U, P, W) can be\nexpressed as P(H) * P(W) * P(P | W) * P(U | H, P). Each variable plays a critical role: H\ninfluences U directly, while P is a common cause for both U and W, establishing a\ndependency structure. The term P(H) represents the prior probability of variable H, while\nP(W) reflects the independent probability of W. The conditional probability P(P | W)\ncaptures how W affects the likelihood of P, and P(U | H, P) illustrates how both H and P\ntogether determine U's probability. This formulation allows for a comprehensive\nunderstanding of the interactions among the variables within the network.",
+      "marks": 10,
+      "explanation": "The answer correctly describes the joint probability in the Bayesian Network by breaking it down into prior and conditional probabilities that reflect the relationships and dependencies among the variables, illustrating how H influences U, P acts as a common cause, and W impacts P.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 6876
+    }
+  ]
+}

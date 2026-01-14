@@ -1,0 +1,290 @@
+{
+  "docid": "physics_undergraduate_doc_16",
+  "document_name": "Physics - Undergraduate Level Assessment 16",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_physics_mcq",
+    "mmlu_physics_tf",
+    "mmlu_pro_physics_mcq",
+    "physics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\undergraduate\\latex_documents\\physics_undergraduate_doc_16.tex",
+    "pdf_file": "output\\physics\\undergraduate\\pdf_documents\\physics_undergraduate_doc_16.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_undergraduate_doc_16_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_undergraduate_doc_16_gold.json",
+    "answer_key_latex_file": "output\\physics\\undergraduate\\answer_keys\\latex\\physics_undergraduate_doc_16_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\undergraduate\\answer_keys\\pdf\\physics_undergraduate_doc_16_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_undergraduate_doc_16_physics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is\napproximately",
+      "options": {
+        "A": "0.1 GeV/c^2",
+        "B": "0.2 GeV/c^2",
+        "C": "0.5 GeV/c^2",
+        "D": "1.0 GeV/c^2"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1.0 GeV/c\u00b2 because, using the relativistic energy-momentum relation E\u00b2 = (pc)\u00b2 + (m\u2080c\u00b2)\u00b2, we can calculate the rest mass m\u2080 from the given total energy and momentum, resulting in approximately 1.0 GeV/c\u00b2.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "14193"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_undergraduate_doc_16_physics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The mean kinetic energy of the conduction electrons in metals is ordinarily much higher\nthan kT because",
+      "options": {
+        "A": "electrons have many more degrees of freedom than atoms do",
+        "B": "the electrons and the lattice are not in thermal equilibrium",
+        "C": "the electrons form a degenerate Fermi gas",
+        "D": "electrons in metals are highly relativistic"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The mean kinetic energy of conduction electrons in metals is higher than kT because they occupy energy states up to the Fermi level in a degenerate Fermi gas, resulting in a significant distribution of high-energy electrons even at low temperatures.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1444"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_undergraduate_doc_16_physics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant\nof 4.0 is",
+      "options": {
+        "A": "1.2 x 10^9 m/s",
+        "B": "3.0 x 10^8 m/s",
+        "C": "1.5 x 10^8 m/s",
+        "D": "1.0 x 10^8 m/s"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The speed of light in a medium is given by the equation c/n, where c is the speed of light in a vacuum (approximately 3 x 10^8 m/s) and n is the refractive index, which for a dielectric material is equal to the square root of its dielectric constant; thus, with a dielectric constant of 4.0, the refractive index is 2.0, resulting in a speed of light of 1.5 x 10^8 m/s (3 x 10^8 m/s divided by 2).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1407"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_undergraduate_doc_16_physics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A refracting telescope consists of two converging lenses separated by 100 cm. The eye-\npiece lens has a focal length of 20 cm. The angular magnification of the telescope is",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "20"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The angular magnification of a refracting telescope is given by the ratio of the focal lengths of the objective lens to the eyepiece lens, and with an objective lens focal length of 80 cm (100 cm - 20 cm for the eyepiece), the calculation yields a magnification of 4 (80 cm / 20 cm).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "15626"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_undergraduate_doc_16_physics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A satellite of mass m orbits a planet of mass M in a circular orbit of radius R. The time\nrequired for one revolution is",
+      "options": {
+        "A": "independent of M",
+        "B": "proportional to m^(1/2)",
+        "C": "linear in R",
+        "D": "proportional to R^(3/2)"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is based on Kepler's third law of planetary motion, which states that the square of the orbital period (T) of a satellite is directly proportional to the cube of the semi-major axis (R) of its orbit, leading to the proportionality T \u221d R^(3/2).",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1470"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_undergraduate_doc_16_physics_tf_1",
+      "question_type": "TF",
+      "stem_text": "During a reversible thermodynamic process, the temperature of the system must remain constant.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because a reversible thermodynamic process can occur at varying temperatures, depending on the specific conditions of the system and the nature of the process, such as isothermal, adiabatic, or isochoric processes.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1428"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_undergraduate_doc_16_physics_tf_2",
+      "question_type": "TF",
+      "stem_text": "An observer moving at 0.50 c will measure the length of a 1.00 m rod to be 0.80 m due to relativistic effects.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because an observer moving at 0.50 c would measure the length of the rod to be contracted according to the length contraction formula, which would yield a contraction factor of approximately 0.866, resulting in a measured length of about 0.866 m, not 0.80 m.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1435"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_undergraduate_doc_16_physics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The Sun's energy is primarily produced by the fusion of two hydrogen atoms into one helium atom, resulting in significant energy release.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the Sun's energy is primarily produced by a series of nuclear fusion reactions in which four hydrogen nuclei (protons) ultimately fuse to form one helium nucleus, rather than just two hydrogen atoms.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1382"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_undergraduate_doc_16_physics_tf_4",
+      "question_type": "TF",
+      "stem_text": "The electric displacement current through a surface is proportional to the rate of change of the magnetic flux through that surface.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the electric displacement current is related to the rate of change of the electric field, not the magnetic flux, as described by Maxwell's equations.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1405"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_undergraduate_doc_16_physics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The detector will detect exactly 10 photons when 100 photons are sent, due to its quantum efficiency of 0.1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the quantum efficiency of 0.1 indicates that, on average, the detector will detect 10% of the photons sent, but the actual number of detected photons can vary due to the probabilistic nature of quantum processes.",
+      "source": {
+        "dataset": "physics_college_physics",
+        "source_id": "1402"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_undergraduate_doc_16_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the implications of the universe's temperature change from 12 K to 3 K on the\nspatial distribution of galaxies, focusing on their relative distances during these\nperiods.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The decrease in the universe's temperature from 12 K to 3 K has significant implications\nfor the spatial distribution of galaxies. As the universe cools, the wavelengths of light\nstretch due to the expansion of space, which affects how we perceive distances. During the\nearlier phase at 12 K, galaxies were approximately one-quarter as distant from each other\ncompared to their current positions. This relative proximity suggests that the\ngravitational interactions between galaxies would have been more pronounced in the earlier\nuniverse, potentially influencing their formation and clustering. Consequently,\nunderstanding this temperature change helps elucidate the evolution of cosmic structures\nover time.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies how the cooling of the universe affects light wavelengths and galaxy distances, indicating that higher temperatures correspond to closer proximity of galaxies due to gravitational interactions, which are essential for understanding their spatial distribution.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1437"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_undergraduate_doc_16_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how the Hall coefficient can be used to determine the sign of charge carriers in a\ndoped semiconductor, including the underlying principles and implications for\nsemiconductor behavior.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The Hall coefficient is a critical parameter in determining the sign of charge carriers in\na doped semiconductor. When a magnetic field is applied perpendicular to the current flow\nin a semiconductor, charge carriers experience a Lorentz force, causing them to accumulate\non one side of the material, resulting in a measurable Hall voltage. The sign of this\nvoltage, relative to the current direction, indicates the type of charge carriers: a\npositive Hall coefficient signifies the dominance of holes (positive charge carriers),\nwhile a negative Hall coefficient indicates the presence of electrons (negative charge\ncarriers). Understanding the sign of the Hall coefficient is essential for characterizing\nsemiconductor materials and influences their electrical properties and performance in\nelectronic devices. Thus, the Hall effect not only provides insights into charge carrier\ntypes but also informs the design and application of semiconductor technologies.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the Hall coefficient reveals the type of charge carriers in a semiconductor by analyzing the direction of the induced Hall voltage, which results from the Lorentz force acting on the charge carriers in the presence of a magnetic field.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "1393"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

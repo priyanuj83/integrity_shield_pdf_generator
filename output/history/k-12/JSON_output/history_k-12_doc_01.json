@@ -1,0 +1,292 @@
+{
+  "docid": "history_k-12_doc_01",
+  "document_name": "History - K-12 Level Assessment 1",
+  "domain": "history",
+  "academic_level": "K-12",
+  "subjects": [
+    "high_school_european_history",
+    "high_school_us_history",
+    "high_school_world_history",
+    "prehistory"
+  ],
+  "combination_used": [
+    "mmlu_history_mcq",
+    "mmlu_history_tf",
+    "history_basic_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\history\\k-12\\latex_documents\\history_k-12_doc_01.tex",
+    "pdf_file": "output\\history\\k-12\\pdf_documents\\history_k-12_doc_01.pdf",
+    "metadata_file": "data/metadata_hierarchical/history_k-12_doc_01_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/history_k-12_doc_01_gold.json",
+    "answer_key_latex_file": "output\\history\\k-12\\answer_keys\\latex\\history_k-12_doc_01_answer_key.tex",
+    "answer_key_pdf_file": "output\\history\\k-12\\answer_keys\\pdf\\history_k-12_doc_01_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "history_k-12_doc_01_history_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "For 99% of human history, people have depended solely on _________ for their subsistence.",
+      "options": {
+        "A": "collecting plants",
+        "B": "fishing",
+        "C": "agriculture",
+        "D": "foraging"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Foraging is the correct answer because it encompasses the primary means of subsistence for early humans, who relied on hunting, gathering, and fishing for sustenance before the advent of agriculture and settled societies.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10295"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "history_k-12_doc_01_history_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The Minoans inhabited the _________ island of Crete.",
+      "options": {
+        "A": "Mediterranean",
+        "B": "Egyptian",
+        "C": "Mesopotamian",
+        "D": "Indonesian"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Minoans inhabited the Mediterranean island of Crete because it was strategically located in the central part of the Mediterranean Sea, which facilitated trade and cultural exchange with other ancient civilizations.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "history_k-12_doc_01_history_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Among Inca royalty, what happened following the death of the king?",
+      "options": {
+        "A": "the king's body was mummified and treated as if it were alive",
+        "B": "hundreds of the elite were sacrificed by ritual decapitation",
+        "C": "the body was entombed with lavish burial goods within an enormous pyramid",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights the Inca practice of mummifying their kings and treating their preserved bodies with great reverence, as they believed the deceased rulers retained power and influence over their subjects even in death.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "15131"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "history_k-12_doc_01_history_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "In periods of great difficulty and stress, it appears that the Minoans __________ in order\nto appease the gods.",
+      "options": {
+        "A": "sacrificed adults and occasionally children",
+        "B": "burnt their own houses to the ground",
+        "C": "fasted for long periods",
+        "D": "abstained from sexual relations"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Minoans engaged in the practice of sacrificing adults and occasionally children as a ritualistic means to appease their gods during times of crisis, reflecting their religious beliefs and cultural practices in ancient society.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10293"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "history_k-12_doc_01_history_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Up to 50,000 years ago, what was the relationship between anatomically modern humans and\nus?",
+      "options": {
+        "A": "They looked and thought like us.",
+        "B": "They looked like us but did not think like us.",
+        "C": "They thought like us but did not look like us.",
+        "D": "They did not look or think like us."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer highlights that while anatomically modern humans shared similar physical characteristics with contemporary humans, they lacked the advanced cognitive abilities and complex thought processes that define modern human behavior and culture.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10215"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "history_k-12_doc_01_history_tf_1",
+      "question_type": "TF",
+      "stem_text": "Many ancient elites believed in displaying their wealth and resources rather than saving them.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Many ancient elites prioritized displaying their wealth and resources as a means of showcasing power and status within their societies, often through grand architectural projects, lavish banquets, and luxurious clothing, rather than hoarding their riches.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10159"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "history_k-12_doc_01_history_tf_2",
+      "question_type": "TF",
+      "stem_text": "After 400,000 years ago, hominid evolution is characterized by a rapid increase in brain size.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "After 400,000 years ago, hominid evolution saw a significant increase in brain size, particularly with the emergence of Homo neanderthalensis and Homo sapiens, which is linked to advancements in tool use, social structures, and cognitive abilities.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10253"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "history_k-12_doc_01_history_tf_3",
+      "question_type": "TF",
+      "stem_text": "Agriculture leads to higher protein consumption, making it necessary for more people to work in farming.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because while agriculture can increase food production, advancements in technology and industrialization have led to fewer people needing to work in farming while still meeting the protein needs of a growing population.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "15138"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "history_k-12_doc_01_history_tf_4",
+      "question_type": "TF",
+      "stem_text": "The climate of Greater Australia 20,000 years ago was exclusively hot and dry without any temperate or frozen areas.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The climate of Greater Australia 20,000 years ago included diverse environments, such as temperate forests and glacial regions, due to variations in geography and climate patterns during that time.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "15139"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "history_k-12_doc_01_history_tf_5",
+      "question_type": "TF",
+      "stem_text": "The construction of canals for irrigation was a key factor in the development of a complex society at Caral in South America.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The construction of canals for irrigation allowed the Caral civilization to effectively manage water resources, which in turn supported agriculture, population growth, and the establishment of a complex social structure.",
+      "source": {
+        "dataset": "history_prehistory",
+        "source_id": "10288"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "history_k-12_doc_01_history_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of Australia's role in early human history, particularly focusing\non the earliest evidence of etching into rock faces and its implications for understanding\nancient cultures.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Australia plays a significant role in early human history, particularly through the\ndiscovery of ancient rock engravings, which are among the oldest forms of artistic\nexpression in the world. These etchings, created by Indigenous Australians, provide\nvaluable insights into the cultural practices, beliefs, and social structures of ancient\nsocieties. By studying these artworks, historians and archaeologists can better understand\nhow early humans interacted with their environment and each other. The implications of\nthis evidence extend beyond art; they reveal a rich tapestry of history that highlights\nthe continuity and resilience of Indigenous cultures over thousands of years. Overall,\nAustralia's rock engravings are crucial for comprehending the complexities of early human\nlife and the development of civilization.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it highlights the significance of Australia's ancient rock engravings as crucial evidence of early artistic expression, offering insights into the cultural practices and social structures of Indigenous Australians, thereby enhancing our understanding of early human interactions with their environment and communities.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "10258"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "history_k-12_doc_01_history_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the impact of the transition from traditional foraging to maize-based agriculture\nin the Southwest around 2000 B.P. on social structures and daily life.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The transition from traditional foraging to maize-based agriculture around 2000 B.P.\nsignificantly impacted social structures and daily life in the Southwest. With the\nadoption of agriculture, communities began to settle in one place, leading to the\ndevelopment of permanent villages. This shift allowed for increased food production, which\nsupported larger populations and led to more complex social hierarchies. As people focused\non farming, daily life became centered around agricultural practices, such as planting,\nharvesting, and managing crops, which influenced family roles and labor division. Overall,\nthis transition marked a pivotal change that shaped the culture and organization of\nsocieties in the region.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the transition to maize-based agriculture as a catalyst for permanent settlement, increased food production, population growth, and the emergence of complex social hierarchies, all of which fundamentally reshaped social structures and daily life in the Southwest.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15134"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

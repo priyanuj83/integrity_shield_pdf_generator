@@ -1,0 +1,289 @@
+{
+  "docid": "machine_learning_graduate_doc_19",
+  "document_name": "Machine Learning - Graduate Level Assessment 19",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\machine_learning\\graduate\\latex_documents\\machine_learning_graduate_doc_19.tex",
+    "pdf_file": "output\\machine_learning\\graduate\\pdf_documents\\machine_learning_graduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/machine_learning_graduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/machine_learning_graduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\machine_learning\\graduate\\answer_keys\\latex\\machine_learning_graduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\machine_learning\\graduate\\answer_keys\\pdf\\machine_learning_graduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "As of 2020, which architecture is best for classifying high-resolution images?",
+      "options": {
+        "A": "convolutional networks",
+        "B": "graph networks",
+        "C": "fully connected networks",
+        "D": "RBF networks"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Convolutional networks are specifically designed to process and classify image data by leveraging spatial hierarchies and local patterns, making them particularly effective for high-resolution image classification tasks.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6839"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "MLE estimates are often undesirable because",
+      "options": {
+        "A": "they are biased",
+        "B": "they have high variance",
+        "C": "they are not consistent estimators",
+        "D": "None of the above"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Maximum Likelihood Estimation (MLE) can produce estimates with high variance, particularly in small sample sizes or complex models, leading to instability and sensitivity to fluctuations in the data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6861"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "K-fold cross-validation is",
+      "options": {
+        "A": "linear in K",
+        "B": "quadratic in K",
+        "C": "cubic in K",
+        "D": "exponential in K"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "K-fold cross-validation is linear in K because the model is trained and validated K times, leading to a computational complexity that scales directly with the number of folds.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6906"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which one of the following is the main reason for pruning a Decision Tree?",
+      "options": {
+        "A": "To save computing time during testing",
+        "B": "To save space for storing the Decision Tree",
+        "C": "To make the training set error smaller",
+        "D": "To avoid overfitting the training set"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The main reason for pruning a Decision Tree is to avoid overfitting the training set, as pruning reduces the model's complexity by removing branches that capture noise rather than the underlying data distribution, leading to better generalization on unseen data.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6871"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT supervised learning?",
+      "options": {
+        "A": "PCA",
+        "B": "Decision Tree",
+        "C": "Linear Regression",
+        "D": "Naive Bayesian"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "PCA, or Principal Component Analysis, is an unsupervised learning technique used for dimensionality reduction, as it does not rely on labeled output data to learn patterns, unlike supervised learning methods.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6930"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_1",
+      "question_type": "TF",
+      "stem_text": "A larger number of test examples is needed to achieve statistically significant results when the error rate is smaller.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A smaller error rate indicates that the model's performance is closer to optimal, which requires a larger sample size to confidently detect statistically significant differences from chance due to the increased variability in the results.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14785"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_2",
+      "question_type": "TF",
+      "stem_text": "Transforming the data to zero median is sufficient to obtain the same projection as Singular Value Decomposition (SVD) in PCA.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Transforming the data to have a zero median does not account for the variance in the data, which is essential for obtaining the correct principal components in PCA, as PCA relies on the covariance structure of the data rather than just its central tendency.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6918"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_3",
+      "question_type": "TF",
+      "stem_text": "ImageNet contains images of various resolutions, making it a diverse dataset for training deep learning models.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "ImageNet's extensive collection of images includes a wide range of resolutions, which enhances the diversity of the dataset and allows deep learning models to generalize better across different visual inputs.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6925"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_4",
+      "question_type": "TF",
+      "stem_text": "The dimensionality of the null space of the matrix A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]] is 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The null space of the matrix A, which consists of linear combinations of its rows that yield the zero vector, has a dimension of 2 because the rank of A is 1 (it has only one linearly independent row), and thus the nullity, calculated as the number of columns minus the rank, is 3 - 1 = 2.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "14784"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_tf_5",
+      "question_type": "TF",
+      "stem_text": "Both Bayesians and frequentists agree on the necessity of using prior distributions in probabilistic regression models.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bayesians advocate for the use of prior distributions in probabilistic regression models to incorporate prior knowledge, while frequentists typically reject the notion of prior distributions, relying instead on the data alone to make inferences.",
+      "source": {
+        "dataset": "machine_learning_machine_learning",
+        "source_id": "6923"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to select the nth items of a list.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def nth_items(list,n): | return list[::n]",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided function correctly utilizes Python's slicing feature to return every nth item from the list by specifying a step value of n in the slice notation, effectively achieving the desired selection of items.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "536"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "machine_learning_graduate_doc_19_machine_learning_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find numbers within a given range where every number is divisible by\nevery digit it contains.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def divisible_by_digits(startnum, endnum): | return [n for n in range(startnum, endnum+1) \\",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly utilizes a list comprehension to iterate through the specified range, checking each number for divisibility by all of its digits, thereby effectively identifying numbers that meet the given criteria.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "745"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

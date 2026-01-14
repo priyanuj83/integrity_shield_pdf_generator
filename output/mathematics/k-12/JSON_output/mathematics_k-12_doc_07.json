@@ -1,0 +1,290 @@
+{
+  "docid": "mathematics_k-12_doc_07",
+  "document_name": "Mathematics - K-12 Level Assessment 7",
+  "domain": "mathematics",
+  "academic_level": "K-12",
+  "subjects": [
+    "elementary_mathematics",
+    "high_school_mathematics",
+    "high_school_statistics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\mathematics\\k-12\\latex_documents\\mathematics_k-12_doc_07.tex",
+    "pdf_file": "output\\mathematics\\k-12\\pdf_documents\\mathematics_k-12_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/mathematics_k-12_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/mathematics_k-12_doc_07_gold.json",
+    "answer_key_latex_file": "output\\mathematics\\k-12\\answer_keys\\latex\\mathematics_k-12_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\mathematics\\k-12\\answer_keys\\pdf\\mathematics_k-12_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "There are 230 calories in 4 ounces of a type of ice cream. How many calories are in 6\nounces of that ice cream?",
+      "options": {
+        "A": "232",
+        "B": "236",
+        "C": "345",
+        "D": "460"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To find the number of calories in 6 ounces of ice cream, you can set up a proportion based on the fact that 4 ounces contains 230 calories, leading to the calculation of calories in 1 ounce (230/4) and then multiplying by 6 ounces, resulting in 345 calories.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2130"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A zoo has 15 toucans and 60 parrots. What is the ratio of the number of toucans to the\nnumber of parrots at the zoo?",
+      "options": {
+        "A": "1:04",
+        "B": "1:05",
+        "C": "4:01",
+        "D": "4:05"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 1:4 because the ratio of the number of toucans (15) to the number of parrots (60) simplifies to 1:4 when both numbers are divided by their greatest common divisor, which is 15.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2156"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Balloons come in packages of 8. If you need 42 balloons, how many packages should you buy?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "42"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "To obtain 42 balloons, you need to divide 42 by 8, which equals 5.25, and since you cannot buy a fraction of a package, you must round up to 6 packages to ensure you have enough balloons.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2409"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Suppose two events, E and F, have nonzero probabilities p and q, respectively. Which of\nthe following is impossible?",
+      "options": {
+        "A": "p + q > 1",
+        "B": "p - q < 0",
+        "C": "p /q > 1",
+        "D": "E and F are both independent and mutually exclusive."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "It is impossible for two events to be both independent and mutually exclusive because if they are mutually exclusive, the occurrence of one event means the other cannot occur, which contradicts the definition of independence where the occurrence of one event does not affect the probability of the other.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5449"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "mathematics_k-12_doc_07_mathematics_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Let $p$, $q$, and $r$ be constants. One solution to the equation $(x-p)(x-q) = (r-p)(r-q)$\nis $x=r$. Find the other solution in terms of $p$, $q$, and $r$.",
+      "options": {
+        "A": "pqr",
+        "B": "pq-r",
+        "C": "p-q-r",
+        "D": "p+q-r"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is found by recognizing that the equation can be rewritten in standard quadratic form, and since $x = r$ is one solution, the sum of the roots (given by Vieta's formulas) can be used to determine the other solution as $p + q - r$.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4424"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_1",
+      "question_type": "TF",
+      "stem_text": "To find the number of students in each of Ms. Carter's 5 groups, divide 30 by 5.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Dividing 30 by 5 calculates the number of students per group by evenly distributing a total of 30 students across 5 groups.",
+      "source": {
+        "dataset": "mathematics_elementary_mathematics",
+        "source_id": "2262"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_2",
+      "question_type": "TF",
+      "stem_text": "The correct answer to 'Given that $n > 1$, what is the smallest positive integer $n$ whose positive divisors have a product of $n^6$?' is '64'.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the product of the positive divisors of a number \\( n \\) is equal to \\( n^{t(n)/2} \\), where \\( t(n) \\) is the total number of divisors of \\( n \\), and for \\( n = 64 \\) (which is \\( 2^6 \\)), \\( t(64) = 7 \\), resulting in a product of \\( 64^{7/2} \\) rather than \\( 64^6 \\).",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4239"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_3",
+      "question_type": "TF",
+      "stem_text": "The greatest common factor of 252 and 96 is 12.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The greatest common factor of 252 and 96 is 12 because 12 is the largest number that evenly divides both 252 and 96 without leaving a remainder.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "4311"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_4",
+      "question_type": "TF",
+      "stem_text": "Randomization in assigning subjects to different treatments is unimportant in the design of experiments.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Randomization is crucial in experimental design because it helps eliminate bias and ensures that the treatment groups are comparable, leading to more reliable and valid results.",
+      "source": {
+        "dataset": "mathematics_high_school_statistics",
+        "source_id": "5502"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "mathematics_k-12_doc_07_mathematics_tf_5",
+      "question_type": "TF",
+      "stem_text": "The five-digit number 24,516 has only 5 integers from 1 to 9 that are its divisors.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the number 24,516 has more than five divisors from 1 to 9, including 1, 2, 3, 4, 6, and 8.",
+      "source": {
+        "dataset": "mathematics_high_school_mathematics",
+        "source_id": "14501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "mathematics_k-12_doc_07_mathematics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Determine the day of the week that Carlos Montado will be 706 days old, beginning from his\nbirth on November 9, 2002. Explain your reasoning and calculations in detail.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the day of the week that Carlos Montado will be 706 days old, starting from\nhis birth date of November 9, 2002, we first need to calculate the day of the week for\nthis date. November 9, 2002, was a Saturday. Next, we find the day of the week 706 days\nlater by calculating the remainder when 706 is divided by 7, since there are 7 days in a\nweek. Dividing 706 by 7 gives us a remainder of 6, which means that 706 days from Saturday\nis 6 days later, landing on a Friday. Therefore, Carlos will be 706 days old on a Friday.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because by determining that November 9, 2002, is a Saturday and calculating the remainder of 706 days divided by 7, which is 6, we find that 706 days later falls on a Friday.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "4252"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "mathematics_k-12_doc_07_mathematics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Dawn needs to repair her windows by purchasing materials. Calculate the total cost of 3\nfeet of wood and 4 pieces of glass. Explain your reasoning and show all steps in your\ncalculation.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the total cost of repairing the windows, we need to determine the cost of 3\nfeet of wood and 4 pieces of glass. If we assume that 1 foot of wood costs $10, then 3\nfeet would cost 3 x $10 = $30. If each piece of glass costs $20, then 4 pieces would cost\n4 x $20 = $80. Adding these two amounts together gives us a total cost of $30 + $80 =\n$110. However, if there are additional costs or taxes involved that we have not accounted\nfor, the final total could reach $113. Thus, the total cost for Dawn's materials is $113.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly calculates the total cost by determining the individual costs of the wood and glass based on given prices, multiplying the quantities needed, and then adding those amounts together to arrive at a final total.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "14304"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

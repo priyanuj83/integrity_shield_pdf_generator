@@ -1,0 +1,294 @@
+{
+  "docid": "health_sciences_undergraduate_doc_13",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 13",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_health_mcq",
+    "mmlu_health_tf",
+    "mmlu_pro_health_mcq",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_13.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_13.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_13_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_13_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_13_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_13_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Menstruation is triggered by...",
+      "options": {
+        "A": "...a sharp increase in estrogen levels",
+        "B": "...a sharp increase in progesterone levels",
+        "C": "...a sharp decrease in estrogen and progesterone levels",
+        "D": "...a sharp increase in estrogen and progesterone levels"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sharp decrease in estrogen and progesterone levels at the end of the menstrual cycle leads to the shedding of the uterine lining, which triggers menstruation.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6424"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In men, specimens for gonococcal cultures are most commonly obtained from which of the\nfollowing structures?",
+      "options": {
+        "A": "Anus",
+        "B": "Bladder",
+        "C": "Urethra",
+        "D": "Testicle"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The urethra is the primary site for gonococcal infections in men, making it the most common structure from which specimens for gonococcal cultures are obtained.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "233"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following foramina pierce the sphenoid bone?",
+      "options": {
+        "A": "The foramen ovale",
+        "B": "The foramen ovale and rotundum",
+        "C": "The foramen ovale, rotundum and spinosum",
+        "D": "The foramen ovale, rotundum and spinosum and foramen lacerum"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The foramen ovale, rotundum, and spinosum are all anatomical openings located within the sphenoid bone, allowing for the passage of important nerves and vessels, which confirms their classification as foramina that pierce this specific bone.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "211"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following restrictions existed in at least one culture? No sex",
+      "options": {
+        "A": "for a period of time following childbirth",
+        "B": "during menstruation",
+        "C": "between parents and children",
+        "D": "all of the above"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer \"all of the above\" is accurate because various cultures have imposed restrictions on sexual activity for reasons related to health, morality, and social order, indicating that no single restriction can be isolated as unique to one culture.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6344"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Mutations which occur in body cells which do not go on to form gametes can be classified\nas:",
+      "options": {
+        "A": "auxotrophic mutations",
+        "B": "somatic mutations",
+        "C": "morphological mutations",
+        "D": "oncogenes"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Somatic mutations are changes in the DNA that occur in non-germline cells, meaning they do not affect the gametes and therefore are not inherited, which aligns with the definition provided in the question.",
+      "source": {
+        "dataset": "health_sciences_medical_genetics",
+        "source_id": "14832"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Older workers generally find a new job quicker due to their extensive experience in the workforce.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Older workers often face age-related biases and discrimination in the job market, which can hinder their ability to find new employment quickly despite their extensive experience.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6188"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "The best location to auscultate general heart sounds is the fifth left intercostal space in the midclavicular line.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The fifth left intercostal space in the midclavicular line is the anatomical location where the apex of the heart is positioned, making it the optimal site for auscultating general heart sounds.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "14059"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "Simon LeVay found differences in the cell structure of the hypothalamus between heterosexuals and homosexuals.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Simon LeVay conducted research that revealed structural differences in the hypothalamus, specifically in the size of certain cell groups, between heterosexual and homosexual individuals, indicating a potential biological basis for sexual orientation.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6327"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Younger workers always learn faster than older workers, regardless of the training method used.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because learning speed is influenced by various factors, including individual differences in cognitive abilities, prior experience, motivation, and the specific training method employed, rather than solely by age.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6165"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "The medial pterygoid muscle plays a crucial role in initiating the elevation of the mandible during mastication.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The medial pterygoid muscle is a primary muscle of mastication that assists in elevating the mandible by contracting to lift the jaw during the chewing process.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "159"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of FGFR 3 mutations in various genetic conditions, specifically analyzing\nwhy Waardenburg syndrome is not associated with these mutations.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "FGFR 3 mutations are implicated in several genetic conditions, most notably achondroplasia\nand other forms of skeletal dysplasia, due to their role in regulating bone growth and\ndevelopment. However, Waardenburg syndrome, a genetic condition characterized by hearing\nloss and pigmentation anomalies, is not associated with FGFR 3 mutations. Instead,\nWaardenburg syndrome is primarily linked to mutations in other genes, such as PAX 3, MITF,\nand SOX 10, which are involved in neural crest cell development and pigmentation\nprocesses. This distinction highlights the specificity of genetic mutations to particular\nphenotypic expressions and underscores the importance of understanding the underlying\ngenetic mechanisms when diagnosing and treating genetic disorders.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because FGFR3 mutations are specifically linked to bone growth disorders like achondroplasia, while Waardenburg syndrome is caused by mutations in genes related to neural crest cell development, illustrating the distinct genetic mechanisms underlying these conditions.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "7383"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_13_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the prevalence and implications of painful menstruation as a common menstrual\nissue, analyzing its causes, effects on individuals, and potential management strategies.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Painful menstruation, or dysmenorrhea, is a common menstrual issue that affects a\nsignificant proportion of individuals during their reproductive years. The causes of\ndysmenorrhea can be attributed to various factors, including excessive prostaglandin\nproduction, uterine abnormalities, or underlying health conditions such as endometriosis.\nThe implications of painful menstruation extend beyond physical discomfort; it can lead to\ndecreased quality of life, absenteeism from work or school, and emotional distress.\nEffective management strategies include the use of nonsteroidal anti-inflammatory drugs\n(NSAIDs), hormonal contraceptives, and lifestyle modifications such as regular exercise\nand stress management. Understanding the prevalence and implications of dysmenorrhea is\ncrucial for developing appropriate treatment plans and improving the overall well-being of\naffected individuals.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately identifies dysmenorrhea as a prevalent issue with multifactorial causes and discusses its significant physical, emotional, and social implications, as well as the need for effective management strategies.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "6399"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

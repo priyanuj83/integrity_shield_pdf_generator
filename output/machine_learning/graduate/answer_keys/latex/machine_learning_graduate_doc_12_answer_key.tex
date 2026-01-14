@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 12 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) 2; B) 4; C) 8; D) 16
+\\ \textit{Note:} The correct answer is 8 because the Bayesian network has three nodes (H, U, P, W) with specific conditional independence relationships that require parameters based on the number of parent nodes, resulting in a total of 8 independent parameters to fully specify the joint distribution.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Supervised learning; B) Unsupervised learning; C) Clustering; D) None of the above
+\\ \textit{Note:} Predicting the amount of rainfall based on various cues is a supervised learning problem because it involves using labeled training data to learn a mapping from input features (cues) to output values (rainfall amounts).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) The polynomial degree; B) Whether we learn the weights by matrix inversion or gradient descent; C) The assumed variance of the Gaussian noise; D) The use of a constant-term unit input
+\\ \textit{Note:} The polynomial degree directly influences the model's complexity, where a lower degree may lead to underfitting by oversimplifying the data, while a higher degree can result in overfitting by capturing noise, thus critically affecting the trade-off between these two extremes.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Lower variance; B) Higher variance; C) Same variance; D) None of the above
+\\ \textit{Note:} As the number of training examples increases, the model gains more information about the underlying data distribution, which reduces its sensitivity to noise in the training data and subsequently lowers its variance.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) The use of sampling with replacement as the sampling technique; B) The use of weak classifiers; C) The use of classification algorithms which are not prone to overfitting; D) The practice of validation performed on every classifier trained
+\\ \textit{Note:} The use of weak classifiers in bagging helps prevent overfitting by averaging their predictions, which reduces the model's variance and enhances generalization to unseen data.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Grid search evaluates all possible combinations of hyperparameters, leading to a significant increase in computation time, especially in complex models like multiple linear regression.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Principal Component Analysis (PCA) is classified as an unsupervised learning technique because it analyzes data without requiring labeled responses, and it effectively reduces the dimensionality of data by transforming it into a set of orthogonal components that capture the most variance.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} As of 2020, advancements in deep learning techniques, particularly convolutional neural networks, have enabled several models to surpass 98\% accuracy on the CIFAR-10 dataset, demonstrating significant progress in image classification tasks.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is false because best-subset selection evaluates all possible combinations of predictors to find the optimal model, while forward stepwise selection only adds predictors one at a time based on their contribution, which may lead to different final models.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Residual connections are essential in both ResNets and Transformers as they help mitigate the vanishing gradient problem, allowing for more effective training of deep neural networks by enabling gradients to flow through the network more easily.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} To transition from finding maximum likelihood estimates (MLE) to maximum a posteriori estimates (MAP) in the EM algorithm, the maximization step must be modified to incorporate prior information about the parameters. Specifically, instead of maximizing the likelihood function alone, one must maximize the posterior distribution, which is proportional to the product of the likelihood and the prior distribution. This adjustment involves adding a term representing the logarithm of the prior distribution during the maximization step, effectively transforming the objective function from maximizing \( P(X | \theta) \) to maximizing \( P(\theta | X) \), where \( P(\theta) \) denotes the prior. This integration of the prior allows the algorithm to incorporate prior knowledge, leading to more robust parameter estimates, especially in cases of limited data. Thus, the maximization step becomes an optimization of the complete log-posterior, ensuring that both the observed data and prior beliefs are accounted for in the estimation process.
+\\ \textit{Note:} correct because transitioning from MLE to MAP in the EM algorithm requires modifying the maximization step to include the prior distribution, effectively maximizing the posterior distribution, which combines both the likelihood and the prior information.
+\item \textbf{Answer:} Regularization in linear regression, particularly through L$_{1}$ (Lasso) and L$_{2}$ (Ridge) penalties, serves to mitigate overfitting by constraining the complexity of the model. L$_{1}$ regularization is especially noteworthy as it can lead to zeroed-out coefficients, effectively performing feature selection by excluding less important variables from the model. This not only simplifies the model but can also enhance interpretability and generalization to new data, as it reduces the risk of capturing noise. Conversely, L$_{2}$ regularization tends to shrink coefficients towards zero but does not eliminate them, which can be beneficial in situations where all predictors have some relevance. Ultimately, the choice of regularization method impacts model performance by balancing bias and variance, ensuring a more robust predictive capability in high-dimensional settings.
+\\ \textit{Note:} The answer correctly highlights that regularization reduces model complexity and mitigates overfitting, with L$_{1}$ regularization uniquely capable of zeroing out coefficients to perform feature selection, thereby improving model interpretability and generalization.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

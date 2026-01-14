@@ -1,0 +1,290 @@
+{
+  "docid": "chemistry_undergraduate_doc_20",
+  "document_name": "Chemistry - Undergraduate Level Assessment 20",
+  "domain": "chemistry",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_chemistry"
+  ],
+  "combination_used": [
+    "mmlu_chemistry_mcq",
+    "mmlu_chemistry_tf",
+    "mmlu_pro_chemistry_mcq",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\undergraduate\\latex_documents\\chemistry_undergraduate_doc_20.tex",
+    "pdf_file": "output\\chemistry\\undergraduate\\pdf_documents\\chemistry_undergraduate_doc_20.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_undergraduate_doc_20_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_undergraduate_doc_20_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\undergraduate\\answer_keys\\latex\\chemistry_undergraduate_doc_20_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\undergraduate\\answer_keys\\pdf\\chemistry_undergraduate_doc_20_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following compounds has a 1 H resonance approximately 1.55 kHz away from TMS\non a spectrometer with a 12.0 T magnet?",
+      "options": {
+        "A": "CH 3 F",
+        "B": "CH 3 Cl",
+        "C": "CH 3 Br",
+        "D": "CH 3 I"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "CH3Cl has a chemical shift due to the electronegativity of chlorine, which causes the hydrogen atoms in the methyl group to resonate at a frequency that is approximately 1.55 kHz downfield from TMS in a 12.0 T magnetic field.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "956"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the Q-factor for an X-band EPR cavity with a resonator bandwidth of 1.58 MHz.",
+      "options": {
+        "A": "Q = 1012",
+        "B": "Q = 2012",
+        "C": "Q = 3012",
+        "D": "Q = 6012"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Q-factor is calculated using the formula Q = f\u2080 / \u0394f, where f\u2080 is the resonant frequency and \u0394f is the bandwidth; for an X-band EPR cavity, this results in a Q-factor of 6012 when the resonator bandwidth is 1.58 MHz.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "940"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is required for both paramagnetism and ferromagnetism?",
+      "options": {
+        "A": "Strong oxidizing conditions",
+        "B": "Low-spin electron configuration",
+        "C": "Metallic physical properties",
+        "D": "Unpaired electrons"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Unpaired electrons are crucial for both paramagnetism and ferromagnetism because they create a net magnetic moment that allows materials to respond to external magnetic fields, with unpaired electrons aligning in the same direction to produce stronger magnetic properties in ferromagnetic materials.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "903"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which nuclide has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field?",
+      "options": {
+        "A": "17 O",
+        "B": "19 F",
+        "C": "29 Si",
+        "D": "31 P"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 17 O because its nuclear magnetic resonance frequency of 115.5 MHz at a 20.0 T magnetic field is consistent with its gyromagnetic ratio, which determines the frequency of resonance for a given magnetic field strength.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "921"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Cobalt-60 is used in the radiation therapy of cancer and can be produced by bombardment of\ncobalt-59 with which of the following?",
+      "options": {
+        "A": "Neutrons",
+        "B": "Alpha particles",
+        "C": "Beta particles",
+        "D": "X-rays"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Cobalt-60 is produced when cobalt-59 absorbs a neutron, resulting in a nuclear reaction that transforms it into cobalt-60 through the addition of one neutron to its nucleus.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "902"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_tf_1",
+      "question_type": "TF",
+      "stem_text": "T 1, unlike T 2, is sensitive to molecular motions at the Larmor frequency.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "T1 relaxation is not sensitive to molecular motions at the Larmor frequency; instead, it is primarily influenced by interactions between spins and their surrounding environment, while T2 relaxation is more directly related to molecular motions.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "905"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_tf_2",
+      "question_type": "TF",
+      "stem_text": "The total entropy of the system plus surroundings increases during a spontaneous process.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This statement is true because, according to the second law of thermodynamics, the total entropy of an isolated system always increases during spontaneous processes, reflecting the natural tendency for systems to progress toward thermodynamic equilibrium.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "987"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_tf_3",
+      "question_type": "TF",
+      "stem_text": "Planck's quantum theory explains the emission spectra of diatomic molecules in terms of continuous energy distribution.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Planck's quantum theory actually describes the emission spectra of diatomic molecules as consisting of discrete energy levels rather than a continuous energy distribution.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "944"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_tf_4",
+      "question_type": "TF",
+      "stem_text": "The hydrogen atom in CHCl 3 does not undergo rapid intermolecular exchange, resulting in multiple peaks in its 1 H NMR spectrum.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The hydrogen atom in CHCl3 undergoes rapid intermolecular exchange due to hydrogen bonding and dynamic molecular interactions, leading to a single peak in its 1H NMR spectrum rather than multiple peaks.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "917"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_tf_5",
+      "question_type": "TF",
+      "stem_text": "The limiting high-temperature molar heat capacity at constant volume (C_V) of a gas-phase diatomic molecule is 2.5 R.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The limiting high-temperature molar heat capacity at constant volume (C_V) of a gas-phase diatomic molecule is actually 5/2 R at low temperatures due to translational and rotational degrees of freedom, and approaches 7/2 R at high temperatures when vibrational modes are also considered.",
+      "source": {
+        "dataset": "chemistry_college_chemistry",
+        "source_id": "965"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the factors influencing the thermal stability of hydrides in group-14 elements and\nanalyze their stability order, providing a detailed explanation of each compound's\ncharacteristics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The thermal stability of hydrides in group-14 elements is influenced by factors such as\natomic size, bond strength, and the presence of lone pairs on the central atom. As we move\nfrom carbon (CH 4) to lead (PbH 4), the stability decreases, following the order PbH 4 <\nSnH 4 < GeH 4 < SiH 4 < CH 4. This trend can be attributed to the increasing size and\ndecreasing electronegativity of the central atom, which weakens the M-H bond. For\ninstance, CH 4 is highly stable due to the strong covalent bonds formed between carbon and\nhydrogen, while PbH 4 is less stable because the larger lead atom forms weaker bonds,\nmaking it more prone to decomposition. Additionally, the presence of lone pairs on the\ncentral atom can exacerbate instability in heavier hydrides.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the thermal stability of group-14 hydrides decreases from CH4 to PbH4 due to increasing atomic size and decreasing bond strength, which weaken the M-H bonds, and provides a clear stability trend supported by the characteristics of each compound.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "15607"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_undergraduate_doc_20_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of electromagnetic radiation absorption by proteins at a\nwavelength of 190 nm, particularly focusing on its implications in the ultraviolet region\nof the spectrum.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The absorption of electromagnetic radiation by proteins at a wavelength of 190 nm is\nsignificant as it falls within the ultraviolet (UV) region of the spectrum, where many\nbiological molecules, including proteins, exhibit characteristic absorption properties.\nThis wavelength is particularly relevant because it corresponds to the absorption of\npeptide bonds and certain side chains of amino acids, which can be crucial for\nunderstanding protein structure and function. The ability to absorb UV light at this\nwavelength allows for the quantification of protein concentration through techniques such\nas UV-Vis spectroscopy. Moreover, this absorption can indicate the presence of protein\ndenaturation or alterations in conformation, making it a valuable tool in biochemical\nstudies. Overall, understanding the absorption at 190 nm enhances our knowledge of protein\nbehavior and interactions in various biological contexts.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it identifies the specific wavelength of 190 nm as significant for protein absorption in the UV spectrum, linking this to the absorption characteristics of peptide bonds and amino acid side chains, which are essential for analyzing protein structure and function.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "970"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

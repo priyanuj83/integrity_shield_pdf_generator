@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Undergraduate Level Assessment 4 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} RoBERTa indeed pretrains on a corpus approximately 10 times larger than that of BERT, making Statement 1 true, while Statement 2 is false because ResNeXt models typically use ReLU activation functions rather than tanh.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Predicting the amount of rainfall based on various cues; B) Detecting fraudulent credit card transactions; C) Training a robot to solve a maze; D) All of the above
+\\ \textit{Note:} Clustering is effective for detecting fraudulent credit card transactions because it can identify unusual patterns or groupings in transaction data that deviate from typical customer behavior, allowing for the detection of anomalies that may indicate fraud.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} Both statements are true because Word 2 Vec uses neural networks with standard initialization methods rather than Restricted Boltzmann Machines, and the tanh function is indeed a commonly used nonlinear activation function in neural networks.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) True, True; B) False, False; C) True, False; D) False, True
+\\ \textit{Note:} The BLEU metric indeed focuses on precision in evaluating machine translation by comparing n-grams between the generated and reference texts, while the ROGUE metric emphasizes recall by assessing the overlap of n-grams, and Hidden Markov Models have historically been employed to represent and analyze the structure of English sentences.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) It can not be applied to non-differentiable functions.; B) It can not be applied to non-continuous functions.; C) It is hard to implement.; D) It runs reasonably slow for multiple linear regression.
+\\ \textit{Note:} The correct answer highlights that Grid search evaluates every combination of hyperparameters systematically, leading to slower performance, especially in complex models like multiple linear regression that may have numerous parameters to tune.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The computational complexity of Gradient Descent is polynomial in the number of features, D, because each iteration of the algorithm requires computing the gradient with respect to all D features, leading to a complexity of O(D) per iteration, and the number of iterations is typically bounded, resulting in a total complexity that is polynomial in D.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Applying an L$_{1}$ norm regularization penalty, also known as Lasso regression, encourages sparsity in the model by adding a constraint that can shrink some coefficients to exactly zero, effectively performing variable selection.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Residual connections help mitigate the vanishing gradient problem and enable more effective information flow in deep networks, which enhances learning efficiency and overall model performance in both ResNets and Transformers.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The model obtained through forward stagewise selection may differ from the final model because forward selection increments features one at a time based on their individual contribution, while the final model may involve a combination of features chosen based on their collective interaction and performance.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Transforming the data to have a zero mean is essential in PCA because it ensures that the principal components accurately represent the directions of maximum variance, which aligns with the singular value decomposition (SVD) process that also centers the data.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def rombus\_area(p,q): | return area
+\\ \textit{Note:} The answer correctly identifies the function's purpose by using parameters for the lengths of the diagonals (p and q) to calculate the area of a rhombus, which is given by the formula area = (p * q) / 2.
+\item \textbf{Answer:} def list\_to\_float(test\_list): | return (str(res))
+\\ \textit{Note:} The provided answer is incorrect because it does not define a function that converts elements in the list to floats; instead, it returns a string representation of a variable 'res' without any logic for conversion.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

@@ -1,0 +1,293 @@
+{
+  "docid": "chemistry_graduate_doc_14",
+  "document_name": "Chemistry - Graduate Level Assessment 14",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_14.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_14.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_14_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_14_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_14_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_14_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "An automobile travelling at 10 miles per hour produces 0.33 1 b of CO gas per mile. How\nmany moles of CO are produced per mile?",
+      "options": {
+        "A": "5.4 moles per mile",
+        "B": "9.0 moles per mile",
+        "C": "2.5 moles per mile",
+        "D": "7.3 moles per mile",
+        "E": "3.8 moles per mile"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 5.4 moles per mile because the mass of 0.33 lb of CO can be converted to moles using the molar mass of CO (28.01 g/mol), resulting in approximately 5.4 moles of CO produced per mile.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3756"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "What weight of sulfur must combine with aluminum to form 600 lbs of aluminum sulfide?",
+      "options": {
+        "A": "350 lbs. sulfur",
+        "B": "320 lbs. sulfur",
+        "C": "425 lbs. sulfur",
+        "D": "400 lbs. sulfur",
+        "E": "300 lbs. sulfur"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 350 lbs. of sulfur because the stoichiometric ratio of aluminum to sulfur in aluminum sulfide (Al2S3) requires three moles of sulfur (96.06 g/mol) for every two moles of aluminum (26.98 g/mol), which translates to a mass ratio where 600 lbs of Al2S3 necessitates 350 lbs of sulfur to achieve the desired product.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4124"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Sirius, one of the hottest known stars, has approximately a blackbody spectrum with\n$\\lambda_{\\max }=260 \\mathrm{~nm}$. Estimate the surface temperature of Sirius.",
+      "options": {
+        "A": "8500 $\\mathrm{~K}$",
+        "B": "15000 $\\mathrm{~K}$",
+        "C": "9500 $\\mathrm{~K}$",
+        "D": "11000 $\\mathrm{~K}$"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 11000 K because using Wien's displacement law, which states that the peak wavelength of a blackbody spectrum is inversely proportional to its temperature, we can calculate the temperature of Sirius by rearranging the formula \\( T = \\frac{b}{\\lambda_{\\max}} \\) where \\( b \\) is Wien's displacement constant and \\( \\lambda_{\\max} \\) is given as 260 nm.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4095"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "SO_2 CI_2 \\rightarrow SO_2 + CI_2 is 8.0 minutes. In what period of time would the con-\ncentration of SO_2 CI_2 be reduced to 1.0% of the original?",
+      "options": {
+        "A": "43 minutes",
+        "B": "103 minutes",
+        "C": "93 minutes",
+        "D": "113 minutes",
+        "E": "23 minutes"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 43 minutes because the reaction follows first-order kinetics, where the time required for a substance's concentration to decrease to a certain percentage can be calculated using the half-life, leading to the conclusion that it takes approximately 43 minutes to reduce the concentration of SO_2Cl_2 to 1.0% of its original amount.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3665"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "A gas of molecular weight 58 was found to contain 82.8% C and 17.2% H. What is the\nmolecular formula of this com-pound?",
+      "options": {
+        "A": "C_3 H_6",
+        "B": "C_5 H_10",
+        "C": "C_4 H_8",
+        "D": "C_4 H_9",
+        "E": "C_3 H_8"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The molecular formula C3H6 corresponds to a compound with a molecular weight of 58 g/mol, which matches the given percentage composition of 82.8% carbon and 17.2% hydrogen when calculated based on the molar mass of each element.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The final concentration of the mixed solution is 0.35 M H_2 SO_4 after combining 50 ml of 0.5 M and 75 ml of 0.25 M H_2 SO_4.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The final concentration of the mixed solution is 0.35 M H\u2082SO\u2084 because the total moles of H\u2082SO\u2084 from both solutions combined (25 mmol from the first solution and 18.75 mmol from the second solution) divided by the total volume (125 ml) results in a concentration of 0.35 M.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4486"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "A full CI calculation of CH 2 SiHF using a 6-31 G** basis set results in 4.67\\times 10^28 configuration state functions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the number of configuration state functions generated in a full configuration interaction calculation with a 6-31 G** basis set for CH2SiHF is significantly lower than 4.67\u00d710^28 due to the limitations in the number of active electrons and orbitals considered in the calculation.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4613"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "It is necessary to use 72 g of NH_3 to fully react with 80 g of O_2 based on the balanced chemical equation.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the stoichiometric ratio between NH3 and O2 in the balanced chemical equation does not require 72 g of NH3 to fully react with 80 g of O2, indicating that the quantities of reactants must be calculated based on their molar ratios.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4630"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The uncertainty of the momentum of an electron with a position known within a 10 pm interval is approximately 4.2 x 10^-23 kg\u00b7m\u00b7s^-1.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because, according to the Heisenberg Uncertainty Principle, the uncertainty in momentum is inversely related to the uncertainty in position, and a position uncertainty of 10 pm leads to a calculated momentum uncertainty of approximately 4.2 x 10^-23 kg\u00b7m\u00b7s^-1 for an electron.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4097"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_14_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "During the boiling of liquid NH 3, the hydrogen bonds between separate NH 3 molecules break apart.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "During boiling, the thermal energy supplied to liquid NH3 is sufficient to overcome the hydrogen bonds between NH3 molecules, causing them to break and allowing the molecules to enter the gas phase.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3716"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_14_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the relationship between kinetic energy and wavelength for a photon and an\nelectron, each possessing 1 eV of kinetic energy. Calculate and compare their wavelengths,\nexplaining the implications of your findings.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The relationship between kinetic energy and wavelength is articulated through the de\nBroglie wavelength formula, which describes the wave-particle duality of matter. For a\nphoton with 1 eV of kinetic energy, its wavelength can be calculated using the equation \u03bb\n= hc/E, resulting in a wavelength of approximately 1300 nm. In contrast, for an electron\npossessing the same kinetic energy, the de Broglie wavelength is given by \u03bb = h/p, where p\nis momentum; this yields a wavelength of approximately 1.300 nm. The significant\ndifference in wavelengths-1300 nm for the photon versus 1.300 nm for the electron-\nhighlights the contrasting wave behaviors of massless and massive particles, indicating\nthat photons exhibit longer wavelengths due to their lack of mass, while electrons,\npossessing mass, exhibit much shorter wavelengths, emphasizing the implications of their\nrespective wave-particle dualities in quantum mechanics.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the application of the de Broglie wavelength formula to relate kinetic energy to wavelength for both a photon and an electron, demonstrating that while the photon has a significantly longer wavelength due to its massless nature, the electron exhibits a much shorter wavelength reflecting its particle characteristics and mass.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4302"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_14_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the weight of 1,000 cubic feet of air at standard temperature and pressure (STP),\nincluding the calculations and underlying principles involved in your analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "At standard temperature and pressure (STP), which is defined as 0 degrees Celsius and 1\natmosphere of pressure, the density of air is approximately 1.29 grams per liter. To find\nthe weight of 1,000 cubic feet of air, we first convert cubic feet to liters, knowing that\n1 cubic foot equals approximately 28.3168 liters. Thus, 1,000 cubic feet is about 28,316.8\nliters. Multiplying the volume in liters by the density gives us a mass of approximately\n36,519 grams. Converting grams to ounces (1 ounce = 28.3495 grams), we find the weight to\nbe approximately 1.10 \\times 10^3 ounces. This calculation illustrates how gas density and\nvolume interplay to determine the mass of air at STP conditions.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the standard density of air at STP, converts the volume from cubic feet to liters, and uses appropriate unit conversions to calculate the weight of the air.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "4475"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "docid": "economics_graduate_doc_02",
+  "document_name": "Economics - Graduate Level Assessment 2",
+  "domain": "economics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "economics"
+  ],
+  "combination_used": [
+    "mmlu_pro_economics_mcq",
+    "mmlu_pro_economics_tf",
+    "economics_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\economics\\graduate\\latex_documents\\economics_graduate_doc_02.tex",
+    "pdf_file": "output\\economics\\graduate\\pdf_documents\\economics_graduate_doc_02.pdf",
+    "metadata_file": "data/metadata_hierarchical/economics_graduate_doc_02_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/economics_graduate_doc_02_gold.json",
+    "answer_key_latex_file": "output\\economics\\graduate\\answer_keys\\latex\\economics_graduate_doc_02_answer_key.tex",
+    "answer_key_pdf_file": "output\\economics\\graduate\\answer_keys\\pdf\\economics_graduate_doc_02_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "By how much must investment rise to bring about a $ 300 M change in income if MPC = 0.75.",
+      "options": {
+        "A": "$100 M",
+        "B": "$25 M",
+        "C": "$30 M",
+        "D": "$300 M",
+        "E": "$75 M"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Investment must rise by $75 million because the multiplier effect, calculated as 1/(1-MPC), equals 4 when MPC is 0.75, thus requiring an investment increase of $75 million to achieve a $300 million change in income ($75 million x 4 = $300 million).",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7265"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following would NOT shift the aggregate supply curve?",
+      "options": {
+        "A": "A decrease in government regulation.",
+        "B": "An increase in the price level.",
+        "C": "A decrease in the amount of resources in the economy.",
+        "D": "A decrease in technology.",
+        "E": "An increase in business investment."
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An increase in the price level would not shift the aggregate supply curve because it only causes a movement along the curve rather than a change in the curve's position itself, which is influenced by factors such as resource availability or production technology.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7563"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The purpose of \"augmenting\" the Dickey-Fuller test regression is to",
+      "options": {
+        "A": "Ensure that there is no heteroscedasticity in the test regression residuals.",
+        "B": "Improve the accuracy of the Dickey-Fuller test",
+        "C": "Ensure that the test regression residuals are negatively skewed",
+        "D": "Ensure that the test regression residuals are normally distributed",
+        "E": "Ensure that all of the non-stationarity is taken into account."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Augmenting the Dickey-Fuller test regression with additional lagged terms helps to account for potential heteroscedasticity in the residuals, thereby improving the reliability of the test results for stationarity in time series data.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "6844"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The appropriate fiscal policy to remedy a recession",
+      "options": {
+        "A": "calls for the federal government to run a deficit.",
+        "B": "calls for the federal government to run a surplus.",
+        "C": "is increased taxes and government spending.",
+        "D": "is decreased government spending and taxes."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Running a deficit during a recession allows the federal government to increase public spending and stimulate economic activity, which can help reduce unemployment and promote recovery.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7029"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The pacf is necessary for distinguishing between",
+      "options": {
+        "A": "Different models from within the ARMA family",
+        "B": "An AR and an ARIMA model",
+        "C": "Different models from within the ARIMA family",
+        "D": "An ARIMA and an ARMA model",
+        "E": "Different models from within the AR model"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The partial autocorrelation function (PACF) is crucial for distinguishing between different autoregressive models within the ARMA family because it helps identify the appropriate order of the autoregressive component by measuring the direct relationship between an observation and its lagged values, while controlling for the effects of intervening lags.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7122"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "A leftward shift in supply combined with a rightward shift in demand will lead to an increase in the equilibrium price of corn.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A leftward shift in supply reduces the quantity available in the market, while a rightward shift in demand increases the desire for the product, leading to a higher equilibrium price due to the increased competition for the limited supply.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7163"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "Adam Smith believed that the division of labor is primarily limited by the size of the prospective markets.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Adam Smith argued that the extent of the division of labor increases with the size of the market, as larger markets create greater demand for specialized goods, thereby incentivizing businesses to break down production into more specialized tasks.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7475"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "Slight differences in growth rate percentages determine the exact size of a country's workforce, reflecting labor market conditions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Slight differences in growth rate percentages do not solely determine the size of a country's workforce, as workforce size is influenced by a multitude of factors including demographic trends, immigration policies, and economic conditions, rather than just growth rates.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7092"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "A tax cut in a full employment economy will lead to a decrease in real output and an increase in the price level.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A tax cut in a full employment economy typically increases disposable income, leading to higher consumer spending and investment, which can boost real output rather than decrease it, while the impact on the price level depends on the extent of demand relative to existing capacity.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7640"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "economics_graduate_doc_02_economics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "In the long run, a firm's output remains fixed and cannot be adjusted based on production needs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In the long run, a firm can adjust all of its inputs, including labor and capital, allowing it to change its output based on production needs.",
+      "source": {
+        "dataset": "mmlu_pro_economics_economics",
+        "source_id": "7203"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "economics_graduate_doc_02_economics_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the differences between the nature of demand for land and the demand for cars,\nfocusing on the concept of derived demand and its implications in economics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The demand for land fundamentally differs from the demand for cars, primarily due to the\nconcept of derived demand. The demand for land is a derived demand, meaning it is\ncontingent upon the demand for goods and services that utilize land as a factor input,\nsuch as residential housing, agriculture, or commercial development. In contrast, the\ndemand for cars is typically direct; consumers demand cars for personal transportation\nregardless of other product demands. This distinction has significant implications in\neconomics, as fluctuations in the market for final products can lead to varying levels of\nland demand, impacting land prices and development patterns. Conversely, the demand for\ncars tends to be more influenced by consumer preferences and income levels, highlighting\nthe direct nature of its demand.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that land demand is derived from the need for goods and services that require land, whereas car demand is a direct consumer choice for personal use, highlighting the implications of derived demand in economic analysis.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "6948"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "economics_graduate_doc_02_economics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss how outsourcing bread delivery can be considered a long-run adjustment for the\nowners of a small caf\u00e9, and analyze its potential impacts on operational efficiency and\ncost management.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Outsourcing bread delivery can be considered a long-run adjustment for the owners of a\nsmall caf\u00e9 as it allows them to focus on their core competencies while leveraging the\nefficiencies of specialized providers. By entrusting delivery to a third party, the caf\u00e9\ncan reduce operational burdens such as managing logistics, inventory, and labor associated\nwith in-house delivery. This strategy can enhance operational efficiency, as it often\nresults in more reliable and timely deliveries, leading to improved customer satisfaction.\nAdditionally, outsourcing can lead to better cost management through economies of scale,\nas delivery firms typically operate with lower per-unit costs compared to a small caf\u00e9\nmanaging its own deliveries. Overall, this adjustment can foster a more agile business\nmodel, enabling the caf\u00e9 to allocate resources more effectively and respond swiftly to\nmarket demands.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies outsourcing bread delivery as a long-run adjustment that enables the caf\u00e9 owners to enhance operational efficiency and cost management by focusing on their core business functions while benefiting from the specialized capabilities and reliability of third-party logistics providers.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "6840"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

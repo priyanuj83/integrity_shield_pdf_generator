@@ -1,0 +1,125 @@
+{
+  "document_id": "cybersecurity_undergraduate_doc_19",
+  "domain": "cybersecurity",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_cybersecurity_mcq",
+    "mmlu_cybersecurity_tf",
+    "mmlu_pro_cybersecurity_mcq",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Authorization aims to restrict what operations or data a user can access to ensure that individuals only have permissions necessary for their roles, thus protecting sensitive information and maintaining system security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1560
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Buffer-overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, which can be prevented by implementing thorough boundary checks to ensure that data sizes are properly validated before being processed.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1520
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Buffer-overrun is the correct answer because it refers to a coding error where a program writes more data to a buffer than it can hold, potentially allowing attackers to overwrite memory and execute arbitrary code, leading to unauthorized access or system malfunctions.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1476
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Mutation-based fuzzing is characterized by its approach of creating new test inputs by systematically altering existing inputs, allowing it to explore various execution paths and uncover potential vulnerabilities in software.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1525
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"Availability\" because it refers to the accessibility of information and systems, while the classic security properties are typically identified as confidentiality, integrity, and authenticity, with availability being a separate but important aspect of overall security.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1570
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A packet filter firewall operates by examining the header information of packets at the network layer (Layer 3) and transport layer (Layer 4) of the OSI model to determine whether to allow or block the traffic based on predefined rules.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1508
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a stack is not a continuous memory location; rather, it is a data structure that operates on a last-in, first-out (LIFO) principle, typically using non-contiguous memory locations to manage function calls and local variables dynamically.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Whitebox fuzzers utilize knowledge of the program's internal structure, such as control flow and data flow, to systematically explore all possible execution paths, thereby enhancing the chances of achieving comprehensive code coverage.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1471
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The Morris Worm is considered the first known buffer overflow attack because it exploited a vulnerability in the Unix sendmail program's handling of strings, allowing it to spread across the internet and demonstrate the potential impact of such attacks on computer systems.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1568
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "IM Trojans are malicious software specifically created to infiltrate instant messaging applications and capture sensitive user credentials, such as logins and passwords.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1523
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def is_majority(arr, n, x): | return False | return True | return False | def binary_search(arr, low, high, x): | return mid | return binary_search(arr, (mid + 1), high, x) | return binary_search(arr, low, (mid -1), x) | return -1",
+      "marks": 10,
+      "explanation": "The provided answer is correct because it outlines the implementation of a function that uses binary search to efficiently determine the presence of a majority element in a sorted array by checking if the count of the element exceeds half the size of the array.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 223
+    },
+    {
+      "question_id": "cybersecurity_undergraduate_doc_19_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def are_Equal(arr1,arr2,n,m): | return False | return False | return True",
+      "marks": 10,
+      "explanation": "The answer correctly identifies that two arrays are equal if they have the same elements in the same order, returning True only when both arrays are identical in length and content, while returning False otherwise.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 650
+    }
+  ]
+}

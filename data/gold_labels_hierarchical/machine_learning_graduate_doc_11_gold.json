@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_11",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "PCA (Principal Component Analysis) is an unsupervised learning technique used for dimensionality reduction, as it does not rely on labeled output data to guide its learning process.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Transforming the data to zero mean is essential in PCA because it ensures that the principal components reflect the actual variance in the data, aligning the PCA results with those obtained from Singular Value Decomposition (SVD), which also assumes centered data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6918
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "As of 2020, several advanced neural network architectures demonstrated over 98% accuracy on the CIFAR-10 dataset, and the original ResNet models were primarily trained using stochastic gradient descent rather than the Adam optimizer, validating both statements as true.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6854
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "Stuart Russell is a leading figure in the field of artificial intelligence who has extensively researched and articulated the potential existential risks associated with AI, making him a prominent authority on this topic.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6909
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "ImageNet indeed contains images of various resolutions, while Caltech-101 has significantly fewer images (approximately 9,000) compared to ImageNet, which has over 14 million images, making the correct answer true for Statement 1 and false for Statement 2.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Penn Treebank is primarily focused on annotating syntactic and semantic structures of text for natural language processing tasks, particularly language modeling, rather than image classification.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Fully connected networks are often not the best choice for high-resolution image classification tasks because they require an impractical amount of parameters and computation, leading to inefficiencies and overfitting, while convolutional neural networks (CNNs) are specifically designed to handle such tasks more effectively by leveraging spatial hierarchies in the data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6839
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "K-fold cross-validation is linear in K because the model is trained K times on different subsets of the data, leading to a direct proportionality in computation time rather than a quadratic relationship.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6906
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) can produce high-variance estimates, particularly in small sample sizes or when the model is complex, leading to overfitting and reduced generalizability to new data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Dropout randomly sets a fraction of the neurons' activation values to zero during training, but it does not disable the entire layer, as it retains some active neurons to maintain the layer's functionality.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def parallel_lines(line1, line2): | return line1[0]/line1[1] == line2[0]/line2[1]",
+      "marks": 10,
+      "explanation": "correct because it utilizes the property that two lines are parallel if their slopes, represented as the ratio of their coefficients, are equal, assuming the lines are given in the standard form of Ax + By = C.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 525
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_11_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def previous_palindrome(num): | return x",
+      "marks": 10,
+      "explanation": "correct because it outlines the structure of a function that is intended to compute and return the previous palindrome of a given number, although it lacks the implementation details necessary to achieve this goal.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 909
+    }
+  ]
+}

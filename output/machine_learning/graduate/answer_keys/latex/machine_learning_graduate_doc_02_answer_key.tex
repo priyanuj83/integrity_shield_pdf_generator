@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Machine Learning - Graduate Level Assessment 2 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) P(E, F), P(H), P(E|H), P(F|H); B) P(E, F), P(H), P(E, F|H); C) P(H), P(E|H), P(F|H); D) P(E, F), P(E|H), P(F|H)
+\\ \textit{Note:} The correct answer is based on Bayes' theorem, which states that to calculate the conditional probability P(H|E, F), we need the joint probability P(E, F), the marginal probability P(H), and the conditional probability P(E, F|H), as these components allow us to express P(H|E, F) in terms of known probabilities.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) 3; B) 4; C) 7; D) 15
+\\ \textit{Note:} The correct answer is 15 because in a Bayesian network with four nodes (H, U, P, W) and no assumptions of independence, the total number of independent parameters is calculated as the sum of the number of parameters required for each node, which includes the prior probabilities and the conditional probabilities for each parent-child relationship, leading to 15 independent parameters.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Larger if the error rate is larger.; B) Larger if the error rate is smaller.; C) Smaller if the error rate is smaller.; D) It does not matter.
+\\ \textit{Note:} A larger number of test examples is required to achieve statistically significant results when the error rate is smaller because lower error rates result in less variability in the data, necessitating more samples to accurately detect meaningful differences or effects.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y); B) P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y); C) P(X, Y, Z) = P(Z) * P(X|Z) * P(Y|Z); D) P(X, Y, Z) = P(X) * P(Y) * P(Z)
+\\ \textit{Note:} The correct answer is based on the structure of the Bayesian network, where the joint probability distribution can be factored according to the conditional dependencies represented by the arrows, leading to the expression P(X, Y, Z) = P(Y) * P(X|Y) * P(Z|Y).
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Decreases model bias; B) Decreases estimation bias; C) Decreases variance; D) Doesn't affect bias and variance
+\\ \textit{Note:} Adding more basis functions in a linear model allows the model to capture more complex patterns in the data, thereby reducing bias by fitting the training data more closely.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The temperature of a nonuniform softmax distribution directly affects its entropy by controlling the level of uncertainty or randomness in the distribution, with higher temperatures leading to increased entropy and lower temperatures resulting in sharper, more deterministic distributions.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} DenseNets require more memory than ResNets because their architecture involves maintaining multiple feature maps from previous layers for each layer, leading to a significant increase in memory usage as connections become denser and features are reused extensively.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The variance of the Maximum A Posteriori (MAP) estimate is generally lower than that of the Maximum Likelihood Estimate (MLE) because the MAP incorporates prior information, which can stabilize the estimation and reduce uncertainty compared to the MLE that relies solely on the observed data.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Neural networks can be trained using stochastic optimization methods, such as stochastic gradient descent, which introduce randomness in the training process and allow for effective learning from large and complex datasets.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because it follows the chain rule of probability, which states that the joint probability of multiple events can be expressed as the product of the conditional probability of some events given others and the marginal probability of the remaining events.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} As of 2020, convolutional networks (CNNs) have proven to be highly effective in classifying high-resolution images due to their ability to automatically learn spatial hierarchies of features. Unlike traditional architectures that rely on hand-crafted features, CNNs utilize convolutional layers to capture local patterns and reduce the dimensionality of the input data, making them particularly suited for image classification tasks. Their pooling layers further enhance this capability by summarizing feature maps, thus allowing for efficient processing of high-resolution images while maintaining essential information. Additionally, CNNs excel in handling variations in scale, orientation, and lighting, which are common challenges in high-resolution imagery, thereby outperforming other architectures such as fully connected neural networks or shallow models. Overall, the specialized structure of CNNs facilitates superior performance in image classification, solidifying their dominance in the field by 2020.
+\\ \textit{Note:} correct because it emphasizes the unique strengths of convolutional networks, such as their automatic feature learning through convolutional and pooling layers, which enable them to effectively handle the complexity and detail of high-resolution images compared to traditional architectures.
+\item \textbf{Answer:} Unsupervised learning can be effectively applied to analyze large datasets of medical records from heart disease patients by utilizing techniques such as clustering and dimensionality reduction. By employing algorithms like k-means clustering or hierarchical clustering, researchers can identify distinct patient subgroups based on shared characteristics such as demographics, symptoms, and treatment responses. This analysis is significant as it enables the discovery of previously unrecognized patient clusters, which can inform personalized treatment strategies tailored to the specific needs of each group. Additionally, such insights can improve clinical outcomes by allowing healthcare providers to focus on the most relevant interventions for different patient profiles, ultimately enhancing the efficacy of heart disease management.
+\\ \textit{Note:} correct because it accurately describes how unsupervised learning techniques, such as clustering, can be used to analyze complex medical datasets to identify distinct patient groups, which is crucial for developing personalized treatment strategies for heart disease.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

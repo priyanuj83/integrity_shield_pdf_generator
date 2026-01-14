@@ -1,0 +1,124 @@
+{
+  "document_id": "cybersecurity_graduate_doc_17",
+  "domain": "cybersecurity",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cybersecurity_mcq",
+    "mmlu_pro_cybersecurity_tf",
+    "cybersecurity_long"
+  ],
+  "answers": [
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A buffer overflow attack occurs when a cyber-criminal exploits a vulnerability in a program's memory management by overrunning a buffer's boundary, allowing them to inject malicious instructions that can compromise the system's integrity.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1548
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_2",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "A ping sweep is used to identify live systems by sending ICMP echo requests to a range of IP addresses to determine which hosts are responsive and active on a network.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1566
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is \"Open, filtered, unfiltered\" because these terms represent the three primary states that Nmap assigns to ports based on its scanning results, indicating whether a port is accepting connections, being blocked by a firewall, or is accessible without filtering, respectively.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1555
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "C and C++ are low-level programming languages that allow direct memory manipulation without built-in bounds checking, making them susceptible to buffer-overflow errors.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1521
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A stream cipher cannot achieve perfect secrecy because perfect secrecy requires the key to be at least as long as the message and completely random, which is not the case when the key is shorter than the message.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1559
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because a stack operates on a last-in, first-out (LIFO) principle, which does not allow for random access like a buffer does, as data can only be accessed in the order it was added.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1551
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the four primary security principles related to messages are confidentiality, integrity, availability, and non-repudiation, with access control being a separate concept that supports these principles.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1567
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because wireless access specifically pertains to connecting devices to a network without physical cables, while the description provided refers to wired network connections.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1537
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Authorization is primarily concerned with determining what actions or resources a user is permitted to access after their identity has been established through authentication, rather than focusing on identifying the user as an attacker.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1560
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because C and C++ do not automatically perform boundary checks on arrays and buffers, allowing developers to inadvertently write data beyond the allocated memory, which can lead to buffer overflow vulnerabilities.",
+      "source_dataset": "cybersecurity_computer_security",
+      "source_id": 1479
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_long_1",
+      "type": "long",
+      "correct_answer": "def occurance_substring(text,pattern): | return (text[s:e], s, e)",
+      "marks": 10,
+      "explanation": "The answer correctly defines a function that identifies the starting (s) and ending (e) indices of a substring (pattern) within a larger string (text) and returns both the substring and its positions, which is essential for substring searching techniques relevant in cybersecurity applications.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 773
+    },
+    {
+      "question_id": "cybersecurity_graduate_doc_17_cybersecurity_long_2",
+      "type": "long",
+      "correct_answer": "def parabola_directrix(a, b, c): | return directrix",
+      "marks": 10,
+      "explanation": "The provided answer is correct because it outlines the creation of a function named `parabola_directrix` that is intended to calculate and return the directrix of a parabola based on its coefficients, aligning with the mathematical principles governing parabolas in the context of quadratic equations.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 430
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "docid": "physics_graduate_doc_25",
+  "document_name": "Physics - Graduate Level Assessment 25",
+  "domain": "physics",
+  "academic_level": "Graduate",
+  "subjects": [
+    "physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "gsm8k_math_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\physics\\graduate\\latex_documents\\physics_graduate_doc_25.tex",
+    "pdf_file": "output\\physics\\graduate\\pdf_documents\\physics_graduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/physics_graduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/physics_graduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\physics\\graduate\\answer_keys\\latex\\physics_graduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\physics\\graduate\\answer_keys\\pdf\\physics_graduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the refracting power of a spherical refracting surface of radius 20 cm separating\nair (n = 1) from glass (n = 1.5, where n denotes the index of refraction of the medium) ?",
+      "options": {
+        "A": "1.0 diopter",
+        "B": "4.0 diopters",
+        "C": "2.0 diopters",
+        "D": "2.75 diopters",
+        "E": "3.5 diopters"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The refracting power of a spherical surface is given by the formula R = (n2 - n1) / R, where n2 is the refractive index of the glass, n1 is the refractive index of air, and R is the radius of curvature; substituting the values (1.5 - 1) / 0.2 m results in a refracting power of 1.0 diopter.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9579"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "The nebular theory of the formation of the solar system successfully predicts all but one\nof the following. Which one does the theory not predict?",
+      "options": {
+        "A": "The presence of moons around several planets",
+        "B": "Planets orbit around the Sun in nearly circular orbits in a flattened disk.",
+        "C": "the equal number of terrestrial and jovian planets",
+        "D": "The existence of the Sun's magnetic field",
+        "E": "The different chemical compositions of the planets"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The nebular theory describes the formation of the solar system through the collapse of a rotating cloud of gas and dust, which does not inherently require an equal number of terrestrial and jovian planets, as their formation and distribution depend on various factors such as distance from the Sun and temperature gradients in the protoplanetary disk.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9992"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Under what conditions is the net electric flux through a closed surface proportional to\nthe enclosed charge?",
+      "options": {
+        "A": "only when there are no charges outside the surface",
+        "B": "only when the charges are in motion",
+        "C": "only when the electric field is uniform",
+        "D": "only when the enclosed charge is negative",
+        "E": "only when the charge is at rest"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The net electric flux through a closed surface is directly proportional to the enclosed charge according to Gauss's law, which applies specifically when there are no external charges influencing the electric field lines that cross the surface.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Does an ideal gas get hotter or colder when it expands according to the law pV^2 = Const?",
+      "options": {
+        "A": "remains the same",
+        "B": "none of these",
+        "C": "hotter",
+        "D": "the temperature oscillates",
+        "E": "it gets colder, but only under low pressure"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "An ideal gas remains at the same temperature during expansion under the condition pV^2 = Const because this relationship indicates an isothermal process where the internal energy and thus the temperature of the gas does not change.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9807"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "An object is placed 10 cm in front of a diverging mirror. What is the focal length of the\nmirror if the image appears 2 cm behind the mirror?",
+      "options": {
+        "A": "-2/5 cm",
+        "B": "-3/2 cm",
+        "C": "-2/3 cm",
+        "D": "-5/2 cm",
+        "E": "-5 cm"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of -5/2 cm for the focal length is derived from the mirror formula \\( \\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\), where the object distance \\( d_o = -10 \\) cm (negative for diverging mirrors) and the image distance \\( d_i = +2 \\) cm (positive for virtual images behind the mirror), leading to \\( f = -5/2 \\) cm.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10324"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "The thickness of the glass plate that makes an object appear five-sixths of an inch nearer is 1.0 inch.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the apparent shift in position of an object observed through a glass plate is directly related to the thickness of the plate and the refractive index of the glass, and for a thickness of 1.0 inch, the object indeed appears five-sixths of an inch closer due to refraction.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9977"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "As the angle of an inclined plane increases, the normal force acting on a stationary box remains constant until a critical angle.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because as the angle of an inclined plane increases, the normal force acting on a stationary box decreases due to the reduction in the component of gravitational force acting perpendicular to the surface of the incline.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10044"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The diameter of Pluto was accurately measured using brightness measurements during mutual eclipses of Pluto and Charon.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The diameter of Pluto was accurately measured during mutual eclipses of Pluto and Charon by analyzing the light curves, which allowed astronomers to determine the duration of the eclipses and infer the sizes and relative positions of the two bodies.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9045"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "The axis of the Earth is tilted at an angle of approximately 23.5 degrees relative to its orbital plane around the Sun.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the tilt of Earth's axis at approximately 23.5 degrees relative to its orbital plane is the primary reason for the seasonal variations in climate and daylight experienced on the planet.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "10101"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "physics_graduate_doc_25_physics_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "When a siren approaches, its frequency remains constant, while the amplitude decreases as it gets closer to the observer.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because, as a siren approaches an observer, its frequency increases due to the Doppler effect while the amplitude typically increases, not decreases, because of the decreasing distance between the source and the observer.",
+      "source": {
+        "dataset": "mmlu_pro_physics_physics",
+        "source_id": "9830"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "physics_graduate_doc_25_physics_long_1",
+      "question_type": "LONG",
+      "stem_text": "In a double-slit experiment with a slit separation of 0.1 mm and a distance to the screen\nof 1 m, analyze how the wavelength of yellow light affects the spacing between adjacent\nbright lines.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In a double-slit experiment, the spacing between adjacent bright lines on the screen is\ndetermined by the wavelength of the light used, the separation between the slits, and the\ndistance from the slits to the screen. The formula for the position of the bright fringes\nis given by \\( y_n = \\frac{n \\lambda L}{d} \\), where \\( y_n \\) is the position of the nth\nbright fringe, \\( \\lambda \\) is the wavelength of the light, \\( L \\) is the distance to\nthe screen, and \\( d \\) is the slit separation. For yellow light, which has a wavelength\nof approximately 580 nm, substituting \\( d = 0.1 \\) mm and \\( L = 1 \\) m into the equation\nyields a fringe spacing of about 3 mm. Thus, the wavelength of yellow light significantly\ninfluences the spacing between adjacent bright lines, resulting in a calculated spacing of\n3 mm.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the formula for the positions of bright fringes in a double-slit experiment, demonstrating that the spacing between adjacent bright lines is directly proportional to the wavelength of the light used, as well as being dependent on the slit separation and the distance to the screen.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9281"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "physics_graduate_doc_25_physics_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the energy transition of an electron as it moves from the n = 3 to n = 2 orbit,\nand calculate the magnitude of the energy emitted as visible red light during this\nprocess.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The energy transition of an electron as it moves from the n = 3 to n = 2 orbit can be\nanalyzed using the Rydberg formula for hydrogen, which describes the energy levels of the\nelectron in a hydrogen atom. The energy difference between these two states can be\ncalculated using the equation \u0394E = -R_H (1/n_f^2 - 1/n_i^2), where R_H is the Rydberg\nconstant (approximately 2.18 \\times 10^-18 joules) and n_f and n_i are the final and\ninitial energy levels, respectively. Plugging in the values for n_f = 2 and n_i = 3, we\nfind that the energy emitted during this transition is approximately 3.03 \\times 10^-19\njoules. This energy corresponds to the emission of visible red light, as it falls within\nthe visible spectrum range, illustrating the quantized nature of electron energy levels in\natoms and the relationship between energy transitions and electromagnetic radiation.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the Rydberg formula to calculate the energy difference between the electron's initial and final states, which allows for the determination of the energy emitted as visible red light during the transition from n = 3 to n = 2.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "9519"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

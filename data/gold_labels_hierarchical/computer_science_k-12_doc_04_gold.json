@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_04",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The expression `sorted('ab')` is valid in Python 3.5 because the `sorted()` function can take any iterable as an argument and returns a new list containing all items from the iterable in ascending order.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14393
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "When a new device is connected to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and allows it to communicate with other devices.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is 10 because the sum function in Python 3 computes the total of all the elements in the list l, which are 1, 2, 3, and 4, yielding a total of 10.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3254
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "In Python, negative indexing allows you to access elements from the end of a list, so the expression ['a', 'Chemistry', 0, 1][-3] retrieves the element at the third position from the end, which is 'Chemistry'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3279
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "A function that sorts values in a column or row allows users to easily identify outliers or anomalies, such as improbably high or low values, which may indicate data entry errors.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3221
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because using b[::2] on the list [11,13,15,17,19,21] actually returns [11, 15, 19], as the slicing syntax b[start:end:step] selects every second element starting from index 0.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3274
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because O(log n) represents logarithmic growth, which increases at a much slower rate than O(n^2), which represents quadratic growth, as the input size n becomes large.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3213
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The random() function in Python 3 generates a random float between 0.0 and 1.0 but does not set the integer starting value; instead, the seed() function is used to set the seed for the random number generator.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3261
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Shifting the number 1 to the left by 3 bits is equivalent to multiplying it by 2 to the power of 3, which results in 1 \u00d7 2^3 = 8.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The strip() function in Python 3 is designed to remove all types of leading and trailing whitespace characters, including spaces, tabs, and newline characters, from a string.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "The `isupper()` function in Python 3 checks whether all the characters in a string are\nuppercase letters. When called on a string, it returns `True` if every character is an\nuppercase letter and there is at least one character; otherwise, it returns `False`. For\nexample, `\"HELLO\".isupper()` returns `True`, while `\"Hello\".isupper()` returns `False`\nbecause the letter \"H\" is uppercase but \"e\" is not. This function can be useful in\napplications such as validating user input, ensuring that certain data formats meet\nspecific criteria, or formatting strings for display. Understanding how to use `isupper()`\nhelps students learn about string manipulation in Python.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes the functionality of the `isupper()` function in Python 3, including its return values based on the case of characters in a string and provides examples that demonstrate its usage.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3197
+    },
+    {
+      "question_id": "computer_science_k-12_doc_04_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "The lambda function r = lambda q: q * 2 in Python 3 creates an anonymous function that\ntakes one input, q, and returns the result of q multiplied by 2. When we call r(3), the\nfunction takes 3 as the input for q, resulting in r(3) = 3 * 2, which equals 6. This\noutput demonstrates that lambda functions are useful for creating small, one-time use\nfunctions quickly without formally defining them using the def keyword. They are\nespecially handy for short operations, allowing for more concise and readable code in\nsituations such as filtering or mapping data.",
+      "marks": 10,
+      "explanation": "correct because it accurately describes how the lambda function defines a concise, anonymous function that multiplies its input by 2, and it correctly computes the output for the given input, illustrating the utility of lambda functions for simple operations in Python.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14389
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "docid": "biology_graduate_doc_25",
+  "document_name": "Biology - Graduate Level Assessment 25",
+  "domain": "biology",
+  "academic_level": "Graduate",
+  "subjects": [
+    "biology",
+    "anatomy"
+  ],
+  "combination_used": [
+    "mmlu_pro_biology_mcq",
+    "biology_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\biology\\graduate\\latex_documents\\biology_graduate_doc_25.tex",
+    "pdf_file": "output\\biology\\graduate\\pdf_documents\\biology_graduate_doc_25.pdf",
+    "metadata_file": "data/metadata_hierarchical/biology_graduate_doc_25_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/biology_graduate_doc_25_gold.json",
+    "answer_key_latex_file": "output\\biology\\graduate\\answer_keys\\latex\\biology_graduate_doc_25_answer_key.tex",
+    "answer_key_pdf_file": "output\\biology\\graduate\\answer_keys\\pdf\\biology_graduate_doc_25_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "biology_graduate_doc_25_biology_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is not a way to form recombinant DNA?",
+      "options": {
+        "A": "Translation",
+        "B": "Conjugation",
+        "C": "Specialized transduction",
+        "D": "Transformation",
+        "E": "N/A"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Translation is not a method for forming recombinant DNA, as it is the process of synthesizing proteins from mRNA, while recombinant DNA formation involves techniques such as ligation or cloning to combine DNA from different sources.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "23"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "biology_graduate_doc_25_biology_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "In most ecosystems, net primary productivity is important because it represents the",
+      "options": {
+        "A": "biomass of all producers",
+        "B": "biomass of all consumers",
+        "C": "energy available to heterotrophs",
+        "D": "energy consumed by decomposers",
+        "E": "total solar energy converted to chemical energy by producers"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Net primary productivity is the measure of the energy captured by autotrophs through photosynthesis minus the energy they use for respiration, and this energy forms the basis of the food chain, providing essential resources for heterotrophs that depend on autotrophs for their energy needs.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3051"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "biology_graduate_doc_25_biology_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "An organism exposed to wild temperature fluctuations shows very little, if any, change in\nits metabolic rate. This organism is most probably a",
+      "options": {
+        "A": "thermophyle.",
+        "B": "poikilotherm.",
+        "C": "ascospore.",
+        "D": "endotherm.",
+        "E": "stenotherm."
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Endotherms maintain a relatively constant metabolic rate and body temperature despite external temperature fluctuations, allowing them to thrive in varying environmental conditions.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3050"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "biology_graduate_doc_25_biology_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "A deficiency in which endocrine gland would result in tetany?",
+      "options": {
+        "A": "Pancreas",
+        "B": "Thymus",
+        "C": "pituitary gland",
+        "D": "adrenal gland",
+        "E": "thyroid gland"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A deficiency in the pancreas, specifically a lack of insulin, can lead to imbalances in calcium metabolism, which may result in tetany due to hypocalcemia.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3308"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "biology_graduate_doc_25_biology_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "What is the probability of getting exactly three heads infive flips of a balanced coin?",
+      "options": {
+        "A": "12.5 percent",
+        "B": "40 percent",
+        "C": "18.75 percent",
+        "D": "25 percent",
+        "E": "37.5 percent"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 12.5 percent because the probability of getting exactly three heads in five flips of a balanced coin can be calculated using the binomial probability formula, yielding a result of 0.125, which translates to 12.5 percent.",
+      "source": {
+        "dataset": "mmlu_pro_biology_biology",
+        "source_id": "3297"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "biology_graduate_doc_25_biology_pubmedqa_tf_1",
+      "question_type": "TF",
+      "stem_text": "Can infundibular height predict the clearance of lower pole calyceal stone after extracorporeal shockwave lithotripsy?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Lower Infundibular height could be a good measurement tool for deciding which patients with lower calyceal lithiasis would benefit from SWL treatment. Height of less than 22 mm suggests a good outcome from lithotripsy.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "19409117"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "biology_graduate_doc_25_biology_pubmedqa_tf_2",
+      "question_type": "TF",
+      "stem_text": "Does blood pressure change in treated hypertensive patients depending on whether it is measured by a physician or a nurse?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Systolic BP measured by the nurse in treated hypertensive patients is significantly lower than the readings obtained by the physician, and are almost identical to ambulatory BP monitoring. Blood pressure determination by the nurse is desirable not only for diagnosis but also to evaluate the level of control of blood pressure during the follow-up of treated hypertensive patients.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "15223725"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "biology_graduate_doc_25_biology_pubmedqa_tf_3",
+      "question_type": "TF",
+      "stem_text": "Can homemade alcohol (Raksi) be useful for preserving dead bodies?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "It is concluded from the study that this knowledge if applied to dead human subjects, may preserve dead bodies temporarily allowing delayed funeral.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "18603989"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "biology_graduate_doc_25_biology_pubmedqa_tf_4",
+      "question_type": "TF",
+      "stem_text": "Can surgeon familiarization with current evidence lead to a change in practice?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "This study has shown that mailing out a summary of current evidence to surgeons concerning a certain issue is not sufficient to lead to a change in practice.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "18708308"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "biology_graduate_doc_25_biology_pubmedqa_tf_5",
+      "question_type": "TF",
+      "stem_text": "Is the covering of the resection margin after distal pancreatectomy advantageous?",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The results show no significant difference in the fistula rate after covering of the resection margin after distal pancreatectomy, which contributes to the picture of an unsolved problem.",
+      "source": {
+        "dataset": "pubmedqa_labeled",
+        "source_id": "24073931"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "biology_graduate_doc_25_biology_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the chromosomal composition in an animal with a haploid number of 10, detailing\nthe chromosome and chromatid counts in the spermatogonium, first polar body, second polar\nbody, and secondary oocyte.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "In an animal with a haploid number of 10, the chromosomal composition varies in different\nstages of gametogenesis. The spermatogonium, being diploid, contains 20 chromosomes and 30\nchromatids during the S phase of interphase, where DNA replication has occurred. In\ncontrast, the first polar body, resulting from meiosis I of the oocyte, has 10 chromosomes\nand 10 chromatids, reflecting the reduction of chromosome number. The secondary oocyte,\nalso produced from meiosis I, retains 10 chromosomes but possesses 20 chromatids due to\nDNA replication prior to meiosis II. The second polar body, formed during meiosis II,\ncontains 5 chromosomes and 5 chromatids, completing the chromosomal changes throughout\noocyte development. This illustrates the dynamic nature of chromosomal and chromatid\ncounts during gametogenesis, emphasizing the importance of these processes in reproductive\nbiology.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly outlines the chromosomal composition by identifying the diploid nature of the spermatogonium with 20 chromosomes and 30 chromatids due to DNA replication, while accurately describing the haploid state of the first polar body and secondary oocyte, each containing 10 chromosomes and 10 chromatids, following the reduction division of meiosis I.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3290"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "biology_graduate_doc_25_biology_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of positive feedback mechanisms in the endocrine system, using the\nexample of infant suckling and oxytocin release to illustrate your analysis.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Positive feedback mechanisms play a crucial role in the endocrine system by amplifying\nphysiological responses, as exemplified by the process of infant suckling and the\nsubsequent release of oxytocin. When an infant suckles at the breast, sensory signals are\nsent to the mother's brain, prompting the release of oxytocin from the posterior pituitary\ngland. This hormone not only facilitates milk ejection but also enhances milk production\nthrough its effects on mammary gland tissue. The more the infant suckles, the greater the\nrelease of oxytocin, creating a self-reinforcing cycle that ensures adequate nourishment\nfor the infant while reinforcing the mother-infant bond. This phenomenon illustrates how\npositive feedback can lead to significant biological outcomes, demonstrating the intricate\ninterplay between behavior and hormonal regulation in the endocrine system.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly illustrates the concept of positive feedback in the endocrine system by detailing how infant suckling triggers oxytocin release, which in turn increases milk production and further encourages suckling, thereby amplifying the initial stimulus.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3116"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

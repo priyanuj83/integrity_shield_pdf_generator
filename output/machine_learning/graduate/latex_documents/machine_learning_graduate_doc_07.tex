@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Machine Learning - Graduate Level Assessment 7 \
+Total Marks: 40 \
+Answer all questions.
+\end{center}
+
+\section*{Multiple Choice (10 marks)}
+\begin{enumerate}[label=\arabic*.]
+\item As the number of training examples goes to infinity, your model trained on that data will have:
+\begin{enumerate}[label=(\alph*)]
+    \item Lower variance
+    \item Higher variance
+    \item Same variance
+    \item None of the above
+\end{enumerate}
+\item In Yann LeCun's cake, the cherry on top is
+\begin{enumerate}[label=(\alph*)]
+    \item reinforcement learning
+    \item self-supervised learning
+    \item unsupervised learning
+    \item supervised learning
+\end{enumerate}
+\item Let us say that we have computed the gradient of our cost function and stored it in a vector g. What is the cost of one gradient descent update given the gradient?
+\begin{enumerate}[label=(\alph*)]
+    \item O(D)
+    \item O(N)
+    \item O(ND)
+    \item O($ND^2$)
+\end{enumerate}
+\item MLE estimates are often undesirable because
+\begin{enumerate}[label=(\alph*)]
+    \item they are biased
+    \item they have high variance
+    \item they are not consistent estimators
+    \item None of the above
+\end{enumerate}
+\item Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural networks trained with gradient descent with high probability converge to the global optimum.
+\begin{enumerate}[label=(\alph*)]
+    \item True, True
+    \item False, False
+    \item True, False
+    \item False, True
+\end{enumerate}
+\end{enumerate}
+
+\section*{True / False (10 marks)}
+\textit{Answer True or False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item True or False: Highway networks were introduced after ResNets and utilize max pooling instead of convolutions.
+\item True or False: The numerical output of a sigmoid node in a neural network is unbounded, encompassing all real numbers.
+\item True or False: Batch Normalization, not Layer Normalization, was utilized in the original ResNet architecture to improve training stability.
+\item True or False: Predicting the amount of rainfall based solely on historical data is an unsupervised learning problem.
+\item True or False: Dropout randomly sets activation values to one, effectively allowing all neurons to contribute during training.
+\end{enumerate}
+
+\section*{Long Form Response (20 marks)}
+\textit{Answer each question with a clear and complete explanation.}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item Critically analyze the statements regarding the ID 3 algorithm's optimality in decision tree generation and the properties of continuous probability distributions. Discuss the implications of each statement.
+\item Discuss how you would modify the EM algorithm to compute MAP estimates in a model with latent variables. What specific steps would require changes, and why?
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Paper}
+\end{document}

@@ -1,0 +1,125 @@
+{
+  "document_id": "mathematics_undergraduate_doc_15",
+  "domain": "mathematics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "abstract_algebra",
+    "college_mathematics"
+  ],
+  "combination_used": [
+    "mmlu_math_mcq",
+    "mmlu_math_tf",
+    "mbpp_coding_long"
+  ],
+  "answers": [
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The polynomial x^4 + 4 can be factored into the linear factors (x - 2)(x + 2)(x - 1)(x + 1) in Z_5[x] because, when evaluated in the finite field Z_5, the roots are found to be 2, -2 (which is 3 in Z_5), 1, and -1 (which is 4 in Z_5), allowing the polynomial to be expressed as a product of its linear factors corresponding to these roots.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 68
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 6 because the number of structurally distinct Abelian groups of a given order can be determined by the partitions of the exponents in the prime factorization of that order, and for the order 72, which factors as \\(2^3 \\times 3^2\\), there are 6 distinct partitions corresponding to the number of different Abelian group structures.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1178
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "There are exactly three nonisomorphic trees with 5 vertices, which can be classified based on their structure: one linear tree (a path), one tree with one vertex connected to three others (a star), and one tree with two vertices connected to two others in a more branched configuration.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1129
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The probability that x < y can be calculated by determining the area of the region where x is less than y within the rectangle formed by the intervals [0, 3] for x and [0, 4] for y, resulting in an area of 5/8 of the total area of the rectangle, which is 12.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1188
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The coordinates (3/7, 3/14, 9/14) represent the point on the plane 2x + y + 3z = 3 that minimizes the distance to the origin, which can be determined using the method of Lagrange multipliers or by substituting the plane equation into the distance formula and optimizing it.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1127
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because, by definition of a normal subgroup, for any element \\( a \\) in \\( G \\), the left coset \\( aH \\) is equal to the right coset \\( Ha \\), as normal subgroups satisfy the condition \\( aH = Ha \\) for all \\( a \\in G \\).",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 30
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In an abelian group, the operation is commutative, allowing us to rearrange the terms in the expression (g o h)^2 = g o h o g o h to equal g^2 o h^2.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 33
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the subgroup 4Z consists of all multiples of 4, and in the group 2Z, the cosets of 4Z are precisely 4Z and 2 + 4Z, representing the equivalence classes of integers modulo 4.",
+      "source_dataset": "mathematics_abstract_algebra",
+      "source_id": 91
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because, when calculating f(8) using the recursion f(2n) = n^2 + f[2(n - 1)], the derived value does not equal 36, but instead yields a different result based on the function's defined relationships.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1177
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the two abelian groups of order 4, which are the cyclic group of order 4 (Z_4) and the direct product of two cyclic groups of order 2 (Z_2 \u00d7 Z_2), are the only distinct groups that can be formed under the classification of finite abelian groups, as determined by the Fundamental Theorem of Finitely Generated Abelian Groups.",
+      "source_dataset": "mathematics_college_mathematics",
+      "source_id": 1150
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "The triangle is shown below: [asy] pair A,B,C; A = (0,0); B = (5,0); C = (5,10); draw(A--B\n--C--A); draw(rightanglemark(C,B,A,16)); label(\"$A$\",A,SW); label(\"$B$\",B,SE);\nlabel(\"$C$\",C,N); [/asy] We have $\\sin A = \\frac{BC}{AC}$ and $\\cos A = \\frac{AB}{AC}$, so\n$\\sin A = 2\\cos A$ gives us $\\frac{BC}{AC} = 2\\cdot\\frac{AB}{AC}$. Multiplying both sides\nby $AC$ gives $BC = 2 AB$, so $\\frac{BC}{AB} = 2$. Finally, we have $\\tan A =\n\\frac{BC}{AB} = \\boxed{2}$. We also could have noted that $\\tan A = \\frac{\\sin A}{\\cos A}\n= \\frac{2\\cos A}{\\cos A } =\\boxed{2}$.",
+      "marks": 10,
+      "explanation": "correct because it correctly uses the definitions of sine and cosine in a right triangle to establish a relationship between the sides, leading to the conclusion that the tangent of angle A, defined as the ratio of the opposite side to the adjacent side, equals 2.",
+      "source_dataset": "gsm8k_math",
+      "source_id": 12063
+    },
+    {
+      "question_id": "mathematics_undergraduate_doc_15_mathematics_long_2",
+      "type": "long",
+      "correct_answer": "An eigenvector \\( v \\) of an invertible matrix \\( A \\) satisfies the equation \\( A v =\n\\lambda v \\), where \\( \\lambda \\) is the corresponding eigenvalue. This property extends\nto the matrices \\( 2 A \\), \\( A^2 \\), and \\( A^{-1} \\). For \\( 2 A \\), we have \\( 2 Av =\n2\\lambda v \\), so \\( v \\) is an eigenvector with eigenvalue \\( 2\\lambda \\). For \\( A^2 \\),\napplying \\( A \\) again gives \\( A^2 v = A(\\lambda v) = \\lambda(Av) = \\lambda^2 v \\),\nindicating \\( v \\) is an eigenvector with eigenvalue \\( \\lambda^2 \\). For the inverse \\(\nA^{-1} \\), since \\( A \\) is invertible, we can rearrange the eigenvector equation to \\(\nA^{-1}(\\lambda v) = v \\), leading to \\( A^{-1}v = \\frac{1}{\\lambda}v \\), confirming that\n\\( v \\) is an eigenvector of \\( A^{-1} \\) with eigenvalue \\( \\frac{1}{\\lambda} \\). Thus,\n\\( v \\) remains an eigenvector across these transformations.",
+      "marks": 10,
+      "explanation": "correct because it demonstrates that an eigenvector \\( v \\) of an invertible matrix \\( A \\) maintains its eigenvector status under scalar multiplication and composition with itself, as well as with its inverse, using the defining eigenvalue equation.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1116
+    }
+  ]
+}

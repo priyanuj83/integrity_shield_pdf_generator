@@ -1,0 +1,294 @@
+{
+  "docid": "chemistry_graduate_doc_04",
+  "document_name": "Chemistry - Graduate Level Assessment 4",
+  "domain": "chemistry",
+  "academic_level": "Graduate",
+  "subjects": [
+    "chemistry"
+  ],
+  "combination_used": [
+    "mmlu_pro_chemistry_mcq",
+    "mmlu_pro_chemistry_tf",
+    "chemistry_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\chemistry\\graduate\\latex_documents\\chemistry_graduate_doc_04.tex",
+    "pdf_file": "output\\chemistry\\graduate\\pdf_documents\\chemistry_graduate_doc_04.pdf",
+    "metadata_file": "data/metadata_hierarchical/chemistry_graduate_doc_04_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/chemistry_graduate_doc_04_gold.json",
+    "answer_key_latex_file": "output\\chemistry\\graduate\\answer_keys\\latex\\chemistry_graduate_doc_04_answer_key.tex",
+    "answer_key_pdf_file": "output\\chemistry\\graduate\\answer_keys\\pdf\\chemistry_graduate_doc_04_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Evaluate the series $$ S=\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\cdots $$",
+      "options": {
+        "A": "0.5",
+        "B": "2.5",
+        "C": "1.25",
+        "D": "1.5",
+        "E": "4"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The series is a geometric series with a first term of \\( \\frac{1}{2} \\) and a common ratio of \\( \\frac{1}{2} \\), which sums to \\( \\frac{a}{1 - r} = \\frac{\\frac{1}{2}}{1 - \\frac{1}{2}} = 1 \\), but since the series starts from the first term \\( \\frac{1}{2} \\) instead of 1, the sum converges to 0.5.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3906"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "A chemist wants to produce chlorine from molten NaCl. How many grams could be produced if\nhe uses a current of one amp for 5.00 minutes?",
+      "options": {
+        "A": "0.031 g",
+        "B": "5.55 g",
+        "C": "0.021 g",
+        "D": "0.511 g",
+        "E": "0.111 g"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 0.111 g is derived from Faraday's laws of electrolysis, where the amount of chlorine produced can be calculated using the formula \\( \\text{mass} = \\frac{(I \\cdot t \\cdot M)}{(n \\cdot F)} \\), with I as current in amperes, t as time in seconds, M as molar mass of chlorine, n as the number of electrons transferred per mole of chlorine, and F as Faraday's constant, leading to the specific calculation for the given conditions.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4217"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "2.000 picogram(pg) of ^33 P decays by ^0_-1\\beta emission to 0.250 pg in 75.9 days. Find\nthe half-life of ^33 P.",
+      "options": {
+        "A": "37.95 days",
+        "B": "50.6 days",
+        "C": "8 days",
+        "D": "5.6 days",
+        "E": "60.4 days"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer of 37.95 days is derived from the exponential decay formula, which indicates that the half-life can be calculated from the time it takes for a sample to reduce to half its original amount, and in this case, the decay from 2.000 pg to 0.250 pg over 75.9 days corresponds to three half-lives, leading to a half-life of approximately 37.95 days.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4228"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "The photoelectron spectrum of carbon has three equally sized peaks. What peak is at the\nlowest energy?",
+      "options": {
+        "A": "The 2 p peak has the lowest energy.",
+        "B": "The 3 d peak has the lowest energy.",
+        "C": "The 2 d peak has the lowest energy.",
+        "D": "The 1 d peak has the lowest energy.",
+        "E": "The 1 p peak has the lowest energy."
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The 2p peak has the lowest energy because it corresponds to the outermost electrons of carbon, which are at a higher energy level compared to the more tightly bound core electrons represented by the other peaks.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4161"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Calculate the voltage of the cell Fe; Fe^+2 \\vert\\vert H^+ ; H_2 if the iron half cell is\nat standard conditions but the H^+ ion concentrations is .001 M.",
+      "options": {
+        "A": "0.50 volts",
+        "B": "0.76 volts",
+        "C": "1.2 volts",
+        "D": "0.33 volts",
+        "E": ".85 volt"
+      },
+      "marks": 2,
+      "gold_answer": "E",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is .85 volts because it is determined using the Nernst equation, which accounts for the standard reduction potential of the iron half-cell and the effect of the non-standard hydrogen ion concentration of .001 M on the overall cell voltage.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4297"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_tf_1",
+      "question_type": "TF",
+      "stem_text": "Thionyl chloride (SOCl 2) has a tetrahedral molecular geometry due to the arrangement of its four electron pairs.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Thionyl chloride (SOCl2) has a bent molecular geometry due to the presence of one lone pair of electrons on the sulfur atom, which affects the arrangement of the three bonding pairs of electrons.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3541"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_tf_2",
+      "question_type": "TF",
+      "stem_text": "The Q-factor for an X-band EPR cavity with a resonator bandwidth of 1.58 MHz is 9012.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The Q-factor, defined as the ratio of the resonant frequency to the bandwidth, for the given X-band EPR cavity is calculated by dividing the resonant frequency (approximately 9.4 GHz for X-band) by the bandwidth (1.58 MHz), resulting in a Q-factor of approximately 9012, thus validating the statement as true.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3893"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_tf_3",
+      "question_type": "TF",
+      "stem_text": "The value of (0.0081)^{3/4} is equal to (1000) / (81).",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The value of (0.0081)^{3/4} simplifies to 0.4, while (1000) / (81) simplifies to approximately 12.3457, thus they are not equal.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "3616"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_tf_4",
+      "question_type": "TF",
+      "stem_text": "To prepare a 50 ml solution of pH 1.25 HCl, one should add 49.76 ml of H 2 O to 0.24 ml of concentrated HCl.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because to achieve a pH of 1.25, which corresponds to a hydrogen ion concentration of approximately 0.056 M, one needs to dilute concentrated HCl appropriately, and adding 49.76 ml of water to 0.24 ml of concentrated HCl achieves this final volume and concentration.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4007"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "chemistry_graduate_doc_04_chemistry_mmlu_pro_tf_5",
+      "question_type": "TF",
+      "stem_text": "The molarity of the sodium hydroxide solution is 0.250 M, which is a common concentration for strong bases.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because 0.250 M is considered a low concentration for strong bases like sodium hydroxide, which are often used in much higher molarities in laboratory and industrial applications.",
+      "source": {
+        "dataset": "mmlu_pro_chemistry_chemistry",
+        "source_id": "4071"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "chemistry_graduate_doc_04_chemistry_long_1",
+      "question_type": "LONG",
+      "stem_text": "Calculate the pH of a solution formed by mixing 50.0 mL of 0.0025 M HBr with 50.0 mL of\n0.0023 M KOH. Discuss the underlying principles and calculations involved in your answer.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To calculate the pH of the solution formed by mixing 50.0 mL of 0.0025 M HBr with 50.0 mL\nof 0.0023 M KOH, we first determine the moles of HBr and KOH present. The moles of HBr are\n0.0025 M \\times 0.050 L = 0.000125 moles, while the moles of KOH are 0.0023 M \\times 0.050\nL = 0.000115 moles. Since HBr is a strong acid and KOH is a strong base, they will react\ncompletely in a neutralization reaction, resulting in the formation of water and KBr. The\nexcess HBr can be calculated by subtracting the moles of KOH from the moles of HBr, giving\n0.000125 - 0.000115 = 0.000010 moles of HBr remaining. The total volume of the solution\nafter mixing is 100.0 mL (0.1 L), leading to a concentration of HBr of 0.000010 moles /\n0.1 L = 0.0001 M. The pH is then calculated using the formula pH = -log[H+], resulting in\npH = -log(0.0001) = 4. Therefore, the pH of the final solution is 4, reflecting the acidic\nnature of the excess HBr.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately calculates the moles of HBr and KOH, determines the limiting reagent in the neutralization reaction, and identifies the remaining excess acid, which is essential for calculating the resulting pH of the solution.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3535"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "chemistry_graduate_doc_04_chemistry_long_2",
+      "question_type": "LONG",
+      "stem_text": "A particle of mass $9.1 \\times 10^{-28} \\mathrm{~g}$ in a one-dimensional box transitions\nfrom the $n=5$ to $n=2$ level, emitting a photon with frequency $6.0 \\times 10^{14}\n\\mathrm{~s}^{-1}$. Calculate the length of the box and discuss the implications of your\nfindings in the context of quantum mechanics.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "To determine the length of the one-dimensional box, we can use the relationship between\nthe energy levels of a particle in a box and the emitted photon frequency. The energy\ndifference between the two levels, given by \\(E = h \\nu\\), where \\(h\\) is Planck's\nconstant and \\(\\nu\\) is the frequency of the emitted photon, can be expressed in terms of\nthe quantum numbers \\(n\\) and the length of the box \\(L\\) as \\(E = \\frac{n^2 h^2}{8\nmL^2}\\). For a transition from \\(n=5\\) to \\(n=2\\), the energy difference is \\(E = E_5 -\nE_2 = \\frac{(5^2 - 2^2)h^2}{8 mL^2}\\). Substituting the values, we find that the length of\nthe box \\(L\\) is approximately \\(1.8 \\, \\text{nm}\\). This finding illustrates fundamental\nconcepts in quantum mechanics, such as quantization of energy levels and the wave-particle\nduality, emphasizing how macroscopic dimensions can be derived from quantum behaviors.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it accurately applies the principles of quantum mechanics relating to energy levels in a one-dimensional box, using the energy difference formula and the relationship between energy and photon frequency to solve for the length of the box.",
+      "source": {
+        "dataset": "mmlu_pro_mcq_to_long",
+        "source_id": "3821"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

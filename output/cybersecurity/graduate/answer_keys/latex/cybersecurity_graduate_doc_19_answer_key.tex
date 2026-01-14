@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Graduate Level Assessment 19 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) front-door; B) backdoor; C) clickjacking; D) key-logging
+\\ \textit{Note:} A backdoor is a method that allows unauthorized access to a computer system or its data without detection, making it a key concept in cybersecurity related to bypassing security mechanisms.
+\item \textbf{Answer:} A
+\\ \textit{Options:} A) Local variables; B) Program code; C) Dynamically linked libraries; D) Global variables
+\\ \textit{Note:} The stack is a memory structure used in programming that primarily stores local variables and function call information, making it essential for managing variable scope and function execution in cybersecurity contexts.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) A procedure for testing libraries or other program components for vulnerabilities; B) Whole-system testing for security flaws and bugs; C) A security-minded form of unit testing that applies early in the development process; D) All of the above
+\\ \textit{Note:} Penetration testing involves systematically evaluating an entire system's security to identify vulnerabilities and weaknesses, making "whole-system testing for security flaws and bugs" the accurate description of the process.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) No, I cannot compute the key.; B) Yes, the key is k = m xor c.; C) I can only compute half the bits of the key.; D) Yes, the key is k = m xor m.
+\\ \textit{Note:} The one-time pad (OTP) encryption method relies on the XOR operation, where the original message (m) can be recovered by XORing the ciphertext (c) with the key (k), thus allowing the computation of the key as k = m XOR c.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) WEP; B) WPA; C) WPA 2; D) WPA 3
+\\ \textit{Note:} WPA 3 offers enhanced security features, such as individualized data encryption and improved protection against brute-force attacks, making it the most robust wireless security protocol currently available.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Troya is classified as a remote Trojan because it provides attackers with the capability to access and control infected devices over a network, allowing for unauthorized remote management and data exfiltration.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A Base Signal Station primarily handles signaling and control functions in mobile networks rather than data transmission, which is the primary role of a Base Transceiver Station.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Tor browser is essential for accessing the Tor network because it is specifically designed to route internet traffic through the Tor network's layered encryption, ensuring user anonymity and secure access to its services.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Heartbleed vulnerability exploits a flaw in the OpenSSL implementation of the Transport Layer Security (TLS) protocol, allowing attackers to read sensitive memory contents rather than executing a format string attack, which is a different type of vulnerability.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The Morris Worm exploited a buffer overflow vulnerability in the Unix sendmail program, marking it as the first significant instance of a buffer overflow attack in cybersecurity history.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} Traditional anti-virus scanners are ineffective against vulnerabilities like Heartbleed primarily because they rely on signature-based detection methods that identify known malicious code. Heartbleed, however, is an exploit that manipulates the OpenSSL implementation to extract sensitive information from memory without injecting any code, thereby evading detection. This fundamental difference highlights the limitations of signature-based systems, which are designed to recognize patterns of malware rather than the exploitation of legitimate software vulnerabilities. As a result, such scanners are ill-equipped to address sophisticated attacks that exploit inherent flaws in software rather than deploying harmful code. The reliance on signatures means that new and unknown vulnerabilities, like Heartbleed, can go undetected until a signature is developed, leaving systems at risk.
+\\ \textit{Note:} correct because it emphasizes that traditional anti-virus scanners depend on signature-based detection, which is ineffective against exploits like Heartbleed that do not require code injection and thus do not match any known malware signatures.
+\item \textbf{Answer:} Address sanitizer (ASAN) plays a crucial role in identifying memory errors during fuzz testing by instrumenting the program's code at compile time to detect various types of memory-related issues, such as buffer overflows and use-after-free errors. By compiling the program with ASAN, developers can significantly enhance the visibility of these errors, as ASAN provides detailed diagnostic information that helps pinpoint the exact source of the memory error. This capability not only aids in faster debugging but also improves the overall security posture of the application by ensuring that vulnerabilities are detected and addressed before deployment. Consequently, ASAN's integration into the fuzz testing process empowers cybersecurity professionals to conduct more thorough analyses, ultimately leading to more robust and secure software.
+\\ \textit{Note:} correct because it accurately describes how ASAN instruments code to detect memory errors like buffer overflows and use-after-free errors, while also emphasizing its role in providing detailed diagnostics that facilitate quicker identification and resolution of these issues during fuzz testing.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

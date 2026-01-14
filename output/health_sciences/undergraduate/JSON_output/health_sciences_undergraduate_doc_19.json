@@ -1,0 +1,293 @@
+{
+  "docid": "health_sciences_undergraduate_doc_19",
+  "document_name": "Health Sciences - Undergraduate Level Assessment 19",
+  "domain": "health_sciences",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "anatomy",
+    "human_aging",
+    "human_sexuality",
+    "medical_genetics",
+    "virology"
+  ],
+  "combination_used": [
+    "mmlu_pro_health_mcq",
+    "mmlu_pro_health_tf",
+    "health_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\health_sciences\\undergraduate\\latex_documents\\health_sciences_undergraduate_doc_19.tex",
+    "pdf_file": "output\\health_sciences\\undergraduate\\pdf_documents\\health_sciences_undergraduate_doc_19.pdf",
+    "metadata_file": "data/metadata_hierarchical/health_sciences_undergraduate_doc_19_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/health_sciences_undergraduate_doc_19_gold.json",
+    "answer_key_latex_file": "output\\health_sciences\\undergraduate\\answer_keys\\latex\\health_sciences_undergraduate_doc_19_answer_key.tex",
+    "answer_key_pdf_file": "output\\health_sciences\\undergraduate\\answer_keys\\pdf\\health_sciences_undergraduate_doc_19_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "Which replication strategy is paralleled by some other viruses?",
+      "options": {
+        "A": "Cytoplasmic replication and 'snatched caps' are used as primers for RNA transcription",
+        "B": "Replicates in cytoplasmic tubules",
+        "C": "Extracellular replication",
+        "D": "Replicates in the nucleus"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Extracellular replication is correct because it describes a strategy used by certain viruses that involves replicating outside of host cells, similarly to how some other viruses operate in their life cycles.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13774"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the master gland of the endocrine system?",
+      "options": {
+        "A": "Adrenal",
+        "B": "Pancreas",
+        "C": "Pineal",
+        "D": "Pituitary"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The pituitary gland is referred to as the master gland of the endocrine system because it regulates and controls the functions of other endocrine glands by secreting various hormones that influence growth, metabolism, and reproduction.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "The suicide rate is highest for which of the following groups?",
+      "options": {
+        "A": "African American adolescent boys",
+        "B": "Middle-aged Hispanic women",
+        "C": "Old white men",
+        "D": "Young Asian American women"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The suicide rate is highest for old white men due to a combination of factors including social isolation, mental health issues, and higher rates of access to lethal means, making them particularly vulnerable to suicide.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "14718"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "According to John Money, __________ refers to a person's private internal sense of\nmaleness or femaleness.",
+      "options": {
+        "A": "Gender identity",
+        "B": "Sexual nomenclature",
+        "C": "Gender schema",
+        "D": "Intrapsychic sexual orientation"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"gender identity\" because John Money defined gender identity as an individual's internal perception and experience of their own maleness or femaleness, which is distinct from biological sex.",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6332"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The design of products and environments to fit the capabilities of people who use them or\nlive there is called _____ design",
+      "options": {
+        "A": "Environmental",
+        "B": "Ecological",
+        "C": "Ergonomic",
+        "D": "Eclectic"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Ergonomic design focuses on optimizing products and environments to enhance user comfort, efficiency, and safety by aligning them with human capabilities and limitations.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6259"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_tf_1",
+      "question_type": "TF",
+      "stem_text": "Bolivia, Argentina, and Thailand are among the countries with the most drug injectors in the world.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because countries with the highest prevalence of drug injectors are typically found in regions such as North America and Western Europe, rather than in Bolivia, Argentina, and Thailand.",
+      "source": {
+        "dataset": "health_sciences_virology",
+        "source_id": "13748"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_tf_2",
+      "question_type": "TF",
+      "stem_text": "Sleep deprivation is known to improve cognitive attention and focus the next day.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Sleep deprivation negatively impacts cognitive attention and focus due to disruptions in brain function and the inability to properly consolidate memories, leading to decreased performance.",
+      "source": {
+        "dataset": "health_sciences_human_aging",
+        "source_id": "6240"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_tf_3",
+      "question_type": "TF",
+      "stem_text": "The major concentrations of proprioceptive receptors for the TMJ are located in the capsule, ligaments, and lateral pterygoid muscle.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because the temporomandibular joint (TMJ) contains a high density of proprioceptive receptors in its surrounding structures, including the joint capsule, ligaments, and the lateral pterygoid muscle, which play a crucial role in sensing the position and movement of the jaw.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "170"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_tf_4",
+      "question_type": "TF",
+      "stem_text": "Damage to the third cranial nerve can result in ptosis, which is the drooping of the eyelid.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Damage to the third cranial nerve, also known as the oculomotor nerve, impairs the muscle control responsible for elevating the eyelid, leading to ptosis or drooping of the eyelid.",
+      "source": {
+        "dataset": "health_sciences_anatomy",
+        "source_id": "162"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_tf_5",
+      "question_type": "TF",
+      "stem_text": "The pituitary gland releases luteinizing hormone (LH) to initiate the onset of puberty.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the onset of puberty is primarily initiated by the release of gonadotropin-releasing hormone (GnRH) from the hypothalamus, which then stimulates the pituitary gland to release luteinizing hormone (LH) and follicle-stimulating hormone (FSH).",
+      "source": {
+        "dataset": "health_sciences_human_sexuality",
+        "source_id": "6413"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_long_1",
+      "question_type": "LONG",
+      "stem_text": "Discuss the significance of the reproductive number of a virus in understanding its\ntransmission dynamics and potential public health implications.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "The reproductive number, often denoted as R 0, is a crucial metric in understanding the\ntransmission dynamics of a virus, as it indicates the average number of secondary\ninfections produced by one infected individual in a fully susceptible population. A higher\nR 0 suggests that each infected person will transmit the virus to more contacts,\namplifying the outbreak and making containment efforts more challenging. This\nunderstanding has significant public health implications, as it informs strategies for\nintervention, vaccination, and resource allocation. For instance, if R 0 is greater than\n1, it implies that the infection will spread and potentially lead to an epidemic,\nnecessitating immediate public health responses to mitigate transmission. Thus,\ncomprehending the reproductive number is essential for predicting the course of an\noutbreak and guiding effective public health measures.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the reproductive number (R0) as a vital measure of a virus's transmissibility, emphasizing its role in outbreak dynamics and the necessity for targeted public health interventions based on the potential for widespread infection.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "13818"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "health_sciences_undergraduate_doc_19_health_sciences_long_2",
+      "question_type": "LONG",
+      "stem_text": "Discuss the role of peristalsis in the digestive process, including how it functions in\nthe stomach and its significance in propelling food through the digestive tract.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "Peristalsis is a crucial involuntary muscular contraction that propels food through the\ndigestive tract, playing a significant role in the overall digestive process. In the\nstomach, peristalsis aids in mixing food with gastric juices, facilitating the breakdown\nof food into a semi-liquid form called chyme. This rhythmic contraction not only helps in\nthe mechanical digestion of food but also ensures that it moves steadily toward the small\nintestine for further digestion and nutrient absorption. The significance of peristalsis\nextends beyond the stomach; it is essential throughout the entire digestive system, from\nthe esophagus to the intestines, ensuring that food is efficiently processed and waste is\neliminated. Thus, peristalsis is vital for maintaining the continuous movement of contents\nin the digestive tract, promoting overall digestive health.",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies peristalsis as an involuntary muscular contraction essential for both the mechanical digestion of food in the stomach and its progression through the digestive tract, emphasizing its role in mixing food with gastric juices and facilitating the formation of chyme for nutrient absorption in the small intestine.",
+      "source": {
+        "dataset": "mmlu_mcq_to_long",
+        "source_id": "157"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

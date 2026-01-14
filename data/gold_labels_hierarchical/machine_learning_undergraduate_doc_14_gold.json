@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_14",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is O(N) because the nearest neighbors algorithm requires a linear search through all training instances to find the closest neighbors for classification, resulting in a runtime that scales directly with the number of instances N in the dataset.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6885
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "A step size that is too large can cause the model to overshoot the optimal solution during training, leading to increased training loss over epochs as it fails to converge.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Improving the optimization algorithm primarily affects the convergence speed and efficiency of training rather than directly addressing the model's complexity and its tendency to overfit the training data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6873
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The statement is false because regression analysis identifies statistical relationships between variables but does not establish causation, as correlation does not imply causation.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Clustering is effective for detecting fraudulent credit card transactions because it identifies and groups similar spending behaviors, allowing for the identification of anomalies that may indicate fraudulent activity.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6933
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because the joint probability distribution P(X, Y, Z) can only be expressed as the product of the marginal distributions P(X), P(Y), and P(Z) if X, Y, and Z are independent random variables, which is not generally the case.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14787
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Out-of-distribution detection is considered a form of anomaly detection because both involve identifying data points that significantly deviate from the expected distribution, indicating they are unusual or not representative of the normal dataset.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6882
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "A smaller error rate implies that the model is performing better, requiring a larger sample size to reliably distinguish between the subtle differences in performance and to ensure that the observed results are not due to random chance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14785
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because a null space dimensionality of 2 indicates that there are two linearly independent vectors that span the null space of the matrix A, implying that the rank of A is reduced by two dimensions in relation to its total number of columns.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6897
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def average_tuple(nums): | return result",
+      "marks": 10,
+      "explanation": "correct because it provides a function definition that indicates the intention to compute the average of numbers contained in a tuple of tuples, which is essential for solving the posed problem in the context of data processing in machine learning.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 615
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_14_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def is_key_present(d,x): | return True | return False",
+      "marks": 10,
+      "explanation": "correct because it defines a function that checks for the presence of a specified key in a dictionary and appropriately returns a Boolean value indicating its existence.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 703
+    }
+  ]
+}

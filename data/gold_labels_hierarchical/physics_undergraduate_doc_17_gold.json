@@ -1,0 +1,124 @@
+{
+  "document_id": "physics_undergraduate_doc_17",
+  "domain": "physics",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "college_physics"
+  ],
+  "combination_used": [
+    "mmlu_pro_physics_mcq",
+    "mmlu_pro_physics_tf",
+    "physics_long"
+  ],
+  "answers": [
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_mcq_1",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The energy radiated per second per unit area by a blackbody is described by the Stefan-Boltzmann Law, which states that it is proportional to the fourth power of the absolute temperature, so if the temperature is increased by a factor of 3, the energy increases by a factor of \\(3^4 = 81\\).",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1426
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_mcq_2",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "In a reversible thermodynamic process, the system and its surroundings can be returned to their original states without any net change in entropy, illustrating that the total entropy remains constant throughout the process.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1371
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The atom has 2 electrons in the n = 1 level and 8 electrons in the n = 2 level, totaling 10 electrons, which corresponds to the electron configuration of neon, a noble gas with a complete outer shell.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1390
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_mcq_4",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is derived from the relationship between total energy, rest energy, and relativistic momentum, where if the total energy is twice the rest energy (E = 2mc^2), the relativistic momentum is found using the formula p = \u221a(E^2/c^2 - m^2c^2), leading to the result p = (\u221a3)mc.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1378
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "The correct answer is derived from the relativistic energy-momentum relationship, E^2 = (pc)^2 + (m\u2080c^2)\u00b2, which, when rearranged and solved for rest mass (m\u2080), yields approximately 1.0 GeV/c\u00b2 given the provided total energy and momentum values.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1418
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In superconductors, Cooper pairs are formed due to an attractive interaction mediated by phonons, which are quantized vibrations of the ionic lattice, allowing electrons to pair up and condense into a collective ground state that enables superconductivity.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1434
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Electromagnetic radiation emitted from a nucleus is most likely in the form of gamma rays because gamma rays are high-energy photons released during nuclear decay processes when the nucleus transitions from a higher energy state to a lower energy state.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1430
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The magnetic quantum number m_l can take on integer values ranging from -l to +l, so for l = 2, the allowed values are -2, -1, 0, +1, and +2, resulting in a total of 5 possible values.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1432
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The negative muon (mu^-) shares similar electric charge and lepton family characteristics with the electron, making its properties analogous despite being heavier.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1406
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Gas lasers operate by exciting free atoms to higher energy levels and then allowing them to transition back to lower energy levels, releasing photons in the process, which produces laser light.",
+      "source_dataset": "physics_college_physics",
+      "source_id": 1455
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_long_1",
+      "type": "long",
+      "correct_answer": "In a constant volume process involving an ideal gas, the relationship between internal\nenergy and heat transfer is direct and proportional. As the volume remains unchanged, any\nheat added to the system results solely in an increase in the internal energy of the gas,\nas there is no work done on or by the system (since work is defined as pressure times\nchange in volume). Therefore, the heat transfer (q) into the system is equal to the change\nin internal energy (\u0394U), leading to the equation q = \u0394U. This equality arises because, at\nconstant volume, all the energy supplied as heat contributes to increasing the internal\nenergy without any energy being expended for work against volume changes. Thus, in a\nconstant volume process, the internal energy change is solely attributed to heat transfer.",
+      "marks": 10,
+      "explanation": "correct because, in a constant volume process for an ideal gas, the absence of volume change means that all heat added to the system translates directly into an increase in internal energy, resulting in the equality q = \u0394U.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14196
+    },
+    {
+      "question_id": "physics_undergraduate_doc_17_physics_long_2",
+      "type": "long",
+      "correct_answer": "In the n = 4, l = 1 state of hydrogen, the allowed transitions for an electron are\ngoverned by the selection rules for quantum numbers. The principal quantum number n can\nchange by \\pm 1, while the azimuthal quantum number l can change by \\pm 1. Therefore, the\naccessible final states for a transition from n = 4, l = 1 are n = 3, l = 0 (a permitted\ntransition) and n = 5, l = 2 (also permitted). However, transitions to states where the\nchange in l does not comply with these rules, such as n = 4, l = 1 to n = 2, l = 1, are\nnot allowed due to the conservation of angular momentum. Thus, the only accessible final\nstate is n = 3, l = 0.",
+      "marks": 10,
+      "explanation": "correct because it accurately applies the selection rules for quantum numbers, indicating that transitions are allowed when the principal quantum number n changes by \u00b11 and the azimuthal quantum number l changes by \u00b11, thus identifying accessible final states while excluding those that violate these criteria.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 1450
+    }
+  ]
+}

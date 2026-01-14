@@ -1,0 +1,124 @@
+{
+  "document_id": "machine_learning_graduate_doc_04",
+  "domain": "machine_learning",
+  "academic_level": "Graduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_pro_machine_learning_mcq",
+    "mmlu_pro_machine_learning_tf",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is Forward stagewise selection because this method sequentially adds features based on their contribution to the model's performance, which can lead to a different model compared to the final model obtained after fully identifying the optimal subset of features through other selection processes.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6864
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Industrial-scale neural networks are typically trained on GPUs due to their superior parallel processing capabilities, and the ResNet-50 model actually has around 25 million parameters, not over 1 billion.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6907
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Averaging the output of multiple decision trees reduces variance by mitigating the impact of individual model errors, leading to a more stable and generalized prediction.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6863
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "High entropy indicates a high level of disorder or uncertainty in the classification partitions, meaning that the classes within those partitions are mixed and not predominantly one class, resulting in impure classifications.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "Overfitting is more likely when the training data is small because the model may learn noise rather than general patterns, while a small hypothesis space restricts the model's capacity to fit the data, reducing the risk of overfitting.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The Penn Treebank is primarily focused on syntactic and grammatical annotation of a diverse corpus of English text, including news articles and other written materials, rather than specifically annotating book reviews for sentiment analysis.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6896
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Increasing the number of training examples generally leads to lower variance in the model's predictions, as it provides more information for the model to learn from, thereby reducing overfitting to the training data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6844
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "This statement is false because there are various effective spatial clustering methods beyond K-means and grid-based techniques, such as hierarchical clustering, DBSCAN, and OPTICS, which can better handle different data distributions and densities.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6890
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the computation of the gradient descent update involves calculating the gradient of the loss function with respect to each of the D features, resulting in a linear time complexity of O(D) for each update step.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "An excessively large step size can cause the optimization algorithm to overshoot the minimum of the loss function, leading to erratic updates and ultimately resulting in increased training loss over epochs due to instability in the learning process.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6900
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def find_Min_Diff(arr,n): | return diff",
+      "marks": 10,
+      "explanation": "correct because it outlines the definition of a Python function that aims to compute the minimum difference between any two elements in an array, which is a fundamental task in data analysis and machine learning for understanding variability within datasets.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 763
+    },
+    {
+      "question_id": "machine_learning_graduate_doc_04_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def odd_position(nums): | return all(nums[i]%2==i%2 for i in range(len(nums)))",
+      "marks": 10,
+      "explanation": "The function correctly uses a generator expression to iterate through the indices of the list, checking that each element at an odd index is odd by comparing the modulus of the element with 2 to the modulus of the index with 2, ensuring the condition holds for all relevant indices.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 775
+    }
+  ]
+}

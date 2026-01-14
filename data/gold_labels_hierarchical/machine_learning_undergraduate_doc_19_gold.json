@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_19",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The linear hard-margin SVM is specifically designed to find a hyperplane that perfectly separates linearly separable data without allowing any misclassifications, making it applicable only in scenarios where such a separation is possible.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6889
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "D",
+      "marks": 2,
+      "explanation": "L2 regularization promotes weight shrinkage without enforcing sparsity, making Statement 1 false, while Statement 2 is true because both ResNets and Transformers utilize residual connections to facilitate training and improve model performance.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6892
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The null space of matrix A, which is a rank-deficient matrix with a rank of 1, has a dimensionality of 2 because the number of free variables in the system of equations defined by A equals the total number of columns (3) minus the rank (1).",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14784
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "Maximum Likelihood Estimation (MLE) estimates are often undesirable because they can exhibit high variance, meaning that they are sensitive to changes in the data and may lead to unstable and inconsistent parameter estimates.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6861
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Random cropping and horizontal flipping are common data augmentation techniques for natural images because they effectively increase the diversity of the training dataset by introducing variations in scale and orientation, which helps improve model generalization.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 15759
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Adding more basis functions in a linear model can actually increase variance by allowing the model to fit the training data more closely, which may lead to overfitting and poorer generalization on unseen data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6880
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "ImageNet includes millions of images collected from various sources, resulting in a wide range of resolutions that contribute to the dataset's diversity and effectiveness for training machine learning models.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6925
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Discriminative approaches specifically focus on modeling the conditional probability of the output given the input features and parameters, which allows them to predict outcomes directly based on this relationship.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Principal Component Analysis (PCA) is considered an unsupervised learning technique because it identifies patterns in data without using labeled responses, effectively reducing the dimensionality by transforming correlated features into a set of uncorrelated variables called principal components.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6930
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because overfitting occurs when the hypothesis space is large and complex, allowing the model to capture noise in the training data rather than just the underlying patterns.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6914
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def get_perrin(n): | return 3 | return 0 | return 2 | return get_perrin(n - 2) + get_perrin(n - 3)",
+      "marks": 10,
+      "explanation": "The provided function correctly implements the recursive definition of the Perrin sequence, where the base cases return the appropriate values for n = 0, 1, and 2, and for n greater than 2, it recursively computes the nth Perrin number as the sum of the (n-2)th and (n-3)th Perrin numbers.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 385
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_19_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def Extract(lst): | return [item[0] for item in lst]",
+      "marks": 10,
+      "explanation": "The provided answer correctly defines a Python function that utilizes a list comprehension to iterate through each sublist in the input list and extract the first element, effectively returning a new list containing these first elements.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 460
+    }
+  ]
+}

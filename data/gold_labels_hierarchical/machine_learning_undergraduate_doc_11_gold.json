@@ -1,0 +1,125 @@
+{
+  "document_id": "machine_learning_undergraduate_doc_11",
+  "domain": "machine_learning",
+  "academic_level": "Undergraduate",
+  "total_marks": 40,
+  "subjects": [
+    "machine_learning"
+  ],
+  "combination_used": [
+    "mmlu_machine_learning_mcq",
+    "mmlu_machine_learning_tf",
+    "mmlu_pro_machine_learning_mcq",
+    "machine_learning_long"
+  ],
+  "answers": [
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_mcq_1",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "High entropy indicates a high degree of disorder or uncertainty in a dataset, which implies that the classifications within the partitions are mixed and not dominated by a single class, resulting in impure partitions.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6849
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is based on the fundamental assumption of Naive Bayes, which posits that attributes are conditionally independent of one another given the class value, making the statement about their dependence incorrect.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 14780
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_mcq_3",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "RoBERTa indeed pretrains on a corpus approximately 10 times larger than BERT, making Statement 1 true, while ResNeXt models typically use ReLU activation functions rather than tanh, rendering Statement 2 false.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6836
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_mcq_4",
+      "type": "mcq",
+      "correct_answer": "C",
+      "marks": 2,
+      "explanation": "The correct answer is based on the structure of the Bayesian Network, which dictates that the joint probability can be expressed as the product of the individual probabilities, where P(H) is independent, P(W) is independent from H and P, P(P | W) is the conditional probability of P given W, and P(U | H, P) is the conditional probability of U given H and P.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6876
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Discriminative approaches model the conditional probability of the target variable y given the input variable x and parameters w, focusing on the decision boundary between classes rather than the distribution of the input data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6921
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_tf_1",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "DCGANs, or Deep Convolutional Generative Adversarial Networks, do not utilize self-attention mechanisms; instead, they rely on convolutional layers and batch normalization to stabilize training.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6850
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_tf_2",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "Highway networks were developed after ResNets and primarily use learned gating mechanisms rather than relying on max pooling or convolutions exclusively.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6884
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_tf_3",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The statement is false because dropout does not randomly remove entire neurons; instead, it randomly sets a fraction of the activation values to zero during training, effectively preventing co-adaptation of neurons and promoting better generalization.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6931
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_tf_4",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The cost of one gradient descent update is O(D) when using a single data point for the update, or O(ND) if using the entire dataset, but the statement implies a misunderstanding of the context in which the gradient is computed.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6841
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_tf_5",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "Regression is true as it establishes a mathematical relationship between independent variables (inputs) and a dependent variable (output), enabling accurate predictions based on observed data.",
+      "source_dataset": "machine_learning_machine_learning",
+      "source_id": 6870
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_long_1",
+      "type": "long",
+      "correct_answer": "def adjac(ele, sub = []): | def get_coordinates(test_tup): | return (res)",
+      "marks": 10,
+      "explanation": "correct because it defines a function that successfully identifies and extracts all adjacent coordinates from a given coordinate tuple, which is essential for tasks in machine learning involving spatial data analysis.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 630
+    },
+    {
+      "question_id": "machine_learning_undergraduate_doc_11_machine_learning_long_2",
+      "type": "long",
+      "correct_answer": "def count_odd(array_nums): | return count_odd",
+      "marks": 10,
+      "explanation": "incorrect as it fails to implement the logic for counting odd elements in the list using a lambda function, and instead, it simply returns the function name without performing any computation.",
+      "source_dataset": "mbpp_plus:test",
+      "source_id": 258
+    }
+  ]
+}

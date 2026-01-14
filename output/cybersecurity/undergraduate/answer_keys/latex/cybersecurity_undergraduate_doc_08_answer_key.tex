@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\begin{center}
+Answer Key - Cybersecurity - Undergraduate Level Assessment 8 \
+\small (Answers are ordered exactly as in the question paper.)
+\end{center}
+
+\section*{Multiple Choice}
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Confidentiality; B) Availability; C) Correctness; D) Integrity
+\\ \textit{Note:} Availability is not considered a classic security property, as the traditional triad of security properties focuses on confidentiality, integrity, and authenticity, while availability is often seen as a separate operational requirement.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Integrity; B) Condentiality; C) Authentication; D) Nonrepudiation
+\\ \textit{Note:} The correct answer is "Confidentiality" because it refers to the principle that ensures that information is only accessible to those authorized to have access, thus guaranteeing that the sender and receiver can communicate securely without unauthorized interception.
+\item \textbf{Answer:} C
+\\ \textit{Options:} A) Active, inactive, standby; B) Open, half-open, closed; C) Open, filtered, unfiltered; D) Active, closed, unused
+\\ \textit{Note:} The correct answer is "Open, filtered, unfiltered" because these terms describe the states of network ports as determined by Nmap during a scan, indicating whether a port is accepting connections, blocked by a firewall, or not responding to probes, respectively.
+\item \textbf{Answer:} D
+\\ \textit{Options:} A) Windows 7; B) Chrome; C) IOS 12; D) UNIX
+\\ \textit{Note:} UNIX systems, like many older operating systems, have historically been susceptible to buffer-overflow attacks due to their use of C programming language, which lacks built-in bounds checking for memory operations, making them vulnerable to exploitation.
+\item \textbf{Answer:} B
+\\ \textit{Options:} A) Wireless access; B) Wireless security; C) Wired Security; D) Wired device apps
+\\ \textit{Note:} Wireless security refers to the measures and protocols implemented to protect wireless networks from unauthorized access or breaches, making it the appropriate term for the anticipation of such threats.
+\end{enumerate}
+
+\section*{True / False}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{5}
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} The statement is true because the receiver uses the sender's public key to decrypt the digital signature, which allows them to verify its authenticity and integrity against the sender's original message.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} A stream cipher cannot achieve perfect secrecy when the key length is shorter than the message because this results in the potential for key reuse, which allows for statistical analysis of the ciphertext and ultimately compromises the confidentiality of the original message.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Penetration testing involves simulating cyberattacks on an entire system to identify vulnerabilities and security flaws, thereby validating the security measures in place.
+\item \textbf{Answer:} False
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Encapsulating Security Payload (ESP) is primarily associated with the Internet Protocol Security (IPsec) suite, not with the Secure Socket Layer (SSL) Protocol, which is used for web encryption.
+\item \textbf{Answer:} True
+\\ \textit{Options:} A) True; B) False
+\\ \textit{Note:} Message integrity is achieved through techniques such as checksums and hash functions, which verify that the data has not been modified during transmission, thereby ensuring it arrives at the receiver exactly as it was sent.
+\end{enumerate}
+
+\section*{Long Form Response}
+\begin{enumerate}[label=\arabic*.]
+\setcounter{enumi}{10}
+\item \textbf{Answer:} def sort\_sublists(list 1): | return list 1
+\\ \textit{Note:} The provided answer is not correct as it fails to implement any sorting logic to arrange the sublists by their lengths and values, ultimately returning the original list unchanged.
+\item \textbf{Answer:} def flatten(test\_tuple): | def count\_element\_freq(test\_tuple): | return (res)
+\\ \textit{Note:} correct because it outlines a function that effectively flattens a nested tuple structure, enabling the subsequent calculation of element frequencies within the tuple, which is essential for analyzing data in cybersecurity contexts.
+\end{enumerate}
+
+\vfill
+\noindent\textit{End of Answer Key}
+\end{document}

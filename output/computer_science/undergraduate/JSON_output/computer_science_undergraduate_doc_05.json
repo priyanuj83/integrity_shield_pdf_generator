@@ -1,0 +1,290 @@
+{
+  "docid": "computer_science_undergraduate_doc_05",
+  "document_name": "Computer Science - Undergraduate Level Assessment 5",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_05.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "What is the output of 4*1**4 in python?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "256",
+        "D": "16"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because in Python, the exponentiation operator '**' has higher precedence than multiplication '*', so the expression is evaluated as 4 * (1 ** 4), which simplifies to 4 * 1, resulting in 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3272"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sets of bit strings CANNOT be described with a regular expression?",
+      "options": {
+        "A": "All bit strings whose number of zeros is a multiple of five",
+        "B": "All bit strings starting with a zero and ending with a one",
+        "C": "All bit strings with an even number of zeros",
+        "D": "All bit strings with more ones than zeros"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"All bit strings with more ones than zeros\" because this language is not regular; it requires a counting mechanism to ensure the number of ones exceeds the number of zeros, which cannot be achieved by finite state machines that define regular expressions.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1037"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "In python 3, which of the following is floor division?",
+      "options": {
+        "A": "/",
+        "B": "//",
+        "C": "%",
+        "D": "|"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is \"//\" because in Python 3, this operator performs floor division by dividing two numbers and rounding down to the nearest whole number.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3204"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let l = [1,2,3,4]. What is max(l) in Python 3?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 4 because the `max()` function in Python returns the largest value from the provided iterable, and in the list l = [1,2,3,4], the largest number is 4.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3242"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is",
+      "options": {
+        "A": "53",
+        "B": "29",
+        "C": "50",
+        "D": "100"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 100 because when applying the recursive function f(x) for x = 4, it calculates as f(4) = 4 * f(3) + 4^2, and through subsequent evaluations (f(3) = 3 * f(2) + 3^2, f(2) = 2 * f(1) + 2^2, and f(1) = 0), the final result sums to 100.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In a complete K-ary tree of depth N, the ratio of nonterminal nodes to total nodes is approximately 1/K.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "In a complete K-ary tree of depth N, the total number of nodes is \\( \\frac{K^{N+1} - 1}{K - 1} \\) while the nonterminal nodes are \\( K^N \\), leading to a ratio of nonterminal nodes to total nodes that approaches \\( \\frac{1}{K} \\) as N increases.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1019"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "O(log n) is smaller than O(1) since logarithmic growth decreases faster than constant growth.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because O(log n) denotes logarithmic growth, which increases without bound as n increases, while O(1) represents constant growth that remains fixed regardless of n, meaning O(log n) is not smaller than O(1) for large values of n.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3234"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "A 3-way, set-associative cache is effective only when 3 or fewer processes are running on the processor.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A 3-way, set-associative cache can effectively manage multiple processes beyond just three, as it allows for better cache utilization and reduced conflict misses by providing three possible locations for each memory block, regardless of the number of processes running.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1091"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The function O(log log N) grows slower than O(log N), making it one of the slowest growing functions.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The function O(log log N) grows slower than O(log N) because as N increases, the logarithm of a logarithm grows at a much slower rate than a single logarithm, indicating that O(log log N) is indeed one of the slowest growing functions.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3231"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "The maximum possible degree of the minimal-degree interpolating polynomial p(x) for n + 1 distinct points is n.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because a polynomial of degree n can uniquely interpolate n + 1 distinct points, which means the maximum degree of such a polynomial cannot exceed n.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1007"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to search a literals string in a string and also find the location within\nthe original string where the pattern occurs.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def search_literal(pattern,text): | return (s, e)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly outlines a function designed to search for a specified pattern within a larger text string, with the expected return values indicating the start and end positions of the found pattern, thus addressing the requirements of the question.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_05_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count the number of digits in factorial of a given number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def find_Digits(n): | return 0; | return 1; | return math.floor(x) + 1;",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies that the number of digits in the factorial of a number can be determined using logarithmic properties, specifically by calculating the floor of the logarithm of the factorial and adding one to it, though it lacks the proper implementation details and the necessary import statement for the math module.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "845"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

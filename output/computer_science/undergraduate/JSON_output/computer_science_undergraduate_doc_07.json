@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_undergraduate_doc_07",
+  "document_name": "Computer Science - Undergraduate Level Assessment 7",
+  "domain": "computer_science",
+  "academic_level": "Undergraduate",
+  "subjects": [
+    "college_computer_science",
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf",
+    "mmlu_pro_cs_mcq",
+    "mbpp_coding_long"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\undergraduate\\latex_documents\\computer_science_undergraduate_doc_07.tex",
+    "pdf_file": "output\\computer_science\\undergraduate\\pdf_documents\\computer_science_undergraduate_doc_07.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_undergraduate_doc_07_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_undergraduate_doc_07_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\undergraduate\\answer_keys\\latex\\computer_science_undergraduate_doc_07_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\undergraduate\\answer_keys\\pdf\\computer_science_undergraduate_doc_07_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "In Python 3, b = [11,13,15,17,19,21]; print(b[::2]) outputs what?",
+      "options": {
+        "A": "[19,21]",
+        "B": "[11,15]",
+        "C": "[11,15,19]",
+        "D": "[13,17,21]"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is [11,15,19] because the slicing notation b[::2] selects every second element from the list b, starting from index 0.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3274"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following sorting algorithms has average-case and worst-case running times of\nO(n log n)?",
+      "options": {
+        "A": "Bubble sort",
+        "B": "Insertion sort",
+        "C": "Merge sort",
+        "D": "Quicksort"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Merge sort is the correct answer because it consistently divides the input array in half and merges the sorted halves, resulting in average-case and worst-case time complexities of O(n log n).",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1049"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following decimal numbers has an exact representation in binary notation?",
+      "options": {
+        "A": "0.1",
+        "B": "0.2",
+        "C": "0.3",
+        "D": "0.5"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The decimal number 0.5 has an exact representation in binary notation as it can be expressed as 1/2, which corresponds to the binary fraction 0.1.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1042"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is the name of the data structure in a compiler that is responsible\nfor managing information about variables and their attributes?",
+      "options": {
+        "A": "Abstract Syntax Tree (AST)",
+        "B": "Attribute Grammar",
+        "C": "Symbol Table",
+        "D": "Semantic Stack"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The symbol table is a data structure used in compilers to store information about variables, including their names, types, scopes, and attributes, making it essential for semantic analysis and code generation.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1022"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "Which of the following is NOT a property of bitmap graphics?",
+      "options": {
+        "A": "Fast hardware exists to move blocks of pixels efficiently.",
+        "B": "Realistic lighting and shading can be done.",
+        "C": "All line segments can be displayed as straight.",
+        "D": "Polygons can be filled with solid colors and textures."
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Bitmap graphics are composed of pixels, which means that line segments may appear jagged or pixelated rather than perfectly straight, particularly when represented at lower resolutions.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1025"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "The method 'sort()' can be called directly on a string object in Python to sort its characters.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because the 'sort()' method is specific to list objects in Python, and strings are immutable, meaning they cannot be sorted in place.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14393"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "The values of local variables are typically included in a subroutine's activation record frame in stack-based programming languages.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Local variables are usually allocated on the stack dynamically and are not included in the activation record frame because their values are stored in separate stack space specific to each function call.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1030"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The sum of the list l = [1, 2, 3, 4] in Python 3 is 8.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The sum of the list l = [1, 2, 3, 4] in Python 3 is 10, not 8, because when you add the numbers together (1 + 2 + 3 + 4), the total equals 10.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "3254"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "The one-time pad is considered a perfectly secure encryption scheme when used correctly, due to its use of truly random keys.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The one-time pad is considered perfectly secure because it uses a key that is as long as the message, truly random, used only once, and kept secret, ensuring that each possible plaintext is equally likely, making it impossible to decipher without the key.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1016"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "In Python 3, the expression r(3) evaluates to 3 when r is defined as a lambda function multiplying its input by 2.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is false because if r is defined as a lambda function multiplying its input by 2, then r(3) would evaluate to 6, not 3.",
+      "source": {
+        "dataset": "computer_science_high_school_computer_science",
+        "source_id": "14389"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count the number of digits of a given number.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def count_Digit(n): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "correct because it defines a function named `count_Digit` that is intended to count the digits in a given number `n`, demonstrating an understanding of function definition and the need for a counting mechanism, even though the implementation details are incomplete.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "365"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_undergraduate_doc_07_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a python function to count the number of pairs whose sum is equal to 'sum'.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def get_Pairs_Count(arr,n,sum): | return count",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer correctly identifies the need for a function that takes an array, its length, and a target sum as parameters, which is essential for counting the number of pairs in the array that add up to the specified sum.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "767"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

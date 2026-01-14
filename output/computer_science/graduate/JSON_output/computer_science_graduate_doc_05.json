@@ -1,0 +1,291 @@
+{
+  "docid": "computer_science_graduate_doc_05",
+  "document_name": "Computer Science - Graduate Level Assessment 5",
+  "domain": "computer_science",
+  "academic_level": "Graduate",
+  "subjects": [
+    "college_computer_science",
+    "computer_security"
+  ],
+  "combination_used": [
+    "mmlu_pro_cs_mcq",
+    "mmlu_pro_cs_tf",
+    "mbpp_coding_long",
+    "cs_research"
+  ],
+  "total_marks": 40,
+  "number_of_questions": 12,
+  "number_of_pages": 2,
+  "generated_at": "2023-01-01",
+  "version": "1.0",
+  "file_paths": {
+    "latex_file": "output\\computer_science\\graduate\\latex_documents\\computer_science_graduate_doc_05.tex",
+    "pdf_file": "output\\computer_science\\graduate\\pdf_documents\\computer_science_graduate_doc_05.pdf",
+    "metadata_file": "data/metadata_hierarchical/computer_science_graduate_doc_05_metadata.json",
+    "gold_labels_file": "data/gold_labels_hierarchical/computer_science_graduate_doc_05_gold.json",
+    "answer_key_latex_file": "output\\computer_science\\graduate\\answer_keys\\latex\\computer_science_graduate_doc_05_answer_key.tex",
+    "answer_key_pdf_file": "output\\computer_science\\graduate\\answer_keys\\pdf\\computer_science_graduate_doc_05_answer_key.pdf"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_1",
+      "question_type": "MCQ",
+      "stem_text": "The message must be encrypted at the sender site and decrypted at the",
+      "options": {
+        "A": "Sender Site",
+        "B": "Site",
+        "C": "Receiver site",
+        "D": "Conferencing"
+      },
+      "marks": 2,
+      "gold_answer": "C",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The message must be encrypted at the sender site and decrypted at the receiver site to ensure that the data remains secure during transmission and only the intended recipient can access the original message.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1561"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 2,
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_2",
+      "question_type": "MCQ",
+      "stem_text": "Let A be a finite set with m elements, and let B be a finite set with n elements. The\nnumber of distinct functions mapping A into B is",
+      "options": {
+        "A": "n^m",
+        "B": "n!/(n - m)!",
+        "C": "n!",
+        "D": "n!/(m!(n - m)!)"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is n^m because each of the m elements in set A can be independently mapped to any of the n elements in set B, resulting in n choices for each of the m elements.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "1072"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 3,
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_3",
+      "question_type": "MCQ",
+      "stem_text": "Encapsulating Security Payload (ESP) belongs to which Internet Security Protocol?",
+      "options": {
+        "A": "Secure Socket Layer Protocol",
+        "B": "Secure IP Protocol",
+        "C": "Secure Http Protocol",
+        "D": "Transport Layer Security Protocol"
+      },
+      "marks": 2,
+      "gold_answer": "B",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Encapsulating Security Payload (ESP) is a component of the Internet Protocol Security (IPsec) suite, which is designed to secure Internet Protocol (IP) communications by providing confidentiality, integrity, and authentication.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1529"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 4,
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_4",
+      "question_type": "MCQ",
+      "stem_text": "Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is",
+      "options": {
+        "A": "53",
+        "B": "29",
+        "C": "50",
+        "D": "100"
+      },
+      "marks": 2,
+      "gold_answer": "D",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The correct answer is 100 because the recursive function defines f(x) such that f(4) = 4 * f(3) + 16, and by calculating f(3) through the same process, we find that it ultimately evaluates to 100 after solving the series of recursive calls.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "14150"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 5,
+      "question_id": "computer_science_graduate_doc_05_computer_science_mcq_5",
+      "question_type": "MCQ",
+      "stem_text": "The access matrix approach to protection has the difficulty that",
+      "options": {
+        "A": "the matrix, if stored directly, is large and can be clumsy to manage",
+        "B": "it is not capable of expressing complex protection requirements",
+        "C": "deciding whether a process has access to a resource is undecidable",
+        "D": "there is no way to express who has rights to change the access matrix itself"
+      },
+      "marks": 2,
+      "gold_answer": "A",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The access matrix approach can become unwieldy because it requires a potentially large amount of storage to represent all possible combinations of subjects and objects in a system, leading to inefficiencies in management and scalability.",
+      "source": {
+        "dataset": "computer_science_college_computer_science",
+        "source_id": "996"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 6,
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_1",
+      "question_type": "TF",
+      "stem_text": "In MD 5, the length of the message digest is 128 bits.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The statement is true because MD5 (Message-Digest Algorithm 5) is designed to produce a fixed-length output of 128 bits, regardless of the length of the input message.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1487"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 7,
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_2",
+      "question_type": "TF",
+      "stem_text": "Poor handling of unexpected input is typically categorized as a presentation layer issue in software design.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Poor handling of unexpected input is primarily categorized as a business logic or application logic issue rather than a presentation layer issue, as it pertains to how the application processes and responds to user input rather than how that input is displayed.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1564"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 8,
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_3",
+      "question_type": "TF",
+      "stem_text": "The IP Network Browser is an effective tool for performing SNMP enumeration in network management.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "True",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The IP Network Browser is an effective tool for performing SNMP enumeration in network management because it provides a user-friendly interface for discovering and managing SNMP-enabled devices on a network, allowing for efficient data collection and analysis.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1501"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 9,
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_4",
+      "question_type": "TF",
+      "stem_text": "A TCP connect scan is designed to operate stealthily without completing the TCP handshake.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "A TCP connect scan is considered a full connection scan because it completes the TCP three-way handshake, making it more detectable compared to stealthier scanning techniques such as SYN scans, which do not complete the handshake.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1546"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 10,
+      "question_id": "computer_science_graduate_doc_05_computer_science_tf_5",
+      "question_type": "TF",
+      "stem_text": "Windows 7 is recognized for its robust security features that eliminate buffer-overflow vulnerabilities.",
+      "options": {
+        "True": "True",
+        "False": "False"
+      },
+      "marks": 2,
+      "gold_answer": "False",
+      "gold_confidence": 1.0,
+      "answer_explanation": "Windows 7, while it includes various security enhancements, does not completely eliminate buffer-overflow vulnerabilities, as such vulnerabilities can still be exploited by attackers due to inherent limitations in its security architecture.",
+      "source": {
+        "dataset": "computer_science_computer_security",
+        "source_id": "1534"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 11,
+      "question_id": "computer_science_graduate_doc_05_computer_science_long_1",
+      "question_type": "LONG",
+      "stem_text": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def max_sum(arr, n): | return max_sum",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The provided answer is correct because it defines a function that aims to compute the maximum sum of a bi-tonic subsequence in an array, which involves identifying the longest subsequence that first increases and then decreases, leveraging dynamic programming principles to optimize the calculation of the sum.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "245"
+      },
+      "has_image": false,
+      "image_path": null
+    },
+    {
+      "question_number": 12,
+      "question_id": "computer_science_graduate_doc_05_computer_science_long_2",
+      "question_type": "LONG",
+      "stem_text": "Write a function to join the tuples if they have similar initial elements.",
+      "options": null,
+      "marks": 10,
+      "gold_answer": "def join_tuples(test_list): | return (res)",
+      "gold_confidence": 1.0,
+      "answer_explanation": "The answer correctly identifies the need to create a function that processes tuples with similar initial elements, implying that the function will aggregate or concatenate these tuples, leading to the return statement indicating the result of this operation.",
+      "source": {
+        "dataset": "mbpp_plus:test",
+        "source_id": "969"
+      },
+      "has_image": false,
+      "image_path": null
+    }
+  ],
+  "question_statistics": {
+    "by_type": {
+      "MCQ": 5,
+      "TF": 5,
+      "LONG": 2
+    },
+    "by_marks": {
+      "2": 10,
+      "10": 2
+    },
+    "total_marks_by_type": {
+      "MCQ": 10,
+      "TF": 10,
+      "LONG": 20
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "document_id": "computer_science_k-12_doc_08",
+  "domain": "computer_science",
+  "academic_level": "K-12",
+  "total_marks": 40,
+  "subjects": [
+    "high_school_computer_science"
+  ],
+  "combination_used": [
+    "mmlu_cs_mcq",
+    "mmlu_cs_tf"
+  ],
+  "answers": [
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_1",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "Python variable names are case-sensitive, meaning that variables such as \"Variable\", \"variable\", and \"VARIABLE\" are considered distinct and separate identifiers.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3211
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_2",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is 1 because the expression evaluates the modulus operation first, where 3 % 3 equals 0, and then adds 1 to it, resulting in 1 + 0, which equals 1.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3217
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_3",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "The correct answer is \"abcd\" because in Python, indexing starts at 0, so tuple[0] retrieves the first element of the tuple, which is 'abcd'.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3191
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_4",
+      "type": "mcq",
+      "correct_answer": "B",
+      "marks": 2,
+      "explanation": "When a new device is connected to the Internet, it is assigned an Internet Protocol (IP) address, which uniquely identifies it on the network and allows for communication with other devices.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3268
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_mcq_5",
+      "type": "mcq",
+      "correct_answer": "A",
+      "marks": 2,
+      "explanation": "The expression 4*1**4 evaluates to 4 because the exponentiation operator (**) has higher precedence than multiplication (*), so 1**4 equals 1, and then multiplying by 4 gives 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3272
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_1",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "In Python 3, the seed([x]) function initializes the random number generator with a specified starting value, ensuring that the sequence of random numbers can be reproduced if the same seed is used.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3261
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_2",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The condition a < c guarantees that the value of a is less than c, which makes any comparison involving a and c true in the context of evaluating relational expressions within programming and mathematical logic.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3269
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_3",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The statement is true because the max function in Python 3 is designed to evaluate a list of numerical values and return the highest value, which in the case of the list [1, 2, 3, 4], is indeed 4.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3242
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_4",
+      "type": "tf",
+      "correct_answer": "True",
+      "marks": 2,
+      "explanation": "The strip() function in Python 3 is designed to remove all types of leading and trailing whitespace characters, including spaces, tabs, and newline characters, from a string.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 14386
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_tf_5",
+      "type": "tf",
+      "correct_answer": "False",
+      "marks": 2,
+      "explanation": "The expression x << 3 performs a left bitwise shift on the binary representation of x, so when x is 1 (which is 0001 in binary), shifting it left by 3 positions results in 8 (which is 1000 in binary), not 16.",
+      "source_dataset": "computer_science_high_school_computer_science",
+      "source_id": 3182
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_long_1",
+      "type": "long",
+      "correct_answer": "A Web server is a crucial component of the Internet ecosystem, functioning as a computer\nsystem that delivers Web pages to clients, such as users' browsers. When a user types a\nwebsite address, their browser sends a request to the Web server hosting that site. The\nserver processes this request, retrieves the appropriate Web page, and sends it back to\nthe client's browser, allowing the user to view the content. This process is vital for web\ncommunication, as it enables the exchange of information and resources across the\nInternet, connecting people and services worldwide. Without Web servers, accessing and\nsharing information online would not be possible.",
+      "marks": 10,
+      "explanation": "The answer correctly identifies the Web server's role in processing user requests and delivering Web pages, emphasizing its essential function in facilitating web communication and information exchange.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 14387
+    },
+    {
+      "question_id": "computer_science_k-12_doc_08_computer_science_long_2",
+      "type": "long",
+      "correct_answer": "The selection sort algorithm operates by repeatedly finding the minimum element from the\nunsorted portion of the array and moving it to the beginning. In each pass, it compares\neach element in the unsorted portion to find the smallest one, resulting in a fixed number\nof comparisons that does not depend on how the elements are arranged initially.\nSpecifically, for an array of size n, selection sort makes n-1 comparisons in the first\npass, n-2 in the second, and so on, totaling to about n(n-1)/2 comparisons overall. This\nmeans that regardless of whether the array is already sorted, reverse sorted, or randomly\nordered, the algorithm will still perform the same number of comparisons. Thus, the number\nof comparisons remains consistent because selection sort always examines every element in\nthe unsorted portion during each pass.",
+      "marks": 10,
+      "explanation": "correct because selection sort consistently performs a predetermined number of comparisons based solely on the array's size, regardless of the initial arrangement of elements, as it systematically scans the entire unsorted segment to locate the minimum value in each iteration.",
+      "source_dataset": "mmlu_mcq_to_long",
+      "source_id": 3276
+    }
+  ]
+}
